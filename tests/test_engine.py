@@ -147,7 +147,7 @@ class QualityTests(unittest.TestCase):
 
     def test_rejections(self):
         c = self.cand(); c["published"] = None
-        self.assertIn("no_publication_date", engine.check_quality(c, self.cfg, NOW))
+        self.assertIn("no_publication_date", engine.check_quality(c, engine.load_config(ROOT / "config.json"), NOW))
         c = self.cand(item("Old story that nobody needs now", pub="Mon, 01 Jun 2026 04:00:00 GMT", related=[("a", "https://o.example/1", "O1"), ("b", "https://o.example/2", "O2")]))
         self.assertIn("too_old", engine.check_quality(c, self.cfg, NOW))
         c = self.cand(item("You won't believe what happened next!!"))
