@@ -33,6 +33,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
+SUMMARY_REFRESH_VERSION = 3
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -397,7 +398,10 @@ class _MetaDescription(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.descriptions = []
         self.paragraphs = []
+        self.links = []
         self._paragraph = None
+        self._anchor_href = None
+        self._anchor_text = []
         self._skip_depth = 0
 
     def handle_starttag(self, tag, attrs):
@@ -409,6 +413,9 @@ class _MetaDescription(HTMLParser):
                 value = values.get("content", "")
                 if len(value) >= 40 and value not in self.descriptions:
                     self.descriptions.append(value[:500])
+        if tag == "a" and self._skip_depth == 0:
+            self._anchor_href = safe_url(dict(attrs).get("href", ""))
+            self._anchor_text = []
         if tag in self.SKIP_TAGS:
             self._skip_depth += 1
             return
@@ -417,6 +424,10 @@ class _MetaDescription(HTMLParser):
 
     def handle_endtag(self, tag):
         tag = tag.lower()
+        if tag == "a" and self._anchor_href:
+            label = normalize_text(" ".join(self._anchor_text))
+            self.links.append({"url": self._anchor_href, "text": label})
+            self._anchor_href, self._anchor_text = None, []
         if tag in self.SKIP_TAGS:
             self._skip_depth = max(0, self._skip_depth - 1)
             return
@@ -427,8 +438,11 @@ class _MetaDescription(HTMLParser):
             self._paragraph = None
 
     def handle_data(self, data):
-        if self._skip_depth == 0 and self._paragraph is not None:
-            self._paragraph.append(data)
+        if self._skip_depth == 0:
+            if self._paragraph is not None:
+                self._paragraph.append(data)
+            if self._anchor_href:
+                self._anchor_text.append(data)
 
 
 def fetch_source_page(url, timeout=8):
@@ -476,12 +490,31 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
         if not url:
             continue
         try:
-            final_url, raw = fetch_source_page(url, timeout=min(cfg["timeout_seconds"], 8))
-            final_host = host_of(final_url).casefold()
-            if final_url != url and not final_host.startswith("news.google."):
-                source["url"] = final_url
+            final_url, raw = fetch_source_page(url, timeout=min(cfg["timeout_seconds"], 5))
             parser = _MetaDescription()
             parser.feed(raw.decode("utf-8", errors="replace"))
+            final_host = host_of(final_url).casefold()
+            if final_host.startswith("news.google."):
+                publisher_key = re.sub(r"[^a-z0-9]", "", source.get("publisher", "").casefold())
+                target = None
+                for link in parser.links:
+                    link_host = host_of(link["url"]).casefold()
+                    host_key = re.sub(r"[^a-z0-9]", "", link_host.split(".")[0])
+                    if (link_host and not link_host.endswith("google.com")
+                            and publisher_key and (publisher_key in host_key or host_key in publisher_key)):
+                        target = link["url"]
+                        break
+                    if link_host and not link_host.endswith("google.com") and jaccard(
+                            tokens(link.get("text", "")), tokens(source.get("title", ""))) >= 0.45:
+                        target = link["url"]
+                        break
+                if target:
+                    final_url, raw = fetch_source_page(target, timeout=min(cfg["timeout_seconds"], 5))
+                    parser = _MetaDescription()
+                    parser.feed(raw.decode("utf-8", errors="replace"))
+                    final_host = host_of(final_url).casefold()
+            if final_url != url and not final_host.startswith("news.google."):
+                source["url"] = final_url
             options = parser.descriptions + parser.paragraphs[:4]
             snippet = ""
             for option in options:
@@ -1051,14 +1084,15 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
     if live_fetcher and not render_only and not dry_run:
         retried = 0
         cooldown = timedelta(hours=24)
-        for p in sorted(posts_doc["posts"], key=lambda item: item.get("published_at", ""), reverse=True):
+        for p in sorted(posts_doc["posts"], key=lambda item: item.get("published_at", "")):
             current = tidy(p.get("source_summary") or "")
             placeholder = (not current or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
                            or is_boilerplate_summary(current))
             if not placeholder and len(current) >= cfg["min_summary_chars"]:
                 continue
             attempted = parse_date(p.get("summary_refresh_attempted_at", ""))
-            if attempted and now - attempted < cooldown:
+            if (p.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
+                    and attempted and now - attempted < cooldown):
                 continue
             if retried >= 20:
                 break
@@ -1073,6 +1107,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
                 detail_parts = [tidy(part) for part in re.split(r"\n\s*\n", detail_raw) if tidy(part)]
                 detail = tidy(detail_raw)
                 p["summary_refresh_attempted_at"] = now.isoformat()
+                p["summary_refresh_version"] = SUMMARY_REFRESH_VERSION
                 updated_existing = True
                 if len(detail) >= 40 and detail != current:
                     preserved = "\n\n".join(detail_parts)
