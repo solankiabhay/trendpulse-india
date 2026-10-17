@@ -7,7 +7,7 @@ sys.path.insert(0, str(ROOT))
 import engine, htmlcheck  # noqa: E402
 
 REQUIRED = ["index.html", "en/index.html", "hi/index.html", "assets/style.css", "assets/app.js", "engine.py", "config.json",
-            "requirements.txt", "posts.json", "published.json", "sitemap.xml", "robots.txt", ".gitignore", "README.md",
+            "requirements.txt", "posts.json", "published.json", "review.json", "sitemap.xml", "robots.txt", ".gitignore", "README.md",
             ".github/workflows/auto-blog.yml", ".github/workflows/ci.yml"] + [f"{l}/{p}.html" for l in ("en", "hi") for p in engine.INFO_PAGES]
 
 
