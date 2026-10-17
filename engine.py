@@ -640,7 +640,6 @@ def check_quality(c, cfg, now) -> list:
         r.append("language_mismatch")
     if c.get("boilerplate_summary") or (len(publishers(c)) < cfg["min_sources"] and len(c["summary"]) < cfg["min_summary_chars"]):
         r.append("insufficient_value")
-        r.append("insufficient_value")
     return r
 
 
