@@ -1,1 +1,45 @@
 
+name: TrendPulse Daily Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trendpulse-update
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run TrendPulse pipeline
+        run: python engine.py
+
+      - name: Commit generated website updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html en hi posts.json published.json sitemap.xml robots.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Update TrendPulse news"
+            git push origin HEAD:main
+          else
+            echo "No generated changes to commit"
+          fi
+
