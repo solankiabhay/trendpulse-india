@@ -951,11 +951,40 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
     if dry_run:
         stats["published"] = [p["id"] for p in new_posts]
         return stats
+    # Previously published thin digests are not normally reprocessed because they are duplicates.
+    # Retry a small number of these on scheduled live runs so new publisher metadata can improve them.
+    updated_existing = False
+    if live_fetcher and not render_only and not dry_run:
+        retried = 0
+        for p in posts_doc["posts"]:
+            current = tidy(p.get("source_summary") or "")
+            if retried >= 4:
+                break
+            if current and not current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:")):
+                continue
+            if current and len(current) >= cfg["min_summary_chars"]:
+                continue
+            retried += 1
+            candidate = {
+                "title": p.get("title", ""), "summary": "",
+                "sources": p.get("sources", []), "lang": p.get("lang", "en"),
+            }
+            try:
+                enrich_candidate_summary(candidate, cfg, max_sources=3)
+                detail = tidy(candidate.get("summary", ""))
+                if len(detail) >= 40 and detail != current:
+                    p["source_summary"] = detail[:600]
+                    p["summary"] = detail[:200]
+                    p["generated_at"] = now.isoformat()
+                    updated_existing = True
+            except Exception as e:
+                log.debug("could not refresh thin published digest %s: %s", p.get("id"), e)
     all_posts = posts_doc["posts"] + new_posts
     # Order matters: pages -> posts.json -> published.json (history is marked last)
     render_site(root, cfg, all_posts)
-    if new_posts:
+    if new_posts or updated_existing:
         write_json(root / "posts.json", {"version": 1, "posts": all_posts})
+    if new_posts:
         pub_doc["items"] += [{"id": p["id"], "title": p["title"], "url": p["url"], "published_at": p["published_at"]} for p in new_posts]
         write_json(root / "published.json", pub_doc)
     if queue:
