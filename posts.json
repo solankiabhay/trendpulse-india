@@ -42,7 +42,8 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:48:38.699706+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-fac02bccba",
@@ -146,7 +147,8 @@
           "publisher": "News18"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:48:38.699706+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-1e451fee0f",
@@ -189,7 +191,8 @@
           "publisher": "Universe Today"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:48:38.699706+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "hi-bb90bbf6f7",
@@ -232,7 +235,8 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:48:38.699706+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "hi-041450a2dc",
@@ -275,7 +279,8 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:48:38.699706+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "hi-0368a447b3",
@@ -318,7 +323,8 @@
           "publisher": "Webdunia"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:46:05.031955+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-ab0dbcecf5",
@@ -394,7 +400,8 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:46:05.031955+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-800c019fbf",
@@ -470,7 +477,8 @@
           "publisher": "cfo.economictimes.indiatimes.com"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:46:05.031955+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-13e8ca6feb",
@@ -569,7 +577,8 @@
           "publisher": "Tennis World USA"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:46:05.031955+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-ed67e33ce8",
@@ -746,7 +755,8 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:46:05.031955+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-14ef912a2f",
@@ -853,7 +863,8 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:48:38.699706+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "hi-572157617e",
@@ -896,7 +907,8 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-17T10:48:38.699706+00:00"
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-5877cce147",
@@ -938,7 +950,9 @@
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRExkQXcwa0UtS3pWZDlGdDVPUFpWdGFKcWV6WTZYQ0xtLXh4SktodHAyUmIzcVRldEl5ZnlSRDVTRXBsc0NWeW1DczJMdGZ4bzJYSlRXQnhSczhqakZDYjNNdl9ydnJqT054WkJ3WXU3LVhhTkpnOEtkZDVkMzJhalE5cDg4RV9rcVFQWlFiUmQ5ZUU4M3FR0gGkAUFVX3lxTE5IMEw1aTJlalNfSUw5dTluQmlDQ3VtUllBdHE2dVg4ZGFTVHU5Y0ptbUJPVW9rMTdETmVVRWpoLUlXRDFVZnQ4VE1hTkZHWkNYS2E2bzZIQmdtbjBZZ0sxUXMyLTZucmZWcG9SZHAwM1BSaTdURElzOGZwVlB0LUVwVThvem44dTJ3MXgwTHBSckd4OXdkLUExbGtYdV9ycXc3T2Ja?oc=5",
           "publisher": "Cinema Express"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "hi-df909e12d6",
@@ -980,7 +994,9 @@
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSFUxS3FmNlc4YkNUMXFBZ2tZSDNDWTNja3JRaExtNlFKd1BmSXlybTdoZTliYzB5c05oX3ZaNGtiRWFzb0hfXzF5MHh6MWNUeE1UTk9VRmZ1SnpSNEs0V0lESzNMVmJ3ZFp0dlhJdndidTdVRU1sV053SzZmQmVvSlhxbk1pcUJLNEFWNnVCNVpkd2hGb2cwRi1md25qQW14YTlLeGNQWjFSOGFjNmxLMkdlNVloZXZ5Zko1ZFE2Zkx4c1hsVV9QTTY2NU41QdIB0wFBVV95cUxNYjhPS19qQW1VemZwYTBCYW1kcVNaa3lNUFhGb0VfUGpCZzVCMWVNS3hlTi1NQmpJSE5hc1dpTmpzNnhqU0Y4TTdITGQxd3Z5VWpxZGRHNkxYWkU1RmQ4YXh0ZnBEY3N5dnlKbXd2NGo4Mm5rQk0wYWVtZGNab00zMXFJbUdDZFJVdmJxdFFMYzBLdkk4a3lRUGZWamlvVnNjaUxrVzBIcFRIeV9OM0tYMnRCY3lGZG5rY0VDd0F0VnFvY0k5dkUtbUFtS3dtbVhCR1Jj?oc=5",
           "publisher": "India TV Hindi"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "hi-a193e1ed8d",
@@ -1022,7 +1038,9 @@
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUGhzNE1xMzRUVTdlTFkxOFpST3VmUUlzX3ZlbmJxZmUzMmZCS3M1OWRkbXZJMW9STm1yNDR4TkU5cGdKRWptazVnNTVTQW5MYm5UdnEyek83LWs0SGMzakkxMmgxY0pILU1mUlozcnl1RjRSWndGczhoeTNwNzNzWUdVbjYxMmhMdmZsekJfUmxoM1lGeWEwekpJeUhhMUF3dGxFSGRqTUgtbVNpZTZUY3VtZFVUYUZuTFpmT0JWbw?oc=5",
           "publisher": "News18 Hindi"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
     },
     {
       "id": "en-cf57eb779b",
@@ -1063,6 +1081,176 @@
           "title": "'We have already supported CJP': DMK MP Kanimozhi",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHhaNHoycjJuLTFlZFl3OU1haGVLVUJXME14LVdYY2Q2X0xaeTRZekw4Y1lUZ3pjSVd5dXN0RzVwVjZSQ3hNSEltVk93YTlrREVUSzF4MmtnYUIzeHpxbVFPbURvSXcyQ24yY3NpUjRrc1ZKTGwwcXc0dmZyd2s5NHZPX2FmczNIa3FQNGlWZ2VWd0RlWnB4VGpFZkZKTUVpN3Q1Ylk1enRSRkNqYWhrNDc1aVJNOGF5WndRUGhQNGtCc0HSAcgBQVVfeXFMUGN1X05vYkplSzNrRTZIRDA3S3ZsQ2pUTTBSRHBkZk9WX204cFNjVzJjQkpDYk00VloyZjEtb0xFNHBaN3ZvVDJRbUp0NGRZUVp4bktWU1BMNF9TN19jT0JoaG43Z3ZMbERSenNKd1NLb2VRRW9DenlsSkhVZkc1VWtlSXFCVzdLelgwb1d3bnBBRnlWWlNUUnlXRWJVSGZyUXp3RUoxWWtGVXFDY09ZRlFEREpHUFM5UkpYYmpCcjgyWEoyWlpVT08?oc=5",
           "publisher": "The Economic Times"
+        }
+      ],
+      "summary_refresh_attempted_at": "2026-10-17T10:51:44.972747+00:00",
+      "summary_refresh_version": 3
+    },
+    {
+      "id": "hi-1a29d4ddf4",
+      "lang": "hi",
+      "slug": "26-1a29d4ddf4",
+      "url": "hi/posts/26-1a29d4ddf4.html",
+      "title": "चहल बोले- तलाक के बाद शराब की लत लगी: पैनिक अटैक से चेहरा टेढ़ा हो जाता था, बोलना मुश्किल था; 26 दिन रिहैब स...",
+      "summary": "5 स्रोतों की रिपोर्ट: ABP News, AajTak, Dainik Bhaskar।",
+      "source_summary": "",
+      "category": "sports",
+      "published_at": "2026-10-17T10:44:21+00:00",
+      "generated_at": "2026-10-17T10:51:44.972747+00:00",
+      "kind": "digest",
+      "keyword": null,
+      "score": 79.93,
+      "sources": [
+        {
+          "title": "चहल बोले- तलाक के बाद शराब की लत लगी: पैनिक अटैक से चेहरा टेढ़ा हो जाता था, बोलना मुश्किल था; 26 दिन रिहैब स...",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT2tycEdPSjl0WW1xVHB3VW9IN3dMcmZ0cVhUN0M0SHBwOC1tNzFWdGtmcGFtdHcyUEJPeU1SQ015ZTY4aF9TYnQ0NlcwbjBzZ0xKR2ZYUjh3a3lnVmJiSGRYOGhrWThHUGRzYXA5azlNUkRiY2FlbTdzZWJHZU1RaVVIRXFvTllhOGt0dWMyc2JGMG5wenRJSTFUUTlrZjBLR2pvR25ha094TnZKeFNVU0JOZkU0ekh5OVA3aWJzeEJBLVUxeFE?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "शराब की लत, तलाक और 26 दिन तक रिहैब सेंटर... युजवेंद्र चहल ने सुनाई जिंदगी के मुश्किल दौर की कहानी",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWU56dl91b05MRTlBNFUyZi02T3Q0UVNWVUVDb3NwZ0Y3WFlfSUhkeDhrWWx1THFhZ2xlSEhUdFFZWUJIOEE1bTBzekZhZ0lMTmRIV2R2UUZteUJwZVNXenlZcFFUU2RsN2xFamtXUmpPSmZGTk5VLXdYLS1Ja0dYekxHZ0JhYlVSamFUdHdoSm1QYnBUT1hpSUZIMmRhR2VPZ2RCYkNjd1pOd282VHhHUWdUcV85X0V1VkRNWkZ4MjZOM1YzbmxHdU9rZG5LcXIxRUNOTjVfN05tN1B0bmE0ODFKeWrSAeoBQVVfeXFMTXE0dUh4YURlX1pJcGpIc29qZ194UkNsQWJ6N0VsU1V5aDh1TnJma1JMQ2x0Ul9xc25zZDZub2J3eTgzT3FHa2hoQXh5eUFrZXNIdUFsX29zRWlfczUwTU0ydG9vUXpjNjl1WFQzZENCMGN0U1V3R1VSMmNGQm1XVklqLWFsbjg4a3Z2bUk5aFdvR3FyN2RzSG8tTFlIS0JFWEJxRkpGalRqNjNad0JoQTlrNjdjXy00WEpWdlI1eWdwTlIxaXpJLWs5N3V2MjNpNkdMR2tPNmNDSE45NnNFa1VIYTItOGRBQlVR?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "शराब की लत, रिहैब सेंटर और युजवेंद्र चहल... दर्द से उबरने की ये कहानी कर देगी भावुक",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNm45ZHUtRGNfYVpNdWhtSGxaTHBzTHVfQW9TcF84X00tYWEwNGYtc1BBZ2N5enBjRk9Ob2VDdUM2aUNsZVV2UDdnOTZBeFpnTThQSmFEbE5lMjctT2VDUVVSdHlncHBqczZZVGlRZ0FZREV1b1JOU2xfVUFPa0ZvbHE5X0dCclNHQnVwZ0E2WURMRXpWaXVidVNrOENLbnBSc0xaNG9Qdi01WjhUX1hjWGRrQTlIVUlGNGFNTzNYd1h1Mi1UZlJNMnBxcnZ0clNHYmc?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "15वीं मंजिल से उल्टा लटकाया... चहल की वो खौफनाक रात, जिसे याद कर कांपती है रूह",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPanUxV3BmV0tZeFBIZ0RHZnQxTjNDMWZSQWpkR3hpRkJqZk94LVdBWEJWODdHTkg3ZGViZjJHOVRRRXFVUFhQV0ljX0NFaWxFODYxcUNuVnZ6YXVtWXRXa2pMNUZncWJtdExsZ19XS0V2dXlhNno1NklVVG10NC02cFpHeE5VcUZNVERkSEo2b0xWSUFYdkdFSWx3dFZ3MktPSG1obG9qVlQydVNXODQ0M05rUkhacTc2SjFSVFNpUEZfcXZUZXpDRHFoc09kekt6bHNXc1cwc2w5a3hvOXJ4ZU5SOUhDOG9sTTM4UVVhYTNQRlRDV0JF?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "पैनिक अटैक, शराब की लत, 26 दिन रिहैब सेंटर...तलाक के बाद बुरी तरह टूट गए थे युजवेंद्र चहल",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRjFIWWc2RkpTQ1RPTUhKVEJtR0ZUT0FnNDc2c2g3ckhUTlFGbDY4cE9pQTZvRlF1dmlWSS1SeGVHbUFTTmFEcUc0Nndpa3V3ZTgzTnRFMWttbWIzYVM4R0hkUlNNdUlUcE93U3JkTTc4ZklfSE02OXJXN3dDc0JBVm5MUVA1S2tkVkRHQzNPbTZpR09ZaGJPN0Z4c21leC1VTC1Id28xOHlqYjlRSnI4MVVpNU1RbXFnOTVnS1IzTmtaOG04Z3JIYnNZckE0MlJHRksxNHRiOHJ1ZUxBWEowc0hZM0Q0VXJfcXdZZEhB0gHzAUFVX3lxTE4tUlFhZ1Y3VHlBbUhJX3prS2ZIc2t6N0ZXTDUyX3N1MzZoYktBWUVLM1MzM3lUMGVZc3lfQjhESkVaaTVKbUFzZGlUYXJYUXlRNjJ5eEItLW9KM1dubUpsUm5JaGZPeVhTak9CSUxGRUNrUC1XbHFqVDhlc2FYTzR0dWplemppcjdoUG5ZbWRXRUZsRkl0SWhnWmxTYTRyeXBUUGlma0FOOUYtYlZYTnNiekpVU082Q28zRXVsZktjWUdhZEVTLWNlVVk3WmJMTHFFUVZOdnZpWDNjQ25qUm5RN1c0aXExbkRtLXpWX0NCd0h2aw?oc=5",
+          "publisher": "ABP News"
+        }
+      ]
+    },
+    {
+      "id": "en-9809b1448a",
+      "lang": "en",
+      "slug": "cjp-protest-live-dipke-produced-before-delhi-magistrate-for-9809b1448a",
+      "url": "en/posts/cjp-protest-live-dipke-produced-before-delhi-magistrate-for-9809b1448a.html",
+      "title": "CJP protest LIVE: Dipke produced before Delhi Magistrate for bail hearing at Mandir Marg Police Station | Hindustan Times",
+      "summary": "Coverage from 5 sources: Daily Sabah, Hindustan Times, Reuters.",
+      "source_summary": "",
+      "category": "india",
+      "published_at": "2026-10-17T10:12:18+00:00",
+      "generated_at": "2026-10-17T10:51:44.972747+00:00",
+      "kind": "digest",
+      "keyword": null,
+      "score": 79.63,
+      "sources": [
+        {
+          "title": "CJP protest LIVE: Dipke produced before Delhi Magistrate for bail hearing at Mandir Marg Police Station | Hindustan Times",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNc0hwazQ2dmxQVzhRd1Z3cXF2UVJLUi1DaFFUd2VBTFZQWDV6VGxpOXMxcXBsNWdiX0o4NTdHT0puRHNFV25wZ21tVGQzUHdzcmhFa2VFR0xyTEpXVllHNDdMcmtHWlQtSGNXbmNEOE90RU5OVU5xVzlLRmRnWkJpSEVmM01DemxuT1N1Vmd1UzRuaERSdkgtaWgtVUhyd0JXWVNFeGgzWnNGWTdIV2x2czRnUV9xaW0xNUpJTFlfcThmVEx0cnQ5eXZDbEVONnktdHZRSzNGMDRnYVBxNndtbE83TVp6MWk2ZVd3SGcxWGE5WkEyR0NUM1VuZkRpMzA3V1NUTHFONENKUS04Tk84aNIBlgJBVV95cUxQVFNGelYxUEJ1U0x1cnJVSkxvS3VLZzZCbGhuRFFYZjhKXy05ZlJEMEp0XzRFS2ZRdnFrM0tRY2JzSThSb3NzOHNMNl9mckNUNFJJYU1oM1l5NktXekdERkF2UXBlb3lZOHBYTkFKbEUzYWtlTDN4VUttU3QwZ3Y0SmE4dWZFT0c4ZldtNDVHQy1kcXVIbGc3UFV1ZnRmb2pkRUktYUVzeWhDcG1faGttTjVJd0pmTXVpc2Jxd0lTTndxcl9Yb2J5cHZFLU4td251S29hVUNjREpZMDAwVC1MOGFZS1A5cUxFb2lSakdMMzVRS1ByY1Q5UlBLMUJOZXJnSldxN1hkNkV2WVdISTFhVm9ldVBndw?oc=5",
+          "publisher": "Hindustan Times"
+        },
+        {
+          "title": "Indian police detain 'cockroach' movement founder Dipke ahead of protest, video shows",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOU0pVMmJ5cHNnNThON0JiRHdwTjV1NURCVzVyUTFPMmJ0TElCdW04ZHUtZnQyd01PZThQbHJicWk4V0dDSW94bzBUZGZCUUNIbXJZUUtQNFlfbWRqUzdlSU9nc3Y4M0xEN0I0VUQ1cmR5Vmc2d2dyeVk1QmtXN1h4NDRCci1VM3lWRDY2YkZLQnFlS3VfUHVtMVl1NGtiQkN5SXhoQm9pNGEzeEtHVXVTUEc4b3FocjRBcU1uMTZHTDlWeUljNVE?oc=5",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "India arrests Cockroach movement founder amid election protests",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2RZblo3ajhURVltTE9abWlWQlItTVlZa3QzQW1XTHIxYzZWZzh2S0c2TUJpYTF3TF9Zd0UtVXJEdUZZS0ptNlZmMGVwV3VJM2lFWThJLXUzSTh6UnE2NDhpY0l4enAyZGVRbFpiVU5sNEZXNGprdGx4R3lLUUxXX2hhNEc1dXhsSkpLazRLdjM3SS1pMmI3Zmt6TzdYbWZ3dmhIdFhycWlGR1YxcXc?oc=5",
+          "publisher": "Daily Sabah"
+        },
+        {
+          "title": "FILE PHOTO Abhijeet Dipke, founder of the Cockroach Janata Party (CJP) gestures as he addresses a press conference in New Delhi",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxONm40WjNQZE5tT29PZmVLVFZRdGRBb08zYjhQOXlBOTByMGVPTHRFQzdqeDRxRnpFNHFkeFJGcEhfNm41ZFVONUpFVGtjUWpVYlZCbjhYSFJQSS15dThiUDQ1Z2xlZjJ2amxXMmxRX091UmJrZ3hZbDhrWVpfTEZwR1ZkWGlFXzBwTUdQR3JWOFFvNnRnM3ExTnYweTEweGZNaVNnbEFNV1BIX0FWOG15STlGR0xIYTJTWUtMaXJTeEFrV1lTYkJjTElpNVByZHlMYTA1RUV4RHhVUnoyNDEweDN0dU9HY0xma0ZLX0V0WnRrRm9tamJ6b1Z4ZVNkYWx0Qk5YX09SUlh0Z0JwQm15bUItX2N6TjFEYlE?oc=5",
+          "publisher": "The Lufkin Daily News"
+        },
+        {
+          "title": "Founder of India’s ‘cockroach’ movement arrested over national flag protest",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNUg4cG03N043dVRrcWtUTGlSdFBjX1puOVlLRV83Y2ItcTRvLW1lY1JHUUJJS3RkajJraWFsU0F2NVlic0l4Y2otaG5wZHgxd1hTVjRfMlNyR25qUHl3SGlvNGd0N3hic2c0VlVlaGdGZFdpX1JldUNHejZsVHhpeHlVU21mMklKTnRfRTNuOWhhSXBxOFJ4ZHdlVnZJNG1WVGhRdQ?oc=5",
+          "publisher": "The Independent"
+        }
+      ]
+    },
+    {
+      "id": "hi-b06490673d",
+      "lang": "hi",
+      "slug": "b06490673d",
+      "url": "hi/posts/b06490673d.html",
+      "title": "इमरान ख़ान के जीवन में संघर्ष पिता अनिल पाल और माँ नुज़हत ख़ान के रिश्ते में तनाव के कारण बचपन से ही रहा",
+      "summary": "5 स्रोतों की रिपोर्ट: AajTak, BBC, Dainik Bhaskar।",
+      "source_summary": "",
+      "category": "india",
+      "published_at": "2026-10-17T10:04:57+00:00",
+      "generated_at": "2026-10-17T10:51:44.972747+00:00",
+      "kind": "digest",
+      "keyword": null,
+      "score": 79.57,
+      "sources": [
+        {
+          "title": "इमरान ख़ान के जीवन में संघर्ष पिता अनिल पाल और माँ नुज़हत ख़ान के रिश्ते में तनाव के कारण बचपन से ही रहा",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fV1JmRFBTV0R5Nm5Ja01Fa3dZeTdGOXdwSDBXaUJrZFVUTUlpRnlXQ2pnUktXYVRKLTllcmdEMXN2QlN2UzJDbm9WNnBDeDRCUXpjTXFUZVFXTDQ10gFiQVVfeXFMTkt2eEUwSm5wS0ZyTWNXWUcxWTdFcjBUVEJPYUE0M09MYTNBd1dWN1AyeS15dDNtS3VLQ1pUdUJVUHRzTUZobXR6MzVCY1RRdGNTbkNuQWpTLXB1LUM4V1dGYUE?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "इमरान खान की कमबैक फिल्म पर बुरा असर: लीव इंडिया नोटिस के बीच पोस्टपोन होगी, दीवाली के बाद प्रमोशन करने वाल...",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVmZKdFN5X2NfT3VucW1TY20zTmFFUUNxSmpmbzNhU1hpdDV5bkkydHR2MG1IV0hRMjNkWDlzRzdBXzYyTmtYcHIzSm15bmVnbkZmcko1c2NxUkJYeGVCdU1iay0wMUoyUndKX1AzUTd0dENMZ1k5dS01OVROMENRSE5NSDg2dElpRmFWa21GS0Y5MWl3SUxBNXNDMEhPeERoSkF3c1o5cWJGX2c5aW9iUFVxdGZWQ2hlQzgyYmxpRWdQWFZUSEowR0NrSdIB0AFBVV95cUxNS010d05jVmJyM0ItUk11b2otS3NTX09OTUowTkV6S2FOemhLZlF2dnZJZTlhZktMaDg1OGpDaTFuT3hRb3hhU0JrdFc1YmpmM2trOG8tY3VURmFzSWJVN1d6WUFEeHc5WEMyOWJCTnlKSHdZZndWUVQ5ZllTWUF6RWhRTzlRTU11Q0J2RDQ2MTlTa19DeWVJOHl6TU1rQzVwLWVkUnlzZUl6Z2dwYk9qZkhMc1JhakpCXzdyU1lVN3VGMDNleEpTNTh6Q040M29j?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "'वाह, मुंबई पुलिस?', इमरान खान के लीव इंडिया नोटिस से शॉक्ड किरण राव, GF लेखा का फूटा गुस्सा",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZUZkdjlZSVMxb3ZueVdJaFVlOFBTWm9lWHNqTXREOVFDN1BXaE1PU0U4RFBNdGxoLTgtSVJ1NkFaamZNVFRQU3pmNTNsZGpoRC10cS1Ha3RGa2l4R1Z5ekpfWkFlWndBZEtVb3YyVXZ2OUdLaGJhNWtOTU9DMi1uakNXUUVYOEdsRFkxYWJoRTRvSVhMYXhsaGp5R2sxVE9HSElGdC1TN1ZCSk5Ra0ZxWnlZQUFQRlRCb2wtajF5clJLMkh5dzRMbGlPd3hkVjJJR2tYYzJ3Qy16SXltS1lIZUhTSjVjZndwWXBYYnFSQ2hJOFhLNFk2dnhBX1JXRHVpYkpwUjZmeUZkTWpIMEHSAZMCQVVfeXFMTkVIT2NCZEw0VWNvX1l6WVdlejlyNmVjWXZNWkhLMXgtSXdHNU91M3U5LTB4QTA0VVBoN09rRHFhcWY2YmhNbkdsU2c1ZGRxWHpXNVg1SlBpd3d2c0NFUHJOYjJaOV9aMjk5UGN6Vnc4TWFvaUNqa0FYVE5sblZvMDlYN3BJY3B4NTFCZGtLaDQtdVk0c25ZQTBfSTBDTDVVeUs1UjVnVmlRWW9PNmt1eUZ6elhHTnFkLWw4Mmh5b2VZQ2VQT3lYSVBvRmtIQUZBVFhXNEJnRXFVbDBPcE9Ua0lOb015SHpyNExOcHBfT004b2hTWWV1VDF5VjFnMlg4Z2xpcGNDeG1KWTJpTWtjc09sbU0?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "‘हम चुप क्यों हैं’—इमरान खान ने 2009 के एक वीडियो में भारतीयों से वोट देने की अपील की थी",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaENMdE5HMTFDUUFpcE1yQlZwS3F6Yi1mWGg2TUxYa2VHamdfbzVPdUFseUllbU93dUxsX0Y1Zy1fWVVBX1ZEVko2Nll5ajNsbVUzZXA4TXI5bHpRVGlZVUlXUnB6M2hZZE9TQ2x0c2dWSG0xM0VvVjI3eDNWVEduUV9uRS11U0g1Q2lBMlFnaVZJOU5pMm9pb0NpT2lsRzlPNmxESHFOU2N3M1dTX1U3UnRQeWo1NjZsMm9Uc21yR0_SAcYBQVVfeXFMT05kRjRyX3d6ZkhfdnRLN3Q3OHpZV25YYXQwMmtzMTdJWF9vSWw5bmpVb0kyeUNTZzV4aWpSbVFGRnFpVlJvV1Vkb25aMGNQR2poNlVPeVRILTRjQmJlMm9qYk1JQ19CR2NzNkI5blh1ZFFKM24xVXA4eWszS3gtcTVqeTdtWnJkX3U0aXFSaXNScXpqWHU0QlBjZlNGTm1samNJeU9pYmRjM2tyOEVyNkVaWG1ObU1HNGtkc1pDY0dPZnU4d2F3?oc=5",
+          "publisher": "ThePrint Hindi"
+        },
+        {
+          "title": "इमरान खान पर भड़के अशोक पंडित, कहा- पहले पढ़ें, बड़ों से कानून समझें फिर सड़क पर उतरें | Tap to know more",
+          "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOWlpYRFBuMHdFekZiSll0N0ZFQVhKcmUxZmg1SWNrMThYX2M3VjNIYUg5YWhwYWJSSkQzOF8xeDFtRTduQlR4TjNfNmVpalpNTUE1ZUJ6cjhjczBFUUh6T0ZPVm54QjQxMFlwYkh6THBCQzNQWDZIVlBOcWFwby1McXQ0NzltRVNURGtaR0RLY3FPV2RBX0x0UDJ3WTVLamhYZGVQYllsWTBKMlJWSmR4dGZ5TmlUelNyZFJhQTBwVXNlNG9iSDNJOFMxRFpSQ3JvdDdpSW1nR1QzdldsNDdxUXVxT1ZUQkpsUWN3MmtrUjRFWmxvY0xiQ1hUbjhudEVnRkJoMVR4SzR4SmVwLWhIYVBQdUFOYU81VmRJWHE1RjBuVUhfZlA2cldJSmZWbjBTZllCNmk4SmtSY0xxZjByRFNrRVYwRVh5Q0xCcEZvRnk1NFJMMEZGQi1CRFPSAeICQVVfeXFMUEF0VnVtc05OdHQ0eHZrWUJaV3hJN1U3Yi1jckg1UnhsVlJiaDhxMU1mRkJxcTFlYmQtZkcxNmJFTFBCdEJuUTRtT2djT29xTF80X1FpS3lZaWhnSTlqWEtMMEo5SjhjaHM1WU9XRS1RMU9aTWRuUm5KbU8xNEY0OFI3M1lvejRwUEIxVGtrVm8zazRfdTlMdjlDUlFieUdmSW10NHJqNnpESGQzUGxGWjRkWUtCU1pNc2RmQml0LWVmWEpBVzYxN2tBdEhaaTJTUFNkdGtmRmVRckh1SWlIY0xKcDJqUE5BY0E0a1lPRkRXdWFKQmhTNzh3SFQwWHc5S05KaTdTd1JZS3V1T1JEdllCVGdna09IcEs3dmRKLVVHN25meWhVNm9TUk9nTUtiX1JmZDdVQWJxSUZudTFBWTVGVzNXTVJETGlIck51cHlDUmhzOHBfRnh5VnR0dk43d3ZB?oc=5",
+          "publisher": "Inshorts"
+        }
+      ]
+    },
+    {
+      "id": "en-8e3f789060",
+      "lang": "en",
+      "slug": "icici-bank-q2-results-net-profit-rises-20-to-rs-14-843-crore-8e3f789060",
+      "url": "en/posts/icici-bank-q2-results-net-profit-rises-20-to-rs-14-843-crore-8e3f789060.html",
+      "title": "ICICI Bank Q2 results: Net profit rises 20% to Rs 14,843 crore, beats estimates; NII up 18%",
+      "summary": "Coverage from 5 sources: Business Standard, Moneycontrol.com, NDTV Profit.",
+      "source_summary": "",
+      "category": "business",
+      "published_at": "2026-10-17T10:01:05+00:00",
+      "generated_at": "2026-10-17T10:51:44.972747+00:00",
+      "kind": "digest",
+      "keyword": null,
+      "score": 79.53,
+      "sources": [
+        {
+          "title": "ICICI Bank Q2 results: Net profit rises 20% to Rs 14,843 crore, beats estimates; NII up 18%",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRDNXN25vSzcwbDFuTUQyZXJ2Q05Bby1Pc19ESHYyaFFyZWMwYUU1QlltZnNDTmNtSUhwQUxWczZOZUdNakhaQUxVSjRYeHNEMFJKeDMydlFYV1AyOE5INmtpeldCQXRpSWZRYkFfUWpLcmxPVHgwd1h3b25kUWowOVlWSmdldG92Wi1EZjI0ZFRNbWtyTkpheThleHlJVGZCWUJRRVYyalhQQ0xILU9pVldiLUt4Z1hHQkNkMWpFMXRMMEJhamJ2MUVxYjNCdkNmYlp5WXJFNW5JdHpSQWdzR2lNQVdYWXfSAewBQVVfeXFMTkJ2ekVwUkZGUFFHTUxpdy1IVDBZay00ZEJ0UVZDb01qd3FZNmNzVXFscG9uZEV0bXhmRjRhamFKWXIwLWVLM0NIb0N5dGhJczMwZWJIUTh1Z3V1TkFGVVNUdEpnbmE0TTlzejRDeWRWT1J5SHB3Q2dPcXpuM1o5SVNTNWZLeVd4UGNMWktqT2h6dWpGaElMOVE1Y3A5X3A4dXFIekZmOUlhZVhNSFNWWXM4eE8teWN5LURSZTZSZW4yUHZLYmxwcjBaUjFvUkxJVjFNNDljNVRNTEVhY3hwVGM1NG9OSFRWVkI2VEI?oc=5",
+          "publisher": "Moneycontrol.com"
+        },
+        {
+          "title": "ICICI Bank Q2 Results: Net profit jumps 20% to Rs 14,843 crore, NII rises 18% YoY",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcm4tRXFFWVI5RV92bmprdDRMdzJmTjlsdkpUMGhpalJBNHBvWTVLZVhITFhhQTltV3lLZk8tUHM0akdEaU9IYjJsNExhdjcySmxJOW5nckZfR2pENHJERVBsWjJreVVjQzFLTFlMeGNPRUF1MHBZYnlFZGJZeFctbGpHMHBHbE55cHVFc3lERGZvSU9mSFFzdmQ1WkprNGhydmt5SEQ4d3pXRnJ6Szh2Z2pWNXctTHVwOENZTGc4ZnlsRWZQd1doNkV4RHhwV3hCXzI3amJHQzRBMmhGMEN6LXJJRnVvcDJ2dUHSAe8BQVVfeXFMT3JpN0NFMUt6SnFQY0tHc1gyY0lLS2p2eU50NnNoZkVqU0JGengtSFo2TkYyN3prLWp4Y1VCOXVCakg1VnZpSEhlNjNrTHo1RF9DU1NIUEZKVkpUSUJ5aGRVdEVuYUtNdEtWZVFMLVdUUUxHcllGbXlwNW1hYWlyZF95QmpwcTFkWGVOZkZVaTQyQllrVzdHQ1c0c2dhdlVwX25KQS0tRkRYOS0zOUZ4SWgzM0hsZkVsUVhONGZ0bzgzN3dtaTBHeklDVTNPbEQyQ3ZEeGpVY1QxY01tSmtHbUlNSjlXZ01xLVFRTTlKbEk?oc=5",
+          "publisher": "The Economic Times"
+        },
+        {
+          "title": "ICICI Bank Limited expected to post earnings of 38 cents a share - Earnings Preview",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONDdUZ0J5M3N6aGZnVjFRQlVjODJzSmNEemo5N1A1N3ZuVFBXc1FtWk5BbGJUcmg0Zm9TVWl5TnJ2VHhndXJST002RzhfRmZnQ2JmcHRWMk9uVkdzVTRnSUR6V25lRWxPb2RnVDVicTVwR0NCYlpLWjJLUm83UFFoLXdMdkdFSVFRYUpIVFIwWGxOT2I5MHJsckgzWnpFeUFZVUVPd2JNYy1RVEJwMDhVSXpOWWlReURyV3hNQW55NDFBWTNNY0gyb3dsNU1lSzBqdXlSOE9qeVNzWkNFM2NvM3FOVXlGdw?oc=5",
+          "publisher": "TradingView"
+        },
+        {
+          "title": "ICICI Bank Q2 Preview: Profit may rise 8-14% YoY, NIM likely to contract",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS0oyMS1nMTJBMHdCcDNUUTdWVkp0RHY2SndrY1hBSkNTSFppVy0xX1pjTXhTMkhRcXlaR3RsRkFlZFF6cVQ0R0NObDR1OEdfTFBnNVZ4SC1XRlZuUFlJTzBtUFU2R0s0emUzbXlKeUVibzhzQmZBWVYwUlFFT0dCS1AxUFU1Zi1GNXdLdnJMcXFCUU9GdFFxaWdZQk5xTlpBUGZZNFlBUHM4NWQtYnhWLUJUVmZRMmxDYkZfTVk3X1loVTVqTEFmWE5MSk15VkNIV1E?oc=5",
+          "publisher": "Business Standard"
+        },
+        {
+          "title": "ICICI Bank Q2 Results: Net Profit Rises 20% To Rs 14,843 Crore; NIM Dips To 4.18%",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMWc3OUtOVUU2Vy1pUGUwb0JpQzRGS1JJTDc5MzZKRFJYalNNdnJNQWx4UlZHZ0dSNW5nZ3BFY181SEk4X2NuSnN5YXdhZnVjMGJrRmhpU1VCQVoyYkJsTzBtY3RxSzlTczRnV0kzVU5mTGk5N0lINFM3Y2FoaV9jQ2o4bDZiRWtYUkJleWRRckJFeTYyNkRzbTItcFJXMF9wYUlRMWs1eGwxeFdzS2lZTkE4Smw2ZXpEdEZtUVl30gHGAUFVX3lxTE1hNDlCRHo1ZzlWczBZRGhXM0tvSTVyVERBMTg5SmhUSWVid0xCYUxjUXhfSzk0c0FuVU4yMkxVSFFQX3ROWmcxQlRtWnQxb2VyOXBpQ1JNVWpYUk1mQnRYc01ka0ZrRFlrU2Vhd011QUFaWk5BTWg1UDIxbUs3TUZyWkRubEJIMHV3cWFsdFBXc19HQWRMcHMyQXI1ejlLYS1FZWZmQzhITGgySWk5cDU2THJqUFRLak9CeG5pZ1J2VHQ5QkUzQQ?oc=5",
+          "publisher": "NDTV Profit"
         }
       ]
     }
