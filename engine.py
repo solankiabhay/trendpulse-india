@@ -477,6 +477,9 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
             continue
         try:
             final_url, raw = fetch_source_page(url, timeout=min(cfg["timeout_seconds"], 8))
+            final_host = host_of(final_url).casefold()
+            if final_url != url and not final_host.startswith("news.google."):
+                source["url"] = final_url
             parser = _MetaDescription()
             parser.feed(raw.decode("utf-8", errors="replace"))
             options = parser.descriptions + parser.paragraphs[:4]
@@ -1057,7 +1060,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
             attempted = parse_date(p.get("summary_refresh_attempted_at", ""))
             if attempted and now - attempted < cooldown:
                 continue
-            if retried >= 10:
+            if retried >= 20:
                 break
             retried += 1
             candidate = {
@@ -1066,12 +1069,15 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
             }
             try:
                 enrich_candidate_summary(candidate, cfg, max_sources=3)
-                detail = tidy(candidate.get("summary", ""))
+                detail_raw = candidate.get("summary", "")
+                detail_parts = [tidy(part) for part in re.split(r"\n\s*\n", detail_raw) if tidy(part)]
+                detail = tidy(detail_raw)
                 p["summary_refresh_attempted_at"] = now.isoformat()
                 updated_existing = True
                 if len(detail) >= 40 and detail != current:
-                    p["source_summary"] = detail[:600]
-                    p["summary"] = short_summary(candidate)
+                    preserved = "\n\n".join(detail_parts)
+                    p["source_summary"] = preserved[:600].rsplit(" ", 1)[0] if len(preserved) > 600 else preserved
+                    p["summary"] = short_summary({"summary": preserved, "lang": p.get("lang", "en"), "sources": p.get("sources", [])})
                     p["generated_at"] = now.isoformat()
             except Exception as e:
                 log.debug("could not refresh thin published digest %s: %s", p.get("id"), e)
