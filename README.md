@@ -16,7 +16,7 @@ invents sources, dates, quotes, statistics or authors.
 | `posts.json` / `published.json` / `review.json` | article store / publication history / thin topics waiting for your review (committed by the workflow) |
 | `index.html`, `en/`, `hi/` | **generated** pages (do not hand-edit; edit `engine.py`) |
 | `assets/style.css`, `assets/app.js` | hand-written styles; search + category filter (no network requests) |
-| `tests/` | 68 unittest cases (mocked network) |
+| `tests/` | 74 unittest cases (mocked network) |
 | `.github/workflows/ci.yml`, `auto-blog.yml` | CI; scheduled pipeline + Pages deploy |
 
 ## Before first deploy (required edits)
@@ -64,6 +64,15 @@ python engine.py --approve en-1234567890
 git add -A && git commit -m "Approve reviewed topic" && git push
 ```
 
+## Search-engine hygiene
+- **Indexing rule:** a digest page is offered to search engines (no `noindex`, listed in `sitemap.xml`) only if it has real substance:
+  at least 3 distinct publishers, or a feed summary of 160+ characters. Thinner digests stay on the site for readers but are `noindex`.
+  Listing pages are always indexable. This lowers the risk of the site being judged as thin auto-generated content. It does not promise rankings.
+- **Teaser clean-up:** "Read more at: <url>" lines, tracking URLs and mid-word cuts (`..`) are removed from feed text, including text stored earlier.
+- **Language gate:** English posts must be mostly Latin script and Hindi posts mostly Devanagari. Other scripts (Telugu, Gujarati, ...) are rejected.
+- **Remove a post on purpose:** Actions → Auto Blog → Run workflow → paste IDs (e.g. `en-0123456789`) into *unpublish_ids*. Or locally:
+  `python engine.py --unpublish en-0123456789`. A copy is kept in `unpublished.json` and the pipeline will not recreate it.
+
 ## How selection works
 - Score = recency (0–40) + 10 per distinct publisher (max 4) + 10 if the feed gives distinct summary text + feed `weight`. No traffic or search-volume numbers are used or claimed.
 - Rejected: misleading/clickbait titles, rumours/unconfirmed wording, no valid source URL, missing or old (>72 h) date, wrong language, fewer than 2 publishers *and* thin summary, near-duplicates (title similarity ≥ 0.6, or same id).
@@ -72,7 +81,7 @@ git add -A && git commit -m "Approve reviewed topic" && git push
 - Hindi pages come from Hindi feeds (`hl=hi`). There is no machine translation, so English and Hindi articles are separate (no hreflang between them); only the section/info pages are paired.
 
 ## Status: what is verified where
-- **A. Works locally (verified in the build sandbox):** all 68 tests, `--check`, `--build-site`, static HTML/SEO/contrast checks, JS filter logic under Node.
+- **A. Works locally (verified in the build sandbox):** all 74 tests, `--check`, `--build-site`, static HTML/SEO/contrast checks, JS filter logic under Node.
 - **B. Tested in CI:** *not yet run.* `ci.yml` exists; first run happens when you push.
 - **C. Needs GitHub account access:** repo creation, Pages source setting, workflow permissions, first run, schedule activation.
 - **D. Needs domain/DNS:** only if you use a custom domain.
