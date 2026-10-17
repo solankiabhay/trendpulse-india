@@ -809,8 +809,6 @@ def article_page(cfg, p, posts):
     rel = sorted(rel, key=lambda q: q["published_at"], reverse=True)[:3]
     srcs = "".join(f'<li><strong>{esc(s["publisher"])}</strong>: <a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["title"] or s["publisher"])}</a></li>' for s in p["sources"])
     happened = tidy(p.get("source_summary") or p["summary"])
-    if happened.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:")):
-        happened = L["un_headline"]
     pubs = {s["publisher"].casefold() for s in p["sources"]}
     differ = [s["publisher"] for s in p["sources"] if s["title"] and jaccard(tokens(s["title"]), tokens(p["title"])) < 0.4]
     unc = f'<li>{esc(L["un_headline"])}</li>'
