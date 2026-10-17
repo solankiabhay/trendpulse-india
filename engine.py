@@ -500,7 +500,7 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
     parts = []
     feed_summary = tidy(c.get("summary", ""))
     if feed_summary and len(feed_summary) >= 40:
-        parts.append(_short_attributed_text(feed_summary, max_words=35))
+        parts.append(_short_attributed_text(feed_summary, max_words=22))
     parts.extend(additions)
     combined = []
     for part in parts:
