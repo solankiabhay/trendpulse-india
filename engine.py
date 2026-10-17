@@ -375,6 +375,55 @@ def _parse_item(it, feed):
             "weight": feed.get("weight", 0), "feed": feed.get("name", feed["url"])}
 
 
+
+class _MetaDescription(HTMLParser):
+    """Extract short publisher-authored metadata descriptions, not article body text."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.descriptions = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() != "meta":
+            return
+        values = {str(k).lower(): normalize_text(v or "") for k, v in attrs}
+        key = (values.get("name") or values.get("property") or "").casefold()
+        if key in ("description", "og:description", "twitter:description"):
+            value = values.get("content", "")
+            if len(value) >= 40 and value not in self.descriptions:
+                self.descriptions.append(value[:500])
+
+
+def enrich_candidate_summary(c, cfg, max_sources=3):
+    """Add short descriptions published in source-page metadata when the RSS feed is thin."""
+    if len(c.get("summary", "")) >= cfg["min_summary_chars"]:
+        return
+    additions = []
+    for source in c.get("sources", [])[:max_sources]:
+        url = safe_url(source.get("url", ""))
+        if not url:
+            continue
+        try:
+            raw = fetch_url(url, timeout=min(cfg["timeout_seconds"], 8), retries=0, backoff=0)
+            parser = _MetaDescription()
+            parser.feed(raw.decode("utf-8", errors="replace"))
+            if parser.descriptions:
+                value = tidy(parser.descriptions[0])
+                if value and value.casefold() != c["title"].casefold() and value not in additions:
+                    additions.append(value)
+        except (FetchError, ValueError, UnicodeError) as e:
+            log.debug("source metadata unavailable for %s: %s", url, e)
+    parts = []
+    if c.get("summary"):
+        parts.append(c["summary"])
+    parts.extend(additions)
+    combined = []
+    for part in parts:
+        if part and not any(part.casefold() in old.casefold() or old.casefold() in part.casefold() for old in combined):
+            combined.append(part)
+    if combined:
+        c["summary"] = " ".join(combined)[:1200]
+
 def parse_feed(data: bytes, feed: dict) -> list:
     low = data.lower()
     if b"<!doctype" in low or b"<!entity" in low:
@@ -862,6 +911,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
     root = Path(root)
     cfg = load_config(root / "config.json")
     now = now or datetime.now(timezone.utc)
+    live_fetcher = fetcher is None
     fetcher = fetcher or (lambda u: fetch_url(u, cfg["timeout_seconds"], cfg["retries"], cfg["retry_backoff_seconds"]))
     posts_doc, pub_doc = load_posts(root / "posts.json"), load_published(root / "published.json")
     stats = {"queued_for_review": 0, "feeds_ok": 0, "feeds_failed": 0, "candidates": 0, "published": [], "rejected": [], "duplicates": 0,
@@ -874,10 +924,15 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
             for c in cands:
                 c["score"] = score(c, cfg, now)
             known = known_entries(posts_doc, pub_doc)
+            enriched_count = 0
             for c in sorted(cands, key=lambda c: c["score"], reverse=True):
                 if len(new_posts) >= cfg["max_new_posts_per_run"]:
                     break
                 try:
+                    if live_fetcher and len(c.get("summary", "")) < cfg["min_summary_chars"] and enriched_count < 8:
+                        enriched_count += 1
+                        enrich_candidate_summary(c, cfg)
+                        c["score"] = score(c, cfg, now)
                     reasons = check_quality(c, cfg, now)
                     if reasons:
                         if reasons == ["insufficient_value"] and not is_duplicate(c, known, cfg["duplicate_similarity"]):
