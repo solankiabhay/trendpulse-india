@@ -1062,7 +1062,7 @@ def collect(cfg, fetcher, stats) -> list:
     return out
 
 
-def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
+def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_only=False) -> dict:
     root = Path(root)
     cfg = load_config(root / "config.json")
     now = now or datetime.now(timezone.utc)
@@ -1072,7 +1072,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
     stats = {"queued_for_review": 0, "feeds_ok": 0, "feeds_failed": 0, "candidates": 0, "published": [], "rejected": [], "duplicates": 0,
              "errors": 0, "all_feeds_failed": False}
     new_posts, queue = [], []
-    if not render_only:
+    if not render_only and not refresh_only:
         cands = collect(cfg, fetcher, stats)
         stats["candidates"] = len(cands)
         if not stats["all_feeds_failed"]:
@@ -1172,6 +1172,7 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="TrendPulse India content pipeline")
     ap.add_argument("--root", default=str(Path(__file__).parent))
     ap.add_argument("--render-only", action="store_true", help="regenerate pages without fetching feeds")
+    ap.add_argument("--refresh-only", action="store_true", help="refresh thin stored articles without collecting or publishing new stories")
     ap.add_argument("--dry-run", action="store_true", help="fetch and evaluate, write nothing")
     ap.add_argument("--check", action="store_true", help="verify generated files are up to date")
     ap.add_argument("--build-site", metavar="DIR", help="copy deployable files to DIR")
@@ -1200,7 +1201,7 @@ def main(argv=None) -> int:
                 log.error("cannot approve: %s", e); return 4
         if a.check:
             return 0 if check_generated(a.root) else 1
-        stats = run(a.root, render_only=a.render_only, dry_run=a.dry_run)
+        stats = run(a.root, render_only=a.render_only, dry_run=a.dry_run, refresh_only=a.refresh_only)
     except ConfigError as e:
         log.error("configuration error: %s", e); return 3
     print(json.dumps({k: v for k, v in stats.items() if k != "rejected"} | {"rejected_count": len(stats["rejected"])}, ensure_ascii=False))
