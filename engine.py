@@ -49,7 +49,7 @@ DEFAULTS = {
     "timeout_seconds": 15, "retries": 2, "retry_backoff_seconds": 2,
     "max_new_posts_per_run": 4, "max_age_hours": 72, "duplicate_similarity": 0.6,
     "min_title_chars": 12, "min_sources": 2, "min_summary_chars": 160,
-    "max_list_items": 60, "feeds": [],
+    "max_list_items": 60, "index_min_publishers": 3, "feeds": [],
 }
 POST_URL_RE = re.compile(r"^(en|hi)/posts/[A-Za-z0-9-]+\.html$")
 CLICKBAIT_RE = re.compile(
@@ -109,6 +109,28 @@ def host_of(u: str) -> str:
     return urllib.parse.urlsplit(u).netloc.removeprefix("www.")
 
 
+URL_RE = re.compile(r"https?://\S+")
+
+
+def tidy(text) -> str:
+    """Remove feed teaser debris: 'Read more at: <url>', bare URLs and a mid-word cut before '..'/'…'."""
+    ws = lambda x: re.sub(r"\s+", " ", x).strip()  # no NFKC here: it would turn "…" into "..." and break idempotency
+    t = ws(html.unescape(text or ""))
+    t = re.sub(r"Read more at:?\s*\S*", "", t, flags=re.I)
+    t = ws(URL_RE.sub("", t))
+    m = re.search(r"\s*\.{2,}\s*$", t)  # ".." means the feed cut mid-word; an existing "…" is left alone (idempotent)
+    if m:
+        t = t[: m.start()]
+        t = (t.rsplit(" ", 1)[0] if " " in t else t).rstrip(" ,;:-") + "…"
+    return t
+
+
+def indexable(p, cfg) -> bool:
+    """Only pages with real substance are offered to search engines; thin digests stay on the site as noindex."""
+    pubs = {s["publisher"].casefold() for s in p["sources"]}
+    return len(tidy(p.get("source_summary", ""))) >= cfg["min_summary_chars"] or len(pubs) >= cfg["index_min_publishers"]
+
+
 def clean_title(title: str, publisher: str = "") -> str:
     t = normalize_text(title)
     if publisher:
@@ -140,6 +162,16 @@ def parse_date(s):
 def deva_ratio(t: str) -> float:
     letters = [c for c in t if unicodedata.category(c)[0] in "LM"]
     return sum("\u0900" <= c <= "\u097f" for c in letters) / len(letters) if letters else 0.0
+
+
+def latin_ratio(t: str) -> float:
+    letters = [c for c in t if unicodedata.category(c)[0] == "L"]
+    return sum(unicodedata.name(c, "").startswith("LATIN") for c in letters) / len(letters) if letters else 0.0
+
+
+def language_ok(lang: str, title: str) -> bool:
+    """English titles must be mostly Latin script, Hindi titles mostly Devanagari (rejects Telugu, Gujarati, etc.)."""
+    return latin_ratio(title) >= 0.7 if lang == "en" else deva_ratio(title) >= 0.4
 
 
 def make_id(lang: str, title: str) -> str:
@@ -337,7 +369,7 @@ def _parse_item(it, feed):
                     key=len, reverse=True):
         if s:
             text = text.replace(s, " ")
-    text = normalize_text(text).strip(" -–—|:·,.")
+    text = tidy(normalize_text(text).strip(" -–—|:·,"))
     return {"title": title, "keyword": keyword, "published": pub, "summary": text if len(text) >= 40 else "",
             "sources": sources[:6], "lang": feed["lang"], "category": feed["category"],
             "weight": feed.get("weight", 0), "feed": feed.get("name", feed["url"])}
@@ -403,8 +435,7 @@ def check_quality(c, cfg, now) -> list:
             r.append("too_old")
         if age < timedelta(hours=-1):
             r.append("date_in_future")
-    ratio = deva_ratio(t)
-    if (c["lang"] == "hi" and ratio < 0.4) or (c["lang"] == "en" and ratio > 0.3):
+    if not language_ok(c["lang"], t):
         r.append("language_mismatch")
     if len(publishers(c)) < cfg["min_sources"] and len(c["summary"]) < cfg["min_summary_chars"]:
         r.append("insufficient_value")
@@ -547,6 +578,30 @@ def known_entries(posts_doc, pub_doc) -> list:
     return k + [{"id": i.get("id"), "lang": i.get("id", "")[:2], "title": i.get("title", "")} for i in pub_doc["items"]]
 
 
+ID_RE = re.compile(r"^(en|hi)-[0-9a-f]{10}$")
+
+
+def unpublish(root, post_id) -> dict:
+    """Remove one post from the site on purpose. A copy is kept in unpublished.json; published.json keeps the id,
+    so the pipeline will not regenerate it."""
+    if not ID_RE.match(post_id or ""):
+        raise ValueError("post id must look like en-0123456789 or hi-0123456789")
+    root = Path(root); cfg = load_config(root / "config.json")
+    doc = load_posts(root / "posts.json")
+    post = next((p for p in doc["posts"] if p.get("id") == post_id), None)
+    if post is None:
+        raise KeyError(f"no post with id {post_id}")
+    bak = load_json(root / "unpublished.json", {"version": 1, "items": []}, lambda d: isinstance(d, dict) and isinstance(d.get("items"), list))
+    bak["items"].append({**post, "unpublished_at": datetime.now(timezone.utc).isoformat()})
+    write_json(root / "unpublished.json", bak)                     # 1. backup first
+    remaining = [p for p in doc["posts"] if p.get("id") != post_id]
+    write_json(root / "posts.json", {"version": 1, "posts": remaining})  # 2. remove from the store
+    if POST_URL_RE.match(post.get("url", "")):                      # 3. delete only its own page (path pattern validated)
+        (root / post["url"]).unlink(missing_ok=True)
+    render_site(root, cfg, remaining)                               # 4. refresh lists and sitemap
+    return post
+
+
 def approve(root, item_id, now=None) -> dict:
     """Publish one reviewed item from review.json (a human decision; the quality gate is not re-run)."""
     root = Path(root); cfg = load_config(root / "config.json"); now = now or datetime.now(timezone.utc)
@@ -656,11 +711,11 @@ def card(p, up, compact=False):
     L = T[p["lang"]]
     cat = cat_label(p["category"], p["lang"])
     names = ", ".join(dict.fromkeys(s["publisher"] for s in p["sources"]))
-    text = f"{p['title']} {p['summary']} {cat}".casefold()
+    text = f"{p['title']} {tidy(p['summary'])} {cat}".casefold()
     return (f'<article class="card{" compact" if compact else ""}" lang="{p["lang"]}" data-cat="{esc(p["category"])}" data-text="{esc(text)}">'
             f'<p class="meta"><span class="badge">{esc(cat)}</span> <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
             f'<h3><a href="{esc(up + p["url"])}">{esc(p["title"])}</a></h3>'
-            f'<p>{esc(p["summary"])}</p><p class="src">{esc(L["sources"])}: {esc(names)}</p>'
+            f'<p>{esc(tidy(p["summary"]))}</p><p class="src">{esc(L["sources"])}: {esc(names)}</p>'
             f'<a class="more" href="{esc(up + p["url"])}">{esc(L["read_more"])}<span class="sr"> — {esc(p["title"])}</span></a></article>')
 
 
@@ -704,7 +759,7 @@ def article_page(cfg, p, posts):
     rel = [q for q in posts if q["lang"] == lang and q["category"] == p["category"] and q["id"] != p["id"]]
     rel = sorted(rel, key=lambda q: q["published_at"], reverse=True)[:3]
     srcs = "".join(f'<li><strong>{esc(s["publisher"])}</strong>: <a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["title"] or s["publisher"])}</a></li>' for s in p["sources"])
-    happened = p.get("source_summary") or p["summary"]
+    happened = tidy(p.get("source_summary") or p["summary"])
     pubs = {s["publisher"].casefold() for s in p["sources"]}
     differ = [s["publisher"] for s in p["sources"] if s["title"] and jaccard(tokens(s["title"]), tokens(p["title"])) < 0.4]
     unc = f'<li>{esc(L["un_headline"])}</li>'
@@ -724,13 +779,14 @@ def article_page(cfg, p, posts):
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": p["title"][:110], "datePublished": p["published_at"],
           "inLanguage": lang, "mainEntityOfPage": canonical, "publisher": {"@type": "Organization", "name": cfg["site_name"]},
           "isBasedOn": [s["url"] for s in p["sources"]]}
-    return page(cfg, lang, path, p["title"], p["summary"][:155], body, jsonld=ld, og_type="article")
+    return page(cfg, lang, path, p["title"], tidy(p["summary"])[:155], body, jsonld=ld, og_type="article",
+                noindex=not indexable(p, cfg))
 
 
 def sitemap_xml(cfg, posts) -> str:
     base = cfg["site_url"]
     urls = [("", None), ("en/", None), ("hi/", None)] + [(f"{l}/{pg}.html", None) for l in LANGS for pg in INFO_PAGES]
-    urls += [(p["url"], ist_date(p["published_at"])) for p in sorted(posts, key=lambda p: p["url"])]
+    urls += [(p["url"], ist_date(p["published_at"])) for p in sorted(posts, key=lambda p: p["url"]) if indexable(p, cfg)]
     rows = "".join(f"  <url><loc>{esc(base + '/' + u)}</loc>" + (f"<lastmod>{m}</lastmod>" if m else "") + "</url>\n" for u, m in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{rows}</urlset>\n'
 
@@ -870,6 +926,7 @@ def main(argv=None) -> int:
     ap.add_argument("--build-site", metavar="DIR", help="copy deployable files to DIR")
     ap.add_argument("--list-review", action="store_true", help="show items waiting for manual review")
     ap.add_argument("--approve", metavar="ID", help="publish one item from review.json after you checked its sources")
+    ap.add_argument("--unpublish", metavar="ID", help="remove one published post (backup kept in unpublished.json)")
     ap.add_argument("-v", "--verbose", action="store_true")
     a = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if a.verbose else logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -880,6 +937,11 @@ def main(argv=None) -> int:
             for i in load_review(Path(a.root) / "review.json")["items"]:
                 print(i["id"], "|", i["lang"], "|", i["title"], "|", ", ".join(s["publisher"] for s in i["sources"]))
             return 0
+        if a.unpublish:
+            try:
+                print("unpublished:", unpublish(a.root, a.unpublish)["title"]); return 0
+            except (KeyError, ValueError) as e:
+                log.error("cannot unpublish: %s", e); return 4
         if a.approve:
             try:
                 print("published:", approve(a.root, a.approve)["url"]); return 0
