@@ -419,11 +419,35 @@ class TeaserAndIndexingTests(unittest.TestCase):
         engine.run(root, fetcher=fx, now=NOW)
         posts = {p["title"]: p for p in json.loads((root / "posts.json").read_text(encoding="utf-8"))["posts"]}
         smap = (root / "sitemap.xml").read_text(encoding="utf-8")
-        for title, want in (("Chandrayaan team shares new lunar images", True), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", False)):
+        for title, want in (("Chandrayaan team shares new lunar images", False), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", False)):
             p = posts[title]; html = (root / p["url"]).read_text(encoding="utf-8")
             self.assertEqual(engine.indexable(p, cfg), want, title); self.assertEqual(p["url"] in smap, want, title)
             self.assertEqual('content="noindex,follow"' not in html, want, title)
         self.assertNotIn('noindex', (root / "en/index.html").read_text(encoding="utf-8"))  # listing pages stay indexable
+
+    def test_multiple_publishers_do_not_make_a_thin_page_indexable(self):
+        cfg = {**engine.DEFAULTS}
+        post = {
+            "source_summary": "Coverage from 3 sources: NDTV, WION, Mint.",
+            "sources": [
+                {"publisher": "NDTV"}, {"publisher": "WION"}, {"publisher": "Mint"}
+            ],
+        }
+        self.assertFalse(engine.indexable(post, cfg))
+
+    def test_google_news_boilerplate_never_makes_a_page_indexable(self):
+        cfg = {**engine.DEFAULTS}
+        post = {
+            "source_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+            "sources": [{"publisher": "A"}, {"publisher": "B"}, {"publisher": "C"}],
+        }
+        self.assertFalse(engine.indexable(post, cfg))
+
+    def test_substantive_summary_remains_indexable(self):
+        cfg = {**engine.DEFAULTS}
+        summary = "Officials announced the project timeline and described the next steps for implementation. " * 3
+        post = {"source_summary": summary, "sources": [{"publisher": "A"}]}
+        self.assertTrue(engine.indexable(post, cfg))
 
     def test_stored_posts_with_teaser_debris_render_clean(self):
         root = make_root(); cfg = engine.load_config(root / "config.json")
