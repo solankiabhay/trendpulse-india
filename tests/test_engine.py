@@ -460,5 +460,32 @@ class LanguageAndUnpublishTests(unittest.TestCase):
         with self.assertRaises(KeyError): engine.unpublish(root, "en-0123456789")
         self.assertEqual(engine.main(["--root", str(root), "--unpublish", "bad id"]), 4)
 
+class SourceExtractionTests(unittest.TestCase):
+    def test_source_parser_extracts_metadata_and_article_paragraphs_only(self):
+        parser = engine._MetaDescription()
+        parser.feed("""
+            <html><head><meta property="og:description" content="A sufficiently detailed publisher description about this reported event and its key context."></head>
+            <body><nav><p>Navigation text that must not appear in the summary because it is not story content.</p></nav>
+            <article><p>This is a detailed article paragraph with enough words to qualify as a useful snippet from a publisher page.</p>
+            <p>Another paragraph contains additional details about the event and what officials said during the briefing.</p></article>
+            <script><p>Ignore this hidden script content because it is not a readable article paragraph.</p></script></body></html>
+        """)
+        self.assertTrue(parser.descriptions)
+        self.assertEqual(len(parser.paragraphs), 2)
+        self.assertNotIn("Navigation text", " ".join(parser.paragraphs))
+        self.assertNotIn("hidden script", " ".join(parser.paragraphs))
+
+    def test_source_excerpt_is_limited_to_22_words(self):
+        long_text = " ".join(f"word{i}" for i in range(40))
+        excerpt = engine._short_attributed_text(long_text)
+        self.assertLessEqual(len(excerpt.removesuffix("…").split()), 22)
+        self.assertTrue(excerpt.endswith("…"))
+
+    def test_boilerplate_is_not_accepted_as_source_excerpt(self):
+        self.assertTrue(engine.is_boilerplate_summary(
+            "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        ))
+
+
 if __name__ == "__main__":
     unittest.main()
