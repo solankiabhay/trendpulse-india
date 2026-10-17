@@ -1,8 +1,9 @@
 /* ==========================================
-   TrendPulse India — Premium CSS (v4)
-   Matches your exact HTML class names
+   TrendPulse India — Master Stylesheet
+   Version: 5.0 (Final & Complete)
    ========================================== */
 
+/* 1. DESIGN SYSTEM VARIABLES */
 :root {
   --navy: #0b1f3a;
   --navy-light: #1d3c62;
@@ -20,6 +21,7 @@
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+/* 2. BASE RESETS & TYPOGRAPHY */
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body {
@@ -29,22 +31,27 @@ body {
   font: 1rem/1.65 system-ui, -apple-system, "Segoe UI", "Noto Sans", "Noto Sans Devanagari", sans-serif;
 }
 [hidden] { display: none !important; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* Container */
 .wrap { max-width: 68rem; margin: 0 auto; padding: 0 1rem; }
-.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* Accessibility */
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip { position: absolute; left: -999px; top: 0; background: var(--navy); color: #fff; padding: .6rem 1rem; z-index: 100; }
 .skip:focus { left: 0; }
 a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+a { color: var(--blue); text-decoration: none; transition: color 0.2s var(--ease); }
+a:hover { color: var(--orange-dark); }
 
 /* ==========================================
-   HEADER (Sticky, Glassy, Premium)
+   3. HEADER (Sticky, Glassy, Premium)
    ========================================== */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(11, 31, 58, 0.95); /* Deep Navy */
+  background: rgba(11, 31, 58, 0.96);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -80,13 +87,10 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   color: #fff;
   font-weight: 800;
   font-size: 1.4rem;
-  text-decoration: none;
   letter-spacing: -0.5px;
   position: relative;
   padding-left: 14px;
-  transition: color 0.2s var(--ease);
 }
-/* The signature orange pulse bar */
 .brand::before {
   content: "";
   position: absolute;
@@ -103,18 +107,12 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .brand:hover::before { height: 100%; }
 
 .site-header nav ul, .site-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 1.1rem;
+  list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem;
 }
 .site-header nav a {
   color: #e2e8f0;
   display: inline-block;
   padding: 0.45rem 0.5rem;
-  text-decoration: none;
   font-weight: 600;
   border-bottom: 2px solid transparent;
   transition: all 0.2s var(--ease);
@@ -126,12 +124,11 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 }
 
 /* ==========================================
-   HERO SECTION
+   4. HERO SECTION
    ========================================== */
 .hero {
   background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
   color: #fff;
-  border: none;
   border-radius: 16px;
   padding: 2rem 2.5rem;
   margin: 2rem 0;
@@ -152,24 +149,16 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .hero .btn:hover { background: var(--orange-dark); transform: translateY(-2px); }
 
 /* ==========================================
-   BUTTONS & TOOLS
+   5. BUTTONS & SEARCH TOOLS
    ========================================== */
 .btn {
-  display: inline-block;
-  background: var(--blue);
-  color: #fff;
-  border: 0;
-  border-radius: 8px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--blue); color: #fff;
+  border: 0; border-radius: 8px;
   padding: 0.65rem 1.2rem;
-  font: inherit;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
+  font: inherit; font-weight: 600; cursor: pointer;
   min-height: 44px;
   transition: all 0.2s var(--ease);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 }
 .btn:hover { background: var(--navy); color: #fff; }
 
@@ -177,100 +166,98 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 #searchform { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 #searchform label { font-weight: 600; flex-basis: 100%; color: var(--navy); margin-bottom: 0.25rem; }
 #q {
-  flex: 1 1 14rem;
-  min-height: 44px;
-  padding: 0.55rem 1rem;
-  font: inherit;
-  border: 2px solid var(--line);
-  border-radius: 8px;
-  color: var(--ink);
-  background: var(--soft);
-  outline: none;
-  transition: border-color 0.2s;
+  flex: 1 1 14rem; min-height: 44px;
+  padding: 0.55rem 1rem; font: inherit;
+  border: 2px solid var(--line); border-radius: 8px;
+  color: var(--ink); background: var(--soft); outline: none;
 }
 #q:focus { border-color: var(--orange); background: #fff; }
 
 .cats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .cat-btn {
-  min-height: 40px;
-  padding: 0.4rem 1rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: #fff;
-  color: var(--muted);
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
+  min-height: 40px; padding: 0.4rem 1rem;
+  border: 1px solid var(--line); border-radius: 999px;
+  background: #fff; color: var(--muted);
+  font: inherit; font-weight: 600; cursor: pointer;
   transition: all 0.2s var(--ease);
 }
 .cat-btn:hover { border-color: var(--orange); color: var(--orange); }
-.cat-btn[aria-pressed=true] {
-  background: var(--orange);
-  border-color: var(--orange);
-  color: #fff;
-}
+.cat-btn[aria-pressed=true] { background: var(--orange); border-color: var(--orange); color: #fff; }
 
 /* ==========================================
-   ARTICLE GRID & CARDS
+   6. ARTICLE GRID & CARDS (Homepage)
    ========================================== */
-.grid {
-  display: grid;
-  gap: 1.25rem;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
-}
+.grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); }
 .card {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
+  background: #fff; border: 1px solid var(--line); border-radius: 12px;
+  padding: 1.25rem; display: flex; flex-direction: column; gap: 0.1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
   transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
 }
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-}
+.card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); }
 .card.compact { border-left: 4px solid var(--orange); }
 .card p { margin: 0.4rem 0; color: var(--muted); font-size: 0.95rem; }
 .card h3 { font-size: 1.15rem; line-height: 1.4; margin: 0.5rem 0; }
-.card h3 a { color: var(--navy); text-decoration: none; }
+.card h3 a { color: var(--navy); }
 .card h3 a:hover { color: var(--orange); }
 
 .meta { color: var(--muted); font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem; }
 .badge {
-  background: var(--badge-bg);
-  color: var(--badge-ink);
-  border-radius: 6px;
-  padding: 0.15rem 0.5rem;
-  font-weight: 700;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  background: var(--badge-bg); color: var(--badge-ink);
+  border-radius: 6px; padding: 0.15rem 0.5rem;
+  font-weight: 700; font-size: 0.75rem; text-transform: uppercase;
 }
 .src { color: #94a3b8; font-size: 0.85rem; margin-top: auto; padding-top: 0.5rem; }
-.more { margin-top: 0.8rem; font-weight: 700; color: var(--orange); text-decoration: none; display: inline-block; }
+.more { margin-top: 0.8rem; font-weight: 700; color: var(--orange); display: inline-block; }
 .more:hover { color: var(--orange-dark); text-decoration: underline; }
 
 /* ==========================================
-   FOOTER
+   7. INNER ARTICLE PAGES (Fixes "Reported By" list)
+   ========================================== */
+.post {
+  max-width: 48rem; margin: 2.5rem auto;
+  background: #fff; padding: clamp(1.5rem, 4vw, 3rem);
+  border-radius: 12px; border: 1px solid var(--line);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+.post h1 { font-size: clamp(1.8rem, 4vw, 2.5rem); color: var(--navy); margin-top: 0; line-height: 1.2; }
+.post .meta { margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+.post p:first-of-type:not(.meta) {
+  background: var(--soft); border-left: 4px solid var(--blue);
+  padding: 1rem 1.25rem; border-radius: 0 8px 8px 0;
+  color: var(--muted); font-size: 0.95rem; margin-bottom: 2rem;
+}
+.post h2 { font-size: 1.25rem; color: var(--navy); margin-top: 2rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--line); }
+
+/* The Source List Fix */
+.post ul { padding-left: 0; list-style: none; margin: 0; }
+.post ul li {
+  position: relative; padding: 1rem 1rem 1rem 2.5rem;
+  background: #fff; border: 1px solid var(--line); border-radius: 8px;
+  margin-bottom: 0.75rem; line-height: 1.5;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.post ul li::before { content: "🔗"; position: absolute; left: 1rem; top: 1rem; font-size: 1rem; opacity: 0.5; }
+.post ul li:hover { border-color: var(--orange); box-shadow: 0 4px 12px rgba(255, 100, 28, 0.08); transform: translateX(4px); }
+.post ul li a { color: var(--navy); font-weight: 600; display: block; overflow-wrap: break-word; }
+.post ul li a:hover { color: var(--orange); }
+
+/* ==========================================
+   8. FOOTER
    ========================================== */
 .site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   background: var(--navy);
-  padding: 3rem 0 2rem;
-  color: #94a3b8;
-  font-size: 0.95rem;
-  margin-top: 4rem;
+  padding: 3rem 0 2rem; color: #94a3b8; font-size: 0.95rem; margin-top: 4rem;
 }
 .site-footer ul { justify-content: center; margin-bottom: 1.5rem; gap: 1.5rem; }
-.site-footer a { color: #e2e8f0; text-decoration: none; font-weight: 600; transition: color 0.2s; position: relative; }
+.site-footer a { color: #e2e8f0; font-weight: 600; }
 .site-footer a:hover { color: var(--orange); }
 .site-footer p { text-align: center; max-width: 40rem; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; }
 
-/* Responsive */
+/* ==========================================
+   9. RESPONSIVE & MOTION SAFETY
+   ========================================== */
 @media (max-width: 30rem) {
   .bar { padding-top: .75rem; }
   .site-header nav ul { gap: .1rem .9rem; }
