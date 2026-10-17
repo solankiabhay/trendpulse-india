@@ -390,10 +390,7 @@ class StructureAndReviewTests(unittest.TestCase):
 class TeaserAndIndexingTests(unittest.TestCase):
     def test_google_news_boilerplate_is_not_treated_as_a_story_summary(self):
         filler = "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        xml = item("Cyberleek shares new GTA 6 footage today", related=[
-            ("More GTA 6 footage featuring Lucia", "https://news.example/2", "Mashable"),
-            ("Cyberleek threatens a full-game leak", "https://news.example/3", "The Times of India"),
-        ], extra=f"<description>{filler}</description>")
+        xml = item("Cyberleek shares new GTA 6 footage today", extra=f"<description>{filler}</description>")
         c = engine.parse_feed(rss([xml]), FEED_EN)[0]
         self.assertEqual(c["summary"], "")
         self.assertTrue(c["boilerplate_summary"])
