@@ -13,10 +13,10 @@ invents sources, dates, quotes, statistics or authors.
 |---|---|
 | `engine.py` | feed fetch/parse, quality gate, dedupe, safe JSON writes, HTML/sitemap/robots rendering |
 | `config.json` | site URL, contact email, thresholds, feed list |
-| `posts.json` / `published.json` | article store / publication history (committed by the workflow) |
+| `posts.json` / `published.json` / `review.json` | article store / publication history / thin topics waiting for your review (committed by the workflow) |
 | `index.html`, `en/`, `hi/` | **generated** pages (do not hand-edit; edit `engine.py`) |
 | `assets/style.css`, `assets/app.js` | hand-written styles; search + category filter (no network requests) |
-| `tests/` | 61 unittest cases (mocked network) |
+| `tests/` | 68 unittest cases (mocked network) |
 | `.github/workflows/ci.yml`, `auto-blog.yml` | CI; scheduled pipeline + Pages deploy |
 
 ## Before first deploy (required edits)
@@ -49,6 +49,21 @@ A push to `main` re-renders and redeploys without fetching feeds. Pushes made by
 Custom domain: Settings → Pages → Custom domain, add the DNS record GitHub shows, then update `site_url` and re-render.
 Search Console: add the property, submit `<site_url>/sitemap.xml`. Indexing and ranking are not guaranteed.
 
+## Article structure and manual review
+Each article page has: **What happened** (headline plus the feed's own summary, if it has one) → **What each source reports**
+(publisher name + link to the original report) → **What is not confirmed** (states that only headlines/short summaries were
+available, flags single-publisher topics, and flags sources whose wording differs). There is deliberately **no "Background" or
+"Key facts" section**: feeds do not supply them, and the pipeline will not invent them. Real background needs full-text sources
+or an optional LLM/human step, which this release does not include.
+
+Topics rejected *only* for being too thin (fewer than 2 publishers and little summary text) are saved in `review.json`
+instead of being dropped. Entries expire after 7 days. To publish one after checking its sources yourself:
+```
+python engine.py --list-review
+python engine.py --approve en-1234567890
+git add -A && git commit -m "Approve reviewed topic" && git push
+```
+
 ## How selection works
 - Score = recency (0–40) + 10 per distinct publisher (max 4) + 10 if the feed gives distinct summary text + feed `weight`. No traffic or search-volume numbers are used or claimed.
 - Rejected: misleading/clickbait titles, rumours/unconfirmed wording, no valid source URL, missing or old (>72 h) date, wrong language, fewer than 2 publishers *and* thin summary, near-duplicates (title similarity ≥ 0.6, or same id).
@@ -57,7 +72,7 @@ Search Console: add the property, submit `<site_url>/sitemap.xml`. Indexing and 
 - Hindi pages come from Hindi feeds (`hl=hi`). There is no machine translation, so English and Hindi articles are separate (no hreflang between them); only the section/info pages are paired.
 
 ## Status: what is verified where
-- **A. Works locally (verified in the build sandbox):** all 61 tests, `--check`, `--build-site`, static HTML/SEO/contrast checks, JS filter logic under Node.
+- **A. Works locally (verified in the build sandbox):** all 68 tests, `--check`, `--build-site`, static HTML/SEO/contrast checks, JS filter logic under Node.
 - **B. Tested in CI:** *not yet run.* `ci.yml` exists; first run happens when you push.
 - **C. Needs GitHub account access:** repo creation, Pages source setting, workflow permissions, first run, schedule activation.
 - **D. Needs domain/DNS:** only if you use a custom domain.
