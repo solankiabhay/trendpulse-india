@@ -563,7 +563,7 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
     # Keep a usable feed teaser if present, then add distinct attributed publisher snippets.
     parts = []
     feed_summary = tidy(c.get("summary", ""))
-    if feed_summary and len(feed_summary) >= 40:
+    if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
         parts.append(_short_attributed_text(feed_summary, max_words=22))
     parts.extend(additions)
     combined = []
