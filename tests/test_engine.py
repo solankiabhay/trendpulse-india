@@ -461,6 +461,12 @@ class LanguageAndUnpublishTests(unittest.TestCase):
         self.assertEqual(engine.main(["--root", str(root), "--unpublish", "bad id"]), 4)
 
 class SourceExtractionTests(unittest.TestCase):
+    def test_google_news_token_embedded_publisher_url(self):
+        raw = b"\x12https://publisher.example/news/story"
+        token = engine.base64.urlsafe_b64encode(raw).decode("ascii").rstrip("=")
+        wrapped = f"https://news.google.com/rss/articles/{token}?oc=5"
+        self.assertEqual(engine.embedded_source_url(wrapped), "https://publisher.example/news/story")
+
     def test_source_parser_extracts_metadata_and_article_paragraphs_only(self):
         parser = engine._MetaDescription()
         parser.feed("""
