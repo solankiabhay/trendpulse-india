@@ -1,7 +1,7 @@
 {
   "site_name": "TrendPulse India",
-  "site_url": "https://YOUR-USERNAME.github.io/trendpulse-india",
-  "contact_email": "contact@example.com",
+  "site_url": "https://solankiabhay.github.io/trendpulse-india",
+  "contact_email": "solankiabhayp@gmail.com",
   "timeout_seconds": 15,
   "retries": 2,
   "retry_backoff_seconds": 2,
