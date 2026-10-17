@@ -432,6 +432,10 @@ T = {
         "nomatch": "No articles match your search.", "results": "{n} articles shown",
         "coverage": "Coverage from {n} sources: {names}.", "reported_by": "Reported by",
         "feed_summary": "Summary from the source feed", "published": "Published",
+        "what_happened": "What happened", "each_source": "What each source reports", "unconfirmed": "What is not confirmed",
+        "un_headline": "Only headlines and short feed summaries were available. Details beyond them are not confirmed here; read the original reports.",
+        "un_single": "Only one publisher is cited so far, so this has not been cross-checked against other reports.",
+        "un_differ": "These sources word the story differently, so check their reports for exact details: {names}.",
         "disclaimer": "This page is an automatic digest of headlines and feed summaries from the sources listed. TrendPulse India has not independently verified them. Read the original reports for full details.",
         "choose": "Read in English", "choose_hi": "हिंदी में पढ़ें", "nav": "Main navigation", "footer": "Footer",
         "cats_label": "Filter by category", "locale": "en_IN", "tagline": "Trending topics from India, with sources",
@@ -448,6 +452,10 @@ T = {
         "nomatch": "आपकी खोज से कोई लेख मेल नहीं खाता।", "results": "{n} लेख दिखाए जा रहे हैं",
         "coverage": "{n} स्रोतों की रिपोर्ट: {names}।", "reported_by": "रिपोर्ट करने वाले स्रोत",
         "feed_summary": "स्रोत फ़ीड का सारांश", "published": "प्रकाशित",
+        "what_happened": "क्या हुआ", "each_source": "हर स्रोत क्या रिपोर्ट करता है", "unconfirmed": "क्या पुष्टि नहीं हुई है",
+        "un_headline": "सिर्फ़ सुर्खियाँ और छोटे फ़ीड सारांश उपलब्ध थे। उनसे आगे की जानकारी यहाँ पुष्ट नहीं है; मूल रिपोर्ट पढ़ें।",
+        "un_single": "अभी सिर्फ़ एक प्रकाशक का हवाला है, इसलिए इसे दूसरी रिपोर्टों से मिलाकर नहीं देखा गया है।",
+        "un_differ": "ये स्रोत खबर को अलग-अलग शब्दों में बताते हैं, इसलिए सटीक ब्योरे के लिए उनकी रिपोर्ट देखें: {names}।",
         "disclaimer": "यह पृष्ठ ऊपर दिए गए स्रोतों की सुर्खियों और फ़ीड सारांश से स्वचालित रूप से तैयार किया गया है। TrendPulse India ने इनकी स्वतंत्र पुष्टि नहीं की है। पूरी जानकारी के लिए मूल रिपोर्ट पढ़ें।",
         "choose": "Read in English", "choose_hi": "हिंदी में पढ़ें", "nav": "मुख्य नेविगेशन", "footer": "फ़ुटर",
         "cats_label": "श्रेणी के अनुसार छाँटें", "locale": "hi_IN", "tagline": "भारत के ट्रेंडिंग विषय, स्रोतों के साथ",
@@ -521,6 +529,47 @@ def build_post(c, now) -> dict:
         "keyword": c["keyword"], "score": c.get("score", 0),
         "sources": [{"title": s["title"], "url": s["url"], "publisher": s["publisher"]} for s in c["sources"]],
     }
+
+
+def load_review(path):
+    ok = lambda d: isinstance(d, dict) and isinstance(d.get("items"), list)
+    return load_json(path, {"version": 1, "items": []}, ok)
+
+
+def review_item(c, now, reasons) -> dict:
+    return {"id": make_id(c["lang"], c["title"]), "lang": c["lang"], "title": c["title"], "category": c["category"],
+            "published_at": c["published"].isoformat(), "summary": c["summary"], "sources": c["sources"],
+            "queued_at": now.isoformat(), "reasons": reasons}
+
+
+def known_entries(posts_doc, pub_doc) -> list:
+    k = [{"id": p.get("id"), "lang": p.get("lang"), "title": p.get("title", "")} for p in posts_doc["posts"]]
+    return k + [{"id": i.get("id"), "lang": i.get("id", "")[:2], "title": i.get("title", "")} for i in pub_doc["items"]]
+
+
+def approve(root, item_id, now=None) -> dict:
+    """Publish one reviewed item from review.json (a human decision; the quality gate is not re-run)."""
+    root = Path(root); cfg = load_config(root / "config.json"); now = now or datetime.now(timezone.utc)
+    rev = load_review(root / "review.json")
+    it = next((i for i in rev["items"] if i["id"] == item_id), None)
+    if not it:
+        raise KeyError(f"no review item with id {item_id}")
+    posts_doc, pub_doc = load_posts(root / "posts.json"), load_published(root / "published.json")
+    c = {"title": it["title"], "keyword": None, "published": parse_date(it["published_at"]), "summary": it["summary"],
+         "sources": it["sources"], "lang": it["lang"], "category": it["category"], "score": 0}
+    if is_duplicate(c, known_entries(posts_doc, pub_doc), cfg["duplicate_similarity"]):
+        raise ValueError("already published or near-duplicate of a published topic")
+    post = build_post(c, now)
+    if not valid_post(post):
+        raise ValueError("item does not form a valid post")
+    posts_doc["posts"].append(post)
+    render_site(root, cfg, posts_doc["posts"])
+    write_json(root / "posts.json", {"version": 1, "posts": posts_doc["posts"]})
+    pub_doc["items"].append({"id": post["id"], "title": post["title"], "url": post["url"], "published_at": post["published_at"]})
+    write_json(root / "published.json", pub_doc)
+    rev["items"] = [i for i in rev["items"] if i["id"] != item_id]
+    write_json(root / "review.json", rev)
+    return post
 
 
 def valid_post(p) -> bool:
@@ -654,15 +703,23 @@ def article_page(cfg, p, posts):
     lang, L, path = p["lang"], T[p["lang"]], p["url"]
     rel = [q for q in posts if q["lang"] == lang and q["category"] == p["category"] and q["id"] != p["id"]]
     rel = sorted(rel, key=lambda q: q["published_at"], reverse=True)[:3]
-    srcs = "".join(f'<li><a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["title"] or s["publisher"])}</a> — {esc(s["publisher"])}</li>' for s in p["sources"])
-    fs = f'<h2>{esc(L["feed_summary"])}</h2><p>{esc(p["source_summary"])}</p>' if p.get("source_summary") else ""
+    srcs = "".join(f'<li><strong>{esc(s["publisher"])}</strong>: <a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["title"] or s["publisher"])}</a></li>' for s in p["sources"])
+    happened = p.get("source_summary") or p["summary"]
+    pubs = {s["publisher"].casefold() for s in p["sources"]}
+    differ = [s["publisher"] for s in p["sources"] if s["title"] and jaccard(tokens(s["title"]), tokens(p["title"])) < 0.4]
+    unc = f'<li>{esc(L["un_headline"])}</li>'
+    if len(pubs) < 2:
+        unc += f'<li>{esc(L["un_single"])}</li>'
+    if differ:
+        unc += f'<li>{esc(L["un_differ"].format(names=", ".join(dict.fromkeys(differ))))}</li>'
+    fs = f'<h2>{esc(L["what_happened"])}</h2><p>{esc(happened)}</p>'
     rl = ""
     if rel:
         rl = f'<h2>{esc(L["related"])}</h2><ul>' + "".join(f'<li><a href="{esc(q["url"].rsplit("/", 1)[-1])}">{esc(q["title"])}</a></li>' for q in rel) + "</ul>"
     body = (f'<article class="post"><nav aria-label="breadcrumb"><a href="../index.html">{esc(L["latest"])}</a></nav>'
             f'<h1>{esc(p["title"])}</h1><p class="meta"><span class="badge">{esc(cat_label(p["category"], lang))}</span> '
             f'{esc(L["published"])}: <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
-            f'<p class="notice">{esc(L["disclaimer"])}</p>{fs}<h2>{esc(L["reported_by"])}</h2><ul>{srcs}</ul>{rl}</article>')
+            f'<p class="notice">{esc(L["disclaimer"])}</p>{fs}<h2>{esc(L["each_source"])}</h2><ul>{srcs}</ul><h2>{esc(L["unconfirmed"])}</h2><ul>{unc}</ul>{rl}</article>')
     canonical = f"{cfg['site_url']}/{p['url']}"
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": p["title"][:110], "datePublished": p["published_at"],
           "inLanguage": lang, "mainEntityOfPage": canonical, "publisher": {"@type": "Organization", "name": cfg["site_name"]},
@@ -751,23 +808,24 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
     now = now or datetime.now(timezone.utc)
     fetcher = fetcher or (lambda u: fetch_url(u, cfg["timeout_seconds"], cfg["retries"], cfg["retry_backoff_seconds"]))
     posts_doc, pub_doc = load_posts(root / "posts.json"), load_published(root / "published.json")
-    stats = {"feeds_ok": 0, "feeds_failed": 0, "candidates": 0, "published": [], "rejected": [], "duplicates": 0,
+    stats = {"queued_for_review": 0, "feeds_ok": 0, "feeds_failed": 0, "candidates": 0, "published": [], "rejected": [], "duplicates": 0,
              "errors": 0, "all_feeds_failed": False}
-    new_posts = []
+    new_posts, queue = [], []
     if not render_only:
         cands = collect(cfg, fetcher, stats)
         stats["candidates"] = len(cands)
         if not stats["all_feeds_failed"]:
             for c in cands:
                 c["score"] = score(c, cfg, now)
-            known = [{"id": p.get("id"), "lang": p.get("lang"), "title": p.get("title", "")} for p in posts_doc["posts"]]
-            known += [{"id": i.get("id"), "lang": i.get("id", "")[:2], "title": i.get("title", "")} for i in pub_doc["items"]]
+            known = known_entries(posts_doc, pub_doc)
             for c in sorted(cands, key=lambda c: c["score"], reverse=True):
                 if len(new_posts) >= cfg["max_new_posts_per_run"]:
                     break
                 try:
                     reasons = check_quality(c, cfg, now)
                     if reasons:
+                        if reasons == ["insufficient_value"] and not is_duplicate(c, known, cfg["duplicate_similarity"]):
+                            queue.append(review_item(c, now, reasons))  # too thin to publish: human review
                         stats["rejected"].append({"title": c["title"], "reasons": reasons}); continue
                     if is_duplicate(c, known, cfg["duplicate_similarity"]):
                         stats["duplicates"] += 1; continue
@@ -789,6 +847,15 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
         write_json(root / "posts.json", {"version": 1, "posts": all_posts})
         pub_doc["items"] += [{"id": p["id"], "title": p["title"], "url": p["url"], "published_at": p["published_at"]} for p in new_posts]
         write_json(root / "published.json", pub_doc)
+    if queue:
+        rev = load_review(root / "review.json")
+        have = {i["id"] for i in rev["items"]} | {k["id"] for k in known_entries(posts_doc, pub_doc)} | {p["id"] for p in new_posts}
+        fresh = [q for q in queue if q["id"] not in have]
+        cutoff = (now - timedelta(days=7)).isoformat()
+        kept = [i for i in rev["items"] if i.get("queued_at", cutoff) >= cutoff]  # stale queue entries expire after 7 days
+        if fresh or len(kept) != len(rev["items"]):
+            write_json(root / "review.json", {"version": 1, "items": kept + fresh})
+        stats["queued_for_review"] = len(fresh)
     stats["published"] = [p["id"] for p in new_posts]
     log.info("run complete: %d new post(s), %d feed(s) ok, %d failed", len(new_posts), stats["feeds_ok"], stats["feeds_failed"])
     return stats
@@ -801,12 +868,23 @@ def main(argv=None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="fetch and evaluate, write nothing")
     ap.add_argument("--check", action="store_true", help="verify generated files are up to date")
     ap.add_argument("--build-site", metavar="DIR", help="copy deployable files to DIR")
+    ap.add_argument("--list-review", action="store_true", help="show items waiting for manual review")
+    ap.add_argument("--approve", metavar="ID", help="publish one item from review.json after you checked its sources")
     ap.add_argument("-v", "--verbose", action="store_true")
     a = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if a.verbose else logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     try:
         if a.build_site:
             build_site(a.root, a.build_site); return 0
+        if a.list_review:
+            for i in load_review(Path(a.root) / "review.json")["items"]:
+                print(i["id"], "|", i["lang"], "|", i["title"], "|", ", ".join(s["publisher"] for s in i["sources"]))
+            return 0
+        if a.approve:
+            try:
+                print("published:", approve(a.root, a.approve)["url"]); return 0
+            except (KeyError, ValueError) as e:
+                log.error("cannot approve: %s", e); return 4
         if a.check:
             return 0 if check_generated(a.root) else 1
         stats = run(a.root, render_only=a.render_only, dry_run=a.dry_run)
