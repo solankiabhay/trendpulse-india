@@ -318,5 +318,72 @@ class PipelineTests(unittest.TestCase):
         self.assertFalse(engine.valid_post(bad))
 
 
+
+class StructureAndReviewTests(unittest.TestCase):
+    def setUp(self):
+        self.root = make_root()
+
+    def go(self, en, hi=None):
+        fx = fetcher_for({FEED_EN["url"]: rss(en), FEED_HI["url"]: rss(hi or [])})
+        return engine.run(self.root, fetcher=fx, now=NOW)
+
+    def page_of(self, lang):
+        posts = json.loads((self.root / "posts.json").read_text(encoding="utf-8"))["posts"]
+        p = next(p for p in posts if p["lang"] == lang)
+        return (self.root / p["url"]).read_text(encoding="utf-8")
+
+    def test_article_sections_en_and_hi(self):
+        self.go([GOOD_EN], [GOOD_HI])
+        en, hi = self.page_of("en"), self.page_of("hi")
+        for h in ("What happened", "What each source reports", "What is not confirmed"): self.assertIn(f"<h2>{h}</h2>", en)
+        for h in ("क्या हुआ", "हर स्रोत क्या रिपोर्ट करता है", "क्या पुष्टि नहीं हुई है"): self.assertIn(f"<h2>{h}</h2>", hi)
+        self.assertIn("<strong>Mint</strong>", en); self.assertIn("https://other.example/b2", en)  # publisher name + original link
+        self.assertNotIn("Background", en)  # no invented background section
+
+    def test_differing_headlines_are_flagged_as_unconfirmed(self):
+        odd = item("Parliament budget session to begin next week", related=[
+            ("Parliament budget session to begin next week", "https://news.example/a1", "The Hindu"),
+            ("Opposition plans walkout over farm laws", "https://other.example/b2", "Mint")])
+        self.go([odd])
+        self.assertIn("word the story differently", self.page_of("en")); self.assertIn("Mint", self.page_of("en"))
+
+    def test_single_source_flagged_when_summary_carries_value(self):
+        long = "Detailed summary text from the feed about the session timetable and agenda. " * 3
+        one = f'<item><title>Parliament budget session to begin next week - The Hindu</title><link>https://news.example/a1</link><pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate><description>{long}</description><source url="https://x.example">The Hindu</source></item>'
+        self.assertEqual(len(self.go([one])["published"]), 1)
+        self.assertIn("Only one publisher is cited", self.page_of("en"))
+
+    def test_insufficient_info_goes_to_review_not_published(self):
+        thin = item("Minister inaugurates new bridge in district")
+        s = self.go([thin])
+        self.assertEqual(s["published"], []); self.assertEqual(s["queued_for_review"], 1)
+        rev = json.loads((self.root / "review.json").read_text(encoding="utf-8"))["items"]
+        self.assertEqual(len(rev), 1); self.assertEqual(rev[0]["reasons"], ["insufficient_value"])
+        self.assertFalse((self.root / "posts.json").exists())
+        self.assertEqual(self.go([thin])["queued_for_review"], 0)  # rerun does not duplicate the queue entry
+        self.assertEqual(len(json.loads((self.root / "review.json").read_text())["items"]), 1)
+
+    def test_other_rejections_are_not_queued(self):
+        self.assertEqual(self.go([item("You won't believe this shocking result!!")])["queued_for_review"], 0)
+        self.assertFalse((self.root / "review.json").exists())
+
+    def test_approve_publishes_and_clears_queue(self):
+        self.go([item("Minister inaugurates new bridge in district")])
+        rid = json.loads((self.root / "review.json").read_text(encoding="utf-8"))["items"][0]["id"]
+        post = engine.approve(self.root, rid, now=NOW)
+        self.assertTrue((self.root / post["url"]).exists()); self.assertEqual(json.loads((self.root / "review.json").read_text())["items"], [])
+        self.assertIn(rid, (self.root / "published.json").read_text())
+        with self.assertRaises(KeyError): engine.approve(self.root, rid, now=NOW)
+        self.assertEqual(engine.main(["--root", str(self.root), "--approve", "en-missing"]), 4)
+
+    def test_stale_review_items_expire(self):
+        self.go([item("Minister inaugurates new bridge in district")])
+        later = datetime(2026, 10, 30, 12, 0, tzinfo=timezone.utc)
+        fx = fetcher_for({FEED_EN["url"]: rss([item("Another thin story about a village fair", pub="Fri, 30 Oct 2026 04:00:00 GMT")]), FEED_HI["url"]: rss([])})
+        engine.run(self.root, fetcher=fx, now=later)
+        titles = [i["title"] for i in json.loads((self.root / "review.json").read_text(encoding="utf-8"))["items"]]
+        self.assertEqual(titles, ["Another thin story about a village fair"])
+
+
 if __name__ == "__main__":
     unittest.main()
