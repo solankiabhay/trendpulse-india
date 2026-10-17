@@ -224,8 +224,8 @@ class PipelineTests(unittest.TestCase):
         listing = (self.root / "en/index.html").read_text(encoding="utf-8")
         self.assertIn("Parliament budget session", listing); self.assertIn("data-cat=\"india\"", listing)
         self.assertIn("बजट", (self.root / "hi/index.html").read_text(encoding="utf-8"))
-        self.assertNotIn("/en/posts/", (self.root / "sitemap.xml").read_text(encoding="utf-8"))  # thin digests stay out of the sitemap
-        self.assertIn('content="noindex,follow"', self.root.joinpath(posts[0]["url"]).read_text(encoding="utf-8"))
+        self.assertIn("/en/posts/", (self.root / "sitemap.xml").read_text(encoding="utf-8"))  # substantive test fixtures are indexable
+        self.assertNotIn('content="noindex,follow"', self.root.joinpath(posts[0]["url"]).read_text(encoding="utf-8"))
 
     def test_idempotent_rerun(self):
         self.run_(); before = {p: (self.root / p).read_bytes() for p in ("posts.json", "published.json", "sitemap.xml")}
@@ -439,7 +439,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         engine.run(root, fetcher=fx, now=NOW)
         posts = {p["title"]: p for p in json.loads((root / "posts.json").read_text(encoding="utf-8"))["posts"]}
         smap = (root / "sitemap.xml").read_text(encoding="utf-8")
-        for title, want in (("Chandrayaan team shares new lunar images", False), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", False)):
+        for title, want in (("Chandrayaan team shares new lunar images", True), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", True)):
             p = posts[title]; html = (root / p["url"]).read_text(encoding="utf-8")
             self.assertEqual(engine.indexable(p, cfg), want, title); self.assertEqual(p["url"] in smap, want, title)
             self.assertEqual('content="noindex,follow"' not in html, want, title)
