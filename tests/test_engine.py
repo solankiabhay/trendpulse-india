@@ -147,7 +147,7 @@ class QualityTests(unittest.TestCase):
 
     def test_rejections(self):
         c = self.cand(); c["published"] = None
-        self.assertIn("no_publication_date", engine.check_quality(c, self.cfg, NOW))
+        self.assertIn("no_publication_date", engine.check_quality(c, engine.load_config(ROOT / "config.json"), NOW))
         c = self.cand(item("Old story that nobody needs now", pub="Mon, 01 Jun 2026 04:00:00 GMT", related=[("a", "https://o.example/1", "O1"), ("b", "https://o.example/2", "O2")]))
         self.assertIn("too_old", engine.check_quality(c, self.cfg, NOW))
         c = self.cand(item("You won't believe what happened next!!"))
@@ -394,7 +394,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         c = engine.parse_feed(rss([xml]), FEED_EN)[0]
         self.assertEqual(c["summary"], "")
         self.assertTrue(c["boilerplate_summary"])
-        self.assertIn("insufficient_value", engine.check_quality(c, self.cfg, NOW))
+        self.assertIn("insufficient_value", engine.check_quality(c, engine.load_config(ROOT / "config.json"), NOW))
 
     def test_tidy_removes_read_more_and_cut_words(self):
         raw = "Tesla's long-delayed next-generation Roadster has taken centr ..\n\nRead more at:\nhttp://timesofindia.indiatimes.com/articleshow/1.cms?utm_source=x&utm_medium=text"
@@ -459,6 +459,33 @@ class LanguageAndUnpublishTests(unittest.TestCase):
             with self.assertRaises(ValueError): engine.unpublish(root, bad)
         with self.assertRaises(KeyError): engine.unpublish(root, "en-0123456789")
         self.assertEqual(engine.main(["--root", str(root), "--unpublish", "bad id"]), 4)
+
+class SourceExtractionTests(unittest.TestCase):
+    def test_source_parser_extracts_metadata_and_article_paragraphs_only(self):
+        parser = engine._MetaDescription()
+        parser.feed("""
+            <html><head><meta property="og:description" content="A sufficiently detailed publisher description about this reported event and its key context."></head>
+            <body><nav><p>Navigation text that must not appear in the summary because it is not story content.</p></nav>
+            <article><p>This is a detailed article paragraph with enough words to qualify as a useful snippet from a publisher page.</p>
+            <p>Another paragraph contains additional details about the event and what officials said during the briefing.</p></article>
+            <script><p>Ignore this hidden script content because it is not a readable article paragraph.</p></script></body></html>
+        """)
+        self.assertTrue(parser.descriptions)
+        self.assertEqual(len(parser.paragraphs), 2)
+        self.assertNotIn("Navigation text", " ".join(parser.paragraphs))
+        self.assertNotIn("hidden script", " ".join(parser.paragraphs))
+
+    def test_source_excerpt_is_limited_to_22_words(self):
+        long_text = " ".join(f"word{i}" for i in range(40))
+        excerpt = engine._short_attributed_text(long_text)
+        self.assertLessEqual(len(excerpt.removesuffix("…").split()), 22)
+        self.assertTrue(excerpt.endswith("…"))
+
+    def test_boilerplate_is_not_accepted_as_source_excerpt(self):
+        self.assertTrue(engine.is_boilerplate_summary(
+            "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        ))
+
 
 if __name__ == "__main__":
     unittest.main()
