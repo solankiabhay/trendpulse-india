@@ -132,7 +132,8 @@ class Workflows(unittest.TestCase):
     def test_concurrency_permissions_and_tests(self):
         self.assertIn("cancel-in-progress: false", self.ab); self.assertIn("group: trendpulse-pipeline", self.ab)
         self.assertIn("permissions:\n  contents: read", self.ab); self.assertNotIn("write-all", self.ab + self.ci)
-        self.assertLess(self.ab.index("unittest discover"), self.ab.index("python engine.py; fi"))
+        self.assertLess(self.ab.index("unittest discover"), self.ab.index("Run pipeline"))
+        self.assertIn("run: python engine.py", self.ab)
         self.assertIn("workflow_dispatch", self.ab)
         self.assertIn("unittest discover", self.ci); self.assertIn("engine.py --check", self.ci)
 
