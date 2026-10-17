@@ -388,6 +388,14 @@ class StructureAndReviewTests(unittest.TestCase):
 
 
 class TeaserAndIndexingTests(unittest.TestCase):
+    def test_google_news_boilerplate_is_not_treated_as_a_story_summary(self):
+        filler = "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        xml = item("Cyberleek shares new GTA 6 footage today", extra=f"<description>{filler}</description>")
+        c = engine.parse_feed(rss([xml]), FEED_EN)[0]
+        self.assertEqual(c["summary"], "")
+        self.assertTrue(c["boilerplate_summary"])
+        self.assertIn("insufficient_value", engine.check_quality(c, self.cfg, NOW))
+
     def test_tidy_removes_read_more_and_cut_words(self):
         raw = "Tesla's long-delayed next-generation Roadster has taken centr ..\n\nRead more at:\nhttp://timesofindia.indiatimes.com/articleshow/1.cms?utm_source=x&utm_medium=text"
         self.assertEqual(engine.tidy(raw), "Tesla's long-delayed next-generation Roadster has taken…")
