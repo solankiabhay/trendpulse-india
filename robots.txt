@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-USERNAME.github.io/trendpulse-india/sitemap.xml
+Sitemap: https://solankiabhay.github.io/trendpulse-india/sitemap.xml

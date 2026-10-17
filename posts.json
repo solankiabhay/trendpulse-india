@@ -1,4 +1,143 @@
 {
   "version": 1,
-  "posts": []
+  "posts": [
+    {
+      "id": "hi-53f623b9d2",
+      "lang": "hi",
+      "slug": "uae-3-53f623b9d2",
+      "url": "hi/posts/uae-3-53f623b9d2.html",
+      "title": "UAE शाही परिवार की बहू को रिहैब कैंप भेजा गया: कोकीन के नशे में बेहोश मिली थी, 3 साल के बच्चे को अकेला छोड़...",
+      "summary": "5 स्रोतों की रिपोर्ट: Amar Ujala, Dainik Bhaskar, India TV Hindi।",
+      "source_summary": "",
+      "category": "world",
+      "published_at": "2026-10-17T05:23:07+00:00",
+      "generated_at": "2026-10-17T05:31:49.097188+00:00",
+      "kind": "digest",
+      "keyword": null,
+      "score": 79.92,
+      "sources": [
+        {
+          "title": "UAE शाही परिवार की बहू को रिहैब कैंप भेजा गया: कोकीन के नशे में बेहोश मिली थी, 3 साल के बच्चे को अकेला छोड़...",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaHhfb1FZeThRX3NYWl9PY3BEU0U5Um5BclZNVG4tdjFTbTN6MS1WZEhyTDZYUDYwWXQzQmU3dlJNeFNRbHQtRkFpUjkxa1BsTGVWM2ZLRzB5c28yWGZ4UzZEekl5Um9fRVNTRW1qRjJiZGpfVnVKU0pYTjNWUHhCMUZaUWJWSUdTenhSbk91Qlo5b2dCbE5vUWhfOTlVVWd5UnhVU3lRNGF2OWx6SU9qMjNKZjFjQ0hnOHdESnN5Yw?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "लंदन में सड़क किनारे नशे में बेहोश मिलीं UAE के शाही परिवार की महिला, कोर्ट ने सुनाई सजा",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVC1nUWM3LURlcGE2R2ZoWVBySUREN1ZLZ2VkYkphWWFDbTh1OEptT24wdWJkdXFBSkVmWExxWEpoRnRfVGtmeFp1S1hUTUpNZmFjemNBLVhBanBQUjc1TXdMdWtxZ1hGYWVfY19UY3VlV3p1ZUN5UkZOVjd5ZkFUS0I4Z29PSW5RVnhXajVybHVOSnFTSUU2WjR4WlRoWk1MaUIzV1lQZFk1U3hYUVJVcUtRRDl3dW9KLWFCeW85ZDlkVXpla2ptSGpJUk9NRFE?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "नशा करके लुढ़क गई शाही परिवार की बहू, सड़क पर नंगे पैर दौड़ गया बच्चा",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPeGh4cGFsLW5PUmxyN0ZXakFlLUhQeDBtcFAyNEE5OFlSU0lLaFVzeTVEYXRnSkE1YW9xVU5Yc2YtUUtrWVRmWTItNUJtNEVlT1BqUWhQdkw1aXQxRmRNVVVKWXM4WHk1YlJ2NlBSSWgyNFBRb2pxeVFKbFY5R0Y2SkN1eDlCT2VMQzhqUEMweW5mOTlHMHh1NUlmaUFrWVA5UEdMNHdOS3ktRDdrczJiSERhRnVuZEVUajZYZXJLVzZSS2s1NktseDloMFU2Nl84ZjlodzVFell5dlBCMHlrc1ZLc2kyTEJENVFEeFliNkNOdEJFUTUwZmQxaHlCMFU2RE41MV8zVjVrN1VZaHJIcVE5UjRFV3BMQkc4?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "कौन हैं महराह अल नाहयान?: नशे में धुत लंदन की सड़क पर मिलीं बेहोश, अमीराती शाही परिवार से क्या है रिश्ता?",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcDVmS1pfdEtZSzNFRzFYdEsxQU16QVBpWmhGb3hBWFpmT3ptbXEtYUVjWU10UGVER09XUERwQ3dzV0htRWUzQU0tQzJRVmJUdGVoemJnS05sbTNMOTZxZFV6N2xtRU9zLVB3WVJRYkVmVVQzQ0dBcDJ3aDlXbEZHUDBraW1ROVNSZmxEcDlIcm0yQk1Xb2hfNDRPZTFSYXJUNnB4YU5VOF9OVmJWUGtrZXBVUjh3bzE0UERlNWJYcXkxZ0tPQzk0dkRxUTc2VFF1ZFVuWndLbTg2V3lmdFI1WjFaRTVhVVkw0gHuAUFVX3lxTE0tSEFLUTFnMzdjeEdDQmFpZ0JsSlo4Tm4yTnhSX24ybW5JZjJKbjNxVXpsbTFQVlFNc1JFZDFwemIyNnY5NUlFZ3h2UFQxMjJyUkgwM3BUTU9qYTNadXVzTUJNVGc1M3FKRTQtVkFmNGNYSnRQVkJmMExlWFczdkFuRUxqaW4yQU5OTTVxT2FEWGRHVzFIV1FKaUc2Y0VDdlY1b3VsSHdoNE9zMG9wdkxLM2xLWEY4YmJzSE8zQ0hqN3JwTDVHNWw0OTZvQl9TRTA2WW5maG9CYlJWTDE0MWM5VW50elRNLXhXNnliS2c?oc=5",
+          "publisher": "Amar Ujala"
+        },
+        {
+          "title": "UAE के शाही खानदान की बहू, लंदन की सड़क पर नशे में मिली थीं धुत; कौन हैं महराह अल नहयान?",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFVoa3NidDRKUnBVbmhhemNiRXFnelpmc3hUbmx3SlBHYUwxbG1oWVdSeG56Y1lmUHM0WWpQX29CT1NKcWotRVNyRlZZX09pOG90WlJOMGJKV3JnYUx0MnkwX2dMbUl2QURFSE1Ub3BEdzZlZHJHZE1VTkJhR2FtWU92Q0lab2VqZENreHFwcDhIS0RpdC1aU3ltMW8zbUxTUXVyNU8tbDI?oc=5",
+          "publisher": "Jagran"
+        }
+      ]
+    },
+    {
+      "id": "en-fac02bccba",
+      "lang": "en",
+      "slug": "ind-vs-wi-2026-27-ind-vs-wi-5th-t20i-match-preview-high-scor-fac02bccba",
+      "url": "en/posts/ind-vs-wi-2026-27-ind-vs-wi-5th-t20i-match-preview-high-scor-fac02bccba.html",
+      "title": "IND vs WI 2026/27, IND vs WI 5th T20I Match Preview - High-scoring series reaches tense decider in rainy Bengaluru",
+      "summary": "Coverage from 3 sources: Al Jazeera, Cricbuzz, Cricinfo.",
+      "source_summary": "",
+      "category": "trending",
+      "published_at": "2026-10-17T05:10:00+00:00",
+      "generated_at": "2026-10-17T05:31:49.097188+00:00",
+      "kind": "digest",
+      "keyword": "bengaluru",
+      "score": 79.8,
+      "sources": [
+        {
+          "title": "IND vs WI 2026/27, IND vs WI 5th T20I Match Preview - High-scoring series reaches tense decider in rainy Bengaluru",
+          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-5th-t20i-1529234/match-preview",
+          "publisher": "Cricinfo"
+        },
+        {
+          "title": "West Indies chase rare series win as international cricket returns to Chinnaswamy",
+          "url": "https://www.cricbuzz.com/cricket-news/140539/west-indies-chase-rare-series-win-in-india-as-international-cricket-returns-to-chinnaswamy",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "India vs West Indies: Fifth T20 International – teams, start, lineups, Hope",
+          "url": "https://www.aljazeera.com/sports/2026/10/16/india-vs-west-india-firth-t20-international-teams-prediction-lineups",
+          "publisher": "Al Jazeera"
+        }
+      ]
+    },
+    {
+      "id": "en-7d68b364a4",
+      "lang": "en",
+      "slug": "7d68b364a4",
+      "url": "en/posts/7d68b364a4.html",
+      "title": "పూలతేరుగా మూలవాగు..",
+      "summary": "Coverage from 3 sources: Andhrajyothy, Andhraprabha Daily, TV9 Telugu.",
+      "source_summary": "",
+      "category": "trending",
+      "published_at": "2026-10-17T05:10:00+00:00",
+      "generated_at": "2026-10-17T05:31:49.097188+00:00",
+      "kind": "digest",
+      "keyword": "బతుకమ్మ",
+      "score": 79.8,
+      "sources": [
+        {
+          "title": "పూలతేరుగా మూలవాగు..",
+          "url": "https://www.andhrajyothy.com/2026/telangana/karimnagar/the-mountain-stream-like-a-chariot-of-flowers-1568136.html",
+          "publisher": "Andhrajyothy"
+        },
+        {
+          "title": "తెలంగాణ ఆడపడుచుల ఆత్మీయతకు, ఐక్యతకు ప్రతీక బతుకమ్మ",
+          "url": "https://prabhanews.com/bathukamma-is-a-symbol-of-the-warmth-and-unity-of-the-women-of-telangana/",
+          "publisher": "Andhraprabha Daily"
+        },
+        {
+          "title": "బతుకమ్మలో పూల మధ్య పెట్టే గౌరమ్మ కథ తెలుసా?",
+          "url": "https://tv9telugu.com/photo-gallery/bathukamma-gouramma-story-why-turmeric-idol-is-key-to-the-festival-1933507.html",
+          "publisher": "TV9 Telugu"
+        }
+      ]
+    },
+    {
+      "id": "en-8472e7f25b",
+      "lang": "en",
+      "slug": "oppo-unveils-coloros-17-globally-silky-smooth-flow-with-ai-8472e7f25b",
+      "url": "en/posts/oppo-unveils-coloros-17-globally-silky-smooth-flow-with-ai-8472e7f25b.html",
+      "title": "OPPO Unveils ColorOS 17 Globally: Silky Smooth. Flow with AI.",
+      "summary": "Coverage from 3 sources: Android Police, OPPO, nokiapoweruser.com.",
+      "source_summary": "",
+      "category": "trending",
+      "published_at": "2026-10-17T05:00:00+00:00",
+      "generated_at": "2026-10-17T05:31:49.097188+00:00",
+      "kind": "digest",
+      "keyword": "oneplus coloros 17",
+      "score": 79.71,
+      "sources": [
+        {
+          "title": "OPPO Unveils ColorOS 17 Globally: Silky Smooth. Flow with AI.",
+          "url": "https://www.oppo.com/en/newsroom/press/oppo-color-os-17/",
+          "publisher": "OPPO"
+        },
+        {
+          "title": "Which OnePlus and Oppo phones are getting Android 17 and when?",
+          "url": "https://www.androidpolice.com/oppo-oneplus-coloros-17-rollout-schedule/",
+          "publisher": "Android Police"
+        },
+        {
+          "title": "ColorOS 17 October Update Brings Smarter Xiaobu Memory & Seamless Drag-and-Drop",
+          "url": "https://nokiapoweruser.com/coloros-17-october-update-xiaobu-memory-notes-ai-features/",
+          "publisher": "nokiapoweruser.com"
+        }
+      ]
+    }
+  ]
 }
