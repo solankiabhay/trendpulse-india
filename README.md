@@ -91,6 +91,7 @@ git add -A && git commit -m "Approve reviewed topic" && git push
 ## Troubleshooting
 - *Workflow fails "every enabled feed failed":* feeds blocked or URLs changed; run `python engine.py --dry-run -v` locally; edit `config.json`.
 - *CI fails "generated file out of date":* run `python engine.py --render-only` and commit.
+- *Refresh existing thin articles without adding new headlines:* run `python engine.py --refresh-only`.
 - *`posts.json.corrupt-*` appears:* a file was invalid JSON and was backed up, not deleted. Restore the backup, fix, rerun.
 - *Pages show stale content:* check the deploy job ran; Pages source must be "GitHub Actions".
 - *No new posts for days:* normal if feeds fail the quality gate; see `rejected:` log lines in the run.
