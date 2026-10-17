@@ -435,6 +435,7 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
             combined.append(part)
     if combined:
         c["summary"] = " ".join(combined)[:1200]
+        c["boilerplate_summary"] = False
 
 def parse_feed(data: bytes, feed: dict) -> list:
     low = data.lower()
