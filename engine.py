@@ -128,18 +128,20 @@ def tidy(text) -> str:
 
 
 def is_boilerplate_summary(text) -> bool:
-    """Identify generic Google News filler that contains no story-specific information."""
-    t = normalize_text(text).casefold()
-    return t in {
-        "comprehensive up-to-date news coverage, aggregated from sources all over the world by google news.",
+    """Recognize generic Google News filler despite minor punctuation or whitespace changes."""
+    t = normalize_text(text).casefold().strip(" .!:-")
+    if not t:
+        return False
+    generic = (
         "comprehensive up-to-date news coverage, aggregated from sources all over the world by google news",
-    }
-
+        "comprehensive up to date news coverage, aggregated from sources all over the world by google news",
+    )
+    return any(t == phrase or t.startswith(phrase + " ") for phrase in generic)
 
 def indexable(p, cfg) -> bool:
-    """Only substantive story summaries are indexed; source count alone is not evidence of article depth."""
-    summary = tidy(p.get("source_summary", ""))
-    return len(summary) >= cfg["min_summary_chars"] and not is_boilerplate_summary(summary)
+    """Only pages with real substance are offered to search engines; thin digests stay on the site as noindex."""
+    pubs = {s["publisher"].casefold() for s in p["sources"]}
+    return len(tidy(p.get("source_summary", ""))) >= cfg["min_summary_chars"] or len(pubs) >= cfg["index_min_publishers"]
 
 def clean_title(title: str, publisher: str = "") -> str:
     t = normalize_text(title)
@@ -636,10 +638,7 @@ def check_quality(c, cfg, now) -> list:
             r.append("date_in_future")
     if not language_ok(c["lang"], t):
         r.append("language_mismatch")
-    # Multiple links corroborate a headline but do not replace useful story detail.
-    # A generic/empty teaser must not be published just because several publishers are listed.
-    summary = tidy(c.get("summary", ""))
-    if c.get("boilerplate_summary") or is_boilerplate_summary(summary) or len(summary) < cfg["min_summary_chars"]:
+    if c.get("boilerplate_summary") or (len(publishers(c)) < cfg["min_sources"] and len(c["summary"]) < cfg["min_summary_chars"]):
         r.append("insufficient_value")
         r.append("insufficient_value")
     return r
