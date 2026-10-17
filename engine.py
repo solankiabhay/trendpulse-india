@@ -125,6 +125,15 @@ def tidy(text) -> str:
     return t
 
 
+def is_boilerplate_summary(text) -> bool:
+    """Identify generic Google News filler that contains no story-specific information."""
+    t = normalize_text(text).casefold()
+    return t in {
+        "comprehensive up-to-date news coverage, aggregated from sources all over the world by google news.",
+        "comprehensive up-to-date news coverage, aggregated from sources all over the world by google news",
+    }
+
+
 def indexable(p, cfg) -> bool:
     """Only pages with real substance are offered to search engines; thin digests stay on the site as noindex."""
     pubs = {s["publisher"].casefold() for s in p["sources"]}
@@ -370,7 +379,10 @@ def _parse_item(it, feed):
         if s:
             text = text.replace(s, " ")
     text = tidy(normalize_text(text).strip(" -–—|:·,"))
-    return {"title": title, "keyword": keyword, "published": pub, "summary": text if len(text) >= 40 else "",
+    boilerplate_summary = is_boilerplate_summary(text)
+    return {"title": title, "keyword": keyword, "published": pub,
+            "summary": text if len(text) >= 40 and not boilerplate_summary else "",
+            "boilerplate_summary": boilerplate_summary,
             "sources": sources[:6], "lang": feed["lang"], "category": feed["category"],
             "weight": feed.get("weight", 0), "feed": feed.get("name", feed["url"])}
 
@@ -474,6 +486,8 @@ def check_quality(c, cfg, now) -> list:
         r.append("shouting_title")
     if SPECULATION_RE.search(t) or SPECULATION_RE.search(c["summary"]):
         r.append("unsupported_speculation")
+    if c.get("boilerplate_summary"):
+        r.append("insufficient_value")
     if not c["sources"]:
         r.append("no_valid_source")
     if c["published"] is None:
@@ -808,7 +822,11 @@ def article_page(cfg, p, posts):
     rel = [q for q in posts if q["lang"] == lang and q["category"] == p["category"] and q["id"] != p["id"]]
     rel = sorted(rel, key=lambda q: q["published_at"], reverse=True)[:3]
     srcs = "".join(f'<li><strong>{esc(s["publisher"])}</strong>: <a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["title"] or s["publisher"])}</a></li>' for s in p["sources"])
-    happened = tidy(p.get("source_summary") or p["summary"])
+    happened_raw = p.get("source_summary") or p["summary"]
+    happened_parts = [tidy(part) for part in re.split(r"\n\s*\n", happened_raw) if tidy(part)]
+    if not happened_parts:
+        happened_parts = [tidy(p["summary"])]
+    happened_html = "".join(f"<p>{esc(part)}</p>" for part in happened_parts)
     pubs = {s["publisher"].casefold() for s in p["sources"]}
     differ = [s["publisher"] for s in p["sources"] if s["title"] and jaccard(tokens(s["title"]), tokens(p["title"])) < 0.4]
     unc = f'<li>{esc(L["un_headline"])}</li>'
@@ -816,7 +834,7 @@ def article_page(cfg, p, posts):
         unc += f'<li>{esc(L["un_single"])}</li>'
     if differ:
         unc += f'<li>{esc(L["un_differ"].format(names=", ".join(dict.fromkeys(differ))))}</li>'
-    fs = f'<h2>{esc(L["what_happened"])}</h2><p>{esc(happened)}</p>'
+    fs = f'<h2>{esc(L["what_happened"])}</h2>{happened_html}'
     rl = ""
     if rel:
         rl = f'<h2>{esc(L["related"])}</h2><ul>' + "".join(f'<li><a href="{esc(q["url"].rsplit("/", 1)[-1])}">{esc(q["title"])}</a></li>' for q in rel) + "</ul>"
@@ -960,9 +978,10 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
             current = tidy(p.get("source_summary") or "")
             if retried >= 4:
                 break
-            if current and not current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:")):
+            if current and not (current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
+                                or is_boilerplate_summary(current)):
                 continue
-            if current and len(current) >= cfg["min_summary_chars"]:
+            if current and len(current) >= cfg["min_summary_chars"] and not is_boilerplate_summary(current):
                 continue
             retried += 1
             candidate = {
