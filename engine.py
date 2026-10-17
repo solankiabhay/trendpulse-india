@@ -137,10 +137,9 @@ def is_boilerplate_summary(text) -> bool:
 
 
 def indexable(p, cfg) -> bool:
-    """Only pages with real substance are offered to search engines; thin digests stay on the site as noindex."""
-    pubs = {s["publisher"].casefold() for s in p["sources"]}
-    return len(tidy(p.get("source_summary", ""))) >= cfg["min_summary_chars"] or len(pubs) >= cfg["index_min_publishers"]
-
+    """Only substantive story summaries are indexed; source count alone is not evidence of article depth."""
+    summary = tidy(p.get("source_summary", ""))
+    return len(summary) >= cfg["min_summary_chars"] and not is_boilerplate_summary(summary)
 
 def clean_title(title: str, publisher: str = "") -> str:
     t = normalize_text(title)
@@ -637,7 +636,11 @@ def check_quality(c, cfg, now) -> list:
             r.append("date_in_future")
     if not language_ok(c["lang"], t):
         r.append("language_mismatch")
-    if c.get("boilerplate_summary") or (len(publishers(c)) < cfg["min_sources"] and len(c["summary"]) < cfg["min_summary_chars"]):
+    # Multiple links corroborate a headline but do not replace useful story detail.
+    # A generic/empty teaser must not be published just because several publishers are listed.
+    summary = tidy(c.get("summary", ""))
+    if c.get("boilerplate_summary") or is_boilerplate_summary(summary) or len(summary) < cfg["min_summary_chars"]:
+        r.append("insufficient_value")
         r.append("insufficient_value")
     return r
 
