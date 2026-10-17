@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+.venv/
+venv/
+_site/
+*.corrupt-*
+*.tmp
+.DS_Store
+node_modules/
+*.log
