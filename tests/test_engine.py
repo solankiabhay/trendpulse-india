@@ -17,9 +17,13 @@ def rss(items):
             "<channel><title>x</title>" + "".join(items) + "</channel></rss>").encode("utf-8")
 
 
-def item(title, pub="Sat, 17 Oct 2026 04:00:00 GMT", publisher="The Hindu", related=(), link="https://news.example/a1", extra=""):
+def item(title, pub="Sat, 17 Oct 2026 04:00:00 GMT", publisher="The Hindu", related=(), link="https://news.example/a1", extra="", include_detail=True):
     li = "".join(f'<li><a href="{u}">{t}</a>&nbsp;&nbsp;<font color="#6f6f6f">{p}</font></li>' for t, u, p in related)
-    d = f"<description><![CDATA[<ol>{li}</ol>]]></description>" if related else ""
+    # Synthetic detail is test-only fixture data; production summaries must come from feeds or publisher pages.
+    fixture_detail = (" Test-only fixture detail: the report describes the event and gives readers additional context, "
+                      "timing, and reported developments beyond the headline. This synthetic text exists only to exercise "
+                      "the content-quality pipeline in automated tests.") if include_detail and related else ""
+    d = f"<description><![CDATA[<ol>{li}</ol>{fixture_detail}]]></description>" if related else ""
     dt = f"<pubDate>{pub}</pubDate>" if pub else ""
     return f'<item><title>{title} - {publisher}</title><link>{link}</link>{dt}{d}<source url="https://x.example">{publisher}</source>{extra}</item>'
 
@@ -220,8 +224,8 @@ class PipelineTests(unittest.TestCase):
         listing = (self.root / "en/index.html").read_text(encoding="utf-8")
         self.assertIn("Parliament budget session", listing); self.assertIn("data-cat=\"india\"", listing)
         self.assertIn("बजट", (self.root / "hi/index.html").read_text(encoding="utf-8"))
-        self.assertNotIn("/en/posts/", (self.root / "sitemap.xml").read_text(encoding="utf-8"))  # thin digests stay out of the sitemap
-        self.assertIn('content="noindex,follow"', self.root.joinpath(posts[0]["url"]).read_text(encoding="utf-8"))
+        self.assertIn("/en/posts/", (self.root / "sitemap.xml").read_text(encoding="utf-8"))  # substantive test fixtures are indexable
+        self.assertNotIn('content="noindex,follow"', self.root.joinpath(posts[0]["url"]).read_text(encoding="utf-8"))
 
     def test_idempotent_rerun(self):
         self.run_(); before = {p: (self.root / p).read_bytes() for p in ("posts.json", "published.json", "sitemap.xml")}
@@ -364,6 +368,22 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertEqual(self.go([thin])["queued_for_review"], 0)  # rerun does not duplicate the queue entry
         self.assertEqual(len(json.loads((self.root / "review.json").read_text())["items"]), 1)
 
+    def test_multi_source_headlines_without_substantive_summary_go_to_review(self):
+        thin = item(
+            "Minister announces a new transport project today",
+            related=[
+                ("Minister announces a new transport project today", "https://a.example/1", "Publisher A"),
+                ("Transport project announced by officials", "https://b.example/2", "Publisher B"),
+                ("Officials outline transport project", "https://c.example/3", "Publisher C"),
+            ],
+            include_detail=False,
+        )
+        stats = self.go([thin])
+        self.assertEqual(stats["published"], [])
+        self.assertEqual(stats["queued_for_review"], 1)
+        self.assertIn("insufficient_value", stats["rejected"][0]["reasons"])
+        self.assertFalse((self.root / "posts.json").exists())
+
     def test_other_rejections_are_not_queued(self):
         self.assertEqual(self.go([item("You won't believe this shocking result!!")])["queued_for_review"], 0)
         self.assertFalse((self.root / "review.json").exists())
@@ -419,7 +439,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         engine.run(root, fetcher=fx, now=NOW)
         posts = {p["title"]: p for p in json.loads((root / "posts.json").read_text(encoding="utf-8"))["posts"]}
         smap = (root / "sitemap.xml").read_text(encoding="utf-8")
-        for title, want in (("Chandrayaan team shares new lunar images", False), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", False)):
+        for title, want in (("Chandrayaan team shares new lunar images", True), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", True)):
             p = posts[title]; html = (root / p["url"]).read_text(encoding="utf-8")
             self.assertEqual(engine.indexable(p, cfg), want, title); self.assertEqual(p["url"] in smap, want, title)
             self.assertEqual('content="noindex,follow"' not in html, want, title)
