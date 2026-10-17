@@ -10,6 +10,7 @@ summaries. They are not original reporting and are never presented as such.
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import html
 import json
@@ -33,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 3
+SUMMARY_REFRESH_VERSION = 4
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -466,6 +467,29 @@ def fetch_source_page(url, timeout=8):
         raise FetchError(f"{url}: {e}") from e
 
 
+def embedded_source_url(url):
+    """Recover a publisher URL when a Google News RSS token contains it."""
+    try:
+        parsed = urllib.parse.urlsplit(url or "")
+        for key, value in urllib.parse.parse_qsl(parsed.query, keep_blank_values=True):
+            if key.casefold() in ("url", "u", "target"):
+                candidate = safe_url(value)
+                if candidate and not host_of(candidate).casefold().endswith("google.com"):
+                    return candidate
+        match = re.search(r"/articles/([^/?#]+)", parsed.path)
+        if match:
+            token = match.group(1)
+            token += "=" * ((4 - len(token) % 4) % 4)
+            decoded = base64.urlsafe_b64decode(token.encode("ascii"))
+            for found in re.findall(rb"https?://[^\x00-\x20\"'<>]+", decoded):
+                candidate = safe_url(found.decode("utf-8", errors="ignore").rstrip(".,;)]}"))
+                if candidate and not host_of(candidate).casefold().endswith("google.com"):
+                    return candidate
+    except (ValueError, UnicodeError, base64.binascii.Error):
+        return None
+    return None
+
+
 def _short_attributed_text(text, max_words=22):
     """Keep only a short excerpt from one publisher; never mirror a full article."""
     text = tidy(text)
@@ -490,6 +514,10 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
         if not url:
             continue
         try:
+            original_url = url
+            embedded_url = embedded_source_url(url) if host_of(url).casefold().startswith("news.google.") else None
+            if embedded_url:
+                url = embedded_url
             final_url, raw = fetch_source_page(url, timeout=min(cfg["timeout_seconds"], 5))
             parser = _MetaDescription()
             parser.feed(raw.decode("utf-8", errors="replace"))
@@ -513,7 +541,7 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
                     parser = _MetaDescription()
                     parser.feed(raw.decode("utf-8", errors="replace"))
                     final_host = host_of(final_url).casefold()
-            if final_url != url and not final_host.startswith("news.google."):
+            if final_url != original_url and not final_host.startswith("news.google."):
                 source["url"] = final_url
             options = parser.descriptions + parser.paragraphs[:4]
             snippet = ""
