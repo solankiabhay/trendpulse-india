@@ -1,4 +1,12 @@
-# Release 1.1.0
+# Release 1.2.0
+- Thin digests (fewer than 3 publishers and under 160 chars of summary) are now `noindex` and left out of the sitemap.
+- Feed teaser debris ("Read more at: ...", URLs, mid-word cuts) is cleaned, including in already-stored posts.
+- Fixed: the language check only detected Devanagari, so Telugu/Malayalam/Gujarati titles were accepted as English. Now enforced per script.
+- New: `--unpublish ID` and an `unpublish_ids` input on the Auto Blog workflow; removed posts are backed up in `unpublished.json`.
+- Auto Blog now regenerates pages from stored posts before running tests.
+- Tests: 68 -> 74.
+
+# Release 1.1.0 (previous)
 - Article pages restructured: What happened / What each source reports (publisher + link) / What is not confirmed, in English and Hindi.
 - Thin topics now go to `review.json` (7-day expiry) instead of being dropped; `--list-review` and `--approve ID` added.
 - No invented background or facts: sections only contain what feeds actually provide.
