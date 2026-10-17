@@ -531,6 +531,8 @@ class SourceExtractionTests(unittest.TestCase):
         self.assertLessEqual(len(excerpt.removesuffix("…").split()), 22)
         self.assertTrue(excerpt.endswith("…"))
 
+    def test_google_news_boilerplate_tolerates_punctuation_variants(self):
+        self.assertTrue(engine.is_boilerplate_summary("  Comprehensive up to date news coverage, aggregated from sources all over the world by Google News!  "))
     def test_boilerplate_is_not_accepted_as_source_excerpt(self):
         self.assertTrue(engine.is_boilerplate_summary(
             "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."

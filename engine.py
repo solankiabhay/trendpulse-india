@@ -128,13 +128,15 @@ def tidy(text) -> str:
 
 
 def is_boilerplate_summary(text) -> bool:
-    """Identify generic Google News filler that contains no story-specific information."""
-    t = normalize_text(text).casefold()
-    return t in {
-        "comprehensive up-to-date news coverage, aggregated from sources all over the world by google news.",
+    """Recognize generic Google News filler despite minor punctuation or whitespace changes."""
+    t = normalize_text(text).casefold().strip(" .!:-")
+    if not t:
+        return False
+    generic = (
         "comprehensive up-to-date news coverage, aggregated from sources all over the world by google news",
-    }
-
+        "comprehensive up to date news coverage, aggregated from sources all over the world by google news",
+    )
+    return any(t == phrase or t.startswith(phrase + " ") for phrase in generic)
 
 def indexable(p, cfg) -> bool:
     """Only substantive, non-boilerplate summaries may enter search indexes.
@@ -146,7 +148,6 @@ def indexable(p, cfg) -> bool:
     if not summary or is_boilerplate_summary(summary):
         return False
     return len(summary) >= cfg["min_summary_chars"]
-
 
 def clean_title(title: str, publisher: str = "") -> str:
     t = normalize_text(title)
