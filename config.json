@@ -1,0 +1,136 @@
+{
+  "site_name": "TrendPulse India",
+  "site_url": "https://YOUR-USERNAME.github.io/trendpulse-india",
+  "contact_email": "contact@example.com",
+  "timeout_seconds": 15,
+  "retries": 2,
+  "retry_backoff_seconds": 2,
+  "max_new_posts_per_run": 4,
+  "max_age_hours": 72,
+  "duplicate_similarity": 0.6,
+  "min_title_chars": 12,
+  "min_sources": 2,
+  "min_summary_chars": 160,
+  "max_list_items": 60,
+  "feeds": [
+    {
+      "name": "Google News NATION (en)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "india",
+      "weight": 0
+    },
+    {
+      "name": "Google News WORLD (en)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "world",
+      "weight": 0
+    },
+    {
+      "name": "Google News BUSINESS (en)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "business",
+      "weight": 0
+    },
+    {
+      "name": "Google News TECHNOLOGY (en)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "technology",
+      "weight": 0
+    },
+    {
+      "name": "Google News ENTERTAINMENT (en)",
+      "url": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "entertainment",
+      "weight": 0
+    },
+    {
+      "name": "Google News SPORTS (en)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "sports",
+      "weight": 0
+    },
+    {
+      "name": "Google News SCIENCE (en)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "science",
+      "weight": 0
+    },
+    {
+      "name": "Google News HEALTH (en)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "health",
+      "weight": 0
+    },
+    {
+      "name": "Google News NATION (hi)",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "india",
+      "weight": 0
+    },
+    {
+      "name": "Google News WORLD (hi)",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "world",
+      "weight": 0
+    },
+    {
+      "name": "Google News BUSINESS (hi)",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "business",
+      "weight": 0
+    },
+    {
+      "name": "Google News TECHNOLOGY (hi)",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "technology",
+      "weight": 0
+    },
+    {
+      "name": "Google News ENTERTAINMENT (hi)",
+      "url": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "entertainment",
+      "weight": 0
+    },
+    {
+      "name": "Google News SPORTS (hi)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "sports",
+      "weight": 0
+    },
+    {
+      "name": "Google News SCIENCE (hi)",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "science",
+      "weight": 0
+    },
+    {
+      "name": "Google News HEALTH (hi)",
+      "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "health",
+      "weight": 0
+    },
+    {
+      "name": "Google Trends India (daily)",
+      "url": "https://trends.google.com/trending/rss?geo=IN",
+      "lang": "en",
+      "category": "trending",
+      "weight": 10
+    }
+  ]
+}

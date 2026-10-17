@@ -1,0 +1,1 @@
+# TrendPulse India has no third-party runtime dependencies (Python standard library only).

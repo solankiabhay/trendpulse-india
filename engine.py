@@ -1,0 +1,825 @@
+#!/usr/bin/env python3
+"""TrendPulse India pipeline (Python standard library only).
+
+RSS/Atom discovery -> normalisation -> quality gate -> duplicate check ->
+digest generation -> safe JSON writes -> static HTML/sitemap/robots rendering.
+
+Articles are automatically compiled DIGESTS of source headlines and feed
+summaries. They are not original reporting and are never presented as such.
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import html
+import json
+import logging
+import os
+import re
+import shutil
+import sys
+import tempfile
+import time
+import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
+from pathlib import Path
+
+log = logging.getLogger("trendpulse")
+
+MAX_FEED_BYTES = 5_000_000
+IST = timezone(timedelta(hours=5, minutes=30))
+LANGS = ("en", "hi")
+CATEGORIES = {
+    "india": ("India", "भारत"), "world": ("World", "दुनिया"),
+    "business": ("Business", "कारोबार"), "technology": ("Technology", "तकनीक"),
+    "entertainment": ("Entertainment", "मनोरंजन"), "sports": ("Sports", "खेल"),
+    "science": ("Science", "विज्ञान"), "health": ("Health", "स्वास्थ्य"),
+    "trending": ("Trending", "ट्रेंडिंग"),
+}
+DEFAULTS = {
+    "site_name": "TrendPulse India",
+    "site_url": "https://example.github.io/trendpulse-india",
+    "contact_email": "contact@example.com",
+    "timeout_seconds": 15, "retries": 2, "retry_backoff_seconds": 2,
+    "max_new_posts_per_run": 4, "max_age_hours": 72, "duplicate_similarity": 0.6,
+    "min_title_chars": 12, "min_sources": 2, "min_summary_chars": 160,
+    "max_list_items": 60, "feeds": [],
+}
+POST_URL_RE = re.compile(r"^(en|hi)/posts/[A-Za-z0-9-]+\.html$")
+CLICKBAIT_RE = re.compile(
+    r"you won'?t believe|shocking|must[- ]see|!{2,}|\?{2,}|चौंकाने वाला|आप यकीन नहीं करेंगे", re.I)
+SPECULATION_RE = re.compile(r"\b(rumou?rs?|unconfirmed|unverified claim)\b|अफवाह|अफ़वाह|अपुष्ट", re.I)
+
+
+class FeedError(Exception):
+    pass
+
+
+class FetchError(Exception):
+    pass
+
+
+class ConfigError(Exception):
+    pass
+
+
+# ---------------------------------------------------------------- text utils
+def normalize_text(s) -> str:
+    s = unicodedata.normalize("NFKC", html.unescape(s or ""))
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def tokens(text: str) -> set:
+    """Word tokens; keeps Devanagari combining marks so Hindi words stay whole."""
+    out, cur = [], []
+    for ch in normalize_text(text).casefold():
+        if unicodedata.category(ch)[0] in "LMN":
+            cur.append(ch)
+        elif cur:
+            out.append("".join(cur)); cur = []
+    if cur:
+        out.append("".join(cur))
+    return {t for t in out if len(t) > 1}
+
+
+def jaccard(a: set, b: set) -> float:
+    return len(a & b) / len(a | b) if a and b else 0.0
+
+
+def safe_url(u):
+    """Return a normalised http(s) URL or None (rejects javascript:, ftp:, data: ...)."""
+    try:
+        p = urllib.parse.urlsplit((u or "").strip())
+    except ValueError:
+        return None
+    if p.scheme not in ("http", "https") or not p.netloc:
+        return None
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(p.query, keep_blank_values=True)
+         if not (k.lower().startswith("utm_") or k.lower() in ("fbclid", "gclid"))]
+    return urllib.parse.urlunsplit((p.scheme, p.netloc, p.path, urllib.parse.urlencode(q), ""))
+
+
+def host_of(u: str) -> str:
+    return urllib.parse.urlsplit(u).netloc.removeprefix("www.")
+
+
+def clean_title(title: str, publisher: str = "") -> str:
+    t = normalize_text(title)
+    if publisher:
+        for sep in (" - ", " | ", " – "):
+            suf = sep + publisher
+            if t.casefold().endswith(suf.casefold()):
+                return t[: -len(suf)].strip()
+    return t
+
+
+def parse_date(s):
+    s = (s or "").strip()
+    if not s:
+        return None
+    try:
+        dt = parsedate_to_datetime(s)
+    except (TypeError, ValueError, IndexError):
+        dt = None
+    if dt is None:
+        try:
+            dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
+def deva_ratio(t: str) -> float:
+    letters = [c for c in t if unicodedata.category(c)[0] in "LM"]
+    return sum("\u0900" <= c <= "\u097f" for c in letters) / len(letters) if letters else 0.0
+
+
+def make_id(lang: str, title: str) -> str:
+    h = hashlib.sha1(" ".join(sorted(tokens(title))).encode("utf-8")).hexdigest()[:10]
+    return f"{lang}-{h}"
+
+
+def make_slug(lang: str, title: str) -> str:
+    h = make_id(lang, title).split("-", 1)[1]
+    asc = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode()
+    asc = re.sub(r"[^a-z0-9]+", "-", asc.lower()).strip("-")[:60].rstrip("-")
+    return f"{asc}-{h}" if asc else h
+
+
+# ---------------------------------------------------------------- file safety
+def atomic_write(path, text: str) -> None:
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(dir=path.parent, prefix=path.name + ".", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as f:
+            f.write(text); f.flush(); os.fsync(f.fileno())
+        os.chmod(tmp, 0o644)  # mkstemp defaults to 0600; web files must be readable
+        os.replace(tmp, path)
+    except BaseException:
+        if os.path.exists(tmp):
+            os.unlink(tmp)
+        raise
+
+
+def write_json(path, data) -> None:
+    atomic_write(path, json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+
+
+def load_json(path, default, validator=None):
+    """Load JSON. Corrupt/invalid files are copied to *.corrupt-<ts> and `default` is used."""
+    p = Path(path)
+    if not p.exists():
+        return default
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+        if validator and not validator(data):
+            raise ValueError("unexpected structure")
+        return data
+    except (ValueError, UnicodeDecodeError) as e:
+        backup = p.with_name(f"{p.name}.corrupt-{int(time.time())}")
+        shutil.copy2(p, backup)
+        log.error("%s invalid (%s); backup saved as %s", p.name, e, backup.name)
+        return default
+
+
+def load_posts(path):
+    ok = lambda d: isinstance(d, dict) and isinstance(d.get("posts"), list)
+    return load_json(path, {"version": 1, "posts": []}, ok)
+
+
+def load_published(path):
+    ok = lambda d: isinstance(d, dict) and isinstance(d.get("items"), list)
+    return load_json(path, {"version": 1, "items": []}, ok)
+
+
+def load_config(path) -> dict:
+    p = Path(path)
+    if not p.exists():
+        raise ConfigError(f"config not found: {p}")
+    try:
+        user = json.loads(p.read_text(encoding="utf-8"))
+    except ValueError as e:
+        raise ConfigError(f"config is not valid JSON: {e}")
+    cfg = {**DEFAULTS, **user}
+    cfg["site_url"] = str(cfg["site_url"]).rstrip("/")
+    if not cfg["site_url"].startswith(("http://", "https://")):
+        raise ConfigError("site_url must start with http:// or https://")
+    for f in cfg["feeds"]:
+        if not safe_url(f.get("url")):
+            raise ConfigError(f"feed has invalid url: {f}")
+        if f.get("lang") not in LANGS or f.get("category") not in CATEGORIES:
+            raise ConfigError(f"feed needs lang in {LANGS} and a known category: {f}")
+    return cfg
+
+
+# ---------------------------------------------------------------- fetching
+def fetch_url(url, timeout=15, retries=2, backoff=2, sleep=time.sleep) -> bytes:
+    if not safe_url(url):
+        raise FetchError(f"refusing unsafe URL: {url!r}")
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "TrendPulseIndia/1.0 (+RSS reader)"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                data = r.read(MAX_FEED_BYTES + 1)
+            if len(data) > MAX_FEED_BYTES:
+                raise FetchError("feed too large")
+            return data
+        except FetchError:
+            raise
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code < 500 and e.code != 429:
+                break
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            last = e
+        if attempt < retries:
+            sleep(backoff * (attempt + 1))
+    raise FetchError(f"{url}: {last}")
+
+
+# ---------------------------------------------------------------- parsing
+def _local(tag) -> str:
+    return tag.rsplit("}", 1)[-1] if isinstance(tag, str) else ""
+
+
+def _text(el, name) -> str:
+    for c in el:
+        if _local(c.tag) == name and (c.text or "").strip():
+            return c.text.strip()
+    return ""
+
+
+def _link(el) -> str:
+    for c in el:
+        if _local(c.tag) == "link":
+            href = c.get("href")
+            if href and c.get("rel", "alternate") == "alternate":
+                return href
+            if (c.text or "").strip():
+                return c.text.strip()
+    return ""
+
+
+class _Desc(HTMLParser):
+    """Extracts text and (url, title, publisher) anchors from feed description HTML."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.text, self.anchors = [], []
+        self._href, self._atext, self._font, self._ftext = None, [], False, []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "a":
+            self._href, self._atext = dict(attrs).get("href"), []
+        elif tag == "font":
+            self._font, self._ftext = True, []
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self._href is not None:
+            self.anchors.append({"url": self._href, "title": normalize_text("".join(self._atext)), "publisher": ""})
+            self._href = None
+        elif tag == "font" and self._font:
+            self._font = False
+            if self.anchors and not self.anchors[-1]["publisher"]:
+                self.anchors[-1]["publisher"] = normalize_text("".join(self._ftext))
+
+    def handle_data(self, d):
+        self.text.append(d)
+        if self._href is not None:
+            self._atext.append(d)
+        if self._font:
+            self._ftext.append(d)
+
+
+def _parse_item(it, feed):
+    raw_title = normalize_text(_text(it, "title"))
+    if not raw_title:
+        return None
+    publisher = ""
+    for ch in it:
+        if _local(ch.tag) == "source":
+            publisher = normalize_text(ch.text or "")
+    pub = parse_date(_text(it, "pubDate") or _text(it, "published") or _text(it, "updated") or _text(it, "date"))
+    d = _Desc()
+    d.feed(_text(it, "description") or _text(it, "summary") or _text(it, "content"))
+    sources, seen = [], set()
+
+    def add(t, u, p):
+        nu = safe_url(u)
+        if nu and nu not in seen:
+            seen.add(nu)
+            sources.append({"title": normalize_text(t), "url": nu, "publisher": normalize_text(p) or host_of(nu)})
+
+    news = [c for c in it if _local(c.tag) == "news_item"]
+    keyword, title = None, clean_title(raw_title, publisher)
+    if news:  # Google Trends item: the keyword is not a headline, use its first news item
+        keyword = raw_title
+        n0_pub = normalize_text(_text(news[0], "news_item_source"))
+        title = clean_title(_text(news[0], "news_item_title"), n0_pub) or raw_title
+        for n in news:
+            add(_text(n, "news_item_title"), _text(n, "news_item_url"), _text(n, "news_item_source"))
+    else:
+        add(title, _link(it), publisher)
+    for a in d.anchors:
+        add(clean_title(a["title"], a["publisher"]), a["url"], a["publisher"])
+    text = normalize_text("".join(d.text))
+    for s in sorted([raw_title, publisher] + [a["title"] for a in d.anchors] + [a["publisher"] for a in d.anchors],
+                    key=len, reverse=True):
+        if s:
+            text = text.replace(s, " ")
+    text = normalize_text(text).strip(" -–—|:·,.")
+    return {"title": title, "keyword": keyword, "published": pub, "summary": text if len(text) >= 40 else "",
+            "sources": sources[:6], "lang": feed["lang"], "category": feed["category"],
+            "weight": feed.get("weight", 0), "feed": feed.get("name", feed["url"])}
+
+
+def parse_feed(data: bytes, feed: dict) -> list:
+    low = data.lower()
+    if b"<!doctype" in low or b"<!entity" in low:
+        raise FeedError("DTD/entity declarations are not allowed")
+    try:
+        root = ET.fromstring(data)
+    except ET.ParseError as e:
+        raise FeedError(f"malformed XML: {e}")
+    kind = _local(root.tag)
+    if kind in ("rss", "RDF"):
+        items = [e for e in root.iter() if _local(e.tag) == "item"]
+    elif kind == "feed":
+        items = [e for e in root if _local(e.tag) == "entry"]
+    else:
+        raise FeedError(f"unrecognised feed root <{kind}>")
+    out = []
+    for it in items:
+        try:
+            c = _parse_item(it, feed)
+        except Exception as e:  # one bad entry must not lose the feed
+            log.warning("skipping bad entry in %s: %s", feed.get("name", feed["url"]), e)
+            continue
+        if c:
+            out.append(c)
+    return out
+
+
+# ---------------------------------------------------------------- quality gate
+def publishers(c) -> set:
+    return {s["publisher"].casefold() for s in c["sources"]}
+
+
+def score(c, cfg, now) -> float:
+    age = (now - c["published"]).total_seconds() / 3600 if c["published"] else cfg["max_age_hours"]
+    recency = max(0.0, 40 * (1 - age / cfg["max_age_hours"]))
+    return round(recency + 10 * min(len(publishers(c)), 4) + (10 if c["summary"] else 0) + c.get("weight", 0), 2)
+
+
+def check_quality(c, cfg, now) -> list:
+    """Return rejection reasons; an empty list means the candidate may be published."""
+    r, t = [], c["title"]
+    if len(t) < cfg["min_title_chars"] or len(t) > 160:
+        r.append("title_length")
+    if CLICKBAIT_RE.search(t):
+        r.append("clickbait_title")
+    latin = [ch for ch in t if ch.isascii() and ch.isalpha()]
+    if len(latin) > 20 and sum(ch.isupper() for ch in latin) / len(latin) > 0.7:
+        r.append("shouting_title")
+    if SPECULATION_RE.search(t) or SPECULATION_RE.search(c["summary"]):
+        r.append("unsupported_speculation")
+    if not c["sources"]:
+        r.append("no_valid_source")
+    if c["published"] is None:
+        r.append("no_publication_date")
+    else:
+        age = now - c["published"]
+        if age > timedelta(hours=cfg["max_age_hours"]):
+            r.append("too_old")
+        if age < timedelta(hours=-1):
+            r.append("date_in_future")
+    ratio = deva_ratio(t)
+    if (c["lang"] == "hi" and ratio < 0.4) or (c["lang"] == "en" and ratio > 0.3):
+        r.append("language_mismatch")
+    if len(publishers(c)) < cfg["min_sources"] and len(c["summary"]) < cfg["min_summary_chars"]:
+        r.append("insufficient_value")
+    return r
+
+
+def is_duplicate(c, known: list, threshold: float) -> bool:
+    """known: [{id, lang, title}] from posts, publication history and this batch."""
+    cid, tk = make_id(c["lang"], c["title"]), tokens(c["title"])
+    return any(k.get("id") == cid or (k.get("lang") == c["lang"] and jaccard(tk, tokens(k.get("title", ""))) >= threshold)
+               for k in known)
+
+
+# ---------------------------------------------------------------- post model
+T = {
+    "en": {
+        "home": "Home", "english": "English", "hindi": "हिंदी", "categories": "Categories", "about": "About",
+        "contact": "Contact", "privacy": "Privacy Policy", "editorial": "Editorial Policy", "skip": "Skip to main content",
+        "search": "Search", "search_ph": "Search topics", "all": "All", "read_more": "Read the digest",
+        "sources": "Sources", "latest": "Latest articles", "trending": "Trending now", "related": "Related topics",
+        "hero_title": "What India is talking about, with the sources attached",
+        "hero_text": "TrendPulse India collects headlines from public news and trends feeds, groups the coverage, and links every digest back to the original reports. Available in English and Hindi.",
+        "notice": "Digests are compiled automatically from source feeds and are not independently verified.",
+        "empty": "No articles yet. They will appear after the automated pipeline runs for the first time.",
+        "nomatch": "No articles match your search.", "results": "{n} articles shown",
+        "coverage": "Coverage from {n} sources: {names}.", "reported_by": "Reported by",
+        "feed_summary": "Summary from the source feed", "published": "Published",
+        "disclaimer": "This page is an automatic digest of headlines and feed summaries from the sources listed. TrendPulse India has not independently verified them. Read the original reports for full details.",
+        "choose": "Read in English", "choose_hi": "हिंदी में पढ़ें", "nav": "Main navigation", "footer": "Footer",
+        "cats_label": "Filter by category", "locale": "en_IN", "tagline": "Trending topics from India, with sources",
+    },
+    "hi": {
+        "home": "होम", "english": "English", "hindi": "हिंदी", "categories": "श्रेणियाँ", "about": "हमारे बारे में",
+        "contact": "संपर्क", "privacy": "गोपनीयता नीति", "editorial": "संपादकीय नीति", "skip": "मुख्य सामग्री पर जाएँ",
+        "search": "खोजें", "search_ph": "विषय खोजें", "all": "सभी", "read_more": "पूरा सार पढ़ें",
+        "sources": "स्रोत", "latest": "ताज़ा लेख", "trending": "अभी चर्चा में", "related": "संबंधित विषय",
+        "hero_title": "भारत में क्या चर्चा में है, स्रोतों के साथ",
+        "hero_text": "TrendPulse India सार्वजनिक समाचार और ट्रेंड फ़ीड से सुर्खियाँ इकट्ठा करता है, कवरेज को एक जगह जोड़ता है और हर सार को मूल रिपोर्ट से जोड़ता है। अंग्रेज़ी और हिंदी दोनों में उपलब्ध।",
+        "notice": "ये सार स्रोत फ़ीड से अपने-आप तैयार होते हैं और इनकी स्वतंत्र रूप से पुष्टि नहीं की गई है।",
+        "empty": "अभी कोई लेख उपलब्ध नहीं है। ऑटोमेशन पहली बार चलने के बाद लेख यहाँ दिखेंगे।",
+        "nomatch": "आपकी खोज से कोई लेख मेल नहीं खाता।", "results": "{n} लेख दिखाए जा रहे हैं",
+        "coverage": "{n} स्रोतों की रिपोर्ट: {names}।", "reported_by": "रिपोर्ट करने वाले स्रोत",
+        "feed_summary": "स्रोत फ़ीड का सारांश", "published": "प्रकाशित",
+        "disclaimer": "यह पृष्ठ ऊपर दिए गए स्रोतों की सुर्खियों और फ़ीड सारांश से स्वचालित रूप से तैयार किया गया है। TrendPulse India ने इनकी स्वतंत्र पुष्टि नहीं की है। पूरी जानकारी के लिए मूल रिपोर्ट पढ़ें।",
+        "choose": "Read in English", "choose_hi": "हिंदी में पढ़ें", "nav": "मुख्य नेविगेशन", "footer": "फ़ुटर",
+        "cats_label": "श्रेणी के अनुसार छाँटें", "locale": "hi_IN", "tagline": "भारत के ट्रेंडिंग विषय, स्रोतों के साथ",
+    },
+}
+
+INFO = {
+    "en": {
+        "about": ("About TrendPulse India", "What TrendPulse India is and how it works.", [
+            "<p>TrendPulse India is an automated website that gathers publicly available headlines and trend signals about India and presents them as short, source-linked digests in English and Hindi.</p>",
+            "<p>It does not produce original reporting. Every digest links to the publishers whose headlines it summarises, so you can read the full story at the source.</p>",
+            "<p>The site is run as a small project by its owner. See the <a href=\"contact.html\">Contact page</a> to reach us.</p>"]),
+        "contact": ("Contact", "How to report an error or contact TrendPulse India.", [
+            "<p>To report an error, request a correction or removal, or ask a question, email <a href=\"mailto:{email}\">{email}</a>.</p>",
+            "<p>Please include the page address and a short description of the issue.</p>"]),
+        "privacy": ("Privacy Policy", "How TrendPulse India handles visitor data.", [
+            "<ul><li>The site has no accounts, comments or forms.</li>",
+            "<li>At present it sets no cookies and uses no analytics tools.</li>",
+            "<li>The hosting provider may keep technical logs such as IP addresses under its own policy.</li>",
+            "<li>Articles link to external sites that have their own privacy policies.</li>",
+            "<li>If advertising or analytics is added in future, this policy will be updated before it goes live, including cookies and third-party vendors.</li></ul>"]),
+        "editorial": ("Editorial Policy", "How TrendPulse India selects and compiles its digests.", [
+            "<p>Articles here are not original research. They are digests compiled automatically from headlines and summaries in public RSS feeds.</p>",
+            "<ul><li>Every digest links to the original reports.</li>",
+            "<li>A topic is published only if at least two different publishers cover it, or its feed summary adds enough distinct detail.</li>",
+            "<li>Misleading or sensational titles, rumours and unconfirmed claims, old or undated items, and near-duplicates of published topics are rejected.</li>",
+            "<li>We do not independently verify the sources. Read the original reports for full details.</li></ul>",
+            "<p>If you spot an error, tell us through the <a href=\"contact.html\">Contact page</a>.</p>"]),
+    },
+    "hi": {
+        "about": ("TrendPulse India के बारे में", "TrendPulse India क्या है और कैसे काम करता है।", [
+            "<p>TrendPulse India एक स्वचालित वेबसाइट है, जो भारत से जुड़ी सार्वजनिक सुर्खियों और ट्रेंड संकेतों को इकट्ठा करती है और उन्हें अंग्रेज़ी और हिंदी में स्रोत-लिंक वाले छोटे सारों के रूप में पेश करती है।</p>",
+            "<p>यह मौलिक रिपोर्टिंग नहीं करती। हर सार उन प्रकाशकों से जुड़ा है जिनकी सुर्खियों पर वह आधारित है, ताकि आप पूरी खबर मूल स्रोत पर पढ़ सकें।</p>",
+            "<p>यह साइट इसके मालिक द्वारा एक छोटे प्रोजेक्ट के रूप में चलाई जाती है। संपर्क के लिए <a href=\"contact.html\">संपर्क पृष्ठ</a> देखें।</p>"]),
+        "contact": ("संपर्क", "गलती की सूचना देने या TrendPulse India से संपर्क करने का तरीका।", [
+            "<p>किसी गलती की सूचना देने, सुधार या हटाने का अनुरोध करने, या कोई सवाल पूछने के लिए <a href=\"mailto:{email}\">{email}</a> पर ईमेल करें।</p>",
+            "<p>कृपया पृष्ठ का पता और समस्या का संक्षिप्त विवरण साथ भेजें।</p>"]),
+        "privacy": ("गोपनीयता नीति", "TrendPulse India आगंतुकों के डेटा को कैसे संभालता है।", [
+            "<ul><li>इस साइट पर खाते, टिप्पणियाँ या फ़ॉर्म नहीं हैं।</li>",
+            "<li>फ़िलहाल साइट कोई कुकी सेट नहीं करती और कोई एनालिटिक्स टूल इस्तेमाल नहीं करती।</li>",
+            "<li>होस्टिंग प्रदाता तकनीकी लॉग (जैसे IP पता) अपनी नीति के अनुसार रख सकता है।</li>",
+            "<li>लेख बाहरी साइटों से जुड़ते हैं, जिनकी अपनी गोपनीयता नीतियाँ हैं।</li>",
+            "<li>भविष्य में विज्ञापन या एनालिटिक्स जोड़े गए, तो उनके शुरू होने से पहले यह नीति कुकी और तृतीय-पक्ष सेवाओं की जानकारी के साथ अपडेट की जाएगी।</li></ul>"]),
+        "editorial": ("संपादकीय नीति", "TrendPulse India सार कैसे चुनता और तैयार करता है।", [
+            "<p>यहाँ के लेख मौलिक शोध नहीं हैं। ये सार्वजनिक RSS फ़ीड की सुर्खियों और सारांश से स्वचालित रूप से तैयार किए गए संकलन हैं।</p>",
+            "<ul><li>हर सार में मूल रिपोर्टों के लिंक दिए जाते हैं।</li>",
+            "<li>कोई विषय तभी प्रकाशित होता है जब उसे कम से कम दो अलग प्रकाशक कवर करें, या उसके फ़ीड सारांश में पर्याप्त अलग जानकारी हो।</li>",
+            "<li>भ्रामक या सनसनीखेज़ शीर्षक, अफ़वाह और अपुष्ट दावे, पुरानी या बिना तारीख की खबरें, और पहले प्रकाशित विषयों की नकल अस्वीकार कर दी जाती है।</li>",
+            "<li>हम स्रोतों की स्वतंत्र पुष्टि नहीं करते। पूरी जानकारी के लिए मूल रिपोर्ट पढ़ें।</li></ul>",
+            "<p>कोई गलती दिखे तो <a href=\"contact.html\">संपर्क पृष्ठ</a> के ज़रिए बताएँ।</p>"]),
+    },
+}
+INFO_PAGES = ("about", "contact", "privacy", "editorial")
+
+
+def short_summary(c) -> str:
+    if c["summary"]:
+        s = c["summary"]
+        return s if len(s) <= 200 else s[:200].rsplit(" ", 1)[0].rstrip(" ,;:-") + "…"
+    names = sorted({s["publisher"] for s in c["sources"]})
+    return T[c["lang"]]["coverage"].format(n=len(names), names=", ".join(names[:3]))
+
+
+def build_post(c, now) -> dict:
+    lang = c["lang"]
+    return {
+        "id": make_id(lang, c["title"]), "lang": lang, "slug": make_slug(lang, c["title"]),
+        "url": f"{lang}/posts/{make_slug(lang, c['title'])}.html", "title": c["title"],
+        "summary": short_summary(c), "source_summary": c["summary"][:600], "category": c["category"],
+        "published_at": c["published"].isoformat(), "generated_at": now.isoformat(), "kind": "digest",
+        "keyword": c["keyword"], "score": c.get("score", 0),
+        "sources": [{"title": s["title"], "url": s["url"], "publisher": s["publisher"]} for s in c["sources"]],
+    }
+
+
+def valid_post(p) -> bool:
+    try:
+        return (isinstance(p, dict) and p["lang"] in LANGS and bool(POST_URL_RE.match(p["url"]))
+                and p["url"] == f"{p['lang']}/posts/{p['slug']}.html" and bool(p["title"])
+                and p["category"] in CATEGORIES and parse_date(p["published_at"]) is not None
+                and isinstance(p["sources"], list) and len(p["sources"]) > 0
+                and all(safe_url(s.get("url")) for s in p["sources"]))
+    except (KeyError, TypeError, AttributeError):
+        return False
+
+
+# ---------------------------------------------------------------- rendering
+esc = lambda s: html.escape(str(s), quote=True)
+
+
+def cat_label(key, lang):
+    return CATEGORIES.get(key, (key, key))[0 if lang == "en" else 1]
+
+
+def ist_date(iso: str) -> str:
+    return parse_date(iso).astimezone(IST).strftime("%Y-%m-%d")
+
+
+def canon_path(path: str) -> str:
+    return "" if path == "index.html" else (path[:-10] if path.endswith("/index.html") else path)
+
+
+def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex=False, active="", app=False, og_type="website"):
+    up = "../" * path.count("/")
+    L, name = T[lang], cfg["site_name"]
+    canonical = f"{cfg['site_url']}/{canon_path(path)}"
+    full_title = title if title == name else f"{title} | {name}"
+    alt = "".join(f'<link rel="alternate" hreflang="{h}" href="{esc(cfg["site_url"] + "/" + canon_path(p))}">\n' for h, p in alternates)
+    ld = ""
+    if jsonld:
+        safe = json.dumps(jsonld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+        ld = '<script type="application/ld+json">' + safe + "</script>\n"
+    cl = "en" if lang not in LANGS else lang
+    nav = [("home", up + "index.html", ""), ("english", up + "en/index.html", ""), ("hindi", up + "hi/index.html", "hi"),
+           ("categories", f"{up}{cl}/index.html#categories", ""), ("about", f"{up}{cl}/about.html", "")]
+    navh = "".join(
+        f'<li><a href="{esc(h)}"{(" hreflang=hi lang=hi" if lg else "")}{(" aria-current=page" if k == active else "")}>{esc(L[k])}</a></li>'
+        for k, h, lg in nav)
+    foot = "".join(f'<li><a href="{up}{cl}/{p}.html">{esc(L[p])}</a></li>' for p in INFO_PAGES)
+    script = f'<script src="{up}assets/app.js" defer></script>\n' if app else ""
+    return f"""<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(full_title)}</title>
+<meta name="description" content="{esc(desc)}">
+{'<meta name="robots" content="noindex,follow">' if noindex else ''}
+<link rel="canonical" href="{esc(canonical)}">
+{alt}<meta property="og:site_name" content="{esc(name)}">
+<meta property="og:type" content="{og_type}">
+<meta property="og:title" content="{esc(full_title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:url" content="{esc(canonical)}">
+<meta property="og:locale" content="{L['locale']}">
+<link rel="stylesheet" href="{up}assets/style.css">
+{ld}{script}</head>
+<body>
+<a class="skip" href="#main">{esc(L['skip'])}</a>
+<header class="site-header"><div class="wrap bar">
+<a class="brand" href="{up}index.html">{esc(name)}</a>
+<nav aria-label="{esc(L['nav'])}"><ul>{navh}</ul></nav>
+</div></header>
+<main id="main" class="wrap">
+{body}
+</main>
+<footer class="site-footer"><div class="wrap">
+<nav aria-label="{esc(L['footer'])}"><ul>{foot}</ul></nav>
+<p>© {esc(name)}. {esc(L['notice'])}</p>
+</div></footer>
+</body>
+</html>
+"""
+
+
+def card(p, up, compact=False):
+    L = T[p["lang"]]
+    cat = cat_label(p["category"], p["lang"])
+    names = ", ".join(dict.fromkeys(s["publisher"] for s in p["sources"]))
+    text = f"{p['title']} {p['summary']} {cat}".casefold()
+    return (f'<article class="card{" compact" if compact else ""}" lang="{p["lang"]}" data-cat="{esc(p["category"])}" data-text="{esc(text)}">'
+            f'<p class="meta"><span class="badge">{esc(cat)}</span> <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
+            f'<h3><a href="{esc(up + p["url"])}">{esc(p["title"])}</a></h3>'
+            f'<p>{esc(p["summary"])}</p><p class="src">{esc(L["sources"])}: {esc(names)}</p>'
+            f'<a class="more" href="{esc(up + p["url"])}">{esc(L["read_more"])}<span class="sr"> — {esc(p["title"])}</span></a></article>')
+
+
+def list_page(cfg, scope, posts, path, alternates=()):
+    """scope: 'en' | 'hi' | 'all' (home page, English UI, mixed languages)."""
+    lang = scope if scope in LANGS else "en"
+    L, up = T[lang], "../" * path.count("/")
+    items = sorted([p for p in posts if scope == "all" or p["lang"] == scope], key=lambda p: p["published_at"], reverse=True)
+    items = items[: (12 if scope == "all" else cfg["max_list_items"])]
+    top = sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3]
+    cats = [c for c in CATEGORIES if any(p["category"] == c for p in items)]
+    chooser = ""
+    if scope == "all":
+        chooser = (f'<p class="choose"><a class="btn" href="en/index.html">{esc(L["choose"])}</a> '
+                   f'<a class="btn" lang="hi" hreflang="hi" href="hi/index.html">{esc(L["choose_hi"])}</a></p>')
+    btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
+        f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
+    trending = ""
+    if top:
+        trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
+    if items:
+        grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in items) + "</div>"
+        grid += f'<p id="nomatch" class="empty" hidden>{esc(L["nomatch"])}</p>'
+    else:
+        grid = f'<div id="grid"></div><p class="empty">{esc(L["empty"])}</p>'
+    body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p><p class="notice">{esc(L['notice'])}</p>{chooser}</section>
+<section aria-label="{esc(L['search'])}" class="tools">
+<form role="search" id="searchform" method="get" action=""><label for="q">{esc(L['search'])}</label>
+<input id="q" name="q" type="search" placeholder="{esc(L['search_ph'])}" autocomplete="off"><button type="submit" class="btn">{esc(L['search'])}</button></form>
+<nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats">{btns}</nav>
+<p id="status" class="status" role="status" data-tpl="{esc(L['results'])}"></p>
+</section>
+{trending}
+<section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>"""
+    title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
+    return page(cfg, lang, path, title, L["tagline"] + ". " + L["notice"], body, alternates, active={"all": "home"}.get(scope, scope), app=True)
+
+
+def article_page(cfg, p, posts):
+    lang, L, path = p["lang"], T[p["lang"]], p["url"]
+    rel = [q for q in posts if q["lang"] == lang and q["category"] == p["category"] and q["id"] != p["id"]]
+    rel = sorted(rel, key=lambda q: q["published_at"], reverse=True)[:3]
+    srcs = "".join(f'<li><a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["title"] or s["publisher"])}</a> — {esc(s["publisher"])}</li>' for s in p["sources"])
+    fs = f'<h2>{esc(L["feed_summary"])}</h2><p>{esc(p["source_summary"])}</p>' if p.get("source_summary") else ""
+    rl = ""
+    if rel:
+        rl = f'<h2>{esc(L["related"])}</h2><ul>' + "".join(f'<li><a href="{esc(q["url"].rsplit("/", 1)[-1])}">{esc(q["title"])}</a></li>' for q in rel) + "</ul>"
+    body = (f'<article class="post"><nav aria-label="breadcrumb"><a href="../index.html">{esc(L["latest"])}</a></nav>'
+            f'<h1>{esc(p["title"])}</h1><p class="meta"><span class="badge">{esc(cat_label(p["category"], lang))}</span> '
+            f'{esc(L["published"])}: <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
+            f'<p class="notice">{esc(L["disclaimer"])}</p>{fs}<h2>{esc(L["reported_by"])}</h2><ul>{srcs}</ul>{rl}</article>')
+    canonical = f"{cfg['site_url']}/{p['url']}"
+    ld = {"@context": "https://schema.org", "@type": "Article", "headline": p["title"][:110], "datePublished": p["published_at"],
+          "inLanguage": lang, "mainEntityOfPage": canonical, "publisher": {"@type": "Organization", "name": cfg["site_name"]},
+          "isBasedOn": [s["url"] for s in p["sources"]]}
+    return page(cfg, lang, path, p["title"], p["summary"][:155], body, jsonld=ld, og_type="article")
+
+
+def sitemap_xml(cfg, posts) -> str:
+    base = cfg["site_url"]
+    urls = [("", None), ("en/", None), ("hi/", None)] + [(f"{l}/{pg}.html", None) for l in LANGS for pg in INFO_PAGES]
+    urls += [(p["url"], ist_date(p["published_at"])) for p in sorted(posts, key=lambda p: p["url"])]
+    rows = "".join(f"  <url><loc>{esc(base + '/' + u)}</loc>" + (f"<lastmod>{m}</lastmod>" if m else "") + "</url>\n" for u, m in urls)
+    return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{rows}</urlset>\n'
+
+
+def render_site(root, cfg, posts, write=True) -> dict:
+    """Return {relative_path: content}; write only changed files when write=True."""
+    posts = sorted([p for p in posts if valid_post(p)], key=lambda p: p["published_at"])
+    files = {"index.html": list_page(cfg, "all", posts, "index.html")}
+    files["en/index.html"] = list_page(cfg, "en", posts, "en/index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")])
+    files["hi/index.html"] = list_page(cfg, "hi", posts, "hi/index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")])
+    for lang in LANGS:
+        for pg in INFO_PAGES:
+            title, desc, parts = INFO[lang][pg]
+            body = f'<article class="post"><h1>{esc(title)}</h1>' + "".join(parts).format(email=esc(cfg["contact_email"])) + "</article>"
+            path = f"{lang}/{pg}.html"
+            files[path] = page(cfg, lang, path, title, desc, body,
+                               [("en", f"en/{pg}.html"), ("hi", f"hi/{pg}.html")], active="about" if pg == "about" else "")
+    for p in posts:
+        files[p["url"]] = article_page(cfg, p, posts)
+    files["sitemap.xml"] = sitemap_xml(cfg, posts)
+    files["robots.txt"] = f"User-agent: *\nAllow: /\n\nSitemap: {cfg['site_url']}/sitemap.xml\n"
+    if write:
+        for rel, content in files.items():
+            f = Path(root) / rel
+            if not f.exists() or f.read_text(encoding="utf-8") != content:
+                atomic_write(f, content)
+    return files
+
+
+def check_generated(root) -> bool:
+    root = Path(root)
+    cfg = load_config(root / "config.json")
+    posts = load_posts(root / "posts.json")["posts"]
+    ok = True
+    for rel, content in render_site(root, cfg, posts, write=False).items():
+        f = root / rel
+        if not f.exists() or f.read_text(encoding="utf-8") != content:
+            log.error("generated file out of date: %s", rel); ok = False
+    return ok
+
+
+def build_site(root, dest) -> None:
+    root, dest = Path(root), Path(dest)
+    if dest.exists():
+        shutil.rmtree(dest)
+    dest.mkdir(parents=True)
+    for name in ("index.html", "sitemap.xml", "robots.txt"):
+        shutil.copy2(root / name, dest / name)
+    for d in ("en", "hi", "assets"):
+        shutil.copytree(root / d, dest / d)
+
+
+# ---------------------------------------------------------------- pipeline
+def collect(cfg, fetcher, stats) -> list:
+    feeds = [f for f in cfg["feeds"] if f.get("enabled", True)]
+    out = []
+    for f in feeds:
+        try:
+            data = fetcher(f["url"])
+            out.extend(parse_feed(data, f))
+            stats["feeds_ok"] += 1
+        except (FetchError, FeedError) as e:
+            stats["feeds_failed"] += 1
+            log.warning("feed failed [%s]: %s", f.get("name", f["url"]), e)
+        except Exception as e:
+            stats["feeds_failed"] += 1
+            log.exception("unexpected error in feed %s: %s", f.get("name", f["url"]), e)
+    stats["all_feeds_failed"] = bool(feeds) and stats["feeds_ok"] == 0
+    return out
+
+
+def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
+    root = Path(root)
+    cfg = load_config(root / "config.json")
+    now = now or datetime.now(timezone.utc)
+    fetcher = fetcher or (lambda u: fetch_url(u, cfg["timeout_seconds"], cfg["retries"], cfg["retry_backoff_seconds"]))
+    posts_doc, pub_doc = load_posts(root / "posts.json"), load_published(root / "published.json")
+    stats = {"feeds_ok": 0, "feeds_failed": 0, "candidates": 0, "published": [], "rejected": [], "duplicates": 0,
+             "errors": 0, "all_feeds_failed": False}
+    new_posts = []
+    if not render_only:
+        cands = collect(cfg, fetcher, stats)
+        stats["candidates"] = len(cands)
+        if not stats["all_feeds_failed"]:
+            for c in cands:
+                c["score"] = score(c, cfg, now)
+            known = [{"id": p.get("id"), "lang": p.get("lang"), "title": p.get("title", "")} for p in posts_doc["posts"]]
+            known += [{"id": i.get("id"), "lang": i.get("id", "")[:2], "title": i.get("title", "")} for i in pub_doc["items"]]
+            for c in sorted(cands, key=lambda c: c["score"], reverse=True):
+                if len(new_posts) >= cfg["max_new_posts_per_run"]:
+                    break
+                try:
+                    reasons = check_quality(c, cfg, now)
+                    if reasons:
+                        stats["rejected"].append({"title": c["title"], "reasons": reasons}); continue
+                    if is_duplicate(c, known, cfg["duplicate_similarity"]):
+                        stats["duplicates"] += 1; continue
+                    post = build_post(c, now)
+                    if not valid_post(post):
+                        stats["rejected"].append({"title": c["title"], "reasons": ["invalid_generated_post"]}); continue
+                    new_posts.append(post)
+                    known.append({"id": post["id"], "lang": post["lang"], "title": post["title"]})
+                except Exception as e:  # isolate failures to this one topic
+                    stats["errors"] += 1
+                    log.exception("candidate failed (%s): %s", c.get("title"), e)
+    if dry_run:
+        stats["published"] = [p["id"] for p in new_posts]
+        return stats
+    all_posts = posts_doc["posts"] + new_posts
+    # Order matters: pages -> posts.json -> published.json (history is marked last)
+    render_site(root, cfg, all_posts)
+    if new_posts:
+        write_json(root / "posts.json", {"version": 1, "posts": all_posts})
+        pub_doc["items"] += [{"id": p["id"], "title": p["title"], "url": p["url"], "published_at": p["published_at"]} for p in new_posts]
+        write_json(root / "published.json", pub_doc)
+    stats["published"] = [p["id"] for p in new_posts]
+    log.info("run complete: %d new post(s), %d feed(s) ok, %d failed", len(new_posts), stats["feeds_ok"], stats["feeds_failed"])
+    return stats
+
+
+def main(argv=None) -> int:
+    ap = argparse.ArgumentParser(description="TrendPulse India content pipeline")
+    ap.add_argument("--root", default=str(Path(__file__).parent))
+    ap.add_argument("--render-only", action="store_true", help="regenerate pages without fetching feeds")
+    ap.add_argument("--dry-run", action="store_true", help="fetch and evaluate, write nothing")
+    ap.add_argument("--check", action="store_true", help="verify generated files are up to date")
+    ap.add_argument("--build-site", metavar="DIR", help="copy deployable files to DIR")
+    ap.add_argument("-v", "--verbose", action="store_true")
+    a = ap.parse_args(argv)
+    logging.basicConfig(level=logging.DEBUG if a.verbose else logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+    try:
+        if a.build_site:
+            build_site(a.root, a.build_site); return 0
+        if a.check:
+            return 0 if check_generated(a.root) else 1
+        stats = run(a.root, render_only=a.render_only, dry_run=a.dry_run)
+    except ConfigError as e:
+        log.error("configuration error: %s", e); return 3
+    print(json.dumps({k: v for k, v in stats.items() if k != "rejected"} | {"rejected_count": len(stats["rejected"])}, ensure_ascii=False))
+    for r in stats["rejected"][:20]:
+        log.info("rejected: %s -> %s", r["title"], ",".join(r["reasons"]))
+    if stats["all_feeds_failed"]:
+        log.error("every enabled feed failed; nothing was published")
+        return 2
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
