@@ -137,9 +137,15 @@ def is_boilerplate_summary(text) -> bool:
 
 
 def indexable(p, cfg) -> bool:
-    """Only pages with real substance are offered to search engines; thin digests stay on the site as noindex."""
-    pubs = {s["publisher"].casefold() for s in p["sources"]}
-    return len(tidy(p.get("source_summary", ""))) >= cfg["min_summary_chars"] or len(pubs) >= cfg["index_min_publishers"]
+    """Only substantive, non-boilerplate summaries may enter search indexes.
+
+    Publisher count is not a substitute for useful article text: a page that
+    lists three headlines but contains no meaningful summary stays noindex.
+    """
+    summary = tidy(p.get("source_summary", "") or "")
+    if not summary or is_boilerplate_summary(summary):
+        return False
+    return len(summary) >= cfg["min_summary_chars"]
 
 
 def clean_title(title: str, publisher: str = "") -> str:
