@@ -8,6 +8,11 @@ on:
     - cron: "30 11 * * *"
     - cron: "30 15 * * *"
   workflow_dispatch:
+    inputs:
+      unpublish_ids:
+        description: "Optional: space-separated post IDs to remove, e.g. en-0123456789"
+        required: false
+        default: ""
   push:
     branches: [main]
     paths-ignore: ["posts.json", "published.json", "review.json", "README.md"]
@@ -30,6 +35,13 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Unpublish requested posts
+        env:
+          IDS: ${{ github.event.inputs.unpublish_ids }}
+        run: |
+          for id in $IDS; do python engine.py --unpublish "$id"; done
+      - name: Regenerate pages from stored posts
+        run: python engine.py --render-only
       - name: Run tests
         run: python -m unittest discover -s tests
       - name: Run pipeline
@@ -41,7 +53,7 @@ jobs:
         run: |
           git config user.name "trendpulse-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add posts.json published.json review.json index.html en hi sitemap.xml robots.txt
+          git add posts.json published.json review.json unpublished.json index.html en hi sitemap.xml robots.txt
           if git diff --cached --quiet; then
             echo "No content changes."
           else
