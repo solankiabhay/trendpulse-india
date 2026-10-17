@@ -389,52 +389,126 @@ def _parse_item(it, feed):
 
 
 class _MetaDescription(HTMLParser):
-    """Extract short publisher-authored metadata descriptions, not article body text."""
+    """Extract publisher metadata and a few short, attributed article snippets."""
+
+    SKIP_TAGS = {"script", "style", "nav", "footer", "aside", "form", "svg", "noscript"}
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.descriptions = []
+        self.paragraphs = []
+        self._paragraph = None
+        self._skip_depth = 0
 
     def handle_starttag(self, tag, attrs):
-        if tag.lower() != "meta":
-            return
+        tag = tag.lower()
         values = {str(k).lower(): normalize_text(v or "") for k, v in attrs}
-        key = (values.get("name") or values.get("property") or "").casefold()
-        if key in ("description", "og:description", "twitter:description"):
-            value = values.get("content", "")
-            if len(value) >= 40 and value not in self.descriptions:
-                self.descriptions.append(value[:500])
+        if tag == "meta":
+            key = (values.get("name") or values.get("property") or "").casefold()
+            if key in ("description", "og:description", "twitter:description"):
+                value = values.get("content", "")
+                if len(value) >= 40 and value not in self.descriptions:
+                    self.descriptions.append(value[:500])
+        if tag in self.SKIP_TAGS:
+            self._skip_depth += 1
+            return
+        if tag == "p" and self._skip_depth == 0:
+            self._paragraph = []
+
+    def handle_endtag(self, tag):
+        tag = tag.lower()
+        if tag in self.SKIP_TAGS:
+            self._skip_depth = max(0, self._skip_depth - 1)
+            return
+        if tag == "p" and self._paragraph is not None:
+            value = normalize_text(" ".join(self._paragraph))
+            if len(value) >= 55 and value not in self.paragraphs:
+                self.paragraphs.append(value[:1200])
+            self._paragraph = None
+
+    def handle_data(self, data):
+        if self._skip_depth == 0 and self._paragraph is not None:
+            self._paragraph.append(data)
+
+
+def fetch_source_page(url, timeout=8):
+    """Fetch a publisher page and retain its final URL after redirects."""
+    if not safe_url(url):
+        raise FetchError(f"refusing unsafe source URL: {url!r}")
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; TrendPulseIndia/1.1; +https://solankiabhay.github.io/trendpulse-india/)",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            final_url = safe_url(response.geturl()) or url
+            data = response.read(MAX_FEED_BYTES + 1)
+        if len(data) > MAX_FEED_BYTES:
+            raise FetchError("publisher page too large")
+        return final_url, data
+    except FetchError:
+        raise
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as e:
+        raise FetchError(f"{url}: {e}") from e
+
+
+def _short_attributed_text(text, max_words=22):
+    """Keep only a short excerpt from one publisher; never mirror a full article."""
+    text = tidy(text)
+    words = text.split()
+    if len(words) > max_words:
+        text = " ".join(words[:max_words]).rstrip(" ,;:-") + "…"
+    return text
 
 
 def enrich_candidate_summary(c, cfg, max_sources=3):
-    """Add short descriptions published in source-page metadata when the RSS feed is thin."""
+    """Enrich a thin digest with short source-attributed metadata/excerpts.
+
+    Publisher pages are not copied wholesale. At most one short snippet (22 words)
+    is used per publisher; the original source links remain on the article page.
+    """
     if len(c.get("summary", "")) >= cfg["min_summary_chars"]:
         return
     additions = []
-    for source in c.get("sources", [])[:max_sources]:
+    sources = c.get("sources", [])[:max_sources]
+    for source in sources:
         url = safe_url(source.get("url", ""))
         if not url:
             continue
         try:
-            raw = fetch_url(url, timeout=min(cfg["timeout_seconds"], 8), retries=0, backoff=0)
+            final_url, raw = fetch_source_page(url, timeout=min(cfg["timeout_seconds"], 8))
             parser = _MetaDescription()
             parser.feed(raw.decode("utf-8", errors="replace"))
-            if parser.descriptions:
-                value = tidy(parser.descriptions[0])
-                if value and value.casefold() != c["title"].casefold() and value not in additions:
-                    additions.append(value)
+            options = parser.descriptions + parser.paragraphs[:4]
+            snippet = ""
+            for option in options:
+                option = _short_attributed_text(option)
+                if (len(option) >= 40
+                        and option.casefold() != c.get("title", "").casefold()
+                        and not is_boilerplate_summary(option)
+                        and not any(option.casefold() in old.casefold() or old.casefold() in option.casefold()
+                                    for old in additions)):
+                    snippet = option
+                    break
+            if snippet:
+                publisher = normalize_text(source.get("publisher") or host_of(final_url))
+                additions.append(f"{publisher}: {snippet}")
         except (FetchError, ValueError, UnicodeError) as e:
-            log.debug("source metadata unavailable for %s: %s", url, e)
+            log.debug("source content unavailable for %s: %s", url, e)
+
+    # Keep a usable feed teaser if present, then add distinct attributed publisher snippets.
     parts = []
-    if c.get("summary"):
-        parts.append(c["summary"])
+    feed_summary = tidy(c.get("summary", ""))
+    if feed_summary and len(feed_summary) >= 40:
+        parts.append(_short_attributed_text(feed_summary, max_words=35))
     parts.extend(additions)
     combined = []
     for part in parts:
-        if part and not any(part.casefold() in old.casefold() or old.casefold() in part.casefold() for old in combined):
+        if part and not any(part.casefold() in old.casefold() or old.casefold() in part.casefold()
+                            for old in combined):
             combined.append(part)
     if combined:
-        c["summary"] = " ".join(combined)[:1200]
+        c["summary"] = "\n\n".join(combined)[:1200]
         c["boilerplate_summary"] = False
 
 def parse_feed(data: bytes, feed: dict) -> list:
@@ -968,20 +1042,23 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
     if dry_run:
         stats["published"] = [p["id"] for p in new_posts]
         return stats
-    # Previously published thin digests are not normally reprocessed because they are duplicates.
-    # Retry a small number of these on scheduled live runs so new publisher metadata can improve them.
+    # Refresh thin published posts fairly. Failed attempts are cooled down for 24 hours
+    # so a blocked publisher does not prevent later posts from being tried on future runs.
     updated_existing = False
     if live_fetcher and not render_only and not dry_run:
         retried = 0
-        for p in posts_doc["posts"]:
+        cooldown = timedelta(hours=24)
+        for p in sorted(posts_doc["posts"], key=lambda item: item.get("published_at", ""), reverse=True):
             current = tidy(p.get("source_summary") or "")
-            if retried >= 4:
+            placeholder = (not current or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
+                           or is_boilerplate_summary(current))
+            if not placeholder and len(current) >= cfg["min_summary_chars"]:
+                continue
+            attempted = parse_date(p.get("summary_refresh_attempted_at", ""))
+            if attempted and now - attempted < cooldown:
+                continue
+            if retried >= 10:
                 break
-            if current and not (current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
-                                or is_boilerplate_summary(current)):
-                continue
-            if current and len(current) >= cfg["min_summary_chars"] and not is_boilerplate_summary(current):
-                continue
             retried += 1
             candidate = {
                 "title": p.get("title", ""), "summary": "",
@@ -990,13 +1067,16 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False) -> dict:
             try:
                 enrich_candidate_summary(candidate, cfg, max_sources=3)
                 detail = tidy(candidate.get("summary", ""))
+                p["summary_refresh_attempted_at"] = now.isoformat()
+                updated_existing = True
                 if len(detail) >= 40 and detail != current:
                     p["source_summary"] = detail[:600]
-                    p["summary"] = detail[:200]
+                    p["summary"] = short_summary(candidate)
                     p["generated_at"] = now.isoformat()
-                    updated_existing = True
             except Exception as e:
                 log.debug("could not refresh thin published digest %s: %s", p.get("id"), e)
+                p["summary_refresh_attempted_at"] = now.isoformat()
+                updated_existing = True
     all_posts = posts_doc["posts"] + new_posts
     # Order matters: pages -> posts.json -> published.json (history is marked last)
     render_site(root, cfg, all_posts)
