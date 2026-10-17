@@ -45,10 +45,7 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests
       - name: Run pipeline
-        env:
-          EVENT: ${{ github.event_name }}
-        run: |
-          if [ "$EVENT" = "push" ]; then python engine.py --render-only; else python engine.py; fi
+        run: python engine.py
       - name: Commit changes
         run: |
           git config user.name "trendpulse-bot"
