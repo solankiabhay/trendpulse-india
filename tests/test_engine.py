@@ -394,7 +394,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         c = engine.parse_feed(rss([xml]), FEED_EN)[0]
         self.assertEqual(c["summary"], "")
         self.assertTrue(c["boilerplate_summary"])
-        self.assertIn("insufficient_value", engine.check_quality(c, self.cfg, NOW))
+        self.assertIn("insufficient_value", engine.check_quality(c, engine.load_config(ROOT / "config.json"), NOW))
 
     def test_tidy_removes_read_more_and_cut_words(self):
         raw = "Tesla's long-delayed next-generation Roadster has taken centr ..\n\nRead more at:\nhttp://timesofindia.indiatimes.com/articleshow/1.cms?utm_source=x&utm_medium=text"
