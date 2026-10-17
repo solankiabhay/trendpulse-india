@@ -6,7 +6,7 @@ GitHub Actions runs the pipeline four times a day. No third-party Python depende
 
 **What the articles are:** automatic digests of headlines and feed summaries, each linking to the original
 publishers. They are not original reporting and are labelled as unverified on every page. The pipeline never
-invents sources, dates, quotes, statistics or authors.
+invents sources, dates, quotes, statistics or authors. Thin digests without a substantive summary remain available to readers but are marked `noindex` and excluded from the XML sitemap.
 
 ## Layout
 | Path | Purpose |
