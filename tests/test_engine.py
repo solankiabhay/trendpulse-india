@@ -220,7 +220,8 @@ class PipelineTests(unittest.TestCase):
         listing = (self.root / "en/index.html").read_text(encoding="utf-8")
         self.assertIn("Parliament budget session", listing); self.assertIn("data-cat=\"india\"", listing)
         self.assertIn("बजट", (self.root / "hi/index.html").read_text(encoding="utf-8"))
-        self.assertIn("/en/posts/", (self.root / "sitemap.xml").read_text(encoding="utf-8"))
+        self.assertNotIn("/en/posts/", (self.root / "sitemap.xml").read_text(encoding="utf-8"))  # thin digests stay out of the sitemap
+        self.assertIn('content="noindex,follow"', self.root.joinpath(posts[0]["url"]).read_text(encoding="utf-8"))
 
     def test_idempotent_rerun(self):
         self.run_(); before = {p: (self.root / p).read_bytes() for p in ("posts.json", "published.json", "sitemap.xml")}
@@ -384,6 +385,72 @@ class StructureAndReviewTests(unittest.TestCase):
         titles = [i["title"] for i in json.loads((self.root / "review.json").read_text(encoding="utf-8"))["items"]]
         self.assertEqual(titles, ["Another thin story about a village fair"])
 
+
+
+class TeaserAndIndexingTests(unittest.TestCase):
+    def test_tidy_removes_read_more_and_cut_words(self):
+        raw = "Tesla's long-delayed next-generation Roadster has taken centr ..\n\nRead more at:\nhttp://timesofindia.indiatimes.com/articleshow/1.cms?utm_source=x&utm_medium=text"
+        self.assertEqual(engine.tidy(raw), "Tesla's long-delayed next-generation Roadster has taken…")
+        self.assertEqual(engine.tidy("Plain text stays. https://x.example/a"), "Plain text stays.")
+        self.assertEqual(engine.tidy(engine.tidy(raw)), engine.tidy(raw))  # idempotent
+        self.assertEqual(engine.tidy("भारत ने मैच जीता। Read more at: https://a.example"), "भारत ने मैच जीता।")
+
+    def test_feed_teaser_is_cleaned_at_parse_time(self):
+        d = ("Roadster demo expected to draw crowds this month with new battery details announced by the maker today .. "
+             "Read more at: http://t.example/1?utm_source=a")
+        x = f"<item><title>Roadster demo draws crowds - ToI</title><link>https://t.example/1</link><pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate><description>{d}</description><source url='https://t.example'>ToI</source></item>"
+        c = engine.parse_feed(rss([x]), FEED_EN)[0]
+        self.assertNotIn("Read more", c["summary"]); self.assertNotIn("http", c["summary"]); self.assertTrue(c["summary"].endswith("…"))
+
+    def test_only_substantive_pages_are_indexable(self):
+        root = make_root(); cfg = engine.load_config(root / "config.json")
+        three = item("Chandrayaan team shares new lunar images", related=[("a", "https://n.example/1", "NDTV"), ("b", "https://n2.example/2", "WION"), ("c", "https://n3.example/3", "Mint")], link="https://n.example/1", publisher="NDTV")
+        long = "Detailed summary text from the feed about the session timetable and agenda. " * 3
+        one = f'<item><title>Parliament budget session to begin next week - The Hindu</title><link>https://news.example/a1</link><pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate><description>{long}</description><source url="https://x.example">The Hindu</source></item>'
+        fx = fetcher_for({FEED_EN["url"]: rss([GOOD_EN, three, one.replace("Parliament budget session to begin next week", "Rain disrupts metro services across the city")]), FEED_HI["url"]: rss([])})
+        engine.run(root, fetcher=fx, now=NOW)
+        posts = {p["title"]: p for p in json.loads((root / "posts.json").read_text(encoding="utf-8"))["posts"]}
+        smap = (root / "sitemap.xml").read_text(encoding="utf-8")
+        for title, want in (("Chandrayaan team shares new lunar images", True), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", False)):
+            p = posts[title]; html = (root / p["url"]).read_text(encoding="utf-8")
+            self.assertEqual(engine.indexable(p, cfg), want, title); self.assertEqual(p["url"] in smap, want, title)
+            self.assertEqual('content="noindex,follow"' not in html, want, title)
+        self.assertNotIn('noindex', (root / "en/index.html").read_text(encoding="utf-8"))  # listing pages stay indexable
+
+    def test_stored_posts_with_teaser_debris_render_clean(self):
+        root = make_root(); cfg = engine.load_config(root / "config.json")
+        post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        post["summary"] = post["source_summary"] = "Old stored teaser cut centr .. Read more at: http://t.example/x?utm_source=a"
+        files = engine.render_site(root, cfg, [post], write=False)
+        for page_html in (files["en/index.html"], files[post["url"]]):
+            self.assertNotIn("Read more at", page_html); self.assertNotIn("utm_source", page_html)
+
+
+class LanguageAndUnpublishTests(unittest.TestCase):
+    def test_other_scripts_are_rejected_for_en_and_hi(self):
+        cfg = {**engine.DEFAULTS}
+        for title in ("పూలతేరుగా మూలవాగు కథనం ఇక్కడ", "વાંચો તમારું રાશિ ભવિષ્ય આજે", "പ്രിയദർശിനി ബസുകൾ യാത്രക്കാർ"):
+            for feed in (FEED_EN, FEED_HI):
+                c = engine.parse_feed(rss([item(title, related=[("a", "https://o.example/1", "O1"), ("b", "https://o.example/2", "O2")])]), feed)[0]
+                self.assertIn("language_mismatch", engine.check_quality(c, cfg, NOW), (title, feed["lang"]))
+        self.assertTrue(engine.language_ok("en", "IND vs WI 2026/27, 5th T20I Match Preview")); self.assertTrue(engine.language_ok("hi", "BCCI नहीं, खुद खर्च उठाएंगे शुभमन गिल"))
+        self.assertFalse(engine.language_ok("en", "संसद का बजट सत्र")); self.assertFalse(engine.language_ok("hi", "Budget session next week"))
+
+    def test_unpublish_backs_up_removes_and_prevents_regeneration(self):
+        root = make_root(); fx = fetcher_for({FEED_EN["url"]: rss([GOOD_EN]), FEED_HI["url"]: rss([GOOD_HI])})
+        engine.run(root, fetcher=fx, now=NOW)
+        posts = json.loads((root / "posts.json").read_text(encoding="utf-8"))["posts"]; victim = next(p for p in posts if p["lang"] == "en")
+        engine.unpublish(root, victim["id"])
+        self.assertFalse((root / victim["url"]).exists())
+        left = json.loads((root / "posts.json").read_text(encoding="utf-8"))["posts"]
+        self.assertEqual([p["id"] for p in left], [p["id"] for p in posts if p["id"] != victim["id"]])
+        self.assertEqual(json.loads((root / "unpublished.json").read_text(encoding="utf-8"))["items"][0]["id"], victim["id"])
+        self.assertNotIn(victim["url"], (root / "sitemap.xml").read_text(encoding="utf-8"))
+        self.assertEqual(engine.run(root, fetcher=fx, now=NOW)["published"], [])  # not regenerated
+        for bad in ("../../etc/passwd", "en-zzz", "", "en-0123456789; rm -rf"):
+            with self.assertRaises(ValueError): engine.unpublish(root, bad)
+        with self.assertRaises(KeyError): engine.unpublish(root, "en-0123456789")
+        self.assertEqual(engine.main(["--root", str(root), "--unpublish", "bad id"]), 4)
 
 if __name__ == "__main__":
     unittest.main()
