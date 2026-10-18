@@ -525,6 +525,21 @@ class SourceExtractionTests(unittest.TestCase):
         self.assertNotIn("Navigation text", " ".join(parser.paragraphs))
         self.assertNotIn("hidden script", " ".join(parser.paragraphs))
 
+    def test_source_parser_extracts_jsonld_article_body_when_paragraphs_are_missing(self):
+        parser = engine._MetaDescription()
+        parser.feed("""
+            <html><head>
+            <script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"NewsArticle",
+             "headline":"A reported event",
+             "description":"A publisher description with enough detail to be useful for readers following this event.",
+             "articleBody":"Officials announced the project on Monday. The department said construction will begin in November and the first phase will connect three districts. The next review meeting is scheduled for Friday."}
+            </script></head><body><div class="paywall">Subscribe to continue reading</div></body></html>
+        """)
+        self.assertTrue(any("construction will begin in November" in p for p in parser.paragraphs))
+        self.assertTrue(any("publisher description" in d for d in parser.descriptions))
+        self.assertNotIn("Subscribe to continue", " ".join(parser.paragraphs))
+
     def test_source_excerpt_is_limited_to_22_words(self):
         long_text = " ".join(f"word{i}" for i in range(40))
         excerpt = engine._short_attributed_text(long_text)
