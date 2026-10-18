@@ -966,7 +966,10 @@ def list_page(cfg, scope, posts, path, alternates=()):
     L, up = T[lang], "../" * path.count("/")
     items = sorted([p for p in posts if scope == "all" or p["lang"] == scope], key=lambda p: p["published_at"], reverse=True)
     items = items[: (12 if scope == "all" else cfg["max_list_items"])]
-    top = sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3]
+    # Thin/noindex digests are omitted from visible cards, including Trending.
+    # Keep the list window stable; older stories can enter naturally as newer items age out.
+    visible_items = [p for p in items if indexable(p, cfg)]
+    top = [p for p in sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3] if indexable(p, cfg)]
     cats = [c for c in CATEGORIES if any(p["category"] == c for p in items)]
     chooser = ""
     if scope == "all":
@@ -977,8 +980,8 @@ def list_page(cfg, scope, posts, path, alternates=()):
     trending = ""
     if top:
         trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
-    if items:
-        grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in items) + "</div>"
+    if visible_items:
+        grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in visible_items) + "</div>"
         grid += f'<p id="nomatch" class="empty" hidden>{esc(L["nomatch"])}</p>'
     else:
         grid = f'<div id="grid"></div><p class="empty">{esc(L["empty"])}</p>'
