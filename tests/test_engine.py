@@ -350,7 +350,7 @@ class StructureAndReviewTests(unittest.TestCase):
         post = engine.build_post(c, NOW)
         post["source_summary"] = (
             "The Hindu: Officials announced the dates on Tuesday, and the session is scheduled to begin next week. "
-            "The agenda will be shared ahead of the opening day. " + "\\n\\n" +
+            "The agenda will be shared ahead of the opening day. " + "\n\n" +
             "Mint: The ministry released a separate notice confirming the timetable for the upcoming session."
         )
         cfg = engine.load_config(ROOT / "config.json")
