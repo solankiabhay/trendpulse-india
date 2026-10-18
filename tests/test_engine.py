@@ -346,12 +346,18 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertNotIn("Background", en)  # no invented background section
 
     def test_attributed_source_snippets_render_next_to_their_source_links(self):
-        self.go([GOOD_EN])
-        html = self.page_of("en")
-        self.assertIn('<p class="source-detail">The final season opens with Salman Khan', html) if False else None
-        self.assertIn('<p class="source-detail">', html)
-        self.assertIn("Test-only fixture detail", html)
-        self.assertLess(html.index("<strong>The Hindu</strong>"), html.index('class="source-detail"'))
+        c = engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0]
+        post = engine.build_post(c, NOW)
+        post["source_summary"] = (
+            "The Hindu: Officials announced the dates on Tuesday, and the session is scheduled to begin next week. "
+            "The agenda will be shared ahead of the opening day.\\n\\n"
+            "Mint: The ministry released a separate notice confirming the timetable for the upcoming session."
+        )
+        cfg = engine.load_config(ROOT / "config.json")
+        html = engine.article_page(cfg, post, [post])
+        self.assertIn('<p class="source-detail">Officials announced the dates on Tuesday', html)
+        self.assertIn('<p class="source-detail">The ministry released a separate notice', html)
+        self.assertLess(html.index("<strong>The Hindu</strong>"), html.index("Officials announced the dates"))
         self.assertIn("What each source reports", html)
 
     def test_differing_headlines_are_flagged_as_unconfirmed(self):
