@@ -577,13 +577,16 @@ def _snippet_matches_story(snippet, title, source_title=""):
 def generate_ai_article(title, lang, source_evidence):
     """Generate a detailed article only from retrieved publisher evidence."""
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
-    if not api_key or len(source_evidence) < 2: return ""
+    if not api_key or not source_evidence: return ""
     language = "Hindi" if lang == "hi" else "English"
     evidence = []
     for item in source_evidence[:5]:
         paragraphs = [tidy(x)[:1000] for x in item.get("paragraphs", []) if tidy(x)]
         if paragraphs: evidence.append({"publisher": normalize_text(item.get("publisher", "Publisher")), "headline": normalize_text(item.get("title", ""))[:250], "url": item.get("url", ""), "reported_text": paragraphs[:4]})
-    if len(evidence) < 2: return ""
+    evidence_word_count = sum(len(paragraph.split()) for item in evidence for paragraph in item["reported_text"])
+    # A single publisher is acceptable only when its accessible page contains substantial text.
+    # Never expand a tiny feed teaser into a fabricated article.
+    if not evidence or evidence_word_count < 120: return ""
     prompt = ("Write a detailed news article in " + language + " about: " + title + "\n\n"
         "Use ONLY facts explicitly present in the source evidence JSON below. No outside knowledge, assumptions, predictions, invented quotes, statistics, dates, or motives. Attribute claims to the source that reported them. Paraphrase faithfully and do not repeat the headline as filler. Use 4-7 substantial paragraphs and aim for 450-650 words only when evidence supports that much; otherwise write a shorter accurate article. Explain what happened, relevant context found in the sources, what each source reports, and what remains unclear. Return plain text paragraphs separated by blank lines, with no Markdown headings or HTML.\n\n"
         "SOURCE EVIDENCE JSON:\n" + json.dumps(evidence, ensure_ascii=False))
@@ -1276,8 +1279,14 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             current = tidy(p.get("source_summary") or "")
             placeholder = (not current or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
                            or is_boilerplate_summary(current))
+            has_ai_key = bool(os.environ.get("OPENAI_API_KEY", "").strip())
+            can_generate_article = (
+                has_ai_key and len(p.get("sources", [])) >= 1
+                and not tidy(p.get("article_body", ""))
+            )
             if (not placeholder and len(current) >= cfg["min_summary_chars"]
-                    and not summary_needs_refresh(current)):
+                    and not summary_needs_refresh(current)
+                    and not can_generate_article):
                 continue
             attempted = parse_date(p.get("summary_refresh_attempted_at", ""))
             if (p.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
