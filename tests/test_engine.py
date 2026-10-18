@@ -345,6 +345,21 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertIn("<strong>Mint</strong>", en); self.assertIn("https://other.example/b2", en)  # publisher name + original link
         self.assertNotIn("Background", en)  # no invented background section
 
+    def test_attributed_source_snippets_render_next_to_their_source_links(self):
+        c = engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0]
+        post = engine.build_post(c, NOW)
+        post["source_summary"] = (
+            "The Hindu: Officials announced the dates on Tuesday, and the session is scheduled to begin next week. "
+            "The agenda will be shared ahead of the opening day. " + "\n\n" +
+            "Mint: The ministry released a separate notice confirming the timetable for the upcoming session."
+        )
+        cfg = engine.load_config(ROOT / "config.json")
+        html = engine.article_page(cfg, post, [post])
+        self.assertIn('<p class="source-detail">Officials announced the dates on Tuesday', html)
+        self.assertIn('<p class="source-detail">The ministry released a separate notice', html)
+        self.assertLess(html.index("<strong>The Hindu</strong>", html.index("What each source reports")), html.index("Officials announced the dates", html.index("What each source reports")))
+        self.assertIn("What each source reports", html)
+
     def test_differing_headlines_are_flagged_as_unconfirmed(self):
         odd = item("Parliament budget session to begin next week", related=[
             ("Parliament budget session to begin next week", "https://news.example/a1", "The Hindu"),

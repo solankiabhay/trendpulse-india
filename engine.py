@@ -1002,9 +1002,25 @@ def article_page(cfg, p, posts):
     lang, L, path = p["lang"], T[p["lang"]], p["url"]
     rel = [q for q in posts if q["lang"] == lang and q["category"] == p["category"] and q["id"] != p["id"]]
     rel = sorted(rel, key=lambda q: q["published_at"], reverse=True)[:3]
-    srcs = "".join(f'<li><strong>{esc(s["publisher"])}</strong>: <a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["title"] or s["publisher"])}</a></li>' for s in p["sources"])
+    # Keep publisher-provided snippets attached to their own source links.
+    # These are excerpts from feeds/publisher metadata, not independently verified facts.
+    attributed = {}
     happened_raw = p.get("source_summary") or p["summary"]
     happened_parts = [tidy(part) for part in re.split(r"\n\s*\n", happened_raw) if tidy(part)]
+    for part in happened_parts:
+        match = re.match(r"^([^:]{2,100}):\s+(.+)$", part, re.S)
+        if match:
+            publisher_key = normalize_text(match.group(1)).casefold()
+            snippet = normalize_text(match.group(2))
+            if snippet and publisher_key not in attributed:
+                attributed[publisher_key] = snippet
+    src_items = []
+    for source in p["sources"]:
+        publisher = normalize_text(source["publisher"])
+        snippet = attributed.get(publisher.casefold(), "")
+        detail = f'<p class="source-detail">{esc(_short_attributed_text(snippet, max_words=22))}</p>' if snippet else ""
+        src_items.append(f'<li><strong>{esc(publisher)}</strong>: <a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["title"] or publisher)}</a>{detail}</li>')
+    srcs = "".join(src_items)
     if not happened_parts:
         happened_parts = [tidy(p["summary"])]
     happened_html = "".join(f"<p>{esc(part)}</p>" for part in happened_parts)
