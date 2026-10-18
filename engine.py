@@ -540,6 +540,20 @@ def _short_attributed_text(text, max_words=22):
     return text
 
 
+def _snippet_matches_story(snippet, title):
+    """Reject publisher excerpts with no meaningful word overlap with the headline."""
+    stop_words = {
+        "about", "after", "amid", "among", "and", "are", "been", "before",
+        "being", "from", "have", "into", "more", "over", "said", "says",
+        "that", "the", "their", "there", "these", "they", "this", "those",
+        "under", "was", "were", "what", "when", "where", "which", "while",
+        "with", "will", "would", "your", "today", "latest", "update",
+    }
+    headline_terms = {word for word in tokens(title) if len(word) >= 4 and word not in stop_words}
+    snippet_terms = {word for word in tokens(snippet) if len(word) >= 4 and word not in stop_words}
+    return bool(headline_terms & snippet_terms)
+
+
 def enrich_candidate_summary(c, cfg, max_sources=3):
     """Enrich a thin digest with short source-attributed metadata/excerpts.
 
@@ -590,6 +604,7 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
                 option = _short_attributed_text(option)
                 if (len(option) >= 40
                         and option.casefold() != c.get("title", "").casefold()
+                        and _snippet_matches_story(option, c.get("title", ""))
                         and not is_boilerplate_summary(option)
                         and not any(option.casefold() in old.casefold() or old.casefold() in option.casefold()
                                     for old in additions)):
