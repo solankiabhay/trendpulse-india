@@ -964,7 +964,11 @@ def list_page(cfg, scope, posts, path, alternates=()):
     """scope: 'en' | 'hi' | 'all' (home page, English UI, mixed languages)."""
     lang = scope if scope in LANGS else "en"
     L, up = T[lang], "../" * path.count("/")
-    items = sorted([p for p in posts if scope == "all" or p["lang"] == scope], key=lambda p: p["published_at"], reverse=True)
+    # Keep thin/noindex digests out of public discovery lists. They remain available
+    # by direct URL (with noindex,follow) and can reappear after enrichment.
+    items = sorted([p for p in posts
+                    if (scope == "all" or p["lang"] == scope) and indexable(p, cfg)],
+                   key=lambda p: p["published_at"], reverse=True)
     items = items[: (12 if scope == "all" else cfg["max_list_items"])]
     top = sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3]
     cats = [c for c in CATEGORIES if any(p["category"] == c for p in items)]
