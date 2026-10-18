@@ -772,8 +772,9 @@ class RefreshOnlyTests(unittest.TestCase):
         target["source_summary"] = (
             "Indian Super League: Vaz Pinto and Purushothaman want improvements as both sides "
             "build early-season momentum in Pune. Sportstar: Inter Kashi and Odisha FC seek "
-            "their first points after opening defeats. "
-        ) * 3
+            "their first points after opening defeats, with Odisha FC previously unbeaten "
+            "against Inter Kashi after a Super Cup win and goalless draw."
+        )
         target["summary"] = target["source_summary"][:200]
         target["summary_refresh_version"] = 8
         target["summary_refresh_attempted_at"] = NOW.isoformat()
