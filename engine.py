@@ -150,15 +150,15 @@ def summary_needs_refresh(text, min_words=50) -> bool:
     return len(clean.split()) < min_words
 
 def indexable(p, cfg) -> bool:
-    """Only substantive, non-boilerplate summaries may enter search indexes.
+    """Only summaries with enough readable context may enter search indexes.
 
-    Publisher count is not a substitute for useful article text: a page that
-    lists three headlines but contains no meaningful summary stays noindex.
+    Character count alone is misleading when publisher names and headlines
+    inflate a short teaser. Keep weak article pages noindex until enrichment
+    adds at least 50 words of non-boilerplate source-attributed context.
     """
     summary = tidy(p.get("source_summary", "") or "")
-    if not summary or is_boilerplate_summary(summary):
-        return False
-    return len(summary) >= cfg["min_summary_chars"]
+    return (len(summary) >= cfg["min_summary_chars"]
+            and not summary_needs_refresh(summary))
 
 def clean_title(title: str, publisher: str = "") -> str:
     t = normalize_text(title)
@@ -1218,9 +1218,21 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
         cooldown = timedelta(hours=24)
         # Prioritise the weakest summaries first; oldest-first can leave newer thin
         # stories waiting behind many already-attempted articles.
-        for p in sorted(posts_doc["posts"], key=lambda item: (
-                len(tidy(item.get("source_summary") or "").split()),
-                item.get("published_at", ""))):
+        def refresh_priority(item):
+            summary = tidy(item.get("source_summary") or "")
+            attempted_at = parse_date(item.get("summary_refresh_attempted_at", ""))
+            recent_attempt = bool(
+                item.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
+                and attempted_at and now - attempted_at < cooldown
+            )
+            # Never let old, repeatedly blocked pages starve untried summaries.
+            return (
+                recent_attempt,
+                len(summary.split()),
+                item.get("published_at", ""),
+            )
+
+        for p in sorted(posts_doc["posts"], key=refresh_priority):
             current = tidy(p.get("source_summary") or "")
             placeholder = (not current or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
                            or is_boilerplate_summary(current))
