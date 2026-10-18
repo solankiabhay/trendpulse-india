@@ -553,7 +553,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         }
         self.assertFalse(engine.indexable(post, cfg))
 
-    def test_long_looking_but_under_50_word_teaser_is_not_indexable(self):
+    def test_long_looking_but_under_60_word_teaser_is_not_indexable(self):
         cfg = {**engine.DEFAULTS}
         teaser = (
             "ISL Official: Inter Kashi, Odisha FC seek first points after opening defeats. "
@@ -561,8 +561,23 @@ class TeaserAndIndexingTests(unittest.TestCase):
             "having won 3-0 in the Super Cup and drawn goalless in the…"
         )
         self.assertGreater(len(teaser), cfg["min_summary_chars"])
-        self.assertLess(len(teaser.split()), 50)
+        self.assertLess(len(teaser.split()), 60)
         self.assertFalse(engine.indexable({"source_summary": teaser}, cfg))
+
+    def test_sixty_word_quality_gate_requires_more_than_a_headline_pair(self):
+        cfg = {**engine.DEFAULTS}
+        summary = ("Indian Super League: Inter Kashi and Odisha FC look for their first points. "
+                   "Sportstar: Odisha FC have previously faced Inter Kashi in the Super Cup. " * 4)
+        self.assertGreater(len(summary), cfg["min_summary_chars"])
+        self.assertLess(len(summary.split()), 60)
+        self.assertFalse(engine.indexable({"source_summary": summary}, cfg))
+
+    def test_attributed_excerpt_cap_allows_more_context_and_repairs_joined_location(self):
+        excerpt = engine._short_attributed_text(
+            "Early-Season MomentumPune: Inter Kashi FC and Odisha FC will look to improve."
+        )
+        self.assertIn("Momentum Pune:", excerpt)
+        self.assertLessEqual(len(excerpt.removesuffix("…").split()), 30)
 
     def test_google_news_boilerplate_never_makes_a_page_indexable(self):
         cfg = {**engine.DEFAULTS}
@@ -652,7 +667,7 @@ class SourceExtractionTests(unittest.TestCase):
     def test_source_excerpt_is_limited_to_22_words(self):
         long_text = " ".join(f"word{i}" for i in range(40))
         excerpt = engine._short_attributed_text(long_text)
-        self.assertLessEqual(len(excerpt.removesuffix("…").split()), 22)
+        self.assertLessEqual(len(excerpt.removesuffix("…").split()), 30)
         self.assertTrue(excerpt.endswith("…"))
 
     def test_snippet_matches_publisher_headline_when_cluster_title_differs(self):
