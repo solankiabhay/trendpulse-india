@@ -721,7 +721,7 @@ class RefreshOnlyTests(unittest.TestCase):
             posts.append(post)
         untried = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
         untried["id"] = "en-1999999999"
-        untried["source_summary"] = "This is a still thin but longer teaser " * 8
+        untried["source_summary"] = "This is a still thin but longer teaser " * 5
         untried["summary"] = untried["source_summary"][:200]
         untried.pop("summary_refresh_version", None)
         untried.pop("summary_refresh_attempted_at", None)
