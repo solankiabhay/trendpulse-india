@@ -766,7 +766,7 @@ class RefreshOnlyTests(unittest.TestCase):
             attempted.append(candidate["title"])
             candidate["article_body"] = ("A detailed source-grounded paragraph. " * 70) + "\n\n" + ("A second detailed paragraph. " * 70) + "\n\n" + ("A third detailed paragraph. " * 70)
         with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \
-             mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \\
+             mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \
              mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
             engine.run(root, now=NOW, refresh_only=True)
         stored = engine.load_posts(root / "posts.json")["posts"][0]
