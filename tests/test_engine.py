@@ -518,7 +518,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
     def test_only_substantive_pages_are_indexable(self):
         root = make_root(); cfg = engine.load_config(root / "config.json")
         three = item("Chandrayaan team shares new lunar images", related=[("a", "https://n.example/1", "NDTV"), ("b", "https://n2.example/2", "WION"), ("c", "https://n3.example/3", "Mint")], link="https://n.example/1", publisher="NDTV")
-        long = "Detailed summary text from the feed about the session timetable and agenda. " * 3
+        long = "Detailed summary text from the feed about the session timetable and agenda. " * 7
         one = f'<item><title>Parliament budget session to begin next week - The Hindu</title><link>https://news.example/a1</link><pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate><description>{long}</description><source url="https://x.example">The Hindu</source></item>'
         fx = fetcher_for({FEED_EN["url"]: rss([GOOD_EN, three, one.replace("Parliament budget session to begin next week", "Rain disrupts metro services across the city")]), FEED_HI["url"]: rss([])})
         engine.run(root, fetcher=fx, now=NOW)
