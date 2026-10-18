@@ -1224,14 +1224,14 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
         def refresh_priority(item):
             summary = tidy(item.get("source_summary") or "")
             attempted_at = parse_date(item.get("summary_refresh_attempted_at", ""))
-            recent_attempt = bool(
-                item.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
-                and attempted_at and now - attempted_at < cooldown
-            )
-            # Never let old, repeatedly blocked pages starve untried summaries.
+            recent_attempt = bool(attempted_at and now - attempted_at < cooldown)
+            # Prefer untried items first. Within previously attempted items,
+            # refresh near-threshold summaries before empty pages that may be blocked.
+            # The cooldown skip below still applies only to the current version;
+            # a new refresh version can therefore retry recent attempts safely.
             return (
                 recent_attempt,
-                len(summary.split()),
+                -len(summary.split()),
                 item.get("published_at", ""),
             )
 
