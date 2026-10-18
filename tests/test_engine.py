@@ -597,7 +597,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
             def __enter__(self): return self
             def __exit__(self, *args): return False
             def read(self, _limit): return json.dumps(fake_body).encode("utf-8")
-        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \\
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \
              mock.patch.object(engine.urllib.request, "urlopen", return_value=FakeResponse()):
             result = engine.generate_ai_article("Team prepares for next fixture", "en", evidence)
         self.assertGreaterEqual(len(result.split()), 180)
@@ -765,7 +765,7 @@ class RefreshOnlyTests(unittest.TestCase):
         def fake_enrich(candidate, cfg, max_sources=5):
             attempted.append(candidate["title"])
             candidate["article_body"] = ("A detailed source-grounded paragraph. " * 70) + "\n\n" + ("A second detailed paragraph. " * 70) + "\n\n" + ("A third detailed paragraph. " * 70)
-        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \\
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \
              mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \\
              mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
             engine.run(root, now=NOW, refresh_only=True)
