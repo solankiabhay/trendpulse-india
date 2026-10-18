@@ -756,6 +756,44 @@ class RefreshOnlyTests(unittest.TestCase):
             engine.run(root, now=NOW, refresh_only=True)
         self.assertEqual(attempted, [untried["title"]])
 
+    def test_new_refresh_version_prioritizes_near_threshold_over_empty_recent_attempts(self):
+        root = make_root()
+        posts = []
+        for i in range(20):
+            post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+            post["id"] = f"en-{2000000000 + i}"
+            post["source_summary"] = ""
+            post["summary_refresh_version"] = 8
+            post["summary_refresh_attempted_at"] = NOW.isoformat()
+            post["published_at"] = f"2026-10-{i + 1:02d}T00:00:00+00:00"
+            posts.append(post)
+        target = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        target["id"] = "en-2999999999"
+        target["source_summary"] = (
+            "Indian Super League: Vaz Pinto and Purushothaman want improvements as both sides "
+            "build early-season momentum in Pune. Sportstar: Inter Kashi and Odisha FC seek "
+            "their first points after opening defeats. "
+        ) * 3
+        target["summary"] = target["source_summary"][:200]
+        target["summary_refresh_version"] = 8
+        target["summary_refresh_attempted_at"] = NOW.isoformat()
+        posts.append(target)
+        engine.write_json(root / "posts.json", {"version": 1, "posts": posts})
+        engine.write_json(root / "published.json", {"version": 1, "items": []})
+        attempted = []
+
+        def fake_enrich(candidate, cfg, max_sources=5):
+            attempted.append(candidate["title"])
+            candidate["summary"] = (
+                "Indian Super League: Coaches described the planned improvements and preparation. "
+                "Sportstar: Both clubs are seeking their first points after opening defeats. "
+            ) * 3
+
+        with mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \
+             mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
+            engine.run(root, now=NOW, refresh_only=True)
+        self.assertEqual(attempted[0], target["title"])
+
     def test_refresh_only_updates_stored_posts_without_collecting_new_stories(self):
         root = make_root()
         post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
