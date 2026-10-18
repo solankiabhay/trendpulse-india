@@ -572,6 +572,35 @@ class TeaserAndIndexingTests(unittest.TestCase):
         self.assertLess(len(summary.split()), 60)
         self.assertFalse(engine.indexable({"source_summary": summary}, cfg))
 
+    def test_ai_article_generation_skips_without_key_or_two_sources(self):
+        evidence = [{"publisher": "One", "paragraphs": ["Reported fact goes here."]}]
+        with mock.patch.dict(os.environ, {}, clear=True):
+            self.assertEqual(engine.generate_ai_article("Headline", "en", evidence), "")
+            with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}):
+                self.assertEqual(engine.generate_ai_article("Headline", "en", evidence), "")
+
+    def test_ai_article_generation_uses_grounded_prompt_and_accepts_long_paragraphs(self):
+        evidence = [
+            {"publisher": "Source One", "title": "Headline one", "url": "https://one.example/story",
+             "paragraphs": ["The club confirmed the coach changed the starting lineup and training schedule."]},
+            {"publisher": "Source Two", "title": "Headline two", "url": "https://two.example/story",
+             "paragraphs": ["The team lost its opening match and the coach said the squad is preparing for the next fixture."]},
+        ]
+        paragraph = "The coach said the squad is working on its defensive shape before the next fixture. " * 25
+        article = paragraph + "\n\n" + paragraph + "\n\n" + paragraph
+        fake_body = {"choices": [{"message": {"content": article}}]}
+        class FakeResponse:
+            def __enter__(self): return self
+            def __exit__(self, *args): return False
+            def read(self, _limit): return json.dumps(fake_body).encode("utf-8")
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \
+             mock.patch.object(engine.urllib.request, "urlopen", return_value=FakeResponse()) as mocked:
+            result = engine.generate_ai_article("Team prepares for next fixture", "en", evidence)
+        self.assertGreaterEqual(len(result.split("\n\n")), 3)
+        self.assertGreaterEqual(len(result.split("\n\n")), 3)
+        payload = json.loads(mocked.call_args.args[0].data.decode("utf-8"))
+        self.assertIn("ONLY facts explicitly present", payload["messages"][1]["content"])
+        self.assertEqual(payload["model"], "gpt-4.1-mini")
     def test_attributed_excerpt_cap_allows_more_context_and_repairs_joined_location(self):
         excerpt = engine._short_attributed_text(
             "Early-Season MomentumPune: Inter Kashi FC and Odisha FC will look to improve."
