@@ -385,10 +385,10 @@ class StructureAndReviewTests(unittest.TestCase):
         with mock.patch.object(engine, "fetch_source_page",
                                return_value=("https://publisher.example/story", page)):
             engine.enrich_candidate_summary(candidate, cfg)
-        self.assertIn("Parliament budget session timetable", candidate["summary"])
+        self.assertIn("committee finalises the agenda", candidate["summary"])
         self.assertNotIn("Weather update", candidate["summary"])
-        # Only one short excerpt per publisher is retained; relevant details should
-        # be selected even when the page contains unrelated paragraphs.
+        # The most relevant article paragraph wins over the meta description.
+        # Only one short excerpt per publisher is retained.
         self.assertLessEqual(len(candidate["summary"].split()), 30)
 
     def test_enrichment_finds_relevant_paragraph_after_first_eight(self):
