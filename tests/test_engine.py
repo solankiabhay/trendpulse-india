@@ -567,7 +567,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
     def test_sixty_word_quality_gate_requires_more_than_a_headline_pair(self):
         cfg = {**engine.DEFAULTS}
         summary = ("Indian Super League: Inter Kashi and Odisha FC look for their first points. "
-                   "Sportstar: Odisha FC have previously faced Inter Kashi in the Super Cup. " * 4)
+                   "Sportstar: Odisha FC have previously faced Inter Kashi in the Super Cup. " * 2)
         self.assertGreater(len(summary), cfg["min_summary_chars"])
         self.assertLess(len(summary.split()), 60)
         self.assertFalse(engine.indexable({"source_summary": summary}, cfg))
