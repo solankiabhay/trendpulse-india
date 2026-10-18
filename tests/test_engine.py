@@ -606,9 +606,9 @@ class TeaserAndIndexingTests(unittest.TestCase):
     def test_ai_article_generation_uses_grounded_prompt_and_accepts_long_paragraphs(self):
         evidence = [
             {"publisher": "Source One", "title": "Headline one", "url": "https://one.example/story",
-             "paragraphs": ["The club confirmed the coach changed the starting lineup and training schedule."]},
+             "paragraphs": ["The club confirmed the coach changed the starting lineup and training schedule. " * 8]},
             {"publisher": "Source Two", "title": "Headline two", "url": "https://two.example/story",
-             "paragraphs": ["The team lost its opening match and the coach said the squad is preparing for the next fixture."]},
+             "paragraphs": ["The team lost its opening match and the coach said the squad is preparing for the next fixture. " * 8]},
         ]
         paragraph = "The coach said the squad is working on its defensive shape before the next fixture. " * 25
         article = paragraph + "\n\n" + paragraph + "\n\n" + paragraph
