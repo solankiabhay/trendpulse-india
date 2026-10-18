@@ -6,7 +6,7 @@ GitHub Actions runs the pipeline four times a day. No third-party Python depende
 
 **What the articles are:** automatic digests of headlines and feed summaries, each linking to the original
 publishers. They are not original reporting and are labelled as unverified on every page. The pipeline never
-invents sources, dates, quotes, statistics or authors. Thin digests without a substantive summary remain available to readers but are marked `noindex` and excluded from the XML sitemap.
+invents sources, dates, quotes, statistics or authors. Thin digests without a substantive summary are kept out of the public home/language listings, marked `noindex,follow`, and excluded from the XML sitemap. Their direct URLs remain accessible and can reappear in listings after a later refresh adds a substantive summary.
 
 ## Layout
 | Path | Purpose |
@@ -65,8 +65,7 @@ git add -A && git commit -m "Approve reviewed topic" && git push
 ```
 
 ## Search-engine hygiene
-- **Indexing rule:** a digest page is offered to search engines (no `noindex`, listed in `sitemap.xml`) only if it has real substance:
-  at least 3 distinct publishers, or a feed summary of 160+ characters. Thinner digests stay on the site for readers but are `noindex`.
+- **Discovery and indexing rule:** a digest appears in public home/language listings and is offered to search engines only if its source summary is substantive (160+ characters and not generic boilerplate). Thin digests are hidden from public listings, marked `noindex,follow`, and excluded from `sitemap.xml`; their direct URLs remain accessible and may reappear after enrichment. Publisher count alone does not qualify a thin digest.
   Listing pages are always indexable. This lowers the risk of the site being judged as thin auto-generated content. It does not promise rankings.
 - **Teaser clean-up:** "Read more at: <url>" lines, tracking URLs and mid-word cuts (`..`) are removed from feed text, including text stored earlier.
 - **Language gate:** English posts must be mostly Latin script and Hindi posts mostly Devanagari. Other scripts (Telugu, Gujarati, ...) are rejected.
