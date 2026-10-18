@@ -345,6 +345,28 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertIn("<strong>Mint</strong>", en); self.assertIn("https://other.example/b2", en)  # publisher name + original link
         self.assertNotIn("Background", en)  # no invented background section
 
+    def test_snippet_relevance_rejects_unrelated_publisher_text(self):
+        title = "Parliament budget session to begin next week"
+        self.assertTrue(engine._snippet_matches_story(
+            "Parliament session timetable and budget agenda were discussed by officials.", title))
+        self.assertFalse(engine._snippet_matches_story(
+            "Weather update predicts heavy rainfall across coastal districts this weekend.", title))
+
+        candidate = {
+            "title": title,
+            "summary": "",
+            "sources": [{"title": title, "url": "https://publisher.example/story", "publisher": "Publisher"}],
+        }
+        cfg = {**engine.DEFAULTS, "timeout_seconds": 5}
+        unrelated = (
+            b'<html><head><meta name="description" content="Weather update predicts heavy rainfall '
+            b'across coastal districts this weekend and authorities issued a public advisory."/></head></html>'
+        )
+        with mock.patch.object(engine, "fetch_source_page",
+                               return_value=("https://publisher.example/story", unrelated)):
+            engine.enrich_candidate_summary(candidate, cfg)
+        self.assertEqual(candidate["summary"], "")
+
     def test_attributed_source_snippets_render_next_to_their_source_links(self):
         c = engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0]
         post = engine.build_post(c, NOW)
