@@ -411,6 +411,8 @@ class _MetaDescription(HTMLParser):
         self._anchor_href = None
         self._anchor_text = []
         self._skip_depth = 0
+        self._jsonld_script = False
+        self._script_data = []
 
     def handle_starttag(self, tag, attrs):
         tag = tag.lower()
@@ -421,6 +423,9 @@ class _MetaDescription(HTMLParser):
                 value = values.get("content", "")
                 if len(value) >= 40 and value not in self.descriptions:
                     self.descriptions.append(value[:500])
+        if tag == "script" and values.get("type", "").casefold().split(";")[0].strip() == "application/ld+json":
+            self._jsonld_script = True
+            self._script_data = []
         if tag == "a" and self._skip_depth == 0:
             self._anchor_href = safe_url(dict(attrs).get("href", ""))
             self._anchor_text = []
@@ -432,6 +437,33 @@ class _MetaDescription(HTMLParser):
 
     def handle_endtag(self, tag):
         tag = tag.lower()
+        if tag == "script" and self._jsonld_script:
+            raw_json = "".join(self._script_data).strip()
+            self._jsonld_script = False
+            self._script_data = []
+            try:
+                data = json.loads(raw_json)
+            except (ValueError, TypeError):
+                data = None
+            def visit(node):
+                if isinstance(node, dict):
+                    for key, value in node.items():
+                        normalized_key = str(key).casefold().replace("_", "")
+                        if isinstance(value, str) and len(value.strip()) >= 40:
+                            clean = normalize_text(value)
+                            if normalized_key in ("articlebody", "articlebodytext", "text"):
+                                if clean not in self.paragraphs:
+                                    self.paragraphs.append(clean[:1200])
+                            elif normalized_key in ("description", "abstract"):
+                                if clean not in self.descriptions:
+                                    self.descriptions.append(clean[:500])
+                        elif isinstance(value, (dict, list)):
+                            visit(value)
+                elif isinstance(node, list):
+                    for child in node:
+                        visit(child)
+            if data is not None:
+                visit(data)
         if tag == "a" and self._anchor_href:
             label = normalize_text(" ".join(self._anchor_text))
             self.links.append({"url": self._anchor_href, "text": label})
@@ -446,6 +478,8 @@ class _MetaDescription(HTMLParser):
             self._paragraph = None
 
     def handle_data(self, data):
+        if self._jsonld_script:
+            self._script_data.append(data)
         if self._skip_depth == 0:
             if self._paragraph is not None:
                 self._paragraph.append(data)
