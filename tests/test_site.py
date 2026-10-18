@@ -140,7 +140,7 @@ class Workflows(unittest.TestCase):
 
     def test_actions_pinned_to_major_versions_and_only_ai_key_secret_used(self):
         for u in re.findall(r"uses: ([\w./-]+@[\w.]+)", self.ab + self.ci): self.assertRegex(u, r"@v\d+$")
-        self.assertEqual(re.findall(r"secrets\\.([A-Z0-9_]+)", self.ab + self.ci), ["OPENAI_API_KEY"])
+        self.assertEqual(re.findall(r"secrets\.([A-Z0-9_]+)", self.ab + self.ci), ["OPENAI_API_KEY"])
 
     def test_no_interpolated_untrusted_input_in_run_blocks(self):
         for block in re.findall(r"run: \|?\n?(.*?)(?=\n\s+- |\n\s+\w+:|\Z)", self.ab, re.S):
