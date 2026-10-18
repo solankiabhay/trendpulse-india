@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 9
+SUMMARY_REFRESH_VERSION = 10
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -574,6 +574,32 @@ def _snippet_matches_story(snippet, title, source_title=""):
     return bool(story_terms & snippet_terms)
 
 
+def generate_ai_article(title, lang, source_evidence):
+    """Generate a detailed article only from retrieved publisher evidence."""
+    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+    if not api_key or len(source_evidence) < 2: return ""
+    language = "Hindi" if lang == "hi" else "English"
+    evidence = []
+    for item in source_evidence[:5]:
+        paragraphs = [tidy(x)[:1000] for x in item.get("paragraphs", []) if tidy(x)]
+        if paragraphs: evidence.append({"publisher": normalize_text(item.get("publisher", "Publisher")), "headline": normalize_text(item.get("title", ""))[:250], "url": item.get("url", ""), "reported_text": paragraphs[:4]})
+    if len(evidence) < 2: return ""
+    prompt = ("Write a detailed news article in " + language + " about: " + title + "\n\n"
+        "Use ONLY facts explicitly present in the source evidence JSON below. No outside knowledge, assumptions, predictions, invented quotes, statistics, dates, or motives. Attribute claims to the source that reported them. Paraphrase faithfully and do not repeat the headline as filler. Use 4-7 substantial paragraphs and aim for 450-650 words only when evidence supports that much; otherwise write a shorter accurate article. Explain what happened, relevant context found in the sources, what each source reports, and what remains unclear. Return plain text paragraphs separated by blank lines, with no Markdown headings or HTML.\n\n"
+        "SOURCE EVIDENCE JSON:\n" + json.dumps(evidence, ensure_ascii=False))
+    payload = json.dumps({"model": os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"), "messages": [{"role": "system", "content": "You are a careful news editor. Accuracy and attribution matter more than length."}, {"role": "user", "content": prompt}], "temperature": 0.2, "max_tokens": 1600}).encode("utf-8")
+    req = urllib.request.Request("https://api.openai.com/v1/chat/completions", data=payload, headers={"Authorization": "Bearer " + api_key, "Content-Type": "application/json"}, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=35) as response: result = json.loads(response.read(1000000).decode("utf-8"))
+        article = result.get("choices", [{}])[0].get("message", {}).get("content", "")
+        paragraphs = [tidy(x) for x in re.split(r"\n\s*\n", article) if tidy(x)]
+        article = "\n\n".join(paragraphs)
+        if len(article.split()) < 180 or len(paragraphs) < 3:
+            log.warning("AI article rejected: output was too short or not paragraph-structured"); return ""
+        return article[:9000]
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError, ValueError, KeyError, IndexError) as exc:
+        log.warning("AI article generation unavailable for %s: %s", title[:90], exc); return ""
+
 def enrich_candidate_summary(c, cfg, max_sources=5):
     """Enrich a thin digest from multiple source pages without inventing facts.
 
@@ -581,9 +607,8 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     navigation, related stories, or promos before the article body. Keep no more
     than 22 excerpt words from any one publisher and preserve source attribution.
     """
-    if len(c.get("summary", "")) >= cfg["min_summary_chars"]:
-        return
     additions = []
+    source_evidence = []
     sources = c.get("sources", [])[:max_sources]
     for source in sources:
         url = safe_url(source.get("url", ""))
@@ -637,13 +662,19 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                 # Prefer useful context over a one-line teaser or a repeated headline.
                 ranked.append((score, min(len(option.split()), 80), option))
             ranked.sort(key=lambda item: (item[0], item[1]), reverse=True)
-            for _, _, option in ranked:
-                short = _short_attributed_text(option, max_words=30)
-                if any(short.casefold() in old.casefold() or old.casefold() in short.casefold()
-                       for old in additions):
-                    continue
-                additions.append(f"{publisher}: {short}")
-                break
+            if ranked:
+                evidence_paragraphs = []
+                for _, _, option in ranked:
+                    cleaned = tidy(option)
+                    if any(jaccard(tokens(cleaned), tokens(old)) > 0.8 for old in evidence_paragraphs):
+                        continue
+                    evidence_paragraphs.append(cleaned[:1000])
+                    if len(evidence_paragraphs) >= 4: break
+                if evidence_paragraphs:
+                    source_evidence.append({"publisher": publisher, "title": source.get("title", ""), "url": final_url, "paragraphs": evidence_paragraphs})
+                    short = _short_attributed_text(evidence_paragraphs[0], max_words=30)
+                    if not any(short.casefold() in old.casefold() or old.casefold() in short.casefold() for old in additions):
+                        additions.append(f"{publisher}: {short}")
         except (FetchError, ValueError, UnicodeError) as e:
             log.debug("source content unavailable for %s: %s", url, e)
 
@@ -660,8 +691,12 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                             for old in combined):
             combined.append(part)
     if combined:
-        c["summary"] = "\n\n".join(combined)[:2400]
+        if len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]: c["summary"] = "\n\n".join(combined)[:2400]
         c["boilerplate_summary"] = False
+    if source_evidence:
+        c["source_evidence"] = source_evidence
+        article = generate_ai_article(c.get("title", ""), c.get("lang", "en"), source_evidence)
+        if article: c["article_body"] = article
 
 def parse_feed(data: bytes, feed: dict) -> list:
     low = data.lower()
@@ -843,7 +878,7 @@ def build_post(c, now) -> dict:
     return {
         "id": make_id(lang, c["title"]), "lang": lang, "slug": make_slug(lang, c["title"]),
         "url": f"{lang}/posts/{make_slug(lang, c['title'])}.html", "title": c["title"],
-        "summary": short_summary(c), "source_summary": c["summary"][:1800], "category": c["category"],
+        "summary": short_summary(c), "source_summary": c["summary"][:1800], "article_body": c.get("article_body", ""), "category": c["category"],
         "published_at": c["published"].isoformat(), "generated_at": now.isoformat(), "kind": "digest",
         "keyword": c["keyword"], "score": c.get("score", 0),
         "sources": [{"title": s["title"], "url": s["url"], "publisher": s["publisher"]} for s in c["sources"]],
@@ -1052,8 +1087,10 @@ def article_page(cfg, p, posts):
     # Keep publisher-provided snippets attached to their own source links.
     # These are excerpts from feeds/publisher metadata, not independently verified facts.
     attributed = {}
+    article_body = tidy(p.get("article_body", ""))
     happened_raw = p.get("source_summary") or p["summary"]
     happened_parts = [tidy(part) for part in re.split(r"\n\s*\n", happened_raw) if tidy(part)]
+    if article_body: happened_parts = [tidy(part) for part in re.split(r"\n\s*\n", article_body) if tidy(part)]
     for part in happened_parts:
         match = re.match(r"^([^:]{2,100}):\s+(.+)$", part, re.S)
         if match:
@@ -1191,7 +1228,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                 if len(new_posts) >= cfg["max_new_posts_per_run"]:
                     break
                 try:
-                    if live_fetcher and len(c.get("summary", "")) < cfg["min_summary_chars"] and enriched_count < 8:
+                    if live_fetcher and enriched_count < 8:
                         enriched_count += 1
                         enrich_candidate_summary(c, cfg)
                         c["score"] = score(c, cfg, now)
@@ -1256,6 +1293,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             try:
                 enrich_candidate_summary(candidate, cfg, max_sources=5)
                 detail_raw = candidate.get("summary", "")
+                if candidate.get("article_body"): p["article_body"] = candidate["article_body"]
                 detail_parts = [tidy(part) for part in re.split(r"\n\s*\n", detail_raw) if tidy(part)]
                 detail = tidy(detail_raw)
                 p["summary_refresh_attempted_at"] = now.isoformat()
