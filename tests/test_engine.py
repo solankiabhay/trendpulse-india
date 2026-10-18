@@ -620,6 +620,23 @@ class SourceExtractionTests(unittest.TestCase):
         self.assertLessEqual(len(excerpt.removesuffix("…").split()), 22)
         self.assertTrue(excerpt.endswith("…"))
 
+    def test_snippet_matches_publisher_headline_when_cluster_title_differs(self):
+        # Same match story, but the publisher headline uses the team name rather
+        # than the clustered headline's wording.
+        snippet = "Odisha FC remains unbeaten against Inter Kashi across all competitions."
+        self.assertTrue(engine._snippet_matches_story(
+            snippet,
+            "Inter Kashi, Odisha FC seek first points after opening defeats",
+            "Odisha FC remain unbeaten against Inter Kashi",
+        ))
+
+    def test_unrelated_snippet_still_rejected_with_publisher_headline(self):
+        self.assertFalse(engine._snippet_matches_story(
+            "Heavy rain disrupts train services across the city.",
+            "Inter Kashi, Odisha FC seek first points after opening defeats",
+            "Odisha FC remain unbeaten against Inter Kashi",
+        ))
+
     def test_google_news_boilerplate_tolerates_punctuation_variants(self):
         self.assertTrue(engine.is_boilerplate_summary("  Comprehensive up to date news coverage, aggregated from sources all over the world by Google News!  "))
     def test_boilerplate_is_not_accepted_as_source_excerpt(self):
