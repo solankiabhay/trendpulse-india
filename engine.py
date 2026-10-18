@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 5
+SUMMARY_REFRESH_VERSION = 6
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -540,8 +540,12 @@ def _short_attributed_text(text, max_words=22):
     return text
 
 
-def _snippet_matches_story(snippet, title):
-    """Reject publisher excerpts with no meaningful word overlap with the headline."""
+def _snippet_matches_story(snippet, title, source_title=""):
+    """Reject unrelated excerpts, matching against both the clustered headline and publisher headline.
+
+    Publishers often phrase the same story differently; source-title overlap helps
+    retain relevant context without accepting arbitrary text from the page.
+    """
     stop_words = {
         "about", "after", "amid", "among", "and", "are", "been", "before",
         "being", "from", "have", "into", "more", "over", "said", "says",
@@ -549,9 +553,11 @@ def _snippet_matches_story(snippet, title):
         "under", "was", "were", "what", "when", "where", "which", "while",
         "with", "will", "would", "your", "today", "latest", "update",
     }
-    headline_terms = {word for word in tokens(title) if len(word) >= 4 and word not in stop_words}
-    snippet_terms = {word for word in tokens(snippet) if len(word) >= 4 and word not in stop_words}
-    return bool(headline_terms & snippet_terms)
+    def meaningful_terms(text):
+        return {word for word in tokens(text) if len(word) >= 4 and word not in stop_words}
+    snippet_terms = meaningful_terms(snippet)
+    story_terms = meaningful_terms(title) | meaningful_terms(source_title)
+    return bool(story_terms & snippet_terms)
 
 
 def enrich_candidate_summary(c, cfg, max_sources=3):
@@ -605,7 +611,7 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
                 option = tidy(option)
                 if (len(option) < 40
                         or option.casefold() == c.get("title", "").casefold()
-                        or not _snippet_matches_story(option, c.get("title", ""))
+                        or not _snippet_matches_story(option, c.get("title", ""), source.get("title", ""))
                         or is_boilerplate_summary(option)):
                     continue
                 short = _short_attributed_text(option, max_words=22)
