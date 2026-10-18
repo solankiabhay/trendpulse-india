@@ -668,6 +668,35 @@ class SourceExtractionTests(unittest.TestCase):
 
 
 class RefreshOnlyTests(unittest.TestCase):
+    def test_refresh_only_retries_long_but_thin_attributed_summary(self):
+        root = make_root()
+        post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        # More than the character minimum, but only two short source excerpts.
+        post["source_summary"] = (
+            "ISL Official: Inter Kashi, Odisha FC seek first points after opening defeats. "
+            "Sportstar: Odisha FC remains unbeaten against Inter Kashi across all competitions, "
+            "having won three nil in the Super Cup and drawn goalless in the previous meeting."
+        )
+        post["summary"] = post["source_summary"][:200]
+        engine.write_json(root / "posts.json", {"version": 1, "posts": [post]})
+        engine.write_json(root / "published.json", {"version": 1, "items": []})
+        self.assertGreater(len(post["source_summary"]), engine.DEFAULTS["min_summary_chars"])
+        self.assertTrue(engine.summary_needs_refresh(post["source_summary"]))
+
+        def fake_enrich(candidate, cfg, max_sources=5):
+            candidate["summary"] = (
+                "ISL Official: Inter Kashi and Odisha FC are looking for their first points "
+                "after losing their opening matches. Sportstar: Odisha FC have previously "
+                "beaten Inter Kashi in the Super Cup and played out a goalless draw."
+            )
+
+        with mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \
+             mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
+            engine.run(root, now=NOW, refresh_only=True)
+        stored = engine.load_posts(root / "posts.json")["posts"][0]
+        self.assertIn("looking for their first points", stored["source_summary"])
+        self.assertEqual(stored["summary_refresh_version"], engine.SUMMARY_REFRESH_VERSION)
+
     def test_refresh_only_updates_stored_posts_without_collecting_new_stories(self):
         root = make_root()
         post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
