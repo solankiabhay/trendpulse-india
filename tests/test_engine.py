@@ -592,16 +592,16 @@ class TeaserAndIndexingTests(unittest.TestCase):
             "The club said the squad has been preparing for its next fixture after the opening match. "
             "The coach outlined training priorities and the team schedule. "
         ) * 5
-        fake_body = {"choices": [{"message": {"content": "\\n\\n".join([paragraph] * 3)}}]}
+        fake_body = {"choices": [{"message": {"content": "\n\n".join([paragraph] * 3)}}]}
         class FakeResponse:
             def __enter__(self): return self
             def __exit__(self, *args): return False
             def read(self, _limit): return json.dumps(fake_body).encode("utf-8")
-        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \\
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \
              mock.patch.object(engine.urllib.request, "urlopen", return_value=FakeResponse()):
             result = engine.generate_ai_article("Team prepares for next fixture", "en", evidence)
         self.assertGreaterEqual(len(result.split()), 180)
-        self.assertEqual(len(result.split("\\n\\n")), 3)
+        self.assertEqual(len(result.split("\n\n")), 3)
 
     def test_ai_article_generation_uses_grounded_prompt_and_accepts_long_paragraphs(self):
         evidence = [
