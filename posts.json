@@ -1971,6 +1971,74 @@
           "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/18/dorothy-on-ott-heres-where-you-can-watch-karthik-subbarajs-drama",
           "publisher": "Cinema Express"
         }
+      ],
+      "summary_refresh_attempted_at": "2026-10-18T14:42:13.829657+00:00",
+      "summary_refresh_version": 10
+    },
+    {
+      "id": "en-cd572a266f",
+      "lang": "en",
+      "slug": "michel-makes-major-changes-to-ajax-s-line-up-in-groningen-cd572a266f",
+      "url": "en/posts/michel-makes-major-changes-to-ajax-s-line-up-in-groningen-cd572a266f.html",
+      "title": "Míchel makes major changes to Ajax's line-up in Groningen",
+      "summary": "Goal.com: Three days after their painful 2-1 defeat to Hajduk Split, Ajax return to action against FC Groningen. Coach Míchel Sánchez has named the 11 players who will start at 16:45…\n\nOneFootball…",
+      "source_summary": "Goal.com: Three days after their painful 2-1 defeat to Hajduk Split, Ajax return to action against FC Groningen. Coach Míchel Sánchez has named the 11 players who will start at 16:45…\n\nOneFootball: Groningen host Ajax in the Eredivisie at Euroborg on 18 October 2026, with fifth facing sixth and valuable play-off places at stake.Groningen face Ajax…\n\nKarloBag.eu: ⚽ Ready for FC Groningen vs AFC Ajax? The Eredivisie game is on 18 October 2026 at Euroborg. Check your travel options and plan to buy tickets for the match",
+      "article_body": "",
+      "category": "trending",
+      "published_at": "2026-10-18T14:20:00+00:00",
+      "generated_at": "2026-10-18T14:42:13.829657+00:00",
+      "kind": "digest",
+      "keyword": "groningen vs ajax",
+      "score": 89.79,
+      "sources": [
+        {
+          "title": "Míchel makes major changes to Ajax's line-up in Groningen",
+          "url": "https://www.goal.com/en-in/news/michel-significantly-reshuffles-ajax-s-line-up-in-groningen/blt7474350f636ed4e8",
+          "publisher": "Goal.com"
+        },
+        {
+          "title": "Groningen v Ajax: play-off rivals collide at Euroborg",
+          "url": "https://onefootball.com/en/news/groningen-v-ajax-play-off-rivals-collide-at-euroborg-43626907",
+          "publisher": "OneFootball"
+        },
+        {
+          "title": "FC Groningen vs AFC Ajax at Euroborg | Match Tickets",
+          "url": "https://karlobag.eu/en/sports/news/fc-groningen-vs-afc-ajax-at-euroborg-match-tickets-7cjm1/",
+          "publisher": "KarloBag.eu"
+        }
+      ]
+    },
+    {
+      "id": "en-4862589aee",
+      "lang": "en",
+      "slug": "punjab-vs-mumbai-city-indian-super-league-stats-head-to-head-4862589aee",
+      "url": "en/posts/punjab-vs-mumbai-city-indian-super-league-stats-head-to-head-4862589aee.html",
+      "title": "Punjab vs Mumbai City: Indian Super League stats & head-to-head",
+      "summary": "BBC: Follow live text commentary, score updates and match stats from Punjab vs Mumbai City in the Indian Super League\n\nThe News Mill: Punjab FC will seek to build on their winning start and gain…",
+      "source_summary": "BBC: Follow live text commentary, score updates and match stats from Punjab vs Mumbai City in the Indian Super League\n\nThe News Mill: Punjab FC will seek to build on their winning start and gain early momentum in the Indian Super League 2026-27 season when they face Mumbai City FC in their second…\n\nMumbai City FC | Official Website: Mumbai City will take on Punjab FC in their second fixture of the MG Indian Super League 2026-27 season at the JLN Stadium in Delhi on 19 October, as the…",
+      "article_body": "",
+      "category": "trending",
+      "published_at": "2026-10-18T14:10:00+00:00",
+      "generated_at": "2026-10-18T14:42:13.829657+00:00",
+      "kind": "digest",
+      "keyword": "indian super league games",
+      "score": 89.7,
+      "sources": [
+        {
+          "title": "Punjab vs Mumbai City: Indian Super League stats & head-to-head",
+          "url": "https://www.bbc.com/sport/football/live/ck1l3dj5d53vt",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Punjab FC aim to extend winning start against Mumbai City in ISL 2026-27",
+          "url": "https://thenewsmill.com/2026/10/punjab-fc-aim-to-extend-winning-start-against-mumbai-city-in-isl-2026-27/",
+          "publisher": "The News Mill"
+        },
+        {
+          "title": "Match Preview: Punjab FC vs Mumbai City FC",
+          "url": "https://www.mumbaicityfc.com/news/match-preview-punjab-fc-vs-mumbai-city-fc-17th-oct",
+          "publisher": "Mumbai City FC | Official Website"
+        }
       ]
     }
   ]
