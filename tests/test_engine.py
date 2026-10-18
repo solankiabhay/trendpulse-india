@@ -367,6 +367,30 @@ class StructureAndReviewTests(unittest.TestCase):
             engine.enrich_candidate_summary(candidate, cfg)
         self.assertEqual(candidate["summary"], "")
 
+    def test_enrichment_collects_multiple_relevant_details_but_skips_unrelated_paragraphs(self):
+        candidate = {
+            "title": "Parliament budget session to begin next week",
+            "summary": "",
+            "sources": [{"title": "Parliament budget session to begin next week",
+                         "url": "https://publisher.example/story", "publisher": "Publisher"}],
+        }
+        page = b"""<html><head>
+        <meta name="description" content="Parliament budget session timetable was confirmed by officials for next week.">
+        </head><body>
+        <p>Officials said Parliament budget session will begin next week after the committee finalises the agenda.</p>
+        <p>Weather update predicts heavy rainfall across coastal districts this weekend and authorities issued a public advisory.</p>
+        <p>The budget session agenda is expected to include questions on public spending and ministry allocations.</p>
+        </body></html>"""
+        cfg = {**engine.DEFAULTS, "timeout_seconds": 5}
+        with mock.patch.object(engine, "fetch_source_page",
+                               return_value=("https://publisher.example/story", page)):
+            engine.enrich_candidate_summary(candidate, cfg)
+        self.assertIn("Parliament budget session timetable", candidate["summary"])
+        self.assertIn("committee finalises the agenda", candidate["summary"])
+        self.assertIn("public spending", candidate["summary"])
+        self.assertNotIn("Weather update", candidate["summary"])
+        self.assertGreaterEqual(len(candidate["summary"]), 160)
+
     def test_attributed_source_snippets_render_next_to_their_source_links(self):
         c = engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0]
         post = engine.build_post(c, NOW)
