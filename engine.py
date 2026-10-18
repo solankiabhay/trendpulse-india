@@ -577,7 +577,10 @@ def _snippet_matches_story(snippet, title, source_title=""):
 def generate_ai_article(title, lang, source_evidence):
     """Generate a detailed article only from retrieved publisher evidence."""
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
-    if not api_key or len(source_evidence) < 2: return ""
+    if not api_key:
+        log.warning("OPENAI_API_KEY is not configured; skipping AI long-form article for %s", title[:90])
+        return ""
+    if len(source_evidence) < 2: return ""
     language = "Hindi" if lang == "hi" else "English"
     evidence = []
     for item in source_evidence[:5]:
@@ -1274,7 +1277,9 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
 
         for p in sorted(posts_doc["posts"], key=refresh_priority):
             current = tidy(p.get("source_summary") or "")
-            placeholder = (not current or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
+            # A summary can pass the word-count gate but still lack the full reader-facing article.
+            placeholder = (not p.get("article_body") or not current
+                           or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
                            or is_boilerplate_summary(current))
             if (not placeholder and len(current) >= cfg["min_summary_chars"]
                     and not summary_needs_refresh(current)):
