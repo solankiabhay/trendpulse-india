@@ -522,7 +522,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         engine.run(root, fetcher=fx, now=NOW)
         posts = {p["title"]: p for p in json.loads((root / "posts.json").read_text(encoding="utf-8"))["posts"]}
         smap = (root / "sitemap.xml").read_text(encoding="utf-8")
-        for title, want in (("Chandrayaan team shares new lunar images", True), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", True)):
+        for title, want in (("Chandrayaan team shares new lunar images", False), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", True)):
             p = posts[title]; html = (root / p["url"]).read_text(encoding="utf-8")
             self.assertEqual(engine.indexable(p, cfg), want, title); self.assertEqual(p["url"] in smap, want, title)
             self.assertEqual('content="noindex,follow"' not in html, want, title)
@@ -572,7 +572,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
 
     def test_substantive_summary_remains_indexable(self):
         cfg = {**engine.DEFAULTS}
-        summary = "Officials announced the project timeline and described the next steps for implementation. " * 3
+        summary = "Officials announced the project timeline and described the next steps for implementation. " * 6
         post = {"source_summary": summary, "sources": [{"publisher": "A"}]}
         self.assertTrue(engine.indexable(post, cfg))
 
@@ -707,6 +707,37 @@ class RefreshOnlyTests(unittest.TestCase):
         stored = engine.load_posts(root / "posts.json")["posts"][0]
         self.assertIn("looking for their first points", stored["source_summary"])
         self.assertEqual(stored["summary_refresh_version"], engine.SUMMARY_REFRESH_VERSION)
+
+    def test_refresh_priority_does_not_starve_never_attempted_thin_post(self):
+        root = make_root()
+        posts = []
+        for i in range(20):
+            post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+            post["id"] = f"en-{1000000000 + i}"
+            post["source_summary"] = "Short"
+            post["summary_refresh_version"] = engine.SUMMARY_REFRESH_VERSION
+            post["summary_refresh_attempted_at"] = NOW.isoformat()
+            post["published_at"] = f"2026-10-{i + 1:02d}T00:00:00+00:00"
+            posts.append(post)
+        untried = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        untried["id"] = "en-1999999999"
+        untried["source_summary"] = "This is a still thin but longer teaser " * 8
+        untried["summary"] = untried["source_summary"][:200]
+        untried.pop("summary_refresh_version", None)
+        untried.pop("summary_refresh_attempted_at", None)
+        posts.append(untried)
+        engine.write_json(root / "posts.json", {"version": 1, "posts": posts})
+        engine.write_json(root / "published.json", {"version": 1, "items": []})
+        attempted = []
+
+        def fake_enrich(candidate, cfg, max_sources=5):
+            attempted.append(candidate["title"])
+            candidate["summary"] = "Publisher: Officials shared a detailed update and explained the next steps for the project timeline. " * 2
+
+        with mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \
+             mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
+            engine.run(root, now=NOW, refresh_only=True)
+        self.assertEqual(attempted, [untried["title"]])
 
     def test_refresh_only_updates_stored_posts_without_collecting_new_stories(self):
         root = make_root()
