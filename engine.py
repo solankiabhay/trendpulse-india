@@ -580,13 +580,16 @@ def generate_ai_article(title, lang, source_evidence):
     if not api_key:
         log.warning("OPENAI_API_KEY is not configured; skipping AI long-form article for %s", title[:90])
         return ""
-    if len(source_evidence) < 2: return ""
+    if not source_evidence: return ""
     language = "Hindi" if lang == "hi" else "English"
     evidence = []
     for item in source_evidence[:5]:
         paragraphs = [tidy(x)[:1000] for x in item.get("paragraphs", []) if tidy(x)]
         if paragraphs: evidence.append({"publisher": normalize_text(item.get("publisher", "Publisher")), "headline": normalize_text(item.get("title", ""))[:250], "url": item.get("url", ""), "reported_text": paragraphs[:4]})
-    if len(evidence) < 2: return ""
+    evidence_word_count = sum(len(paragraph.split()) for item in evidence for paragraph in item["reported_text"])
+    # A single publisher is sufficient only when its accessible article provides substantial evidence.
+    # Do not expand a short feed teaser into an invented long-form story.
+    if not evidence or evidence_word_count < 120: return ""
     prompt = ("Write a detailed news article in " + language + " about: " + title + "\n\n"
         "Use ONLY facts explicitly present in the source evidence JSON below. No outside knowledge, assumptions, predictions, invented quotes, statistics, dates, or motives. Attribute claims to the source that reported them. Paraphrase faithfully and do not repeat the headline as filler. Use 4-7 substantial paragraphs and aim for 450-650 words only when evidence supports that much; otherwise write a shorter accurate article. Explain what happened, relevant context found in the sources, what each source reports, and what remains unclear. Return plain text paragraphs separated by blank lines, with no Markdown headings or HTML.\n\n"
         "SOURCE EVIDENCE JSON:\n" + json.dumps(evidence, ensure_ascii=False))
