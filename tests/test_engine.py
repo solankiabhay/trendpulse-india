@@ -22,7 +22,9 @@ def item(title, pub="Sat, 17 Oct 2026 04:00:00 GMT", publisher="The Hindu", rela
     # Synthetic detail is test-only fixture data; production summaries must come from feeds or publisher pages.
     fixture_detail = (" Test-only fixture detail: the report describes the event and gives readers additional context, "
                       "timing, and reported developments beyond the headline. This synthetic text exists only to exercise "
-                      "the content-quality pipeline in automated tests.") if include_detail and related else ""
+                      "the content-quality pipeline in automated tests. The report also outlines the background, the "
+                      "main points raised by the sources, the next expected steps, and the timeline mentioned in the "
+                      "coverage. These extra words are fictional test fixture text and are never used in production.") if include_detail and related else ""
     d = f"<description><![CDATA[<ol>{li}</ol>{fixture_detail}]]></description>" if related else ""
     dt = f"<pubDate>{pub}</pubDate>" if pub else ""
     return f'<item><title>{title} - {publisher}</title><link>{link}</link>{dt}{d}<source url="https://x.example">{publisher}</source>{extra}</item>'
@@ -436,7 +438,7 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertIn("word the story differently", self.page_of("en")); self.assertIn("Mint", self.page_of("en"))
 
     def test_single_source_flagged_when_summary_carries_value(self):
-        long = "Detailed summary text from the feed about the session timetable and agenda. " * 3
+        long = "Detailed summary text from the feed about the session timetable and agenda. " * 7
         one = f'<item><title>Parliament budget session to begin next week - The Hindu</title><link>https://news.example/a1</link><pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate><description>{long}</description><source url="https://x.example">The Hindu</source></item>'
         self.assertEqual(len(self.go([one])["published"]), 1)
         self.assertIn("Only one publisher is cited", self.page_of("en"))
@@ -516,7 +518,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
     def test_only_substantive_pages_are_indexable(self):
         root = make_root(); cfg = engine.load_config(root / "config.json")
         three = item("Chandrayaan team shares new lunar images", related=[("a", "https://n.example/1", "NDTV"), ("b", "https://n2.example/2", "WION"), ("c", "https://n3.example/3", "Mint")], link="https://n.example/1", publisher="NDTV")
-        long = "Detailed summary text from the feed about the session timetable and agenda. " * 3
+        long = "Detailed summary text from the feed about the session timetable and agenda. " * 7
         one = f'<item><title>Parliament budget session to begin next week - The Hindu</title><link>https://news.example/a1</link><pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate><description>{long}</description><source url="https://x.example">The Hindu</source></item>'
         fx = fetcher_for({FEED_EN["url"]: rss([GOOD_EN, three, one.replace("Parliament budget session to begin next week", "Rain disrupts metro services across the city")]), FEED_HI["url"]: rss([])})
         engine.run(root, fetcher=fx, now=NOW)
@@ -551,6 +553,17 @@ class TeaserAndIndexingTests(unittest.TestCase):
         }
         self.assertFalse(engine.indexable(post, cfg))
 
+    def test_long_looking_but_under_50_word_teaser_is_not_indexable(self):
+        cfg = {**engine.DEFAULTS}
+        teaser = (
+            "ISL Official: Inter Kashi, Odisha FC seek first points after opening defeats. "
+            "Sportstar: Odisha FC remains unbeaten against Inter Kashi across all competitions, "
+            "having won 3-0 in the Super Cup and drawn goalless in the…"
+        )
+        self.assertGreater(len(teaser), cfg["min_summary_chars"])
+        self.assertLess(len(teaser.split()), 50)
+        self.assertFalse(engine.indexable({"source_summary": teaser}, cfg))
+
     def test_google_news_boilerplate_never_makes_a_page_indexable(self):
         cfg = {**engine.DEFAULTS}
         post = {
@@ -561,7 +574,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
 
     def test_substantive_summary_remains_indexable(self):
         cfg = {**engine.DEFAULTS}
-        summary = "Officials announced the project timeline and described the next steps for implementation. " * 3
+        summary = "Officials announced the project timeline and described the next steps for implementation. " * 6
         post = {"source_summary": summary, "sources": [{"publisher": "A"}]}
         self.assertTrue(engine.indexable(post, cfg))
 
@@ -696,6 +709,37 @@ class RefreshOnlyTests(unittest.TestCase):
         stored = engine.load_posts(root / "posts.json")["posts"][0]
         self.assertIn("looking for their first points", stored["source_summary"])
         self.assertEqual(stored["summary_refresh_version"], engine.SUMMARY_REFRESH_VERSION)
+
+    def test_refresh_priority_does_not_starve_never_attempted_thin_post(self):
+        root = make_root()
+        posts = []
+        for i in range(20):
+            post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+            post["id"] = f"en-{1000000000 + i}"
+            post["source_summary"] = "Short"
+            post["summary_refresh_version"] = engine.SUMMARY_REFRESH_VERSION
+            post["summary_refresh_attempted_at"] = NOW.isoformat()
+            post["published_at"] = f"2026-10-{i + 1:02d}T00:00:00+00:00"
+            posts.append(post)
+        untried = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        untried["id"] = "en-1999999999"
+        untried["source_summary"] = "This is a still thin but longer teaser " * 5
+        untried["summary"] = untried["source_summary"][:200]
+        untried.pop("summary_refresh_version", None)
+        untried.pop("summary_refresh_attempted_at", None)
+        posts.append(untried)
+        engine.write_json(root / "posts.json", {"version": 1, "posts": posts})
+        engine.write_json(root / "published.json", {"version": 1, "items": []})
+        attempted = []
+
+        def fake_enrich(candidate, cfg, max_sources=5):
+            attempted.append(candidate["title"])
+            candidate["summary"] = "Publisher: Officials shared a detailed update and explained the next steps for the project timeline. " * 2
+
+        with mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \
+             mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
+            engine.run(root, now=NOW, refresh_only=True)
+        self.assertEqual(attempted, [untried["title"]])
 
     def test_refresh_only_updates_stored_posts_without_collecting_new_stories(self):
         root = make_root()
