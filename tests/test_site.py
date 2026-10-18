@@ -138,9 +138,9 @@ class Workflows(unittest.TestCase):
         self.assertIn("workflow_dispatch", self.ab)
         self.assertIn("unittest discover", self.ci); self.assertIn("engine.py --check", self.ci)
 
-    def test_actions_pinned_to_major_versions_and_no_secrets_used(self):
+    def test_actions_pinned_to_major_versions_and_only_ai_key_secret_used(self):
         for u in re.findall(r"uses: ([\w./-]+@[\w.]+)", self.ab + self.ci): self.assertRegex(u, r"@v\d+$")
-        self.assertNotIn("secrets.", self.ab + self.ci)
+        self.assertEqual(re.findall(r"secrets\\.([A-Z0-9_]+)", self.ab + self.ci), ["OPENAI_API_KEY"])
 
     def test_no_interpolated_untrusted_input_in_run_blocks(self):
         for block in re.findall(r"run: \|?\n?(.*?)(?=\n\s+- |\n\s+\w+:|\Z)", self.ab, re.S):
