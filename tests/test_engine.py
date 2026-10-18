@@ -385,11 +385,33 @@ class StructureAndReviewTests(unittest.TestCase):
         with mock.patch.object(engine, "fetch_source_page",
                                return_value=("https://publisher.example/story", page)):
             engine.enrich_candidate_summary(candidate, cfg)
-        self.assertIn("Parliament budget session timetable", candidate["summary"])
         self.assertIn("committee finalises the agenda", candidate["summary"])
-        self.assertIn("public spending", candidate["summary"])
         self.assertNotIn("Weather update", candidate["summary"])
-        self.assertGreaterEqual(len(candidate["summary"]), 160)
+        # The most relevant article paragraph wins over the meta description.
+        # Only one short excerpt per publisher is retained.
+        self.assertLessEqual(len(candidate["summary"].split()), 30)
+
+    def test_enrichment_finds_relevant_paragraph_after_first_eight(self):
+        candidate = {
+            "title": "Inter Kashi Odisha FC seek first points",
+            "summary": "",
+            "sources": [{"title": "Odisha FC remains unbeaten against Inter Kashi",
+                         "url": "https://publisher.example/story", "publisher": "Sportstar"}],
+        }
+        unrelated = "".join(
+            f"<p>Unrelated cricket update number {i} reports a separate match and team result in another tournament.</p>"
+            for i in range(12)
+        )
+        page = ("<html><head><meta name='description' content='A short unrelated sports homepage description that is not about this fixture.'></head>"
+                "<body>" + unrelated +
+                "<p>Odisha FC remains unbeaten against Inter Kashi across all competitions, having won three nil in the Super Cup and drawn goalless in the previous meeting.</p>"
+                "</body></html>").encode()
+        cfg = {**engine.DEFAULTS, "timeout_seconds": 5}
+        with mock.patch.object(engine, "fetch_source_page",
+                               return_value=("https://publisher.example/story", page)):
+            engine.enrich_candidate_summary(candidate, cfg)
+        self.assertIn("Odisha FC remains unbeaten against Inter Kashi", candidate["summary"])
+        self.assertNotIn("Unrelated cricket update", candidate["summary"])
 
     def test_attributed_source_snippets_render_next_to_their_source_links(self):
         c = engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0]

@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 6
+SUMMARY_REFRESH_VERSION = 7
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -560,11 +560,12 @@ def _snippet_matches_story(snippet, title, source_title=""):
     return bool(story_terms & snippet_terms)
 
 
-def enrich_candidate_summary(c, cfg, max_sources=3):
-    """Enrich a thin digest with short source-attributed metadata/excerpts.
+def enrich_candidate_summary(c, cfg, max_sources=5):
+    """Enrich a thin digest from multiple source pages without inventing facts.
 
-    Publisher pages are not copied wholesale. At most one short snippet (22 words)
-    is used per publisher; the original source links remain on the article page.
+    Scan beyond the first few page paragraphs because publisher pages often put
+    navigation, related stories, or promos before the article body. Keep no more
+    than 22 excerpt words from any one publisher and preserve source attribution.
     """
     if len(c.get("summary", "")) >= cfg["min_summary_chars"]:
         return
@@ -604,9 +605,11 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
                     final_host = host_of(final_url).casefold()
             if final_url != original_url and not final_host.startswith("news.google."):
                 source["url"] = final_url
-            options = parser.descriptions + parser.paragraphs[:8]
+            # Inspect many more candidate paragraphs, then select the most relevant
+            # one rather than blindly accepting whichever matching text appears first.
+            options = parser.descriptions[:8] + parser.paragraphs[:40]
             publisher = normalize_text(source.get("publisher") or host_of(final_url))
-            source_added = 0
+            ranked = []
             for option in options:
                 option = tidy(option)
                 if (len(option) < 40
@@ -614,19 +617,24 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
                         or not _snippet_matches_story(option, c.get("title", ""), source.get("title", ""))
                         or is_boilerplate_summary(option)):
                     continue
+                terms = {w for w in tokens(option) if len(w) >= 4}
+                story_terms = {w for w in tokens(c.get("title", "") + " " + source.get("title", "")) if len(w) >= 4}
+                score = len(terms & story_terms)
+                # Prefer useful context over a one-line teaser or a repeated headline.
+                ranked.append((score, min(len(option.split()), 80), option))
+            ranked.sort(key=lambda item: (item[0], item[1]), reverse=True)
+            for _, _, option in ranked:
                 short = _short_attributed_text(option, max_words=22)
                 if any(short.casefold() in old.casefold() or old.casefold() in short.casefold()
                        for old in additions):
                     continue
                 additions.append(f"{publisher}: {short}")
-                source_added += 1
-                if source_added >= 3:
-                    break
+                break
         except (FetchError, ValueError, UnicodeError) as e:
             log.debug("source content unavailable for %s: %s", url, e)
 
-    # Keep a short feed teaser and add up to three relevant, attributed details per source.
-    # This expands "What happened" using source-derived material only; no background is invented.
+    # Five publishers can contribute distinct, attributed details; unavailable source
+    # pages remain visibly limited rather than being filled with guessed context.
     parts = []
     feed_summary = tidy(c.get("summary", ""))
     if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
@@ -1215,7 +1223,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                 "sources": p.get("sources", []), "lang": p.get("lang", "en"),
             }
             try:
-                enrich_candidate_summary(candidate, cfg, max_sources=3)
+                enrich_candidate_summary(candidate, cfg, max_sources=5)
                 detail_raw = candidate.get("summary", "")
                 detail_parts = [tidy(part) for part in re.split(r"\n\s*\n", detail_raw) if tidy(part)]
                 detail = tidy(detail_raw)
