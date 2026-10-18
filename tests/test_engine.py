@@ -436,7 +436,7 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertIn("word the story differently", self.page_of("en")); self.assertIn("Mint", self.page_of("en"))
 
     def test_single_source_flagged_when_summary_carries_value(self):
-        long = "Detailed summary text from the feed about the session timetable and agenda. " * 5
+        long = "Detailed summary text from the feed about the session timetable and agenda. " * 7
         one = f'<item><title>Parliament budget session to begin next week - The Hindu</title><link>https://news.example/a1</link><pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate><description>{long}</description><source url="https://x.example">The Hindu</source></item>'
         self.assertEqual(len(self.go([one])["published"]), 1)
         self.assertIn("Only one publisher is cited", self.page_of("en"))
