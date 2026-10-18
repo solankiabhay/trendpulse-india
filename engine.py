@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 7
+SUMMARY_REFRESH_VERSION = 8
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -137,6 +137,17 @@ def is_boilerplate_summary(text) -> bool:
         "comprehensive up to date news coverage, aggregated from sources all over the world by google news",
     )
     return any(t == phrase or t.startswith(phrase + " ") for phrase in generic)
+
+def summary_needs_refresh(text, min_words=50) -> bool:
+    """Flag a long-looking but still thin digest for another source-enrichment attempt.
+
+    Publisher labels and headlines can make a summary pass a character-count
+    threshold while providing very little actual story context.
+    """
+    clean = tidy(text)
+    if not clean or is_boilerplate_summary(clean):
+        return True
+    return len(clean.split()) < min_words
 
 def indexable(p, cfg) -> bool:
     """Only substantive, non-boilerplate summaries may enter search indexes.
@@ -1205,11 +1216,16 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
     if live_fetcher and not render_only and not dry_run:
         retried = 0
         cooldown = timedelta(hours=24)
-        for p in sorted(posts_doc["posts"], key=lambda item: item.get("published_at", "")):
+        # Prioritise the weakest summaries first; oldest-first can leave newer thin
+        # stories waiting behind many already-attempted articles.
+        for p in sorted(posts_doc["posts"], key=lambda item: (
+                len(tidy(item.get("source_summary") or "").split()),
+                item.get("published_at", ""))):
             current = tidy(p.get("source_summary") or "")
             placeholder = (not current or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
                            or is_boilerplate_summary(current))
-            if not placeholder and len(current) >= cfg["min_summary_chars"]:
+            if (not placeholder and len(current) >= cfg["min_summary_chars"]
+                    and not summary_needs_refresh(current)):
                 continue
             attempted = parse_date(p.get("summary_refresh_attempted_at", ""))
             if (p.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
