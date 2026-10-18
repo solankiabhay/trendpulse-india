@@ -579,6 +579,30 @@ class TeaserAndIndexingTests(unittest.TestCase):
             with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}):
                 self.assertEqual(engine.generate_ai_article("Headline", "en", evidence), "")
 
+    def test_ai_article_generation_allows_one_substantial_publisher_source(self):
+        paragraph = (
+            "The club confirmed the head coach changed the starting lineup and training schedule. "
+            "The team lost its opening match, and the coach said the squad is preparing for the next fixture. "
+            "Training has focused on defensive shape, transitions, fitness, and set-piece routines. "
+            "The club also described the preparation timetable and explained which players joined the session. "
+        ) * 3
+        evidence = [{"publisher": "Official Club", "title": "Team prepares for next fixture",
+                     "url": "https://club.example/story", "paragraphs": [paragraph]}]
+        article_paragraph = (
+            "The club said the squad has been preparing for its next fixture after the opening match. "
+            "The coach outlined training priorities and the team schedule. "
+        ) * 5
+        fake_body = {"choices": [{"message": {"content": "\\n\\n".join([article_paragraph] * 3)}}]}
+        class FakeResponse:
+            def __enter__(self): return self
+            def __exit__(self, *args): return False
+            def read(self, _limit): return json.dumps(fake_body).encode("utf-8")
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \\
+             mock.patch.object(engine.urllib.request, "urlopen", return_value=FakeResponse()):
+            result = engine.generate_ai_article("Team prepares for next fixture", "en", evidence)
+        self.assertGreaterEqual(len(result.split()), 180)
+        self.assertEqual(len(result.split("\\n\\n")), 3)
+
     def test_ai_article_generation_uses_grounded_prompt_and_accepts_long_paragraphs(self):
         evidence = [
             {"publisher": "Source One", "title": "Headline one", "url": "https://one.example/story",
@@ -725,6 +749,30 @@ class SourceExtractionTests(unittest.TestCase):
 
 
 class RefreshOnlyTests(unittest.TestCase):
+    def test_refresh_generates_missing_long_form_body_even_when_summary_is_healthy(self):
+        root = make_root()
+        post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        post["source_summary"] = (
+            "Indian Super League: The coaches discussed preparations and improvements ahead of the match. "
+            "Sportstar: Both teams are seeking their first points after opening defeats, according to the preview. "
+        ) * 3
+        post["summary"] = post["source_summary"][:200]
+        post["article_body"] = ""
+        post["sources"] = [{"publisher": "Official", "url": "https://club.example/story", "title": "Match preview"}]
+        engine.write_json(root / "posts.json", {"version": 1, "posts": [post]})
+        engine.write_json(root / "published.json", {"version": 1, "items": []})
+        attempted = []
+        def fake_enrich(candidate, cfg, max_sources=5):
+            attempted.append(candidate["title"])
+            candidate["article_body"] = ("A detailed source-grounded paragraph. " * 70) + "\\n\\n" + ("A second detailed paragraph. " * 70) + "\\n\\n" + ("A third detailed paragraph. " * 70)
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \\
+             mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \\
+             mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
+            engine.run(root, now=NOW, refresh_only=True)
+        stored = engine.load_posts(root / "posts.json")["posts"][0]
+        self.assertEqual(attempted, [post["title"]])
+        self.assertGreater(len(stored["article_body"].split()), 180)
+
     def test_refresh_only_retries_long_but_thin_attributed_summary(self):
         root = make_root()
         post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
