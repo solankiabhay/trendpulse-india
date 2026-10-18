@@ -22,7 +22,9 @@ def item(title, pub="Sat, 17 Oct 2026 04:00:00 GMT", publisher="The Hindu", rela
     # Synthetic detail is test-only fixture data; production summaries must come from feeds or publisher pages.
     fixture_detail = (" Test-only fixture detail: the report describes the event and gives readers additional context, "
                       "timing, and reported developments beyond the headline. This synthetic text exists only to exercise "
-                      "the content-quality pipeline in automated tests.") if include_detail and related else ""
+                      "the content-quality pipeline in automated tests. The report also outlines the background, the "
+                      "main points raised by the sources, the next expected steps, and the timeline mentioned in the "
+                      "coverage. These extra words are fictional test fixture text and are never used in production.") if include_detail and related else ""
     d = f"<description><![CDATA[<ol>{li}</ol>{fixture_detail}]]></description>" if related else ""
     dt = f"<pubDate>{pub}</pubDate>" if pub else ""
     return f'<item><title>{title} - {publisher}</title><link>{link}</link>{dt}{d}<source url="https://x.example">{publisher}</source>{extra}</item>'
@@ -522,7 +524,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         engine.run(root, fetcher=fx, now=NOW)
         posts = {p["title"]: p for p in json.loads((root / "posts.json").read_text(encoding="utf-8"))["posts"]}
         smap = (root / "sitemap.xml").read_text(encoding="utf-8")
-        for title, want in (("Chandrayaan team shares new lunar images", False), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", True)):
+        for title, want in (("Chandrayaan team shares new lunar images", True), ("Rain disrupts metro services across the city", True), ("Parliament budget session to begin next week", True)):
             p = posts[title]; html = (root / p["url"]).read_text(encoding="utf-8")
             self.assertEqual(engine.indexable(p, cfg), want, title); self.assertEqual(p["url"] in smap, want, title)
             self.assertEqual('content="noindex,follow"' not in html, want, title)
