@@ -445,6 +445,19 @@ class TeaserAndIndexingTests(unittest.TestCase):
             self.assertEqual('content="noindex,follow"' not in html, want, title)
         self.assertNotIn('noindex', (root / "en/index.html").read_text(encoding="utf-8"))  # listing pages stay indexable
 
+    def test_thin_digests_are_hidden_from_public_lists_but_keep_noindex_page(self):
+        root = make_root()
+        cfg = engine.load_config(root / "config.json")
+        post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        post["source_summary"] = "Coverage from 2 sources: The Hindu, Mint."
+        post["summary"] = "Coverage from 2 sources: The Hindu, Mint."
+        files = engine.render_site(root, cfg, [post], write=False)
+        self.assertNotIn(post["title"], files["index.html"])
+        self.assertNotIn(post["title"], files["en/index.html"])
+        article = files[post["url"]]
+        self.assertIn('content="noindex,follow"', article)
+        self.assertIn(post["title"], article)
+
     def test_multiple_publishers_do_not_make_a_thin_page_indexable(self):
         cfg = {**engine.DEFAULTS}
         post = {
