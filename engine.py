@@ -614,12 +614,12 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
                     continue
                 additions.append(f"{publisher}: {short}")
                 source_added += 1
-                if source_added >= 2:
+                if source_added >= 3:
                     break
         except (FetchError, ValueError, UnicodeError) as e:
             log.debug("source content unavailable for %s: %s", url, e)
 
-    # Keep a short feed teaser and add up to two relevant, attributed details per source.
+    # Keep a short feed teaser and add up to three relevant, attributed details per source.
     # This expands "What happened" using source-derived material only; no background is invented.
     parts = []
     feed_summary = tidy(c.get("summary", ""))
