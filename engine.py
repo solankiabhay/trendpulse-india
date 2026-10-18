@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 4
+SUMMARY_REFRESH_VERSION = 5
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -598,25 +598,29 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
                     final_host = host_of(final_url).casefold()
             if final_url != original_url and not final_host.startswith("news.google."):
                 source["url"] = final_url
-            options = parser.descriptions + parser.paragraphs[:4]
-            snippet = ""
+            options = parser.descriptions + parser.paragraphs[:8]
+            publisher = normalize_text(source.get("publisher") or host_of(final_url))
+            source_added = 0
             for option in options:
-                option = _short_attributed_text(option)
-                if (len(option) >= 40
-                        and option.casefold() != c.get("title", "").casefold()
-                        and _snippet_matches_story(option, c.get("title", ""))
-                        and not is_boilerplate_summary(option)
-                        and not any(option.casefold() in old.casefold() or old.casefold() in option.casefold()
-                                    for old in additions)):
-                    snippet = option
+                option = tidy(option)
+                if (len(option) < 40
+                        or option.casefold() == c.get("title", "").casefold()
+                        or not _snippet_matches_story(option, c.get("title", ""))
+                        or is_boilerplate_summary(option)):
+                    continue
+                short = _short_attributed_text(option, max_words=22)
+                if any(short.casefold() in old.casefold() or old.casefold() in short.casefold()
+                       for old in additions):
+                    continue
+                additions.append(f"{publisher}: {short}")
+                source_added += 1
+                if source_added >= 3:
                     break
-            if snippet:
-                publisher = normalize_text(source.get("publisher") or host_of(final_url))
-                additions.append(f"{publisher}: {snippet}")
         except (FetchError, ValueError, UnicodeError) as e:
             log.debug("source content unavailable for %s: %s", url, e)
 
-    # Keep a usable feed teaser if present, then add distinct attributed publisher snippets.
+    # Keep a short feed teaser and add up to three relevant, attributed details per source.
+    # This expands "What happened" using source-derived material only; no background is invented.
     parts = []
     feed_summary = tidy(c.get("summary", ""))
     if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
@@ -628,7 +632,7 @@ def enrich_candidate_summary(c, cfg, max_sources=3):
                             for old in combined):
             combined.append(part)
     if combined:
-        c["summary"] = "\n\n".join(combined)[:1200]
+        c["summary"] = "\n\n".join(combined)[:2400]
         c["boilerplate_summary"] = False
 
 def parse_feed(data: bytes, feed: dict) -> list:
@@ -811,7 +815,7 @@ def build_post(c, now) -> dict:
     return {
         "id": make_id(lang, c["title"]), "lang": lang, "slug": make_slug(lang, c["title"]),
         "url": f"{lang}/posts/{make_slug(lang, c['title'])}.html", "title": c["title"],
-        "summary": short_summary(c), "source_summary": c["summary"][:600], "category": c["category"],
+        "summary": short_summary(c), "source_summary": c["summary"][:1800], "category": c["category"],
         "published_at": c["published"].isoformat(), "generated_at": now.isoformat(), "kind": "digest",
         "keyword": c["keyword"], "score": c.get("score", 0),
         "sources": [{"title": s["title"], "url": s["url"], "publisher": s["publisher"]} for s in c["sources"]],
