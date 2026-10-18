@@ -436,7 +436,7 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertIn("word the story differently", self.page_of("en")); self.assertIn("Mint", self.page_of("en"))
 
     def test_single_source_flagged_when_summary_carries_value(self):
-        long = "Detailed summary text from the feed about the session timetable and agenda. " * 3
+        long = "Detailed summary text from the feed about the session timetable and agenda. " * 5
         one = f'<item><title>Parliament budget session to begin next week - The Hindu</title><link>https://news.example/a1</link><pubDate>Sat, 17 Oct 2026 04:00:00 GMT</pubDate><description>{long}</description><source url="https://x.example">The Hindu</source></item>'
         self.assertEqual(len(self.go([one])["published"]), 1)
         self.assertIn("Only one publisher is cited", self.page_of("en"))
@@ -550,6 +550,17 @@ class TeaserAndIndexingTests(unittest.TestCase):
             ],
         }
         self.assertFalse(engine.indexable(post, cfg))
+
+    def test_long_looking_but_under_50_word_teaser_is_not_indexable(self):
+        cfg = {**engine.DEFAULTS}
+        teaser = (
+            "ISL Official: Inter Kashi, Odisha FC seek first points after opening defeats. "
+            "Sportstar: Odisha FC remains unbeaten against Inter Kashi across all competitions, "
+            "having won 3-0 in the Super Cup and drawn goalless in the…"
+        )
+        self.assertGreater(len(teaser), cfg["min_summary_chars"])
+        self.assertLess(len(teaser.split()), 50)
+        self.assertFalse(engine.indexable({"source_summary": teaser}, cfg))
 
     def test_google_news_boilerplate_never_makes_a_page_indexable(self):
         cfg = {**engine.DEFAULTS}
