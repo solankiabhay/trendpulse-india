@@ -357,7 +357,7 @@ class StructureAndReviewTests(unittest.TestCase):
         html = engine.article_page(cfg, post, [post])
         self.assertIn('<p class="source-detail">Officials announced the dates on Tuesday', html)
         self.assertIn('<p class="source-detail">The ministry released a separate notice', html)
-        self.assertLess(html.index("<strong>The Hindu</strong>", html.index("What each source reports")), html.index("Officials announced the dates", html.index("What each source reports"))
+        self.assertLess(html.index("<strong>The Hindu</strong>", html.index("What each source reports")), html.index("Officials announced the dates", html.index("What each source reports")))
         self.assertIn("What each source reports", html)
 
     def test_differing_headlines_are_flagged_as_unconfirmed(self):
