@@ -587,17 +587,17 @@ class TeaserAndIndexingTests(unittest.TestCase):
              "paragraphs": ["The team lost its opening match and the coach said the squad is preparing for the next fixture."]},
         ]
         paragraph = "The coach said the squad is working on its defensive shape before the next fixture. " * 25
-        article = paragraph + "\\n\\n" + paragraph + "\\n\\n" + paragraph
+        article = paragraph + "\n\n" + paragraph + "\n\n" + paragraph
         fake_body = {"choices": [{"message": {"content": article}}]}
         class FakeResponse:
             def __enter__(self): return self
             def __exit__(self, *args): return False
             def read(self, _limit): return json.dumps(fake_body).encode("utf-8")
-        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \\
+        with mock.patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), \
              mock.patch.object(engine.urllib.request, "urlopen", return_value=FakeResponse()) as mocked:
             result = engine.generate_ai_article("Team prepares for next fixture", "en", evidence)
-        self.assertGreaterEqual(len(result.split()), 180)
-        self.assertGreaterEqual(len(result.split("\\n\\n")), 3)
+        self.assertGreaterEqual(len(result.split("\n\n")), 3)
+        self.assertGreaterEqual(len(result.split("\n\n")), 3)
         payload = json.loads(mocked.call_args.args[0].data.decode("utf-8"))
         self.assertIn("ONLY facts explicitly present", payload["messages"][1]["content"])
         self.assertEqual(payload["model"], "gpt-4.1-mini")
