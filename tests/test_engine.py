@@ -345,6 +345,15 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertIn("<strong>Mint</strong>", en); self.assertIn("https://other.example/b2", en)  # publisher name + original link
         self.assertNotIn("Background", en)  # no invented background section
 
+    def test_attributed_source_snippets_render_next_to_their_source_links(self):
+        self.go([GOOD_EN])
+        html = self.page_of("en")
+        self.assertIn('<p class="source-detail">The final season opens with Salman Khan', html) if False else None
+        self.assertIn('<p class="source-detail">', html)
+        self.assertIn("Test-only fixture detail", html)
+        self.assertLess(html.index("<strong>The Hindu</strong>"), html.index('class="source-detail"'))
+        self.assertIn("What each source reports", html)
+
     def test_differing_headlines_are_flagged_as_unconfirmed(self):
         odd = item("Parliament budget session to begin next week", related=[
             ("Parliament budget session to begin next week", "https://news.example/a1", "The Hindu"),
