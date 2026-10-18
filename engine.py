@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 8
+SUMMARY_REFRESH_VERSION = 9
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -138,7 +138,7 @@ def is_boilerplate_summary(text) -> bool:
     )
     return any(t == phrase or t.startswith(phrase + " ") for phrase in generic)
 
-def summary_needs_refresh(text, min_words=50) -> bool:
+def summary_needs_refresh(text, min_words=60) -> bool:
     """Flag a long-looking but still thin digest for another source-enrichment attempt.
 
     Publisher labels and headlines can make a summary pass a character-count
@@ -154,7 +154,7 @@ def indexable(p, cfg) -> bool:
 
     Character count alone is misleading when publisher names and headlines
     inflate a short teaser. Keep weak article pages noindex until enrichment
-    adds at least 50 words of non-boilerplate source-attributed context.
+    adds at least 60 words of non-boilerplate source-attributed context.
     """
     summary = tidy(p.get("source_summary", "") or "")
     return (len(summary) >= cfg["min_summary_chars"]
@@ -542,9 +542,12 @@ def embedded_source_url(url):
     return None
 
 
-def _short_attributed_text(text, max_words=22):
-    """Keep only a short excerpt from one publisher; never mirror a full article."""
+def _short_attributed_text(text, max_words=30):
+    """Keep a short, attributed excerpt from one publisher; never mirror a full article."""
     text = tidy(text)
+    # Some publisher markup joins a headline and its location/update label.
+    # Add a separator at clear lower-to-title-case boundaries before a colon.
+    text = re.sub(r"([a-z]{2,})([A-Z][a-z]{2,}:)", r"\1 \2", text)
     words = text.split()
     if len(words) > max_words:
         text = " ".join(words[:max_words]).rstrip(" ,;:-") + "…"
@@ -635,7 +638,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                 ranked.append((score, min(len(option.split()), 80), option))
             ranked.sort(key=lambda item: (item[0], item[1]), reverse=True)
             for _, _, option in ranked:
-                short = _short_attributed_text(option, max_words=22)
+                short = _short_attributed_text(option, max_words=30)
                 if any(short.casefold() in old.casefold() or old.casefold() in short.casefold()
                        for old in additions):
                     continue
@@ -649,7 +652,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     parts = []
     feed_summary = tidy(c.get("summary", ""))
     if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
-        parts.append(_short_attributed_text(feed_summary, max_words=22))
+        parts.append(_short_attributed_text(feed_summary, max_words=30))
     parts.extend(additions)
     combined = []
     for part in parts:
@@ -1062,7 +1065,7 @@ def article_page(cfg, p, posts):
     for source in p["sources"]:
         publisher = normalize_text(source["publisher"])
         snippet = attributed.get(publisher.casefold(), "")
-        detail = f'<p class="source-detail">{esc(_short_attributed_text(snippet, max_words=22))}</p>' if snippet else ""
+        detail = f'<p class="source-detail">{esc(_short_attributed_text(snippet, max_words=30))}</p>' if snippet else ""
         src_items.append(f'<li><strong>{esc(publisher)}</strong>: <a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["title"] or publisher)}</a>{detail}</li>')
     srcs = "".join(src_items)
     if not happened_parts:
