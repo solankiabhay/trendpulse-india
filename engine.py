@@ -1065,29 +1065,10 @@ def list_page(cfg, scope, posts, path, alternates=()):
                    f'<a class="btn" lang="hi" hreflang="hi" href="hi/index.html">{esc(L["choose_hi"])}</a></p>')
     btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
         f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
-    # Show the actual Google Trends keyword, not only the related news headline.
-    trend_items = sorted(
-        [p for p in visible_items if p.get("category") == "trending" and p.get("keyword")],
-        key=lambda p: (p.get("score", 0), p.get("published_at", "")), reverse=True
-    )[:6]
     trending = ""
-    if trend_items:
-        trend_cards = []
-        for p in trend_items:
-            names = ", ".join(dict.fromkeys(s["publisher"] for s in p["sources"]))
-            trend_cards.append(
-                f'<article class="card compact trend-card" lang="{p["lang"]}">'
-                f'<p class="meta"><span class="badge">{esc(cat_label("trending", lang))}</span> '
-                f'<time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
-                f'<h3>{esc(p["keyword"])}</h3>'
-                f'<p><a href="{esc(up + p["url"])}">{esc(p["title"])}</a></p>'
-                f'<p>{esc(tidy(p["summary"]))}</p>'
-                f'<p class="src">{esc(L["sources"])}: {esc(names)}</p>'
-                f'<a class="more" href="{esc(up + p["url"])}">{esc(L["read_more"])}</a></article>'
-            )
-        trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><p class="section-intro">Live search trends linked to related reporting. Trend data updates when the feed is checked.</p><div class="grid">' + "".join(trend_cards) + "</div></section>"
-    elif top:
+    if top:
         trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
+
     if visible_items:
         grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in visible_items) + "</div>"
         grid += f'<p id="nomatch" class="empty" hidden>{esc(L["nomatch"])}</p>'
