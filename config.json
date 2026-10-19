@@ -5,7 +5,7 @@
   "timeout_seconds": 15,
   "retries": 2,
   "retry_backoff_seconds": 2,
-  "max_new_posts_per_run": 4,
+  "max_new_posts_per_run": 8,
   "max_age_hours": 72,
   "duplicate_similarity": 0.6,
   "min_title_chars": 12,
