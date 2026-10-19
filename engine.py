@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 11
+SUMMARY_REFRESH_VERSION = 12
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -201,6 +201,33 @@ def latin_ratio(t: str) -> float:
 def language_ok(lang: str, title: str) -> bool:
     """English titles must be mostly Latin script, Hindi titles mostly Devanagari (rejects Telugu, Gujarati, etc.)."""
     return latin_ratio(title) >= 0.7 if lang == "en" else deva_ratio(title) >= 0.4
+
+
+
+def content_language_needs_refresh(text: str, lang: str) -> bool:
+    """Detect a digest labelled Hindi that remains mostly Latin-script."""
+    text = normalize_text(text)
+    if not text:
+        return lang == "hi"
+    return lang == "hi" and deva_ratio(text) < 0.25 and latin_ratio(text) > 0.25
+
+
+def translate_to_hindi(text: str) -> str:
+    """Translate English excerpts via Google's no-key endpoint; safely fall back on failure."""
+    text = normalize_text(text)
+    if not text or deva_ratio(text) >= 0.35:
+        return text
+    query = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "hi", "dt": "t", "q": text[:3500]})
+    request = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + query,
+                                     headers={"User-Agent": "Mozilla/5.0 TrendPulseIndia/1.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=8) as response:
+            payload = json.loads(response.read(1_000_000).decode("utf-8"))
+        translated = normalize_text("".join(part[0] for part in payload[0] if part and part[0]))
+        return translated if translated and deva_ratio(translated) >= 0.15 else text
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError, ValueError, IndexError, TypeError, KeyError):
+        log.warning("Hindi translation endpoint unavailable; retaining source excerpt")
+        return text
 
 
 def make_id(lang: str, title: str) -> str:
@@ -574,7 +601,7 @@ def _snippet_matches_story(snippet, title, source_title=""):
     return bool(story_terms & snippet_terms)
 
 
-def build_evidence_digest(source_evidence, max_sources=5, max_words=22):
+def build_evidence_digest(source_evidence, max_sources=5, max_words=22, lang="en"):
     """Build a clearly attributed extractive digest when no language model is configured.
 
     Keep each publisher's copied excerpt short; do not pad with invented context.
@@ -586,6 +613,8 @@ def build_evidence_digest(source_evidence, max_sources=5, max_words=22):
             continue
         publisher = normalize_text(item.get("publisher", "Publisher")) or "Publisher"
         excerpt = _short_attributed_text(available[0], max_words=max_words)
+        if lang == "hi":
+            excerpt = translate_to_hindi(excerpt)
         if excerpt:
             paragraphs.append(f'{publisher}: “{excerpt}”')
     return "\n\n".join(paragraphs)
@@ -696,6 +725,8 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                 if evidence_paragraphs:
                     source_evidence.append({"publisher": publisher, "title": source.get("title", ""), "url": final_url, "paragraphs": evidence_paragraphs})
                     short = _short_attributed_text(evidence_paragraphs[0], max_words=30)
+                    if c.get("lang") == "hi":
+                        short = translate_to_hindi(short)
                     if not any(short.casefold() in old.casefold() or old.casefold() in short.casefold() for old in additions):
                         additions.append(f"{publisher}: {short}")
         except (FetchError, ValueError, UnicodeError) as e:
@@ -705,6 +736,8 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     # pages remain visibly limited rather than being filled with guessed context.
     parts = []
     feed_summary = tidy(c.get("summary", ""))
+    if c.get("lang") == "hi" and feed_summary:
+        feed_summary = translate_to_hindi(feed_summary)
     if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
         parts.append(_short_attributed_text(feed_summary, max_words=30))
     parts.extend(additions)
@@ -713,6 +746,12 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         if part and not any(part.casefold() in old.casefold() or old.casefold() in part.casefold()
                             for old in combined):
             combined.append(part)
+    if not combined and c.get("lang") == "hi":
+        # If source pages block extraction, translate source headlines with attribution.
+        for source in sources[:5]:
+            headline = normalize_text(source.get("title", ""))
+            if headline:
+                combined.append(f'{normalize_text(source.get("publisher", "स्रोत"))}: {translate_to_hindi(headline)}')
     if combined:
         if len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]: c["summary"] = "\n\n".join(combined)[:2400]
         c["boilerplate_summary"] = False
@@ -724,7 +763,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         else:
             # No paid API key: publish a transparent, source-attributed digest instead
             # of inventing long-form prose or leaving the article body nearly empty.
-            evidence_digest = build_evidence_digest(source_evidence)
+            evidence_digest = build_evidence_digest(source_evidence, lang=c.get("lang", "en"))
             if evidence_digest:
                 c["article_body"] = evidence_digest
 
@@ -1333,7 +1372,8 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             # A summary can pass the word-count gate but still lack the full reader-facing article.
             placeholder = (not p.get("article_body") or not current
                            or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
-                           or is_boilerplate_summary(current))
+                           or is_boilerplate_summary(current)
+                           or content_language_needs_refresh(current, p.get("lang", "en")))
             if (not placeholder and len(current) >= cfg["min_summary_chars"]
                     and not summary_needs_refresh(current)):
                 continue
@@ -1341,7 +1381,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             if (p.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
                     and attempted and now - attempted < cooldown):
                 continue
-            if retried >= 20:
+            if retried >= 30:
                 break
             retried += 1
             candidate = {
