@@ -65,6 +65,25 @@ class ProjectFiles(unittest.TestCase):
         self.assertIn("Rain forecast updated", card)
         self.assertIn('rel="noopener noreferrer"', card)
 
+    def test_hindi_google_trends_card_localizes_keyword_and_headline(self):
+        from unittest import mock
+        post = {"keyword": "oman vs nepal", "url": "en/posts/match.html", "title": "Oman v Nepal match highlights", "lang": "en"}
+        with mock.patch.object(engine, "translate_to_hindi", return_value="ओमान और नेपाल के मैच की मुख्य झलकियाँ"):
+            card = engine.trend_topic_card(post, "../", "hi")
+        self.assertIn('lang="hi"', card)
+        self.assertIn("Google Trends · भारत", card)
+        self.assertIn("ओमान बनाम नेपाल", card)
+        self.assertIn("ओमान और नेपाल के मैच की मुख्य झलकियाँ", card)
+        self.assertIn("https://www.google.com/search?hl=hi&amp;q=oman%20vs%20nepal", card)
+
+    def test_hindi_google_trends_card_never_falls_back_to_english_headline(self):
+        from unittest import mock
+        post = {"keyword": "unfamiliar keyword", "url": "en/posts/story.html", "title": "English headline stays untranslated", "lang": "en"}
+        with mock.patch.object(engine, "translate_to_hindi", side_effect=lambda value: value):
+            card = engine.trend_topic_card(post, "../", "hi")
+        self.assertIn("इस ट्रेंड से जुड़ी खबर पढ़ें।", card)
+        self.assertNotIn("English headline stays untranslated", card)
+
     def test_no_api_fallback_uses_short_attributed_source_excerpts(self):
         evidence = [
             {"publisher": "Example News", "paragraphs": ["Officials announced the new plan today after a meeting. More detail follows."]},
