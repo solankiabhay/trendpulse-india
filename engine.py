@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 19
+SUMMARY_REFRESH_VERSION = 20
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -1544,9 +1544,15 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             try:
                 enrich_candidate_summary(candidate, cfg, max_sources=5)
                 detail_raw = candidate.get("summary", "")
-                if candidate.get("article_body"): p["article_body"] = candidate["article_body"]
                 detail_parts = [tidy(part) for part in re.split(r"\n\s*\n", detail_raw) if tidy(part)]
                 detail = tidy(detail_raw)
+                stale_match_digest = (
+                    is_generic_sports_boilerplate(current)
+                    or source_is_unanchored_result_for_highlights(
+                        p.get("title", ""),
+                        " ".join(source.get("title", "") for source in p.get("sources", [])),
+                    )
+                )
                 p["summary_refresh_attempted_at"] = now.isoformat()
                 p["summary_refresh_version"] = SUMMARY_REFRESH_VERSION
                 updated_existing = True
@@ -1554,6 +1560,20 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                     preserved = "\n\n".join(detail_parts)
                     p["source_summary"] = preserved[:2400].rsplit(" ", 1)[0] if len(preserved) > 2400 else preserved
                     p["summary"] = short_summary({"summary": preserved, "lang": p.get("lang", "en"), "sources": p.get("sources", [])})
+                    if candidate.get("article_body"):
+                        p["article_body"] = candidate["article_body"]
+                    p["generated_at"] = now.isoformat()
+                elif stale_match_digest:
+                    # Do not keep publishing known-unreliable text if source pages no longer
+                    # provide event-specific evidence. A transparent limitation is better
+                    # than blending a generic organisation description with an old result.
+                    if p.get("lang") == "hi":
+                        fallback = "उपलब्ध स्रोतों से इस मैच के विशिष्ट विवरण की पुष्टि नहीं हो सकी। अलग-अलग मैचों की रिपोर्ट को मिलाने से बचने के लिए असंबंधित जानकारी हटा दी गई है। मूल स्रोतों में अधिक जानकारी उपलब्ध हो सकती है।"
+                    else:
+                        fallback = "Event-specific details could not be verified from the accessible sources. To avoid mixing reports from different matches, unrelated and generic text has been omitted. Check the original source links for confirmed details."
+                    p["source_summary"] = fallback
+                    p["summary"] = fallback
+                    p["article_body"] = fallback
                     p["generated_at"] = now.isoformat()
             except Exception as e:
                 log.debug("could not refresh thin published digest %s: %s", p.get("id"), e)
