@@ -1,12 +1,9 @@
 name: Auto Blog
-# GitHub cron is UTC and may be delayed. IST = UTC+5:30:
-#   03:30 UTC = 09:00 IST, 07:30 = 13:00, 11:30 = 17:00, 15:30 = 21:00
+# Check feeds every 2 hours (GitHub cron is UTC and may be delayed).
+# This improves freshness without requiring a paid API.
 on:
   schedule:
-    - cron: "30 3 * * *"
-    - cron: "30 7 * * *"
-    - cron: "30 11 * * *"
-    - cron: "30 15 * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
     inputs:
       unpublish_ids:
