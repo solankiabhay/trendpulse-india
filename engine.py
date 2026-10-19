@@ -634,6 +634,27 @@ def source_title_reports_result(title: str) -> bool:
     return bool(re.search(r"\b(won|wins|beat|defeated|victory|result|scorecard|highlights)\b", normalize_text(title), re.I))
 
 
+def is_generic_sports_boilerplate(text: str) -> bool:
+    """Reject generic sports-organisation descriptions that contain no event reporting."""
+    t = normalize_text(text).casefold().strip(" .!:-")
+    patterns = (
+        r"the international cricket council \(icc\) is the global governing body of cricket",
+        r"the icc is the global governing body of cricket",
+        r"the international cricket council is the global governing body of cricket",
+    )
+    return any(re.search(pattern, t) for pattern in patterns)
+
+
+def source_is_unanchored_result_for_highlights(story_title: str, source_title: str) -> bool:
+    """Avoid attaching an outcome report to a generic highlights page without event identity."""
+    story = normalize_text(story_title)
+    source = normalize_text(source_title)
+    highlights_story = bool(re.search(r"\bhighlights?\b", story, re.I))
+    story_has_result = bool(re.search(r"\b(won|wins|beat|defeated|victory|result|scorecard|\d+[- ]run win)\b", story, re.I))
+    source_has_specific_outcome = bool(re.search(r"\b\d+[- ]run win\b|\bwon by \d+\b|\bdefeated\b", source, re.I))
+    return highlights_story and not story_has_result and source_has_specific_outcome
+
+
 def source_identity_needs_cleanup(item: dict) -> bool:
     """Prioritise digests that mix a preview with result/highlights sources."""
     sources = item.get("sources", [])
@@ -743,6 +764,9 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         if source_title.casefold() in conflicting_titles:
             continue
         source_preview = source_is_preview(source_title)
+        if source_is_unanchored_result_for_highlights(c.get("title", ""), source_title):
+            log.info("Excluding outcome report without a matching event identifier from generic highlights story: %s", source_title[:100])
+            continue
         if source_preview and source_has_result and not story_is_preview:
             log.info("Excluding preview source from result-focused article evidence: %s", source_title[:100])
             continue
@@ -789,7 +813,8 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                 if (len(option) < 40
                         or option.casefold() == c.get("title", "").casefold()
                         or not _snippet_matches_story(option, c.get("title", ""), source.get("title", ""))
-                        or is_boilerplate_summary(option)):
+                        or is_boilerplate_summary(option)
+                        or is_generic_sports_boilerplate(option)):
                     continue
                 terms = {w for w in tokens(option) if len(w) >= 4}
                 story_terms = {w for w in tokens(c.get("title", "") + " " + source.get("title", "")) if len(w) >= 4}
