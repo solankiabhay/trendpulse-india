@@ -80,9 +80,9 @@ git add -A && git commit -m "Approve reviewed topic" && git push
 - Hindi pages prefer Hindi feeds (`hl=hi`). When source excerpts are English, the workflow attempts local English→Hindi translation with the open-source Argos model; the model is cached between runs. If model download/translation fails, English-only excerpts are omitted rather than mislabelled as Hindi. English and Hindi news articles remain separate (no hreflang between them); only section/info pages are paired.
 
 ## Status: what is verified where
-- **A. Works locally (verified in the build sandbox):** all 74 tests, `--check`, `--build-site`, static HTML/SEO/contrast checks, JS filter logic under Node.
-- **B. Tested in CI:** *not yet run.* `ci.yml` exists; first run happens when you push.
-- **C. Needs GitHub account access:** repo creation, Pages source setting, workflow permissions, first run, schedule activation.
+- **A. Automated tests:** GitHub Actions CI passed on 2026-10-19; 108 unit/integration/site tests passed, plus static checks and generated-file consistency.
+- **B. Hindi translation:** the GitHub Actions run successfully installed the open-source Argos English→Hindi model and refreshed stored summaries to refresh version 16. No paid API key is required for translation.
+- **C. Deployment:** GitHub Pages deployment passed on 2026-10-19. Check the latest Actions run after content-refresh commits to confirm the live site has the newest generated files.
 - **D. Needs domain/DNS:** only if you use a custom domain.
 - **E. Needs external credentials:** none. (AdSense later needs your own account; update the Privacy Policy before enabling ads or analytics.)
 - **F. Post-deployment verification:** live Google News / Trends feed responses (Google may change or rate-limit them; the Trends URL is unverified), Lighthouse / PageSpeed / Core Web Vitals, real-device mobile layout, Search Console sitemap acceptance, structured-data validation.
