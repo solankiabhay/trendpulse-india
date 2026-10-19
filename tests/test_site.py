@@ -124,10 +124,9 @@ class Workflows(unittest.TestCase):
     ab = (ROOT / ".github/workflows/auto-blog.yml").read_text()
     ci = (ROOT / ".github/workflows/ci.yml").read_text()
 
-    def test_schedule_matches_ist_times(self):
-        crons = re.findall(r'- cron: "(\d+) (\d+) \* \* \*"', self.ab)
-        ist = sorted(((int(h) * 60 + int(m) + 330) % 1440) for m, h in crons)
-        self.assertEqual(ist, [9 * 60, 13 * 60, 17 * 60, 21 * 60])
+    def test_schedule_checks_feeds_every_two_hours(self):
+        self.assertIn('- cron: "0 */2 * * *"', self.ab)
+        self.assertNotIn('- cron: "30 3 * * *"', self.ab)
 
     def test_concurrency_permissions_and_tests(self):
         self.assertIn("cancel-in-progress: false", self.ab); self.assertIn("group: trendpulse-pipeline", self.ab)
