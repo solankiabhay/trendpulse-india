@@ -28,6 +28,7 @@ class ProjectFiles(unittest.TestCase):
             result = engine.translate_to_hindi("Rain fell in India today.")
         self.assertEqual(result, "आज भारत में बारिश हुई।")
         self.assertIn("translate.googleapis.com", request.call_args.args[0].full_url)
+        self.assertTrue(engine.content_language_needs_refresh("UAE शाही परिवार की महिला Mahrah Al Nahyan को लंदन में पाया गया।", "hi"))
 
     def test_translate_to_hindi_falls_back_without_breaking_pipeline(self):
         with patch("engine.urllib.request.urlopen", side_effect=OSError("network unavailable")):
