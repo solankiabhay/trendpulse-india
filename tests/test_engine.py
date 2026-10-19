@@ -784,7 +784,7 @@ class RefreshOnlyTests(unittest.TestCase):
         post["source_summary"] = "Old thin summary"
         engine.write_json(root / "posts.json", {"version": 1, "posts": [post]})
         engine.write_json(root / "published.json", {"version": 1, "items": []})
-        detail = "\\n\\n".join(
+        detail = "\n\n".join(
             f"Publisher{i}: " + (f"Verified source detail {i} about the reported event and its confirmed context. " * 5)
             for i in range(1, 6)
         )
