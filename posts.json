@@ -2076,7 +2076,9 @@
           "url": "https://onefootball.com/en/betting/predictions/juventus-vs-lazio-18-10-2026",
           "publisher": "OneFootball"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-19T04:52:43.303144+00:00",
+      "summary_refresh_version": 10
     },
     {
       "id": "en-2af124cb0f",
@@ -2109,7 +2111,9 @@
           "url": "https://www.thedailystar.net/culture/entertainment/news/when-did-disrespecting-others-become-source-income-4299426",
           "publisher": "The Daily Star"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-19T04:52:43.303144+00:00",
+      "summary_refresh_version": 10
     },
     {
       "id": "en-de88519502",
@@ -2141,6 +2145,140 @@
           "title": "Rajkummar Rao-starrer ‘Prahaar’ is compelling, but stops short of being exceptional",
           "url": "https://www.telegraphindia.com/entertainment/rajkummar-rao-starrer-courtroom-drama-is-compelling-but-stops-short-of-exceptional/cid/2185187",
           "publisher": "Telegraph India"
+        }
+      ],
+      "summary_refresh_attempted_at": "2026-10-19T04:52:43.303144+00:00",
+      "summary_refresh_version": 10
+    },
+    {
+      "id": "en-4b8ba84d8a",
+      "lang": "en",
+      "slug": "oman-v-nepal-match-highlights-icc-cricket-world-cup-league-2-4b8ba84d8a",
+      "url": "en/posts/oman-v-nepal-match-highlights-icc-cricket-world-cup-league-2-4b8ba84d8a.html",
+      "title": "Oman v Nepal | Match Highlights | ICC Cricket World Cup League 2 2023-27",
+      "summary": "ICC: The International Cricket Council (ICC) is the global governing body of cricket. It coordinates and oversees international cricket competitions, enforces the rules of the game, and promotes…",
+      "source_summary": "ICC: The International Cricket Council (ICC) is the global governing body of cricket. It coordinates and oversees international cricket competitions, enforces the rules of the game, and promotes cricket worldwide.\n\nCricket World: Here are the Predictions for the ICC CWC League 2 2026, Match 139 - Oman vs Nepal, to be played on the 19th of October at the Al Amerat Cricket…\n\nSportstar: Nepal vs Oman Highlights, Cricket World Cup League 2: Lamichhane, Nandan lead NEP to 113-run win left FILE PHOTO: Nepal's captain Rohit Paudel celebrates the wicket of Scotland's George Munsey…",
+      "article_body": "",
+      "category": "trending",
+      "published_at": "2026-10-19T04:40:00+00:00",
+      "generated_at": "2026-10-19T04:52:43.303144+00:00",
+      "kind": "digest",
+      "keyword": "oman vs nepal",
+      "score": 89.88,
+      "sources": [
+        {
+          "title": "Oman v Nepal | Match Highlights | ICC Cricket World Cup League 2 2023-27",
+          "url": "https://www.icc-cricket.com/videos/oman-v-nepal-match-highlights-icc-cricket-world-cup-league-2-2023-27",
+          "publisher": "ICC"
+        },
+        {
+          "title": "ICC CWC League 2 2026 Match 139 - Oman vs Nepal - Cricket Match Predictions: October 19",
+          "url": "https://www.cricketworld.com/icc-cwc-league-2-2026-match-139-oman-vs-nepal-cricket-match-predictions-october-19/113880.htm",
+          "publisher": "Cricket World"
+        },
+        {
+          "title": "Nepal vs Oman Highlights, Cricket World Cup League 2: Lamichhane, Nandan lead NEP to 113-run win",
+          "url": "https://sportstar.thehindu.com/cricket/nepal-vs-oman-live-score-updates-commentary-cricket-world-cup-league-2-odi/article71578194.ece",
+          "publisher": "Sportstar"
+        }
+      ]
+    },
+    {
+      "id": "en-bc77b7af48",
+      "lang": "en",
+      "slug": "abhijeet-dipke-released-after-signing-peace-bond-sporadic-pr-bc77b7af48",
+      "url": "en/posts/abhijeet-dipke-released-after-signing-peace-bond-sporadic-pr-bc77b7af48.html",
+      "title": "Abhijeet Dipke released after signing peace bond, sporadic protests continue",
+      "summary": "The Hindu: Delhi anti-CEC protests: Dipke released after signing peace bond, sporadic protests continue left Women representatives from AIDWA, SFI, KYS and other groups protest against alleged sexual…",
+      "source_summary": "The Hindu: Delhi anti-CEC protests: Dipke released after signing peace bond, sporadic protests continue left Women representatives from AIDWA, SFI, KYS and other groups protest against alleged sexual harassment of women protesters…\n\nThe Leaflet: Gandhi’s 1938 appeal to Maharaja of Mysore to shun autocratic methods of rule by appreciating people laying down their lives due to police firing while hoisting the national flag assume…",
+      "article_body": "",
+      "category": "trending",
+      "published_at": "2026-10-19T04:30:00+00:00",
+      "generated_at": "2026-10-19T04:52:43.303144+00:00",
+      "kind": "digest",
+      "keyword": "delhi traffic challan",
+      "score": 89.79,
+      "sources": [
+        {
+          "title": "Abhijeet Dipke released after signing peace bond, sporadic protests continue",
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-anti-cec-protests-dipke-released-after-signing-peace-bond-sporadic-protests-continue/article71597306.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Why CJP's Abhijeet Dipke Walked Free While Saurav Das, Ashutosh Ranka Remain In Jail",
+          "url": "https://www.ndtv.com/india-news/why-cjps-abhijeet-dipke-walked-free-while-saurav-das-ashutosh-ranka-remain-in-jail-12199513",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "The 1938 Firing in Mysore at People Hoisting National Flag Echoes in Massive Police Crack Down in Delhi of Youth Waving National Tricolour",
+          "url": "https://theleaflet.in/opinion/the-1938-firing-in-mysore-at-people-hoisting-national-flag-echoes-in-massive-police-crack-down-in-delhi-of-youth-waving-national-tricolour",
+          "publisher": "The Leaflet"
+        }
+      ]
+    },
+    {
+      "id": "en-2ec20e9203",
+      "lang": "en",
+      "slug": "alex-eala-looks-for-asian-swing-reset-at-ningbo-open-2ec20e9203",
+      "url": "en/posts/alex-eala-looks-for-asian-swing-reset-at-ningbo-open-2ec20e9203.html",
+      "title": "Alex Eala looks for Asian swing reset at Ningbo Open",
+      "summary": "Philstar.com: MANILA, Philippines — Redemption begins for Alex Eala after a series of setbacks, clashing with French ace Diane Parry for the first time ever in Round 1 of the WTA500…\n\nTennishead: The…",
+      "source_summary": "Philstar.com: MANILA, Philippines — Redemption begins for Alex Eala after a series of setbacks, clashing with French ace Diane Parry for the first time ever in Round 1 of the WTA500…\n\nTennishead: The Ningbo Open boasts a stacked roster this year, with Eala suffering from a nightmare draw . Even her first-round match against Diane Parry represents an arduous opening task.",
+      "article_body": "",
+      "category": "trending",
+      "published_at": "2026-10-19T04:30:00+00:00",
+      "generated_at": "2026-10-19T04:52:43.303144+00:00",
+      "kind": "digest",
+      "keyword": "elise mertens",
+      "score": 89.79,
+      "sources": [
+        {
+          "title": "Alex Eala looks for Asian swing reset at Ningbo Open",
+          "url": "https://www.espn.in/tennis/story/_/id/50207388/alex-eala-looks-asian-swing-reset-ningbo-open",
+          "publisher": "ESPN India"
+        },
+        {
+          "title": "Eala seeks to arrest skid vs Parry",
+          "url": "https://www.philstar.com/sports/2026/10/19/2564164/eala-seeks-arrest-skid-vs-parry",
+          "publisher": "Philstar.com"
+        },
+        {
+          "title": "Alexandra Eala explains what she has been focusing on improving on court ahead of the Ningbo Open",
+          "url": "https://tennishead.net/alexandra-eala-explains-what-she-has-been-focusing-on-improving-on-court-ahead-of-the-ningbo-open/",
+          "publisher": "Tennishead"
+        }
+      ]
+    },
+    {
+      "id": "en-83f4007423",
+      "lang": "en",
+      "slug": "cyient-dlm-s-normalised-pat-grows-by-26-to-15-82-crore-in-q2-83f4007423",
+      "url": "en/posts/cyient-dlm-s-normalised-pat-grows-by-26-to-15-82-crore-in-q2-83f4007423.html",
+      "title": "Cyient DLM's normalised PAT grows by 26% to ₹15.82 crore in Q2FY27",
+      "summary": "electronics.economictimes.indiatimes.com: \"We maintained strong growth momentum in Q2 FY27, supported by solid execution across our key business segments and a record-high order book, providing…",
+      "source_summary": "electronics.economictimes.indiatimes.com: \"We maintained strong growth momentum in Q2 FY27, supported by solid execution across our key business segments and a record-high order book, providing strong revenue visibility and confidence in our…\n\nMoneycontrol.com: Motilal Oswal is bullish on Cyient DLM recommended buy rating on the stock with a target price of Rs 1320 in its research report dated October 15, 2026.\n\nKalkine India: Investors will note that the earnings conference call provides a structured forum for shareholders to hear directly from Cyient's senior leadership on the company's Q2 FY27 operating and financial performance.…",
+      "article_body": "",
+      "category": "trending",
+      "published_at": "2026-10-19T04:30:00+00:00",
+      "generated_at": "2026-10-19T04:52:43.303144+00:00",
+      "kind": "digest",
+      "keyword": "cyient dlm share price",
+      "score": 89.79,
+      "sources": [
+        {
+          "title": "Cyient DLM's normalised PAT grows by 26% to ₹15.82 crore in Q2FY27",
+          "url": "https://electronics.economictimes.indiatimes.com/news/components-hardware/cyient-dlms-normalised-pat-grows-by-26-to-15-82-crore-in-q2fy27/134984218",
+          "publisher": "electronics.economictimes.indiatimes.com"
+        },
+        {
+          "title": "Buy Cyient DLM; target of Rs 1320: Motilal Oswal",
+          "url": "https://www.moneycontrol.com/news/business/earnings/buy-cyient-dlm-target-of-rs-1320-motilal-oswal-14053758.html",
+          "publisher": "Moneycontrol.com"
+        },
+        {
+          "title": "Cyient Q2 FY27 Earnings Call Date and Details",
+          "url": "https://www.kalkine.co.in/article/announcements/cyient-nsecyient-when-is-the-q2-fy27-earnings-call-scheduled",
+          "publisher": "Kalkine India"
         }
       ]
     }

@@ -64080,6 +64080,45 @@
       "reasons": [
         "insufficient_value"
       ]
+    },
+    {
+      "id": "en-5079c349af",
+      "lang": "en",
+      "title": "AI system RFdiffusion3 designs proteins at the atomic level, proven functional in laboratory tests",
+      "category": "science",
+      "published_at": "2026-10-19T04:35:06+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "AI system RFdiffusion3 designs proteins at the atomic level, proven functional in laboratory tests",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRkRYa0g3RHpHeHF4WlBrODV0NjgxTjZncmNubmNQejZ5SThuS0hkLTh1bmY3UkRRUm80VVNSanJGcTBOWWhncFVVTWk2a2R3amxRYlUyTjFHbFo0dm53UkpwN0R3MUd6VnBmVk5lOGlLREZIclhYbV9DSERfdkpZSmt0amN2RnQ2UnVsTFI3bnhDdlVXblJRM1RTUVRJT05lZmVMRVdOanlKRnlLSGI2OG53Ylk?oc=5",
+          "publisher": "KuCoin"
+        },
+        {
+          "title": "De novo design of cysteine proteases",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KVmxUTDlXQzE4cTFBcmtyUXc4aVlOdUZJZ21YTTBIRS01eHhMeTJSQmx4cF83cFk5ZWtXQmxRaWdKSnZNUTQtYWxhNXB5V2JYZ2pGMkZ3bzB0V1ZLZ1Ew?oc=5",
+          "publisher": "Nature"
+        },
+        {
+          "title": "AI designs working molecular scissors that recognize and cut selected protein targets",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LM2RoSkZpTUdtUXhVQkJCdkY0SHVmTDZWdXBRakx2QWZVb0JxdU9zMGxyRHh0Nld4bTRONVNGdXBMMnFRa2NTV0tVT1gxSF9lSzN6dzRxZDd5SUdLQlBWTEtpWDVBVHEyR1Y1dnBISUhRQQ?oc=5",
+          "publisher": "Phys.org"
+        },
+        {
+          "title": "Researchers use AI to design proteins that cut up other proteins",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORVlhd0RBV3NhdWhVZGFFa2dpa3h4d1ZDX3lGYkVSMThYQzhidktweGdPVy1qdkF3NXhpYTQzZ1pzZjJmSlNKYnBydVJjM0hRR0RRcko4NTFlVmJXbm1RVVJ6aXVXWElGdHRyV3o0TXhPQndVWmROYlFIc19PY2tEYmJNZ1NKXzliNkNYYUYxSDFfV3p3SllOZWhzQ1BoYzVPSTczbjdZa3I?oc=5",
+          "publisher": "Ars Technica"
+        },
+        {
+          "title": "Scientists Design Artificial Enzymes That Cleave Protein Chains From Scratch",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVVJ1aWl0ZEdhX2RNWlU4Wnd5QzZDSFJ5VTNkbkljbXZQcU1MQ3poNk41bGJ0MjJ3U2V0QTBIbnh0end5aGUxRkFqY0FocmdxbGFkUmxpaUdheWh4dHh4ZmZLT3RjVDJwN29xXzZPcFBralRxOG5OdEZnY1dyLXJUbUpSWktGanZvb2E2Wm9lVzJweXZWeTZZQ2lTdm9SLVJDMVJv?oc=5",
+          "publisher": "bioengineer.org"
+        }
+      ],
+      "queued_at": "2026-10-19T04:52:43.303144+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
     }
   ]
 }
