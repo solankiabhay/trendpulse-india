@@ -746,6 +746,12 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         if part and not any(part.casefold() in old.casefold() or old.casefold() in part.casefold()
                             for old in combined):
             combined.append(part)
+    if not combined and c.get("lang") == "hi":
+        # If source pages block extraction, translate source headlines with attribution.
+        for source in sources[:5]:
+            headline = normalize_text(source.get("title", ""))
+            if headline:
+                combined.append(f'{normalize_text(source.get("publisher", "स्रोत"))}: {translate_to_hindi(headline)}')
     if combined:
         if len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]: c["summary"] = "\n\n".join(combined)[:2400]
         c["boilerplate_summary"] = False
