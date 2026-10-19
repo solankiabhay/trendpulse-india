@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 11
+SUMMARY_REFRESH_VERSION = 12
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -201,6 +201,33 @@ def latin_ratio(t: str) -> float:
 def language_ok(lang: str, title: str) -> bool:
     """English titles must be mostly Latin script, Hindi titles mostly Devanagari (rejects Telugu, Gujarati, etc.)."""
     return latin_ratio(title) >= 0.7 if lang == "en" else deva_ratio(title) >= 0.4
+
+
+
+def content_language_needs_refresh(text: str, lang: str) -> bool:
+    """Detect a digest labelled Hindi that remains mostly Latin-script."""
+    text = normalize_text(text)
+    if not text:
+        return lang == "hi"
+    return lang == "hi" and deva_ratio(text) < 0.25 and latin_ratio(text) > 0.25
+
+
+def translate_to_hindi(text: str) -> str:
+    """Translate English excerpts via Google's no-key endpoint; safely fall back on failure."""
+    text = normalize_text(text)
+    if not text or deva_ratio(text) >= 0.35:
+        return text
+    query = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "hi", "dt": "t", "q": text[:3500]})
+    request = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + query,
+                                     headers={"User-Agent": "Mozilla/5.0 TrendPulseIndia/1.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=8) as response:
+            payload = json.loads(response.read(1_000_000).decode("utf-8"))
+        translated = normalize_text("".join(part[0] for part in payload[0] if part and part[0]))
+        return translated if translated and deva_ratio(translated) >= 0.15 else text
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError, ValueError, IndexError, TypeError, KeyError):
+        log.warning("Hindi translation endpoint unavailable; retaining source excerpt")
+        return text
 
 
 def make_id(lang: str, title: str) -> str:
