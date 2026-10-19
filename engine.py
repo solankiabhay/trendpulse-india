@@ -1415,8 +1415,13 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                            or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
                            or is_boilerplate_summary(current)
                            or content_language_needs_refresh(current, p.get("lang", "en")))
+            # A refresh-version bump must actually reprocess previously published
+            # articles, even when their old summaries pass today's length checks.
+            # Otherwise changing SUMMARY_REFRESH_VERSION only refreshes thin posts.
+            current_version = p.get("summary_refresh_version", 0)
             if (not placeholder and len(current) >= cfg["min_summary_chars"]
-                    and not summary_needs_refresh(current)):
+                    and not summary_needs_refresh(current)
+                    and current_version == SUMMARY_REFRESH_VERSION):
                 continue
             attempted = parse_date(p.get("summary_refresh_attempted_at", ""))
             if (p.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
