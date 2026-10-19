@@ -1,1 +1,2 @@
-# TrendPulse India has no third-party runtime dependencies (Python standard library only).
+# TrendPulse India uses an optional local/offline English → Hindi translator.
+argostranslate>=1.9.6,<2

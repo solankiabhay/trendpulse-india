@@ -32,6 +32,33 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Cache Argos translation model
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/argos-translate
+          key: argos-en-hi-v1
+      - name: Install English-to-Hindi model (best effort)
+        run: |
+          python - <<'PY'
+          import logging
+          logging.basicConfig(level=logging.INFO)
+          try:
+              import argostranslate.package
+              argostranslate.package.update_package_index()
+              import argostranslate.translate
+              langs = argostranslate.translate.get_installed_languages()
+              installed = any(
+                  lang.code == "en" and any(t.to_lang.code == "hi" for t in lang.translations)
+                  for lang in langs
+              )
+              if not installed:
+                  packages = argostranslate.package.get_available_packages()
+                  package = next(p for p in packages if p.from_code == "en" and p.to_code == "hi")
+                  argostranslate.package.install_from_path(package.download())
+              print("Argos English-to-Hindi model is ready.")
+          except Exception as exc:
+              print(f"WARNING: local Hindi translator unavailable; English-only snippets will be skipped: {exc}")
+          PY
       - name: Unpublish requested posts
         env:
           IDS: ${{ github.event.inputs.unpublish_ids }}

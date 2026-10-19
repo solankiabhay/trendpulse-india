@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 15
+SUMMARY_REFRESH_VERSION = 16
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -210,6 +210,26 @@ def content_language_needs_refresh(text: str, lang: str) -> bool:
     if not text:
         return lang == "hi"
     return lang == "hi" and deva_ratio(text) < 0.85 and latin_ratio(text) > 0.10
+
+
+def translate_to_hindi(text: str) -> str:
+    """Translate English text with the optional local Argos en→hi model.
+
+    No remote translation API or paid key is used. If the model is unavailable,
+    keep the original text so callers can safely omit it rather than inventing
+    a translation.
+    """
+    text = normalize_text(text)
+    if not text or deva_ratio(text) >= 0.35:
+        return text
+    try:
+        import argostranslate.translate as argos_translate
+        translated = normalize_text(argos_translate.translate(text, "en", "hi"))
+        if translated and deva_ratio(translated) >= 0.20:
+            return translated
+    except Exception as exc:
+        log.debug("local English-to-Hindi translation unavailable: %s", exc)
+    return text
 
 
 def clean_hindi_excerpt(text: str) -> str:
@@ -617,7 +637,7 @@ def build_evidence_digest(source_evidence, max_sources=5, max_words=22, lang="en
         publisher = normalize_text(item.get("publisher", "Publisher")) or "Publisher"
         excerpt = _short_attributed_text(available[0], max_words=max_words)
         if lang == "hi":
-            excerpt = clean_hindi_excerpt(excerpt)
+            excerpt = clean_hindi_excerpt(translate_to_hindi(excerpt))
         if excerpt:
             paragraphs.append(f'{publisher}: “{excerpt}”')
     return "\n\n".join(paragraphs)
@@ -729,7 +749,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                     source_evidence.append({"publisher": publisher, "title": source.get("title", ""), "url": final_url, "paragraphs": evidence_paragraphs})
                     short = _short_attributed_text(evidence_paragraphs[0], max_words=30)
                     if c.get("lang") == "hi":
-                        short = clean_hindi_excerpt(short)
+                        short = clean_hindi_excerpt(translate_to_hindi(short))
                     if not any(short.casefold() in old.casefold() or old.casefold() in short.casefold() for old in additions):
                         additions.append(f"{publisher}: {short}")
         except (FetchError, ValueError, UnicodeError) as e:
@@ -740,7 +760,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     parts = []
     feed_summary = tidy(c.get("summary", ""))
     if c.get("lang") == "hi" and feed_summary:
-        feed_summary = clean_hindi_excerpt(feed_summary)
+        feed_summary = clean_hindi_excerpt(translate_to_hindi(feed_summary))
     if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
         parts.append(_short_attributed_text(feed_summary, max_words=30))
     parts.extend(additions)
@@ -754,7 +774,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         for source in sources[:5]:
             headline = normalize_text(source.get("title", ""))
             if headline:
-                cleaned_headline = clean_hindi_excerpt(headline)
+                cleaned_headline = clean_hindi_excerpt(translate_to_hindi(headline))
                 if cleaned_headline:
                     combined.append(f'{normalize_text(source.get("publisher", "स्रोत"))}: {cleaned_headline}')
     if c.get("lang") == "hi" and combined:
@@ -763,11 +783,11 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         for part in combined:
             match = re.match(r"^([^:]{2,100}):\s+(.+)$", part, re.S)
             if match:
-                label, excerpt = match.group(1), clean_hindi_excerpt(match.group(2))
+                label, excerpt = match.group(1), clean_hindi_excerpt(translate_to_hindi(match.group(2)))
                 if excerpt:
                     cleaned_parts.append(f"{label}: {excerpt}")
             else:
-                excerpt = clean_hindi_excerpt(part)
+                excerpt = clean_hindi_excerpt(translate_to_hindi(part))
                 if excerpt:
                     cleaned_parts.append(excerpt)
         combined = cleaned_parts
