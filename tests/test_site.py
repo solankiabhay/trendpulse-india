@@ -45,6 +45,18 @@ class ProjectFiles(unittest.TestCase):
         self.assertIn("Rain forecast updated", card)
         self.assertIn('rel="noopener noreferrer"', card)
 
+    def test_no_api_fallback_uses_short_attributed_source_excerpts(self):
+        evidence = [
+            {"publisher": "Example News", "paragraphs": ["Officials announced the new plan today after a meeting. More detail follows."]},
+            {"publisher": "Daily Report", "paragraphs": ["The department said the rollout begins next month in several regions."]},
+        ]
+        body = engine.build_evidence_digest(evidence)
+        self.assertIn("Example News:", body)
+        self.assertIn("Daily Report:", body)
+        self.assertEqual(len(body.split("\n\n")), 2)
+        for paragraph in body.split("\n\n"):
+            self.assertLessEqual(len(paragraph.split()), 26)  # publisher label + 22-word excerpt + quote marks
+
 
 class HtmlSeo(unittest.TestCase):
     cfg = engine.load_config(ROOT / "config.json")
