@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 14
+SUMMARY_REFRESH_VERSION = 15
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -212,22 +212,25 @@ def content_language_needs_refresh(text: str, lang: str) -> bool:
     return lang == "hi" and deva_ratio(text) < 0.85 and latin_ratio(text) > 0.10
 
 
-def translate_to_hindi(text: str) -> str:
-    """Translate English excerpts via Google's no-key endpoint; safely fall back on failure."""
+def clean_hindi_excerpt(text: str) -> str:
+    """Keep Hindi-script source text; remove appended English headline translations.
+
+    The no-key translation endpoint is not reliably reachable from GitHub Actions.
+    Prefer genuine Hindi-source material to silently publishing English as Hindi.
+    """
     text = normalize_text(text)
-    if not text or deva_ratio(text) >= 0.99:
-        return text
-    query = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "hi", "dt": "t", "q": text[:3500]})
-    request = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + query,
-                                     headers={"User-Agent": "Mozilla/5.0 TrendPulseIndia/1.0"})
-    try:
-        with urllib.request.urlopen(request, timeout=8) as response:
-            payload = json.loads(response.read(1_000_000).decode("utf-8"))
-        translated = normalize_text("".join(part[0] for part in payload[0] if part and part[0]))
-        return translated if translated and deva_ratio(translated) >= 0.15 else text
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError, ValueError, IndexError, TypeError, KeyError):
-        log.warning("Hindi translation endpoint unavailable; retaining source excerpt")
-        return text
+    if not text:
+        return ""
+    parts = re.split(r"\s*[-–—]\s*", text)
+    while len(parts) > 1:
+        tail = parts[-1]
+        if deva_ratio(tail) < 0.20 and latin_ratio(tail) > 0.20:
+            parts.pop()
+        else:
+            break
+    text = " – ".join(parts).strip()
+    return text if deva_ratio(text) >= 0.20 else ""
+
 
 
 def make_id(lang: str, title: str) -> str:
