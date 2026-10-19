@@ -18,6 +18,7 @@ class ProjectFiles(unittest.TestCase):
         self.assertTrue(engine.content_language_needs_refresh("The court announced its decision in London today.", "hi"))
         self.assertFalse(engine.content_language_needs_refresh("अदालत ने आज लंदन में अपना फैसला सुनाया।", "hi"))
         self.assertFalse(engine.content_language_needs_refresh("The court announced its decision in London today.", "en"))
+        self.assertTrue(engine.content_language_needs_refresh("UAE शाही परिवार की महिला Mahrah Al Nahyan को लंदन में पाया गया।", "hi"))
 
     def test_translate_to_hindi_uses_no_key_endpoint_and_preserves_existing_hindi(self):
         self.assertEqual(engine.translate_to_hindi("भारत में आज बारिश हुई।"), "भारत में आज बारिश हुई।")
