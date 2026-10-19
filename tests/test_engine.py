@@ -430,6 +430,32 @@ class StructureAndReviewTests(unittest.TestCase):
         self.assertLess(html.index("<strong>The Hindu</strong>", html.index("What each source reports")), html.index("Officials announced the dates", html.index("What each source reports")))
         self.assertIn("What each source reports", html)
 
+    def test_fallback_digest_hides_unverified_preview_and_old_result_sources(self):
+        cfg = engine.load_config(ROOT / "config.json")
+        title = "Oman v Nepal | Match Highlights | ICC Cricket World Cup League 2 2023-27"
+        fallback = ("Event-specific details could not be verified from the accessible sources. "
+                    "To avoid mixing reports from different matches, unrelated and generic text has been omitted. "
+                    "Check the original source links for confirmed details.")
+        post = {
+            "id": "en-test-match", "lang": "en", "url": "en/posts/test-match.html",
+            "title": title, "summary": fallback, "source_summary": fallback,
+            "article_body": fallback, "category": "trending",
+            "published_at": NOW.isoformat(),
+            "sources": [
+                {"title": title, "url": "https://www.icc-cricket.com/videos/oman-v-nepal", "publisher": "ICC"},
+                {"title": "ICC CWC League 2 2026 Match 139 - Oman vs Nepal - Cricket Match Predictions: October 19",
+                 "url": "https://cricketworld.com/prediction", "publisher": "Cricket World"},
+                {"title": "Nepal vs Oman Highlights: Lamichhane, Nandan lead NEP to 113-run win",
+                 "url": "https://sportstar.thehindu.com/old-match", "publisher": "Sportstar"},
+            ],
+        }
+        html = engine.article_page(cfg, post, [post])
+        source_section = html.split("What each source reports", 1)[1].split("What is not confirmed", 1)[0]
+        self.assertIn("<strong>ICC</strong>", source_section)
+        self.assertNotIn("Cricket World", source_section)
+        self.assertNotIn("Sportstar", source_section)
+        self.assertNotIn("113-run win", source_section)
+
     def test_differing_headlines_are_flagged_as_unconfirmed(self):
         odd = item("Parliament budget session to begin next week", related=[
             ("Parliament budget session to begin next week", "https://news.example/a1", "The Hindu"),
