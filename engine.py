@@ -601,7 +601,7 @@ def _snippet_matches_story(snippet, title, source_title=""):
     return bool(story_terms & snippet_terms)
 
 
-def build_evidence_digest(source_evidence, max_sources=5, max_words=22):
+def build_evidence_digest(source_evidence, max_sources=5, max_words=22, lang="en"):
     """Build a clearly attributed extractive digest when no language model is configured.
 
     Keep each publisher's copied excerpt short; do not pad with invented context.
@@ -613,6 +613,8 @@ def build_evidence_digest(source_evidence, max_sources=5, max_words=22):
             continue
         publisher = normalize_text(item.get("publisher", "Publisher")) or "Publisher"
         excerpt = _short_attributed_text(available[0], max_words=max_words)
+        if lang == "hi":
+            excerpt = translate_to_hindi(excerpt)
         if excerpt:
             paragraphs.append(f'{publisher}: “{excerpt}”')
     return "\n\n".join(paragraphs)
@@ -723,6 +725,8 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                 if evidence_paragraphs:
                     source_evidence.append({"publisher": publisher, "title": source.get("title", ""), "url": final_url, "paragraphs": evidence_paragraphs})
                     short = _short_attributed_text(evidence_paragraphs[0], max_words=30)
+                    if c.get("lang") == "hi":
+                        short = translate_to_hindi(short)
                     if not any(short.casefold() in old.casefold() or old.casefold() in short.casefold() for old in additions):
                         additions.append(f"{publisher}: {short}")
         except (FetchError, ValueError, UnicodeError) as e:
@@ -732,6 +736,8 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     # pages remain visibly limited rather than being filled with guessed context.
     parts = []
     feed_summary = tidy(c.get("summary", ""))
+    if c.get("lang") == "hi" and feed_summary:
+        feed_summary = translate_to_hindi(feed_summary)
     if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
         parts.append(_short_attributed_text(feed_summary, max_words=30))
     parts.extend(additions)
@@ -751,7 +757,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         else:
             # No paid API key: publish a transparent, source-attributed digest instead
             # of inventing long-form prose or leaving the article body nearly empty.
-            evidence_digest = build_evidence_digest(source_evidence)
+            evidence_digest = build_evidence_digest(source_evidence, lang=c.get("lang", "en"))
             if evidence_digest:
                 c["article_body"] = evidence_digest
 
@@ -1360,7 +1366,8 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             # A summary can pass the word-count gate but still lack the full reader-facing article.
             placeholder = (not p.get("article_body") or not current
                            or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
-                           or is_boilerplate_summary(current))
+                           or is_boilerplate_summary(current)
+                           or content_language_needs_refresh(current, p.get("lang", "en")))
             if (not placeholder and len(current) >= cfg["min_summary_chars"]
                     and not summary_needs_refresh(current)):
                 continue
@@ -1368,7 +1375,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             if (p.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
                     and attempted and now - attempted < cooldown):
                 continue
-            if retried >= 20:
+            if retried >= 30:
                 break
             retried += 1
             candidate = {
