@@ -778,6 +778,29 @@ class RefreshOnlyTests(unittest.TestCase):
         self.assertIn("looking for their first points", stored["source_summary"])
         self.assertEqual(stored["summary_refresh_version"], engine.SUMMARY_REFRESH_VERSION)
 
+    def test_refresh_keeps_multi_source_detail_beyond_old_600_character_limit(self):
+        root = make_root()
+        post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        post["source_summary"] = "Old thin summary"
+        engine.write_json(root / "posts.json", {"version": 1, "posts": [post]})
+        engine.write_json(root / "published.json", {"version": 1, "items": []})
+        detail = "\\n\\n".join(
+            f"Publisher{i}: " + (f"Verified source detail {i} about the reported event and its confirmed context. " * 5)
+            for i in range(1, 6)
+        )
+
+        def fake_enrich(candidate, cfg, max_sources=5):
+            candidate["summary"] = detail
+
+        with mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \\
+             mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
+            engine.run(root, now=NOW, refresh_only=True)
+
+        stored = engine.load_posts(root / "posts.json")["posts"][0]
+        self.assertGreater(len(stored["source_summary"]), 600)
+        self.assertLessEqual(len(stored["source_summary"]), 2400)
+        self.assertIn("Publisher5:", stored["source_summary"])
+
     def test_refresh_priority_does_not_starve_never_attempted_thin_post(self):
         root = make_root()
         posts = []
