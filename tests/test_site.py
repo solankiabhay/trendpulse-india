@@ -24,6 +24,13 @@ class ProjectFiles(unittest.TestCase):
         self.assertEqual(engine.clean_hindi_excerpt("भारत में आज बारिश हुई।"), "भारत में आज बारिश हुई।")
         self.assertEqual(engine.clean_hindi_excerpt("English-only headline from publisher"), "")
 
+    def test_hindi_evidence_digest_uses_translated_excerpt(self):
+        from unittest import mock
+        evidence = [{"publisher": "Example News", "paragraphs": ["Officials announced the new plan today after a meeting."]}]
+        with mock.patch.object(engine, "translate_to_hindi", return_value="अधिकारियों ने बैठक के बाद नई योजना की घोषणा की।"):
+            body = engine.build_evidence_digest(evidence, lang="hi")
+        self.assertIn("अधिकारियों ने बैठक के बाद नई योजना की घोषणा की।", body)
+
 
     def test_required_files_exist(self):
         self.assertEqual([f for f in REQUIRED if not (ROOT / f).exists()], [])
