@@ -41,7 +41,7 @@ class ProjectFiles(unittest.TestCase):
         post = {"keyword": "India monsoon", "url": "en/posts/monsoon.html", "title": "Rain forecast updated", "lang": "en"}
         card = engine.trend_topic_card(post, "", "en")
         self.assertIn("India monsoon", card)
-        self.assertIn("https://www.google.com/search?hl=en&q=India%20monsoon", card)
+        self.assertIn("https://www.google.com/search?hl=en&amp;q=India%20monsoon", card)
         self.assertIn("Rain forecast updated", card)
         self.assertIn('rel="noopener noreferrer"', card)
 
