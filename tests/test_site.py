@@ -13,6 +13,24 @@ REQUIRED = ["index.html", "en/index.html", "hi/index.html", "assets/style.css", 
 
 class ProjectFiles(unittest.TestCase):
 
+    def test_source_preview_detection(self):
+        self.assertTrue(engine.source_is_preview("Oman vs Nepal match predictions for October 19"))
+        self.assertFalse(engine.source_is_preview("Nepal beat Oman by 113 runs"))
+
+    def test_source_titles_conflict_on_different_match_numbers(self):
+        self.assertTrue(engine.source_titles_conflict("Oman vs Nepal Match 135", "Oman v Nepal Match 139 preview"))
+        self.assertFalse(engine.source_titles_conflict("Oman v Nepal match highlights", "Nepal vs Oman match report"))
+
+    def test_source_titles_conflict_on_explicit_different_dates(self):
+        self.assertTrue(engine.source_titles_conflict("Oman vs Nepal on 13 October 2026", "Oman v Nepal on October 19, 2026"))
+        self.assertFalse(engine.source_titles_conflict("Oman vs Nepal", "Nepal vs Oman"))
+
+    def test_evidence_digest_keeps_more_verified_source_context(self):
+        text = " ".join(["Nepal defeated Oman by 113 runs after scoring 263 runs in fifty overs."] * 8)
+        digest = engine.build_evidence_digest([{"publisher": "Scorecard", "paragraphs": [text]}])
+        self.assertGreater(len(digest.split()), 25)
+        self.assertLessEqual(len(digest.split()), 50)
+
     def test_hindi_content_language_detector_flags_english_digest(self):
         self.assertTrue(engine.content_language_needs_refresh("The court announced its decision in London today.", "hi"))
         self.assertFalse(engine.content_language_needs_refresh("अदालत ने आज लंदन में अपना फैसला सुनाया।", "hi"))

@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 16
+SUMMARY_REFRESH_VERSION = 17
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -624,7 +624,35 @@ def _snippet_matches_story(snippet, title, source_title=""):
     return bool(story_terms & snippet_terms)
 
 
-def build_evidence_digest(source_evidence, max_sources=5, max_words=22, lang="en"):
+def source_is_preview(title: str) -> bool:
+    """Whether a source headline is explicitly a preview or prediction."""
+    return bool(re.search(r"\b(preview|predictions?|prediction)\b", normalize_text(title), re.I))
+
+
+def source_titles_conflict(left: str, right: str) -> bool:
+    """Detect explicit event-identity conflicts; shared team names alone are not enough."""
+    a, b = normalize_text(left), normalize_text(right)
+    match_re = re.compile(r"\bmatch\s*(?:no\.?\s*)?(\d{1,3})\b", re.I)
+    ma, mb = match_re.search(a), match_re.search(b)
+    if ma and mb and ma.group(1) != mb.group(1):
+        return True
+    # Compare dates only when both headlines state a date explicitly.
+    date_re = re.compile(r"\b(\d{1,2})\s+(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+(20\d{2})\b|\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+(\d{1,2})(?:st|nd|rd|th)?[,]?\s+(20\d{2})\b", re.I)
+    def date_key(text):
+        m = date_re.search(text)
+        if not m:
+            return None
+        if m.group(1):
+            day, month, year = m.group(1), m.group(2), m.group(3)
+        else:
+            month, day, year = m.group(4), m.group(5), m.group(6)
+        month_key = month[:3].casefold()
+        return (int(year), month_key, int(day))
+    da, db = date_key(a), date_key(b)
+    return bool(da and db and da != db)
+
+
+def build_evidence_digest(source_evidence, max_sources=5, max_words=45, lang="en"):
     """Build a clearly attributed extractive digest when no language model is configured.
 
     Keep each publisher's copied excerpt short; do not pad with invented context.
@@ -685,7 +713,24 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     additions = []
     source_evidence = []
     sources = c.get("sources", [])[:max_sources]
+    conflicting_titles = set()
+    for i, left in enumerate(sources):
+        for right in sources[i + 1:]:
+            if source_titles_conflict(left.get("title", ""), right.get("title", "")):
+                conflicting_titles.add(normalize_text(left.get("title", "")).casefold())
+                conflicting_titles.add(normalize_text(right.get("title", "")).casefold())
+                log.warning("Conflicting event identifiers across sources; excluding both from article evidence: %s | %s", left.get("title", "")[:100], right.get("title", "")[:100])
+    # A preview/prediction for a future meeting must not be mixed into a match-result digest.
+    story_is_preview = source_is_preview(c.get("title", ""))
+    source_has_result = any(re.search(r"\\b(won|wins|beat|defeated|victory|result|scorecard|highlights)\\b", s.get("title", ""), re.I) for s in sources)
     for source in sources:
+        source_title = normalize_text(source.get("title", ""))
+        if source_title.casefold() in conflicting_titles:
+            continue
+        source_preview = source_is_preview(source_title)
+        if source_preview and source_has_result and not story_is_preview:
+            log.info("Excluding preview source from result-focused article evidence: %s", source_title[:100])
+            continue
         url = safe_url(source.get("url", ""))
         if not url:
             continue
@@ -747,7 +792,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                     if len(evidence_paragraphs) >= 4: break
                 if evidence_paragraphs:
                     source_evidence.append({"publisher": publisher, "title": source.get("title", ""), "url": final_url, "paragraphs": evidence_paragraphs})
-                    short = _short_attributed_text(evidence_paragraphs[0], max_words=30)
+                    short = _short_attributed_text(evidence_paragraphs[0], max_words=45)
                     if c.get("lang") == "hi":
                         short = clean_hindi_excerpt(translate_to_hindi(short))
                     if not any(short.casefold() in old.casefold() or old.casefold() in short.casefold() for old in additions):
@@ -762,7 +807,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     if c.get("lang") == "hi" and feed_summary:
         feed_summary = clean_hindi_excerpt(translate_to_hindi(feed_summary))
     if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
-        parts.append(_short_attributed_text(feed_summary, max_words=30))
+        parts.append(_short_attributed_text(feed_summary, max_words=45))
     parts.extend(additions)
     combined = []
     for part in parts:
