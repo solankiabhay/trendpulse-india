@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 14
+SUMMARY_REFRESH_VERSION = 15
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -212,22 +212,25 @@ def content_language_needs_refresh(text: str, lang: str) -> bool:
     return lang == "hi" and deva_ratio(text) < 0.85 and latin_ratio(text) > 0.10
 
 
-def translate_to_hindi(text: str) -> str:
-    """Translate English excerpts via Google's no-key endpoint; safely fall back on failure."""
+def clean_hindi_excerpt(text: str) -> str:
+    """Keep Hindi-script source text; remove appended English headline translations.
+
+    The no-key translation endpoint is not reliably reachable from GitHub Actions.
+    Prefer genuine Hindi-source material to silently publishing English as Hindi.
+    """
     text = normalize_text(text)
-    if not text or deva_ratio(text) >= 0.99:
-        return text
-    query = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "hi", "dt": "t", "q": text[:3500]})
-    request = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + query,
-                                     headers={"User-Agent": "Mozilla/5.0 TrendPulseIndia/1.0"})
-    try:
-        with urllib.request.urlopen(request, timeout=8) as response:
-            payload = json.loads(response.read(1_000_000).decode("utf-8"))
-        translated = normalize_text("".join(part[0] for part in payload[0] if part and part[0]))
-        return translated if translated and deva_ratio(translated) >= 0.15 else text
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError, ValueError, IndexError, TypeError, KeyError):
-        log.warning("Hindi translation endpoint unavailable; retaining source excerpt")
-        return text
+    if not text:
+        return ""
+    parts = re.split(r"\s*[-–—]\s*", text)
+    while len(parts) > 1:
+        tail = parts[-1]
+        if deva_ratio(tail) < 0.20 and latin_ratio(tail) > 0.20:
+            parts.pop()
+        else:
+            break
+    text = " – ".join(parts).strip()
+    return text if deva_ratio(text) >= 0.20 else ""
+
 
 
 def make_id(lang: str, title: str) -> str:
@@ -614,7 +617,7 @@ def build_evidence_digest(source_evidence, max_sources=5, max_words=22, lang="en
         publisher = normalize_text(item.get("publisher", "Publisher")) or "Publisher"
         excerpt = _short_attributed_text(available[0], max_words=max_words)
         if lang == "hi":
-            excerpt = translate_to_hindi(excerpt)
+            excerpt = clean_hindi_excerpt(excerpt)
         if excerpt:
             paragraphs.append(f'{publisher}: “{excerpt}”')
     return "\n\n".join(paragraphs)
@@ -726,7 +729,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                     source_evidence.append({"publisher": publisher, "title": source.get("title", ""), "url": final_url, "paragraphs": evidence_paragraphs})
                     short = _short_attributed_text(evidence_paragraphs[0], max_words=30)
                     if c.get("lang") == "hi":
-                        short = translate_to_hindi(short)
+                        short = clean_hindi_excerpt(short)
                     if not any(short.casefold() in old.casefold() or old.casefold() in short.casefold() for old in additions):
                         additions.append(f"{publisher}: {short}")
         except (FetchError, ValueError, UnicodeError) as e:
@@ -737,7 +740,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     parts = []
     feed_summary = tidy(c.get("summary", ""))
     if c.get("lang") == "hi" and feed_summary:
-        feed_summary = translate_to_hindi(feed_summary)
+        feed_summary = clean_hindi_excerpt(feed_summary)
     if feed_summary and len(feed_summary) >= 40 and not is_boilerplate_summary(feed_summary):
         parts.append(_short_attributed_text(feed_summary, max_words=30))
     parts.extend(additions)
@@ -751,20 +754,23 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         for source in sources[:5]:
             headline = normalize_text(source.get("title", ""))
             if headline:
-                combined.append(f'{normalize_text(source.get("publisher", "स्रोत"))}: {translate_to_hindi(headline)}')
+                cleaned_headline = clean_hindi_excerpt(headline)
+                if cleaned_headline:
+                    combined.append(f'{normalize_text(source.get("publisher", "स्रोत"))}: {cleaned_headline}')
     if c.get("lang") == "hi" and combined:
-        # Translate complete mixed-script excerpts, not just isolated English paragraphs.
-        translated_parts = []
+        # Keep only Hindi-script excerpts; do not leave English paragraphs under a Hindi label.
+        cleaned_parts = []
         for part in combined:
             match = re.match(r"^([^:]{2,100}):\s+(.+)$", part, re.S)
             if match:
-                label, excerpt = match.group(1), match.group(2)
-                if latin_ratio(excerpt) > 0.03 or deva_ratio(excerpt) < 0.85:
-                    excerpt = translate_to_hindi(excerpt)
-                translated_parts.append(f"{label}: {excerpt}")
+                label, excerpt = match.group(1), clean_hindi_excerpt(match.group(2))
+                if excerpt:
+                    cleaned_parts.append(f"{label}: {excerpt}")
             else:
-                translated_parts.append(translate_to_hindi(part))
-        combined = translated_parts
+                excerpt = clean_hindi_excerpt(part)
+                if excerpt:
+                    cleaned_parts.append(excerpt)
+        combined = cleaned_parts
     if combined:
         if len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]: c["summary"] = "\n\n".join(combined)[:2400]
         c["boilerplate_summary"] = False
