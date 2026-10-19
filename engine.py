@@ -574,6 +574,23 @@ def _snippet_matches_story(snippet, title, source_title=""):
     return bool(story_terms & snippet_terms)
 
 
+def build_evidence_digest(source_evidence, max_sources=5, max_words=22):
+    """Build a clearly attributed extractive digest when no language model is configured.
+
+    Keep each publisher's copied excerpt short; do not pad with invented context.
+    """
+    paragraphs = []
+    for item in source_evidence[:max_sources]:
+        available = [tidy(x) for x in item.get("paragraphs", []) if tidy(x)]
+        if not available:
+            continue
+        publisher = normalize_text(item.get("publisher", "Publisher")) or "Publisher"
+        excerpt = _short_attributed_text(available[0], max_words=max_words)
+        if excerpt:
+            paragraphs.append(f'{publisher}: “{excerpt}”')
+    return "\n\n".join(paragraphs)
+
+
 def generate_ai_article(title, lang, source_evidence):
     """Generate a detailed article only from retrieved publisher evidence."""
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
@@ -702,7 +719,14 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     if source_evidence:
         c["source_evidence"] = source_evidence
         article = generate_ai_article(c.get("title", ""), c.get("lang", "en"), source_evidence)
-        if article: c["article_body"] = article
+        if article:
+            c["article_body"] = article
+        else:
+            # No paid API key: publish a transparent, source-attributed digest instead
+            # of inventing long-form prose or leaving the article body nearly empty.
+            evidence_digest = build_evidence_digest(source_evidence)
+            if evidence_digest:
+                c["article_body"] = evidence_digest
 
 def parse_feed(data: bytes, feed: dict) -> list:
     low = data.lower()
@@ -1134,7 +1158,7 @@ def article_page(cfg, p, posts):
     for source in p["sources"]:
         publisher = normalize_text(source["publisher"])
         snippet = attributed.get(publisher.casefold(), "")
-        detail = f'<p class="source-detail">{esc(_short_attributed_text(snippet, max_words=30))}</p>' if snippet else ""
+        detail = f'<p class="source-detail">{esc(_short_attributed_text(snippet, max_words=22))}</p>' if snippet and not article_body else ""
         src_items.append(f'<li><strong>{esc(publisher)}</strong>: <a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["title"] or publisher)}</a>{detail}</li>')
     srcs = "".join(src_items)
     if not happened_parts:
