@@ -574,6 +574,23 @@ def _snippet_matches_story(snippet, title, source_title=""):
     return bool(story_terms & snippet_terms)
 
 
+def build_evidence_digest(source_evidence, max_sources=5, max_words=22):
+    """Build a clearly attributed extractive digest when no language model is configured.
+
+    Keep each publisher's copied excerpt short; do not pad with invented context.
+    """
+    paragraphs = []
+    for item in source_evidence[:max_sources]:
+        available = [tidy(x) for x in item.get("paragraphs", []) if tidy(x)]
+        if not available:
+            continue
+        publisher = normalize_text(item.get("publisher", "Publisher")) or "Publisher"
+        excerpt = _short_attributed_text(available[0], max_words=max_words)
+        if excerpt:
+            paragraphs.append(f'{publisher}: “{excerpt}”')
+    return "\n\n".join(paragraphs)
+
+
 def generate_ai_article(title, lang, source_evidence):
     """Generate a detailed article only from retrieved publisher evidence."""
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
@@ -702,7 +719,14 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
     if source_evidence:
         c["source_evidence"] = source_evidence
         article = generate_ai_article(c.get("title", ""), c.get("lang", "en"), source_evidence)
-        if article: c["article_body"] = article
+        if article:
+            c["article_body"] = article
+        else:
+            # No paid API key: publish a transparent, source-attributed digest instead
+            # of inventing long-form prose or leaving the article body nearly empty.
+            evidence_digest = build_evidence_digest(source_evidence)
+            if evidence_digest:
+                c["article_body"] = evidence_digest
 
 def parse_feed(data: bytes, feed: dict) -> list:
     low = data.lower()
@@ -793,6 +817,7 @@ T = {
         "coverage": "Coverage from {n} sources: {names}.", "reported_by": "Reported by",
         "feed_summary": "Summary from the source feed", "published": "Published",
         "what_happened": "What happened", "each_source": "What each source reports", "unconfirmed": "What is not confirmed",
+        "trend_topics": "Google Trends in India", "trend_search": "Search Google", "trend_read": "Read related coverage",
         "un_headline": "Only headlines and short feed summaries were available. Details beyond them are not confirmed here; read the original reports.",
         "un_single": "Only one publisher is cited so far, so this has not been cross-checked against other reports.",
         "un_differ": "These sources word the story differently, so check their reports for exact details: {names}.",
@@ -813,6 +838,7 @@ T = {
         "coverage": "{n} स्रोतों की रिपोर्ट: {names}।", "reported_by": "रिपोर्ट करने वाले स्रोत",
         "feed_summary": "स्रोत फ़ीड का सारांश", "published": "प्रकाशित",
         "what_happened": "क्या हुआ", "each_source": "हर स्रोत क्या रिपोर्ट करता है", "unconfirmed": "क्या पुष्टि नहीं हुई है",
+        "trend_topics": "Google पर ट्रेंड कर रहे विषय", "trend_search": "Google पर खोजें", "trend_read": "संबंधित खबर पढ़ें",
         "un_headline": "सिर्फ़ सुर्खियाँ और छोटे फ़ीड सारांश उपलब्ध थे। उनसे आगे की जानकारी यहाँ पुष्ट नहीं है; मूल रिपोर्ट पढ़ें।",
         "un_single": "अभी सिर्फ़ एक प्रकाशक का हवाला है, इसलिए इसे दूसरी रिपोर्टों से मिलाकर नहीं देखा गया है।",
         "un_differ": "ये स्रोत खबर को अलग-अलग शब्दों में बताते हैं, इसलिए सटीक ब्योरे के लिए उनकी रिपोर्ट देखें: {names}।",
@@ -1048,6 +1074,21 @@ def card(p, up, compact=False):
             f'<a class="more" href="{esc(up + p["url"])}">{esc(L["read_more"])}<span class="sr"> — {esc(p["title"])}</span></a></article>')
 
 
+def trend_topic_card(p, up, lang):
+    """Render a Google Trends keyword separately from the news headline it relates to."""
+    keyword = normalize_text(p.get("keyword", ""))
+    if not keyword:
+        return ""
+    search_url = "https://www.google.com/search?hl=" + ("hi" if lang == "hi" else "en") + "&q=" + urllib.parse.quote(keyword)
+    return (f'<article class="trend-topic-card" lang="en">'
+            f'<p class="trend-kicker">Google Trends · India</p>'
+            f'<h3><a href="{esc(up + p["url"])}">{esc(keyword)}</a></h3>'
+            f'<p class="trend-related">{esc(p["title"])}</p>'
+            f'<p class="trend-actions"><a class="more" href="{esc(up + p["url"])}">{esc(T[lang]["trend_read"])}</a> '
+            f'<a class="more" href="{esc(search_url)}" target="_blank" rel="noopener noreferrer">{esc(T[lang]["trend_search"])}</a></p>'
+            f'</article>')
+
+
 def list_page(cfg, scope, posts, path, alternates=()):
     """scope: 'en' | 'hi' | 'all' (home page, English UI, mixed languages)."""
     lang = scope if scope in LANGS else "en"
@@ -1065,6 +1106,13 @@ def list_page(cfg, scope, posts, path, alternates=()):
                    f'<a class="btn" lang="hi" hreflang="hi" href="hi/index.html">{esc(L["choose_hi"])}</a></p>')
     btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
         f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
+    trend_posts = [p for p in sorted(posts, key=lambda p: p.get("score", 0), reverse=True)
+                   if p.get("keyword") and p.get("category") == "trending" and indexable(p, cfg)][:8]
+    trend_topics = ""
+    if trend_posts:
+        trend_topics = (f'<section class="trend-topics" aria-labelledby="trend-topics"><h2 id="trend-topics">{esc(L["trend_topics"])}</h2>'
+                        f'<div class="trend-topic-grid">'
+                        + "".join(trend_topic_card(p, up, lang) for p in trend_posts) + "</div></section>")
     trending = ""
     if top:
         trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
@@ -1081,6 +1129,7 @@ def list_page(cfg, scope, posts, path, alternates=()):
 <nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats">{btns}</nav>
 <p id="status" class="status" role="status" data-tpl="{esc(L['results'])}"></p>
 </section>
+{trend_topics}
 {trending}
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>"""
     title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
@@ -1109,7 +1158,7 @@ def article_page(cfg, p, posts):
     for source in p["sources"]:
         publisher = normalize_text(source["publisher"])
         snippet = attributed.get(publisher.casefold(), "")
-        detail = f'<p class="source-detail">{esc(_short_attributed_text(snippet, max_words=30))}</p>' if snippet else ""
+        detail = f'<p class="source-detail">{esc(_short_attributed_text(snippet, max_words=22))}</p>' if snippet and not article_body else ""
         src_items.append(f'<li><strong>{esc(publisher)}</strong>: <a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["title"] or publisher)}</a>{detail}</li>')
     srcs = "".join(src_items)
     if not happened_parts:

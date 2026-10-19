@@ -37,6 +37,26 @@ class ProjectFiles(unittest.TestCase):
 
     def test_generated_files_up_to_date(self): self.assertTrue(engine.check_generated(ROOT))
 
+    def test_google_trends_card_shows_keyword_and_google_search(self):
+        post = {"keyword": "India monsoon", "url": "en/posts/monsoon.html", "title": "Rain forecast updated", "lang": "en"}
+        card = engine.trend_topic_card(post, "", "en")
+        self.assertIn("India monsoon", card)
+        self.assertIn("https://www.google.com/search?hl=en&amp;q=India%20monsoon", card)
+        self.assertIn("Rain forecast updated", card)
+        self.assertIn('rel="noopener noreferrer"', card)
+
+    def test_no_api_fallback_uses_short_attributed_source_excerpts(self):
+        evidence = [
+            {"publisher": "Example News", "paragraphs": ["Officials announced the new plan today after a meeting. More detail follows."]},
+            {"publisher": "Daily Report", "paragraphs": ["The department said the rollout begins next month in several regions."]},
+        ]
+        body = engine.build_evidence_digest(evidence)
+        self.assertIn("Example News:", body)
+        self.assertIn("Daily Report:", body)
+        self.assertEqual(len(body.split("\n\n")), 2)
+        for paragraph in body.split("\n\n"):
+            self.assertLessEqual(len(paragraph.split()), 26)  # publisher label + 22-word excerpt + quote marks
+
 
 class HtmlSeo(unittest.TestCase):
     cfg = engine.load_config(ROOT / "config.json")
