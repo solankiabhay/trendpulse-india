@@ -215,7 +215,7 @@ def content_language_needs_refresh(text: str, lang: str) -> bool:
 def translate_to_hindi(text: str) -> str:
     """Translate English excerpts via Google's no-key endpoint; safely fall back on failure."""
     text = normalize_text(text)
-    if not text or deva_ratio(text) >= 0.95:
+    if not text or deva_ratio(text) >= 0.99:
         return text
     query = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "hi", "dt": "t", "q": text[:3500]})
     request = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + query,
@@ -752,8 +752,21 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
             headline = normalize_text(source.get("title", ""))
             if headline:
                 combined.append(f'{normalize_text(source.get("publisher", "स्रोत"))}: {translate_to_hindi(headline)}')
+    if c.get("lang") == "hi" and combined:
+        # Translate complete mixed-script excerpts, not just isolated English paragraphs.
+        translated_parts = []
+        for part in combined:
+            match = re.match(r"^([^:]{2,100}):\\s+(.+)$", part, re.S)
+            if match:
+                label, excerpt = match.group(1), match.group(2)
+                if latin_ratio(excerpt) > 0.03 or deva_ratio(excerpt) < 0.85:
+                    excerpt = translate_to_hindi(excerpt)
+                translated_parts.append(f"{label}: {excerpt}")
+            else:
+                translated_parts.append(translate_to_hindi(part))
+        combined = translated_parts
     if combined:
-        if len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]: c["summary"] = "\n\n".join(combined)[:2400]
+        if len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]: c["summary"] = "\\n\\n".join(combined)[:2400]
         c["boilerplate_summary"] = False
     if source_evidence:
         c["source_evidence"] = source_evidence
