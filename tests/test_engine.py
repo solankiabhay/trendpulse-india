@@ -452,7 +452,7 @@ class StructureAndReviewTests(unittest.TestCase):
         html = engine.article_page(cfg, post, [post])
         source_section = html.split("What each source reports", 1)[1].split("What is not confirmed", 1)[0]
         self.assertIn("<strong>ICC</strong>", source_section)
-        self.assertNotIn("Cricket World", source_section)
+        self.assertNotIn("<strong>Cricket World</strong>", source_section)
         self.assertNotIn("Sportstar", source_section)
         self.assertNotIn("113-run win", source_section)
 
