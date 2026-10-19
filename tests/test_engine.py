@@ -556,6 +556,28 @@ class TeaserAndIndexingTests(unittest.TestCase):
         smap = engine.sitemap_xml(cfg, [post])
         self.assertIn("<lastmod>2026-10-19</lastmod>", smap)
 
+    def test_unrelated_trend_cards_are_filtered(self):
+        self.assertTrue(engine.trend_topic_relevant({
+            "keyword": "ban vs zim",
+            "title": "Zimbabwe look to extend recent dominance over Bangladesh",
+        }))
+        self.assertTrue(engine.trend_topic_relevant({
+            "keyword": "pakistan national cricket team vs sri lanka national cricket team match scorecard",
+            "title": "Pakistan, Sri Lanka look to find the right mix as World Cup countdown begins",
+        }))
+        self.assertFalse(engine.trend_topic_relevant({
+            "keyword": "jio star",
+            "title": "'Akshay Kisi Ki Lene Dene Me Nahi Hai': Salman Khan Says Actor Has Grown",
+        }))
+        self.assertFalse(engine.trend_topic_relevant({
+            "keyword": "pakistan vs sri lanka",
+            "title": "PCB snubs Michael Atherton, Nasser Hussain after Imran Khan interview controversy",
+        }))
+        self.assertTrue(engine.trend_topic_relevant({
+            "keyword": "morning lottery sambad",
+            "title": "Nagaland Dear Lottery Result Today; Lottery Sambad Live",
+        }))
+
     def test_hindi_trend_card_uses_reviewed_natural_copy(self):
         post = {"keyword": "ban vs zim", "title": "Zimbabwe look to extend recent dominance over Bangladesh",
                 "url": "en/posts/example.html"}

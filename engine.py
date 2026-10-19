@@ -1259,6 +1259,34 @@ def card(p, up, compact=False):
             f'<a class="more" href="{esc(up + p["url"])}">{esc(L["read_more"])}<span class="sr"> — {esc(p["title"])}</span></a></article>')
 
 
+
+def trend_topic_relevant(post) -> bool:
+    """Hide trend cards whose headline does not support the displayed search phrase."""
+    keyword = normalize_text(post.get("keyword", "")).casefold()
+    headline = tokens(post.get("title", ""))
+    if not keyword or not headline:
+        return False
+    raw = tokens(keyword)
+    if "lottery" in raw or "sambad" in raw:
+        return "lottery" in headline or "sambad" in headline
+    aliases = {
+        "ban": "bangladesh", "zim": "zimbabwe", "nz": "zealand",
+        "aus": "australia", "ind": "india", "wi": "west",
+    }
+    stop = {"vs", "v", "the", "in", "and", "to", "of", "for", "a", "an", "team", "match", "live"}
+    expanded = set()
+    for token in raw:
+        if token in stop:
+            continue
+        expanded.update(tokens(token))
+        expanded.update(tokens(aliases.get(token, token)))
+    overlap = len(expanded & headline)
+    # Require two matching entities for longer multi-part queries (e.g. team vs team),
+    # so a single generic word like "Delhi" cannot make an unrelated story look relevant.
+    required = 2 if len(expanded) >= 3 else 1
+    return overlap >= required
+
+
 def trend_topic_card(p, up, lang):
     """Render a localized Google Trends card while preserving official names."""
     keyword = normalize_text(p.get("keyword", ""))
@@ -1283,6 +1311,14 @@ def trend_topic_card(p, up, lang):
                 "ज़िम्बाब्वे की कोशिश होगी कि वह बांग्लादेश के खिलाफ हालिया बढ़त बरकरार रखे।",
             "everton vs chelsea live! premier league match updates, news and score":
                 "एवर्टन और चेल्सी के बीच प्रीमियर लीग मुकाबले की लाइव अपडेट, खबरें और स्कोर।",
+            "australia wary of new-look new zealand ahead of t20i series":
+                "टी20 अंतरराष्ट्रीय सीरीज़ से पहले ऑस्ट्रेलिया की नज़र न्यूज़ीलैंड की नई टीम पर है।",
+            "pakistan, sri lanka look to find the right mix as world cup countdown begins":
+                "विश्व कप की उलटी गिनती शुरू होने के साथ पाकिस्तान और श्रीलंका सही संयोजन तलाश रहे हैं।",
+            "míchel makes major changes to ajax's line-up in groningen":
+                "ग्रोनिंगन में मुकाबले के लिए मिचेल ने अजाक्स की टीम में बड़े बदलाव किए।",
+            "juventus squad: boga returns":
+                "जुवेंटस की टीम में बोगा की वापसी हुई है।",
         }
         display_keyword = keyword_hi.get(keyword.casefold(), translate_to_hindi(keyword))
         translated_title = title_hi.get(display_title.casefold(), translate_to_hindi(display_title))
@@ -1322,7 +1358,8 @@ def list_page(cfg, scope, posts, path, alternates=()):
     btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
         f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
     trend_posts = [p for p in sorted(posts, key=lambda p: p.get("score", 0), reverse=True)
-                   if p.get("keyword") and p.get("category") == "trending" and indexable(p, cfg)][:8]
+                   if p.get("keyword") and p.get("category") == "trending"
+                   and indexable(p, cfg) and trend_topic_relevant(p)][:8]
     trend_topics = ""
     if trend_posts:
         trend_topics = (f'<section class="trend-topics" aria-labelledby="trend-topics"><h2 id="trend-topics">{esc(L["trend_topics"])}</h2>'
