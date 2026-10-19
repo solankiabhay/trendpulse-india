@@ -1002,7 +1002,7 @@ T = {
         "un_single": "Only one publisher is cited so far, so this has not been cross-checked against other reports.",
         "un_differ": "These sources word the story differently, so check their reports for exact details: {names}.",
         "disclaimer": "This page is an automatic digest of headlines and feed summaries from the sources listed. TrendPulse India has not independently verified them. Read the original reports for full details.",
-        "choose": "अंग्रेज़ी में पढ़ें", "choose_hi": "हिंदी में पढ़ें", "nav": "मुख्य नेविगेशन", "footer": "फ़ुटर",
+        "choose": "Read in English", "choose_hi": "हिंदी में पढ़ें", "nav": "Main navigation", "footer": "Footer",
         "cats_label": "Filter by category", "locale": "en_IN", "tagline": "Trending topics from India, with sources",
     },
     "hi": {
@@ -1023,7 +1023,7 @@ T = {
         "un_single": "अभी सिर्फ़ एक प्रकाशक का हवाला है, इसलिए इसे दूसरी रिपोर्टों से मिलाकर नहीं देखा गया है।",
         "un_differ": "ये स्रोत खबर को अलग-अलग शब्दों में बताते हैं, इसलिए सटीक ब्योरे के लिए उनकी रिपोर्ट देखें: {names}।",
         "disclaimer": "यह पृष्ठ ऊपर दिए गए स्रोतों की सुर्खियों और फ़ीड सारांश से स्वचालित रूप से तैयार किया गया है। TrendPulse India ने इनकी स्वतंत्र पुष्टि नहीं की है। पूरी जानकारी के लिए मूल रिपोर्ट पढ़ें।",
-        "choose": "Read in English", "choose_hi": "हिंदी में पढ़ें", "nav": "मुख्य नेविगेशन", "footer": "फ़ुटर",
+        "choose": "अंग्रेज़ी में पढ़ें", "choose_hi": "हिंदी में पढ़ें", "nav": "मुख्य नेविगेशन", "footer": "फ़ुटर",
         "cats_label": "श्रेणी के अनुसार छाँटें", "locale": "hi_IN", "tagline": "भारत के ट्रेंडिंग विषय, स्रोतों के साथ",
     },
 }
