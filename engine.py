@@ -624,6 +624,11 @@ def _snippet_matches_story(snippet, title, source_title=""):
     return bool(story_terms & snippet_terms)
 
 
+def source_is_preview(title: str) -> bool:
+    """Whether a source headline is explicitly a preview or prediction."""
+    return bool(re.search(r"\\b(preview|predictions?|prediction)\\b", normalize_text(title), re.I))
+
+
 def source_titles_conflict(left: str, right: str) -> bool:
     """Detect explicit event-identity conflicts; shared team names alone are not enough."""
     a, b = normalize_text(left), normalize_text(right)
@@ -716,14 +721,14 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                 conflicting_titles.add(normalize_text(right.get("title", "")).casefold())
                 log.warning("Conflicting event identifiers across sources; excluding both from article evidence: %s | %s", left.get("title", "")[:100], right.get("title", "")[:100])
     # A preview/prediction for a future meeting must not be mixed into a match-result digest.
-    story_is_preview = bool(re.search(r"\\b(preview|predictions?|prediction|previewed)\\b", c.get("title", ""), re.I))
+    story_is_preview = source_is_preview(c.get("title", ""))
     source_has_result = any(re.search(r"\\b(won|wins|beat|defeated|victory|result|scorecard|highlights)\\b", s.get("title", ""), re.I) for s in sources)
     for source in sources:
         source_title = normalize_text(source.get("title", ""))
         if source_title.casefold() in conflicting_titles:
             continue
-        source_is_preview = bool(re.search(r"\\b(preview|predictions?|prediction)\\b", source_title, re.I))
-        if source_is_preview and source_has_result and not story_is_preview:
+        source_preview = source_is_preview(source_title)
+        if source_preview and source_has_result and not story_is_preview:
             log.info("Excluding preview source from result-focused article evidence: %s", source_title[:100])
             continue
         url = safe_url(source.get("url", ""))
