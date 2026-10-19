@@ -1153,15 +1153,36 @@ def card(p, up, compact=False):
 
 
 def trend_topic_card(p, up, lang):
-    """Render a Google Trends keyword separately from the news headline it relates to."""
+    """Render a localized Google Trends card while preserving official names."""
     keyword = normalize_text(p.get("keyword", ""))
     if not keyword:
         return ""
+    display_keyword = keyword
+    display_title = normalize_text(p.get("title", ""))
+    card_lang = "en"
+    if lang == "hi":
+        # Common search phrases are more useful in Hindi when localized directly.
+        keyword_hi = {
+            "oman vs nepal": "ओमान बनाम नेपाल",
+            "inter kashi vs odisha": "इंटर काशी बनाम ओडिशा",
+            "ban vs zim": "बांग्लादेश बनाम ज़िम्बाब्वे",
+            "everton vs chelsea": "एवर्टन बनाम चेल्सी",
+        }
+        display_keyword = keyword_hi.get(keyword.casefold(), translate_to_hindi(keyword))
+        translated_title = translate_to_hindi(display_title)
+        # Never silently present an English-only headline as Hindi when the
+        # offline translation model is unavailable. Keep the story link useful.
+        if translated_title and (deva_ratio(translated_title) >= 0.20 or not display_title):
+            display_title = translated_title
+        else:
+            display_title = "इस ट्रेंड से जुड़ी खबर पढ़ें।"
+        card_lang = "hi"
     search_url = "https://www.google.com/search?hl=" + ("hi" if lang == "hi" else "en") + "&q=" + urllib.parse.quote(keyword)
-    return (f'<article class="trend-topic-card" lang="en">'
-            f'<p class="trend-kicker">Google Trends · India</p>'
-            f'<h3><a href="{esc(up + p["url"])}">{esc(keyword)}</a></h3>'
-            f'<p class="trend-related">{esc(p["title"])}</p>'
+    kicker = "Google Trends · भारत" if lang == "hi" else "Google Trends · India"
+    return (f'<article class="trend-topic-card" lang="{card_lang}">'
+            f'<p class="trend-kicker">{esc(kicker)}</p>'
+            f'<h3><a href="{esc(up + p["url"])}">{esc(display_keyword)}</a></h3>'
+            f'<p class="trend-related">{esc(display_title)}</p>'
             f'<p class="trend-actions"><a class="more" href="{esc(up + p["url"])}">{esc(T[lang]["trend_read"])}</a> '
             f'<a class="more" href="{esc(search_url)}" target="_blank" rel="noopener noreferrer">{esc(T[lang]["trend_search"])}</a></p>'
             f'</article>')
