@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 17
+SUMMARY_REFRESH_VERSION = 18
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -629,6 +629,21 @@ def source_is_preview(title: str) -> bool:
     return bool(re.search(r"\b(preview|predictions?|prediction)\b", normalize_text(title), re.I))
 
 
+def source_title_reports_result(title: str) -> bool:
+    """Whether a headline explicitly looks like match-result reporting."""
+    return bool(re.search(r"\b(won|wins|beat|defeated|victory|result|scorecard|highlights)\b", normalize_text(title), re.I))
+
+
+def source_identity_needs_cleanup(item: dict) -> bool:
+    """Prioritise digests that mix a preview with result/highlights sources."""
+    sources = item.get("sources", [])
+    return (
+        not source_is_preview(item.get("title", ""))
+        and any(source_is_preview(s.get("title", "")) for s in sources)
+        and any(source_title_reports_result(s.get("title", "")) for s in sources)
+    )
+
+
 def source_titles_conflict(left: str, right: str) -> bool:
     """Detect explicit event-identity conflicts; shared team names alone are not enough."""
     a, b = normalize_text(left), normalize_text(right)
@@ -722,7 +737,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                 log.warning("Conflicting event identifiers across sources; excluding both from article evidence: %s | %s", left.get("title", "")[:100], right.get("title", "")[:100])
     # A preview/prediction for a future meeting must not be mixed into a match-result digest.
     story_is_preview = source_is_preview(c.get("title", ""))
-    source_has_result = any(re.search(r"\\b(won|wins|beat|defeated|victory|result|scorecard|highlights)\\b", s.get("title", ""), re.I) for s in sources)
+    source_has_result = any(source_title_reports_result(s.get("title", "")) for s in sources)
     for source in sources:
         source_title = normalize_text(source.get("title", ""))
         if source_title.casefold() in conflicting_titles:
@@ -1468,6 +1483,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             # a new refresh version can therefore retry recent attempts safely.
             language_issue = content_language_needs_refresh(summary, item.get("lang", "en"))
             return (
+                0 if source_identity_needs_cleanup(item) else 1,
                 recent_attempt,
                 0 if language_issue else 1,
                 -len(summary.split()),
