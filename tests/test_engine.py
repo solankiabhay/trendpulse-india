@@ -687,6 +687,9 @@ class SourceExtractionTests(unittest.TestCase):
             "The International Cricket Council (ICC) is the global governing body of cricket. "
             "It coordinates and oversees international cricket competitions."
         ))
+        self.assertTrue(engine.is_generic_sports_boilerplate(
+            "The official website of the International Cricket Council, providing news, fixtures, rankings, videos, and live cricket updates."
+        ))
         self.assertFalse(engine.is_generic_sports_boilerplate(
             "Nepal scored 263 for 8 and won the match by 113 runs."
         ))
