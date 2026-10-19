@@ -682,6 +682,29 @@ class LanguageAndUnpublishTests(unittest.TestCase):
         self.assertEqual(engine.main(["--root", str(root), "--unpublish", "bad id"]), 4)
 
 class SourceExtractionTests(unittest.TestCase):
+    def test_generic_icc_governing_body_copy_is_rejected(self):
+        self.assertTrue(engine.is_generic_sports_boilerplate(
+            "The International Cricket Council (ICC) is the global governing body of cricket. "
+            "It coordinates and oversees international cricket competitions."
+        ))
+        self.assertFalse(engine.is_generic_sports_boilerplate(
+            "Nepal scored 263 for 8 and won the match by 113 runs."
+        ))
+
+    def test_generic_highlights_story_rejects_unanchored_old_score_report(self):
+        self.assertTrue(engine.source_is_unanchored_result_for_highlights(
+            "Oman v Nepal | Match Highlights | ICC Cricket World Cup League 2 2023-27",
+            "Nepal vs Oman Highlights: Lamichhane, Nandan lead NEP to 113-run win"
+        ))
+        self.assertFalse(engine.source_is_unanchored_result_for_highlights(
+            "Nepal beat Oman by 113 runs | Match Result",
+            "Nepal vs Oman Highlights: Nepal won by 113 runs"
+        ))
+        self.assertFalse(engine.source_is_unanchored_result_for_highlights(
+            "Oman v Nepal | Match Highlights",
+            "Oman and Nepal prepare for the next league fixture"
+        ))
+
     def test_google_news_token_embedded_publisher_url(self):
         raw = b"\x12https://publisher.example/news/story"
         token = engine.base64.urlsafe_b64encode(raw).decode("ascii").rstrip("=")
