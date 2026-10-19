@@ -2,7 +2,7 @@
 
 Bilingual (English / हिंदी) trending-topics site. A Python pipeline reads public RSS feeds, applies a
 content-quality gate, and writes **source-linked digests** as static HTML. Hosted on GitHub Pages;
-GitHub Actions runs the pipeline four times a day. No third-party Python dependencies, no database, no paid APIs.
+GitHub Actions runs the pipeline every two hours. Hindi summaries can use the optional local Argos English→Hindi model; no paid translation API or database is required.
 
 **What the articles are:** automatic digests of headlines and feed summaries, each linking to the original
 publishers. They are not original reporting and are labelled as unverified on every page. The pipeline never
@@ -77,7 +77,7 @@ git add -A && git commit -m "Approve reviewed topic" && git push
 - Rejected: misleading/clickbait titles, rumours/unconfirmed wording, no valid source URL, missing or old (>72 h) date, wrong language, fewer than 2 publishers *and* thin summary, near-duplicates (title similarity ≥ 0.6, or same id).
 - At most 4 new posts per run (`max_new_posts_per_run`). Skipping beats publishing weak content.
 - Write order: pages → `posts.json` → `published.json`. A crash never marks content published that isn't saved; rerunning is idempotent.
-- Hindi pages come from Hindi feeds (`hl=hi`). There is no machine translation, so English and Hindi articles are separate (no hreflang between them); only the section/info pages are paired.
+- Hindi pages prefer Hindi feeds (`hl=hi`). When source excerpts are English, the workflow attempts local English→Hindi translation with the open-source Argos model; the model is cached between runs. If model download/translation fails, English-only excerpts are omitted rather than mislabelled as Hindi. English and Hindi news articles remain separate (no hreflang between them); only section/info pages are paired.
 
 ## Status: what is verified where
 - **A. Works locally (verified in the build sandbox):** all 74 tests, `--check`, `--build-site`, static HTML/SEO/contrast checks, JS filter logic under Node.
