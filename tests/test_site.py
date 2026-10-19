@@ -13,6 +13,10 @@ REQUIRED = ["index.html", "en/index.html", "hi/index.html", "assets/style.css", 
 
 class ProjectFiles(unittest.TestCase):
 
+    def test_source_preview_detection(self):
+        self.assertTrue(engine.source_is_preview("Oman vs Nepal match predictions for October 19"))
+        self.assertFalse(engine.source_is_preview("Nepal beat Oman by 113 runs"))
+
     def test_source_titles_conflict_on_different_match_numbers(self):
         self.assertTrue(engine.source_titles_conflict("Oman vs Nepal Match 135", "Oman v Nepal Match 139 preview"))
         self.assertFalse(engine.source_titles_conflict("Oman v Nepal match highlights", "Nepal vs Oman match report"))
