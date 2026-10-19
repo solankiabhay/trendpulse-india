@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 10
+SUMMARY_REFRESH_VERSION = 11
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -884,7 +884,7 @@ def build_post(c, now) -> dict:
     return {
         "id": make_id(lang, c["title"]), "lang": lang, "slug": make_slug(lang, c["title"]),
         "url": f"{lang}/posts/{make_slug(lang, c['title'])}.html", "title": c["title"],
-        "summary": short_summary(c), "source_summary": c["summary"][:1800], "article_body": c.get("article_body", ""), "category": c["category"],
+        "summary": short_summary(c), "source_summary": c["summary"][:2400], "article_body": c.get("article_body", ""), "category": c["category"],
         "published_at": c["published"].isoformat(), "generated_at": now.isoformat(), "kind": "digest",
         "keyword": c["keyword"], "score": c.get("score", 0),
         "sources": [{"title": s["title"], "url": s["url"], "publisher": s["publisher"]} for s in c["sources"]],
@@ -1309,7 +1309,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                 updated_existing = True
                 if len(detail) >= 40 and detail != current:
                     preserved = "\n\n".join(detail_parts)
-                    p["source_summary"] = preserved[:600].rsplit(" ", 1)[0] if len(preserved) > 600 else preserved
+                    p["source_summary"] = preserved[:2400].rsplit(" ", 1)[0] if len(preserved) > 2400 else preserved
                     p["summary"] = short_summary({"summary": preserved, "lang": p.get("lang", "en"), "sources": p.get("sources", [])})
                     p["generated_at"] = now.isoformat()
             except Exception as e:
