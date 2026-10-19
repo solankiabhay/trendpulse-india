@@ -209,13 +209,13 @@ def content_language_needs_refresh(text: str, lang: str) -> bool:
     text = normalize_text(text)
     if not text:
         return lang == "hi"
-    return lang == "hi" and deva_ratio(text) < 0.25 and latin_ratio(text) > 0.25
+    return lang == "hi" and deva_ratio(text) < 0.85 and latin_ratio(text) > 0.10
 
 
 def translate_to_hindi(text: str) -> str:
     """Translate English excerpts via Google's no-key endpoint; safely fall back on failure."""
     text = normalize_text(text)
-    if not text or deva_ratio(text) >= 0.35:
+    if not text or deva_ratio(text) >= 0.80:
         return text
     query = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "hi", "dt": "t", "q": text[:3500]})
     request = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + query,
@@ -1361,8 +1361,10 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             # refresh near-threshold summaries before empty pages that may be blocked.
             # The cooldown skip below still applies only to the current version;
             # a new refresh version can therefore retry recent attempts safely.
+            language_issue = content_language_needs_refresh(summary, item.get("lang", "en"))
             return (
                 recent_attempt,
+                0 if language_issue else 1,
                 -len(summary.split()),
                 item.get("published_at", ""),
             )
