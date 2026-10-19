@@ -792,7 +792,7 @@ class RefreshOnlyTests(unittest.TestCase):
         def fake_enrich(candidate, cfg, max_sources=5):
             candidate["summary"] = detail
 
-        with mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \\
+        with mock.patch.object(engine, "collect", side_effect=AssertionError("refresh-only must not collect feeds")), \
              mock.patch.object(engine, "enrich_candidate_summary", side_effect=fake_enrich):
             engine.run(root, now=NOW, refresh_only=True)
 
