@@ -519,6 +519,51 @@ class StructureAndReviewTests(unittest.TestCase):
 
 
 class TeaserAndIndexingTests(unittest.TestCase):
+    def test_seo_metadata_deduplicates_brand_and_adds_social_tags(self):
+        cfg = engine.load_config(ROOT / "config.json")
+        rendered = engine.page(cfg, "hi", "hi/index.html",
+                               "TrendPulse India — भारत के ट्रेंडिंग विषय, स्रोतों के साथ",
+                               "भारत के ट्रेंडिंग विषय और स्रोत।", "<h1>भारत</h1>")
+        self.assertIn("<title>TrendPulse India — भारत के ट्रेंडिंग विषय, स्रोतों के साथ</title>", rendered)
+        self.assertNotIn("साथ | TrendPulse India</title>", rendered)
+        self.assertIn('<meta name="twitter:card" content="summary">', rendered)
+        self.assertIn('<meta name="twitter:description" content="भारत के ट्रेंडिंग विषय और स्रोत।">', rendered)
+        self.assertIn('content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"', rendered)
+
+    def test_seo_description_prefers_first_source_and_truncates_cleanly(self):
+        description = engine.seo_description("The Hindu: Parliament session opens next week\n\nMint: unrelated second headline", 80)
+        self.assertEqual(description, "Parliament session opens next week")
+        long = engine.seo_description("A useful detailed Hindi news headline describing what happened across the city today", 42)
+        self.assertTrue(len(long) <= 43)
+        self.assertTrue(long.endswith("…"))
+
+    def test_article_jsonld_has_modified_date_and_breadcrumbs(self):
+        cfg = engine.load_config(ROOT / "config.json")
+        post = engine.build_post(engine.parse_feed(rss([GOOD_HI]), FEED_HI)[0], NOW)
+        post["source_summary"] = "नवभारत टाइम्स: संसद का बजट सत्र अगले सप्ताह शुरू होगा। " * 8
+        post["generated_at"] = "2026-10-19T10:00:00+00:00"
+        rendered = engine.article_page(cfg, post, [post])
+        self.assertIn('"@type": "BreadcrumbList"', rendered)
+        self.assertIn('"dateModified": "2026-10-19T10:00:00+00:00"', rendered)
+        self.assertIn('"inLanguage": "hi-IN"', rendered)
+        self.assertIn('name="twitter:card"', rendered)
+
+    def test_sitemap_lastmod_uses_content_modification_date(self):
+        cfg = engine.load_config(ROOT / "config.json")
+        post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
+        post["source_summary"] = "A detailed summary about the reported event and its verified context for readers. " * 8
+        post["generated_at"] = "2026-10-19T10:00:00+00:00"
+        smap = engine.sitemap_xml(cfg, [post])
+        self.assertIn("<lastmod>2026-10-19</lastmod>", smap)
+
+    def test_hindi_trend_card_uses_reviewed_natural_copy(self):
+        post = {"keyword": "ban vs zim", "title": "Zimbabwe look to extend recent dominance over Bangladesh",
+                "url": "en/posts/example.html"}
+        rendered = engine.trend_topic_card(post, "../", "hi")
+        self.assertIn("बांग्लादेश बनाम ज़िम्बाब्वे", rendered)
+        self.assertIn("ज़िम्बाब्वे की कोशिश होगी कि वह बांग्लादेश के खिलाफ हालिया बढ़त बरकरार रखे।", rendered)
+        self.assertNotIn("प्रभुत्व का विस्तार करने के लिए देखो", rendered)
+
     def test_google_news_boilerplate_is_not_treated_as_a_story_summary(self):
         filler = "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
         xml = item("Cyberleek shares new GTA 6 footage today", extra=f"<description>{filler}</description>")
