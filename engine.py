@@ -756,7 +756,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
         # Translate complete mixed-script excerpts, not just isolated English paragraphs.
         translated_parts = []
         for part in combined:
-            match = re.match(r"^([^:]{2,100}):\\s+(.+)$", part, re.S)
+            match = re.match(r"^([^:]{2,100}):\s+(.+)$", part, re.S)
             if match:
                 label, excerpt = match.group(1), match.group(2)
                 if latin_ratio(excerpt) > 0.03 or deva_ratio(excerpt) < 0.85:
@@ -766,7 +766,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                 translated_parts.append(translate_to_hindi(part))
         combined = translated_parts
     if combined:
-        if len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]: c["summary"] = "\\n\\n".join(combined)[:2400]
+        if len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]: c["summary"] = "\n\n".join(combined)[:2400]
         c["boilerplate_summary"] = False
     if source_evidence:
         c["source_evidence"] = source_evidence
