@@ -626,18 +626,18 @@ def _snippet_matches_story(snippet, title, source_title=""):
 
 def source_is_preview(title: str) -> bool:
     """Whether a source headline is explicitly a preview or prediction."""
-    return bool(re.search(r"\\b(preview|predictions?|prediction)\\b", normalize_text(title), re.I))
+    return bool(re.search(r"\b(preview|predictions?|prediction)\b", normalize_text(title), re.I))
 
 
 def source_titles_conflict(left: str, right: str) -> bool:
     """Detect explicit event-identity conflicts; shared team names alone are not enough."""
     a, b = normalize_text(left), normalize_text(right)
-    match_re = re.compile(r"\\bmatch\\s*(?:no\\.?\\s*)?(\\d{1,3})\\b", re.I)
+    match_re = re.compile(r"\bmatch\s*(?:no\.?\s*)?(\d{1,3})\b", re.I)
     ma, mb = match_re.search(a), match_re.search(b)
     if ma and mb and ma.group(1) != mb.group(1):
         return True
     # Compare dates only when both headlines state a date explicitly.
-    date_re = re.compile(r"\\b(\\d{1,2})\\s+(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\\s+(20\\d{2})\\b|\\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\\s+(\\d{1,2})(?:st|nd|rd|th)?[,]?\\s+(20\\d{2})\\b", re.I)
+    date_re = re.compile(r"\b(\d{1,2})\s+(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+(20\d{2})\b|\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+(\d{1,2})(?:st|nd|rd|th)?[,]?\s+(20\d{2})\b", re.I)
     def date_key(text):
         m = date_re.search(text)
         if not m:
