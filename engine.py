@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 20
+SUMMARY_REFRESH_VERSION = 21
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -641,6 +641,8 @@ def is_generic_sports_boilerplate(text: str) -> bool:
         r"the international cricket council \(icc\) is the global governing body of cricket",
         r"the icc is the global governing body of cricket",
         r"the international cricket council is the global governing body of cricket",
+        r"official website of the international cricket council",
+        r"providing news, fixtures, rankings, videos, and live cricket updates",
     )
     return any(re.search(pattern, t) for pattern in patterns)
 
@@ -1556,7 +1558,11 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                 p["summary_refresh_attempted_at"] = now.isoformat()
                 p["summary_refresh_version"] = SUMMARY_REFRESH_VERSION
                 updated_existing = True
-                if len(detail) >= 40 and detail != current:
+                detail_is_unusable = (
+                    is_generic_sports_boilerplate(detail)
+                    or source_is_unanchored_result_for_highlights(p.get("title", ""), detail)
+                )
+                if len(detail) >= 40 and detail != current and not (stale_match_digest and detail_is_unusable):
                     preserved = "\n\n".join(detail_parts)
                     p["source_summary"] = preserved[:2400].rsplit(" ", 1)[0] if len(preserved) > 2400 else preserved
                     p["summary"] = short_summary({"summary": preserved, "lang": p.get("lang", "en"), "sources": p.get("sources", [])})
