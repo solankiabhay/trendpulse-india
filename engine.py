@@ -1330,6 +1330,24 @@ def article_page(cfg, p, posts):
     # These are excerpts from feeds/publisher metadata, not independently verified facts.
     attributed = {}
     article_body = tidy(p.get("article_body", ""))
+    sources = p["sources"]
+    fallback_digest = article_body.startswith((
+        "Event-specific details could not be verified",
+        "उपलब्ध स्रोतों से इस मैच के विशिष्ट विवरण की पुष्टि नहीं हो सकी",
+    ))
+    if fallback_digest:
+        # A transparent fallback must not still list preview/result headlines as if
+        # they substantiate this event. Keep only sources anchored to the article title.
+        matched = [
+            source for source in sources
+            if jaccard(tokens(source.get("title", "")), tokens(p.get("title", ""))) >= 0.4
+            and not source_is_preview(source.get("title", ""))
+            and not source_is_unanchored_result_for_highlights(
+                p.get("title", ""), source.get("title", "")
+            )
+        ]
+        if matched:
+            sources = matched
     happened_raw = p.get("source_summary") or p["summary"]
     happened_parts = [tidy(part) for part in re.split(r"\n\s*\n", happened_raw) if tidy(part)]
     if article_body: happened_parts = [tidy(part) for part in re.split(r"\n\s*\n", article_body) if tidy(part)]
@@ -1341,7 +1359,7 @@ def article_page(cfg, p, posts):
             if snippet and publisher_key not in attributed:
                 attributed[publisher_key] = snippet
     src_items = []
-    for source in p["sources"]:
+    for source in sources:
         publisher = normalize_text(source["publisher"])
         snippet = attributed.get(publisher.casefold(), "")
         detail = f'<p class="source-detail">{esc(_short_attributed_text(snippet, max_words=22))}</p>' if snippet and not article_body else ""
@@ -1350,8 +1368,8 @@ def article_page(cfg, p, posts):
     if not happened_parts:
         happened_parts = [tidy(p["summary"])]
     happened_html = "".join(f"<p>{esc(part)}</p>" for part in happened_parts)
-    pubs = {s["publisher"].casefold() for s in p["sources"]}
-    differ = [s["publisher"] for s in p["sources"] if s["title"] and jaccard(tokens(s["title"]), tokens(p["title"])) < 0.4]
+    pubs = {s["publisher"].casefold() for s in sources}
+    differ = [s["publisher"] for s in sources if s["title"] and jaccard(tokens(s["title"]), tokens(p["title"])) < 0.4]
     unc = f'<li>{esc(L["un_headline"])}</li>'
     if len(pubs) < 2:
         unc += f'<li>{esc(L["un_single"])}</li>'
