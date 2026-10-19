@@ -34,7 +34,7 @@ from pathlib import Path
 log = logging.getLogger("trendpulse")
 
 MAX_FEED_BYTES = 5_000_000
-SUMMARY_REFRESH_VERSION = 12
+SUMMARY_REFRESH_VERSION = 13
 IST = timezone(timedelta(hours=5, minutes=30))
 LANGS = ("en", "hi")
 CATEGORIES = {
@@ -215,7 +215,7 @@ def content_language_needs_refresh(text: str, lang: str) -> bool:
 def translate_to_hindi(text: str) -> str:
     """Translate English excerpts via Google's no-key endpoint; safely fall back on failure."""
     text = normalize_text(text)
-    if not text or deva_ratio(text) >= 0.80:
+    if not text or deva_ratio(text) >= 0.95:
         return text
     query = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "hi", "dt": "t", "q": text[:3500]})
     request = urllib.request.Request("https://translate.googleapis.com/translate_a/single?" + query,
