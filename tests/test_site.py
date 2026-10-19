@@ -17,6 +17,21 @@ class ProjectFiles(unittest.TestCase):
         self.assertTrue(engine.source_is_preview("Oman vs Nepal match predictions for October 19"))
         self.assertFalse(engine.source_is_preview("Nepal beat Oman by 113 runs"))
 
+    def test_result_headline_detection_and_cleanup_priority(self):
+        self.assertTrue(engine.source_title_reports_result("Nepal beat Oman by 113 runs"))
+        self.assertTrue(engine.source_title_reports_result("Nepal vs Oman Highlights"))
+        self.assertFalse(engine.source_title_reports_result("Oman vs Nepal match predictions"))
+        mixed = {
+            "title": "Oman v Nepal | Match Highlights",
+            "sources": [
+                {"title": "ICC CWC League 2 Match 139 - Oman vs Nepal predictions"},
+                {"title": "Nepal vs Oman Highlights: 113-run win"}
+            ]
+        }
+        self.assertTrue(engine.source_identity_needs_cleanup(mixed))
+        mixed["sources"] = [{"title": "Oman vs Nepal match predictions"}]
+        self.assertFalse(engine.source_identity_needs_cleanup(mixed))
+
     def test_source_titles_conflict_on_different_match_numbers(self):
         self.assertTrue(engine.source_titles_conflict("Oman vs Nepal Match 135", "Oman v Nepal Match 139 preview"))
         self.assertFalse(engine.source_titles_conflict("Oman v Nepal match highlights", "Nepal vs Oman match report"))
