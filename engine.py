@@ -160,6 +160,21 @@ def indexable(p, cfg) -> bool:
     return (len(summary) >= cfg["min_summary_chars"]
             and not summary_needs_refresh(summary))
 
+
+def seo_description(text, max_chars=155) -> str:
+    """Create a concise, non-stuffed search/social description from source text."""
+    parts = [tidy(part) for part in re.split(r"\n\s*\n", text or "") if tidy(part)]
+    if not parts:
+        return "Source-linked news digest from TrendPulse India."
+    value = parts[0]
+    # Source summaries often start with "Publisher: headline"; the publisher is
+    # already shown beside the source link and adds little to the search snippet.
+    value = re.sub(r"^[^:]{2,70}:\s*", "", value)
+    value = normalize_text(value)
+    if len(value) > max_chars:
+        value = value[:max_chars + 1].rsplit(" ", 1)[0].rstrip(" ,;:-") + "…"
+    return value
+
 def clean_title(title: str, publisher: str = "") -> str:
     t = normalize_text(title)
     if publisher:
@@ -987,7 +1002,7 @@ T = {
         "un_single": "Only one publisher is cited so far, so this has not been cross-checked against other reports.",
         "un_differ": "These sources word the story differently, so check their reports for exact details: {names}.",
         "disclaimer": "This page is an automatic digest of headlines and feed summaries from the sources listed. TrendPulse India has not independently verified them. Read the original reports for full details.",
-        "choose": "Read in English", "choose_hi": "हिंदी में पढ़ें", "nav": "Main navigation", "footer": "Footer",
+        "choose": "अंग्रेज़ी में पढ़ें", "choose_hi": "हिंदी में पढ़ें", "nav": "मुख्य नेविगेशन", "footer": "फ़ुटर",
         "cats_label": "Filter by category", "locale": "en_IN", "tagline": "Trending topics from India, with sources",
     },
     "hi": {
@@ -1178,7 +1193,8 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
     up = "../" * path.count("/")
     L, name = T[lang], cfg["site_name"]
     canonical = f"{cfg['site_url']}/{canon_path(path)}"
-    full_title = title if title == name else f"{title} | {name}"
+    # Listing titles already include the brand; avoid repeating it in SERP titles.
+    full_title = title if title == name or title.startswith(name + " — ") or title.startswith(name + " | ") else f"{title} | {name}"
     alt = "".join(f'<link rel="alternate" hreflang="{h}" href="{esc(cfg["site_url"] + "/" + canon_path(p))}">\n' for h, p in alternates)
     ld = ""
     if jsonld:
@@ -1199,7 +1215,7 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(full_title)}</title>
 <meta name="description" content="{esc(desc)}">
-{'<meta name="robots" content="noindex,follow">' if noindex else ''}
+<meta name="robots" content="{'noindex,follow' if noindex else 'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1'}">
 <link rel="canonical" href="{esc(canonical)}">
 {alt}<meta property="og:site_name" content="{esc(name)}">
 <meta property="og:type" content="{og_type}">
@@ -1207,6 +1223,10 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{esc(canonical)}">
 <meta property="og:locale" content="{L['locale']}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{esc(full_title)}">
+<meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:url" content="{esc(canonical)}">
 <link rel="stylesheet" href="{up}assets/style.css">
 {ld}{script}</head>
 <body>
@@ -1248,15 +1268,24 @@ def trend_topic_card(p, up, lang):
     display_title = normalize_text(p.get("title", ""))
     card_lang = "en"
     if lang == "hi":
-        # Common search phrases are more useful in Hindi when localized directly.
+        # Common search phrases and current high-traffic headlines use reviewed
+        # Hindi wording; the local Argos model remains the fallback for new topics.
         keyword_hi = {
             "oman vs nepal": "ओमान बनाम नेपाल",
             "inter kashi vs odisha": "इंटर काशी बनाम ओडिशा",
             "ban vs zim": "बांग्लादेश बनाम ज़िम्बाब्वे",
             "everton vs chelsea": "एवर्टन बनाम चेल्सी",
         }
+        title_hi = {
+            "inter kashi vs odisha fc, northeast united vs kerala blasters in isl; preliminary rounds in asian para games: indian sports live, october 17":
+                "आईएसएल में इंटर काशी और ओडिशा एफसी, नॉर्थईस्ट यूनाइटेड और केरल ब्लास्टर्स के मुकाबले; एशियन पैरा गेम्स के प्रारंभिक दौर की अपडेट।",
+            "zimbabwe look to extend recent dominance over bangladesh":
+                "ज़िम्बाब्वे की कोशिश होगी कि वह बांग्लादेश के खिलाफ हालिया बढ़त बरकरार रखे।",
+            "everton vs chelsea live! premier league match updates, news and score":
+                "एवर्टन और चेल्सी के बीच प्रीमियर लीग मुकाबले की लाइव अपडेट, खबरें और स्कोर।",
+        }
         display_keyword = keyword_hi.get(keyword.casefold(), translate_to_hindi(keyword))
-        translated_title = translate_to_hindi(display_title)
+        translated_title = title_hi.get(display_title.casefold(), translate_to_hindi(display_title))
         # Never silently present an English-only headline as Hindi when the
         # offline translation model is unavailable. Keep the story link useful.
         if translated_title and (deva_ratio(translated_title) >= 0.20 or not display_title):
@@ -1384,17 +1413,36 @@ def article_page(cfg, p, posts):
             f'{esc(L["published"])}: <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
             f'<p class="notice">{esc(L["disclaimer"])}</p>{fs}<h2>{esc(L["each_source"])}</h2><ul>{srcs}</ul><h2>{esc(L["unconfirmed"])}</h2><ul>{unc}</ul>{rl}</article>')
     canonical = f"{cfg['site_url']}/{p['url']}"
-    ld = {"@context": "https://schema.org", "@type": "Article", "headline": p["title"][:110], "datePublished": p["published_at"],
-          "inLanguage": lang, "mainEntityOfPage": canonical, "publisher": {"@type": "Organization", "name": cfg["site_name"]},
-          "isBasedOn": [s["url"] for s in p["sources"]]}
-    return page(cfg, lang, path, p["title"], tidy(p["summary"])[:155], body, jsonld=ld, og_type="article",
+    description = seo_description(article_body or p.get("source_summary") or p.get("summary", ""))
+    modified = p.get("generated_at") or p["published_at"]
+    ld = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "Article", "headline": p["title"][:110], "description": description,
+             "datePublished": p["published_at"], "dateModified": modified,
+             "inLanguage": "hi-IN" if lang == "hi" else "en-IN",
+             "articleSection": cat_label(p["category"], lang),
+             "mainEntityOfPage": canonical,
+             "publisher": {"@type": "Organization", "name": cfg["site_name"]},
+             "isBasedOn": [source["url"] for source in p["sources"]],
+             "isAccessibleForFree": True},
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": L["home"],
+                 "item": f"{cfg['site_url']}/{lang}/"},
+                {"@type": "ListItem", "position": 2, "name": cat_label(p["category"], lang),
+                 "item": f"{cfg['site_url']}/{lang}/index.html#categories"},
+                {"@type": "ListItem", "position": 3, "name": p["title"], "item": canonical}
+            ]}
+        ]
+    }
+    return page(cfg, lang, path, p["title"], description, body, jsonld=ld, og_type="article",
                 noindex=not indexable(p, cfg))
 
 
 def sitemap_xml(cfg, posts) -> str:
     base = cfg["site_url"]
     urls = [("", None), ("en/", None), ("hi/", None)] + [(f"{l}/{pg}.html", None) for l in LANGS for pg in INFO_PAGES]
-    urls += [(p["url"], ist_date(p["published_at"])) for p in sorted(posts, key=lambda p: p["url"]) if indexable(p, cfg)]
+    urls += [(p["url"], ist_date(p.get("generated_at") or p["published_at"])) for p in sorted(posts, key=lambda p: p["url"]) if indexable(p, cfg)]
     rows = "".join(f"  <url><loc>{esc(base + '/' + u)}</loc>" + (f"<lastmod>{m}</lastmod>" if m else "") + "</url>\n" for u, m in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{rows}</urlset>\n'
 
