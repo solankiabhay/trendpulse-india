@@ -1278,6 +1278,7 @@ def trend_topic_relevant(post) -> bool:
     for token in raw:
         if token in stop:
             continue
+        expanded.update(tokens(token))
         expanded.update(tokens(aliases.get(token, token)))
     overlap = len(expanded & headline)
     # Require two matching entities for longer multi-part queries (e.g. team vs team),
