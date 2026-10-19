@@ -1,5 +1,4 @@
 import json, re, shutil, subprocess, sys, unittest
-from unittest.mock import patch, MagicMock
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -20,19 +19,10 @@ class ProjectFiles(unittest.TestCase):
         self.assertFalse(engine.content_language_needs_refresh("The court announced its decision in London today.", "en"))
         self.assertTrue(engine.content_language_needs_refresh("UAE शाही परिवार की महिला Mahrah Al Nahyan को लंदन में पाया गया।", "hi"))
 
-    def test_translate_to_hindi_uses_no_key_endpoint_and_preserves_existing_hindi(self):
-        self.assertEqual(engine.translate_to_hindi("भारत में आज बारिश हुई।"), "भारत में आज बारिश हुई।")
-        response = MagicMock()
-        response.__enter__.return_value.read.return_value = json.dumps([[["आज भारत में बारिश हुई।", "Rain fell in India today.", None]]], ensure_ascii=False).encode("utf-8")
-        with patch("engine.urllib.request.urlopen", return_value=response) as request:
-            result = engine.translate_to_hindi("Rain fell in India today.")
-        self.assertEqual(result, "आज भारत में बारिश हुई।")
-        self.assertIn("translate.googleapis.com", request.call_args.args[0].full_url)
-        self.assertTrue(engine.content_language_needs_refresh("UAE शाही परिवार की महिला Mahrah Al Nahyan को लंदन में पाया गया।", "hi"))
-
-    def test_translate_to_hindi_falls_back_without_breaking_pipeline(self):
-        with patch("engine.urllib.request.urlopen", side_effect=OSError("network unavailable")):
-            self.assertEqual(engine.translate_to_hindi("A source reported a new update today."), "A source reported a new update today.")
+    def test_hindi_excerpt_cleaner_removes_english_translation_suffix(self):
+        self.assertEqual(engine.clean_hindi_excerpt("कौन हैं महराह? - Mahra Al Nahyan found unconscious in London"), "कौन हैं महराह?")
+        self.assertEqual(engine.clean_hindi_excerpt("भारत में आज बारिश हुई।"), "भारत में आज बारिश हुई।")
+        self.assertEqual(engine.clean_hindi_excerpt("English-only headline from publisher"), "")
 
 
     def test_required_files_exist(self):
