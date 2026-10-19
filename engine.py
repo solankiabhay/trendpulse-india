@@ -1424,7 +1424,7 @@ def article_page(cfg, p, posts):
              "articleSection": cat_label(p["category"], lang),
              "mainEntityOfPage": canonical,
              "publisher": {"@type": "Organization", "name": cfg["site_name"]},
-             "isBasedOn": [source["url"] for source in p["sources"]],
+             "isBasedOn": [source["url"] for source in sources],
              "isAccessibleForFree": True},
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": L["home"],
