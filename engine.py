@@ -1330,12 +1330,19 @@ def trend_topic_card(p, up, lang):
             display_title = "इस ट्रेंड से जुड़ी खबर पढ़ें।"
         card_lang = "hi"
     search_url = "https://www.google.com/search?hl=" + ("hi" if lang == "hi" else "en") + "&q=" + urllib.parse.quote(keyword)
+    # Do not send visitors from the Hindi page to an English-only article.
+    # When no Hindi digest exists for this trend, route the card to Hindi search results.
+    article_url = search_url if lang == "hi" and p.get("lang") != "hi" else up + p["url"]
+    if lang == "hi" and p.get("lang") != "hi":
+        read_label = "हिंदी में संबंधित खबर खोजें"
+    else:
+        read_label = T[lang]["trend_read"]
     kicker = "Google Trends · भारत" if lang == "hi" else "Google Trends · India"
     return (f'<article class="trend-topic-card" lang="{card_lang}">'
             f'<p class="trend-kicker">{esc(kicker)}</p>'
-            f'<h3><a href="{esc(up + p["url"])}">{esc(display_keyword)}</a></h3>'
+            f'<h3><a href="{esc(article_url)}">{esc(display_keyword)}</a></h3>'
             f'<p class="trend-related">{esc(display_title)}</p>'
-            f'<p class="trend-actions"><a class="more" href="{esc(up + p["url"])}">{esc(T[lang]["trend_read"])}</a> '
+            f'<p class="trend-actions"><a class="more" href="{esc(article_url)}">{esc(read_label)}</a> '
             f'<a class="more" href="{esc(search_url)}" target="_blank" rel="noopener noreferrer">{esc(T[lang]["trend_search"])}</a></p>'
             f'</article>')
 
