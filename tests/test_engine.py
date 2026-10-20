@@ -792,6 +792,28 @@ class TeaserAndIndexingTests(unittest.TestCase):
         post = {"source_summary": summary, "sources": [{"publisher": "A"}]}
         self.assertTrue(engine.indexable(post, cfg))
 
+    def test_promotional_sales_headlines_are_not_indexable(self):
+        cfg = {**engine.DEFAULTS}
+        summary = "Officials described the reported event and explained the schedule and context for readers. " * 6
+        post = {"lang": "en", "title": "Get your tickets to watch Oklahoma City Thunder vs San Antonio Spurs",
+                "source_summary": summary}
+        self.assertFalse(engine.indexable(post, cfg))
+
+    def test_promotional_sales_headlines_are_rejected_for_new_posts(self):
+        candidate = engine.parse_feed(rss([item(
+            "Get your tickets to watch Oklahoma City Thunder vs San Antonio Spurs",
+            related=[("NBA returns to Texas", "https://news.example/a1", "MARCA"),
+                     ("San Antonio Spurs home game", "https://other.example/b2", "Sports Desk")]
+        )]), FEED_EN)[0]
+        reasons = engine.check_quality(candidate, {**engine.DEFAULTS}, NOW)
+        self.assertIn("promotional_title", reasons)
+
+    def test_promotional_headlines_never_appear_as_trend_cards(self):
+        self.assertFalse(engine.trend_topic_relevant({
+            "keyword": "spurs",
+            "title": "Get your tickets to watch Oklahoma City Thunder vs San Antonio Spurs",
+        }))
+
     def test_stored_posts_with_teaser_debris_render_clean(self):
         root = make_root(); cfg = engine.load_config(root / "config.json")
         post = engine.build_post(engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0], NOW)
