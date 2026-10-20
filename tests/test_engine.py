@@ -748,6 +748,35 @@ class TeaserAndIndexingTests(unittest.TestCase):
             self.assertNotIn("Read more at", page_html); self.assertNotIn("utm_source", page_html)
 
 
+class HindiTrendLinkTests(unittest.TestCase):
+    def test_hindi_trend_card_prefers_matching_hindi_article(self):
+        en = {
+            "id": "en-demo", "lang": "en", "keyword": "inter kashi vs odisha",
+            "title": "Inter Kashi vs Odisha FC live updates", "url": "en/posts/inter-kashi.html",
+            "category": "trending", "score": 90,
+        }
+        hi = {
+            "id": "hi-demo", "lang": "hi", "keyword": "inter kashi vs odisha",
+            "title": "इंटर काशी बनाम ओडिशा एफसी", "url": "hi/posts/inter-kashi-hi.html",
+            "category": "trending", "score": 90,
+            "article_body": "बालेवाडी स्टेडियम में इंटर काशी और ओडिशा एफसी का मुकाबला।",
+        }
+        html = engine.trend_topic_card(en, "../", "hi", [en, hi])
+        self.assertIn("../hi/posts/inter-kashi-hi.html", html)
+        self.assertIn("हिंदी में लेख पढ़ें", html)
+        self.assertNotIn('href="../en/posts/inter-kashi.html"', html)
+
+    def test_hindi_trend_card_falls_back_to_hindi_search_without_translation(self):
+        en = {
+            "id": "en-demo", "lang": "en", "keyword": "inter kashi vs odisha",
+            "title": "Inter Kashi vs Odisha FC live updates", "url": "en/posts/inter-kashi.html",
+            "category": "trending", "score": 90,
+        }
+        html = engine.trend_topic_card(en, "../", "hi", [en])
+        self.assertIn("google.com/search?hl=hi", html)
+        self.assertNotIn('href="../en/posts/inter-kashi.html"', html)
+
+
 class LanguageAndUnpublishTests(unittest.TestCase):
     def test_other_scripts_are_rejected_for_en_and_hi(self):
         cfg = {**engine.DEFAULTS}
