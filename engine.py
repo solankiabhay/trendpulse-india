@@ -57,6 +57,9 @@ POST_URL_RE = re.compile(r"^(en|hi)/posts/[A-Za-z0-9-]+\.html$")
 CLICKBAIT_RE = re.compile(
     r"you won'?t believe|shocking|must[- ]see|!{2,}|\?{2,}|चौंकाने वाला|आप यकीन नहीं करेंगे", re.I)
 SPECULATION_RE = re.compile(r"\b(rumou?rs?|unconfirmed|unverified claim)\b|अफवाह|अफ़वाह|अपुष्ट", re.I)
+PROMOTIONAL_TITLE_RE = re.compile(
+    r"get your tickets to watch|buy your tickets|purchase tickets now|tickets available now|"
+    r"shop now|order now|promo code|use code [a-z0-9]+|limited[- ]time offer", re.I)
 
 
 class FeedError(Exception):
@@ -156,6 +159,10 @@ def indexable(p, cfg) -> bool:
     inflate a short teaser. Keep weak article pages noindex until enrichment
     adds at least 60 words of non-boilerplate source-attributed context.
     """
+    # Keep sales/affiliate copy out of public listings and search indexes, even
+    # when the surrounding feed text is long enough to pass the summary gate.
+    if PROMOTIONAL_TITLE_RE.search(normalize_text(p.get("title", ""))):
+        return False
     summary = tidy(p.get("source_summary", "") or "")
     if len(summary) < cfg["min_summary_chars"] or summary_needs_refresh(summary):
         return False
@@ -976,6 +983,8 @@ def check_quality(c, cfg, now) -> list:
         r.append("title_length")
     if CLICKBAIT_RE.search(t):
         r.append("clickbait_title")
+    if PROMOTIONAL_TITLE_RE.search(normalize_text(t)):
+        r.append("promotional_title")
     latin = [ch for ch in t if ch.isascii() and ch.isalpha()]
     if len(latin) > 20 and sum(ch.isupper() for ch in latin) / len(latin) > 0.7:
         r.append("shouting_title")
@@ -1286,7 +1295,10 @@ def card(p, up, compact=False):
 def trend_topic_relevant(post) -> bool:
     """Hide trend cards whose headline does not support the displayed search phrase."""
     keyword = normalize_text(post.get("keyword", "")).casefold()
-    headline = tokens(post.get("title", ""))
+    title = normalize_text(post.get("title", ""))
+    headline = tokens(title)
+    if PROMOTIONAL_TITLE_RE.search(title):
+        return False
     if not keyword or not headline:
         return False
     raw = tokens(keyword)
