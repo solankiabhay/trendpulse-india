@@ -157,8 +157,15 @@ def indexable(p, cfg) -> bool:
     adds at least 60 words of non-boilerplate source-attributed context.
     """
     summary = tidy(p.get("source_summary", "") or "")
-    return (len(summary) >= cfg["min_summary_chars"]
-            and not summary_needs_refresh(summary))
+    if len(summary) < cfg["min_summary_chars"] or summary_needs_refresh(summary):
+        return False
+    # Avoid indexing a page in the wrong language when its digest is clearly dominated by another script.
+    lang = p.get("lang")
+    if lang == "hi" and latin_ratio(summary) >= 0.40 and deva_ratio(summary) < 0.40:
+        return False
+    if lang == "en" and deva_ratio(summary) >= 0.40 and latin_ratio(summary) < 0.40:
+        return False
+    return True
 
 
 def seo_description(text, max_chars=155) -> str:
