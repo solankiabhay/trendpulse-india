@@ -1287,7 +1287,7 @@ def trend_topic_relevant(post) -> bool:
     return overlap >= required
 
 
-def trend_topic_card(p, up, lang):
+def trend_topic_card(p, up, lang, posts=()):
     """Render a localized Google Trends card while preserving official names."""
     keyword = normalize_text(p.get("keyword", ""))
     if not keyword:
@@ -1330,13 +1330,25 @@ def trend_topic_card(p, up, lang):
             display_title = "इस ट्रेंड से जुड़ी खबर पढ़ें।"
         card_lang = "hi"
     search_url = "https://www.google.com/search?hl=" + ("hi" if lang == "hi" else "en") + "&q=" + urllib.parse.quote(keyword)
-    # Do not send visitors from the Hindi page to an English-only article.
-    # When no Hindi digest exists for this trend, route the card to Hindi search results.
-    # Hindi-specific article records are rendered separately from posts.json.
-    article_url = search_url if lang == "hi" and p.get("lang") != "hi" else up + p["url"]
-    if lang == "hi" and p.get("lang") != "hi":
+    # On the Hindi page, prefer a real Hindi digest for the same trend.
+    # Fall back to Hindi search only when no matching Hindi article exists.
+    hindi_match = None
+    if lang == "hi":
+        hindi_match = next((
+            candidate for candidate in posts
+            if candidate.get("lang") == "hi"
+            and normalize_text(candidate.get("keyword", "")).casefold() == keyword.casefold()
+            and candidate.get("article_body")
+            and deva_ratio(candidate.get("title", "")) >= 0.20
+        ), None)
+    if lang == "hi" and hindi_match:
+        article_url = up + hindi_match["url"]
+        read_label = "हिंदी में लेख पढ़ें"
+    elif lang == "hi":
+        article_url = search_url
         read_label = "हिंदी में संबंधित खबर खोजें"
     else:
+        article_url = up + p["url"]
         read_label = T[lang]["trend_read"]
     kicker = "Google Trends · भारत" if lang == "hi" else "Google Trends · India"
     return (f'<article class="trend-topic-card" lang="{card_lang}">'
@@ -1372,7 +1384,7 @@ def list_page(cfg, scope, posts, path, alternates=()):
     if trend_posts:
         trend_topics = (f'<section class="trend-topics" aria-labelledby="trend-topics"><h2 id="trend-topics">{esc(L["trend_topics"])}</h2>'
                         f'<div class="trend-topic-grid">'
-                        + "".join(trend_topic_card(p, up, lang) for p in trend_posts) + "</div></section>")
+                        + "".join(trend_topic_card(p, up, lang, posts) for p in trend_posts) + "</div></section>")
     trending = ""
     if top:
         trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
