@@ -580,6 +580,8 @@ class TeaserAndIndexingTests(unittest.TestCase):
         white = "#ffffff"
         accessible_orange = color("orange-dark")
         self.assertGreaterEqual(contrast(accessible_orange, white), 4.5)
+        self.assertGreaterEqual(contrast(color("control-line"), white), 3.0)
+        self.assertGreaterEqual(contrast(color("control-line"), "#f1f5fb"), 3.0)
         self.assertIn("outline: 3px solid var(--orange-dark)", css)
         self.assertIn(".hero .btn { background: var(--orange-dark); color: #fff", css)
         self.assertIn(".cat-btn[aria-pressed=true] { background: var(--orange-dark)", css)
