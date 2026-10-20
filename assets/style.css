@@ -171,7 +171,7 @@ a:hover { color: var(--orange-dark); }
   border: 2px solid var(--line); border-radius: 8px;
   color: var(--ink); background: var(--soft); outline: none;
 }
-#q:focus { border-color: var(--orange); background: #fff; }
+#q:focus { border-color: var(--orange-dark); background: #fff; }
 
 .cats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .cat-btn {
@@ -199,7 +199,7 @@ a:hover { color: var(--orange-dark); }
 .card p { margin: 0.4rem 0; color: var(--muted); font-size: 0.95rem; }
 .card h3 { font-size: 1.15rem; line-height: 1.4; margin: 0.5rem 0; }
 .card h3 a { color: var(--navy); }
-.card h3 a:hover { color: var(--orange); }
+.card h3 a:hover { color: var(--orange-dark); }
 
 .meta { color: var(--muted); font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem; }
 .badge {
