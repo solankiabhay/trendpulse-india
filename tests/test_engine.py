@@ -546,7 +546,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
 
     def test_mobile_styles_reduce_expensive_effects_and_support_reduced_motion(self):
         css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
-        mobile = css.split("@media (max-width: 42rem)", 1)[1].split("}", 1)[0]
+        mobile = css.split("@media (max-width: 42rem)", 1)[1].split("@media (prefers-reduced-motion", 1)[0]
         self.assertIn("backdrop-filter: none", mobile)
         self.assertIn("animation: none", mobile)
         self.assertIn("@media (prefers-reduced-motion: reduce)", css)
