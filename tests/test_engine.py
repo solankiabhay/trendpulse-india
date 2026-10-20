@@ -550,6 +550,22 @@ class TeaserAndIndexingTests(unittest.TestCase):
         self.assertEqual(engine.paragraph_language("Officials confirmed the meeting next week.", "hi"), "en")
         self.assertEqual(engine.paragraph_language("संसद का सत्र अगले सप्ताह शुरू होगा।", "en"), "hi")
 
+    def test_small_text_colors_meet_wcag_aa_contrast_on_white_cards(self):
+        import re
+        css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
+        variables = dict(re.findall(r"--([a-z-]+):\s*(#[0-9a-fA-F]{6})", css))
+        def luminance(hex_color):
+            channels = [int(hex_color[i:i + 2], 16) / 255 for i in (1, 3, 5)]
+            linear = [c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4 for c in channels]
+            return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+        def contrast(hex_color, background="#ffffff"):
+            a, b = luminance(hex_color), luminance(background)
+            return (max(a, b) + 0.05) / (min(a, b) + 0.05)
+        self.assertIn("color: var(--muted)", re.search(r"\.src\s*\{([^}]+)\}", css).group(1))
+        self.assertIn("color: var(--orange-dark)", re.search(r"\.more\s*\{([^}]+)\}", css).group(1))
+        self.assertGreaterEqual(contrast(variables["muted"]), 4.5)
+        self.assertGreaterEqual(contrast(variables["orange-dark"]), 4.5)
+
     def test_mobile_styles_reduce_expensive_effects_and_support_reduced_motion(self):
         css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
         mobile = css.split("@media (max-width: 42rem)", 1)[1].split("@media (prefers-reduced-motion", 1)[0]
