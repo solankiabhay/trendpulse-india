@@ -642,6 +642,19 @@ class TeaserAndIndexingTests(unittest.TestCase):
         c = engine.parse_feed(rss([x]), FEED_EN)[0]
         self.assertNotIn("Read more", c["summary"]); self.assertNotIn("http", c["summary"]); self.assertTrue(c["summary"].endswith("…"))
 
+    def test_wrong_language_digest_is_not_indexable(self):
+        cfg = engine.load_config(ROOT / "config.json")
+        english = (
+            "The officials confirmed the schedule and said the meeting will happen next week. "
+            "The report also describes the timeline and the next steps for the project. "
+        ) * 5
+        hindi = (
+            "Jagran: भारत की टीम ने अगले सप्ताह होने वाले मुकाबले की तैयारी शुरू की और अधिकारियों ने कार्यक्रम की पुष्टि की। "
+        ) * 7
+        self.assertFalse(engine.indexable({"lang": "hi", "source_summary": english}, cfg))
+        self.assertFalse(engine.indexable({"lang": "en", "source_summary": hindi}, cfg))
+        self.assertTrue(engine.indexable({"lang": "hi", "source_summary": hindi}, cfg))
+
     def test_only_substantive_pages_are_indexable(self):
         root = make_root(); cfg = engine.load_config(root / "config.json")
         three = item("Chandrayaan team shares new lunar images", related=[("a", "https://n.example/1", "NDTV"), ("b", "https://n2.example/2", "WION"), ("c", "https://n3.example/3", "Mint")], link="https://n.example/1", publisher="NDTV")
