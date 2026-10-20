@@ -519,6 +519,40 @@ class StructureAndReviewTests(unittest.TestCase):
 
 
 class TeaserAndIndexingTests(unittest.TestCase):
+    def test_root_homepage_declares_language_alternates(self):
+        root = make_root()
+        cfg = engine.load_config(root / "config.json")
+        files = engine.render_site(root, cfg, [], write=False)
+        homepage = files["index.html"]
+        self.assertIn(f'hreflang="en" href="{cfg["site_url"]}/en/"', homepage)
+        self.assertIn(f'hreflang="hi" href="{cfg["site_url"]}/hi/"', homepage)
+        self.assertIn(f'hreflang="x-default" href="{cfg["site_url"]}/"', homepage)
+        self.assertIn(f'hreflang="x-default" href="{cfg["site_url"]}/"', files["en/index.html"])
+        self.assertIn(f'hreflang="x-default" href="{cfg["site_url"]}/"', files["hi/index.html"])
+
+    def test_mixed_language_source_paragraphs_get_language_attributes(self):
+        cfg = engine.load_config(ROOT / "config.json")
+        post = engine.build_post(engine.parse_feed(rss([GOOD_HI]), FEED_HI)[0], NOW)
+        post["article_body"] = ""
+        post["source_summary"] = (
+            "BBC: Officials confirmed the meeting will take place next week and published the agenda.\n\n"
+            "Dainik Bhaskar: संसद का बजट सत्र अगले सप्ताह शुरू होगा और अधिकारियों ने कार्यक्रम की पुष्टि की।"
+        )
+        rendered = engine.article_page(cfg, post, [post])
+        self.assertIn('<p lang="en">BBC: Officials confirmed the meeting', rendered)
+        self.assertIn("<p>Dainik Bhaskar: संसद का बजट सत्र", rendered)
+        self.assertEqual(engine.paragraph_language("Officials confirmed the meeting next week.", "hi"), "en")
+        self.assertEqual(engine.paragraph_language("संसद का सत्र अगले सप्ताह शुरू होगा।", "en"), "hi")
+
+    def test_mobile_styles_reduce_expensive_effects_and_support_reduced_motion(self):
+        css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
+        mobile = css.split("@media (max-width: 42rem)", 1)[1].split("}", 1)[0]
+        self.assertIn("backdrop-filter: none", mobile)
+        self.assertIn("animation: none", mobile)
+        self.assertIn("@media (prefers-reduced-motion: reduce)", css)
+        self.assertIn("overflow-wrap: anywhere", css)
+
+
     def test_seo_metadata_deduplicates_brand_and_adds_social_tags(self):
         cfg = engine.load_config(ROOT / "config.json")
         rendered = engine.page(cfg, "hi", "hi/index.html",
