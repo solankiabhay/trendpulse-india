@@ -212,6 +212,22 @@ def latin_ratio(t: str) -> float:
     letters = [c for c in t if unicodedata.category(c)[0] == "L"]
     return sum(unicodedata.name(c, "").startswith("LATIN") for c in letters) / len(letters) if letters else 0.0
 
+def paragraph_language(text: str, default_lang: str) -> str:
+    """Identify clearly single-script excerpts so mixed-language pages remain accessible."""
+    deva, latin = deva_ratio(text), latin_ratio(text)
+    if default_lang == "hi" and latin >= 0.55 and deva < 0.20:
+        return "en"
+    if default_lang == "en" and deva >= 0.55 and latin < 0.20:
+        return "hi"
+    return default_lang
+
+
+def render_paragraph(text: str, default_lang: str) -> str:
+    """Render a source paragraph with a language override only when script evidence is strong."""
+    part_lang = paragraph_language(text, default_lang)
+    lang_attr = f' lang="{part_lang}"' if part_lang != default_lang else ""
+    return f"<p{lang_attr}>{esc(text)}</p>"
+
 
 def language_ok(lang: str, title: str) -> bool:
     """English titles must be mostly Latin script, Hindi titles mostly Devanagari (rejects Telugu, Gujarati, etc.)."""
@@ -1453,7 +1469,7 @@ def article_page(cfg, p, posts):
     srcs = "".join(src_items)
     if not happened_parts:
         happened_parts = [tidy(p["summary"])]
-    happened_html = "".join(f"<p>{esc(part)}</p>" for part in happened_parts)
+    happened_html = "".join(render_paragraph(part, lang) for part in happened_parts)
     pubs = {s["publisher"].casefold() for s in sources}
     differ = [s["publisher"] for s in sources if s["title"] and jaccard(tokens(s["title"]), tokens(p["title"])) < 0.4]
     unc = f'<li>{esc(L["un_headline"])}</li>'
@@ -1507,7 +1523,7 @@ def sitemap_xml(cfg, posts) -> str:
 def render_site(root, cfg, posts, write=True) -> dict:
     """Return {relative_path: content}; write only changed files when write=True."""
     posts = sorted([p for p in posts if valid_post(p)], key=lambda p: p["published_at"])
-    files = {"index.html": list_page(cfg, "all", posts, "index.html")}
+    files = {"index.html": list_page(cfg, "all", posts, "index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")])}
     files["en/index.html"] = list_page(cfg, "en", posts, "en/index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")])
     files["hi/index.html"] = list_page(cfg, "hi", posts, "hi/index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")])
     for lang in LANGS:
