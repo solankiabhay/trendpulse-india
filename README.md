@@ -16,7 +16,7 @@ invents sources, dates, quotes, statistics or authors. Thin digests without a su
 | `posts.json` / `published.json` / `review.json` | article store / publication history / thin topics waiting for your review (committed by the workflow) |
 | `index.html`, `en/`, `hi/` | **generated** pages (do not hand-edit; edit `engine.py`) |
 | `assets/style.css`, `assets/app.js` | hand-written styles; search + category filter (no network requests) |
-| `tests/` | 74 unittest cases (mocked network) |
+| `tests/` | unittest suite (mocked network) |
 | `.github/workflows/ci.yml`, `auto-blog.yml` | CI; scheduled pipeline + Pages deploy |
 
 ## Before first deploy (required edits)
@@ -42,7 +42,7 @@ Exit codes: `0` ok · `2` every feed failed (nothing written; workflow fails vis
 4. Actions → **Auto Blog** → *Run workflow*. This runs tests, the pipeline, commits any new posts, and deploys.
 5. After the run, open the URL shown on the deploy job. Empty feeds/first run simply shows the "No articles yet" message.
 
-Schedule (UTC cron → IST): `30 3` → 09:00, `30 7` → 13:00, `30 11` → 17:00, `30 15` → 21:00.
+Schedule: `0 */2 * * *` (every two hours, UTC; GitHub may delay scheduled runs).
 GitHub may delay scheduled runs, and disables schedules on repos with no activity for 60 days (re-enable under Actions).
 A push to `main` re-renders and redeploys without fetching feeds. Pushes made by the workflow itself use `[skip ci]` and do not loop.
 
@@ -75,7 +75,7 @@ git add -A && git commit -m "Approve reviewed topic" && git push
 ## How selection works
 - Score = recency (0–40) + 10 per distinct publisher (max 4) + 10 if the feed gives distinct summary text + feed `weight`. No traffic or search-volume numbers are used or claimed.
 - Rejected: misleading/clickbait titles, rumours/unconfirmed wording, no valid source URL, missing or old (>72 h) date, wrong language, fewer than 2 publishers *and* thin summary, near-duplicates (title similarity ≥ 0.6, or same id).
-- At most 4 new posts per run (`max_new_posts_per_run`). Skipping beats publishing weak content.
+- At most 8 new posts per run (`max_new_posts_per_run` in `config.json`). Skipping beats publishing weak content.
 - Write order: pages → `posts.json` → `published.json`. A crash never marks content published that isn't saved; rerunning is idempotent.
 - Hindi pages prefer Hindi feeds (`hl=hi`). When source excerpts are English, the workflow attempts local English→Hindi translation with the open-source Argos model; the model is cached between runs. If model download/translation fails, English-only excerpts are omitted rather than mislabelled as Hindi. English and Hindi news articles remain separate (no hreflang between them); only section/info pages are paired.
 
