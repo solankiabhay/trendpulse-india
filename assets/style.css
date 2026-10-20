@@ -350,7 +350,9 @@ a, button, input { touch-action: manipulation; }
   .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 42rem) {
-  .site-header { position: relative; }
+  /* Avoid blur and decorative animation on small/mobile devices. */
+  .site-header { position: relative; backdrop-filter: none; -webkit-backdrop-filter: none; }
+  .site-header::before { animation: none; }
   .site-header .bar { align-items: flex-start; gap: .65rem; }
   .brand { font-size: 1.25rem; }
   .site-header nav { width: 100%; }
