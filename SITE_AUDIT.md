@@ -21,6 +21,7 @@
 
 ### Mobile layout and accessibility — source-level checks only
 - CSS has a mobile breakpoint at 42rem, flexible navigation/card grids, wrapping for long titles, 44px minimum category-button height, visible keyboard focus, skip links, and reduced-motion support.
+- The audit found low contrast on small source labels and orange text/actions against white cards. The stylesheet now uses a darker orange and the standard muted text color; a WCAG AA contrast regression test was added for those key colors.
 - Mobile styles remove the sticky/blurred header effect and decorative animation at small widths.
 - No real-device/browser viewport test was run, so actual overflow, tap-target behavior, and screen-reader behavior still need browser testing.
 
