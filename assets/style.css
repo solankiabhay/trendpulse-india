@@ -15,6 +15,7 @@
   --ink: #0f172a;
   --muted: #475569;
   --line: #dbe3ee;
+  --control-line: #7c8da3;
   --soft: #f1f5fb;
   --badge-bg: #dbeafe;
   --badge-ink: #1e3a8a;
@@ -168,7 +169,7 @@ a:hover { color: var(--orange-dark); }
 #q {
   flex: 1 1 14rem; min-height: 44px;
   padding: 0.55rem 1rem; font: inherit;
-  border: 2px solid var(--line); border-radius: 8px;
+  border: 2px solid var(--control-line); border-radius: 8px;
   color: var(--ink); background: var(--soft); outline: none;
 }
 #q:focus { border-color: var(--orange-dark); background: #fff; }
@@ -176,7 +177,7 @@ a:hover { color: var(--orange-dark); }
 .cats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .cat-btn {
   min-height: 40px; padding: 0.4rem 1rem;
-  border: 1px solid var(--line); border-radius: 999px;
+  border: 1px solid var(--control-line); border-radius: 999px;
   background: #fff; color: var(--muted);
   font: inherit; font-weight: 600; cursor: pointer;
   transition: all 0.2s var(--ease);
