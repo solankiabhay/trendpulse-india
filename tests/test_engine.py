@@ -587,6 +587,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         self.assertIn(".src { color: var(--muted);", css)
         self.assertIn(".card h3 a:hover { color: var(--orange-dark); }", css)
         self.assertIn("#q:focus { border-color: var(--orange-dark);", css)
+        self.assertIn(".post ul li a:hover { color: var(--orange-dark); }", css)
 
     def test_seo_metadata_deduplicates_brand_and_adds_social_tags(self):
         cfg = engine.load_config(ROOT / "config.json")
