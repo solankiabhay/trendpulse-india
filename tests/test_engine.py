@@ -559,6 +559,33 @@ class TeaserAndIndexingTests(unittest.TestCase):
         self.assertIn("overflow-wrap: anywhere", css)
 
 
+    def test_foreground_colors_meet_wcag_aa_for_normal_text(self):
+        css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
+        import re
+
+        def color(name):
+            match = re.search(rf"--{re.escape(name)}:\\s*(#[0-9a-fA-F]{{6}});", css)
+            self.assertIsNotNone(match, f"missing color token --{name}")
+            return match.group(1)
+
+        def luminance(hex_color):
+            channels = [int(hex_color[i:i + 2], 16) / 255 for i in (1, 3, 5)]
+            linear = [v / 12.92 if v <= 0.04045 else ((v + 0.055) / 1.055) ** 2.4 for v in channels]
+            return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+        def contrast(a, b):
+            high, low = sorted((luminance(a), luminance(b)), reverse=True)
+            return (high + 0.05) / (low + 0.05)
+
+        white = "#ffffff"
+        accessible_orange = color("orange-dark")
+        self.assertGreaterEqual(contrast(accessible_orange, white), 4.5)
+        self.assertIn("outline: 3px solid var(--orange-dark)", css)
+        self.assertIn(".hero .btn { background: var(--orange-dark); color: #fff", css)
+        self.assertIn(".cat-btn[aria-pressed=true] { background: var(--orange-dark)", css)
+        self.assertIn(".more { margin-top: 0.8rem; font-weight: 700; color: var(--orange-dark)", css)
+        self.assertIn(".src { color: var(--muted);", css)
+
     def test_seo_metadata_deduplicates_brand_and_adds_social_tags(self):
         cfg = engine.load_config(ROOT / "config.json")
         rendered = engine.page(cfg, "hi", "hi/index.html",
