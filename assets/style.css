@@ -240,7 +240,7 @@ a:hover { color: var(--orange-dark); }
 .post ul li::before { content: "🔗"; position: absolute; left: 1rem; top: 1rem; font-size: 1rem; opacity: 0.5; }
 .post ul li:hover { border-color: var(--orange); box-shadow: 0 4px 12px rgba(255, 100, 28, 0.08); transform: translateX(4px); }
 .post ul li a { color: var(--navy); font-weight: 600; display: block; overflow-wrap: break-word; }
-.post ul li a:hover { color: var(--orange); }
+.post ul li a:hover { color: var(--orange-dark); }
 
 /* ==========================================
    8. FOOTER
