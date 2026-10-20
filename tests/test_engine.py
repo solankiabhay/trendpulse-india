@@ -20,11 +20,17 @@ def rss(items):
 def item(title, pub="Sat, 17 Oct 2026 04:00:00 GMT", publisher="The Hindu", related=(), link="https://news.example/a1", extra="", include_detail=True):
     li = "".join(f'<li><a href="{u}">{t}</a>&nbsp;&nbsp;<font color="#6f6f6f">{p}</font></li>' for t, u, p in related)
     # Synthetic detail is test-only fixture data; production summaries must come from feeds or publisher pages.
-    fixture_detail = (" Test-only fixture detail: the report describes the event and gives readers additional context, "
-                      "timing, and reported developments beyond the headline. This synthetic text exists only to exercise "
-                      "the content-quality pipeline in automated tests. The report also outlines the background, the "
-                      "main points raised by the sources, the next expected steps, and the timeline mentioned in the "
-                      "coverage. These extra words are fictional test fixture text and are never used in production.") if include_detail and related else ""
+    fixture_detail_en = (" Test-only fixture detail: the report describes the event and gives readers additional context, "
+                         "timing, and reported developments beyond the headline. This synthetic text exists only to exercise "
+                         "the content-quality pipeline in automated tests. The report also outlines the background, the "
+                         "main points raised by the sources, the next expected steps, and the timeline mentioned in the "
+                         "coverage. These extra words are fictional test fixture text and are never used in production.")
+    fixture_detail_hi = (" परीक्षण हेतु यह काल्पनिक विवरण घटना का संदर्भ, समय और स्रोतों में बताई गई जानकारी समझाता है। "
+                         "इसका उपयोग केवल स्वचालित गुणवत्ता जाँच में किया जाता है, वास्तविक समाचार के रूप में नहीं। "
+                         "रिपोर्ट में उपलब्ध स्रोतों की मुख्य बातें, आगे के कदम और कवरेज में बताई गई समय-सीमा का वर्णन है। "
+                         "यह अतिरिक्त विवरण केवल परीक्षण के लिए है। " * 2)
+    has_devanagari = any("\\u0900" <= ch <= "\\u097f" for ch in title)
+    fixture_detail = (fixture_detail_hi if has_devanagari else fixture_detail_en) if include_detail and related else ""
     d = f"<description><![CDATA[<ol>{li}</ol>{fixture_detail}]]></description>" if related else ""
     dt = f"<pubDate>{pub}</pubDate>" if pub else ""
     return f'<item><title>{title} - {publisher}</title><link>{link}</link>{dt}{d}<source url="https://x.example">{publisher}</source>{extra}</item>'
