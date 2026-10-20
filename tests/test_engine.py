@@ -29,7 +29,7 @@ def item(title, pub="Sat, 17 Oct 2026 04:00:00 GMT", publisher="The Hindu", rela
                          "इसका उपयोग केवल स्वचालित गुणवत्ता जाँच में किया जाता है, वास्तविक समाचार के रूप में नहीं। "
                          "रिपोर्ट में उपलब्ध स्रोतों की मुख्य बातें, आगे के कदम और कवरेज में बताई गई समय-सीमा का वर्णन है। "
                          "यह अतिरिक्त विवरण केवल परीक्षण के लिए है। " * 2)
-    has_devanagari = any("\\u0900" <= ch <= "\\u097f" for ch in title)
+    has_devanagari = any(0x0900 <= ord(ch) <= 0x097f for ch in title)
     fixture_detail = (fixture_detail_hi if has_devanagari else fixture_detail_en) if include_detail and related else ""
     d = f"<description><![CDATA[<ol>{li}</ol>{fixture_detail}]]></description>" if related else ""
     dt = f"<pubDate>{pub}</pubDate>" if pub else ""
