@@ -1395,14 +1395,6 @@ def list_page(cfg, scope, posts, path, alternates=()):
                    f'<a class="btn" lang="hi" hreflang="hi" href="hi/index.html">{esc(L["choose_hi"])}</a></p>')
     btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
         f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
-    trend_posts = [p for p in sorted(posts, key=lambda p: p.get("score", 0), reverse=True)
-                   if p.get("keyword") and p.get("category") == "trending"
-                   and indexable(p, cfg) and trend_topic_relevant(p)][:8]
-    trend_topics = ""
-    if trend_posts:
-        trend_topics = (f'<section class="trend-topics" aria-labelledby="trend-topics"><h2 id="trend-topics">{esc(L["trend_topics"])}</h2>'
-                        f'<div class="trend-topic-grid">'
-                        + "".join(trend_topic_card(p, up, lang, posts) for p in trend_posts) + "</div></section>")
     trending = ""
     if top:
         trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
