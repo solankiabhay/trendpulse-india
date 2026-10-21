@@ -1224,8 +1224,7 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
         safe = json.dumps(jsonld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
         ld = '<script type="application/ld+json">' + safe + "</script>\n"
     cl = "en" if lang not in LANGS else lang
-    nav = [("home", up + "index.html", ""), ("english", up + "en/index.html", ""), ("hindi", up + "hi/index.html", "hi"),
-           ("categories", f"{up}{cl}/index.html#categories", ""), ("about", f"{up}{cl}/about.html", "")]
+    nav = [("home", up + "index.html", ""), ("english", up + "en/index.html", ""), ("hindi", up + "hi/index.html", "hi"), ("about", f"{up}{cl}/about.html", "")]
     navh = "".join(
         f'<li><a href="{esc(h)}"{(" hreflang=hi lang=hi" if lg else "")}{(" aria-current=page" if k == active else "")}>{esc(L[k])}</a></li>'
         for k, h, lg in nav)
@@ -1418,17 +1417,10 @@ def list_page(cfg, scope, posts, path, alternates=()):
     else:
         grid = f'<div id="grid"></div><p class="empty">{esc(L["empty"])}</p>'
     body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p><p class="notice">{esc(L['notice'])}</p>{chooser}</section>
-<section aria-label="{esc(L['search'])}" class="tools">
-<form role="search" id="searchform" method="get" action=""><label for="q">{esc(L['search'])}</label>
-<input id="q" name="q" type="search" placeholder="{esc(L['search_ph'])}" autocomplete="off"><button type="submit" class="btn">{esc(L['search'])}</button></form>
-<nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats">{btns}</nav>
-<p id="status" class="status" role="status" data-tpl="{esc(L['results'])}"></p>
-</section>
-{trend_topics}
 {trending}
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>"""
     title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
-    return page(cfg, lang, path, title, L["tagline"] + ". " + L["notice"], body, alternates, active={"all": "home"}.get(scope, scope), app=True)
+    return page(cfg, lang, path, title, L["tagline"] + ". " + L["notice"], body, alternates, active={"all": "home"}.get(scope, scope), app=False)
 
 
 def article_page(cfg, p, posts):
