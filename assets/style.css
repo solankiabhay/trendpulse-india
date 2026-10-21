@@ -9,12 +9,13 @@
   --navy-light: #1d3c62;
   --blue: #1d4ed8;
   --orange: #ff641c;
-  --orange-dark: #e94e0b;
+  --orange-dark: #c2410c;
   --orange-soft: #fff0e8;
   --bg: #f3f6fa;
   --ink: #0f172a;
   --muted: #475569;
   --line: #dbe3ee;
+  --control-line: #7c8da3;
   --soft: #f1f5fb;
   --badge-bg: #dbeafe;
   --badge-ink: #1e3a8a;
@@ -40,7 +41,7 @@ img { max-width: 100%; height: auto; display: block; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip { position: absolute; left: -999px; top: 0; background: var(--navy); color: #fff; padding: .6rem 1rem; z-index: 100; }
 .skip:focus { left: 0; }
-a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--orange-dark); outline-offset: 2px; }
 a { color: var(--blue); text-decoration: none; transition: color 0.2s var(--ease); }
 a:hover { color: var(--orange-dark); }
 
@@ -145,8 +146,8 @@ a:hover { color: var(--orange-dark); }
   font-size: 0.95rem;
   margin: 1.5rem 0;
 }
-.hero .btn { background: var(--orange); color: #fff; border: none; font-weight: 700; }
-.hero .btn:hover { background: var(--orange-dark); transform: translateY(-2px); }
+.hero .btn { background: var(--orange-dark); color: #fff; border: none; font-weight: 700; }
+.hero .btn:hover { background: var(--navy); transform: translateY(-2px); }
 
 /* ==========================================
    5. BUTTONS & SEARCH TOOLS
@@ -168,21 +169,21 @@ a:hover { color: var(--orange-dark); }
 #q {
   flex: 1 1 14rem; min-height: 44px;
   padding: 0.55rem 1rem; font: inherit;
-  border: 2px solid var(--line); border-radius: 8px;
+  border: 2px solid var(--control-line); border-radius: 8px;
   color: var(--ink); background: var(--soft); outline: none;
 }
-#q:focus { border-color: var(--orange); background: #fff; }
+#q:focus { border-color: var(--orange-dark); background: #fff; }
 
 .cats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .cat-btn {
   min-height: 40px; padding: 0.4rem 1rem;
-  border: 1px solid var(--line); border-radius: 999px;
+  border: 1px solid var(--control-line); border-radius: 999px;
   background: #fff; color: var(--muted);
   font: inherit; font-weight: 600; cursor: pointer;
   transition: all 0.2s var(--ease);
 }
-.cat-btn:hover { border-color: var(--orange); color: var(--orange); }
-.cat-btn[aria-pressed=true] { background: var(--orange); border-color: var(--orange); color: #fff; }
+.cat-btn:hover { border-color: var(--orange); color: var(--orange-dark); }
+.cat-btn[aria-pressed=true] { background: var(--orange-dark); border-color: var(--orange-dark); color: #fff; }
 
 /* ==========================================
    6. ARTICLE GRID & CARDS (Homepage)
@@ -199,7 +200,7 @@ a:hover { color: var(--orange-dark); }
 .card p { margin: 0.4rem 0; color: var(--muted); font-size: 0.95rem; }
 .card h3 { font-size: 1.15rem; line-height: 1.4; margin: 0.5rem 0; }
 .card h3 a { color: var(--navy); }
-.card h3 a:hover { color: var(--orange); }
+.card h3 a:hover { color: var(--orange-dark); }
 
 .meta { color: var(--muted); font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem; }
 .badge {
@@ -207,8 +208,8 @@ a:hover { color: var(--orange-dark); }
   border-radius: 6px; padding: 0.15rem 0.5rem;
   font-weight: 700; font-size: 0.75rem; text-transform: uppercase;
 }
-.src { color: #94a3b8; font-size: 0.85rem; margin-top: auto; padding-top: 0.5rem; }
-.more { margin-top: 0.8rem; font-weight: 700; color: var(--orange); display: inline-block; }
+.src { color: var(--muted); font-size: 0.85rem; margin-top: auto; padding-top: 0.5rem; }
+.more { margin-top: 0.8rem; font-weight: 700; color: var(--orange-dark); display: inline-block; }
 .more:hover { color: var(--orange-dark); text-decoration: underline; }
 
 /* ==========================================
@@ -240,7 +241,7 @@ a:hover { color: var(--orange-dark); }
 .post ul li::before { content: "🔗"; position: absolute; left: 1rem; top: 1rem; font-size: 1rem; opacity: 0.5; }
 .post ul li:hover { border-color: var(--orange); box-shadow: 0 4px 12px rgba(255, 100, 28, 0.08); transform: translateX(4px); }
 .post ul li a { color: var(--navy); font-weight: 600; display: block; overflow-wrap: break-word; }
-.post ul li a:hover { color: var(--orange); }
+.post ul li a:hover { color: var(--orange-dark); }
 
 /* ==========================================
    8. FOOTER

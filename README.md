@@ -16,7 +16,7 @@ invents sources, dates, quotes, statistics or authors. Thin digests without a su
 | `posts.json` / `published.json` / `review.json` | article store / publication history / thin topics waiting for your review (committed by the workflow) |
 | `index.html`, `en/`, `hi/` | **generated** pages (do not hand-edit; edit `engine.py`) |
 | `assets/style.css`, `assets/app.js` | hand-written styles; search + category filter (no network requests) |
-| `tests/` | 74 unittest cases (mocked network) |
+| `tests/` | Unit/integration tests plus shared static HTML checks (mocked network) |
 | `.github/workflows/ci.yml`, `auto-blog.yml` | CI; scheduled pipeline + Pages deploy |
 
 ## Before first deploy (required edits)
@@ -80,7 +80,7 @@ git add -A && git commit -m "Approve reviewed topic" && git push
 - Hindi pages prefer Hindi feeds (`hl=hi`). When source excerpts are English, the workflow attempts local English→Hindi translation with the open-source Argos model; the model is cached between runs. If model download/translation fails, English-only excerpts are omitted rather than mislabelled as Hindi. English and Hindi news articles remain separate (no hreflang between them); only section/info pages are paired.
 
 ## Status: what is verified where
-- **A. Automated tests:** GitHub Actions CI passed on 2026-10-19; 108 unit/integration/site tests passed, plus static checks and generated-file consistency.
+- **A. Automated tests:** CI checks Python compilation, JavaScript syntax, unit/integration tests, static HTML/link checks, and generated-file consistency. Test counts change as coverage grows; use the latest GitHub Actions run to confirm the current revision.
 - **B. Hindi translation:** the GitHub Actions run successfully installed the open-source Argos English→Hindi model and refreshed stored summaries to refresh version 16. No paid API key is required for translation.
 - **C. Deployment:** GitHub Pages deployment passed on 2026-10-19. Check the latest Actions run after content-refresh commits to confirm the live site has the newest generated files.
 - **D. Needs domain/DNS:** only if you use a custom domain.
