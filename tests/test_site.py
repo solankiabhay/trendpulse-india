@@ -188,7 +188,10 @@ class Accessibility(unittest.TestCase):
 
     def test_pages_have_skip_link_nav_labels_and_search_label(self):
         p = (ROOT / "en/index.html").read_text(encoding="utf-8")
-        for needle in ('class="skip"', 'aria-label="Main navigation"', 'for="q"', 'role="search"', 'role="status"', '<main id="main"'): self.assertIn(needle, p)
+        for needle in ('class="skip"', 'aria-label="Main navigation"', '<main id="main"'): self.assertIn(needle, p)
+        self.assertNotIn('for="q"', p)
+        self.assertNotIn('role="search"', p)
+        self.assertNotIn('role="status"', p)
         self.assertIn('width=device-width, initial-scale=1', p)
 
     def test_no_external_requests_in_pages(self):

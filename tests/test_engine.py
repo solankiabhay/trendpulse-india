@@ -862,6 +862,19 @@ class HindiTrendLinkTests(unittest.TestCase):
         self.assertNotIn('href="../en/posts/inter-kashi.html"', html)
 
 
+    def test_listing_pages_omit_search_and_google_trends_sections(self):
+        cfg = engine.load_config(ROOT / "config.json")
+        posts = engine.load_posts(ROOT / "posts.json")["posts"]
+        for scope, path in (("all", "index.html"), ("en", "en/index.html"), ("hi", "hi/index.html")):
+            rendered = engine.list_page(cfg, scope, posts, path)
+            self.assertNotIn('id="searchform"', rendered)
+            self.assertNotIn('class="tools"', rendered)
+            self.assertNotIn('class="trend-topics"', rendered)
+            self.assertNotIn('id="q"', rendered)
+            self.assertNotIn('assets/app.js', rendered)
+            self.assertNotIn('id="nomatch"', rendered)
+            self.assertIn('id="latest"', rendered)
+
 class LanguageAndUnpublishTests(unittest.TestCase):
     def test_other_scripts_are_rejected_for_en_and_hi(self):
         cfg = {**engine.DEFAULTS}

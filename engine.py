@@ -1012,15 +1012,14 @@ T = {
         "contact": "Contact", "privacy": "Privacy Policy", "editorial": "Editorial Policy", "skip": "Skip to main content",
         "search": "Search", "search_ph": "Search topics", "all": "All", "read_more": "Read the digest",
         "sources": "Sources", "latest": "Latest articles", "trending": "Trending now", "related": "Related topics",
+        "trend_topics": "Google Trends in India", "trend_read": "Read related article", "trend_search": "Search Google",
         "hero_title": "What India is talking about, with the sources attached",
         "hero_text": "TrendPulse India collects headlines from public news and trends feeds, groups the coverage, and links every digest back to the original reports. Available in English and Hindi.",
-        "notice": "Digests are compiled automatically from source feeds and are not independently verified.",
         "empty": "No articles yet. They will appear after the automated pipeline runs for the first time.",
         "nomatch": "No articles match your search.", "results": "{n} articles shown",
         "coverage": "Coverage from {n} sources: {names}.", "reported_by": "Reported by",
         "feed_summary": "Summary from the source feed", "published": "Published",
         "what_happened": "What happened", "each_source": "What each source reports", "unconfirmed": "What is not confirmed",
-        "trend_topics": "Google Trends in India", "trend_search": "Search Google", "trend_read": "Read related coverage",
         "un_headline": "Only headlines and short feed summaries were available. Details beyond them are not confirmed here; read the original reports.",
         "un_single": "Only one publisher is cited so far, so this has not been cross-checked against other reports.",
         "un_differ": "These sources word the story differently, so check their reports for exact details: {names}.",
@@ -1033,15 +1032,14 @@ T = {
         "contact": "संपर्क", "privacy": "गोपनीयता नीति", "editorial": "संपादकीय नीति", "skip": "मुख्य सामग्री पर जाएँ",
         "search": "खोजें", "search_ph": "विषय खोजें", "all": "सभी", "read_more": "पूरा सार पढ़ें",
         "sources": "स्रोत", "latest": "ताज़ा लेख", "trending": "अभी चर्चा में", "related": "संबंधित विषय",
+        "trend_topics": "Google पर ट्रेंड कर रहे विषय", "trend_read": "संबंधित लेख पढ़ें", "trend_search": "Google पर खोजें",
         "hero_title": "भारत में क्या चर्चा में है, स्रोतों के साथ",
         "hero_text": "TrendPulse India सार्वजनिक समाचार और ट्रेंड फ़ीड से सुर्खियाँ इकट्ठा करता है, कवरेज को एक जगह जोड़ता है और हर सार को मूल रिपोर्ट से जोड़ता है। अंग्रेज़ी और हिंदी दोनों में उपलब्ध।",
-        "notice": "ये सार स्रोत फ़ीड से अपने-आप तैयार होते हैं और इनकी स्वतंत्र रूप से पुष्टि नहीं की गई है।",
         "empty": "अभी कोई लेख उपलब्ध नहीं है। ऑटोमेशन पहली बार चलने के बाद लेख यहाँ दिखेंगे।",
         "nomatch": "आपकी खोज से कोई लेख मेल नहीं खाता।", "results": "{n} लेख दिखाए जा रहे हैं",
         "coverage": "{n} स्रोतों की रिपोर्ट: {names}।", "reported_by": "रिपोर्ट करने वाले स्रोत",
         "feed_summary": "स्रोत फ़ीड का सारांश", "published": "प्रकाशित",
         "what_happened": "क्या हुआ", "each_source": "हर स्रोत क्या रिपोर्ट करता है", "unconfirmed": "क्या पुष्टि नहीं हुई है",
-        "trend_topics": "Google पर ट्रेंड कर रहे विषय", "trend_search": "Google पर खोजें", "trend_read": "संबंधित खबर पढ़ें",
         "un_headline": "सिर्फ़ सुर्खियाँ और छोटे फ़ीड सारांश उपलब्ध थे। उनसे आगे की जानकारी यहाँ पुष्ट नहीं है; मूल रिपोर्ट पढ़ें।",
         "un_single": "अभी सिर्फ़ एक प्रकाशक का हवाला है, इसलिए इसे दूसरी रिपोर्टों से मिलाकर नहीं देखा गया है।",
         "un_differ": "ये स्रोत खबर को अलग-अलग शब्दों में बताते हैं, इसलिए सटीक ब्योरे के लिए उनकी रिपोर्ट देखें: {names}।",
@@ -1224,8 +1222,7 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
         safe = json.dumps(jsonld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
         ld = '<script type="application/ld+json">' + safe + "</script>\n"
     cl = "en" if lang not in LANGS else lang
-    nav = [("home", up + "index.html", ""), ("english", up + "en/index.html", ""), ("hindi", up + "hi/index.html", "hi"),
-           ("categories", f"{up}{cl}/index.html#categories", ""), ("about", f"{up}{cl}/about.html", "")]
+    nav = [("home", up + "index.html", ""), ("english", up + "en/index.html", ""), ("hindi", up + "hi/index.html", "hi"), ("about", f"{up}{cl}/about.html", "")]
     navh = "".join(
         f'<li><a href="{esc(h)}"{(" hreflang=hi lang=hi" if lg else "")}{(" aria-current=page" if k == active else "")}>{esc(L[k])}</a></li>'
         for k, h, lg in nav)
@@ -1263,7 +1260,7 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 </main>
 <footer class="site-footer"><div class="wrap">
 <nav aria-label="{esc(L['footer'])}"><ul>{foot}</ul></nav>
-<p>© {esc(name)}. {esc(L['notice'])}</p>
+<p>© {esc(name)}.</p>
 </div></footer>
 </body>
 </html>
@@ -1400,35 +1397,19 @@ def list_page(cfg, scope, posts, path, alternates=()):
                    f'<a class="btn" lang="hi" hreflang="hi" href="hi/index.html">{esc(L["choose_hi"])}</a></p>')
     btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
         f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
-    trend_posts = [p for p in sorted(posts, key=lambda p: p.get("score", 0), reverse=True)
-                   if p.get("keyword") and p.get("category") == "trending"
-                   and indexable(p, cfg) and trend_topic_relevant(p)][:8]
-    trend_topics = ""
-    if trend_posts:
-        trend_topics = (f'<section class="trend-topics" aria-labelledby="trend-topics"><h2 id="trend-topics">{esc(L["trend_topics"])}</h2>'
-                        f'<div class="trend-topic-grid">'
-                        + "".join(trend_topic_card(p, up, lang, posts) for p in trend_posts) + "</div></section>")
     trending = ""
     if top:
         trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
 
     if visible_items:
         grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in visible_items) + "</div>"
-        grid += f'<p id="nomatch" class="empty" hidden>{esc(L["nomatch"])}</p>'
     else:
         grid = f'<div id="grid"></div><p class="empty">{esc(L["empty"])}</p>'
-    body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p><p class="notice">{esc(L['notice'])}</p>{chooser}</section>
-<section aria-label="{esc(L['search'])}" class="tools">
-<form role="search" id="searchform" method="get" action=""><label for="q">{esc(L['search'])}</label>
-<input id="q" name="q" type="search" placeholder="{esc(L['search_ph'])}" autocomplete="off"><button type="submit" class="btn">{esc(L['search'])}</button></form>
-<nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats">{btns}</nav>
-<p id="status" class="status" role="status" data-tpl="{esc(L['results'])}"></p>
-</section>
-{trend_topics}
+    body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p>{chooser}</section>
 {trending}
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>"""
     title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
-    return page(cfg, lang, path, title, L["tagline"] + ". " + L["notice"], body, alternates, active={"all": "home"}.get(scope, scope), app=True)
+    return page(cfg, lang, path, title, L["tagline"], body, alternates, active={"all": "home"}.get(scope, scope), app=False)
 
 
 def article_page(cfg, p, posts):
