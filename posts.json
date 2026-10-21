@@ -2539,7 +2539,7 @@
           "publisher": "Rediff"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-19T23:27:40.959851+00:00",
+      "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -3112,7 +3112,9 @@
           "url": "https://www.nba.com/news/paul-george-8th-all-time-3-pointers-made-list",
           "publisher": "NBA.com"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-e8d6b6739d",
@@ -3121,11 +3123,11 @@
       "url": "en/posts/dennis-seimen-sera-titular-con-el-stuttgart-ante-el-atletico-e8d6b6739d.html",
       "title": "Dennis Seimen «será titular» con el Stuttgart ante el Atlético de Madrid",
       "summary": "OneFootball: Sky Germany informa de que Dennis Seimen está a punto de debutar en la Champions League con el Stuttgart este martes, por delante de Fabian Bredlow para enfrentarse al Atlético de Madrid…",
-      "source_summary": "OneFootball: Sky Germany informa de que Dennis Seimen está a punto de debutar en la Champions League con el Stuttgart este martes, por delante de Fabian Bredlow para enfrentarse al Atlético de Madrid .\n\nYahoo: El VfB Stuttgart cuenta ahora con una ventaja en su primera gran prueba europea en la Champions League ante el Atlético de Madrid. El conjunto de la Bundesliga disputará los últimos 25 minutos en superioridad numérica.\n\nDiario AS: El golazo para volver de Julián con una celebración que evidencia su situación anímica de estos dos meses",
-      "article_body": "OneFootball: “Sky Germany informa de que Dennis Seimen está a punto de debutar en la Champions League con el Stuttgart este martes, por delante de Fabian Bredlow para enfrentarse al Atlético de Madrid .”\n\nYahoo: “El VfB Stuttgart cuenta ahora con una ventaja en su primera gran prueba europea en la Champions League ante el Atlético de Madrid. El conjunto de la Bundesliga disputará los últimos 25 minutos en superioridad numérica.”\n\nDiario AS: “El golazo para volver de Julián con una celebración que evidencia su situación anímica de estos dos meses”",
+      "source_summary": "OneFootball: Sky Germany informa de que Dennis Seimen está a punto de debutar en la Champions League con el Stuttgart este martes, por delante de Fabian Bredlow para enfrentarse al Atlético de Madrid .\n\nYahoo: El VfB Stuttgart cuenta ahora con una ventaja en su primera gran prueba europea en la Champions League ante el Atlético de Madrid. El conjunto de la Bundesliga disputará los últimos 25 minutos en superioridad numérica.",
+      "article_body": "OneFootball: “Sky Germany informa de que Dennis Seimen está a punto de debutar en la Champions League con el Stuttgart este martes, por delante de Fabian Bredlow para enfrentarse al Atlético de Madrid .”\n\nYahoo: “El VfB Stuttgart cuenta ahora con una ventaja en su primera gran prueba europea en la Champions League ante el Atlético de Madrid. El conjunto de la Bundesliga disputará los últimos 25 minutos en superioridad numérica.”",
       "category": "trending",
       "published_at": "2026-10-20T21:00:00+00:00",
-      "generated_at": "2026-10-20T21:24:24.066170+00:00",
+      "generated_at": "2026-10-21T00:27:15.265972+00:00",
       "kind": "digest",
       "keyword": "julián alvarez",
       "score": 89.77,
@@ -3145,7 +3147,9 @@
           "url": "https://as.com/futbol/videos/el-golazo-para-volver-de-julian-con-una-celebracion-que-evidencia-su-situacion-animica-de-estos-dos-meses-f202610-v/",
           "publisher": "Diario AS"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-2f4a252d50",
@@ -3178,7 +3182,9 @@
           "url": "https://www.elperiodicomediterraneo.com/videos/villarrealcf/2026/10/20/roberto-bautista-seguidor-lujo-villarreal-135548489.html",
           "publisher": "El Periódico Mediterráneo"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-adadf8e4d0",
@@ -3211,7 +3217,9 @@
           "url": "https://www.eldesmarque.com/apuestas/20261020/clasico-fc-barcelona-real-madrid-reunira-millones-aficionados-mundo_18_020486852.html",
           "publisher": "El Desmarque"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-bff8dcf463",
@@ -3244,7 +3252,9 @@
           "url": "https://www.business-standard.com/sports/football-news/psg-suffer-nuno-mendes-injury-blow-ahead-of-champions-league-clash-126101800800_1.html",
           "publisher": "Business Standard"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-755c07fc60",
@@ -3277,7 +3287,9 @@
           "url": "https://madeinfoot.ouest-france.fr/infos/article-ldc-manchester-city-rebondit-et-cartonne-liverpool-vient-a-bout-du-villarreal-cf-l-atletico-madrid-fait-nul-les-resultats-de-la-soiree-542939.html",
           "publisher": "MadeInFOOT"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "hi-2cf7b276a6",
@@ -3319,6 +3331,173 @@
           "title": "Apple के फोल्डेबल iPhone की बैटरी कितनी बड़ी? कैपेसिटी का खुलासा",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZGZPQ1NBel9xVFZrVHRhRDFsM1p5aDJVbWlBQVEzcDNaa0IwbEVvbXVpTlllZHVZUnJEbVVUNTBIYnN4N203ZjBhZ2Zia1pHSlM4V1FQajVjZTR1dGFHQ3lRd1BncHBhd29HNm8xNzhJY1RTdmtIdlVRcGRhMFk2NVVvaGFvVmZRQnFuaDQxbllsRmJTSkJrS3ZGckg2eWpkalZBV0UyeHgtdlZ0MXNCdlFIVC13emRtTktMQUJnUm5xY3hYYmo2VUtkQWRqem1rYnM1VmRsazhiQdIB3wFBVV95cUxNd1BNOHlXa01RQzdtdllKd24zTU9mT2lyS09mSUh1V0lpT1FpMzVaY3FUdkx4dEJvUTI2TlNwa2ZZVnMwQkpOaTVvbFVhX0I3NjBZUUdFQnZpVVFoYkllZU5ydmdodHByd1Q4WTYyd2l4TnpUOGxHNHA5QU1xcVY0R2pMNHBFWE12dlpfNWxaTkhZNUZEblp6LUJyYWxYTzltN3pOT0plUzEyc082U0tnSk0xZUtzX1BSU2ZRYVU1WWZhQXFaUjEyYkVnRW1YcHZ5ZVREci1sS0dzemdrenBR?oc=5",
           "publisher": "ABP News"
+        }
+      ],
+      "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-654aa0bba2",
+      "lang": "en",
+      "slug": "a-16-year-old-carried-out-the-bend-school-shooting-could-his-654aa0bba2",
+      "url": "en/posts/a-16-year-old-carried-out-the-bend-school-shooting-could-his-654aa0bba2.html",
+      "title": "A 16-year-old carried out the Bend school shooting. Could his parents face charges?",
+      "summary": "CNN: It’s illegal in Oregon for anyone under 18 to possess a firearm, with a few exceptions. So how exactly did the 16-year-old who carried out a school shooting in Bend, Oregon, last week get access…",
+      "source_summary": "CNN: It’s illegal in Oregon for anyone under 18 to possess a firearm, with a few exceptions. So how exactly did the 16-year-old who carried out a school shooting in Bend, Oregon, last week get access to a gun and ammunition? That question has yet to…\n\nKATU: The family of 5-year-old Rhoam Summer, the youngest victim of the shooting at Silver Rail Elementary , says he planned to dress as a bunny for Halloween. His family shared photos of Rhoam via their attorney. They described him as kind, helpful and a bright…",
+      "article_body": "CNN: “It’s illegal in Oregon for anyone under 18 to possess a firearm, with a few exceptions. So how exactly did the 16-year-old who carried out a school shooting in Bend, Oregon, last week get access to a gun and ammunition? That question has yet to…”\n\nKATU: “The family of 5-year-old Rhoam Summer, the youngest victim of the shooting at Silver Rail Elementary , says he planned to dress as a bunny for Halloween. His family shared photos of Rhoam via their attorney. They described him as kind, helpful and a bright…”",
+      "category": "trending",
+      "published_at": "2026-10-21T00:10:00+00:00",
+      "generated_at": "2026-10-21T00:27:15.265972+00:00",
+      "kind": "digest",
+      "keyword": "school",
+      "score": 89.84,
+      "sources": [
+        {
+          "title": "A 16-year-old carried out the Bend school shooting. Could his parents face charges?",
+          "url": "https://www.cnn.com/2026/10/20/us/bend-oregon-shooting-parents-liability",
+          "publisher": "CNN"
+        },
+        {
+          "title": "Youngest Silver Rail Elementary shooting victim planned bunny costume for Halloween",
+          "url": "https://katu.com/news/local/youngest-silver-rail-elementary-bend-oregon-victim-rhoam-summer-planned-bunny-costume-halloween",
+          "publisher": "KATU"
+        },
+        {
+          "title": "Bend school shooter’s dad homeless in Astoria, told cops he hadn’t seen son in a year",
+          "url": "https://www.oregonlive.com/crime/2026/10/father-of-bend-school-shooter-is-homeless-in-astoria.html",
+          "publisher": "OregonLive.com"
+        }
+      ]
+    },
+    {
+      "id": "en-297e4fefeb",
+      "lang": "en",
+      "slug": "pm-modi-flags-three-enemies-of-india-calls-for-unity-in-nati-297e4fefeb",
+      "url": "en/posts/pm-modi-flags-three-enemies-of-india-calls-for-unity-in-nati-297e4fefeb.html",
+      "title": "PM Modi flags three ‘enemies’ of India, calls for unity in national interest",
+      "summary": "The Hindu: PM Modi flags three ‘enemies’ of India, calls for unity in national interest left Prime Minister Narendra Modi uses a bow and arrow in honour of Lord Rama during the Vijayadashami…",
+      "source_summary": "The Hindu: PM Modi flags three ‘enemies’ of India, calls for unity in national interest left Prime Minister Narendra Modi uses a bow and arrow in honour of Lord Rama during the Vijayadashami (Dussehra) celebrations at the DDA Utsav Ground, in New Delhi on Tuesday, October 20…\n\nThe Times of India: NEW DELHI: Calling for a united fight against forces seeking to divide society, undermine India's dignity and attack its culture, Prime Minister Narendra Modi on Tuesday urged all political parties and national institutions to put the country first. Stressing that national self-respect and faith in…",
+      "article_body": "The Hindu: “PM Modi flags three ‘enemies’ of India, calls for unity in national interest left Prime Minister Narendra Modi uses a bow and arrow in honour of Lord Rama during the Vijayadashami (Dussehra) celebrations at the DDA Utsav Ground, in New Delhi on Tuesday, October 20…”\n\nThe Times of India: “NEW DELHI: Calling for a united fight against forces seeking to divide society, undermine India's dignity and attack its culture, Prime Minister Narendra Modi on Tuesday urged all political parties and national institutions to put the country first. Stressing that national self-respect and faith in…”",
+      "category": "trending",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "generated_at": "2026-10-21T00:27:15.265972+00:00",
+      "kind": "digest",
+      "keyword": "today news",
+      "score": 89.75,
+      "sources": [
+        {
+          "title": "PM Modi flags three ‘enemies’ of India, calls for unity in national interest",
+          "url": "https://www.thehindu.com/news/national/pm-modi-flags-three-enemies-of-india-calls-for-unity-in-national-interest/article71605000.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "\"Will Have To Defeat Them\": PM Modi's Dussehra Call To Fight India's \"Enemies\"",
+          "url": "https://www.ndtv.com/india-news/pm-modi-dussehra-2026-will-have-to-defeat-them-pm-modis-vijayadashami-call-to-out-indias-enemies-12211609",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "Identify, defeat forces against India: Modi calls for unity, self-reliance",
+          "url": "https://timesofindia.indiatimes.com/india/identify-defeat-forces-against-india-modi-calls-for-unity-self-reliance/articleshow/135072362.cms",
+          "publisher": "The Times of India"
+        }
+      ]
+    },
+    {
+      "id": "en-a175cc0bff",
+      "lang": "en",
+      "slug": "imd-forecasts-heavy-to-very-heavy-rains-over-tamil-nadu-pudu-a175cc0bff",
+      "url": "en/posts/imd-forecasts-heavy-to-very-heavy-rains-over-tamil-nadu-pudu-a175cc0bff.html",
+      "title": "IMD forecasts heavy to very heavy rains over Tamil Nadu, Puducherry & Karaikal for next 2 days",
+      "summary": "News On AIR: The India Meteorological Department has forecast heavy to very heavy rainfall over Tamil Nadu, Puducherry and Karaikal during the next two days. The Weather agency has predicted heavy…",
+      "source_summary": "News On AIR: The India Meteorological Department has forecast heavy to very heavy rainfall over Tamil Nadu, Puducherry and Karaikal during the next two days. The Weather agency has predicted heavy rainfall over Andhra Pradesh, Kerala, Mahe and South Interior Karnataka till tomorrow. The Met Department has further…\n\nThe Hindu: Health Minister directs officials to ensure hospital preparedness, uninterrupted health services during monsoon left K.G. Arunraj BIJOY GHOSH TN Health, Medical Education and Family Welfare Minister K.G.Arunraj, at an event conducted by Apollo Hospitals, in Chennai. 26/8/26 Photo : Bijoy Ghosh The Minister says that…\n\nKWS Chennai: With the return of the North-Easterlies, the rains that were previously making an offshore appearance are now making and inland apperance, bringing more spells of rainfall across North Tamil Nadu and adjoining South Andhra Pradesh.",
+      "article_body": "News On AIR: “The India Meteorological Department has forecast heavy to very heavy rainfall over Tamil Nadu, Puducherry and Karaikal during the next two days. The Weather agency has predicted heavy rainfall over Andhra Pradesh, Kerala, Mahe and South Interior Karnataka till tomorrow. The Met Department has further…”\n\nThe Hindu: “Health Minister directs officials to ensure hospital preparedness, uninterrupted health services during monsoon left K.G. Arunraj BIJOY GHOSH TN Health, Medical Education and Family Welfare Minister K.G.Arunraj, at an event conducted by Apollo Hospitals, in Chennai. 26/8/26 Photo : Bijoy Ghosh The Minister says that…”\n\nKWS Chennai: “With the return of the North-Easterlies, the rains that were previously making an offshore appearance are now making and inland apperance, bringing more spells of rainfall across North Tamil Nadu and adjoining South Andhra Pradesh.”",
+      "category": "trending",
+      "published_at": "2026-10-20T23:50:00+00:00",
+      "generated_at": "2026-10-21T00:27:15.265972+00:00",
+      "kind": "digest",
+      "keyword": "chennai school holiday",
+      "score": 89.66,
+      "sources": [
+        {
+          "title": "IMD forecasts heavy to very heavy rains over Tamil Nadu, Puducherry & Karaikal for next 2 days",
+          "url": "https://newsonair.gov.in/imd-issues-orange-alert-for-heavy-rainfall-over-tamil-nadu-puducherry-karaikal-today/",
+          "publisher": "News On AIR"
+        },
+        {
+          "title": "Health Minister directs officials to ensure hospital preparedness, uninterrupted health services during monsoon",
+          "url": "https://www.thehindu.com/news/cities/chennai/health-minister-directs-officials-to-ensure-hospital-preparedness-uninterrupted-health-services-during-monsoon/article71605153.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "The North-Easterlies are back!",
+          "url": "https://kwschennai.com/blog/the-north-easterlies-are-back/",
+          "publisher": "KWS Chennai"
+        }
+      ]
+    },
+    {
+      "id": "en-e3a91ac677",
+      "lang": "en",
+      "slug": "nor-easter-lashes-coast-from-carolinas-to-northeast-e3a91ac677",
+      "url": "en/posts/nor-easter-lashes-coast-from-carolinas-to-northeast-e3a91ac677.html",
+      "title": "Nor'easter lashes coast from Carolinas to Northeast",
+      "summary": "The Weather Channel: The low is expected to stay well offshore, and just slowly meandering to the northeast over the next few days. By Thursday, the low should be off the Massachusetts coast, which…",
+      "source_summary": "The Weather Channel: The low is expected to stay well offshore, and just slowly meandering to the northeast over the next few days. By Thursday, the low should be off the Massachusetts coast, which will mean windy conditions, and rough coastal conditions for the Cape later this week.…\n\nFOX Weather: THE TAKEAWAY A powerful nor’easter spinning off the North Carolina coast is expected to bring coastal flooding, beach erosion, gusty winds, dangerous surf and rip currents to parts of the Mid-Atlantic and Southeast coasts through Thursday. This storm has also been tagged by the National…",
+      "article_body": "The Weather Channel: “The low is expected to stay well offshore, and just slowly meandering to the northeast over the next few days. By Thursday, the low should be off the Massachusetts coast, which will mean windy conditions, and rough coastal conditions for the Cape later this week.…”\n\nFOX Weather: “THE TAKEAWAY A powerful nor’easter spinning off the North Carolina coast is expected to bring coastal flooding, beach erosion, gusty winds, dangerous surf and rip currents to parts of the Mid-Atlantic and Southeast coasts through Thursday. This storm has also been tagged by the National…”",
+      "category": "trending",
+      "published_at": "2026-10-20T23:40:00+00:00",
+      "generated_at": "2026-10-21T00:27:15.265972+00:00",
+      "kind": "digest",
+      "keyword": "windy",
+      "score": 89.56,
+      "sources": [
+        {
+          "title": "Nor'easter lashes coast from Carolinas to Northeast",
+          "url": "https://weather.com/2026/10/20/forecast/regional/coastal-storm-southeast-mid-atlantic",
+          "publisher": "The Weather Channel"
+        },
+        {
+          "title": "Powerful nor'easter shows possible tropical development as it hits Carolinas, Mid-Atlantic with dangerous surf",
+          "url": "https://www.foxweather.com/weather-news/noreaster-eyes-east-coastal-flooding-strong-winds-surf",
+          "publisher": "FOX Weather"
+        },
+        {
+          "title": "Nor’easter erodes rebuilt dunes, blows sand across Outer Banks road",
+          "url": "https://www.usatoday.com/videos/news/weather/2026/10/19/noreaster-north-carolina-outer-banks/92329799007/",
+          "publisher": "USA Today"
+        }
+      ]
+    },
+    {
+      "id": "en-4a5fb9b30b",
+      "lang": "en",
+      "slug": "4-more-people-including-2-women-arrested-in-tiger-shroff-sho-4a5fb9b30b",
+      "url": "en/posts/4-more-people-including-2-women-arrested-in-tiger-shroff-sho-4a5fb9b30b.html",
+      "title": "4 More People, Including 2 Women, Arrested In Tiger Shroff Shooting Case",
+      "summary": "ThePrint: The Bishnois want supremacy over Bollywood. They are currently boasting about the (botched-up) Tiger Shroff attack, while warning of more in the offing. Bollywood is shivering. Salman…",
+      "source_summary": "ThePrint: The Bishnois want supremacy over Bollywood. They are currently boasting about the (botched-up) Tiger Shroff attack, while warning of more in the offing. Bollywood is shivering. Salman Khan’s home at Galaxy Apartments is like a fortress (friends are terrified to visit the Khans). As is…",
+      "article_body": "ThePrint: “The Bishnois want supremacy over Bollywood. They are currently boasting about the (botched-up) Tiger Shroff attack, while warning of more in the offing. Bollywood is shivering. Salman Khan’s home at Galaxy Apartments is like a fortress (friends are terrified to visit the Khans). As is…”",
+      "category": "trending",
+      "published_at": "2026-10-20T23:30:00+00:00",
+      "generated_at": "2026-10-21T00:27:15.265972+00:00",
+      "kind": "digest",
+      "keyword": "rapido",
+      "score": 89.47,
+      "sources": [
+        {
+          "title": "4 More People, Including 2 Women, Arrested In Tiger Shroff Shooting Case",
+          "url": "https://www.ndtv.com/india-news/4-more-people-including-2-women-arrested-in-tiger-shroff-shooting-case-12212352",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "Bollywood is shaking with fear. Not everyone is as lucky as Tiger Shroff",
+          "url": "https://theprint.in/opinion/mumbai-memo/bollywood-fear-tiger-shroff-attack-bishnoi-gang/3076659/",
+          "publisher": "ThePrint"
+        },
+        {
+          "title": "CCTV footage shows arrest of Tiger Shroff firing accused in Kota",
+          "url": "https://www.telegraphindia.com/entertainment/cctv-footage-shows-arrest-of-tiger-shroff-firing-accused-in-kota/cid/2185489",
+          "publisher": "Telegraph India"
         }
       ]
     }
