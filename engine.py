@@ -1413,7 +1413,6 @@ def list_page(cfg, scope, posts, path, alternates=()):
 
     if visible_items:
         grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in visible_items) + "</div>"
-        grid += f'<p id="nomatch" class="empty" hidden>{esc(L["nomatch"])}</p>'
     else:
         grid = f'<div id="grid"></div><p class="empty">{esc(L["empty"])}</p>'
     body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p><p class="notice">{esc(L['notice'])}</p>{chooser}</section>
