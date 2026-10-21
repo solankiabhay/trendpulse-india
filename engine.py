@@ -1407,9 +1407,10 @@ def list_page(cfg, scope, posts, path, alternates=()):
         grid = f'<div id="grid"></div><p class="empty">{esc(L["empty"])}</p>'
     body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p>{chooser}</section>
 {trending}
+<section class="tools"><nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats"></nav></section>
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>"""
     title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
-    return page(cfg, lang, path, title, L["tagline"], body, alternates, active={"all": "home"}.get(scope, scope), app=False)
+    return page(cfg, lang, path, title, L["tagline"], body, alternates, active={"all": "home"}.get(scope, scope), app=True)
 
 
 def article_page(cfg, p, posts):
