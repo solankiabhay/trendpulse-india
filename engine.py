@@ -1014,13 +1014,11 @@ T = {
         "sources": "Sources", "latest": "Latest articles", "trending": "Trending now", "related": "Related topics",
         "hero_title": "What India is talking about, with the sources attached",
         "hero_text": "TrendPulse India collects headlines from public news and trends feeds, groups the coverage, and links every digest back to the original reports. Available in English and Hindi.",
-        "notice": "Digests are compiled automatically from source feeds and are not independently verified.",
         "empty": "No articles yet. They will appear after the automated pipeline runs for the first time.",
         "nomatch": "No articles match your search.", "results": "{n} articles shown",
         "coverage": "Coverage from {n} sources: {names}.", "reported_by": "Reported by",
         "feed_summary": "Summary from the source feed", "published": "Published",
         "what_happened": "What happened", "each_source": "What each source reports", "unconfirmed": "What is not confirmed",
-        "trend_topics": "Google Trends in India", "trend_search": "Search Google", "trend_read": "Read related coverage",
         "un_headline": "Only headlines and short feed summaries were available. Details beyond them are not confirmed here; read the original reports.",
         "un_single": "Only one publisher is cited so far, so this has not been cross-checked against other reports.",
         "un_differ": "These sources word the story differently, so check their reports for exact details: {names}.",
@@ -1035,13 +1033,11 @@ T = {
         "sources": "स्रोत", "latest": "ताज़ा लेख", "trending": "अभी चर्चा में", "related": "संबंधित विषय",
         "hero_title": "भारत में क्या चर्चा में है, स्रोतों के साथ",
         "hero_text": "TrendPulse India सार्वजनिक समाचार और ट्रेंड फ़ीड से सुर्खियाँ इकट्ठा करता है, कवरेज को एक जगह जोड़ता है और हर सार को मूल रिपोर्ट से जोड़ता है। अंग्रेज़ी और हिंदी दोनों में उपलब्ध।",
-        "notice": "ये सार स्रोत फ़ीड से अपने-आप तैयार होते हैं और इनकी स्वतंत्र रूप से पुष्टि नहीं की गई है।",
         "empty": "अभी कोई लेख उपलब्ध नहीं है। ऑटोमेशन पहली बार चलने के बाद लेख यहाँ दिखेंगे।",
         "nomatch": "आपकी खोज से कोई लेख मेल नहीं खाता।", "results": "{n} लेख दिखाए जा रहे हैं",
         "coverage": "{n} स्रोतों की रिपोर्ट: {names}।", "reported_by": "रिपोर्ट करने वाले स्रोत",
         "feed_summary": "स्रोत फ़ीड का सारांश", "published": "प्रकाशित",
         "what_happened": "क्या हुआ", "each_source": "हर स्रोत क्या रिपोर्ट करता है", "unconfirmed": "क्या पुष्टि नहीं हुई है",
-        "trend_topics": "Google पर ट्रेंड कर रहे विषय", "trend_search": "Google पर खोजें", "trend_read": "संबंधित खबर पढ़ें",
         "un_headline": "सिर्फ़ सुर्खियाँ और छोटे फ़ीड सारांश उपलब्ध थे। उनसे आगे की जानकारी यहाँ पुष्ट नहीं है; मूल रिपोर्ट पढ़ें।",
         "un_single": "अभी सिर्फ़ एक प्रकाशक का हवाला है, इसलिए इसे दूसरी रिपोर्टों से मिलाकर नहीं देखा गया है।",
         "un_differ": "ये स्रोत खबर को अलग-अलग शब्दों में बताते हैं, इसलिए सटीक ब्योरे के लिए उनकी रिपोर्ट देखें: {names}।",
@@ -1262,7 +1258,7 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 </main>
 <footer class="site-footer"><div class="wrap">
 <nav aria-label="{esc(L['footer'])}"><ul>{foot}</ul></nav>
-<p>© {esc(name)}. {esc(L['notice'])}</p>
+<p>© {esc(name)}.</p>
 </div></footer>
 </body>
 </html>
@@ -1415,11 +1411,11 @@ def list_page(cfg, scope, posts, path, alternates=()):
         grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in visible_items) + "</div>"
     else:
         grid = f'<div id="grid"></div><p class="empty">{esc(L["empty"])}</p>'
-    body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p><p class="notice">{esc(L['notice'])}</p>{chooser}</section>
+    body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p>{chooser}</section>
 {trending}
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>"""
     title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
-    return page(cfg, lang, path, title, L["tagline"] + ". " + L["notice"], body, alternates, active={"all": "home"}.get(scope, scope), app=False)
+    return page(cfg, lang, path, title, L["tagline"], body, alternates, active={"all": "home"}.get(scope, scope), app=False)
 
 
 def article_page(cfg, p, posts):
