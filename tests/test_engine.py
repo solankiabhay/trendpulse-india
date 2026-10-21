@@ -872,6 +872,7 @@ class HindiTrendLinkTests(unittest.TestCase):
             self.assertNotIn('class="trend-topics"', rendered)
             self.assertNotIn('id="q"', rendered)
             self.assertNotIn('assets/app.js', rendered)
+            self.assertNotIn('id="nomatch"', rendered)
             self.assertIn('id="latest"', rendered)
 
 class LanguageAndUnpublishTests(unittest.TestCase):
