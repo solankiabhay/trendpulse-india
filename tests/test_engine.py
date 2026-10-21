@@ -564,7 +564,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         import re
 
         def color(name):
-            match = re.search(rf"--{re.escape(name)}:\\s*(#[0-9a-fA-F]{{6}});", css)
+            match = re.search(rf"--{re.escape(name)}:\s*(#[0-9a-fA-F]{{6}});", css)
             self.assertIsNotNone(match, f"missing color token --{name}")
             return match.group(1)
 
