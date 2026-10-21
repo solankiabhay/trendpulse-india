@@ -868,10 +868,10 @@ class HindiTrendLinkTests(unittest.TestCase):
         for scope, path in (("all", "index.html"), ("en", "en/index.html"), ("hi", "hi/index.html")):
             rendered = engine.list_page(cfg, scope, posts, path)
             self.assertNotIn('id="searchform"', rendered)
-            self.assertNotIn('class="tools"', rendered)
+            self.assertIn('id="categories"', rendered)
             self.assertNotIn('class="trend-topics"', rendered)
             self.assertNotIn('id="q"', rendered)
-            self.assertNotIn('assets/app.js', rendered)
+            self.assertIn('assets/app.js', rendered)
             self.assertNotIn('id="nomatch"', rendered)
             self.assertIn('id="latest"', rendered)
 

@@ -1,52 +1,59 @@
-/* TrendPulse India: client-side search and category filter over server-rendered cards.
-   No network requests; uses textContent only (no HTML injection). */
+/* TrendPulse India: category-only filter over server-rendered article cards. */
 (function () {
   'use strict';
-  function matches(item, query, cat) {
-    var q = (query || '').trim().toLocaleLowerCase();
-    var catOk = !cat || cat === 'all' || item.cat === cat;
-    return catOk && (!q || item.text.indexOf(q) !== -1);
+  var LABELS = {
+    en: { all: 'All', india: 'India', world: 'World', business: 'Business', technology: 'Technology',
+      entertainment: 'Entertainment', sports: 'Sports', science: 'Science', health: 'Health', trending: 'Trending' },
+    hi: { all: 'सभी', india: 'भारत', world: 'दुनिया', business: 'कारोबार', technology: 'तकनीक',
+      entertainment: 'मनोरंजन', sports: 'खेल', science: 'विज्ञान', health: 'स्वास्थ्य', trending: 'ट्रेंडिंग' }
+  };
+  function matches(item, cat) { return !cat || cat === 'all' || item.cat === cat; }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { matches: matches };
   }
-  if (typeof module !== 'undefined' && module.exports) { module.exports = { matches: matches }; }
   if (typeof document === 'undefined') { return; }
 
   document.addEventListener('DOMContentLoaded', function () {
     var grid = document.getElementById('grid');
-    var input = document.getElementById('q');
-    if (!grid || !input) { return; }
-    var form = document.getElementById('searchform');
-    var status = document.getElementById('status');
-    var nomatch = document.getElementById('nomatch');
-    var buttons = Array.prototype.slice.call(document.querySelectorAll('.cat-btn'));
-    var items = Array.prototype.slice.call(grid.querySelectorAll('[data-cat]')).map(function (el) {
-      return { el: el, cat: el.getAttribute('data-cat'), text: el.getAttribute('data-text') || '' };
+    var nav = document.getElementById('categories');
+    if (!grid || !nav) { return; }
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('[data-cat]'));
+    var lang = document.documentElement.lang === 'hi' ? 'hi' : 'en';
+    var labels = LABELS[lang];
+    var cats = [];
+    cards.forEach(function (card) {
+      var cat = card.getAttribute('data-cat');
+      if (cat && cats.indexOf(cat) === -1) { cats.push(cat); }
     });
-    var cat = 'all';
-
-    function apply() {
-      var shown = 0;
-      items.forEach(function (it) {
-        var ok = matches(it, input.value, cat);
-        it.el.hidden = !ok;
-        if (ok) { shown++; }
+    var buttons = [];
+    function addButton(cat) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'cat-btn';
+      button.setAttribute('data-cat', cat);
+      button.setAttribute('aria-pressed', String(cat === 'all'));
+      button.textContent = labels[cat] || cat;
+      button.addEventListener('click', function () {
+        active = cat;
+        apply();
       });
-      if (status && items.length) {
-        status.textContent = (status.getAttribute('data-tpl') || '{n}').replace('{n}', String(shown));
-      }
-      if (nomatch) { nomatch.hidden = shown !== 0 || items.length === 0; }
-      buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-cat') === cat)); });
+      nav.appendChild(button);
+      buttons.push(button);
     }
-
+    addButton('all');
+    cats.forEach(addButton);
+    var active = 'all';
+    function apply() {
+      cards.forEach(function (card) {
+        card.hidden = !matches({ cat: card.getAttribute('data-cat') }, active);
+      });
+      buttons.forEach(function (button) {
+        button.setAttribute('aria-pressed', String(button.getAttribute('data-cat') === active));
+      });
+    }
     var params = new URLSearchParams(window.location.search);
-    if (params.get('q')) { input.value = params.get('q'); }
-    var wanted = params.get('cat');
-    if (wanted && buttons.some(function (b) { return b.getAttribute('data-cat') === wanted; })) { cat = wanted; }
-
-    input.addEventListener('input', apply);
-    if (form) { form.addEventListener('submit', function (e) { e.preventDefault(); apply(); }); }
-    buttons.forEach(function (b) {
-      b.addEventListener('click', function () { cat = b.getAttribute('data-cat'); apply(); });
-    });
+    var requested = params.get('cat');
+    if (requested && cats.indexOf(requested) !== -1) { active = requested; }
     apply();
   });
 })();

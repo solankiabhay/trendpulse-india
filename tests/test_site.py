@@ -207,12 +207,15 @@ class JavaScript(unittest.TestCase):
     def test_syntax(self):
         self.assertEqual(subprocess.run(["node", "--check", str(ROOT / "assets/app.js")], capture_output=True).returncode, 0)
 
-    def test_filter_logic(self):
-        code = ("const {matches}=require(process.argv[1]);const a={cat:'india',text:'budget session संसद'};"
-                "const r=[matches(a,'','all'),matches(a,'BUDGET','all'),matches(a,'संसद','india'),matches(a,'budget','sports'),matches(a,'zzz','all'),matches(a,'  ','india')];"
+    def test_category_filter_logic(self):
+        code = ("const {matches}=require(process.argv[1]);"
+                "const india={cat:'india'}, technology={cat:'technology'}, sports={cat:'sports'};"
+                "const r=[matches(india,'all'),matches(technology,'technology'),"
+                "matches(technology,'sports'),matches(sports,'technology'),"
+                "matches(india,'india'),matches(technology,'all')];"
                 "console.log(JSON.stringify(r))")
         out = subprocess.run(["node", "-e", code, str(ROOT / "assets/app.js")], capture_output=True, text=True)
-        self.assertEqual(json.loads(out.stdout), [True, True, True, False, False, True], out.stderr)
+        self.assertEqual(json.loads(out.stdout), [True, True, False, False, True, True], out.stderr)
 
 
 class Workflows(unittest.TestCase):
