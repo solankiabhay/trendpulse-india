@@ -154,6 +154,25 @@ def summary_needs_refresh(text, min_words=60) -> bool:
         return True
     return len(clean.split()) < min_words
 
+def headline_rollup_needs_refresh(text, title="", sources=()) -> bool:
+    """Detect a digest made almost entirely of source headlines rather than story context."""
+    parts = [tidy(part) for part in re.split(r"\n\s*\n", text or "") if tidy(part)]
+    if len(parts) < 2:
+        return False
+    references = [tokens(title)] + [tokens(s.get("title", "")) for s in sources if isinstance(s, dict)]
+    references = [ref for ref in references if ref]
+    if not references:
+        return False
+    matched = 0
+    for part in parts:
+        # Remove a publisher prefix before comparing the excerpt with its source headline.
+        excerpt = re.sub(r"^[^:]{2,100}:\s*", "", part)
+        similarity = max((jaccard(tokens(excerpt), ref) for ref in references), default=0.0)
+        if similarity >= 0.55:
+            matched += 1
+    return matched / len(parts) >= 0.70
+
+
 def indexable(p, cfg) -> bool:
     """Only summaries with enough readable context may enter search indexes.
 
@@ -163,6 +182,8 @@ def indexable(p, cfg) -> bool:
     """
     summary = tidy(p.get("source_summary", "") or "")
     if len(summary) < cfg["min_summary_chars"] or summary_needs_refresh(summary):
+        return False
+    if headline_rollup_needs_refresh(summary, p.get("title", ""), p.get("sources", [])) and not p.get("article_body"):
         return False
     # Avoid indexing a page in the wrong language when its digest is clearly dominated by another script.
     lang = p.get("lang")
@@ -998,7 +1019,10 @@ def check_quality(c, cfg, now) -> list:
             r.append("date_in_future")
     if not language_ok(c["lang"], t):
         r.append("language_mismatch")
-    if c.get("boilerplate_summary") or len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]:
+    if (c.get("boilerplate_summary")
+            or len(tidy(c.get("summary", ""))) < cfg["min_summary_chars"]
+            or (headline_rollup_needs_refresh(c.get("summary", ""), t, c.get("sources", []))
+                and not c.get("article_body"))):
         r.append("insufficient_value")
     return r
 
@@ -1658,10 +1682,11 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             # The cooldown skip below still applies only to the current version;
             # a new refresh version can therefore retry recent attempts safely.
             language_issue = content_language_needs_refresh(summary, item.get("lang", "en"))
+            headline_issue = headline_rollup_needs_refresh(summary, item.get("title", ""), item.get("sources", [])) and not item.get("article_body")
             return (
                 0 if source_identity_needs_cleanup(item) else 1,
                 recent_attempt,
-                0 if language_issue else 1,
+                0 if (language_issue or headline_issue) else 1,
                 -len(summary.split()),
                 item.get("published_at", ""),
             )
@@ -1672,7 +1697,9 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             placeholder = (not p.get("article_body") or not current
                            or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
                            or is_boilerplate_summary(current)
-                           or content_language_needs_refresh(current, p.get("lang", "en")))
+                           or content_language_needs_refresh(current, p.get("lang", "en"))
+                           or (headline_rollup_needs_refresh(current, p.get("title", ""), p.get("sources", []))
+                               and not p.get("article_body")))
             # A refresh-version bump must actually reprocess previously published
             # articles, even when their old summaries pass today's length checks.
             # Otherwise changing SUMMARY_REFRESH_VERSION only refreshes thin posts.

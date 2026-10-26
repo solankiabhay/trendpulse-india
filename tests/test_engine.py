@@ -157,6 +157,20 @@ class QualityTests(unittest.TestCase):
         self.assertEqual(engine.check_quality(self.cand(), self.cfg, NOW), [])
         self.assertEqual(engine.check_quality(self.cand(GOOD_HI, FEED_HI), self.cfg, NOW), [])
 
+    def test_headline_only_summary_is_rejected(self):
+        c = self.cand(GOOD_HI, FEED_HI)
+        title = c["title"]
+        titles = [
+            title,
+            "संसद के बजट सत्र की तारीखों का ऐलान, अगले सप्ताह से शुरू होगी कार्यवाही, सरकार ने तैयारियां पूरी कीं",
+            "बजट सत्र से पहले संसदीय कार्यमंत्री ने सभी दलों से सहयोग की अपील की, अहम विधेयकों पर चर्चा होगी",
+            "संसद का बजट सत्र अगले सप्ताह शुरू होगा, कार्यसूची और महत्वपूर्ण मुद्दों पर नजर रहेगी",
+        ]
+        c["sources"] = [{"title": x, "publisher": f"Source {i}", "url": f"https://hi{i}.example/story"} for i, x in enumerate(titles)]
+        c["summary"] = "\n\n".join(f"{s['publisher']}: {s['title']}" for s in c["sources"])
+        c.pop("article_body", None)
+        self.assertIn("insufficient_value", engine.check_quality(c, self.cfg, NOW))
+
     def test_rejections(self):
         c = self.cand(); c["published"] = None
         self.assertIn("no_publication_date", engine.check_quality(c, engine.load_config(ROOT / "config.json"), NOW))
@@ -743,6 +757,22 @@ class TeaserAndIndexingTests(unittest.TestCase):
         self.assertGreater(len(teaser), cfg["min_summary_chars"])
         self.assertLess(len(teaser.split()), 60)
         self.assertFalse(engine.indexable({"source_summary": teaser}, cfg))
+
+    def test_headline_rollup_is_not_indexable_without_story_context(self):
+        cfg = {**engine.DEFAULTS}
+        title = "फ़्रांस में महंगाई के ख़िलाफ़ लाखों प्रदर्शनकारी सड़कों पर, यूरोप के और देशों का क्या हाल"
+        source_titles = [
+            title,
+            "फ्रांस में लाखों लोग सरकार के खिलाफ सड़कों पर उतरे, हिंसक हुआ प्रदर्शन, एक हजार से ज्यादा गिरफ्तार, जानिए पूरी जानकारी",
+            "सड़क पर घसीटा, भीड़ में घुसकर बरसाईं लाठियां, फ्रांस में प्रदर्शनकारियों पर टूट पड़ी पुलिस, ताजा अपडेट",
+            "यूरोप के कई शहरों में महंगाई के खिलाफ प्रदर्शन तेज, सरकारों पर दबाव बढ़ा, प्रदर्शनकारियों ने उठाए सवाल",
+        ]
+        sources = [{"title": item, "publisher": f"Source {i}", "url": f"https://source{i}.example/story"} for i, item in enumerate(source_titles)]
+        summary = "\n\n".join(f"{sources[i]['publisher']}: {item}" for i, item in enumerate(source_titles))
+        post = {"title": title, "lang": "hi", "source_summary": summary, "sources": sources}
+        self.assertGreaterEqual(len(summary.split()), 60)
+        self.assertTrue(engine.headline_rollup_needs_refresh(summary, title, sources))
+        self.assertFalse(engine.indexable(post, cfg))
 
     def test_sixty_word_quality_gate_requires_more_than_a_headline_pair(self):
         cfg = {**engine.DEFAULTS}
