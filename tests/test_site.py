@@ -65,6 +65,19 @@ class ProjectFiles(unittest.TestCase):
         self.assertIn("अधिकारियों ने बैठक के बाद नई योजना की घोषणा की।", body)
 
 
+    def test_stored_posts_have_unique_ids_valid_languages_and_source_urls(self):
+        data = json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))
+        posts = data.get("posts", [])
+        ids = [p.get("id") for p in posts]
+        self.assertEqual(len(ids), len(set(ids)), "duplicate post IDs in stored content")
+        for post in posts:
+            with self.subTest(post=post.get("id")):
+                self.assertIn(post.get("lang"), engine.LANGS)
+                self.assertTrue(engine.language_ok(post.get("lang", ""), post.get("title", "")), post.get("title"))
+                self.assertTrue(post.get("sources"), "published post must retain source links")
+                for source in post["sources"]:
+                    self.assertIsNotNone(engine.safe_url(source.get("url", "")), source)
+
     def test_required_files_exist(self):
         self.assertEqual([f for f in REQUIRED if not (ROOT / f).exists()], [])
 
