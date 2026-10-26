@@ -3762,7 +3762,9 @@
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONDhGZ0t6bzc2eUpORTRpeW1tUlk1aURqSFI4aUMxRlJ6dW5hS01UZUZNRGliWTBWN3VmZHI0ZDZrcUxRQTVQR0ZuLUJmZTRRQUZPeDNrVE5vNDJBSml3THhLNHZjVG1WdElHZkRRVmFOS25uckZMRXBZYTNsRVZNdzBQYnNhUEU2R3hCRTNNQ2o?oc=5",
           "publisher": "Prabhat Khabar"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-26T07:19:37.034537+00:00",
+      "summary_refresh_version": 21
     }
   ]
 }
