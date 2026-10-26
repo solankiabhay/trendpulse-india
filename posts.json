@@ -3797,7 +3797,9 @@
           "url": "https://www.telegraphindia.com/india/keralam-psc-row-rajendra-arlekar-seeks-removal-of-chairman-and-15-board-members-prnt/cid/2186236",
           "publisher": "Telegraph India"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-26T07:35:35.184989+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-dd40c889f6",
@@ -3830,7 +3832,9 @@
           "url": "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk",
           "publisher": "The Guardian"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-26T07:35:35.184989+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-1472a069c1",
@@ -3862,6 +3866,41 @@
           "title": "Rahul Gandhi's convoy vehicles collide on UP expressway; his car unaffected",
           "url": "https://www.indiatoday.in/india/story/vehicles-part-of-rahul-gandhis-convoy-collide-on-purvanchal-expressway-congress-leaders-car-not-involved-3025040-2026-10-26",
           "publisher": "India Today"
+        }
+      ],
+      "summary_refresh_attempted_at": "2026-10-26T07:35:35.184989+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-618cbb7d78",
+      "lang": "en",
+      "slug": "opinion-of-cabinet-sub-committee-will-be-taken-in-reforming-618cbb7d78",
+      "url": "en/posts/opinion-of-cabinet-sub-committee-will-be-taken-in-reforming-618cbb7d78.html",
+      "title": "Opinion of Cabinet sub-committee will be taken in reforming KSPC, says Karnataka Chief Minister",
+      "summary": "The Hindu: Opinion of Cabinet sub-committee will be taken in reforming KSPC, says Karnataka Chief Minister left D.K. Shivakumar File Photo File Photo - Shivamogga: Karnataka Chief Minister D K…",
+      "source_summary": "The Hindu: Opinion of Cabinet sub-committee will be taken in reforming KSPC, says Karnataka Chief Minister left D.K. Shivakumar File Photo File Photo - Shivamogga: Karnataka Chief Minister D K Shivakumar during a discussion and public hearing, in Shivamogga, Saturday, Sept. 19, 2026. (PTI Photo)(PTI09_19_2026_000549A) Bengaluru Stating…\n\nBangalore Mirror: A look into the KPSC scam involving IAS officer Gyanendra Kumar Gangwar and a shocking auto-rickshaw murder incident in Bengaluru. Discover the latest developments in crime and legal matters.",
+      "article_body": "The Hindu: “Opinion of Cabinet sub-committee will be taken in reforming KSPC, says Karnataka Chief Minister left D.K. Shivakumar File Photo File Photo - Shivamogga: Karnataka Chief Minister D K Shivakumar during a discussion and public hearing, in Shivamogga, Saturday, Sept. 19, 2026. (PTI Photo)(PTI09_19_2026_000549A) Bengaluru Stating…”\n\nBangalore Mirror: “A look into the KPSC scam involving IAS officer Gyanendra Kumar Gangwar and a shocking auto-rickshaw murder incident in Bengaluru. Discover the latest developments in crime and legal matters.”",
+      "category": "trending",
+      "published_at": "2026-10-26T07:20:00+00:00",
+      "generated_at": "2026-10-26T07:35:35.184989+00:00",
+      "kind": "digest",
+      "keyword": "kpsc",
+      "score": 89.86,
+      "sources": [
+        {
+          "title": "Opinion of Cabinet sub-committee will be taken in reforming KSPC, says Karnataka Chief Minister",
+          "url": "https://www.thehindu.com/news/national/karnataka/opinion-of-cabinet-sub-committee-will-be-taken-in-reforming-kspc-says-karnataka-chief-minister/article71623494.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Crime Files",
+          "url": "https://bangaloremirror.indiatimes.com/bangalore/crime/crime-files/articleshow/135176306.cms",
+          "publisher": "Bangalore Mirror"
+        },
+        {
+          "title": "Karnataka Allows Prosecution Sanction Against IAS Officer In Exam Scam",
+          "url": "https://www.ndtv.com/india-news/karnataka-cm-allows-prosecution-sanction-against-ias-officer-gyanendra-kumar-gangwar-in-exam-scam-12229536",
+          "publisher": "NDTV"
         }
       ]
     }
