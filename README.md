@@ -45,11 +45,11 @@ Exit codes: `0` ok · `2` every feed failed (nothing written; workflow fails vis
 2. Settings → Pages → **Source: GitHub Actions**.
 3. Settings → Actions → General → Workflow permissions: allow **Read and write** (the workflow also declares its own minimal permissions).
 4. Actions → **Auto Blog** → *Run workflow*. This runs tests, the pipeline, commits any new posts, and deploys.
-5. After the run, open the URL shown on the deploy job. Empty feeds/first run simply shows the "No articles yet" message.
+5. After the run, check the GitHub Pages `pages build and deployment` workflow. If no digest from the last 72 hours passes the quality gate, the page explains that and shows older qualifying coverage separately.
 
 Schedule: `0 */2 * * *` runs every two hours in UTC (GitHub may delay scheduled runs). In India Standard Time (UTC+05:30), the nominal slots are 01:30, 03:30, 05:30, 07:30, 09:30, 11:30, 13:30, 15:30, 17:30, 19:30, 21:30 and 23:30.
 GitHub may delay scheduled runs, and disables schedules on repos with no activity for 60 days (re-enable under Actions).
-A normal push to `main` runs the feed pipeline, refreshes stored summaries, and redeploys; workflow-bot commits use `[skip ci]` and do not loop. The home and language listings show only items published in the last 72 hours. Older qualifying digests remain under a separately labelled “Earlier coverage” archive, rather than being presented as current news.
+A normal push to `main` refreshes stored summaries; the scheduled run fetches feeds every two hours. Generated content is committed to `main`, and GitHub Pages' built-in deployment workflow publishes it. Workflow-bot commits use `[skip ci]` to avoid CI loops. The home and language listings show only items published in the last 72 hours. Older qualifying digests remain under a separately labelled “Earlier coverage” archive, rather than being presented as current news.
 
 Custom domain: Settings → Pages → Custom domain, add the DNS record GitHub shows, then update `site_url` and re-render.
 Search Console: add the property, submit `<site_url>/sitemap.xml`. Indexing and ranking are not guaranteed.

@@ -265,7 +265,10 @@ class Workflows(unittest.TestCase):
         self.assertIn("permissions:\n  contents: read", self.ab); self.assertNotIn("write-all", self.ab + self.ci)
         self.assertLess(self.ab.index("unittest discover"), self.ab.index("Run pipeline"))
         self.assertIn("python engine.py", self.ab)
-        self.assertNotIn("python engine.py --refresh-only", self.ab)
+        self.assertIn("python engine.py --refresh-only", self.ab)
+        self.assertIn('if [ "$EVENT" = "push" ]', self.ab)
+        self.assertNotIn("actions/deploy-pages", self.ab)
+        self.assertNotIn("pages: write", self.ab)
         self.assertIn("workflow_dispatch", self.ab)
         self.assertIn("unittest discover", self.ci); self.assertIn("engine.py --check", self.ci)
 

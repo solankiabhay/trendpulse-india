@@ -79,7 +79,7 @@ jobs:
           OPENAI_MODEL: gpt-4.1-mini
           EVENT: ${{ github.event_name }}
         run: |
-          python engine.py
+          if [ "$EVENT" = "push" ]; then python engine.py --refresh-only; else python engine.py; fi
       - name: Commit changes
         run: |
           git config user.name "trendpulse-bot"
@@ -92,28 +92,3 @@ jobs:
             git pull --rebase origin "$GITHUB_REF_NAME"
             git push origin "HEAD:$GITHUB_REF_NAME"
           fi
-  deploy:
-    needs: generate
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref_name }}
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Build site directory
-        run: python engine.py --build-site _site
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - id: deployment
-        uses: actions/deploy-pages@v4
