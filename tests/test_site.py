@@ -226,6 +226,13 @@ class Workflows(unittest.TestCase):
         self.assertIn('- cron: "0 */2 * * *"', self.ab)
         self.assertNotIn('- cron: "30 3 * * *"', self.ab)
 
+    def test_readme_schedule_and_post_limit_match_config(self):
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+        self.assertIn('`0 */2 * * *`', self.ab)
+        self.assertIn('`0 */2 * * *`', readme)
+        self.assertIn(f"At most {cfg['max_new_posts_per_run']} new posts per run", readme)
+
     def test_concurrency_permissions_and_tests(self):
         self.assertIn("cancel-in-progress: false", self.ab); self.assertIn("group: trendpulse-pipeline", self.ab)
         self.assertIn("permissions:\n  contents: read", self.ab); self.assertNotIn("write-all", self.ab + self.ci)
