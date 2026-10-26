@@ -134,5 +134,6 @@
     }
   ],
   "max_review_items_per_run": 20,
-  "max_review_items": 100
+  "max_review_items": 100,
+  "max_enrich_candidates_per_run": 20
 }
