@@ -43,7 +43,7 @@ def parse(path):
 def check_tree(root, site_url):
     """Return a list of problems found in every .html file under root (excluding tests)."""
     root, problems = Path(root), []
-    files = [f for f in root.rglob("*.html") if "tests" not in f.parts and "_site" not in f.parts]
+    files = [f for f in root.rglob("*.html") if "tests" not in f.parts and "_site" not in f.parts and not f.name.startswith("google")]
     parsed = {f: parse(f) for f in files}
     for f, p in parsed.items():
         rel = f.relative_to(root).as_posix()
