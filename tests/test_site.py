@@ -149,6 +149,20 @@ class HtmlSeo(unittest.TestCase):
     def test_every_page_passes_static_checks(self):
         self.assertEqual(htmlcheck.check_tree(ROOT, self.cfg["site_url"]), [])
 
+    def test_latest_listing_excludes_stale_posts_but_keeps_them_in_archive(self):
+        from datetime import datetime, timezone
+        posts = json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))["posts"]
+        base = next(p for p in posts if p.get("lang") == "en" and engine.indexable(p, engine.load_config(ROOT / "config.json")))
+        fresh = dict(base, title="Fresh parliamentary update reported today", published_at="2026-10-17T05:30:00+00:00")
+        stale = dict(base, title="Older parliamentary update reported earlier", published_at="2026-10-13T05:30:00+00:00")
+        now = datetime(2026, 10, 17, 6, 0, tzinfo=timezone.utc)
+        html = engine.list_page(engine.load_config(ROOT / "config.json"), "en", [fresh, stale], "en/index.html", now=now)
+        latest = html.split('id="grid">', 1)[1].split("</div>", 1)[0]
+        self.assertIn("Fresh parliamentary update", latest)
+        self.assertNotIn("Older parliamentary update", latest)
+        self.assertIn("Earlier coverage", html)
+        self.assertIn("Older parliamentary update", html)
+
     def test_hreflang_pairs_reciprocal(self):
         for pg in ("index", "about", "contact", "privacy", "editorial"):
             en, hi = htmlcheck.parse(ROOT / f"en/{pg}.html"), htmlcheck.parse(ROOT / f"hi/{pg}.html")
@@ -250,8 +264,8 @@ class Workflows(unittest.TestCase):
         self.assertIn("cancel-in-progress: false", self.ab); self.assertIn("group: trendpulse-pipeline", self.ab)
         self.assertIn("permissions:\n  contents: read", self.ab); self.assertNotIn("write-all", self.ab + self.ci)
         self.assertLess(self.ab.index("unittest discover"), self.ab.index("Run pipeline"))
-        self.assertIn("python engine.py --refresh-only", self.ab)
-        self.assertIn("else python engine.py; fi", self.ab)
+        self.assertIn("python engine.py", self.ab)
+        self.assertNotIn("python engine.py --refresh-only", self.ab)
         self.assertIn("workflow_dispatch", self.ab)
         self.assertIn("unittest discover", self.ci); self.assertIn("engine.py --check", self.ci)
 

@@ -44,7 +44,7 @@ Exit codes: `0` ok · `2` every feed failed (nothing written; workflow fails vis
 
 Schedule: `0 */2 * * *` runs every two hours in UTC (GitHub may delay scheduled runs). In India Standard Time (UTC+05:30), the nominal slots are 01:30, 03:30, 05:30, 07:30, 09:30, 11:30, 13:30, 15:30, 17:30, 19:30, 21:30 and 23:30.
 GitHub may delay scheduled runs, and disables schedules on repos with no activity for 60 days (re-enable under Actions).
-A push to `main` re-renders and redeploys without fetching feeds. Pushes made by the workflow itself use `[skip ci]` and do not loop.
+A normal push to `main` runs the feed pipeline, refreshes stored summaries, and redeploys; workflow-bot commits use `[skip ci]` and do not loop. The home and language listings show only items published in the last 72 hours. Older qualifying digests remain under a separately labelled “Earlier coverage” archive, rather than being presented as current news.
 
 Custom domain: Settings → Pages → Custom domain, add the DNS record GitHub shows, then update `site_url` and re-render.
 Search Console: add the property, submit `<site_url>/sitemap.xml`. Indexing and ranking are not guaranteed.

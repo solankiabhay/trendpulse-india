@@ -1015,7 +1015,8 @@ T = {
         "trend_topics": "Google Trends in India", "trend_read": "Read related article", "trend_search": "Search Google",
         "hero_title": "What India is talking about, with the sources attached",
         "hero_text": "TrendPulse India collects headlines from public news and trends feeds, groups the coverage, and links every digest back to the original reports. Available in English and Hindi.",
-        "empty": "No articles yet. They will appear after the automated pipeline runs for the first time.",
+        "empty": "No fresh articles from the last 72 hours are available right now. Check back after the next feed update.",
+        "archive": "Earlier coverage",
         "nomatch": "No articles match your search.", "results": "{n} articles shown",
         "coverage": "Coverage from {n} sources: {names}.", "reported_by": "Reported by",
         "feed_summary": "Summary from the source feed", "published": "Published",
@@ -1035,7 +1036,8 @@ T = {
         "trend_topics": "Google पर ट्रेंड कर रहे विषय", "trend_read": "संबंधित लेख पढ़ें", "trend_search": "Google पर खोजें",
         "hero_title": "भारत में क्या चर्चा में है, स्रोतों के साथ",
         "hero_text": "TrendPulse India सार्वजनिक समाचार और ट्रेंड फ़ीड से सुर्खियाँ इकट्ठा करता है, कवरेज को एक जगह जोड़ता है और हर सार को मूल रिपोर्ट से जोड़ता है। अंग्रेज़ी और हिंदी दोनों में उपलब्ध।",
-        "empty": "अभी कोई लेख उपलब्ध नहीं है। ऑटोमेशन पहली बार चलने के बाद लेख यहाँ दिखेंगे।",
+        "empty": "पिछले 72 घंटों की कोई नई खबर अभी उपलब्ध नहीं है। अगली फ़ीड जाँच के बाद फिर देखें।",
+        "archive": "पहले की खबरें",
         "nomatch": "आपकी खोज से कोई लेख मेल नहीं खाता।", "results": "{n} लेख दिखाए जा रहे हैं",
         "coverage": "{n} स्रोतों की रिपोर्ट: {names}।", "reported_by": "रिपोर्ट करने वाले स्रोत",
         "feed_summary": "स्रोत फ़ीड का सारांश", "published": "प्रकाशित",
@@ -1380,14 +1382,19 @@ def trend_topic_card(p, up, lang, posts=()):
             f'</article>')
 
 
-def list_page(cfg, scope, posts, path, alternates=()):
-    """scope: 'en' | 'hi' | 'all' (home page, English UI, mixed languages)."""
+def list_page(cfg, scope, posts, path, alternates=(), now=None):
+    """Render a fresh 72-hour news list plus a clearly labelled older archive."""
     lang = scope if scope in LANGS else "en"
     L, up = T[lang], "../" * path.count("/")
-    items = sorted([p for p in posts if scope == "all" or p["lang"] == scope], key=lambda p: p["published_at"], reverse=True)
+    now = now or datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=cfg.get("max_age_hours", 72))
+    all_items = sorted([p for p in posts if scope == "all" or p["lang"] == scope],
+                       key=lambda p: p["published_at"], reverse=True)
+    dated = [(p, parse_date(p["published_at"])) for p in all_items]
+    items = [p for p, dt in dated if dt and cutoff <= dt <= now + timedelta(hours=1)]
     items = items[: (12 if scope == "all" else cfg["max_list_items"])]
-    # Thin/noindex digests are omitted from visible cards, including Trending.
-    # Keep the list window stable; older stories can enter naturally as newer items age out.
+    archive_items = [p for p, dt in dated if dt and dt < cutoff and indexable(p, cfg)][:6]
+    # Only genuinely recent items appear in Trending, Latest, category filters, and search.
     visible_items = [p for p in items if indexable(p, cfg)]
     top = [p for p in sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3] if indexable(p, cfg)]
     cats = [c for c in CATEGORIES if any(p["category"] == c for p in items)]
@@ -1405,10 +1412,15 @@ def list_page(cfg, scope, posts, path, alternates=()):
         grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in visible_items) + "</div>"
     else:
         grid = f'<div id="grid"></div><p class="empty">{esc(L["empty"])}</p>'
+    archive = ""
+    if archive_items:
+        archive = (f'<section aria-labelledby="archive"><h2 id="archive">{esc(L["archive"])}</h2>'
+                   f'<div class="grid">' + "".join(card(p, up) for p in archive_items) + "</div></section>")
     body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p>{chooser}</section>
 {trending}
 <section class="tools"><nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats"></nav></section>
-<section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>"""
+<section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>
+{archive}"""
     title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
     return page(cfg, lang, path, title, L["tagline"], body, alternates, active={"all": "home"}.get(scope, scope), app=True)
 
@@ -1509,12 +1521,13 @@ def sitemap_xml(cfg, posts) -> str:
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{rows}</urlset>\n'
 
 
-def render_site(root, cfg, posts, write=True) -> dict:
+def render_site(root, cfg, posts, write=True, now=None) -> dict:
     """Return {relative_path: content}; write only changed files when write=True."""
     posts = sorted([p for p in posts if valid_post(p)], key=lambda p: p["published_at"])
-    files = {"index.html": list_page(cfg, "all", posts, "index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")])}
-    files["en/index.html"] = list_page(cfg, "en", posts, "en/index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")])
-    files["hi/index.html"] = list_page(cfg, "hi", posts, "hi/index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")])
+    now = now or datetime.now(timezone.utc)
+    files = {"index.html": list_page(cfg, "all", posts, "index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")], now=now)}
+    files["en/index.html"] = list_page(cfg, "en", posts, "en/index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")], now=now)
+    files["hi/index.html"] = list_page(cfg, "hi", posts, "hi/index.html", [("en", "en/index.html"), ("hi", "hi/index.html"), ("x-default", "index.html")], now=now)
     for lang in LANGS:
         for pg in INFO_PAGES:
             title, desc, parts = INFO[lang][pg]
@@ -1715,7 +1728,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                 updated_existing = True
     all_posts = posts_doc["posts"] + new_posts
     # Order matters: pages -> posts.json -> published.json (history is marked last)
-    render_site(root, cfg, all_posts)
+    render_site(root, cfg, all_posts, now=now)
     if new_posts or updated_existing:
         write_json(root / "posts.json", {"version": 1, "posts": all_posts})
     if new_posts:

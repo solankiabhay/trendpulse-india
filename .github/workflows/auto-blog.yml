@@ -47,10 +47,15 @@ jobs:
               argostranslate.package.update_package_index()
               import argostranslate.translate
               langs = argostranslate.translate.get_installed_languages()
-              installed = any(
-                  lang.code == "en" and any(t.to_lang.code == "hi" for t in lang.translations)
-                  for lang in langs
-              )
+              en = next((lang for lang in langs if lang.code == "en"), None)
+              hi = next((lang for lang in langs if lang.code == "hi"), None)
+              installed = False
+              if en is not None and hi is not None:
+                  try:
+                      en.get_translation(hi)
+                      installed = True
+                  except (ValueError, LookupError):
+                      installed = False
               if not installed:
                   packages = argostranslate.package.get_available_packages()
                   package = next(p for p in packages if p.from_code == "en" and p.to_code == "hi")
@@ -74,7 +79,7 @@ jobs:
           OPENAI_MODEL: gpt-4.1-mini
           EVENT: ${{ github.event_name }}
         run: |
-          if [ "$EVENT" = "push" ]; then python engine.py --refresh-only; else python engine.py; fi
+          python engine.py
       - name: Commit changes
         run: |
           git config user.name "trendpulse-bot"
