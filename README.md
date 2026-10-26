@@ -42,7 +42,7 @@ Exit codes: `0` ok · `2` every feed failed (nothing written; workflow fails vis
 4. Actions → **Auto Blog** → *Run workflow*. This runs tests, the pipeline, commits any new posts, and deploys.
 5. After the run, open the URL shown on the deploy job. Empty feeds/first run simply shows the "No articles yet" message.
 
-Schedule (UTC cron → IST): `30 3` → 09:00, `30 7` → 13:00, `30 11` → 17:00, `30 15` → 21:00.
+Schedule: `0 */2 * * *` runs every two hours in UTC (GitHub may delay scheduled runs). In India Standard Time (UTC+05:30), the nominal slots are 01:30, 03:30, 05:30, 07:30, 09:30, 11:30, 13:30, 15:30, 17:30, 19:30, 21:30 and 23:30.
 GitHub may delay scheduled runs, and disables schedules on repos with no activity for 60 days (re-enable under Actions).
 A push to `main` re-renders and redeploys without fetching feeds. Pushes made by the workflow itself use `[skip ci]` and do not loop.
 
@@ -75,14 +75,14 @@ git add -A && git commit -m "Approve reviewed topic" && git push
 ## How selection works
 - Score = recency (0–40) + 10 per distinct publisher (max 4) + 10 if the feed gives distinct summary text + feed `weight`. No traffic or search-volume numbers are used or claimed.
 - Rejected: misleading/clickbait titles, rumours/unconfirmed wording, no valid source URL, missing or old (>72 h) date, wrong language, fewer than 2 publishers *and* thin summary, near-duplicates (title similarity ≥ 0.6, or same id).
-- At most 4 new posts per run (`max_new_posts_per_run`). Skipping beats publishing weak content.
+- At most 8 new posts per run (`max_new_posts_per_run` in the current `config.json`). Skipping beats publishing weak content.
 - Write order: pages → `posts.json` → `published.json`. A crash never marks content published that isn't saved; rerunning is idempotent.
 - Hindi pages prefer Hindi feeds (`hl=hi`). When source excerpts are English, the workflow attempts local English→Hindi translation with the open-source Argos model; the model is cached between runs. If model download/translation fails, English-only excerpts are omitted rather than mislabelled as Hindi. English and Hindi news articles remain separate (no hreflang between them); only section/info pages are paired.
 
 ## Status: what is verified where
 - **A. Automated tests:** CI checks Python compilation, JavaScript syntax, unit/integration tests, static HTML/link checks, and generated-file consistency. Test counts change as coverage grows; use the latest GitHub Actions run to confirm the current revision.
-- **B. Hindi translation:** the GitHub Actions run successfully installed the open-source Argos English→Hindi model and refreshed stored summaries to refresh version 16. No paid API key is required for translation.
-- **C. Deployment:** GitHub Pages deployment passed on 2026-10-19. Check the latest Actions run after content-refresh commits to confirm the live site has the newest generated files.
+- **B. Hindi translation:** optional local Argos English→Hindi translation is attempted when the model is available. It requires no paid translation API key; if unavailable, English-only excerpts should be omitted rather than presented as Hindi. Check the latest Auto Blog logs to confirm model installation and translation for that run.
+- **C. Deployment:** check the latest [GitHub Pages deployment run](https://github.com/solankiabhay/trendpulse-india/actions/workflows/pages-build-deployment) after content-refresh commits to confirm the live site has the newest generated files.
 - **D. Needs domain/DNS:** only if you use a custom domain.
 - **E. Needs external credentials:** none. (AdSense later needs your own account; update the Privacy Policy before enabling ads or analytics.)
 - **F. Post-deployment verification:** live Google News / Trends feed responses (Google may change or rate-limit them; the Trends URL is unverified), Lighthouse / PageSpeed / Core Web Vitals, real-device mobile layout, Search Console sitemap acceptance, structured-data validation.
