@@ -1,2 +1,1 @@
-# TrendPulse India uses an optional local/offline English → Hindi translator.
-argostranslate>=1.9.6,<2
+# Core pipeline uses Python's standard library.\n# Optional local Hindi translation dependencies are in requirements-translation.txt.\n

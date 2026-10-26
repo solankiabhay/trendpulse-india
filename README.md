@@ -25,6 +25,11 @@ invents sources, dates, quotes, statistics or authors. Thin digests without a su
 3. Run `python engine.py --render-only` and commit the regenerated files (CI fails if generated files are stale).
 
 ## Local use
+The core pipeline and tests use Python's standard library. To enable optional offline English→Hindi translation locally, install `requirements-translation.txt` as well:
+```bash
+pip install -r requirements.txt -r requirements-translation.txt
+```
+
 ```
 python -m unittest discover -s tests -v     # all tests, no internet needed
 python engine.py --dry-run                   # fetch live feeds, evaluate, write nothing

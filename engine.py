@@ -1547,12 +1547,13 @@ def render_site(root, cfg, posts, write=True, now=None) -> dict:
     return files
 
 
-def check_generated(root) -> bool:
+def check_generated(root, now=None) -> bool:
     root = Path(root)
     cfg = load_config(root / "config.json")
     posts = load_posts(root / "posts.json")["posts"]
+    now = now or datetime.now(timezone.utc)
     ok = True
-    for rel, content in render_site(root, cfg, posts, write=False).items():
+    for rel, content in render_site(root, cfg, posts, write=False, now=now).items():
         f = root / rel
         if not f.exists() or f.read_text(encoding="utf-8") != content:
             log.error("generated file out of date: %s", rel); ok = False

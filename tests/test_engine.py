@@ -322,8 +322,8 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(htmlcheck.check_tree(self.root, cfg["site_url"]), [])
 
     def test_check_detects_stale_files(self):
-        self.run_(); self.assertTrue(engine.check_generated(self.root))
-        (self.root / "en/index.html").write_text("stale", encoding="utf-8"); self.assertFalse(engine.check_generated(self.root))
+        self.run_(); self.assertTrue(engine.check_generated(self.root, now=NOW))
+        (self.root / "en/index.html").write_text("stale", encoding="utf-8"); self.assertFalse(engine.check_generated(self.root, now=NOW))
 
     def test_path_traversal_in_stored_post_is_ignored(self):
         bad = {"id": "en-1", "lang": "en", "slug": "../../evil", "url": "en/posts/../../evil.html", "title": "t", "summary": "s", "category": "india",
