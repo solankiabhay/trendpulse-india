@@ -52,7 +52,8 @@ DEFAULTS = {
     "max_new_posts_per_run": 4, "max_age_hours": 72, "duplicate_similarity": 0.6,
     "min_title_chars": 12, "min_sources": 2, "min_summary_chars": 160,
     "max_list_items": 60, "index_min_publishers": 3,
-    "max_enrich_candidates_per_run": 20, "max_review_items_per_run": 20, "max_review_items": 100, "feeds": [],
+    "max_enrich_candidates_per_run": 20, "max_refresh_attempts_per_run": 10,
+    "max_review_items_per_run": 20, "max_review_items": 100, "feeds": [],
 }
 POST_URL_RE = re.compile(r"^(en|hi)/posts/[A-Za-z0-9-]+\.html$")
 CLICKBAIT_RE = re.compile(
@@ -1715,7 +1716,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             if (p.get("summary_refresh_version") == SUMMARY_REFRESH_VERSION
                     and attempted and now - attempted < cooldown):
                 continue
-            if retried >= 30:
+            if retried >= cfg.get("max_refresh_attempts_per_run", 10):
                 break
             retried += 1
             candidate = {
