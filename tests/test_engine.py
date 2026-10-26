@@ -672,6 +672,8 @@ class TeaserAndIndexingTests(unittest.TestCase):
         self.assertEqual(engine.tidy("Plain text stays. https://x.example/a"), "Plain text stays.")
         self.assertEqual(engine.tidy(engine.tidy(raw)), engine.tidy(raw))  # idempotent
         self.assertEqual(engine.tidy("भारत ने मैच जीता। Read more at: https://a.example"), "भारत ने मैच जीता।")
+        self.assertEqual(engine.tidy("National Herald: <ul><li><p><em>Police apprehended the suspect.</em></p></li></ul>"),
+                         "National Herald: Police apprehended the suspect.")
 
     def test_feed_teaser_is_cleaned_at_parse_time(self):
         d = ("Roadster demo expected to draw crowds this month with new battery details announced by the maker today .. "

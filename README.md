@@ -62,7 +62,7 @@ available, flags single-publisher topics, and flags sources whose wording differ
 or an optional LLM/human step, which this release does not include.
 
 Topics rejected *only* for being too thin (fewer than 2 publishers and little summary text) are saved in `review.json`
-instead of being dropped. Entries expire after 7 days. To publish one after checking its sources yourself:
+instead of being dropped. Entries expire after 7 days; the pipeline adds at most 20 new review items per run and caps the saved queue at 100 items, so noisy feeds cannot grow it without bound. To publish one after checking its sources yourself:
 ```
 python engine.py --list-review
 python engine.py --approve en-1234567890

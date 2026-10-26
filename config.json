@@ -132,5 +132,7 @@
       "category": "trending",
       "weight": 10
     }
-  ]
+  ],
+  "max_review_items_per_run": 20,
+  "max_review_items": 100
 }

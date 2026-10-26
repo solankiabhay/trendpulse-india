@@ -51,7 +51,8 @@ DEFAULTS = {
     "timeout_seconds": 15, "retries": 2, "retry_backoff_seconds": 2,
     "max_new_posts_per_run": 4, "max_age_hours": 72, "duplicate_similarity": 0.6,
     "min_title_chars": 12, "min_sources": 2, "min_summary_chars": 160,
-    "max_list_items": 60, "index_min_publishers": 3, "feeds": [],
+    "max_list_items": 60, "index_min_publishers": 3,
+    "max_review_items_per_run": 20, "max_review_items": 100, "feeds": [],
 }
 POST_URL_RE = re.compile(r"^(en|hi)/posts/[A-Za-z0-9-]+\.html$")
 CLICKBAIT_RE = re.compile(
@@ -117,7 +118,11 @@ URL_RE = re.compile(r"https?://\S+")
 def tidy(text) -> str:
     """Remove feed teaser debris: 'Read more at: <url>', bare URLs and a mid-word cut before '..'/'…'."""
     ws = lambda x: re.sub(r"\s+", " ", x).strip()  # no NFKC here: it would turn "…" into "..." and break idempotency
-    t = ws(html.unescape(text or ""))
+    # Publisher pages sometimes return HTML fragments inside feed summaries.
+    # Strip tags after entity decoding so encoded markup is cleaned as well.
+    raw = html.unescape(text or "")
+    raw = re.sub(r"</?[A-Za-z][^>]*>", " ", raw)
+    t = ws(raw)
     t = re.sub(r"Read more at:?\s*\S*", "", t, flags=re.I)
     t = ws(URL_RE.sub("", t))
     m = re.search(r"\s*\.{2,}\s*$", t)  # ".." means the feed cut mid-word; an existing "…" is left alone (idempotent)
@@ -1618,8 +1623,10 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                         c["score"] = score(c, cfg, now)
                     reasons = check_quality(c, cfg, now)
                     if reasons:
-                        if reasons == ["insufficient_value"] and not is_duplicate(c, known, cfg["duplicate_similarity"]):
-                            queue.append(review_item(c, now, reasons))  # too thin to publish: human review
+                        if (reasons == ["insufficient_value"]
+                                and len(queue) < cfg.get("max_review_items_per_run", 20)
+                                and not is_duplicate(c, known, cfg["duplicate_similarity"])):
+                            queue.append(review_item(c, now, reasons))  # bounded queue for human review
                         stats["rejected"].append({"title": c["title"], "reasons": reasons}); continue
                     if is_duplicate(c, known, cfg["duplicate_similarity"]):
                         stats["duplicates"] += 1; continue
@@ -1738,9 +1745,11 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
     if queue:
         rev = load_review(root / "review.json")
         have = {i["id"] for i in rev["items"]} | {k["id"] for k in known_entries(posts_doc, pub_doc)} | {p["id"] for p in new_posts}
-        fresh = [q for q in queue if q["id"] not in have]
+        fresh = [q for q in queue if q["id"] not in have][:cfg.get("max_review_items_per_run", 20)]
         cutoff = (now - timedelta(days=7)).isoformat()
         kept = [i for i in rev["items"] if i.get("queued_at", cutoff) >= cutoff]  # stale queue entries expire after 7 days
+        # Bound the committed review file as well as the per-run additions.
+        kept = kept[:max(0, cfg.get("max_review_items", 100) - len(fresh))]
         if fresh or len(kept) != len(rev["items"]):
             write_json(root / "review.json", {"version": 1, "items": kept + fresh})
         stats["queued_for_review"] = len(fresh)
