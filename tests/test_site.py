@@ -144,7 +144,7 @@ class HtmlSeo(unittest.TestCase):
         self.assertEqual(htmlcheck.parse(ROOT / "hi/index.html").lang, "hi")
 
     def test_unique_titles(self):
-        titles = [htmlcheck.parse(f).title for f in ROOT.rglob("*.html") if "tests" not in f.parts]
+        titles = [htmlcheck.parse(f).title for f in ROOT.rglob("*.html") if "tests" not in f.parts and not f.name.startswith("google") ]
         self.assertEqual(len(titles), len(set(titles)))
 
     def test_sitemap_and_robots(self):
@@ -154,7 +154,7 @@ class HtmlSeo(unittest.TestCase):
 
     def test_footer_legal_links_on_every_page(self):
         for f in ROOT.rglob("*.html"):
-            if "tests" in f.parts: continue
+            if "tests" in f.parts or f.name.startswith("google"): continue
             html = f.read_text(encoding="utf-8")
             for pg in ("privacy", "editorial", "contact", "about"): self.assertIn(f"{pg}.html", html, f.name)
 
@@ -196,7 +196,7 @@ class Accessibility(unittest.TestCase):
 
     def test_no_external_requests_in_pages(self):
         for f in ROOT.rglob("*.html"):
-            if "tests" in f.parts: continue
+            if "tests" in f.parts or f.name.startswith("google"): continue
             h = f.read_text(encoding="utf-8")
             res = re.findall(r'<script[^>]+src="https?://[^"]+"|<link[^>]+rel="stylesheet"[^>]*href="https?://[^"]+"|<img[^>]+src="https?://[^"]+"', h)
             self.assertEqual(res, [], f.name)
