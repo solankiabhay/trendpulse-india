@@ -1,0 +1,2 @@
+# Optional offline English-to-Hindi translation (installed by the Auto Blog workflow).
+argostranslate>=1.9.6,<2
