@@ -180,10 +180,11 @@ def indexable(p, cfg) -> bool:
     inflate a short teaser. Keep weak article pages noindex until enrichment
     adds at least 60 words of non-boilerplate source-attributed context.
     """
-    summary = tidy(p.get("source_summary", "") or "")
+    raw_summary = p.get("source_summary", "") or ""
+    summary = tidy(raw_summary)
     if len(summary) < cfg["min_summary_chars"] or summary_needs_refresh(summary):
         return False
-    if headline_rollup_needs_refresh(summary, p.get("title", ""), p.get("sources", [])) and not p.get("article_body"):
+    if headline_rollup_needs_refresh(raw_summary, p.get("title", ""), p.get("sources", [])) and not p.get("article_body"):
         return False
     # Avoid indexing a page in the wrong language when its digest is clearly dominated by another script.
     lang = p.get("lang")
@@ -1674,7 +1675,8 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
         # Prioritise the weakest summaries first; oldest-first can leave newer thin
         # stories waiting behind many already-attempted articles.
         def refresh_priority(item):
-            summary = tidy(item.get("source_summary") or "")
+            raw_summary = item.get("source_summary") or ""
+            summary = tidy(raw_summary)
             attempted_at = parse_date(item.get("summary_refresh_attempted_at", ""))
             recent_attempt = bool(attempted_at and now - attempted_at < cooldown)
             # Prefer untried items first. Within previously attempted items,
@@ -1682,7 +1684,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             # The cooldown skip below still applies only to the current version;
             # a new refresh version can therefore retry recent attempts safely.
             language_issue = content_language_needs_refresh(summary, item.get("lang", "en"))
-            headline_issue = headline_rollup_needs_refresh(summary, item.get("title", ""), item.get("sources", [])) and not item.get("article_body")
+            headline_issue = headline_rollup_needs_refresh(raw_summary, item.get("title", ""), item.get("sources", [])) and not item.get("article_body")
             return (
                 0 if source_identity_needs_cleanup(item) else 1,
                 recent_attempt,
@@ -1692,13 +1694,14 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             )
 
         for p in sorted(posts_doc["posts"], key=refresh_priority):
-            current = tidy(p.get("source_summary") or "")
+            current_raw = p.get("source_summary") or ""
+            current = tidy(current_raw)
             # A summary can pass the word-count gate but still lack the full reader-facing article.
             placeholder = (not p.get("article_body") or not current
                            or current.casefold().startswith(("coverage from ", "स्रोतों की रिपोर्ट:"))
                            or is_boilerplate_summary(current)
                            or content_language_needs_refresh(current, p.get("lang", "en"))
-                           or (headline_rollup_needs_refresh(current, p.get("title", ""), p.get("sources", []))
+                           or (headline_rollup_needs_refresh(current_raw, p.get("title", ""), p.get("sources", []))
                                and not p.get("article_body")))
             # A refresh-version bump must actually reprocess previously published
             # articles, even when their old summaries pass today's length checks.
