@@ -242,7 +242,7 @@ class Workflows(unittest.TestCase):
     def test_readme_schedule_and_post_limit_match_config(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
-        self.assertIn('`0 */2 * * *`', self.ab)
+        self.assertIn('- cron: "0 */2 * * *"', self.ab)
         self.assertIn('`0 */2 * * *`', readme)
         self.assertIn(f"At most {cfg['max_new_posts_per_run']} new posts per run", readme)
 
