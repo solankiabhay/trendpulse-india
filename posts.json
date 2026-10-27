@@ -279,7 +279,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:40:23.404530+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -665,7 +665,7 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:40:23.404530+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -774,7 +774,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:40:23.404530+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -901,7 +901,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-10-26T06:40:23.404530+00:00",
+      "generated_at": "2026-10-27T21:57:35.865138+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -932,7 +932,7 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:40:23.404530+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -1020,7 +1020,7 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:40:23.404530+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -2919,7 +2919,7 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:40:23.404530+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -3078,7 +3078,7 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:40:23.404530+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -3553,7 +3553,7 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:40:23.404530+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -3643,7 +3643,7 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T07:14:45.700246+00:00",
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -4215,7 +4215,9 @@
           "url": "https://economictimes.indiatimes.com/markets/stocks/news/paytm-shares-rise-2-after-q2-results-what-are-jefferies-goldman-sachs-and-others-saying/articleshow/135224018.cms?from=mdr",
           "publisher": "The Economic Times"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-27T21:57:35.865138+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-61800620fd",
@@ -4544,6 +4546,138 @@
           "title": "Serie A Matchweek 9 Odds: Midweek Picks For All 10 Games",
           "url": "https://rg.org/news/soccer/venezia-vs-inter-genoa-vs-juventus-serie-a-matchweek-9-odds-2026",
           "publisher": "RG.org"
+        }
+      ]
+    },
+    {
+      "id": "en-91063a03eb",
+      "lang": "en",
+      "slug": "el-papa-llama-a-reconstruir-la-paz-y-rechaza-la-guerra-en-no-91063a03eb",
+      "url": "en/posts/el-papa-llama-a-reconstruir-la-paz-y-rechaza-la-guerra-en-no-91063a03eb.html",
+      "title": "El Papa llama a reconstruir la paz y rechaza la guerra en nombre de Dios",
+      "summary": "Vatican News: “¡Debemos reconstruir la paz en todas partes, no preparar más guerras! ¡La guerra nunca puede librarse en nombre de Dios! Para nosotros, los significa, en realidad,creyentes, «luchar en…",
+      "source_summary": "Vatican News: “¡Debemos reconstruir la paz en todas partes, no preparar más guerras! ¡La guerra nunca puede librarse en nombre de Dios! Para nosotros, los significa, en realidad,creyentes, «luchar en nombre de la religión golpear a la religión misma» (Magnifica humanitas, 223). No existe ninguna guerra santa…\n\nLa Razón: En su discurso Juan Pablo II afirmó: «Tal vez nunca como ahora en la historia de la humanidad ha resultado más evidente el vínculo intrínseco entre una actitud auténticamente religiosa y el gran bien de la paz». Así nació el «espíritu de Asís» que la…\n\nArchidiocesis de Madrid: Encuentro Interreligioso por la Paz en el Espíritu de Asís: «recuperar vínculos que permitan superar el miedo y el rechazo al otro»",
+      "article_body": "Vatican News: ““¡Debemos reconstruir la paz en todas partes, no preparar más guerras! ¡La guerra nunca puede librarse en nombre de Dios! Para nosotros, los significa, en realidad,creyentes, «luchar en nombre de la religión golpear a la religión misma» (Magnifica humanitas, 223). No existe ninguna guerra santa…”\n\nLa Razón: “En su discurso Juan Pablo II afirmó: «Tal vez nunca como ahora en la historia de la humanidad ha resultado más evidente el vínculo intrínseco entre una actitud auténticamente religiosa y el gran bien de la paz». Así nació el «espíritu de Asís» que la…”\n\nArchidiocesis de Madrid: “Encuentro Interreligioso por la Paz en el Espíritu de Asís: «recuperar vínculos que permitan superar el miedo y el rechazo al otro»”",
+      "category": "trending",
+      "published_at": "2026-10-27T21:40:00+00:00",
+      "generated_at": "2026-10-27T21:57:35.865138+00:00",
+      "kind": "digest",
+      "keyword": "como",
+      "score": 89.84,
+      "sources": [
+        {
+          "title": "El Papa llama a reconstruir la paz y rechaza la guerra en nombre de Dios",
+          "url": "https://www.vaticannews.va/es/papa/news/2026-10/papa-llama-reconstruir-paz-y-rechaza-la-guerra-en-nombre-dios.html",
+          "publisher": "Vatican News"
+        },
+        {
+          "title": "El espíritu de Asís",
+          "url": "https://www.larazon.es/sociedad/espiritu-asis_202610256addc7de658beb674b27c802.html",
+          "publisher": "La Razón"
+        },
+        {
+          "title": "Encuentro Interreligioso por la Paz en el Espíritu de Asís: «recuperar vínculos que permitan superar el miedo y el rechazo al otro",
+          "url": "https://archimadrid.org/index.php/oficina-de-informacion/noticias-madrid/encuentro-interreligioso-por-la-paz-en-el-espiritu-de-asis-recuperar-vinculos-que-permitan-superar-el-miedo-y-el-rechazo-al-otro",
+          "publisher": "Archidiocesis de Madrid"
+        }
+      ]
+    },
+    {
+      "id": "en-aaa0a24619",
+      "lang": "en",
+      "slug": "nzc-revives-single-ball-rule-for-ford-trophy-trial-aaa0a24619",
+      "url": "en/posts/nzc-revives-single-ball-rule-for-ford-trophy-trial-aaa0a24619.html",
+      "title": "NZC revives single-ball rule for Ford Trophy trial",
+      "summary": "NZC: With The Ford Trophy regular season divided into two distinct blocks — the first five rounds from now until November; the last five rounds plus finals in February next year, NZC will review the…",
+      "source_summary": "NZC: With The Ford Trophy regular season divided into two distinct blocks — the first five rounds from now until November; the last five rounds plus finals in February next year, NZC will review the trial after the first block of games to decide whether to…",
+      "article_body": "NZC: “With The Ford Trophy regular season divided into two distinct blocks — the first five rounds from now until November; the last five rounds plus finals in February next year, NZC will review the trial after the first block of games to decide whether to…”",
+      "category": "trending",
+      "published_at": "2026-10-27T21:20:00+00:00",
+      "generated_at": "2026-10-27T21:57:35.865138+00:00",
+      "kind": "digest",
+      "keyword": "ford trophy",
+      "score": 89.65,
+      "sources": [
+        {
+          "title": "NZC revives single-ball rule for Ford Trophy trial",
+          "url": "https://www.cricinfo.com/story/new-zealand-cricket-nzc-revives-single-ball-rule-for-ford-trophy-trial-1560288",
+          "publisher": "Cricinfo"
+        },
+        {
+          "title": "New ball trial set to invigorate Ford Trophy",
+          "url": "https://www.nzc.nz/new-ball-trial-set-to-invigorate-ford-trophy/",
+          "publisher": "NZC"
+        },
+        {
+          "title": "NZC revives single-ball rule for Ford Trophy trial",
+          "url": "https://www.espn.in/cricket/story/_/id/50297292/new-zealand-cricket-nzc-revives-single-ball-rule-ford-trophy-trial",
+          "publisher": "ESPN India"
+        }
+      ]
+    },
+    {
+      "id": "en-5e6f7e7d58",
+      "lang": "en",
+      "slug": "roma-vs-cagliari-italian-serie-a-stats-head-to-head-5e6f7e7d58",
+      "url": "en/posts/roma-vs-cagliari-italian-serie-a-stats-head-to-head-5e6f7e7d58.html",
+      "title": "Roma vs Cagliari: Italian Serie A stats & head-to-head",
+      "summary": "BBC: Follow live text commentary, score updates and match stats from Roma vs Cagliari in the Italian Serie A\n\nChiesa Di Totti: Another midweek, another game. There really is no let up in the schedule…",
+      "source_summary": "BBC: Follow live text commentary, score updates and match stats from Roma vs Cagliari in the Italian Serie A\n\nChiesa Di Totti: Another midweek, another game. There really is no let up in the schedule right now and a Tuesday night Serie A clash with Cagliari awaits Roma this time around. Fresh from Saturday’s 3-3 draw with Napoli - or maybe not so fresh, come to think…\n\nYahoo Sports: \"With this schedule, it is inevitable, but it is also worth noting that Castro played two games ago and was decisive. We need to keep all our players in top shape.\"",
+      "article_body": "BBC: “Follow live text commentary, score updates and match stats from Roma vs Cagliari in the Italian Serie A”\n\nChiesa Di Totti: “Another midweek, another game. There really is no let up in the schedule right now and a Tuesday night Serie A clash with Cagliari awaits Roma this time around. Fresh from Saturday’s 3-3 draw with Napoli - or maybe not so fresh, come to think…”\n\nYahoo Sports: “\"With this schedule, it is inevitable, but it is also worth noting that Castro played two games ago and was decisive. We need to keep all our players in top shape.\"”",
+      "category": "trending",
+      "published_at": "2026-10-27T20:30:00+00:00",
+      "generated_at": "2026-10-27T21:57:35.865138+00:00",
+      "kind": "digest",
+      "keyword": "roma",
+      "score": 89.19,
+      "sources": [
+        {
+          "title": "Roma vs Cagliari: Italian Serie A stats & head-to-head",
+          "url": "https://www.bbc.com/sport/football/live/ck3r57d482xqt",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Roma’s Unbeaten Run Faces Another Test in Midweek Clash With Cagliari",
+          "url": "https://www.chiesaditotti.com/roma-matchday-coverage/44023/romas-unbeaten-run-faces-another-test-in-midweek-clash-with-cagliari",
+          "publisher": "Chiesa Di Totti"
+        },
+        {
+          "title": "Gasperini: ‘Roma need to keep everyone in top shape, Castro decisive’",
+          "url": "https://sports.yahoo.com/articles/gasperini-roma-keep-everyone-top-194000573.html",
+          "publisher": "Yahoo Sports"
+        }
+      ]
+    },
+    {
+      "id": "en-ab39d32f18",
+      "lang": "en",
+      "slug": "amazon-ads-unboxed-2026-amazon-positions-its-ad-business-aro-ab39d32f18",
+      "url": "en/posts/amazon-ads-unboxed-2026-amazon-positions-its-ad-business-aro-ab39d32f18.html",
+      "title": "Amazon Ads unBoxed 2026: Amazon Positions Its Ad Business Around Agents",
+      "summary": "The Futurum Group: Amazon Ads: Right out of the gate, unBoxed 2026 delivered an immediately coherent product and ROI story for Amazon Ads. One could argue that merging the DSP and console into Amazon…",
+      "source_summary": "The Futurum Group: Amazon Ads: Right out of the gate, unBoxed 2026 delivered an immediately coherent product and ROI story for Amazon Ads. One could argue that merging the DSP and console into Amazon Ads Agent was overdue housekeeping as much as innovation, but the decision to pin…",
+      "article_body": "The Futurum Group: “Amazon Ads: Right out of the gate, unBoxed 2026 delivered an immediately coherent product and ROI story for Amazon Ads. One could argue that merging the DSP and console into Amazon Ads Agent was overdue housekeeping as much as innovation, but the decision to pin…”",
+      "category": "trending",
+      "published_at": "2026-10-27T20:30:00+00:00",
+      "generated_at": "2026-10-27T21:57:35.865138+00:00",
+      "kind": "digest",
+      "keyword": "ad",
+      "score": 89.19,
+      "sources": [
+        {
+          "title": "Amazon Ads unBoxed 2026: Amazon Positions Its Ad Business Around Agents",
+          "url": "https://futurumgroup.com/insights/amazon-ads-unboxed-2026-amazon-positions-its-ad-business-around-agents/",
+          "publisher": "The Futurum Group"
+        },
+        {
+          "title": "Analysis | Democrats are expanding their House map. Do they have the money to deliver?",
+          "url": "https://www.washingtonpost.com/politics/2026/10/22/democrats-are-expanding-their-house-map-do-they-have-money-deliver/",
+          "publisher": "The Washington Post"
+        },
+        {
+          "title": "DCCC’s new ad buys",
+          "url": "https://punchbowl.news/article/house/dccc-ad-buys/",
+          "publisher": "Punchbowl News"
         }
       ]
     }
