@@ -1748,7 +1748,7 @@
           "publisher": "BBC"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-28T08:03:18.857483+00:00",
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
       "summary_refresh_version": 21,
       "article_body": "Sky Sports: “Welcome to The Radar , a Sky Sports column in which Nick Wright uses a blend of data and opinion to shed light on need-to-know Premier League stories. This week: 🔺Manzambi's big impact at Villa 🔺Janelt's excellent defensive work 🔺A glimmer of hope for Arbeloa?…”\n\nBBC: “MATCH REPORT: Champions League - Aston Villa 6-0 Fenerbahce”"
     },
@@ -2134,7 +2134,7 @@
           "publisher": "The Daily Star"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-28T08:03:18.857483+00:00",
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -3288,7 +3288,7 @@
           "publisher": "MadeInFOOT"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-28T08:03:18.857483+00:00",
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -4183,7 +4183,7 @@
           "publisher": "Investing.com India"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-28T08:03:18.857483+00:00",
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -4702,7 +4702,7 @@
           "publisher": "Punchbowl News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-28T08:03:18.857483+00:00",
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -5601,7 +5601,9 @@
           "url": "https://lastwordonsports.com/tennis/2026/10/28/atp-basel-day-4-predictions-djokovic-struff/",
           "publisher": "Last Word On Sports"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-8f05ac6694",
@@ -5704,7 +5706,9 @@
           "url": "https://www.telegraphindia.com/world/one-in-four-south-asian-americans-who-voted-for-donald-trump-in-2024-eye-democrats-in-midterms/cid/2186467",
           "publisher": "Telegraph India"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-4d820a002e",
@@ -5840,7 +5844,9 @@
           "url": "https://www.cricbuzz.com/cricket-news/140672/roston-chase-financial-issues-have-motivated-us-to-do-even-better",
           "publisher": "Cricbuzz"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-5bba018b4a",
@@ -5873,7 +5879,9 @@
           "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-vedanta-oil-and-gas-posts-higher-profit-in-q2-2026-93CH-5664317",
           "publisher": "Investing.com India"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-e3f99eacc3",
@@ -5905,6 +5913,239 @@
           "title": "Reeling under impact of El Niño, parts of Telangana to see rain for next 4 days; Hyderabad likely to stay",
           "url": "https://timesofindia.indiatimes.com/city/hyderabad/reeling-under-impact-of-el-nio-parts-of-telangana-to-see-rain-for-next-4-days-hyderabad-likely-to-stay-dry-as-cyclone-arnab-gives-it-a-miss/articleshow/135315635.cms",
           "publisher": "The Times of India"
+        }
+      ],
+      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-22dce2adda",
+      "lang": "en",
+      "slug": "je-suis-persuade-quil-y-en-aura-quelques-uns-dans-le-stade-l-22dce2adda",
+      "url": "en/posts/je-suis-persuade-quil-y-en-aura-quelques-uns-dans-le-stade-l-22dce2adda.html",
+      "title": "« Je suis persuadé qu’il y en aura quelques-uns dans le stade » : le Lillois Benjamin André évoque l’absence des supporters lensois",
+      "summary": "OneFootball: Ce derby se disputera sans supporters lensois dans le parcage visiteurs. Une décision prise par le RC Lens à la suite des incidents survenus à Bruges en Ligue des champions. La…",
+      "source_summary": "OneFootball: Ce derby se disputera sans supporters lensois dans le parcage visiteurs. Une décision prise par le RC Lens à la suite des incidents survenus à Bruges en Ligue des champions. La préfecture a ensuite publié son traditionnel arrêté. « Pour les supporters, c’est une déception…\n\nLe Petit Lillois: Pour le Derby du Nord, le LOSC devra se méfier de Michaël Cuisance. Arrivé à Lens cet été en provenance du Hertha Berlin, le milieu de terrain, qui a passé la majeure partie de sa carrière en Allemagne, pourrait être un véritable poison dans l’entrejeu.",
+      "article_body": "OneFootball: “Ce derby se disputera sans supporters lensois dans le parcage visiteurs. Une décision prise par le RC Lens à la suite des incidents survenus à Bruges en Ligue des champions. La préfecture a ensuite publié son traditionnel arrêté. « Pour les supporters, c’est une déception…”\n\nLe Petit Lillois: “Pour le Derby du Nord, le LOSC devra se méfier de Michaël Cuisance. Arrivé à Lens cet été en provenance du Hertha Berlin, le milieu de terrain, qui a passé la majeure partie de sa carrière en Allemagne, pourrait être un véritable poison dans l’entrejeu.”",
+      "category": "trending",
+      "published_at": "2026-10-30T18:40:00+00:00",
+      "generated_at": "2026-10-30T19:03:24.290179+00:00",
+      "kind": "digest",
+      "keyword": "ligue 1",
+      "score": 89.78,
+      "sources": [
+        {
+          "title": "« Je suis persuadé qu’il y en aura quelques-uns dans le stade » : le Lillois Benjamin André évoque l’absence des supporters lensois",
+          "url": "https://onefootball.com/fr/news/je-suis-persuade-quil-y-en-aura-quelques-uns-dans-le-stade-le-lillois-benjamin-andre-evoque-labsence-des-supporters-lensois-43695840",
+          "publisher": "OneFootball"
+        },
+        {
+          "title": "LOSC – RC Lens : Pourquoi faut-il se méfier de Michaël Cuisance ?",
+          "url": "https://lepetitlillois.com/2026/10/30/losc-rclens-pourquoi-mefier-michael-cuisance/",
+          "publisher": "Le Petit Lillois"
+        },
+        {
+          "title": "\"Direct\"!! PSG - Le Havre En Direct 30 octobre 2026",
+          "url": "https://www.portofrotterdam.com/sites/default/files/uploads/360panorama/index.html?xml=data%3Avideo%2Fmp4%3Bbase64%2CPGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2hhcHB5aHVicy5ubC92b3MvbmV3L2EueG1sIi8+PC9rcnBhbm8+&id=video-psg-le-havre-lie-en-crkfdxs",
+          "publisher": "Port of Rotterdam"
+        }
+      ]
+    },
+    {
+      "id": "en-9811a5fe5a",
+      "lang": "en",
+      "slug": "analysis-worried-about-a-new-wave-of-ai-hacks-take-these-ste-9811a5fe5a",
+      "url": "en/posts/analysis-worried-about-a-new-wave-of-ai-hacks-take-these-ste-9811a5fe5a.html",
+      "title": "Analysis | Worried about a new wave of AI hacks? Take these steps right now.",
+      "summary": "Fox News: A wave of AI-powered cyberattacks dubbed \"Black October\" has exposed growing cybersecurity threats, including stolen credentials, unauthorized charges and vulnerabilities in widely used…",
+      "source_summary": "Fox News: A wave of AI-powered cyberattacks dubbed \"Black October\" has exposed growing cybersecurity threats, including stolen credentials, unauthorized charges and vulnerabilities in widely used website software. (iStock)\n\nABC News - Breaking News, Latest News and Videos: Salesforce CEO Marc Benioff responded, \"Jason is 100% right. Code red.\"",
+      "article_body": "Fox News: “A wave of AI-powered cyberattacks dubbed \"Black October\" has exposed growing cybersecurity threats, including stolen credentials, unauthorized charges and vulnerabilities in widely used website software. (iStock)”\n\nABC News - Breaking News, Latest News and Videos: “Salesforce CEO Marc Benioff responded, \"Jason is 100% right. Code red.\"”",
+      "category": "trending",
+      "published_at": "2026-10-30T18:40:00+00:00",
+      "generated_at": "2026-10-30T19:03:24.290179+00:00",
+      "kind": "digest",
+      "keyword": "substack",
+      "score": 89.78,
+      "sources": [
+        {
+          "title": "Analysis | Worried about a new wave of AI hacks? Take these steps right now.",
+          "url": "https://www.washingtonpost.com/technology/2026/10/29/worried-about-new-wave-ai-hacks-take-these-steps-right-now/",
+          "publisher": "The Washington Post"
+        },
+        {
+          "title": "AI-powered cyberattacks fuel 'Black October' fears",
+          "url": "https://www.foxnews.com/tech/ai-powered-cyberattacks-fuel-black-october-fears",
+          "publisher": "Fox News"
+        },
+        {
+          "title": "A 'code red' for cybersecurity? How to prepare for a possible wave of AI hacking",
+          "url": "https://abcnews.com/Technology/code-red-cybersecurity-prepare-wave-ai-hacking/story?id=137518198",
+          "publisher": "ABC News - Breaking News, Latest News and Videos"
+        }
+      ]
+    },
+    {
+      "id": "en-278b2dfa5e",
+      "lang": "en",
+      "slug": "manjanathi-mari-selvaraj-wraps-first-shoot-schedule-of-kathi-278b2dfa5e",
+      "url": "en/posts/manjanathi-mari-selvaraj-wraps-first-shoot-schedule-of-kathi-278b2dfa5e.html",
+      "title": "'Manjanathi': Mari Selvaraj Wraps First Shoot Schedule of Kathir-Kayadu Lohar Starrer",
+      "summary": "Cinema Express: Director Mari Selvaraj took to social media to announce that his upcoming directorial, Manjanathi has wrapped the first schedule of filming. The director has also produced the film…",
+      "source_summary": "Cinema Express: Director Mari Selvaraj took to social media to announce that his upcoming directorial, Manjanathi has wrapped the first schedule of filming. The director has also produced the film along with his wife Divya, under their Navvi Studios banner. Also producing is Sushant Prasad, under his…\n\nThe Times of India: Director Mari Selvaraj’s upcoming film ‘Manjanathi’ has completed its first shooting schedule. Actress Kayadu Lohar announced the update on social media, sharing a behind-the-scenes picture from the sets and reflecting on her experience of working with the filmmaker.The black-and-white photograph shared on Instagram shows Kayadu…",
+      "article_body": "Cinema Express: “Director Mari Selvaraj took to social media to announce that his upcoming directorial, Manjanathi has wrapped the first schedule of filming. The director has also produced the film along with his wife Divya, under their Navvi Studios banner. Also producing is Sushant Prasad, under his…”\n\nThe Times of India: “Director Mari Selvaraj’s upcoming film ‘Manjanathi’ has completed its first shooting schedule. Actress Kayadu Lohar announced the update on social media, sharing a behind-the-scenes picture from the sets and reflecting on her experience of working with the filmmaker.The black-and-white photograph shared on Instagram shows Kayadu…”",
+      "category": "trending",
+      "published_at": "2026-10-30T18:30:00+00:00",
+      "generated_at": "2026-10-30T19:03:24.290179+00:00",
+      "kind": "digest",
+      "keyword": "kayadu lohar",
+      "score": 89.69,
+      "sources": [
+        {
+          "title": "'Manjanathi': Mari Selvaraj Wraps First Shoot Schedule of Kathir-Kayadu Lohar Starrer",
+          "url": "https://www.imdb.com/news/ni66087075/?ref_=int_nwr_1",
+          "publisher": "IMDb"
+        },
+        {
+          "title": "Mari Selvaraj's Manjanathi wraps first schedule of filming",
+          "url": "https://www.cinemaexpress.com/tamil/news/2026/Oct/29/mari-selvarajs-manjanathi-wraps-first-schedule-of-filming",
+          "publisher": "Cinema Express"
+        },
+        {
+          "title": "Kayadu Lohar shares BTS picture as Mari Selvaraj’s ‘Manjanathi’ wraps first shooting schedule, says the f",
+          "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/kayadu-lohar-shares-bts-picture-as-mari-selvarajs-manjanathi-wraps-first-shooting-schedule-says-the-film-offered-her-a-different-world/articleshow/135139518.cms",
+          "publisher": "The Times of India"
+        }
+      ]
+    },
+    {
+      "id": "en-660974bc02",
+      "lang": "en",
+      "slug": "voorspelling-le-havre-vs-paris-saint-germain-zullen-de-bezoe-660974bc02",
+      "url": "en/posts/voorspelling-le-havre-vs-paris-saint-germain-zullen-de-bezoe-660974bc02.html",
+      "title": "Voorspelling Le Havre vs Paris Saint-Germain: Zullen de bezoekers hun winstreeks voortzetten?",
+      "summary": "Vietnam.vn: Gezien hun huidige vorm, positie in de competitie en onderlinge resultaten, wijzen alle indicatoren in het voordeel van Paris Saint-Germain. De bezoekers zijn in aanzienlijk betere vorm…",
+      "source_summary": "Vietnam.vn: Gezien hun huidige vorm, positie in de competitie en onderlinge resultaten, wijzen alle indicatoren in het voordeel van Paris Saint-Germain. De bezoekers zijn in aanzienlijk betere vorm en hebben alle reden om hun winstreeks voort te zetten.\n\nVoetbalNieuws.nl: Mika Godts weer vrijdagavond wéér te scoren voor Paris Saint-Germain. De Belgische linksbuiten begint in de basis tegen Le Havre en schiet de gelijkmaker tegen de touwen.",
+      "article_body": "Vietnam.vn: “Gezien hun huidige vorm, positie in de competitie en onderlinge resultaten, wijzen alle indicatoren in het voordeel van Paris Saint-Germain. De bezoekers zijn in aanzienlijk betere vorm en hebben alle reden om hun winstreeks voort te zetten.”\n\nVoetbalNieuws.nl: “Mika Godts weer vrijdagavond wéér te scoren voor Paris Saint-Germain. De Belgische linksbuiten begint in de basis tegen Le Havre en schiet de gelijkmaker tegen de touwen.”",
+      "category": "trending",
+      "published_at": "2026-10-30T18:20:00+00:00",
+      "generated_at": "2026-10-30T19:03:24.290179+00:00",
+      "kind": "digest",
+      "keyword": "mika godts",
+      "score": 89.6,
+      "sources": [
+        {
+          "title": "Voorspelling Le Havre vs Paris Saint-Germain: Zullen de bezoekers hun winstreeks voortzetten?",
+          "url": "https://www.vietnam.vn/nl/nhan-dinh-le-havre-vs-paris-saint-germain-khach-tiep-tuc-bay-cao",
+          "publisher": "Vietnam.vn"
+        },
+        {
+          "title": "Z’n tweede goal al op vijf dagen tijd: ontketende Mika Godts opnieuw trefzeker voor PSG op bezoek bij rode lantaarn",
+          "url": "https://myprivacy.dpgmedia.be/consent?siteKey=Uqxf9TXhjmaG4pbQ&callbackUrl=https%3A%2F%2Fwww.hln.be%2Fprivacy-gate%2Faccept-tcf2%3FredirectUri%3D%252Frode-duivels%252Fzn-tweede-goal-al-op-vijf-dagen-tijd-ontketende-mika-godts-opnieuw-trefzeker-voor-psg-op-bezoek-bij-rode-lantaarn~a844765a%252F&isLoggedIn=false",
+          "publisher": "HLN"
+        },
+        {
+          "title": "Godts laat zich wéér zien en leidt PSG-comeback in tegen hekkensluiter",
+          "url": "https://www.voetbalnieuws.nl/videos/2153109/godts-laat-zich-weer-zien-en-leidt-psg-comeback-in-tegen-hekkensluiter.html",
+          "publisher": "VoetbalNieuws.nl"
+        }
+      ]
+    },
+    {
+      "id": "en-f7c1e8e6f1",
+      "lang": "en",
+      "slug": "cyclone-arnab-andhra-pradesh-yanam-puducherry-and-odisha-dat-f7c1e8e6f1",
+      "url": "en/posts/cyclone-arnab-andhra-pradesh-yanam-puducherry-and-odisha-dat-f7c1e8e6f1.html",
+      "title": "Cyclone Arnab: Andhra Pradesh, Yanam (Puducherry) and Odisha (Date: 30 October 2026, Time: 08:00 IST)",
+      "summary": "The Hindu: VIJAYAWADA Chief Minister N. Chandrababu Naidu’s prompt response to the situation caused by Cyclone Arnab helped minimise property damage and prevent a major loss of life. His continuous…",
+      "source_summary": "The Hindu: VIJAYAWADA Chief Minister N. Chandrababu Naidu’s prompt response to the situation caused by Cyclone Arnab helped minimise property damage and prevent a major loss of life. His continuous monitoring of the situation in coordination with Collectors of the affected districts and through the Real Time…",
+      "article_body": "The Hindu: “VIJAYAWADA Chief Minister N. Chandrababu Naidu’s prompt response to the situation caused by Cyclone Arnab helped minimise property damage and prevent a major loss of life. His continuous monitoring of the situation in coordination with Collectors of the affected districts and through the Real Time…”",
+      "category": "trending",
+      "published_at": "2026-10-30T18:20:00+00:00",
+      "generated_at": "2026-10-30T19:03:24.290179+00:00",
+      "kind": "digest",
+      "keyword": "satellite images",
+      "score": 89.6,
+      "sources": [
+        {
+          "title": "Cyclone Arnab: Andhra Pradesh, Yanam (Puducherry) and Odisha (Date: 30 October 2026, Time: 08:00 IST)",
+          "url": "https://reliefweb.int/report/india/cyclone-arnab-andhra-pradesh-yanam-puducherry-and-odisha-date-30-october-2026-time-0800-ist",
+          "publisher": "ReliefWeb"
+        },
+        {
+          "title": "Chandrababu Naidu’s prompt response helps minimise cyclone damage",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/chandrababu-naidus-prompt-response-helps-minimise-cyclone-damage/article71645859.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Cyclone Arnab weakens over north Chhattisgarh, new system takes shape over Bay of Bengal",
+          "url": "https://www.telegraphindia.com/west-bengal/kolkata/cyclone-arnab-weakens-over-north-chhattisgarh-new-system-takes-shape-over-bay-of-bengal-prnt/cid/2186944",
+          "publisher": "Telegraph India"
+        }
+      ]
+    },
+    {
+      "id": "en-713fea2553",
+      "lang": "en",
+      "slug": "nasdaq-plunges-3-heads-for-worst-day-since-june-as-tech-stoc-713fea2553",
+      "url": "en/posts/nasdaq-plunges-3-heads-for-worst-day-since-june-as-tech-stoc-713fea2553.html",
+      "title": "Nasdaq plunges 3%, heads for worst day since June as tech stocks lead sell-off: Live updates",
+      "summary": "CNBC: The tech-heavy Nasdaq lost 3.7% and was on track for its worst single-day performance since June. The index was also roughly 9% below its recent high. The blue-chip Dow was down 741 points, or…",
+      "source_summary": "CNBC: The tech-heavy Nasdaq lost 3.7% and was on track for its worst single-day performance since June. The index was also roughly 9% below its recent high. The blue-chip Dow was down 741 points, or 1.4%, while the S&P 500 slid 2.4%.\n\nTradingView: By Johann M Cherian and Shashwat ChauhanMore than $2 trillion in market value is set to be wiped from the tech-heavy Nasdaq 100 this month, as Big Tech earnings intensified investor scrutiny of whether the billions being poured into artificial intelligence can generate returns quickly…",
+      "article_body": "CNBC: “The tech-heavy Nasdaq lost 3.7% and was on track for its worst single-day performance since June. The index was also roughly 9% below its recent high. The blue-chip Dow was down 741 points, or 1.4%, while the S&P 500 slid 2.4%.”\n\nTradingView: “By Johann M Cherian and Shashwat ChauhanMore than $2 trillion in market value is set to be wiped from the tech-heavy Nasdaq 100 this month, as Big Tech earnings intensified investor scrutiny of whether the billions being poured into artificial intelligence can generate returns quickly…”",
+      "category": "trending",
+      "published_at": "2026-10-30T18:20:00+00:00",
+      "generated_at": "2026-10-30T19:03:24.290179+00:00",
+      "kind": "digest",
+      "keyword": "nasdaq live",
+      "score": 89.6,
+      "sources": [
+        {
+          "title": "Nasdaq plunges 3%, heads for worst day since June as tech stocks lead sell-off: Live updates",
+          "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "Stock Market Warning: Nasdaq Leads a Sharp Pre-Market Decline",
+          "url": "https://www.investing.com/analysis/stock-market-warning-nasdaq-leads-a-sharp-premarket-decline-200690585",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46G1L4:0-nasdaq-faces-2-trillion-wipeout-in-october-as-ai-spending-fears-deepen/",
+          "publisher": "TradingView"
+        }
+      ]
+    },
+    {
+      "id": "en-a130fd0cdc",
+      "lang": "en",
+      "slug": "maharashtra-fda-completes-proceedings-against-shah-rukh-khan-a130fd0cdc",
+      "url": "en/posts/maharashtra-fda-completes-proceedings-against-shah-rukh-khan-a130fd0cdc.html",
+      "title": "Maharashtra FDA completes proceedings against Shah Rukh Khan, Ajay Devgn and Tiger Shroff over pan masala",
+      "summary": "The Times of India: Maharashtra’s Food and Drug Administration (FDA) has completed its proceedings against Shah Rukh Khan, Ajay Devgn and Tiger Shroff over their Vimal Pan Masala advertisements. FDA…",
+      "source_summary": "The Times of India: Maharashtra’s Food and Drug Administration (FDA) has completed its proceedings against Shah Rukh Khan, Ajay Devgn and Tiger Shroff over their Vimal Pan Masala advertisements. FDA Commissioner Tukaram Mundhe said on Friday that the investigation found the actors had violated state rules. The case will…\n\nBar and Bench: Bollywood actor Ajay Devgn has approached the Bombay High Court challenging a show-cause notice issued by the Maharashtra Food and Drugs Administration (FDA) over his appearance in advertisements for ‘Vimal Elaichi' [Ajay Devgan v. State of Maharashtra & Ors.]..The petition is likely to be heard…\n\nDeccan Herald: Mumbai: Maharashtra Food and Drug Administration Commissioner Tukaram Mundhe on Friday said proceedings have been completed against actors Shah Rukh Khan, Ajay Devgn and Tiger Shroff for allegedly violating state rules through advertisements for Vimal Pan Masala. . The FDA has concluded its investigation and…",
+      "article_body": "The Times of India: “Maharashtra’s Food and Drug Administration (FDA) has completed its proceedings against Shah Rukh Khan, Ajay Devgn and Tiger Shroff over their Vimal Pan Masala advertisements. FDA Commissioner Tukaram Mundhe said on Friday that the investigation found the actors had violated state rules. The case will…”\n\nBar and Bench: “Bollywood actor Ajay Devgn has approached the Bombay High Court challenging a show-cause notice issued by the Maharashtra Food and Drugs Administration (FDA) over his appearance in advertisements for ‘Vimal Elaichi' [Ajay Devgan v. State of Maharashtra & Ors.]..The petition is likely to be heard…”\n\nDeccan Herald: “Mumbai: Maharashtra Food and Drug Administration Commissioner Tukaram Mundhe on Friday said proceedings have been completed against actors Shah Rukh Khan, Ajay Devgn and Tiger Shroff for allegedly violating state rules through advertisements for Vimal Pan Masala. . The FDA has concluded its investigation and…”",
+      "category": "trending",
+      "published_at": "2026-10-30T18:10:00+00:00",
+      "generated_at": "2026-10-30T19:03:24.290179+00:00",
+      "kind": "digest",
+      "keyword": "ajay devgn",
+      "score": 89.51,
+      "sources": [
+        {
+          "title": "Maharashtra FDA completes proceedings against Shah Rukh Khan, Ajay Devgn and Tiger Shroff over pan masala",
+          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/maharashtra-fda-completes-proceedings-against-shah-rukh-khan-ajay-devgn-and-tiger-shroff-over-pan-masala-ads-tukaram-mundhe-says-assistant-commissioner-found-that-they-violated-the-states-rules/articleshow/135368829.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Ajay Devgn moves Bombay High Court against Maharashtra FDA notice over Vimal Elaichi ad",
+          "url": "https://www.barandbench.com/news/ajay-devgn-moves-bombay-high-court-against-maharashtra-fda-notice-over-vimal-elaichi-ad",
+          "publisher": "Bar and Bench"
+        },
+        {
+          "title": "Pan masala ad proceedings against 3 actors complete, matter up for adjudication next: FDA chief",
+          "url": "https://www.deccanherald.com/india/maharashtra/pan-masala-ad-proceedings-against-3-actors-complete-matter-up-for-adjudication-next-fda-chief-4201539",
+          "publisher": "Deccan Herald"
         }
       ]
     }
