@@ -279,7 +279,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -665,7 +665,7 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -774,7 +774,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -901,7 +901,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-10-30T12:24:28.576199+00:00",
+      "generated_at": "2026-10-31T17:01:00.296403+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -932,7 +932,7 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -1020,7 +1020,7 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -2919,7 +2919,7 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -3078,7 +3078,7 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -3553,7 +3553,7 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -3643,7 +3643,7 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
       "summary_refresh_version": 21
     },
     {
@@ -6629,7 +6629,9 @@
           "url": "https://www.news18.com/india/punjabs-pilot-project-is-tough-but-congress-in-charge-for-polls-insists-2027-will-not-go-2022-way-ws-klt-10394906.html",
           "publisher": "News18"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-59c2cf788e",
@@ -6694,6 +6696,138 @@
           "title": "Big Ben hundred lands England ODI consolation prize",
           "url": "https://www.cricket.com.au/news/4601149/big-bens-hundred-lands-england-odi-consolation-prize",
           "publisher": "cricket.com.au"
+        }
+      ]
+    },
+    {
+      "id": "en-0387652641",
+      "lang": "en",
+      "slug": "gefuhlsachterbahn-fur-buli-ass-vom-abstellgleis-zuruck-ins-r-0387652641",
+      "url": "en/posts/gefuhlsachterbahn-fur-buli-ass-vom-abstellgleis-zuruck-ins-r-0387652641.html",
+      "title": "🎢 Gefühlsachterbahn für Buli-Ass: Vom Abstellgleis zurück ins Rampenlicht?",
+      "summary": "OneFootball: Der letzte wirklich packende Zweikampf um die Schale liegt mittlerweile über drei Jahre zurück. Damals verspielte Dortmund den Titel am letzten Spieltag gegen Mainz vor den eigenen Fans.…",
+      "source_summary": "OneFootball: Der letzte wirklich packende Zweikampf um die Schale liegt mittlerweile über drei Jahre zurück. Damals verspielte Dortmund den Titel am letzten Spieltag gegen Mainz vor den eigenen Fans. Im darauffolgenden Sommer wurde ein Mann verpflichtet, der dabei helfen sollte, das Sieger-Gen zurück ins Ruhrgebiet zu…\n\nAbsolut Fussball: Das Duell FC Bayern gegen Borussia Dortmund wird regelmäßig als „Der Klassiker“ bezeichnet. Doch woher stammt der Name und was steckt hinter dem Begriff?\n\nVietnam.vn: Doch in einem Spiel tut sich der 31-Jährige immer wieder schwer, ein Tor zu erzielen: im Klassiker gegen Bayern München . Seit seinem Wechsel zu Borussia Dortmund kam Guirassy in fünf Klassikern wettbewerbsübergreifend zum Einsatz, konnte aber noch kein einziges Tor verbuchen.",
+      "article_body": "OneFootball: “Der letzte wirklich packende Zweikampf um die Schale liegt mittlerweile über drei Jahre zurück. Damals verspielte Dortmund den Titel am letzten Spieltag gegen Mainz vor den eigenen Fans. Im darauffolgenden Sommer wurde ein Mann verpflichtet, der dabei helfen sollte, das Sieger-Gen zurück ins Ruhrgebiet zu…”\n\nAbsolut Fussball: “Das Duell FC Bayern gegen Borussia Dortmund wird regelmäßig als „Der Klassiker“ bezeichnet. Doch woher stammt der Name und was steckt hinter dem Begriff?”\n\nVietnam.vn: “Doch in einem Spiel tut sich der 31-Jährige immer wieder schwer, ein Tor zu erzielen: im Klassiker gegen Bayern München . Seit seinem Wechsel zu Borussia Dortmund kam Guirassy in fünf Klassikern wettbewerbsübergreifend zum Einsatz, konnte aber noch kein einziges Tor verbuchen.”",
+      "category": "trending",
+      "published_at": "2026-10-31T16:40:00+00:00",
+      "generated_at": "2026-10-31T17:01:00.296403+00:00",
+      "kind": "digest",
+      "keyword": "bayern vs dortmund",
+      "score": 89.81,
+      "sources": [
+        {
+          "title": "🎢 Gefühlsachterbahn für Buli-Ass: Vom Abstellgleis zurück ins Rampenlicht?",
+          "url": "https://onefootball.com/de/news/gefuehlsachterbahn-fuer-buli-ass-vom-abstellgleis-zurueck-ins-rampenlicht-43701256",
+          "publisher": "OneFootball"
+        },
+        {
+          "title": "Bayern gegen Dortmund: Warum das Bundesliga-Duell „Der Klassiker“ heißt – Ursprung & Geschichte",
+          "url": "https://www.absolutfussball.com/deutschland/1-bundesliga/warum-heisst-bayern-gegen-bvb-der-klassiker-die-erklaerung-94567589.html",
+          "publisher": "Absolut Fussball"
+        },
+        {
+          "title": "Die Schwächen von Borussia Dortmund wurden gegen Bayern München schnell deutlich.",
+          "url": "https://www.vietnam.vn/de/borussia-dortmund-som-lo-diem-yeu-truoc-bayern-munich",
+          "publisher": "Vietnam.vn"
+        }
+      ]
+    },
+    {
+      "id": "en-005ad5a0c9",
+      "lang": "en",
+      "slug": "los-otros-reencuentros-del-betis-malaga-aqui-hay-un-boqueron-005ad5a0c9",
+      "url": "en/posts/los-otros-reencuentros-del-betis-malaga-aqui-hay-un-boqueron-005ad5a0c9.html",
+      "title": "Los otros reencuentros del Betis - Málaga: «Aquí hay un boquerón más»",
+      "summary": "ABC: Fornals, de 30 años e internacional absoluto con España, se formó en la cantera del Málaga y debutó en Primera con el equipo costasoleño en 2015. Llegó a disputar como malaguista 63 partidos…",
+      "source_summary": "ABC: Fornals, de 30 años e internacional absoluto con España, se formó en la cantera del Málaga y debutó en Primera con el equipo costasoleño en 2015. Llegó a disputar como malaguista 63 partidos oficiales celebrando siete goles propios y ha reconocido en varias ocasiones que…\n\nYahoo: El Estadio de La Cartuja alberga un emotivo derbi andaluz de LaLiga entre Real Betis y Málaga CF, que vuelve a cruzarse en Primera ocho años después. El choque estará marcado por el reencuentro…\n\nRadio Marca Málaga: Por su parte, el Real Betis afronta el encuentro con un componente especial por los numerosos vínculos que mantiene con la historia reciente del Málaga. El técnico verdiblanco, Manuel Pellegrini , dirigió al conjunto blanquiazul durante tres temporadas y fue el artífice de una de…",
+      "article_body": "ABC: “Fornals, de 30 años e internacional absoluto con España, se formó en la cantera del Málaga y debutó en Primera con el equipo costasoleño en 2015. Llegó a disputar como malaguista 63 partidos oficiales celebrando siete goles propios y ha reconocido en varias ocasiones que…”\n\nYahoo: “El Estadio de La Cartuja alberga un emotivo derbi andaluz de LaLiga entre Real Betis y Málaga CF, que vuelve a cruzarse en Primera ocho años después. El choque estará marcado por el reencuentro…”\n\nRadio Marca Málaga: “Por su parte, el Real Betis afronta el encuentro con un componente especial por los numerosos vínculos que mantiene con la historia reciente del Málaga. El técnico verdiblanco, Manuel Pellegrini , dirigió al conjunto blanquiazul durante tres temporadas y fue el artífice de una de…”",
+      "category": "trending",
+      "published_at": "2026-10-31T16:40:00+00:00",
+      "generated_at": "2026-10-31T17:01:00.296403+00:00",
+      "kind": "digest",
+      "keyword": "betis vs málaga",
+      "score": 89.81,
+      "sources": [
+        {
+          "title": "Los otros reencuentros del Betis - Málaga: «Aquí hay un boquerón más»",
+          "url": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/reencuentros-betis-malaga-boqueron-20261031115620-nts.html",
+          "publisher": "ABC"
+        },
+        {
+          "title": "🚨XIs confirmados: Emotivo derbi andaluz en La Cartuja",
+          "url": "https://es-us.noticias.yahoo.com/deportes/xis-confirmados-emotivo-derbi-andaluz-164000658.html",
+          "publisher": "Yahoo"
+        },
+        {
+          "title": "Sigue EN DIRECTO el Málaga CF vs Real Sociedad",
+          "url": "https://www.merchanendirecto.es/directo-real-betis-malaga-cf-2/",
+          "publisher": "Radio Marca Málaga"
+        }
+      ]
+    },
+    {
+      "id": "en-8ccd5bfc38",
+      "lang": "en",
+      "slug": "alexander-zverev-vs-alex-de-minaur-prediction-odds-picks-for-8ccd5bfc38",
+      "url": "en/posts/alexander-zverev-vs-alex-de-minaur-prediction-odds-picks-for-8ccd5bfc38.html",
+      "title": "Alexander Zverev vs. Alex de Minaur prediction, odds, picks for ATP Vienna Open 2026",
+      "summary": "Tennisuptodate.com: A cracking second semi-final is in store at the Vienna Open. Alexander Zverev and Alex de Minaur both had different motives coming into this event, but the prospect of competing…",
+      "source_summary": "Tennisuptodate.com: A cracking second semi-final is in store at the Vienna Open. Alexander Zverev and Alex de Minaur both had different motives coming into this event, but the prospect of competing in an ATP 500 final has grasped both of their attention. Live updates from 16:30…\n\nThe Guardian: Alex de Minaur has enjoyed a landmark 350th tour-level win of his career at the Vienna Open, downing an old rival to set up a semi-final date with the world No 1-elect Alexander Zverev.",
+      "article_body": "Tennisuptodate.com: “A cracking second semi-final is in store at the Vienna Open. Alexander Zverev and Alex de Minaur both had different motives coming into this event, but the prospect of competing in an ATP 500 final has grasped both of their attention. Live updates from 16:30…”\n\nThe Guardian: “Alex de Minaur has enjoyed a landmark 350th tour-level win of his career at the Vienna Open, downing an old rival to set up a semi-final date with the world No 1-elect Alexander Zverev.”",
+      "category": "trending",
+      "published_at": "2026-10-31T16:40:00+00:00",
+      "generated_at": "2026-10-31T17:01:00.296403+00:00",
+      "kind": "digest",
+      "keyword": "alex de minaur",
+      "score": 89.81,
+      "sources": [
+        {
+          "title": "Alexander Zverev vs. Alex de Minaur prediction, odds, picks for ATP Vienna Open 2026",
+          "url": "https://www.dimers.com/tennis/news/alexander-zverev-vs-alex-de-minaur-tennis-prediction-atp-vienna-open-2026-ac",
+          "publisher": "Dimers"
+        },
+        {
+          "title": "LIVE Vienna Open | Title charge continues for Alexander Zverev while Alex de Minaur makes last-gasp push for Turin",
+          "url": "https://tennisuptodate.com/atp/live-vienna-open-title-charge-continues-for-alexander-zverev-while-alex-de-minaur-makes-last-gasp-push-for-turin",
+          "publisher": "Tennisuptodate.com"
+        },
+        {
+          "title": "Alex de Minaur hits career milestone in Vienna to book semi-final date with Zverev",
+          "url": "https://www.theguardian.com/sport/2026/oct/31/alex-de-minaur-matteo-berrettini-tennis-quarter-final-vienna-open-report",
+          "publisher": "The Guardian"
+        }
+      ]
+    },
+    {
+      "id": "en-f85ae078e5",
+      "lang": "en",
+      "slug": "vacherot-upsets-fritz-to-reach-basel-final-make-monegasque-h-f85ae078e5",
+      "url": "en/posts/vacherot-upsets-fritz-to-reach-basel-final-make-monegasque-h-f85ae078e5.html",
+      "title": "Vacherot upsets Fritz to reach Basel final, make Monegasque history",
+      "summary": "Dimers: No more watching from the sidelines. Dimers gives sports fans the news, tools & analysis to Make the Play.\n\nSportyTrader: The most accurate Valentin Vacherot vs Taylor Fritz prediction from…",
+      "source_summary": "Dimers: No more watching from the sidelines. Dimers gives sports fans the news, tools & analysis to Make the Play.\n\nSportyTrader: The most accurate Valentin Vacherot vs Taylor Fritz prediction from our Tennis experts. Betting tips, preview and H2H for upcoming Swiss Indoors ATP Basel matches - 10/31/26",
+      "article_body": "Dimers: “No more watching from the sidelines. Dimers gives sports fans the news, tools & analysis to Make the Play.”\n\nSportyTrader: “The most accurate Valentin Vacherot vs Taylor Fritz prediction from our Tennis experts. Betting tips, preview and H2H for upcoming Swiss Indoors ATP Basel matches - 10/31/26”",
+      "category": "trending",
+      "published_at": "2026-10-31T16:40:00+00:00",
+      "generated_at": "2026-10-31T17:01:00.296403+00:00",
+      "kind": "digest",
+      "keyword": "jiri lehecka",
+      "score": 89.81,
+      "sources": [
+        {
+          "title": "Vacherot upsets Fritz to reach Basel final, make Monegasque history",
+          "url": "https://www.atptour.com/en/news/vacherot-fritz-basel-2026-saturday",
+          "publisher": "ATP Tour"
+        },
+        {
+          "title": "Tennis bets today: Five picks for Saturday ft. Vacherot vs. Fritz [10/31/2026]",
+          "url": "https://www.dimers.com/tennis/news/tennis-atp-wta-best-bets-10-31-2026-ac",
+          "publisher": "Dimers"
+        },
+        {
+          "title": "Valentin Vacherot vs Taylor Fritz Prediction & Picks - Swiss Indoors ATP Basel",
+          "url": "https://www.sportytrader.com/us/picks/valentin-vacherot-taylor-fritz-384088/",
+          "publisher": "SportyTrader"
         }
       ]
     }
