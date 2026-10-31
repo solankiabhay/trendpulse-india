@@ -6223,7 +6223,9 @@
           "url": "https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html",
           "publisher": "The New York Times"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-bb5f68273f",
@@ -6291,7 +6293,9 @@
           "url": "https://sports.yahoo.com/articles/cardinals-hc-mike-lafleur-shares-210809937.html",
           "publisher": "Yahoo Sports"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-6905d12581",
@@ -6324,7 +6328,9 @@
           "url": "https://www.moneycontrol.com/world/youtube-down-in-us-over-24-000-outage-reports-as-users-face-playback-issues-article-14062864.html",
           "publisher": "Moneycontrol.com"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-9ed6584099",
@@ -6495,7 +6501,9 @@
           "url": "https://www.cricbuzz.com/player-match-highlights/173050/3/10436/bowling",
           "publisher": "Cricbuzz"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-f0f14d0b80",
@@ -6596,7 +6604,9 @@
           "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/government-scraps-export-duty-on-petrol-raises-levies-on-diesel-and-atf/articleshow/135395520.cms?from=mdr",
           "publisher": "The Economic Times"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-982c7e140e",
@@ -6640,11 +6650,11 @@
       "url": "en/posts/bmic-2026-korea-dominates-the-opening-indias-outrage-esports-59c2cf788e.html",
       "title": "BMIC 2026: Korea dominates the opening, India’s Outrage Esports and K9 Esports win a match each",
       "summary": "The Times of India: The BGMI International Cup (BMIC) 2026 got underway in Mumbai on Friday, and South Korea wasted little time taking charge. Nongshim RedForce, the Korea Esports League (KEL) 2026…",
-      "source_summary": "The Times of India: The BGMI International Cup (BMIC) 2026 got underway in Mumbai on Friday, and South Korea wasted little time taking charge. Nongshim RedForce, the Korea Esports League (KEL) 2026 champions, ended Day 1 on top with 72 points, one clear of compatriots Dplus KIA. Defending champions…\n\nMoneycontrol.com: Krafton India has announced that electronic music artist Alan Walker will perform at the Battlegrounds Mobile India International Cup (BMIC) 2026 in Mumbai on October 30. The performance will take place at the Dome, SVP Indoor Stadium (NSCI), on the opening day of the three-day…",
-      "article_body": "The Times of India: “The BGMI International Cup (BMIC) 2026 got underway in Mumbai on Friday, and South Korea wasted little time taking charge. Nongshim RedForce, the Korea Esports League (KEL) 2026 champions, ended Day 1 on top with 72 points, one clear of compatriots Dplus KIA. Defending champions…”\n\nMoneycontrol.com: “Krafton India has announced that electronic music artist Alan Walker will perform at the Battlegrounds Mobile India International Cup (BMIC) 2026 in Mumbai on October 30. The performance will take place at the Dome, SVP Indoor Stadium (NSCI), on the opening day of the three-day…”",
+      "source_summary": "The Times of India: The BGMI International Cup (BMIC) 2026 got underway in Mumbai on Friday, and South Korea wasted little time taking charge. Nongshim RedForce, the Korea Esports League (KEL) 2026 champions, ended Day 1 on top with 72 points, one clear of compatriots Dplus KIA. Defending champions…\n\nMoneycontrol.com: Krafton India has announced that electronic music artist Alan Walker will perform at the Battlegrounds Mobile India International Cup (BMIC) 2026 in Mumbai on October 30. The performance will take place at the Dome, SVP Indoor Stadium (NSCI), on the opening day of the three-day…\n\nInven Global: KRAFTON, Inc. is hosting an international professional esports tournament for BATTLEGROUNDS MOBILE INDIA (BGMI) in Mumbai, India on the 30th. A total of 16 teams from South Korea, India, and Japan, including five Korean teams, will participate.",
+      "article_body": "The Times of India: “The BGMI International Cup (BMIC) 2026 got underway in Mumbai on Friday, and South Korea wasted little time taking charge. Nongshim RedForce, the Korea Esports League (KEL) 2026 champions, ended Day 1 on top with 72 points, one clear of compatriots Dplus KIA. Defending champions…”\n\nMoneycontrol.com: “Krafton India has announced that electronic music artist Alan Walker will perform at the Battlegrounds Mobile India International Cup (BMIC) 2026 in Mumbai on October 30. The performance will take place at the Dome, SVP Indoor Stadium (NSCI), on the opening day of the three-day…”\n\nInven Global: “KRAFTON, Inc. is hosting an international professional esports tournament for BATTLEGROUNDS MOBILE INDIA (BGMI) in Mumbai, India on the 30th. A total of 16 teams from South Korea, India, and Japan, including five Korean teams, will participate.”",
       "category": "trending",
       "published_at": "2026-10-31T11:30:00+00:00",
-      "generated_at": "2026-10-31T11:54:23.031872+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
       "kind": "digest",
       "keyword": "bmic",
       "score": 89.77,
@@ -6664,7 +6674,9 @@
           "url": "https://www.invenglobal.com/articles/27950/bmic-2026-opens-in-mumbai-5-korean-teams-to-compete",
           "publisher": "Inven Global"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-e6bb62b7d4",
@@ -6697,7 +6709,9 @@
           "url": "https://www.cricket.com.au/news/4601149/big-bens-hundred-lands-england-odi-consolation-prize",
           "publisher": "cricket.com.au"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-0387652641",
@@ -6730,7 +6744,9 @@
           "url": "https://www.vietnam.vn/de/borussia-dortmund-som-lo-diem-yeu-truoc-bayern-munich",
           "publisher": "Vietnam.vn"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-005ad5a0c9",
@@ -6739,11 +6755,11 @@
       "url": "en/posts/los-otros-reencuentros-del-betis-malaga-aqui-hay-un-boqueron-005ad5a0c9.html",
       "title": "Los otros reencuentros del Betis - Málaga: «Aquí hay un boquerón más»",
       "summary": "ABC: Fornals, de 30 años e internacional absoluto con España, se formó en la cantera del Málaga y debutó en Primera con el equipo costasoleño en 2015. Llegó a disputar como malaguista 63 partidos…",
-      "source_summary": "ABC: Fornals, de 30 años e internacional absoluto con España, se formó en la cantera del Málaga y debutó en Primera con el equipo costasoleño en 2015. Llegó a disputar como malaguista 63 partidos oficiales celebrando siete goles propios y ha reconocido en varias ocasiones que…\n\nYahoo: El Estadio de La Cartuja alberga un emotivo derbi andaluz de LaLiga entre Real Betis y Málaga CF, que vuelve a cruzarse en Primera ocho años después. El choque estará marcado por el reencuentro…\n\nRadio Marca Málaga: Por su parte, el Real Betis afronta el encuentro con un componente especial por los numerosos vínculos que mantiene con la historia reciente del Málaga. El técnico verdiblanco, Manuel Pellegrini , dirigió al conjunto blanquiazul durante tres temporadas y fue el artífice de una de…",
-      "article_body": "ABC: “Fornals, de 30 años e internacional absoluto con España, se formó en la cantera del Málaga y debutó en Primera con el equipo costasoleño en 2015. Llegó a disputar como malaguista 63 partidos oficiales celebrando siete goles propios y ha reconocido en varias ocasiones que…”\n\nYahoo: “El Estadio de La Cartuja alberga un emotivo derbi andaluz de LaLiga entre Real Betis y Málaga CF, que vuelve a cruzarse en Primera ocho años después. El choque estará marcado por el reencuentro…”\n\nRadio Marca Málaga: “Por su parte, el Real Betis afronta el encuentro con un componente especial por los numerosos vínculos que mantiene con la historia reciente del Málaga. El técnico verdiblanco, Manuel Pellegrini , dirigió al conjunto blanquiazul durante tres temporadas y fue el artífice de una de…”",
+      "source_summary": "ABC: Fornals, de 30 años e internacional absoluto con España, se formó en la cantera del Málaga y debutó en Primera con el equipo costasoleño en 2015. Llegó a disputar como malaguista 63 partidos oficiales celebrando siete goles propios y ha reconocido en varias ocasiones que…\n\nYahoo: El Estadio de La Cartuja alberga un emotivo derbi andaluz de LaLiga entre Real Betis y Málaga CF, que vuelve a cruzarse en Primera ocho años después. El choque estará marcado por el reencuentro…\n\nRadio Marca Málaga: Final del partido. El Betis consigue cosechar una victoria ante el Málaga CF gracias a dos goles, que llegaron a balón parado en los últimos instantes de los 45 minutos iniciales. Una primera parte en la que el conjunto bético fue muy superior, pero que…",
+      "article_body": "ABC: “Fornals, de 30 años e internacional absoluto con España, se formó en la cantera del Málaga y debutó en Primera con el equipo costasoleño en 2015. Llegó a disputar como malaguista 63 partidos oficiales celebrando siete goles propios y ha reconocido en varias ocasiones que…”\n\nYahoo: “El Estadio de La Cartuja alberga un emotivo derbi andaluz de LaLiga entre Real Betis y Málaga CF, que vuelve a cruzarse en Primera ocho años después. El choque estará marcado por el reencuentro…”\n\nRadio Marca Málaga: “Final del partido. El Betis consigue cosechar una victoria ante el Málaga CF gracias a dos goles, que llegaron a balón parado en los últimos instantes de los 45 minutos iniciales. Una primera parte en la que el conjunto bético fue muy superior, pero que…”",
       "category": "trending",
       "published_at": "2026-10-31T16:40:00+00:00",
-      "generated_at": "2026-10-31T17:01:00.296403+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
       "kind": "digest",
       "keyword": "betis vs málaga",
       "score": 89.81,
@@ -6760,10 +6776,12 @@
         },
         {
           "title": "Sigue EN DIRECTO el Málaga CF vs Real Sociedad",
-          "url": "https://www.merchanendirecto.es/directo-real-betis-malaga-cf-2/",
+          "url": "https://www.merchanendirecto.es/directo-real-betis-malaga-cf-12/",
           "publisher": "Radio Marca Málaga"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-8ccd5bfc38",
@@ -6796,7 +6814,9 @@
           "url": "https://www.theguardian.com/sport/2026/oct/31/alex-de-minaur-matteo-berrettini-tennis-quarter-final-vienna-open-report",
           "publisher": "The Guardian"
         }
-      ]
+      ],
+      "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-f85ae078e5",
@@ -6828,6 +6848,270 @@
           "title": "Valentin Vacherot vs Taylor Fritz Prediction & Picks - Swiss Indoors ATP Basel",
           "url": "https://www.sportytrader.com/us/picks/valentin-vacherot-taylor-fritz-384088/",
           "publisher": "SportyTrader"
+        }
+      ]
+    },
+    {
+      "id": "en-221d81de57",
+      "lang": "en",
+      "slug": "census-2027-j-k-completes-dchb-fieldwork-population-enumerat-221d81de57",
+      "url": "en/posts/census-2027-j-k-completes-dchb-fieldwork-population-enumerat-221d81de57.html",
+      "title": "Census 2027: J&K completes DCHB fieldwork; population enumeration training underway",
+      "summary": "The Hindu: J&K completes 100% DCHB fieldwork; training for Population Enumeration underway ahead of January 2027 census.\n\nThe Times of India: Guwahati: The Centre has now put the entire census in…",
+      "source_summary": "The Hindu: J&K completes 100% DCHB fieldwork; training for Population Enumeration underway ahead of January 2027 census.\n\nThe Times of India: Guwahati: The Centre has now put the entire census in Manipur on hold. Until now, only the house-listing had been kept suspended by Registrar General of India (RGI) since Sept following demand by Meitei and Naga civil societies for compilation of a National Register of…",
+      "article_body": "The Hindu: “J&K completes 100% DCHB fieldwork; training for Population Enumeration underway ahead of January 2027 census.”\n\nThe Times of India: “Guwahati: The Centre has now put the entire census in Manipur on hold. Until now, only the house-listing had been kept suspended by Registrar General of India (RGI) since Sept following demand by Meitei and Naga civil societies for compilation of a National Register of…”",
+      "category": "trending",
+      "published_at": "2026-10-31T21:00:00+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
+      "kind": "digest",
+      "keyword": "adhar",
+      "score": 89.88,
+      "sources": [
+        {
+          "title": "Census 2027: J&K completes DCHB fieldwork; population enumeration training underway",
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/census-2027-jk-completes-dchb-fieldwork-population-enumeration-training-underway/article71649167.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Population census from Jan 25 to Feb 28 2027, poll-bound and snow-hit areas excluded",
+          "url": "https://www.telegraphindia.com/india/population-census-from-january-25-to-february-28-2027-poll-bound-and-snow-hit-areas-excluded/cid/2187079",
+          "publisher": "Telegraph India"
+        },
+        {
+          "title": "Centre suspends census in Manipur amid ‘NRC first’ demands by Meiteis, Nagas",
+          "url": "https://timesofindia.indiatimes.com/city/guwahati/centre-suspends-census-in-manipur-amid-nrc-first-demands-by-meiteis-nagas/articleshow/135409652.cms",
+          "publisher": "The Times of India"
+        }
+      ]
+    },
+    {
+      "id": "en-ecbc5a4529",
+      "lang": "en",
+      "slug": "grand-theft-auto-vi-exclusive-the-state-that-never-sleeps-ecbc5a4529",
+      "url": "en/posts/grand-theft-auto-vi-exclusive-the-state-that-never-sleeps-ecbc5a4529.html",
+      "title": "Grand Theft Auto VI exclusive – The state that never sleeps",
+      "summary": "GamesRadar+: That's because, despite what the series' swaggering Americana might suggest, this is one of the principal places in which Grand Theft Auto VI, the most anticipated video game of the…",
+      "source_summary": "GamesRadar+: That's because, despite what the series' swaggering Americana might suggest, this is one of the principal places in which Grand Theft Auto VI, the most anticipated video game of the decade, has been made. The secrecy surrounding the game has only sharpened the appetite for…\n\nCreative Bloq: Normally, procedural systems assemble background NPCs, making them largely interchangeable. Grand Theft Auto VI's non-player characters , however, will have their own personalities. Which means any Free Guy sequel (long mooted, but never confirmed) may have to rethink its premise entirely.\n\nPC Gamer: As much as I'm also a member of the crime spree brigade, something like a public transportation system is one of those details that's going to make Leonida feel alive in a way we've not really seen from the series before. It feels fitting for…",
+      "article_body": "GamesRadar+: “That's because, despite what the series' swaggering Americana might suggest, this is one of the principal places in which Grand Theft Auto VI, the most anticipated video game of the decade, has been made. The secrecy surrounding the game has only sharpened the appetite for…”\n\nCreative Bloq: “Normally, procedural systems assemble background NPCs, making them largely interchangeable. Grand Theft Auto VI's non-player characters , however, will have their own personalities. Which means any Free Guy sequel (long mooted, but never confirmed) may have to rethink its premise entirely.”\n\nPC Gamer: “As much as I'm also a member of the crime spree brigade, something like a public transportation system is one of those details that's going to make Leonida feel alive in a way we've not really seen from the series before. It feels fitting for…”",
+      "category": "trending",
+      "published_at": "2026-10-31T21:00:00+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
+      "kind": "digest",
+      "keyword": "gta 6",
+      "score": 89.88,
+      "sources": [
+        {
+          "title": "Grand Theft Auto VI exclusive – The state that never sleeps",
+          "url": "https://www.gamesradar.com/edge/gtavi-cover/",
+          "publisher": "GamesRadar+"
+        },
+        {
+          "title": "Rockstar art-directed 600,000 animations, so that GTA 6’s passers-by feel like real people",
+          "url": "https://www.creativebloq.com/news/rockstar-art-directed-600-000-animations-so-that-gta-6s-passers-by-feel-like-real-people",
+          "publisher": "Creative Bloq"
+        },
+        {
+          "title": "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/screw-grand-theft-auto-6s-supercars-im-here-for-leonidas-robust-public-transportation-system/",
+          "publisher": "PC Gamer"
+        }
+      ]
+    },
+    {
+      "id": "en-d45b39990d",
+      "lang": "en",
+      "slug": "carlo-ancelotti-continues-brazil-renewal-with-squad-for-japa-d45b39990d",
+      "url": "en/posts/carlo-ancelotti-continues-brazil-renewal-with-squad-for-japa-d45b39990d.html",
+      "title": "Carlo Ancelotti continues Brazil 'renewal' with squad for Japan, Singapore friendlies",
+      "summary": "Managing Madrid: Brazil coach Carlo Ancelotti has included Vinicius Junior and Endrick in Brazil’s squad list for the upcoming FIFA break, which will take place in November. Brazil will play two…",
+      "source_summary": "Managing Madrid: Brazil coach Carlo Ancelotti has included Vinicius Junior and Endrick in Brazil’s squad list for the upcoming FIFA break, which will take place in November. Brazil will play two friendlies against Japan and Singapore on November 14th and November 17th respectively. On the other hand…\n\nBarca Blaugranes: Barcelona manager Hansi Flick has spoken about Raphinha’s latest Brazil call-up and admits there’s nothing the club can do about the situation. Raphinha is facing another long trip in the next international break, with Brazil due to play friendlies against Japan and Singapore. The Brazilian…",
+      "article_body": "Managing Madrid: “Brazil coach Carlo Ancelotti has included Vinicius Junior and Endrick in Brazil’s squad list for the upcoming FIFA break, which will take place in November. Brazil will play two friendlies against Japan and Singapore on November 14th and November 17th respectively. On the other hand…”\n\nBarca Blaugranes: “Barcelona manager Hansi Flick has spoken about Raphinha’s latest Brazil call-up and admits there’s nothing the club can do about the situation. Raphinha is facing another long trip in the next international break, with Brazil due to play friendlies against Japan and Singapore. The Brazilian…”",
+      "category": "trending",
+      "published_at": "2026-10-31T20:50:00+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
+      "kind": "digest",
+      "keyword": "raphinha",
+      "score": 89.79,
+      "sources": [
+        {
+          "title": "Carlo Ancelotti continues Brazil 'renewal' with squad for Japan, Singapore friendlies",
+          "url": "https://www.espn.in/football/story/_/id/50320646/carlo-ancelotti-brazil-squad-japan-singapore-november",
+          "publisher": "ESPN India"
+        },
+        {
+          "title": "Vinicius and Endrick make Brazil’s list for the next FIFA break",
+          "url": "https://www.managingmadrid.com/114842/vinicius-and-endrick-make-brazils-list-for-the-next-fifa-break",
+          "publisher": "Managing Madrid"
+        },
+        {
+          "title": "‘Nothing we can do’ - Barcelona react to Raphinha’s Brazil call-up",
+          "url": "https://www.barcablaugranes.com/barcelona-team-news/136632/nothing-we-can-do-barcelona-react-to-raphinhas-brazil-call-up",
+          "publisher": "Barca Blaugranes"
+        }
+      ]
+    },
+    {
+      "id": "en-844d988acf",
+      "lang": "en",
+      "slug": "opcion-licha-martinez-en-el-atletico-844d988acf",
+      "url": "en/posts/opcion-licha-martinez-en-el-atletico-844d988acf.html",
+      "title": "Opción ‘Licha’ Martínez en el Atlético",
+      "summary": "Diario AS: La etapa de Lisandro Martínez (Gualeguay, Argentina; 1998) en Old Trafford parece haber acabado. Pasó de héroe a villano en las últimas semanas tras sus declaraciones post partido ante el…",
+      "source_summary": "Diario AS: La etapa de Lisandro Martínez (Gualeguay, Argentina; 1998) en Old Trafford parece haber acabado. Pasó de héroe a villano en las últimas semanas tras sus declaraciones post partido ante el Atlético de Madrid. Su relación con el Manchester United está en su peor momento y…\n\nYahoo: Lisandro Martinez podría estar cerca de una salida inesperada del Manchester United, mientras el Barcelona sigue de cerca la situación cada vez más delicada del defensa en Old Trafford. El internacional argentino desató recientemente la polémica al cuestionar públicamente la estrategia de fichajes del club…\n\nGoal.com: El brasileño Éder Militão, defensa del Real Madrid, se ha convertido en la última víctima de los robos que tienen como objetivo las viviendas de los futbolistas, después de que su casa fuera asaltada durante el clásico frente al Barcelona el pasado domingo, cuando los…",
+      "article_body": "Diario AS: “La etapa de Lisandro Martínez (Gualeguay, Argentina; 1998) en Old Trafford parece haber acabado. Pasó de héroe a villano en las últimas semanas tras sus declaraciones post partido ante el Atlético de Madrid. Su relación con el Manchester United está en su peor momento y…”\n\nYahoo: “Lisandro Martinez podría estar cerca de una salida inesperada del Manchester United, mientras el Barcelona sigue de cerca la situación cada vez más delicada del defensa en Old Trafford. El internacional argentino desató recientemente la polémica al cuestionar públicamente la estrategia de fichajes del club…”\n\nGoal.com: “El brasileño Éder Militão, defensa del Real Madrid, se ha convertido en la última víctima de los robos que tienen como objetivo las viviendas de los futbolistas, después de que su casa fuera asaltada durante el clásico frente al Barcelona el pasado domingo, cuando los…”",
+      "category": "trending",
+      "published_at": "2026-10-31T20:40:00+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
+      "kind": "digest",
+      "keyword": "barcelona",
+      "score": 89.7,
+      "sources": [
+        {
+          "title": "Opción ‘Licha’ Martínez en el Atlético",
+          "url": "https://as.com/futbol/internacional/opcion-licha-martinez-en-el-atletico-f202610-n/",
+          "publisher": "Diario AS"
+        },
+        {
+          "title": "¿Se avecina la salida de Lisandro Martinez? El Barcelona estudia el sorprendente fichaje del defensa del Manchester United tras su encontronazo con Jason Wilcox",
+          "url": "https://es-us.noticias.yahoo.com/deportes/avecina-salida-lisandro-martinez-barcelona-084016734.html",
+          "publisher": "Yahoo"
+        },
+        {
+          "title": "El Clásico se convierte en una pesadilla para una estrella del Madrid: ladrones irrumpen en su casa y roban objetos de valor",
+          "url": "https://www.goal.com/es-mx/noticias/el-clasico-se-convierte-en-una-pesadilla-para-una-estrella-del-madrid-ladrones-irrumpen-en-su-casa-y-roban-objetos-de-valor/blt9c20898a68c2ff8f",
+          "publisher": "Goal.com"
+        }
+      ]
+    },
+    {
+      "id": "en-14f96b5e69",
+      "lang": "en",
+      "slug": "turismo-nautico-sicilia-1-712-imprese-posti-barca-record-14f96b5e69",
+      "url": "en/posts/turismo-nautico-sicilia-1-712-imprese-posti-barca-record-14f96b5e69.html",
+      "title": "Turismo nautico Sicilia: 1.712 imprese, posti barca record",
+      "summary": "NAUTICA REPORT: Al Seacily di Castellammare del Golfo è stato presentato il report di Assonautica Palermo e Otie sul turismo nautico in Sicilia. Le imprese della filiera risalgono a 1.712 nel primo…",
+      "source_summary": "NAUTICA REPORT: Al Seacily di Castellammare del Golfo è stato presentato il report di Assonautica Palermo e Otie sul turismo nautico in Sicilia. Le imprese della filiera risalgono a 1.712 nel primo trimestre 2026 dopo il calo a 1.671 del 2025. Il refit è l'unico comparto in…\n\nLa Tr3: Entra nel vivo al porto di Castellammare del Golfo la nona edizione di Seacily, il Salone Nautico di Sicilia, che quest’anno registra numeri da record con oltre 60 espositori e un incremento del 30% rispetto al passato. Al centro del dibattito, le enormi potenzialità della…\n\nMessinaToday: L'economia del mare si conferma uno dei pilastri dello sviluppo economico della Sicilia, con risultati che superano nettamente la media nazionale. Nel 2024 il comparto ha generato nell’Isola un valore aggiunto di 7,2 miliardi di euro, pari al 7% dell’intera economia regionale, a fronte di…",
+      "article_body": "NAUTICA REPORT: “Al Seacily di Castellammare del Golfo è stato presentato il report di Assonautica Palermo e Otie sul turismo nautico in Sicilia. Le imprese della filiera risalgono a 1.712 nel primo trimestre 2026 dopo il calo a 1.671 del 2025. Il refit è l'unico comparto in…”\n\nLa Tr3: “Entra nel vivo al porto di Castellammare del Golfo la nona edizione di Seacily, il Salone Nautico di Sicilia, che quest’anno registra numeri da record con oltre 60 espositori e un incremento del 30% rispetto al passato. Al centro del dibattito, le enormi potenzialità della…”\n\nMessinaToday: “L'economia del mare si conferma uno dei pilastri dello sviluppo economico della Sicilia, con risultati che superano nettamente la media nazionale. Nel 2024 il comparto ha generato nell’Isola un valore aggiunto di 7,2 miliardi di euro, pari al 7% dell’intera economia regionale, a fronte di…”",
+      "category": "trending",
+      "published_at": "2026-10-31T20:30:00+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
+      "kind": "digest",
+      "keyword": "barca",
+      "score": 89.61,
+      "sources": [
+        {
+          "title": "Turismo nautico Sicilia: 1.712 imprese, posti barca record",
+          "url": "https://www.nauticareport.it/dettnews/turismo_e_ormeggi/turismo_nautico_sicilia_1712_imprese_posti_barca_record-18-33629/",
+          "publisher": "NAUTICA REPORT"
+        },
+        {
+          "title": "INTERVISTE- Seacily 2026: Tamajo e Russo a Castellammare per il rilancio della Blue Economy siciliana",
+          "url": "https://latr3.it/2026/10/31/interviste-seacily-2026-tamajo-e-russo-a-castellammare-per-il-rilancio-della-blue-economy-siciliana/",
+          "publisher": "La Tr3"
+        },
+        {
+          "title": "Blue economy, nel Messinese oltre 5mila imprese",
+          "url": "https://www.messinatoday.it/economia/blue-economy-imprese-2025-messina.html",
+          "publisher": "MessinaToday"
+        }
+      ]
+    },
+    {
+      "id": "en-b37614bc86",
+      "lang": "en",
+      "slug": "watch-diego-moreira-puts-milan-3-1-up-against-inter-with-ama-b37614bc86",
+      "url": "en/posts/watch-diego-moreira-puts-milan-3-1-up-against-inter-with-ama-b37614bc86.html",
+      "title": "Watch: Diego Moreira puts Milan 3-1 up against Inter with amazing free-kick",
+      "summary": "LiveScore: %WIDGET:IMAGE|url= moreira goal inter%AC Milan took a 3-1 lead into the break in the derby, as Diego Moreira scored a wonderful goal to re-establish the lead.Just two minutes before the…",
+      "source_summary": "LiveScore: %WIDGET:IMAGE|url= moreira goal inter%AC Milan took a 3-1 lead into the break in the derby, as Diego Moreira scored a wonderful goal to re-establish the lead.Just two minutes before the break, Milan restored their two-goal advantage thanks to a quite simply beautiful free-kick from Diego…\n\nGoal.com: \" I really appreciate Cardinale’s support . We already knew, and everyone here has the clarity to understand it, that we cannot build solid foundations if we have to live with these kinds of problems in the middle of the season. It will take time…\n\nSempreMilan: AC Milan have confirmed that three very important players will miss the game against Udinese tomorrow, namely Mario Gila, Adrien Rabiot and Diego Moreira.",
+      "article_body": "LiveScore: “%WIDGET:IMAGE|url= moreira goal inter%AC Milan took a 3-1 lead into the break in the derby, as Diego Moreira scored a wonderful goal to re-establish the lead.Just two minutes before the break, Milan restored their two-goal advantage thanks to a quite simply beautiful free-kick from Diego…”\n\nGoal.com: “\" I really appreciate Cardinale’s support . We already knew, and everyone here has the clarity to understand it, that we cannot build solid foundations if we have to live with these kinds of problems in the middle of the season. It will take time…”\n\nSempreMilan: “AC Milan have confirmed that three very important players will miss the game against Udinese tomorrow, namely Mario Gila, Adrien Rabiot and Diego Moreira.”",
+      "category": "trending",
+      "published_at": "2026-10-31T20:30:00+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
+      "kind": "digest",
+      "keyword": "diego moreira",
+      "score": 89.61,
+      "sources": [
+        {
+          "title": "Watch: Diego Moreira puts Milan 3-1 up against Inter with amazing free-kick",
+          "url": "https://www.livescore.com/en/news/football/serie-a/watch-diego-moreira-puts-milan-3-1-up-against-inter-with-amazing-free-kick-sempremilan/",
+          "publisher": "LiveScore"
+        },
+        {
+          "title": "AC Milan, Amorim: “We must be extremely clear with the fans: it will take time”",
+          "url": "https://www.goal.com/en-in/lists/ac-milan-amorim-we-must-be-extremely-clear-with-the-fans-it-will-take-time/blt6a15ee176c7bda2a",
+          "publisher": "Goal.com"
+        },
+        {
+          "title": "Official: Gila, Moreira and Rabiot will miss Milan’s game against Udinese",
+          "url": "https://sempremilan.com/gila-moreira-rabiot-miss-udinese-milan",
+          "publisher": "SempreMilan"
+        }
+      ]
+    },
+    {
+      "id": "en-61fd82667c",
+      "lang": "en",
+      "slug": "the-squad-for-barca-v-alaves-61fd82667c",
+      "url": "en/posts/the-squad-for-barca-v-alaves-61fd82667c.html",
+      "title": "The squad for Barça v Alavés",
+      "summary": "Official FC Barcelona Website: Barça are back in action. After a full week without a competitive fixture, the league leaders host Deportivo Alavés at Spotify Camp Nou on Halloween night (9pm CET) .…",
+      "source_summary": "Official FC Barcelona Website: Barça are back in action. After a full week without a competitive fixture, the league leaders host Deportivo Alavés at Spotify Camp Nou on Halloween night (9pm CET) . Having put the defeats to PSG and Real Madrid behind them, Barça have another opportunity to…\n\nGoal.com: All eyes turn to the Spotify Camp Nou, which hosts the clash between Barcelona and Deportivo Alavés today, Saturday, in the eleventh round of the Spanish league. The match carries plenty of striking numbers, chief among them the brilliance of Lamine Yamal and Raphinha, set…\n\nMashable: TL;DR: Watch Barcelona vs. Deportivo Alavés in La Liga for free on CazéTV. Access this free livestream from anywhere in the world with ExpressVPN.La Liga is really starting to heat up. It looked like Barcelona might just run away with the title. That was until…",
+      "article_body": "Official FC Barcelona Website: “Barça are back in action. After a full week without a competitive fixture, the league leaders host Deportivo Alavés at Spotify Camp Nou on Halloween night (9pm CET) . Having put the defeats to PSG and Real Madrid behind them, Barça have another opportunity to…”\n\nGoal.com: “All eyes turn to the Spotify Camp Nou, which hosts the clash between Barcelona and Deportivo Alavés today, Saturday, in the eleventh round of the Spanish league. The match carries plenty of striking numbers, chief among them the brilliance of Lamine Yamal and Raphinha, set…”\n\nMashable: “TL;DR: Watch Barcelona vs. Deportivo Alavés in La Liga for free on CazéTV. Access this free livestream from anywhere in the world with ExpressVPN.La Liga is really starting to heat up. It looked like Barcelona might just run away with the title. That was until…”",
+      "category": "trending",
+      "published_at": "2026-10-31T20:00:00+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
+      "kind": "digest",
+      "keyword": "fc barcelona vs deportivo alavés lineups",
+      "score": 89.33,
+      "sources": [
+        {
+          "title": "The squad for Barça v Alavés",
+          "url": "https://www.fcbarcelona.com/en/football/first-team/news/4601620/the-squad-for-bara-v-alavs",
+          "publisher": "Official FC Barcelona Website"
+        },
+        {
+          "title": "Mbappé chases Yamal: Alavés star runs into Barcelona's curse",
+          "url": "https://www.goal.com/en/news/mbappe-chases-yamal-alaves-star-collides-with-barcelona-s-curse/bltbc9650762ff21b59",
+          "publisher": "Goal.com"
+        },
+        {
+          "title": "How to watch Barcelona vs. Deportivo Alavés online for free",
+          "url": "https://mashable.com/entertainment/barcelona-deportivo-alaves-la-liga-2026-live-stream-for-free",
+          "publisher": "Mashable"
+        }
+      ]
+    },
+    {
+      "id": "en-abf5f8d3f4",
+      "lang": "en",
+      "slug": "roma-il-calendario-sorride-a-gasp-5-partite-per-mettere-nel-abf5f8d3f4",
+      "url": "en/posts/roma-il-calendario-sorride-a-gasp-5-partite-per-mettere-nel-abf5f8d3f4.html",
+      "title": "Roma, il calendario sorride a Gasp: 5 partite per mettere nel mirino la vetta. Per Chivu si complica",
+      "summary": "La Gazzetta dello Sport: Facili, almeno sulla carta visto che in Serie A nulla è da dare per scontato. Dopo la salita delle prime giornate, che ha visto quattro big match nelle prime otto partite, la…",
+      "source_summary": "La Gazzetta dello Sport: Facili, almeno sulla carta visto che in Serie A nulla è da dare per scontato. Dopo la salita delle prime giornate, che ha visto quattro big match nelle prime otto partite, la Roma di Gasperini vede il rettilineo nei prossimi cinque turni che precedono il…\n\nGoal.com: I biglietti ufficiali per le partite della Roma possono essere acquistati online attraverso il portale ufficiale del club oppure, nei giorni delle partite, presso la biglietteria dello Stadio Olimpico designata a tale scopo. Per acquistare biglietti per le singole partite o abbonamenti per le gare…",
+      "article_body": "La Gazzetta dello Sport: “Facili, almeno sulla carta visto che in Serie A nulla è da dare per scontato. Dopo la salita delle prime giornate, che ha visto quattro big match nelle prime otto partite, la Roma di Gasperini vede il rettilineo nei prossimi cinque turni che precedono il…”\n\nGoal.com: “I biglietti ufficiali per le partite della Roma possono essere acquistati online attraverso il portale ufficiale del club oppure, nei giorni delle partite, presso la biglietteria dello Stadio Olimpico designata a tale scopo. Per acquistare biglietti per le singole partite o abbonamenti per le gare…”",
+      "category": "trending",
+      "published_at": "2026-10-31T20:00:00+00:00",
+      "generated_at": "2026-10-31T21:12:28.145768+00:00",
+      "kind": "digest",
+      "keyword": "serie a",
+      "score": 89.33,
+      "sources": [
+        {
+          "title": "Roma, il calendario sorride a Gasp: 5 partite per mettere nel mirino la vetta. Per Chivu si complica",
+          "url": "https://www.gazzetta.it/Calcio/Serie-A/Roma/30-10-2026/roma-inter-calendari-confronto.shtml",
+          "publisher": "La Gazzetta dello Sport"
+        },
+        {
+          "title": "Calcio, classifica serie A: Roma a -1 dalla vetta",
+          "url": "https://askanews.it/2026/10/31/calcio-classifica-serie-a-roma-a-1-dalla-vetta/",
+          "publisher": "Askanews"
+        },
+        {
+          "title": "Come acquistare i biglietti della Roma per la stagione 2026/27: Prossime partite, prezzi dei biglietti per la Serie A, informazioni sullo Stadio Olimpico e altro",
+          "url": "https://www.goal.com/it/biglietti-viaggi/squadra/come-acquistare-i-biglietti-della-roma-per-la-stagione-2026-27-prossime-partite-prezzi-dei-biglietti-per-la-serie-a-informazioni-sullo-stadio-olimpico-e-altro/A~blt4ae021d72d7a0a4a",
+          "publisher": "Goal.com"
         }
       ]
     }
