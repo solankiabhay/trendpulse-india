@@ -2,9 +2,9 @@
 (function () {
   'use strict';
   var LABELS = {
-    en: { all: 'All', india: 'India', world: 'World', business: 'Business', technology: 'Technology',
+    en: { all: 'All', india: 'India', world: 'World', business: 'Business', technology: 'Tech',
       entertainment: 'Entertainment', politics: 'Politics', gaming: 'Gaming', sports: 'Sports', science: 'Science', health: 'Health', trending: 'Trending' },
-    hi: { all: 'सभी', india: 'भारत', world: 'दुनिया', business: 'कारोबार', technology: 'तकनीक',
+    hi: { all: 'सभी', india: 'भारत', world: 'दुनिया', business: 'कारोबार', technology: 'टेक',
       entertainment: 'मनोरंजन', politics: 'राजनीति', gaming: 'गेमिंग', sports: 'खेल', science: 'विज्ञान', health: 'स्वास्थ्य', trending: 'ट्रेंडिंग' }
   };
   function matches(item, cat) { return !cat || cat === 'all' || item.cat === cat; }
@@ -20,10 +20,23 @@
     var cards = Array.prototype.slice.call(grid.querySelectorAll('[data-cat]'));
     var lang = document.documentElement.lang === 'hi' ? 'hi' : 'en';
     var labels = LABELS[lang];
-    var cats = [];
-    cards.forEach(function (card) {
-      var cat = card.getAttribute('data-cat');
+    var present = {};
+    cards.forEach(function (card) { present[card.getAttribute('data-cat')] = true; });
+    var preferred = ['gaming', 'technology', 'business', 'sports', 'politics'];
+    var cats = preferred.filter(function (cat) { return !!present[cat]; });
+    Object.keys(present).sort().forEach(function (cat) {
       if (cat && cats.indexOf(cat) === -1) { cats.push(cat); }
+    });
+    grid.querySelectorAll('img.card-image[data-fallback-category]').forEach(function (img) {
+      img.addEventListener('error', function () {
+        var fallback = document.createElement('div');
+        fallback.className = 'card-image card-image-fallback cat-' + img.getAttribute('data-fallback-category');
+        fallback.setAttribute('aria-hidden', 'true');
+        var label = document.createElement('span');
+        label.textContent = img.getAttribute('data-fallback-label') || 'News';
+        fallback.appendChild(label);
+        img.replaceWith(fallback);
+      }, { once: true });
     });
     var buttons = [];
     function addButton(cat) {
