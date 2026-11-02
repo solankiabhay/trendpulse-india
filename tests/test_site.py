@@ -157,7 +157,7 @@ class HtmlSeo(unittest.TestCase):
         stale = dict(base, title="Older parliamentary update reported earlier", published_at="2026-10-13T05:30:00+00:00")
         now = datetime(2026, 10, 17, 6, 0, tzinfo=timezone.utc)
         html = engine.list_page(engine.load_config(ROOT / "config.json"), "en", [fresh, stale], "en/index.html", now=now)
-        latest = html.split('id="grid">', 1)[1].split("</div>", 1)[0]
+        latest = html.split('<section aria-labelledby="latest"', 1)[1].split("</section>", 1)[0]
         self.assertIn("Fresh parliamentary update", latest)
         self.assertNotIn("Older parliamentary update", latest)
         self.assertIn("Earlier coverage", html)
