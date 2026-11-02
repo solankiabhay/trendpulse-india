@@ -91,6 +91,22 @@ class ProjectFiles(unittest.TestCase):
             with self.subTest(title=post["title"]):
                 self.assertEqual(engine.infer_trending_category(post), expected)
 
+    def test_all_homepage_keeps_enough_recent_articles_for_category_filters(self):
+        from datetime import datetime, timezone
+        cfg = engine.load_config(ROOT / "config.json")
+        base = next(p for p in json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))["posts"]
+                    if p.get("lang") == "en" and engine.indexable(p, cfg))
+        posts = []
+        for i in range(24):
+            posts.append(dict(base, id=f"en-{i:010d}", title=f"Fresh story number {i} with enough context",
+                              slug=f"fresh-story-{i}", url=f"en/posts/fresh-story-{i}.html",
+                              category="sports" if i % 3 == 0 else "trending",
+                              published_at=f"2026-11-02T05:{i:02d}:00+00:00"))
+        html = engine.list_page(cfg, "all", posts, "index.html",
+                                now=datetime(2026, 11, 2, 6, 0, tzinfo=timezone.utc))
+        latest = html.split('<section aria-labelledby="latest"', 1)[1].split("</section>", 1)[0]
+        self.assertEqual(latest.count('<article class="card'), 24)
+
     def test_category_filter_page_has_only_categories_with_visible_stories(self):
         from datetime import datetime, timezone
         cfg = engine.load_config(ROOT / "config.json")
