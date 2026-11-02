@@ -5476,7 +5476,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://onefootball.com/en/betting/static/wp/2026/10/fiorentina-x-atalanta-1.webp",
+      "image_source": "https://onefootball.com/en/betting/predictions/fiorentina-vs-atalanta-29-10-2026",
+      "image_credit": "OneFootball",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/c6e26d1d3b500a41db57.webp"
     },
     {
       "id": "en-202247cd45",
@@ -5511,7 +5517,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://www.aragondigital.es/media/aragondigital/images/2026/10/29/2026102920055327471.jpg",
+      "image_source": "https://www.aragondigital.es/articulo/sd-huesca/lucido-avance-base-golazos/202610292006221018838.html",
+      "image_credit": "Aragón Digital",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/7a25e8d9088ece9b305c.jpg"
     },
     {
       "id": "en-8a41e8eca9",
@@ -5687,7 +5699,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://img-cdn.publive.online/fit-in/1200x675/rising-kashmir/media/media_files/2026/10/20/weather-2026-10-20-12-30-21.jpg",
+      "image_source": "https://risingkashmir.com/weather/lightrainthunserstromsjk-12764824",
+      "image_credit": "Rising Kashmir",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/6ac1a3e87101d415c6ec.jpg"
     },
     {
       "id": "en-23bf5c3a1c",
@@ -5722,7 +5740,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://s.w-x.co/wxnext/img/102826-AR-setup-SWSnap-bd86b3.png",
+      "image_source": "https://weather.com/2026/11/02/forecast/regional/atmospheric-river-flooding-california-southwest-halloween",
+      "image_credit": "The Weather Channel",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/b4b9e1f1864fe6b48f05.png"
     },
     {
       "id": "en-aba2c95c0f",
@@ -5758,7 +5782,11 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://static.toiimg.com/thumb/msid-135299458,width-1280,height-720,resizemode-6,overlay-toiblogs,pt-32,x_pad-1045,y_pad-670/photo.jpg"
+      "image_url": "https://static.toiimg.com/thumb/msid-135299458,width-1280,height-720,resizemode-6,overlay-toiblogs,pt-32,x_pad-1045,y_pad-670/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/toi-blogs/toi-newsletters/bharat-abroad/toi-bharat-abroad-us-midterms-red-blue-a-little-desi-too/articleshow/135299309.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-4d820a002e",
@@ -5794,7 +5822,11 @@
       ],
       "image_url": "https://www.bcci.tv/cms/images/gtykgr9m2ngt/10VWJm2WDOoGEYx6k2yeQz/bda12d6eb36f7367b25f753ac796ee7a/Website_Thumbnails.png",
       "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_source": "https://www.bcci.tv/news/article/india-and-india-a-squad-updates-for-new-zealand-tour",
+      "image_credit": "BCCI",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-815652667b",
@@ -5829,7 +5861,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/047b/live/8acbc4e0-d315-11f1-ba7d-b5eab6da6837.jpg",
+      "image_source": "https://www.bbc.com/sport/football/articles/c678prmye8xvo",
+      "image_credit": "BBC",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/753059163ad303827fbc.jpg"
     },
     {
       "id": "en-2186813306",
@@ -5864,7 +5902,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T12:24:28.576199+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://www.tripurastarnews.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-2.53.12-AM1.jpeg",
+      "image_source": "https://www.tripurastarnews.com/underground-cabling-project-will-boost-agartalas-infrastructure-chief-minister-of-tripura-dr-manik-saha/",
+      "image_credit": "TRIPURA STAR NEWS",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/f85dbcba8d54dd8ae9d1.jpg"
     },
     {
       "id": "en-76cfd7d24c",
@@ -5899,7 +5943,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.toiimg.com/thumb/msid-135239811,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/thats-why-i-praised-my-team-daren-sammy-backs-west-indies-2-2-draw-says-india-remains-a-dangerous-team/articleshow/135239311.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/44538f1d096da2258f3c.png"
     },
     {
       "id": "en-5bba018b4a",
@@ -5934,7 +5984,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://images.moneycontrol.com/static-mcnews/2025/12/20251210110258_vedantartr1.png",
+      "image_source": "https://www.moneycontrol.com/europe/?url=https%3A%2F%2Fwww.moneycontrol.com%2Fnews%2Fbusiness%2Fvedanta-oil-gas-targets-150-000-bpd-production-by-fy28-bets-on-deepwater-exploration-ceo-jim-gast-14063804.html",
+      "image_credit": "Moneycontrol.com",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/02b3adb87accfd19d173.jpg"
     },
     {
       "id": "en-e3f99eacc3",
@@ -5969,7 +6025,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://th-i.thgim.com/public/news/cities/Hyderabad/ggkb6a/article71644193.ece/alternates/LANDSCAPE_1200/Image%2013.jpeg",
+      "image_source": "https://www.thehindu.com/news/national/telangana/telanganas-minimum-temperature-between-18%C2%B0c-and-25%C2%B0c-on-october-30-morning-222%C2%B0c-in-ghmc/article71644202.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/e759a6b6dc32353801ef.jpg"
     },
     {
       "id": "en-22dce2adda",
@@ -6244,7 +6306,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.toiimg.com/thumb/msid-135368918,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/maharashtra-fda-completes-proceedings-against-shah-rukh-khan-ajay-devgn-and-tiger-shroff-over-pan-masala-ads-tukaram-mundhe-says-assistant-commissioner-found-that-they-violated-the-states-rules/articleshow/135368829.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-02T11:34:52.862950+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/654d342e16c8ecf012a8.jpg"
     },
     {
       "id": "en-c153671cb5",
