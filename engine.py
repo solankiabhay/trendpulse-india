@@ -1492,9 +1492,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     if archive_items:
         archive = (f'<section aria-labelledby="archive"><h2 id="archive">{esc(L["archive"])}</h2>'
                    f'<div class="grid">' + "".join(card(p, up) for p in archive_items) + "</div></section>")
-    hero = ""
-    if scope != "all":
-        hero = f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>'
+    hero = f'<h1 class="sr">{esc(cfg["site_name"])}</h1>' if scope == "all" else f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>'
     market_snapshot = ""
     if scope == "all":
         # Home pages live under /en/ and /hi/, so the shared asset path must
@@ -1510,7 +1508,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
             '</div></div>'
             '<span id="market-ticker-date" class="market-strip-date">Daily reference rates</span>'
             '</section>'
-            '<p class="market-strip-disclaimer">Daily reference prices, not live trading quotes. Gold and silver are IBJA benchmarks; index data is from NSE/BSE. '
+            '<p class="market-strip-disclaimer">Daily reference prices, not live trading quotes. Gold and silver are IBJA benchmarks; Nifty indices are from NSE. Sensex is shown only when a licensed BSE feed is available. '
             '<a href="https://snapdata.dev/docs/" target="_blank" rel="noopener noreferrer">Data source</a>.</p>'
             f'<script src="{market_script}" defer></script>'
         )
