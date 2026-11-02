@@ -280,22 +280,29 @@ def content_language_needs_refresh(text: str, lang: str) -> bool:
 
 
 def translate_to_hindi(text: str) -> str:
-    """Translate English text with the optional local Argos en→hi model.
+    """Translate English text with the installed offline Argos en→hi package.
 
-    No remote translation API or paid key is used. If the model is unavailable,
-    keep the original text so callers can safely omit it rather than inventing
-    a translation.
+    Use the same explicit language-package lookup as the workflow smoke test.
+    This avoids relying on a convenience API that may not be exposed by every
+    Argos Translate release. No remote translation API or paid key is used.
     """
     text = normalize_text(text)
     if not text or deva_ratio(text) >= 0.35:
         return text
     try:
         import argostranslate.translate as argos_translate
-        translated = normalize_text(argos_translate.translate(text, "en", "hi"))
+        languages = argos_translate.get_installed_languages()
+        english = next((language for language in languages if language.code == "en"), None)
+        hindi = next((language for language in languages if language.code == "hi"), None)
+        if english is None or hindi is None:
+            log.warning("Argos en→hi language package is not installed")
+            return text
+        translation = english.get_translation(hindi)
+        translated = normalize_text(translation.translate(text))
         if translated and deva_ratio(translated) >= 0.20:
             return translated
     except Exception as exc:
-        log.debug("local English-to-Hindi translation unavailable: %s", exc)
+        log.warning("local English-to-Hindi translation unavailable: %s", exc)
     return text
 
 
@@ -1487,7 +1494,10 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     dated = [(p, parse_date(p["published_at"])) for p in all_items]
     items = [p for p, dt in dated if dt and cutoff <= dt <= now + timedelta(hours=1)]
     items = items[:cfg["max_list_items"]]
-    archive_items = [p for p, dt in dated if dt and dt < cutoff and indexable(p, cfg)][:6]
+    # Keep older published Hindi/English stories discoverable in the archive.
+    # The indexability gate controls search indexing, not whether readers can browse
+    # an already-published story from the site archive.
+    archive_items = [p for p, dt in dated if dt and dt < cutoff][:cfg.get("max_list_items", 60)]
     # Only genuinely recent items appear in Trending, Latest, category filters, and search.
     visible_items = [p for p in items if indexable(p, cfg)]
     top = [p for p in sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3] if indexable(p, cfg)]
