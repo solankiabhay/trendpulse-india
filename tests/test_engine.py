@@ -542,6 +542,19 @@ class StructureAndReviewTests(unittest.TestCase):
 
 
 class TeaserAndIndexingTests(unittest.TestCase):
+    def test_market_snapshot_is_shared_across_all_homepages(self):
+        root = make_root()
+        cfg = engine.load_config(root / "config.json")
+        files = engine.render_site(root, cfg, [], write=False)
+        for path in ("index.html", "en/index.html", "hi/index.html"):
+            html = files[path]
+            self.assertIn('class="market-strip"', html, path)
+            self.assertIn('id="market-ticker"', html, path)
+            self.assertIn("market-ticker.js", html, path)
+            self.assertEqual(html.count('id="market-ticker"'), 1, path)
+        self.assertIn("दैनिक अपडेट", files["hi/index.html"])
+        self.assertIn("DAILY SNAPSHOT", files["en/index.html"])
+
     def test_root_homepage_declares_language_alternates(self):
         root = make_root()
         cfg = engine.load_config(root / "config.json")
