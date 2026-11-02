@@ -1492,7 +1492,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     if archive_items:
         archive = (f'<section aria-labelledby="archive"><h2 id="archive">{esc(L["archive"])}</h2>'
                    f'<div class="grid">' + "".join(card(p, up) for p in archive_items) + "</div></section>")
-    hero = f'<h1 class="sr">{esc(cfg["site_name"])}</h1>' if scope == "all" else f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>'
+    hero = f'<h1 class="sr">{esc(cfg["site_name"])}</h1>' if scope == "all" else ("" if scope in ("en", "hi") else f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>')
     market_snapshot = ""
     if scope == "all":
         # Home pages live under /en/ and /hi/, so the shared asset path must
