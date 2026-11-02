@@ -1492,6 +1492,9 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     if archive_items:
         archive = (f'<section aria-labelledby="archive"><h2 id="archive">{esc(L["archive"])}</h2>'
                    f'<div class="grid">' + "".join(card(p, up) for p in archive_items) + "</div></section>")
+    hero = ""
+    if scope != "all":
+        hero = f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>'
     market_snapshot = ""
     if scope == "all":
         market_symbols = [
@@ -1520,7 +1523,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
             '<p class="market-disclaimer">Market quotes are provided by TradingView. Exchange data may be delayed; verify prices with your broker before trading.</p>'
             '</section>'
         )
-    body = f"""{market_snapshot}
+    body = f"""{market_snapshot}{hero}
 {trending}
 <section class="tools"><nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats"></nav></section>
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>
