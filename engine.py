@@ -299,6 +299,44 @@ def translate_to_hindi(text: str) -> str:
     return text
 
 
+def translate_candidate_to_hindi(candidate: dict, cfg: dict):
+    """Create a Hindi edition using the locally installed Argos model only."""
+    if candidate.get("lang") != "en" or not cfg.get("translate_english_to_hindi", True):
+        return None
+    title = translate_to_hindi(candidate.get("title", ""))
+    summary = translate_to_hindi(candidate.get("summary", ""))
+    if (not title or deva_ratio(title) < 0.40 or len(title) < cfg["min_title_chars"]
+            or len(title) > 160 or not summary or deva_ratio(summary) < 0.35):
+        return None
+    translated = dict(candidate)
+    translated["lang"] = "hi"
+    translated["title"] = title
+    translated["summary"] = summary
+    translated["keyword"] = translate_to_hindi(candidate.get("keyword") or "")
+    translated["feed"] = (candidate.get("feed") or "English source") + " [local Hindi edition]"
+    translated["sources"] = [dict(source) for source in candidate.get("sources", [])]
+    if candidate.get("article_body"):
+        body = translate_to_hindi(candidate["article_body"])
+        translated["article_body"] = body if deva_ratio(body) >= 0.35 else ""
+    translated["translated_from"] = "en"
+    return translated if language_ok("hi", title) else None
+
+
+def balanced_candidates(candidates):
+    """Interleave Hindi and English candidates so one language cannot starve the other."""
+    groups = {
+        lang: sorted((c for c in candidates if c.get("lang") == lang),
+                     key=lambda c: c.get("score", 0), reverse=True)
+        for lang in ("hi", "en")
+    }
+    ordered = []
+    while groups["hi"] or groups["en"]:
+        for lang in ("hi", "en"):
+            if groups[lang]:
+                ordered.append(groups[lang].pop(0))
+    return ordered
+
+
 def clean_hindi_excerpt(text: str) -> str:
     """Keep Hindi-script source text; remove appended English headline translations.
 
@@ -791,36 +829,13 @@ def build_evidence_digest(source_evidence, max_sources=5, max_words=45, lang="en
 
 
 def generate_ai_article(title, lang, source_evidence):
-    """Generate a detailed article only from retrieved publisher evidence."""
-    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
-    if not api_key:
-        log.warning("OPENAI_API_KEY is not configured; skipping AI long-form article for %s", title[:90])
-        return ""
-    if not source_evidence: return ""
-    language = "Hindi" if lang == "hi" else "English"
-    evidence = []
-    for item in source_evidence[:5]:
-        paragraphs = [tidy(x)[:1000] for x in item.get("paragraphs", []) if tidy(x)]
-        if paragraphs: evidence.append({"publisher": normalize_text(item.get("publisher", "Publisher")), "headline": normalize_text(item.get("title", ""))[:250], "url": item.get("url", ""), "reported_text": paragraphs[:4]})
-    evidence_word_count = sum(len(paragraph.split()) for item in evidence for paragraph in item["reported_text"])
-    # A single publisher is sufficient only when its accessible article provides substantial evidence.
-    # Do not expand a short feed teaser into an invented long-form story.
-    if not evidence or evidence_word_count < 120: return ""
-    prompt = ("Write a detailed news article in " + language + " about: " + title + "\n\n"
-        "Use ONLY facts explicitly present in the source evidence JSON below. No outside knowledge, assumptions, predictions, invented quotes, statistics, dates, or motives. Attribute claims to the source that reported them. Paraphrase faithfully and do not repeat the headline as filler. Use 4-7 substantial paragraphs and aim for 450-650 words only when evidence supports that much; otherwise write a shorter accurate article. Explain what happened, relevant context found in the sources, what each source reports, and what remains unclear. Return plain text paragraphs separated by blank lines, with no Markdown headings or HTML.\n\n"
-        "SOURCE EVIDENCE JSON:\n" + json.dumps(evidence, ensure_ascii=False))
-    payload = json.dumps({"model": os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"), "messages": [{"role": "system", "content": "You are a careful news editor. Accuracy and attribution matter more than length."}, {"role": "user", "content": prompt}], "temperature": 0.2, "max_tokens": 1600}).encode("utf-8")
-    req = urllib.request.Request("https://api.openai.com/v1/chat/completions", data=payload, headers={"Authorization": "Bearer " + api_key, "Content-Type": "application/json"}, method="POST")
-    try:
-        with urllib.request.urlopen(req, timeout=35) as response: result = json.loads(response.read(1000000).decode("utf-8"))
-        article = result.get("choices", [{}])[0].get("message", {}).get("content", "")
-        paragraphs = [tidy(x) for x in re.split(r"\n\s*\n", article) if tidy(x)]
-        article = "\n\n".join(paragraphs)
-        if len(article.split()) < 180 or len(paragraphs) < 3:
-            log.warning("AI article rejected: output was too short or not paragraph-structured"); return ""
-        return article[:9000]
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError, ValueError, KeyError, IndexError) as exc:
-        log.warning("AI article generation unavailable for %s: %s", title[:90], exc); return ""
+    """Paid hosted text-generation is intentionally disabled.
+
+    TrendPulse uses source-backed extractive summaries and the optional local
+    Argos English-to-Hindi model. No API key, subscription, or paid endpoint is
+    needed for the publishing workflow.
+    """
+    return ""
 
 def enrich_candidate_summary(c, cfg, max_sources=5):
     """Enrich a thin digest from multiple source pages without inventing facts.
@@ -1841,13 +1856,26 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
     new_posts, queue = [], []
     if not render_only and not refresh_only:
         cands = collect(cfg, fetcher, stats)
+        # Build Hindi editions from English feed items with the offline Argos model.
+        # Native Hindi feed candidates are kept; translated editions retain original source links.
+        translated = []
+        for source_candidate in cands:
+            if source_candidate.get("lang") == "en":
+                try:
+                    hindi_candidate = translate_candidate_to_hindi(source_candidate, cfg)
+                    if hindi_candidate:
+                        translated.append(hindi_candidate)
+                except Exception as exc:
+                    log.warning("local Hindi translation skipped for %s: %s", source_candidate.get("title", "")[:90], exc)
+        cands.extend(translated)
+        stats["translated_hindi_candidates"] = len(translated)
         stats["candidates"] = len(cands)
         if not stats["all_feeds_failed"]:
             for c in cands:
                 c["score"] = score(c, cfg, now)
             known = known_entries(posts_doc, pub_doc)
             enriched_count = 0
-            for c in sorted(cands, key=lambda c: c["score"], reverse=True):
+            for c in balanced_candidates(cands):
                 if len(new_posts) >= cfg["max_new_posts_per_run"]:
                     break
                 try:
