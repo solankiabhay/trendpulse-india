@@ -1748,7 +1748,7 @@ def backfill_missing_images(posts, cfg, root, limit=12):
             post["image_path"] = local_path
             updated += 1
             log.info("cached thumbnail for %s", post.get("id"))
-    return updated
+    return updated, attempts
 
 
 
