@@ -981,8 +981,9 @@
           "publisher": "Cinema Express"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "hi-df909e12d6",
@@ -1113,8 +1114,9 @@
           "publisher": "The Economic Times"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "hi-1a29d4ddf4",
@@ -1201,8 +1203,9 @@
           "publisher": "The Independent"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "hi-b06490673d",
@@ -1289,8 +1292,9 @@
           "publisher": "NDTV Profit"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "en-f875434402",
@@ -6248,7 +6252,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://th-i.thgim.com/public/incoming/jnx5rt/article71644499.ece/alternates/LANDSCAPE_1200/6607_30_10_2026_14_13_24_1_IMG_20261030_134855.JPG",
+      "image_source": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-will-bring-ucc-in-uttar-pradesh-if-voted-to-power-again-says-amit-shah/article71644484.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/9d3b579ce6d9189c43c5.jpg"
     },
     {
       "id": "en-f451b0f9ea",
@@ -6283,7 +6293,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261030-dan-sullivan-alaska-w-1507-797575.jpg",
+      "image_source": "https://www.nbcnews.com/politics/2026-election/doj-requests-separating-alaska-ballots-rank-dan-j-sullivan-senate-race-rcna606646",
+      "image_credit": "NBC News",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/f5ec153e719447691ada.jpg"
     },
     {
       "id": "en-bb5f68273f",
@@ -6529,7 +6545,12 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://resources.adelaide-strikers.pulselive.com/adelaide-strikers/photo/2026/10/30/01d26f7a-5278-4a10-8989-a06508102855/DSC04115.jpg",
+      "image_source": "https://www.adelaidestrikers.com.au/news/4601330/adelaide-strikers-name-squad-for-wbbl12-season-opener",
+      "image_credit": "Adelaide Strikers",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-f2ea8877fa",
@@ -6564,7 +6585,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/v1793357541/prd/fogiuatvcrf9ie1thnk8",
+      "image_source": "https://www.icc-cricket.com/news/chase-s-all-round-effort-keeps-bangladesh-in-check",
+      "image_credit": "ICC",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/ccc64d9049e3e6b07e42.webp"
     },
     {
       "id": "en-f0f14d0b80",
@@ -6600,7 +6627,11 @@
       ],
       "image_url": "https://i.guim.co.uk/img/media/cacf03ac11ff508ff4ed13585d4658bbb66cbea1/1066_294_4179_3343/master/4179.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40%3A21%2Coffset-x50%2Coffset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9da31afedf27c86df7b5de78583e9408",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_source": "https://www.theguardian.com/sport/2026/oct/27/pakistan-sri-lanka-one-day-international-odi-match-report-cricket",
+      "image_credit": "The Guardian",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-cbcac160cb",
@@ -6635,7 +6666,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.cricbuzz.com/a/img/v1/1200x630/i1/c1111570/sooryavanshis-chances-may-be-delayed-never-denied-dinesh-karthik.jpg",
+      "image_source": "https://www.cricbuzz.com/cricket-videos/216464/sooryavanshis-chances-may-be-delayed-never-denied-dinesh-karthik",
+      "image_credit": "Cricbuzz",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/f7016013bee455c96fc6.jpg"
     },
     {
       "id": "en-8c0f0b413a",
@@ -6670,7 +6707,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://th-i.thgim.com/public/news/national/up7fc2/article71649104.ece/alternates/LANDSCAPE_1200/PTI05_23_2026_000070B.jpg",
+      "image_source": "https://www.thehindu.com/business/petrol-export-duty-cut-to-nil-diesel-levy-raised-by-3-a-litre/article71649004.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/c17b21aeb8115f7a399a.jpg"
     },
     {
       "id": "en-982c7e140e",
@@ -6705,7 +6748,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T17:01:00.296403+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/__sized__/ANI-20261031052226-thumbnail-320x180-70.jpg",
+      "image_source": "https://www.aninews.in/news/national/politics/we-dont-rely-on-just-one-face-sachin-pilot-rejects-rivalry-charge-in-punjab-congress16020261031105250/",
+      "image_credit": "ANI News",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/d49c261bc390e6a70af6.jpg"
     },
     {
       "id": "en-59c2cf788e",
@@ -6740,7 +6789,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.toiimg.com/thumb/msid-135367747,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/technology/gaming/bmic-2026-korea-dominates-the-opening-indias-outrage-esports-and-k9-esports-win-a-match-each/articleshow/135367516.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/123a40837b28e4030372.jpg"
     },
     {
       "id": "en-e6bb62b7d4",
@@ -6775,7 +6830,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.cricbuzz.com/a/img/v1/i1/c860589/willow.jpg?d=high&p=det",
+      "image_source": "https://m.cricbuzz.com/live-cricket-scores/170751/eng-vs-sl-6th-match-pakistan-odi-tri-series-2026",
+      "image_credit": "Cricbuzz",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/d6717c604f6c4dcad3a8.png"
     },
     {
       "id": "en-0387652641",
@@ -6892,7 +6953,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
+      "image_source": "https://www.dimers.com/tennis/news/alexander-zverev-vs-alex-de-minaur-tennis-prediction-atp-vienna-open-2026-ac",
+      "image_credit": "Dimers",
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/64cde5ec18360311d4d2.jpg"
     },
     {
       "id": "en-f85ae078e5",
@@ -6928,7 +6995,10 @@
       ],
       "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
       "summary_refresh_attempted_at": "2026-11-02T10:11:45.044200+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_lookup_attempted_at": "2026-11-02T11:03:00.348471+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/64cde5ec18360311d4d2.jpg"
     },
     {
       "id": "en-221d81de57",
