@@ -1438,14 +1438,37 @@ def trend_topic_card(p, up, lang, posts=()):
             f'</article>')
 
 
+def infer_trending_category(post):
+    """Give a Google Trends story a useful section when its headline has a clear topic."""
+    text = normalize_text(" ".join((post.get("keyword", ""), post.get("title", ""), post.get("summary", ""))).casefold())
+    rules = [
+        ("gaming", r"\b(gta\s*6|playstation|ps5|ps4|xbox|nintendo|steam|video game|gaming|esports|fortnite|minecraft|valorant|pubg|free fire)\b"),
+        ("sports", r"\b(cricket|ipl|icc|fifa|football|soccer|tennis|badminton|hockey|olympics|world cup|test match|t20|odi|vs\s+[a-z])\b"),
+        ("technology", r"\b(artificial intelligence|\bai\b|chatgpt|openai|google gemini|iphone|smartphone|android|software|cybersecurity|semiconductor|chip|laptop|robotics|technology|tech)\b"),
+        ("business", r"\b(stock market|sensex|nifty|share price|ipo|rbi|reserve bank|inflation|gdp|economy|earnings|revenue|banking|business|company|tariff|trade deal)\b"),
+        ("politics", r"\b(election|parliament|lok sabha|rajya sabha|political|politics|prime minister|chief minister|minister|government|bjp|congress|bill passed|cabinet)\b"),
+    ]
+    for category, pattern in rules:
+        if re.search(pattern, text, re.I):
+            return category
+    return post.get("category", "trending")
+
+
 def list_page(cfg, scope, posts, path, alternates=(), now=None):
     """Render a fresh 72-hour news list plus a clearly labelled older archive."""
     lang = scope if scope in LANGS else "en"
     L, up = T[lang], "../" * path.count("/")
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=cfg.get("max_age_hours", 72))
-    all_items = sorted([p for p in posts if scope == "all" or p["lang"] == scope],
-                       key=lambda p: p["published_at"], reverse=True)
+    all_items = []
+    for original in posts:
+        if scope != "all" and original["lang"] != scope:
+            continue
+        post = dict(original)
+        if post.get("category") == "trending":
+            post["category"] = infer_trending_category(post)
+        all_items.append(post)
+    all_items.sort(key=lambda p: p["published_at"], reverse=True)
     dated = [(p, parse_date(p["published_at"])) for p in all_items]
     items = [p for p, dt in dated if dt and cutoff <= dt <= now + timedelta(hours=1)]
     items = items[: (12 if scope == "all" else cfg["max_list_items"])]
@@ -1453,7 +1476,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     # Only genuinely recent items appear in Trending, Latest, category filters, and search.
     visible_items = [p for p in items if indexable(p, cfg)]
     top = [p for p in sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3] if indexable(p, cfg)]
-    cats = [c for c in CATEGORIES if any(p["category"] == c for p in items)]
+    cats = [c for c in CATEGORIES if any(p["category"] == c for p in visible_items)]
     chooser = ""
     if scope == "all":
         chooser = (f'<p class="choose"><a class="btn" href="en/index.html">{esc(L["choose"])}</a> '
