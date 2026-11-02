@@ -9,6 +9,28 @@ import engine  # noqa: E402
 
 
 class HindiPipelineTests(unittest.TestCase):
+    def test_translate_to_hindi_uses_installed_argos_language_pair(self):
+        import types
+        translation = types.SimpleNamespace(
+            translate=lambda value: "सरकार ने आज नई नीति की घोषणा की"
+        )
+        english = types.SimpleNamespace(
+            code="en", get_translation=lambda target: translation
+        )
+        hindi = types.SimpleNamespace(code="hi")
+        argos_module = types.SimpleNamespace(
+            get_installed_languages=lambda: [english, hindi]
+        )
+        package = types.ModuleType("argostranslate")
+        package.translate = argos_module
+        with mock.patch.dict(sys.modules, {
+            "argostranslate": package,
+            "argostranslate.translate": argos_module,
+        }):
+            result = engine.translate_to_hindi("The government announced a new policy today.")
+        self.assertIn("सरकार", result)
+        self.assertGreaterEqual(engine.deva_ratio(result), 0.20)
+
     def test_english_candidate_gets_hindi_copy_with_same_sources(self):
         candidate = {
             "lang": "en", "title": "Government announces a new public transport policy",
