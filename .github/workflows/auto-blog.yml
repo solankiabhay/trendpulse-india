@@ -37,7 +37,7 @@ jobs:
         with:
           path: ~/.local/share/argos-translate
           key: argos-en-hi-v1
-      - name: Install English-to-Hindi model (best effort)
+      - name: Install free offline English-to-Hindi model
         run: |
           python - <<'PY'
           import logging
