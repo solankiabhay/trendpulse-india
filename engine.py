@@ -1722,25 +1722,32 @@ def cache_image(root, image_url, timeout=8):
 
 
 def backfill_missing_images(posts, cfg, root, limit=12):
-    """Cache publisher images first, then use Commons for articles without one."""
+    """Cache publisher images first, then try Commons if a publisher blocks hotlinking."""
     updated = 0
+    attempts = 0
+    now = datetime.now(timezone.utc)
     for post in sorted(posts, key=lambda item: item.get("published_at", ""), reverse=True):
-        if updated >= limit:
+        if attempts >= limit:
             break
         if post.get("image_path"):
             continue
+        attempted_at = parse_date(post.get("image_lookup_attempted_at", ""))
+        if attempted_at and now - attempted_at < timedelta(days=7):
+            continue
+        attempts += 1
         image_url = safe_url(post.get("image_url", ""))
-        if not image_url:
+        local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8)) if image_url else ""
+        if not local_path:
             match = find_commons_image(post.get("title", ""), timeout=min(cfg.get("timeout_seconds", 8), 8))
             if match:
                 post.update(match)
                 image_url = safe_url(post.get("image_url", ""))
-        if image_url:
-            local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8))
-            if local_path:
-                post["image_path"] = local_path
-                updated += 1
-                log.info("cached thumbnail for %s", post.get("id"))
+                local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8))
+        post["image_lookup_attempted_at"] = now.isoformat()
+        if local_path:
+            post["image_path"] = local_path
+            updated += 1
+            log.info("cached thumbnail for %s", post.get("id"))
     return updated
 
 
