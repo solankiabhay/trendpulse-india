@@ -5192,7 +5192,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1108982/the-australian-captain-was-signed-for-inr-110-cr.jpg",
+      "image_source": "https://www.cricbuzz.com/cricket-news/140688/wpl-2027-auction-up-warriorz-sign-sophie-molineux-for-110-cr-bring-back-grace-harris-cricbuzzcom",
+      "image_credit": "Cricbuzz",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/64a597058648c204b859.jpg"
     },
     {
       "id": "en-b3e8d4ca97",
@@ -5228,7 +5234,11 @@
       ],
       "image_url": "https://etimg.etb2bimg.com/thumb/msid-135266878,imgsize-31030,width-1200,height=627,overlay-etbfsi,resizemode-75/articles/bandhan-bank-q2-net-profit-surges-five-fold-to-rs-622-cr.jpg",
       "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_source": "https://bfsi.economictimes.indiatimes.com/articles/bandhan-bank-q2-net-profit-surges-five-fold-to-rs-622-cr/135266878",
+      "image_credit": "bfsi.economictimes.indiatimes.com",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-b8ef53aaf2",
@@ -5264,7 +5274,10 @@
       ],
       "image_url": "https://thenewsmill.com/tnm-og/611789.jpg",
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/507425c2410463040317.jpg"
     },
     {
       "id": "en-e6889620b4",
@@ -5299,7 +5312,12 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://img.etimg.com/thumb/msid-135288522,width-1200,height-900,imgsize-2654389,overlay-etmarkets/articleshow.jpg",
+      "image_source": "https://economictimes.indiatimes.com/markets/ipos/fpos/bombay-coated-special-steels-ipo-opens-today-gmp-at-11-should-you-subscribe/articleshow/135288487.cms?from=mdr",
+      "image_credit": "The Economic Times",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-9f3c6a8246",
@@ -5335,7 +5353,11 @@
       ],
       "image_url": "https://img.etimg.com/thumb/msid-135278629,width-1200,height-900,imgsize-50494,overlay-economictimes/articleshow.jpg",
       "summary_refresh_attempted_at": "2026-11-02T10:11:45.044200+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_source": "https://economictimes.indiatimes.com/news/company/corporate-trends/vedanta-cuts-debt-by-rs-4624-crore-in-september-quarter-as-net-profit-jumps-151/articleshow/135278530.cms?from=mdr",
+      "image_credit": "The Economic Times",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-5707d6103b",
@@ -5371,7 +5393,10 @@
       ],
       "image_url": "https://www.adani.com/-/media/project/adaniv1/newsroom/media-releases/thumbnails/adani-enterprises-ltd-announces-h1-and-q2-fy27-results.webp",
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/4386c675a7a8c90c5301.webp"
     },
     {
       "id": "en-9615255a54",
@@ -5406,7 +5431,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://img.etimg.com/thumb/msid-135274438,width-1200,height-900,imgsize-167542,overlay-etmarkets/articleshow.jpg",
+      "image_source": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-jio-platforms-ril-hero-motocorp-meesho-tvs-motor-vedanta-aluminium-and-suzlon-energy/articleshow/135273790.cms?from=mdr",
+      "image_credit": "The Economic Times",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/4a166ee7828a5250c578.jpg"
     },
     {
       "id": "en-256497684c",
@@ -5441,7 +5472,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://www.bcci.tv/matches/ed7c030c-a76f-4ef7-ba44-5017dd9beabe/mumbai-vs-haryana/opengraph-image",
+      "image_source": "https://www.bcci.tv/matches/ed7c030c-a76f-4ef7-ba44-5017dd9beabe/mumbai-vs-haryana/commentary",
+      "image_credit": "BCCI",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/86d0d1c4b8cc299fa74c.png"
     },
     {
       "id": "en-927e9e6387",
@@ -5558,7 +5595,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/karan-wahi-274719615-16x9_0.jpg?VersionId=M.7OM6Q.D2IXQnA7HZ5ezOnbhJeuE5H9",
+      "image_source": "https://www.indiatoday.in/entertainment/television/story/karan-wahi-recalls-meeting-ex-uditi-singh-with-her-boyfriend-i-wish-them-well-3026415-2026-10-27",
+      "image_credit": "India Today",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/9defd476c85739623fe0.jpg"
     },
     {
       "id": "en-60f3a87ad8",
@@ -5593,7 +5636,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/bf25/live/0a844d50-d3da-11f1-b441-2b33b063138f.jpg",
+      "image_source": "https://www.bbc.com/sport/football/live/cm0e0r4gjxz1t",
+      "image_credit": "BBC",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/926fe3d6089d2a63a26d.jpg"
     },
     {
       "id": "en-1816f327b6",
@@ -5628,7 +5677,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3499/live/a0de3e20-d306-11f1-ad4f-5d2bbacf0caf.jpg",
+      "image_source": "https://www.bbc.com/sport/tennis/articles/cmd93vlz4k11o",
+      "image_credit": "BBC",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/cb1f49f5b803ced05cb5.jpg"
     },
     {
       "id": "en-7c7fc63648",
@@ -5664,7 +5719,10 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg"
+      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
+      "image_lookup_attempted_at": "2026-11-02T12:33:46.884472+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/64cde5ec18360311d4d2.jpg"
     },
     {
       "id": "en-8f05ac6694",
