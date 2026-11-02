@@ -1496,7 +1496,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     if scope != "all":
         hero = f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>'
     market_snapshot = ""
-    if scope == "all":
+    if scope in ("all", "en", "hi"):
         market_snapshot = (
             '<section class="market-strip" aria-label="Indian market snapshot">'
             '<div class="market-strip-label"><span class="market-strip-dot" aria-hidden="true"></span>'
