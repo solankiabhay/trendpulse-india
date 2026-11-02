@@ -1478,9 +1478,6 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     top = [p for p in sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3] if indexable(p, cfg)]
     cats = [c for c in CATEGORIES if any(p["category"] == c for p in visible_items)]
     chooser = ""
-    if scope == "all":
-        chooser = (f'<p class="choose"><a class="btn" href="en/index.html">{esc(L["choose"])}</a> '
-                   f'<a class="btn" lang="hi" hreflang="hi" href="hi/index.html">{esc(L["choose_hi"])}</a></p>')
     btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
         f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
     trending = ""
@@ -1495,7 +1492,35 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     if archive_items:
         archive = (f'<section aria-labelledby="archive"><h2 id="archive">{esc(L["archive"])}</h2>'
                    f'<div class="grid">' + "".join(card(p, up) for p in archive_items) + "</div></section>")
-    body = f"""<section class="hero"><h1>{esc(L['hero_title'])}</h1><p>{esc(L['hero_text'])}</p>{chooser}</section>
+    market_snapshot = ""
+    if scope == "all":
+        market_symbols = [
+            ("gold", "Gold 24K", "MCX:GOLD1!", "Per 10 grams"),
+            ("silver", "Silver", "MCX:SILVER1!", "Per kilogram"),
+            ("sensex", "Sensex", "BSE:SENSEX", "BSE benchmark index"),
+            ("nifty", "Nifty 50", "NSE:NIFTY", "NSE benchmark index"),
+        ]
+        market_cards = []
+        for key, label, symbol, unit in market_symbols:
+            market_cards.append(
+                f'<article class="market-card market-{key}"><div class="market-card-heading">'
+                f'<h3>{esc(label)}</h3><span class="market-live">MARKET</span></div>'
+                f'<div class="tradingview-widget-container market-widget"><div class="tradingview-widget-container__widget"></div>'
+                f'<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>'
+                f'{{"symbol":"{symbol}","width":"100%","locale":"en","colorTheme":"dark","isTransparent":true,'
+                f'"displayMode":"regular","valuesTracking":"1","chartOnly":false}}</script></div>'
+                f'<p class="market-unit">{esc(unit)}</p></article>'
+            )
+        market_snapshot = (
+            '<section class="market-section" aria-labelledby="market-title">'
+            '<div class="market-topline"><div><p class="market-eyebrow">INDIA MARKET WATCH</p>'
+            '<h1 id="market-title">Market Snapshot</h1><p class="market-subtitle">Gold, Silver, Sensex &amp; Nifty at a glance</p></div>'
+            '<span class="market-free">FREE MARKET DATA</span></div>'
+            '<div class="market-grid">' + "".join(market_cards) + '</div>'
+            '<p class="market-disclaimer">Market quotes are provided by TradingView. Exchange data may be delayed; verify prices with your broker before trading.</p>'
+            '</section>'
+        )
+    body = f"""{market_snapshot}
 {trending}
 <section class="tools"><nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats"></nav></section>
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>
