@@ -3099,381 +3099,201 @@
       ]
     },
     {
-      "id": "en-cd97a35d2c",
+      "id": "en-1c5c3ad651",
       "lang": "en",
-      "title": "OpenSSL 4.1.0 Adds DTLS 1.3 and Cryptographic Optimisations",
-      "category": "technology",
-      "published_at": "2026-11-01T21:00:03+00:00",
+      "title": "The Links Between Napping And Dementia May Go Further Than We Realized",
+      "category": "health",
+      "published_at": "2026-11-02T01:02:53+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "OpenSSL 4.1.0 Adds DTLS 1.3 and Cryptographic Optimisations",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTUpPVHhXMXQwMUxwZDA2ZmdfMndHSXRBZWYwOW1HLXFEYzlfQXIyYkRIcW43VHkzU2FHVGpKbXNTMUJlUzc0WHU4NFliTmpiWnFXSm9HWUtCN2hDQkJ2NlRzNW9pUm52REJNOEswR2FQQlEtOVFXM2VZaldqbzg4U3NxRFJMWXQzZjNHUWp0UXZSRU0?oc=5",
-          "publisher": "LinkedIn"
+          "title": "The Links Between Napping And Dementia May Go Further Than We Realized",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVFJZS0h3THM5dzhnZFhsWk9Iby12SlFfNzJGb21fcEdvS1Q1aDZFSFNubVlJZXMzOGlWRlJ5MVMzUkNUSXBrdVBwcWcwd282TzFNajlZeGl5cGVyWEJWaTQzNFU0NFNmRVIxWUw4aVN3WXp3b0JZVlVJN2pQMm85bFVNVmg4LTRJdnVTWUV5UEtwQjZtX2c0QmEtN1h5QnI5?oc=5",
+          "publisher": "ScienceAlert"
         },
         {
-          "title": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ycHdmZ3RDUURTRGt4TmJpVHFYeGpSeWx6T3h0TUEwV2dMNHdad1BkclktNU5rWURzcUQ2bHMyb3pSRGg4aWhQTjdnT091QzNxTnJ1WUR2ZmRVSkdKZ05IOF93SFc3b1ZzODNtZDJuenZCN0hy?oc=5",
-          "publisher": "Help Net Security"
+          "title": "Johns Hopkins Researchers Say One Common Daytime Habit Could Be An Early Sign Of Dementia, And Many People Over 65 Do It Most Days",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPc2p2aVFtTGt0VUdZdU9Ra2lBbmdSR3lyOFE1OUZ3SzNFdmgtSTZrWFdQaEotdG5HS3Z6UWJJY3JPZ3Z1d0UzTnNsQ0FfT3oxMkkxMkVsa3lKM0p1V2xwbXNadUYxRkN3cmt4bklmOE85MldWNTdNaGhtZVVSYUhKQXU0ajJXVXV0QXRVVVotcXpmMnhRQzY4NUQ2MmhONzJpQUZrbnF1bzdlNmpOUWVHOVZPS0lUOEhsaUV0Z1ZVN0tqek1EeWRIQUN5YWNITlZoNGd2U3FBcW9JQWlhaVpTc2tvbFY4THloeTgya1YyUzUza3dkb3pGQkhleEUyZWI1VUJrQ3R3?oc=5",
+          "publisher": "Grazia"
         },
         {
-          "title": "OpenSSL 4.1 speeds up post-quantum cryptography",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSTlxRXpYSGU1OU9neldSYk55MDN6WWw4VGxXY2VXc2hvSm1ucHQ3OGZqS3ZHbGh6WjlEY1ViY2J5REQ4bEFYbmZISUE1MGxHWVZTdDhKRHkyUXN1UDZReElRNGk1LTRtajd3ZFJjTFBSVmVUak5fVVIzWWJaZkVwTWJReDN2aDBLVWgzVmd3U3dyTkI2?oc=5",
-          "publisher": "heise online"
+          "title": "Nappers beware: Dementia (maybe) ahead",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbS1WR1FxeHRpT2xjdHhiTUFoV1pjai01bFg1NENOdnZETGFpT0I2bkNnVDhKbEMzZU9YUHVxVzdjdzhoanBfVWhkS2U1NlFjcmJYRlhIU3VnT21TakxsYndldXN0UExYb0VrdHotMmN6QUJULVZIb2hoLS0tZkhUTGIwUXNNV3h2dk0w?oc=5",
+          "publisher": "McKnight's Long-Term Care News"
         },
         {
-          "title": "OpenSSL 4.1.0 Released With DTLS 1.3 and Post-Quantum Security Improvements",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kRGJHZi1GV3RMd0RJQWp1dEJRZUVQVV9hSzQxV1hlQU04SHVSSWhRX19DblZoRUdXNzNhVUFjVmZzTzVENTVwS3NwWXQtY1RZenBGZnlvMU9VMzZ3R2tOWWRZd9IBaEFVX3lxTFBKTmIzWVQ4ZDJ6czJ6OE5DTy0ySXlkSzFFNVZlNHJtZjFBWURQYUY4aUd6SnBVcWtydXVOZWFfTlMtemFTWkJ4NmF2cXR1REVMRzJJZTRIUkU2Ri1LV0dQZXJEWk1EZVda?oc=5",
-          "publisher": "CyberSecurityNews"
+          "title": "Nodding off easily and often may be linked to higher dementia risk",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XRW5LWHkxMkZ6aVJGdU55OHNfcm5IVFc1RnlEYzBlaHlBallveHlCOG9CUW4wa1ZQRDNlRWh2X0ltc2hmQWlxcWZxTXVxMkhyWFl6Q2dJdkNUc04xZGVqZGRrM0MyTTJoVFFWSzV3RkZhNWluX1k1dHctT3o?oc=5",
+          "publisher": "AOL.com"
+        },
+        {
+          "title": "Dementia: the everyday habit that may show up years before a diagnosis",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONHcxS3FGNDZxeHF0MmtMSnRxOU9MbWVGbXZJbTRJal9VV3VOUEtOZXFhQjI0eWhsZl9ydjhUX1ZnbEdwNWl1UC1IanpGTEIzb1VKMGRsLXRPYmRKdTZub2xWaF9ycEd2V1NqUndCYl9SVWR3UlBCcVN1M2RIQUQ5Zml0MGVLUnAyZ0dxNzBNdV83dEpRdjgtcWJSb0U0cHZnVUVNLTJMaHFxbUF5X0tVZElLcnktdw?oc=5",
+          "publisher": "Futura, le média qui explore le monde"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-e8531a3b0b",
+      "id": "en-319d8b3310",
       "lang": "en",
-      "title": "What are the tyre strategy options for the Mexico City GP?",
+      "title": "Tamil Nadu rain: Schools in Chennai, four other districts declare holiday",
       "category": "trending",
-      "published_at": "2026-11-01T20:30:00+00:00",
+      "published_at": "2026-11-02T00:50:00+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "What are the tyre strategy options for the Mexico City GP?",
-          "url": "https://www.formula1.com/en/latest/article/strategy-guide-what-are-the-tactical-options-for-the-mexico-city-gp.22mzBSWEviowqhyGTbfhY",
-          "publisher": "Formula 1"
+          "title": "Tamil Nadu rain: Schools in Chennai, four other districts declare holiday",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-rain-schools-in-chennai-four-other-districts-declare-holiday/article71606049.ece",
+          "publisher": "The Hindu"
         },
         {
-          "title": "Ferrari downplays expectations for F1 Mexico GP despite blistering Friday",
-          "url": "https://www.motorsport.com/f1/news/fred-vasseur-downplays-expectations-for-f1-mexico-gp-despite-blistering-friday/10870125/",
-          "publisher": "Motorsport.com"
+          "title": "Blockbuster October continues | Kea Weather Blog",
+          "url": "https://kwschennai.com/blog/blockbuster-october-continues/",
+          "publisher": "KWS Chennai"
         },
         {
-          "title": "What F1 teams have done to tackle Mexico's altitude challenge",
-          "url": "https://www.the-race.com/formula-1/how-f1-teams-are-tackling-mexicos-altitude-challenge-in-2026/",
-          "publisher": "The Race"
+          "title": "IMD warns of heavy rainfall over several Tamil Nadu districts",
+          "url": "https://www.thehindubusinessline.com/news/imd-warns-of-heavy-rainfall-over-several-tn-districts/article71620940.ece",
+          "publisher": "BusinessLine"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-6ad42091b9",
+      "id": "en-9809adcb31",
       "lang": "en",
-      "title": "AR Rahman breaks silence on criticism for 'Mangal Rang' song from Ranbir Kapoor's 'Ramayana': 'Like pickl",
-      "category": "trending",
-      "published_at": "2026-11-01T20:20:00+00:00",
+      "title": "US Midterm Elections Live Updates: Trump makes last campaign stop in Iowa, Kansas as Republicans try to save polls",
+      "category": "world",
+      "published_at": "2026-11-02T00:45:54+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "AR Rahman breaks silence on criticism for 'Mangal Rang' song from Ranbir Kapoor's 'Ramayana': 'Like pickl",
-          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ar-rahman-breaks-silence-on-criticism-for-mangal-rang-song-from-ranbir-kapoors-ramayana-like-pickle-for-certain-tunes-the-older-it-is-the-better-it-becomes/articleshow/135432017.cms",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "AR Rahman on composing for Ramayana, working with Hans Zimmer and why he is a nervous performer",
-          "url": "https://indianexpress.com/article/express-sunday-eye/ar-rahman-on-composing-for-ramayana-working-with-hans-zimmer-and-why-he-is-a-nervous-performer-10945288/",
+          "title": "US Midterm Elections Live Updates: Trump makes last campaign stop in Iowa, Kansas as Republicans try to save polls",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZ2RDZmItdnpKR20ydER6bEZvWmdtcFV5VjlKMjJUWkZlNG5GaGR6VmVBcFpkaXR1SlpCMGRwTm1WTG9GeXg3M2k4ZlhYOWNBMFRXV0xzUV83MGo5OFl3VUhUMy1UeHNiOUVvWThLTFdrR2w3RjRGdU9SeUROZmljNjFTZ3ZEWHEzcEZoTXpfa3pCaWZWak81aFJ5ZFZWaUNaaW9ROUYzTDAwVDBZYmJSTzE2SDRmbEtsWUl2MElJSEhudWlDeWtGd3hEYTBOUHMzd2RLTW54aXJGelYyb1QyMDZvcU15di0xcVFSNU9WLUhha0hVUzg00gH-AUFVX3lxTE9Ja2Y5dlh2ZEoxSUlXcU5iZUIxQnJNZlAtcG9lbHd0TDJRc2VYS05ocHFvZUxaTWdaWHk2NWlBb0x1VFVMN3lfOUhCWmNvcEV6MjZNM3dRaDQ3Q05BeHZnZm1JQ2dER1kzanVHQ1Q1NG9UNHl1cFF4dWFMWGZscGQybkRENFZybmNtUDQ1Z0NaclZTd1NaNjdLdFVDcGFnM0pyUHd3UE1wQTFsOVM2RWg3RlVadk43RF9rNHZIRV9EUzBSUTVVWF9yOE52YklrYXF6eFR2bldodGttR0hPSUNTZUxkOHg1Szh1VlQydUppZm5GUmlWc3lmS1pDVXZB?oc=5",
           "publisher": "The Indian Express"
         },
         {
-          "title": "AR Rahman Says He Is His Own Biggest Critic, Opens Up About Ramayana Music Criticism",
-          "url": "https://www.ndtv.com/entertainment/ar-rahman-says-he-is-his-own-biggest-critic-opens-up-about-ramayana-music-criticism-12266350",
-          "publisher": "NDTV"
+          "title": "Trump backtracks on rallies in turbulent end to midterms campaign",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT2NuOHVZMzI4MmVGOHpZZWNDT2ZsU1J4eWxod3NhS2N2VW02NDFLNV9tdFRhbDRsUG4zVEYwTjRobUpqcm93X1NUUFJ6azdXd2xBcEp0VGJ6VzRZMnp0Mzd2WUR5d0xfaFV2TTIyUlhYSXlOLThfWTdGS0dqY2Uyb0VUNWtqVnZGSGhsX2xQbnNiY0pWYU1xZ0Zrc2V6MEJIeUxZRk5Zel9SQ29YSDlzVVBKa2U3Q0dUX2xmZ05hZ3lnQ1paY0pOaw?oc=5",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Trump rallies in Iowa, Kansas to maintain Republican control of US Senate",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWHhXeXl2QXVRVWwtZXFKbDBBbjdMNlVsN3lPV1BUTmZDYzhxek9ib2RBSTRnbVpGNEJnNHBPMWtPS2JKMUZsdUlTR0liY1dwMHQxbXUxbnVUaW0yd2R1SmFpY1VjekxxWXNhWnpiZ1pZT2JfRDl0TlliSUdVT0VsSWttNU9nUjdmMTNqTUhEM1ZSV0F6RF9aOFFsN2J0SXdhZ0FRNWxoUWFSOVFpMzVrMGZVQdIBuAFBVV95cUxPcGxIcVZObkxCU09hcWhxNUxHZFNxSElYNnNPUDN4em5qWmNwUnBEOGNlVkd5ZHdIYVBuY0F5Y2xvMFgyeE9uRjk0SDBWeW9GTUpOYnFldlNQcFFQQ0VIVlRzOGxDeDl6NktEd0ZvM0haUmNaOGtmWjd5Snd3ZFhkcFdVOHZwRXB0amdheW9rdkFNalBZNVRlVG9YWlkyaW1NUG04dF9scUIyS3lRTFVNeE5HaVNiZGg4?oc=5",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Live: President Trump’s midterm rally in Salina",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRjJlU2QzUkg2ZEYxTFczcFFtRW5oTmlRenFydlI3NTZ4cEMtYlA4T00wS0FZOW1hMk4ya25mVEZ0dURKaGwyanp1bUd6MWcwRXFsMkluV2Exdjh0UHkyQkp3dVZVOG5FdDZHNFB6eDRHZ1hVYWdZU2EyeWdYRldFNExiSVQ?oc=5",
+          "publisher": "AOL.com"
+        },
+        {
+          "title": "Trump heads to Iowa, Kansas for rallies before midterms",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeHhpRU1UOENwWVhaenQyWEd2QzZmZGVYNGQ4T3Bvcjk3c2V6WUVTcFNxOXA2YmVCUXFyd0tZMWwtdFR0enMzRXl2dkNPM2ZjWHVZNTNsejRZUUhUZnBaeWJJSDQzMlBTbV9BeWpobzJVd3RhNk9ubUQxTFFuT052LWFXbnFrTmdyZGQ1T2xCTlZNRzTSAZgBQVVfeXFMTnFoRTVDQmJYSjJrNWFSWEViOG8wSDlremZzUHhYZThfRFE5UTE3WGw0V1JTMkk3ODZLbzgxcUpyMzZaOE9zMTYtVFJVWGRpcWRzV1lWaTNJZFZNNXBTWWpqelVoUE9CUmszdmh5UThSbW1aY2lLQTNtY1pwNDl6ZFF5SkZLR0ZNRlZlU2VRdHRYRGx6aHA1WXk?oc=5",
+          "publisher": "ThePrint"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "hi-a4ee428169",
+      "id": "hi-4aa1471da8",
       "lang": "hi",
-      "title": "पंचकुला: 8 साल के बच्चे ने 6 साल की बच्ची को बुरी तरह पीटा, अब कैसी है हालत और पुलिस ने क्या कार्रवाई की?",
-      "category": "india",
-      "published_at": "2026-11-01T20:00:20+00:00",
+      "title": "ट्रम्प की नेतन्याहू से फोन पर बात: बाद में बोले- ईरान के 1-2 ठिकाने उड़ाने बाकी, रिपोर्ट- अमेरिका 4 नवंबर क...",
+      "category": "world",
+      "published_at": "2026-11-02T00:28:44+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "पंचकुला: 8 साल के बच्चे ने 6 साल की बच्ची को बुरी तरह पीटा, अब कैसी है हालत और पुलिस ने क्या कार्रवाई की?",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jYjZXTnVkbzFmeXRrN2R3NzlJYVpMQnkxQl9sNS1UZ2pPZW1odkZBNlJhcUZ0R1RBcjkzRmVRRUpRc0NWejhmQXdmSmZMRUpBZk1KQmROaUZ4UTlT0gFiQVVfeXFMTmRMRTJnTm5wTFNzZmg5XzhjbEViV1NHN2I2azFPUE9hQkdzalFMcEdwYXc5VWZiZm53RkZBRV8zbWl4bGN3ZTBmdmVIWGFPb0xvV0dBeW02Z0tOZ2d5U21jUkE?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "स्कूल में मासूम से बेरहमी, बेहोश होने के बाद भी घसीटता रहा छात्र, अब प्रिंसिपल पर गिरी गाज",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRzhhbUtlbUt0alhlV0M0N1ZPLS14NE50bENjbEJFZ05WQ2tIcEJETkwyOTBra2NDU1g1VWtHc2lXaUlORExGVmhXNERIZ1RSZXhWRkdTT1lqOVdZT0RUbUN2ZXkxRHBpVHZrOUFsSmtSTHZxTzI0dGhScFU1aG5ra2RtZFBCU1Z6eU1MeEppdEMtbk9YejQ2Mk41bnZLTGJ3WHNENmFxalhCVG00ZXJxVnJaMi04OVFlaXBweHhmZzlGck1GUWxQcXdhSU1VSE5I0gHWAUFVX3lxTE4xUzdaRDZfNU16OVkyRTlUZGZfemk2NnQ3LUlpZ29Ra0JIMzlobU4xNHRzcER3MW9yU2lvaHBXZlUyV2lZVW1qQldlV0trU01YWDBBRU9PSjh3cW5uUWc1dF9NeThJbUlhaU15Y3IyeW9iQTdUTWdOeXZMMU1kTkFhOFZDX0VZUmttRzhmYjlXbDBWQkpDX0N6OXdweTF3UFloS0pTeGxmWHFBNWg3dmxJT29xcU54NnVPb0M4UE5UOFNRZUdmdjdodWROd1BpMnc0OXNqb3c?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "'VIDEO देख नहीं पा रहा', पंचकूला में बच्ची पर हमले को लेकर शिक्षा मंत्री ने दिया बयान; बोले- सख्त कार्रवाई",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRFo2eWdiOXBLeHFEUkRBd2tEQlRhSlN6V25XcTlaTldhbTNmY1VKc1VpYkNVN20tRjN3Z2tqc1NUVEJBQW1NVFRpZHJYek50S3FEcnNmZUNyNFNFcVJZSWI2LXlsZUFHaDVXSE84WEJuY1duVWVORDM3MVNqWlhJR3B2LTN6amZ0TFdzZ05hWjdaQU9feVNIRTdrN01HbXdLSjVPTDNaVnd1Q29fMGU3OEJ6SllGem1KMUpHdG9Gajl4c1lRQU04aUZFR1JBcU9UWkliaA?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "पंचकूला के स्कूल में बच्ची से मारपीट के बाद हंगामा: मेन गेट बंद किया; पेरेंट्स बोले- दूसरे बच्चे घटना से डर...",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSkhXVmU1WW1HSmlQV0d4Um1QV2pWUVZ4WnJQbVdFOGZGb09aUTFYaUotaXNLVURxbGhGcDRUamp1Z2tQN0JvakJUWmZYSFZZZnctdTBtX2dSWlFFQlNvYmRfTThTV3F4bE50M3M2ejQwMHpKOGhhTHhJRXpCVzZnWXVfamFNdHRRTVBLQTc3MUduV0VaZlNTNFAwT2hPVE1PaVczYUs5TmdOS2dYY28tX2pSSkp1d25nSGVFZ3dEcjBoQdIBxwFBVV95cUxOX3VncDBiMWgyeGpDMUNOYjdCNlJUckN0VldFeVJTa2o4OXFnUmNoWEo4aFNqTVpMRWxnM2RBUGxSZzB1UGpvaTdkR2lDOEFnX2U3YTVHd3k0VGphankxWDFLTkpRbDIyVUM2SG5SWVR6UXM4WGt5dkMwc1V3aG9WNzdReUwyUHNnRTQ3dE95MEJPSzNLR1JBT3NZX3VzemlnSEpUcjVqQXNyaE1udV9jSENNUXEyV0RCZkFiY3dQOXZxTFZLMFJj?oc=5",
+          "title": "ट्रम्प की नेतन्याहू से फोन पर बात: बाद में बोले- ईरान के 1-2 ठिकाने उड़ाने बाकी, रिपोर्ट- अमेरिका 4 नवंबर क...",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS3JUaVY4SGxwREYyT3Q4cUk2NkNkd0JjYW9fbWFRVFlWNlpfOUNSN0hLZ04wSGNIY3hocjhJa0I1VHlDaU1fT0c4SHlodTJ5bUhsRmZvdDI0bXpKOWI3Q1lYVkY3b3luWUp6M0c0UFRfN1lUTUxlM0QycDZJaTc3amo2VWtJYV9PMUwtTUMxLVdrSTM2blA3TF9pOS1MU1haeF8yYm95VmVCR1kzVUkyYW1oMkFNZ9IBuwFBVV95cUxPNGNER0RHRm54ZnhBNGd1VHhoMXBWc1FFTGVYQmV3Ul9reGQ3MndweFA0SUhJZXh2VTlFR0dfLXdpdjgtZ3lmLUxqUjZXNkFTN1JXaWpzVjlUaTUtaklBMjZ6bXNDWWFsVjNoU0ZKYVc5dXlsS1dvTkpGUWNWemNJdmJEX2E2azhqeHduT2JDeHdUeUhUU0c5ZG5pU2lWaktza0owUlhGQXJ1YnJWcl9seXo0Z1JSQkh3RXV3?oc=5",
           "publisher": "Dainik Bhaskar"
         },
         {
-          "title": "40 घंटे बाद 6 साल की मासूम को आया होश, पंचकूला स्कूल मामले में 2 शिक्षिकाएं सस्पेंड; प्रिंसिपल पर FIR",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQlI5SDdmb1Z3NWI2MlFYZTFKV1dPZ0F6ampqVkJiTHhrRzlDUFlNcndzVkRCdFBiNXNYajJsRi05Z0hfaW5haFZhelhneGFkTFBLNVY0ZmxSTlBwZ2xJTkZmOTRvVFlqeXpOX2dqSHprdFpTaERTcFRIME1hbTU4dkg0VVNUeFNzYi1zdmRnYXJ5bzJiMWxlemMzQUxQNURKOXZXZHJEc1lBZWtoTXdkTlc1NTFmclp3X2oxNUxIZFZyWl9SbnR1UDBub05pZw?oc=5",
-          "publisher": "Jagran"
-        }
-      ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-4d8a7afe9b",
-      "lang": "en",
-      "title": "Mars dust may be less abrasive than lunar dust, spacesuit samples suggest",
-      "category": "science",
-      "published_at": "2026-11-01T20:00:01+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Mars dust may be less abrasive than lunar dust, spacesuit samples suggest",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnY1VaWU8zM3VHV01xdV95dDVTX1p2cndyUEFMenNqaUh0R2pTOTBhcENqY1Nfb2lmM1NueUlpbXdZTUNEV3NtdWtZRFEyMTd6WHQ0UGdlTW4wWWxuX0tsMTVkWjM4d3ZGdFBfLS1mc1A2YmNnb3daY1BRZDg?oc=5",
-          "publisher": "Phys.org"
-        },
-        {
-          "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNelNKMVJ5TGhvbTdOVm5fdlFxTGY0WjlOcU1VbW1Vakh1WTYxMTdEZ25JZ3hZM2J6YzU0aWd5WEd5cndVRExqdjBwTWxPUVVHcDhLcy1XdHBJVjRMWXR5cnB0V2VZMWVoUUdFSXhEejRHUkszZHp5RFFVMm9IM2dxRl8yRXY3WlZDbmdUSVJIMnlfWm1QS3ZwR0NGZGphTFZDV1VxZ29zdUlKTUlORF9uNWhsdnN6elRx?oc=5",
-          "publisher": "NASA (.gov)"
-        },
-        {
-          "title": "NASA rover detects ultrafine dust particles on Mars",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNHRWaTYtaU1YWV9FMW1jWmx4NmNPaXQwVkpWLXZoektyQ2RqVnZBVl9Ya0YxUXlqVm00SVdROU4yQ0VHMnowRHBIOGljM2NCakQ5ZHVyTXFEdmhmRTJVa1hyYnRNZ1lqY3dDX0Y2SkcyMTE3RnFvWVBYVktzb0VFZUJpMXJWVlZ0RXFYVjhxWlE3NUhMeW1N?oc=5",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Smooth Martian Dust Grains Offer Hope for Future Crews",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdzBQeGRtc1lSOERyUFhIeEZrOTJQUDI4bkFpbE5ZRkR2RUNDbzA5cy1hbElNRHpRZzlOSnpfY0Qzdkp3YXJHamo2TG5Vd0xtWmQwOEdhcVhzNE1RYUZlUDNucjNEVGtqc183UnphWGZBOTg0X2pBMUZtY1gtQWJNclVveWhpQ1lINVVFQ2RaQjVXZ1ExaERNekdqMEjSAaIBQVVfeXFMTWNWcHpWYlJNMTBEc1JBTEFZNVRWQXFpMjNuWjdOWXVvZzBXUHR6azY0MWNoVmN4NUFKeGJtZktDS0QwWVowLWRtVkxWQW5HeUFDQnFhUlo2eXA4NHNNdEdWU28zMV9VazZ5Tk5QQ19NZ3NxY2FKQnJ3c1Y5c2gybzdpOWxnYTZlYUlWZWh3eEw1MFVOcHByZUhRYUpWbEZadHp3?oc=5",
-          "publisher": "Labroots"
-        },
-        {
-          "title": "JPL Researchers Focus on Tiny Mars Dust Sticking to Spacesuit Materials",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY2tBeFJXc1F4Rml1WlBWUG5LOV9BZjJjWTIyajBnR1l2Y1pCazlwckxWM2poNFN0cDF4TlhEeWt5OEtQTFpNOUVPcDdEWHhlaTZlXzlGZFpWUXZQQVhrTTZGTE9sR29ZNnhYaHcwbmlFR1Z0WVhjbWkyRVVxbFk1QTVlVEFLeGdUZ0dBSUtFOWpCY0FHeGMtUDBsTUNfYkRaQUE?oc=5",
-          "publisher": "Pasadena Now"
-        }
-      ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-a005b12c7d",
-      "lang": "en",
-      "title": "Four Observations from Bayern Munich’s damaging 2-2 draw against Borussia Dortmund in Der Klassiker",
-      "category": "sports",
-      "published_at": "2026-11-01T19:30:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Four Observations from Bayern Munich’s damaging 2-2 draw against Borussia Dortmund in Der Klassiker",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQY3ZEOHdlZURjdWlsdlluSEZKTnBpYTFESDNSTXo0cFVzdHVjMGJmNUdzc2NBMUpnSFlwQnFwNjlGdWVnVE9kcEN1SmhmZmRXSVd2UF9QNlRISEZOR2xGeG9mMU1lYmJNMnBpaTdLS3JYRnF3S0RfWEo1RkdwMnFmVlpNSWFnRld4MlVDc0dEd1RxaHRRcW5ySTl3WEYzQ1hOVWtibTJ4cC1obVB5MlFDZlNjMTdfX09jUFNBY1YxSWZHU3pRQnFMUWhOaVByTVFzb21DVlVPdzQ4NzZ2TmFwRy1RMEJFbThkTkF5YkZR?oc=5",
-          "publisher": "Bavarian Football Works"
-        },
-        {
-          "title": "Bayern 2-2 Dortmund (31 Oct, 2026) Game Analysis",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1NEtFbWJOcndiNEJYZkpLcnkyUnpDSGs3SVg3bGhuU2QzOC1rc0NlNFJjdHJUZnpsX0VBWW9GZUtoZUxFcGlndjhOdlRFTnFEb212RkdXVmJfRWlVR0l2VnV4VjE?oc=5",
-          "publisher": "ESPN India"
-        },
-        {
-          "title": "'A brilliant move' - Borussia Dortmund players reveal how Niko Kovac's shock tactical masterstroke stunned Bayern Munich",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNzBYejlfOWVBbHk0TFZIeXU4WkJ1VXRMY2JkT01RUjBmaWQ1aGVuaEZ6Q3dNN1d0ZE1iXzNWSFZEZlM3eGJETmhZWUVxRFlreXZmTjl4Q1NOc293UHNiT3pIZGt4Q1hxRDZhOTVrMlczbnhSb1VaOFIzaWRDeEIwbllJR0I4cVZoNzdBejhEa05GcFlsVzF5WXF3?oc=5",
-          "publisher": "Goal.com"
-        },
-        {
-          "title": "What’s Mr Ballon d’Or up to?",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVhncWJrS2lPTnBMUzFaTjBoTVhJRzh4NUlobXo1NnRCWGFyN2dsNW85el9ZbVd4bDNpVV9MMFJfbzVrMC11MGFxeTVxMS1lVHcyYUlnYjl0ZndyM1BCVkVRZDFZb1ctSUtNSV91c3ZxRWNvSndvVmNGb093SXBBeExrb1Y4Q1c2aTh0THVsczRQY3dBSm1GMk1jYzBEZWZzMTZWN01xRGQxWEM5c25sSdIBtgFBVV95cUxPMmhrSzgyOTJocHhWV3ZiMmZZVTN5b0Fpend3QmM2a1IweVZNaGFVbHZmTTVldy1aakZHNGNCTmRwblhPZ2wxTG96U21Ca3Q2MHJzSWQzYjBsdVlmRmpNSHdDOE9GbllwbW1GLXFndHUzTlVHandPVWxRdWZvTW5IZWs4MkxhQkUtYXN1OVgtUGxIY0JDbmRGVDFPME1Nc0pvLU1mY1oxVUFPUWMtRFlBX2txVnQwQQ?oc=5",
-          "publisher": "The Economic Times"
-        },
-        {
-          "title": "Reaction to Bundesliga game at home to Borussia Dortmund",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV19rTDZTTElYZVlTYm1BdzVWemJCNjJaUUw0QUtpZ0dBUzRaR2g0Y3g2Qm4xbWZXZlJlUW1hYzlfZTc2ckc0YmRmUjVlWkNZeUp2QWJQalpubThZVG5mMDdiVU1LUG9uWDRGNjNOdk5OeFVMTlpBRVdpcml2UEd6aWNfVi1BM3o3TU1jdnQyV0JHbnR1NEh3aA?oc=5",
-          "publisher": "FC Bayern"
-        }
-      ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-2bca40bd9f",
-      "lang": "en",
-      "title": "‘King’ first song out: Shah Rukh Khan, Deepika Padukone's chemistry, his chiselled body and Ed Sheeran-Ar",
-      "category": "entertainment",
-      "published_at": "2026-11-01T19:14:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "‘King’ first song out: Shah Rukh Khan, Deepika Padukone's chemistry, his chiselled body and Ed Sheeran-Ar",
-          "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNeWh2dmZkUTZIQnpLclBvUzk2WUNIbnZQNzUtdE9POE9MdGdCa1VRRmVHLVpIY1FCYTVyTHFKck5SWnU3dC1XZ0FQSUtLUW4tQzcxZWY3QUVSUWs0NmVvZ0pDdE9Md0JaTWV1RGh6cG5TVlExZU5XbV9zXy1MNFlTRjhVT2xJWEtXNHVicWF0V2FER1gwb3NNdUdKOG54dGFtUXdYYjdiRFpOdWc2Mm5rOXdWaEJZLWV5NnVyY2pYZk5RR1hFM3Q0RGZLdUdBN3h4dVZiWTE3VjJKMFB0Q254T0NjSi0wVHBuSG1oSWlJN0k2LXNtLXBIY2EwamtSb3hKRUwxb2hfMHoxb0ViRkxQM1RNTTFBRWQ3eWc5RVFVUTVvX1pOeUQxNXFIbVRVT0ZzSkJHYndESVRyeS1HLUJkbm90TGF1SWc4YzJ6M2V5a3ZWbnM5c2w2dDdBQjdLLUdlNTNnT3V2NEt2ZEVVaTFkMGQxYXp5VnZSVGhrVk9B0gGDA0FVX3lxTE0tVS1vZE5HNDZkckFWejlaWkV4VzNHU2FvLUwxVlV1WW5LZDVjd2VpT2pkbGdWUWx1ZHhVcUYyMXRJdDRJQUEtSmNGa05OOXpXeWdEc0djcEE2TnJVeTk4N19ITktzRDViUnNGcWFPdFRibm9rbnlPODh1Mk10Z3dwSUx0WW40UnZNQjU3T3JoeE9Pa0ZYWFdzUUpwUlFCb241VG03RGp2Q1ItQzVGWTVETFZpTVNCZlh3WXFwQ2lWOUY3WkZSQUpVdGpjSjF1dnBfLU1xeGd1dzVlakFMS3NmcC1rRWhXMUJ6bzN2Z1hyQXBxTWdudUxXMVBydTNmMDEtYkotcXdNZjBoVFB3eW1oNUJPYlFrTk5iZHFZeFJHenhFQ2tqUVRLenJ4RUt1UzhHaGY3bjdyZmpaRVBMX1phT21kRDFheUFJSlR0TDlnX1FPT1VJUlhheGFTTVhLdkQ4dmhEV1RhbTBocnJTbFMxOWdzcDViOUdIQXFnLVRuN0tCQQ?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "SRK's 61st birthday surprise: King song with Deepika Padukone to drop at midnight",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaDB3Q3MyeGRQYTQzaDlSc3c3QjBnSHpmNVo1VlRRelg3Nm1SOFNTNDBvSWJ4UFd6XzZEcGM1VVl2alI2TTVyT1dzZXcyUUlJUEVSRTJDQzBOSkotRUdfaVVlelc5V1FaMHBkcnd4VnhIb1BFZDRfVWwzNzZaOFN4RjJQN0ZRc2NRU2xHNHhOLXJ1d2taM1dSTllvdEcwT3RTd1Z6U2JHOGgycTFjQ2dxZkVNNDFfSnRvTUJsWWhFSmdTWUNYdDhQYjdtNEdWeUlGbjc4YzRVVQ?oc=5",
-          "publisher": "India Today"
-        },
-        {
-          "title": "Mumbai celebrates Shah Rukh Khan: Bandra-Worli sea link lights up ahead of superstar's birthday",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeVluZmVPOFVURGJqaXdzbEZoU3hrY1piUF90M245WE9mRVJfbDZ1dG9ZX0dXZUw4TkxSZXlsOTJObi1EN1pfdFM5MXFXUFIzazZPSWdRZkIzd3JvSEtZWndUUjFUdUlqODd3akhnWFJ6NGc3X1AyYkM5OWJtMENSSTlhNE91SzhnQ0h6S2ZqSU1kRVlhazFra2JZTGx2RlN6SlJCMS05ZVczVjhGZFQ0enhfb0lxbjJudFFOVjRaSk9jMTNZdzZFa1d6eVJIODhLTFlvRENZT205Vndfbnc2U1JRRnd3d3FYVDBzWHA5RkjSAfYBQVVfeXFMUG5oUHRfVnNVZGZTT2g0RzRUMkVqMVlvNVlVRS1tZXd5LURnNmZTU0JZTDgyd2IzT2o1bXc0eGp2YkJtZXF0b2NyUnZfaE5ENFZTTU01bFVHbU9yRnl4SVFWNEhsOW41Wmh0aFdtRHAwMGYwcFB1YURDOUE4TTFyM3hHSjkzUVBsU25TVGwxV3FMUk1LcjhmQTNjUWxZNlBlbXZaOEJ3ZjlCRE1HdFRzY29sb21TX191UzVFUFpjMjU4cGw4QmtIRm9fUUI2WHp0cWRVSEszb3dJT3p6cTIyeUZrVkFhX0NSRTlpbjVBemdpeGVYVTBB?oc=5",
-          "publisher": "Moneycontrol.com"
-        },
-        {
-          "title": "Shah Rukh Khan’s Birthday Surprise Loading? Siddharth Anand’s Another Cryptic Posts Fuel KING Buzz",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbWI1X08xNVFpRk9BdHpKSGZqYTFHa3JXQzZWYnlydDZVeDctSFBCVENxcDFrcks3OHlMYkJRelNmTDNWRWRSVjg2blpxdmNHN2dGTnB4NmtPVEdOdldIdGQ5djlfWHJ2OEVDTDRHTDBORFdkUkRHU2MxbWgtbkVSVklXejRQeUliWFA2cW5pMTAxNGZLYjRKYmtCcnljUVQ4d1V2dUFVNkNlM3E1Rk9KaERzTm5Bdi1MR2RnVEpISS02bG9QMUY3YnVrclNMTE1EVlFDWThXMEg0S3c?oc=5",
-          "publisher": "Bollywood Bubble"
-        },
-        {
-          "title": "King Song Tu Mil Jaaye: SRK & Deepika Padukone’s Chemistry, Arijit Singh & Ed Sheeran’s Collab Steal The Show",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNMVZFRUR0cU40dmZVQUNweUdwQTJlRU5vRGNBY0FFSlBNMlZHa1VpVHlrSW45SGd6ejJhSUlVU3RhTjhZWkxKWHBfOTBhQ2FlMWc4aHlJVDJGaVB3M2ZPeWNGMTlRMHFyVlRjOXl3SmdPTFA4XzRBRXRQWEJlcFB0WjVBdXdNbHhaUnJSdW5reWlWVF84VHp2eVB2dlNCNzNYOGdfb3NrSUhCX0FhUEZnSTRQbnVjWmlGUzEycm5RUjBLeTdWMFNQdElQb0hDSWU5bVVKX19qMEhDN0xQeFljaG1mV1A5eUpwMU5acmdHcHgxOWpMWUc2ZtIB_gFBVV95cUxPOTJ4UHFoZWUwVktGaGVMNk5pUlQwekp3NFVkS3FLRTRFWnRMR09OUWNOaFZUNWYxNk96aUFaeDZhQXM3dEpaTTA3MW41OWQ4NWVFX0c4SDBkSDQ0b055ekRiZnJOLVZPb0x5WlNhQTUwNklFVTNyTHlfeEdLb1pxMnhKbTB4a0pRU0x5N05qdlk2aWFMRUNyMzNoRFpGV2EwYnhyUENNQjZNdnZ0QWFLOFBYVGdXU3NfMWpreFpaektMUWthNVNtcEI3WHc1STdPcGFJdk9IUGFBZlNLbzc5MGVNVmpmTVNsMWhkbldvRFhSakNqZlBvdWg4N2xYUQ?oc=5",
-          "publisher": "iDiva"
-        }
-      ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-6374687477",
-      "lang": "en",
-      "title": "What is the Fortnite Pirate Shop? Token details, how to access, and more",
-      "category": "technology",
-      "published_at": "2026-11-01T18:41:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "What is the Fortnite Pirate Shop? Token details, how to access, and more",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQc1BITGpWX2o2bzJXOC1WWmozNTVFZ01zYnZSWTBuVUFzN2p1bmZSNmFZMDU4RVM0ZllsZURVYkF4ZXhlQkFLaEs5UzlUTHNiQkFCWEhZNXdjeVJpbERyVTJBczRPNC1Qb0ZEVmFGOGptS2VQQnRmUWlHYUVRdEgxS0RQRE45endWVWhVS1QwazFkYVVDYkdld00ySGZLeFktR2ZhSUhVWUhhYXlWb3pLQVBZR3dtUUxubHpVTXBnc2xNSzJJall4ejNDTHdMVi1fSm5RNVZWcHNMdUZFbnpVUWRYbEpaZkVoQU1R0gHwAUFVX3lxTFBnVG83UVpmcUtpcVdOcVlTeWw3eVNqdU95WEVvRDVFZEpEVWsyZ0lVeTR2YVdmVmdWbHN2SlpfNENOUDFOcU1LNHlDbjg5b3JXSnYzSTg3SXZ0UFVza2FMRzNjTUNFNDZweHlvWUVUQnVPRlJQV2R3QzV0OGRMWG02U2t0anh2Sk1ieTNzSHlQVkYzUW9ZU19jc09fVE9QN0VLOW9JUGNjMlhYMGNCUW56c1c1RWw3bnI5RnBDSjFNMW51clhTWU5OZG9RM0pHczJTV0kxUnc3X25LaDBNSEFTQmFQRkxvYWVBTkI2Q25YQw?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "‘Fortnite’ Treasure Chest Prize Lets You Get Every Store Item For Free",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMUc4bUdhLVRaR2l6bC1mNmFCZVBCdHRiSXh2VEl0Q1JvbDl1bHpldzdjWjVqeGRUeURJaDE2bV9VTDVuQ2VKYzJEMVU1RWE0bVJwQ3NiVVBLTlp3aWx2UE9nOGpYSE5VUDJveU5UdE5wU0Y1WUxFTG5kb1hlRWwyNWNUN1AxWGVCLUVjT1VtQ1BpemhSVkJYVlM0YkJvLWJqN0EtdUZRLWQyaTdJYUNrZDdKTmlVWEtkMUpn?oc=5",
-          "publisher": "Forbes"
-        },
-        {
-          "title": "How to Unlock Pirate Shop Access - Free Item Shop Explained",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeTVJNHJMV0VNTmpfU2ZnM0U4OHFrd18xSGFxTDB2aTdudkpaT0NBLWF2YzdZeFNESGNrcnNKZmJ6UjNxMlY1S1hVemQzbmFvY0RZQmpvdnprOVhMRF9aelpNbHh6UjdGUVlxc0k2NlZ3a1hZUmxOVU95c1Z6SndTb3BnVDJra2hEZ0FDUTdsckNzX3Y4Wmg2ajdR?oc=5",
-          "publisher": "IGN"
-        },
-        {
-          "title": "Fortnite is giving free skins if you win big: How to access the Pirate Shop",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtaDBnQVJmaXlYVmRxa2ljSlA2Y21NOC1oMUZnbFRUdGRYd2c0Vk9wQ0lROWVoREtnQ2IzY0NRQlFtTnR4Q3VSdnVZNW81eHJ2UUl0ZGo1eUUyZlB4?oc=5",
-          "publisher": "The Big Lead"
-        },
-        {
-          "title": "How to Get a Fortnite Pirate Shop Token and Claim Free Shop Items",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56cmpQalhfOC1oZnZ4ZGNaMXk1WHBvM0RaRldPZjFTcGxsbkNYT3kweWFnZWlwUXRKRFotZDhsdHdxNS03SmRLdEU1SEdfdUpYTzh1TkdPQzgxYmQ1ZGsyYlBaSjdBZDl3WTFjbDJIRm5sVFdzNXdVRW9n?oc=5",
-          "publisher": "VICE"
-        }
-      ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-99f77434e4",
-      "lang": "hi",
-      "title": "अमेरिका में हैलोवीन वीकेंड पर कई शहरों में फायरिंग, 6 की मौत, दर्जनों घायल",
-      "category": "world",
-      "published_at": "2026-11-01T18:12:47+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "अमेरिका में हैलोवीन वीकेंड पर कई शहरों में फायरिंग, 6 की मौत, दर्जनों घायल",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQM2hMSGdlVURwLW82TkxuZ1p6OWgzSkxrU2U0bm84dDA3WTZnNnpydU10RUpfZ2E3TDdNYm5fUktZaXRxajBvb3liWm9nd200YWNNdnJtNlpwWlExcUFfa0xSSUUxYVFrZlNISWxfV00wemxVcFg4N1c5MjYzQS1vb0ZsOGpCVmJZZHRXTnQ3Y0lhaFZJX2x6WUxxQnYwRHVqMGRSNjFOSGZESDFQanlLU05jeWtPbEJKQzlDTGNqbndvWHZvMnJROXV3VG9CeEd0NnfSAdcBQVVfeXFMUFJ2SFEtLW1yX3llTTB2Y3Z6eE5KZlp5QTNzck9JNEViaXVXTnJaWWJqQkdCVW9waGNKUWZ0STNBQm1hMVE5UWFyOHN4RnRPbmNxU3BMalR4SkhEdEFVQ0luTko4SHF5N2dxUlA1dWFmT3BSeUJnU0hpMExoUnNrb1ozUzA2Y3ByaXYyWGlGS2tfaEY4TVpUTFY0WGdUSDVCblJma3FiVVZPa00zMW5QMXFRRWJCLXhsZEFzb0JZeThYbENXTjh6TlFIdUd4QlJ6ZkhaQU9oVEU?oc=5",
+          "title": "'मैं क्या बताकर हमला करूंगा?', ईरान पर अटैक को लेकर ट्रंप के गजब बोल",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOGRyYWEyWk12MkFleHhTQlkwUkNKTnBaZFNkZWFIbjRrMUlhSVh3d3Y1UkNXdEstZ3UxcWV0c05JaEQzMUV0QS1pWEs3elJSZmRZZnBQeGxwemdhZEVTZTctSC10WldsODRBYjVzTlBWaS1ZRFI4RURCN1FsYjV6QXB2eHJ1R0JtdTNOcXpXY1otc2xhcHlJWVAwR1dPN1FRSGkxSHhLOGhmRDBMUG9SNU9QSHFGZlgtMkM1ZjlUVXlPVjZBMFgxSzJn0gHPAUFVX3lxTE5vLXA5b1o1aW9lR1NYaGdzQ0dOZ1gyaUthM1dHWE9Sa1EtaV9NbHFqR3VpSnRRRnNEc2h3NTItNVNpY1g2NGdILWtYcEhfZVlGMmE2YVNYSVFfUk5ta2lUc3lpa19ORkZLUURfbVZxajUzUkt1dl9IRmZURThXQVRXLTM5SlF2OUI3ZVNXMW1rVEt5R2U3bnFIOERHOG85ZjJsNXNWQ2ZZSzZoYUREMVNQSzRjb25YbzRDVndFczRZZmJmZ2RjU1VtSTRxVkhMMA?oc=5",
           "publisher": "AajTak"
         },
         {
-          "title": "अमेरिका में हैलोवीन के दौरान गोलाबारी में 4 लोगों की मौत, 15 घायल - us halloween weekend shootings many dead in dallas",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc2pCWXQyRUNld05JWTB5MUtNQ2dKUUk5YVBEOE5PWDFvR05yb3VJa1NrdVVzTU9TMmhWdFh4cXRLNUtSdTlyYlVZNjhER3BiQXlhX2pZUmZ2dlFoRGNUaUVwX0FMd0RXVEwxS2h1OHEyY2RrY2hPTG80aVd2TjExNVRpZHVJZDY2NUhCb2lrY2JZNGVFczZoQXpDWVRQS1pmTHpF?oc=5",
+          "title": "ईरान ने 48 घंटे में होर्मुज खोलने का प्रस्ताव दिया द्वारा Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45VjdsS2luY3lQOTdYNDRGZkNBX01JeFY4b1NhYTJzUGZwLUxLV0ZhLWtMUlllNkpSY2lVVzV4UUdyZUhVQ3ZSNVdSTWJRZFZ5ZWtsOWtJUlloMFR2ak5wMEMzRmhXeEY1?oc=5",
+          "publisher": "Investing.com भारत"
+        },
+        {
+          "title": "अमेरिकी चुनाव से पहले ईरान से समझौते की कोशिश तेज, दोहा में लगातार तीसरे दिन वार्ता",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVmU3alBJTmIyTXJsS28yZ3NSX2ExMXppemRpNzR5WWE4N3VQbk1pejFDNnMyZkJUeUx3cDhCNThCN3NUZklkbExRM2tDa2p2cXk4U1RfNVcxdTBTX3hmeXNCYkJ4Sm5STmE4aC1PM3ZuTE1wcEZzTUptUjMzdTNMN0ZBUTYwamE0bkRpYWdzTUJlNDdMYWlIMmlNWUZQSVBKUGNIbEd5V3RvbVZQQS10TWUwRHZDbHY5c1J6Y1BlRldFa3dvZk5zOE9vN2dEVG1HOWt5eDQweFZHNzdIUHROLU11ZXRHNFdpYXE5cXdn?oc=5",
           "publisher": "Jagran"
         },
         {
-          "title": "हैलोवीन पर US में खूनी तांडव, डलास से अलबामा तक अंधाधुंध गोलीबारी में 5 की मौत",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOY2x5VDRaSERkMVA1amY4cmIzX3pGVjZPWVRadlNoM1A3RmsyZUFadEhPZkxnZy11c3J2bjcteS1oNXNPX25GOWFFWjQxTklJMmhCN3dWSzlvXzVISnBZbnR1Z0puVXdKTTgtVl9NazlsRmgzdTBNUW9qYTZUVUNHZV8zdzcyUlkxWW55Tm14VVkzQ3JjM3BLUDNmWldOMEhEdG15ZDNrX1lsTDhBclppQmpWZklOSllNc1JhOURwNHBReVBacG1qbHlzWW9oZ09JRVJxSXI0NjJQeFZrMjVXZnVLTUNYQS1iaFVHSTUyaU8za250dk16dUxCUHBNaEowcHRNMg?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "कैलिफोर्निया के शॉपिंग मॉल में गोलीबारी, 1 की मौत और 6 घायल",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTTUyT2tVQllXdllwRFdUR0NVUmpxUGlkMUhkdFVsUG03N0NNNk9LcnlteFh3OGFEZnhrcE9BVGFDSDdOSmFzRmo4UktIREZwV2hLLXBsY09Yc0Y0NTNqZ1FvOGI2c1BPWWJmNGxhZlhENjk2VmVXLWhTSEp2MU5vWnozRGVmZHJZTzc2QVl1akdyWjh1UTkyQmIxMzlIM2JZamkw?oc=5",
-          "publisher": "Dainik Hawk"
-        },
-        {
-          "title": "अमेरिका के 7 शहरों में हैलोवीन पार्टी के दौरान अंधाधुंध गोलीबारी से 6 की मौत, 15 से अधिक लोग घायल",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQUw5QUlvYWVCTkYtVHU4dVM4ZEg4blc1S0RRakpWajlaQnAzblpaN05BUkZXc2EwV01PdGJfdXFsUEpjTDd0anJrYkVVSXdoOXl1MWNIYmE3amp3YV94OWdBUmZ0VTgzaENCblU0Zm9sbDZVSExaa2RJLUV2U2NIQVljZURDaUp2aWpENFhSMHNzcm9vb21mV0NWRkthUHNqYVRtR3U2T042YzlMNHQ3cHdqajdnTzBnUHJuOVV5dzBnMlBkRWs2bFhkb05MWTdmTDlQVVk2X043a3M?oc=5",
-          "publisher": "Jansatta"
+          "title": "US-Iran युद्ध जल्द खत्म हो जाएगा? ईरान अपना यूरेनियम विदेश भेजेगा, होर्मुज भी खोलेगा, ट्रंप बोले-हमें जल्दी",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSk9ZQWdydE1JN0lnOGF6YUtFMElkazJRYjJBdlA3cTltRklyTHhDX0NFc0tmMlBZYWFyVUtZaV9PWjdhbE5fc0VQeDYwVzViX0pnZ0dyNGJxNzV1cUxCRFhpQkphSXBSZmJUVWV0LUdlbmlENExqc3B4cm9HUkFlcFZ1SE5ZdUNMc1pOckdUcTJQZzRDRnFrU0I3OG15VkI0dVNMOWoyRUVsUUJDWmgzMWZFeHM1ZjRQRGxmalg5cEY3SGtuaEF2amJ4V3h0NTRTOGUyWWZLcw?oc=5",
+          "publisher": "India TV Hindi"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-a82329ea7b",
+      "id": "en-7b60ca9c07",
       "lang": "en",
-      "title": "NASA crew completes 378-day simulated Mars mission in Houston",
-      "category": "science",
-      "published_at": "2026-11-01T18:01:50+00:00",
+      "title": "Oil Prices No Longer Follow Headlines",
+      "category": "business",
+      "published_at": "2026-11-02T00:00:00+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "NASA crew completes 378-day simulated Mars mission in Houston",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZnFJM2daQ3dacGJ4LVZWblJsZXJnX3MxY2RoYnJtcHlWLXNZQm9FY2lCZXVOSHlDWTk2WjZrUF9vNzh6aWpxY0VKZGhhb09OQUN3YzEwczViZm5DTVloU1dSVFk5bGw2THVjWjE5OXJsZ0p0cHY4SDFyZnRlaTJVUGpLZTd6WXFyR2tUTGxna0tvQTlVbGptbmhWUXZJVUxHV0FsNTNTcmRGaHdtWjY5RG5McE15UFdUTm1CZ2ZhMFBxbkpXdjBF0gHOAUFVX3lxTE5DMHZPQlY2VHd3NElNWE1OSDlqUC1lOWl5SlEzbGV0OVVXQ1RENDhjMUFyUUM0VFlxbnBQd0JISzlSZnd6S0I3M3BHNnBTTFVnOUJSdzJOb2xKS2FRalBjV05vNDlINmhOSURsRUFVaE9oV0xGVDdxOUFkQmYtWlNmblVsZ2hZcWhQSl9wNnFBSjBoOVU1TW9HYXpaN0dkZkMtTzNId25NWVhZMnZEMFN0Tk52TVoydHl6V2hZOEw0ckIyMktTQkxoejNPUnVB?oc=5",
-          "publisher": "BusinessLine"
+          "title": "Oil Prices No Longer Follow Headlines",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcnBYdGk0c2JHbjN5T2ZDSWI3c2ZiTUdUcEZEMGFYZWE0TVBma3hzX3JqQlpPeWhFVzRTOHhXekhrelN5Zk10bmhJVFFpbFRSWEhzTEVmYjd0ampPTllHUUluT29mRHpmVEJPWmJyVHY5T2pmczFXU3FDamsxQ3JqX1I4WUZtWXJM0gGOAUFVX3lxTE9MSjlnZExoYkdXSTZjOUEyWHUxWDdZdnBBWmlSaEdrSXZfRnJfeWJnT2g3eU05b2ZtYUV2OTJOX3FaZnBBcTZjMzBzRXJfYzRQUmY1aEd1aUhNSkx5RV91NHdYZDJSSWlqOW03bkt2Vk1hTkdJc1l3ZlpYYXAxTVVMYzBXeGJEODljcnlTOUE?oc=5",
+          "publisher": "Crude Oil Prices Today | OilPrice.com"
         },
         {
-          "title": "Crew from NASA's simulated Mars mission emerges after 378 days in isolation",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOGRXMURNMmtKbjhBMEt0NnJPb3JYSXlaVHlBZzJfRXlaclVDejlLWElYWE5wMlRIc0E5bmVYN295RmczMklmR0E2SVBSTjJYWkR4ZzBXR0NUS2llWEwyRTU3NVV0Uk1WX1hxZlg2eE5vYXpXX0hpZ3VRQlRJM3ljaVppZEdJa0VleUNlSGZ2bUdaZTZmUTN3S1NDd2trdGJsaTRXcTFaUVFnNlNnZ3B3?oc=5",
+          "title": "Oil slips more than 1% as talks continue on ending Iran war",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHdxcnVlWmx5T1pjbDZQS19XeXlYTW1xZmNONnJQWHk4YU1EQTRzZFZQVEJxYjd6WEJTN2pfZC10ZGlzXzVURVdHZkg1RjZGY2tjN0ZVRjNRc0p4UmQ1c2F6MUt4eEpHSml6Z3Q4WHpqV094aEo0dTlVbk00OGFBazlmdGhsWGdtckFHQjlBTVU5Q0FRR3hxUnVmcVpPeGZsTHBlWmhTdw?oc=5",
           "publisher": "Reuters"
         },
         {
-          "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnBvbzY5QXFiQUFlV1MwUWFlVUJjZndibFlodjFSZFhiaGJRMEdieFh4NlUyaXBtUFNTNjA0MjN4cVRiWFREVXVBNm1Ec2lPZWtHSU9zTW56MW9HU3kwdUdwb1NmeHJHellIR3BOMGNHUmNlQ2dES3h0SVNNb19YWnlHUWQzUTNITXVyZXNKeEhKNWVBRlN1SkN3aDJibkN6eWc?oc=5",
-          "publisher": "NASA (.gov)"
+          "title": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUnhpZVZHQUliUnJIQUJWb3JmbVl6VV9GZ3NJN0M3X0EzZU9pa2N4SEcybGNlakZkcmxyeVNqV0E5LWRxTU1VZUM4Uk9TdGZTS0RJLU1CZ1JVVFBlM0pTcWFPd2U0b1RFTkVyV2oxSzNwZzYzMjBwVmRtbUFvWUowS1RPSEQ3eE1Qa2ZQQVJ5SExsbzVXQTQtNlZYRC1Bbnh2YmpnZ2VGaHZLQlJDRWJRZEZOU2VCZ1hPcENQcTUtYw?oc=5",
+          "publisher": "WSJ"
         },
         {
-          "title": "Nasa's simulated Mars mission: Crew emerges after 378 days in isolation",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYV90QzJRZjZqcXd5NVpyQkpqUGNBRzM4TUFRYzhTOTlYMkVxMlVMeHQ0anYxTzJUT1lVZW9VbjI2X2MxTmx0S2NxZ0dIMWZUYWR6eVJwSU5sTEtIR1BjYk9XZFdVbVRGYWEtY3VWcGxiVXA3UmQ5SndkcEI5T0FZLWlod3BFTVliLW82SDNpUjFBWVc2eFhrLVZ1LVJvb09ra1hBR0ZnVE1xZFlMQ0g2ZU9SVFVEaVc4Yjk3b3haLXcxTmNfalNINXE0Rnh6Zy1nc0dtUVpn?oc=5",
-          "publisher": "The Times of India"
+          "title": "Oil Declines Ahead of Midterm Elections Despite Hormuz Attacks",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQemlrUnpqR1g0OFFfbnJHTUktSE94dmx1MUQxbFpseThLLWNLaFVmdUp1ZFBHMjloZDFSR1Z2aDFVRHU0bmN4aE1vMGJRR1c4UldXMW9iWDY4clhNODVZVV9OQ0VvelF0Y2pKWlo2T0o3OWVCRTlGeU9fVXNiNEZfNTF5cnU0Rk5yX1htSDd6UW9oSDBNdU93NXNmV08?oc=5",
+          "publisher": "Bloomberg.com"
         },
         {
-          "title": "They spent more than a year inside a NASA hangar in Houston simulating life on Mars. Now, they’re finally out",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQUnBqT0IwNU1PSGFlaHJFQlpGYVA5TEcza3JOV1dsQWE1ZDY4VjBkU18tVGwxcGdldHRUNmFLc0FpRkVGLTRGTmtxS2N4dnVCRjUteWMzbHB1M1F3dzJ6Y2VpQVJlcVA3Rk45UkZJNG9RVUE2M193VFZpUXB5UUctRE9sb19nTWczaXVRN0F1YWxBaFBodzgtNldTRkUxbXdnWWltM0RQRHdkMkhSblF6UzBraXFKZktTVUs1Qlo5ejlUZnItMk9pMnVKcW82VnRnaGRqQ2YyTVNiWWd5cUpvSWZRWmxnMFZrdmNIcll6U2R3S0lfWjNSLU5nSy0xdXVrMThJd3FORlJ3QUHSAZMCQVVfeXFMUFpEOENUajdWdU1iczExeHljUmlNYjRpUmdtdFB3R2w4N0Qzek1iU1lQYUJHR3BCSVlIQ2M5b0RhTGxqMkw0LXRvamduaXQxbFoxTVlCSjRETEJnZkVxTTBCTFljWHFyXzl2ZFp2YzA2bXhISjZ4cDE5VmhkZXdyOWo1MXFaQlZLVjJhaFdTN25LMnQ1Z3RVSnZXUG5CZnE5V2tjVE4wVjBTb1d4TnF5Yi0xbU44ZE1rdW9OX0pOQk1tOUl0N3V1TC1SNElHb2ppVl82YUwyeDNyd243NU9yVTMxajI2OW40Y0N3SDlfc3JtYUlLYkI2Z1VTeXNXZFFUbnFIQ2g0OUxHU214TjVJZGJKQTA?oc=5",
-          "publisher": "Houston Public Media"
+          "title": "Geopolitical Tensions, Iran Diplomacy Drive Crude Oil Volatility",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTzR6OWh2QWhnd05DM3hyazMxcEJac18tV3lyTjkyQXEtN3NHeDg1cFZuYkFNN09lRHA5dHRUdmgzazRoVGNpUDZ3T3FncmJKZkNydy00QlVfNk4xbWJFRkswZElLYTV4NmlreUlBR29mTGZIblN0eUtQNlRvQW1tQzR1NlVVYkJaNHJ3MlhQMUZhWFFxR21KYXQ5OGE4bkNlUFRFY2hDNmIwZFR5RVR3TS1yZWFsTy1DQmNsZU15NlNEVEZwdVlz0gHMAUFVX3lxTE02NnZ5UnpIUFdDY1hDQXhpS29xb1BrMUx4YU5BY2REaEFrd2NERTVZczUycWFtcU14TFZOMV9RZ3lyN0lOdFhUNU4wclFyQmJ3ZTNBQlJab1o1UXktVkpEd0hTcXdHTkxFaHZreDl1QmVHSTdYdGNFcWc2emJqa1RXNTlfNkktSWhBM0Y2Vl91Ml9JYmtWQkpFck84V1I4TnZ6TU5WUnd4YzFaR0RBaDJ1MTdTUGRpc0ZJZktNQkVkdEJxSDFHNElJQ29lbA?oc=5",
+          "publisher": "Rediff"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-f743a43fc3",
+      "id": "en-9166417165",
       "lang": "en",
-      "title": "6 stats from Racing Santander 0-3 Real Madrid",
+      "title": "Player Ratings: Racing Santander 0–3 Real Madrid",
       "category": "sports",
-      "published_at": "2026-11-01T18:00:55+00:00",
+      "published_at": "2026-11-01T23:34:05+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "6 stats from Racing Santander 0-3 Real Madrid",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHl6MTVfVUhSc1ozMFJFSWxrX1ptTllNNEFhVk9VS1BnODlkX1Z0QjdiNHJVUE9RemtocG9yYXV4ZUhzRnlUY3ZXdl9VeElXNWRycHBCOEtXMHlLUnlTbFdkNXBJOE9fMUFzcTJneXltVE5ScnJHX2k2elhnOWhicWlOQnJqSkFTVDhZbC1uS09KNVE1VmZWWmJuNEJmYXdFc2YyS1VValB4Zw?oc=5",
+          "title": "Player Ratings: Racing Santander 0–3 Real Madrid",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2RrM3dTZm9BdjBfM2UxUy1tV095QWk3X0lwUEs1U2pZTnVSWk1WVzJkcjhwN3RTM3BIWVF0dldoSi00VkJmNmRhaE5FUUowUjFuc0N1REZhaGF1VVNpYjN4SEZ0eTdROHZNRXZhR2xuTUMxQ0FUZ2RfNk5ESVpCU2lhbl9FSDRRcUpOYnhud3E4U1J5N2lneXhZQ2gyX2lRR2JVeW0xUzJXVTNF?oc=5",
           "publisher": "Managing Madrid"
         },
         {
@@ -3489,244 +3309,439 @@
         {
           "title": "Racing Santander vs Real Madrid LIVE BLOG: Kickoff Time, Lineups and LaLiga Match Preview",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb004eDFzMFVFR1U4R2lqRDEyZnB6Z2NGbW0wMnR6TG5ET0YwZnJja3dzYl9JN2FqWUhfZDExZnE0VV9PcUxEdTQ0blV1M1RSRjdxQ1h6RWlSdk5KWG9GbGVseVNia1R2T1JRWmVYNnpXUHAzTURjVmtYaVNjSy1UUnc0NTllTVRfRk1CM2hMSV81QmRpU0U3MF96MWwtOXdQbkpkeWJjUFltRk0tTFg4Qk43blRpTFU?oc=5",
-          "publisher": "beIN SPORTS"
+          "publisher": "beIN Sports"
         },
         {
-          "title": "Racing Santander vs. Real Madrid: Preview, Predictions and Lineups",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeXJ1SEFlZkhDTUsyR20wTU9sTHF1Zi15ekpsenZwVUFkM0NLSlJZS0c2SnhDMDd1Y0ZrZkRhaXB4QXRGeVd2bG1nbFdHUHJvOEVDUlNnNkxSbXU4UWRhVWxuYnBaTUk4VEp6TFFtaVI2NzVUNXEtb3B2QnJQVzhVVUVLQ0RfTlVydXJOeWlTR0FuQUVpRjJYMQ?oc=5",
-          "publisher": "Sports Illustrated"
+          "title": "Real Madrid player ratings vs Racing Santander: Jude Bellingham, Arda Guler and Kylian Mbappe run riot in first-half blitz",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOWFlLZV9heTdrVVg0elk0RzVDa1hDLTM3d0hPNnJOMFBxS2UzMWFmTmtMWng5X19PODhuWkhGVkF4aVVVUzBMYmJ6UjFzaHZVZlFGT0dWUlBDNkJhMHBPMFNMbUdoS0RWcmdSZ0lnOUF3c3JjUDhJYndOU0hDdHF5SVdRX0wzakQtTTVxamdpdmhOLXBCU1Z3dHNBYU9PMEk4Zm5wSkp0TmlXajZtYjhjTU5yak1YalViQkJvNWdCRFRGTV9aby1HZzZKNEd0cFdHcHYyQzNLdVRDS3dPMVhVUjFMV1FlMS1ja19hSG5kRVlNTmQ0Z3g2STFqeEIwa3lCeFE?oc=5",
+          "publisher": "Goal.com"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-7fb220dbc9",
+      "id": "en-5f2609a408",
       "lang": "en",
-      "title": "U.S. Labs Look to New Materials to Close China's Nuclear Lead",
-      "category": "technology",
-      "published_at": "2026-11-01T18:00:00+00:00",
+      "title": "Q2 Results This Week: ITC, Bharti Airtel, NSE, BSE, LIC, among 350 companies report numbers",
+      "category": "business",
+      "published_at": "2026-11-01T23:30:18+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "U.S. Labs Look to New Materials to Close China's Nuclear Lead",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYmRpR25GTmhRVFA4WHhzdWxnWWFQbUswZlpHVTF0LUU3alJGZmhyQ1hsbEtFa0RLaW1FWTRybHM5OG9ra2hrNmxFLWxFWTFhd3NCdUFUV3FKc2k1V1dOdHVGQUd3ZkRVNkdTWldkb3JTQ2szRkFSWXVLYXpmUFNlTFhualQ0UVJ0OXNteXhzQ0ZSbnJIY28tV1ljVUdmMmpfVzRDZ0hRV1FIUdIBrwFBVV95cUxQZUFUNXhSYmNaNW12YzhXV2pjVmVhYjBLYVl3UmlKRUN5S2NPU2REcW1zY2ZuQ2xFczNKSkZtVHBRYjdta1BFQWIzRDNfN0NyT3BQMkpyUTIzZ0U1SkttVjA4ellhN1ZmMzJoZU1rRXFsQjR3X1UtbUlWcmNEc3hBbXhVWUpSNEdfZVFpVFd1WUM4RXl1cWF5UnNFQWN4OFRxOUFHdFVFQ2p6SXBjdjFN?oc=5",
-          "publisher": "Crude Oil Prices Today | OilPrice.com"
+          "title": "Q2 Results This Week: ITC, Bharti Airtel, NSE, BSE, LIC, among 350 companies report numbers",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNW5FcWNUYmtSVWFuaEx1cVBHOWVEcEJiY3EtVlJUcVpmQXhRbVgwOWJiS2NBNUppc054UDJ0NEk1VmV4WEJtMTFrUzlOdUdrWk5zX21DRWRkUExrODdUajY2ZFpuR19xTXRpdkpYV3JMS0tRUFk2VGlYamFuUHdXcHVRc2liS3NmQVRERC1GT0I0WHVIZ0ZZZHVidDBjRFJhanJJcjJ0blp5MmdfcjFwSmZWQXBBeHBQN2N3T3BnaTBGbEhpNmFRQk1pNHgwNUNlckwxUm9xQnZmb3A2OWdYU21R0gHnAUFVX3lxTE9XXzVhekpEbVZuMTg1aFlWbEZRRXJ2NzF0RE13Z2VWbWNlT2trbVhPeU5iMEpob0pqbmt5b2pZeTU3SnVBV3h4djNUNEV6NFZZNzRMdFBOSlZxQ01WcEpSaWxYZ1pLUmJkVEhIcFI5VmF2bEZPc29nTGdDZ0dlN0o3RUphejA2aG5TLUtPZHp2Slh0VXlicnR5cllxRmxpVEszakdEQVR5SHo0blNoWlppVUMtNUZyd0x2QjFuWjBfRzJSSnhNMVNTSDBmMkdDazd1M3Uwb2d5VGY5WV9nbGRUQWcyOTZyNA?oc=5",
+          "publisher": "CNBC TV18"
         },
         {
-          "title": "Designing new nuclear alloys, element by element",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95T2NuZTI3UlZyVVRBS1B2c3M3UE9rZ0xic3JBMXJmbll1dldKU0hnZV9iM0o5TjZJOW5jU1BzY3NiSXhxTHhNTVhFeGk3Y1dndXhaX2MwRzNaUVo5UlpqTlpNOFppWVRvN3NiczR3RFA?oc=5",
-          "publisher": "Tech Xplore"
+          "title": "The Week Ahead: Q2 Earnings, PMI Data, US Jobs Report, IPO Listings In Focus",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1FrbVY2QjRqajdtMjVoeU1Oa3Rzbk9UR3dvWHFQaWdDVFpxalBmb3NSWWVMdG1rbmZPUWpGSzFQQlVOenJoUWZpbHVuVDVsZzlPdzg1WVNucXJhLWpkb3hTNTJUWVQzeVhmWHB1STN6czA2d0dNd05wVC1fdzhtZURvRGF5c290Y1REZkRXbU5DQm1ucTl1TTVIUG9TSkFkWVRYQmtNLXhqRGNqLUZJenF0Sl8tU1HSAb8BQVVfeXFMTUlNTWo5cWZfTHBFc0FwSU9RckpQc01xTllNMkpoVERIX1g0YUNJVk1SXzdqRWdJLTlxdFFSeW9yQ0x0WFl0aTNERDdUbG9HMUZkS29RZ2JZaGdXUFROcjk2T1FBYkZmOWF4X0p1Q1RVQnlBMUh0Y1gtNVBQaDdXVjB0Mng3ek95alZMdU9GR3JBOWliWlZFTjdGSDN5MXNjSFRRSWdqTUtMRlhUTGVHd2JlRnctSDBGcFA2Ynl4RnM?oc=5",
+          "publisher": "NDTV Profit"
         },
         {
-          "title": "China at the centre or in the corner?",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSWJSMVRwNUppZm85c3dWZXpLZ0RxWG55Y2pFc2xuVUFsRVVxYmFYNFp3Smh0Ymd2aXpIOFg3X0ZQRGtmWWJqekVPd3A5TE00Smd2TWJxdFhRZEI0ZDFrVUluSlVTNEJjOTk1X0dzMW1fQVVzWHQxQ0IxbEMtV0ViWVE2a05kZmY0cGc?oc=5",
-          "publisher": "Nuclear Engineering International"
+          "title": "Q2 Results Today Live: GAIL, IOC, Sun Pharma, Aditya Birla, BOB, Aether, Smartworks Q2 PAT rise, Zee Entertainment con. PAT declines, Dixon's profit fall, Reliance, Jio Platforms, BEL, GE Vernova, Lodha, Delhivery, NTPC Green to announce Q2 results",
+          "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPZDdydV9UUElRYnF4RGhIaGxKTHhiMmhfQUJzOTI1aS1FMHE5OEYwUGkweTJYVFRCUHhWNUpTT05oRmtwdk14RVcyUzQxWTVxb1N2RGdYYVlCek5pTEJsb19TVThoUVBzcjd3YXNNeWhCTEJXLTZ6WWdzOVEySWFvc1BUVnZ2QWo1VWthYTN3N21kTHV0M19sRnhLQWp0QVg4SE1TOGtySi1hVlZWRkdLN20zanl5dDJ4SjZ0R09nVnpVNjJGbThUc19BSHpKa3NodzBLNzVGSUVRMUluREVRVTF5WGtRekoxVnVzV1h2SU1LWENtQUJBcGI1LUVIeFJPdWo4c0x5eHB1RGpPWVZPRzZnQmJ0YlBzcGhTSE52RVUzLTRWV3ZxRHM0eU9YZXlFdS1yM2Ftem9YNFM5d2pON1B5Y1JyNmZYa3dmalFvOEE2bUlaOWxlU19sbVBpb3MyR2N1Mmo4XzItWXVl?oc=5",
+          "publisher": "BusinessLine"
         },
         {
-          "title": "US screens 724 metal mixtures to develop new nuclear reactor alloy",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQckt2b0Roc1pwWUxJdGl2blgxeXFCR3BaZno0XzM2WGZEbDZmSmtMWVVxTFk1U3FqeWpBNVV6TUxlYjBBUzlNdTA2aHNXWlU2c0xfaDNuN2xla29KVEhjLXZIeFNUNTMtQUdPQzRqazBqT1lIYXBGR1pJMmczWkpnVDVVVFBYaHNRZnhDS3F1dkFuUQ?oc=5",
-          "publisher": "Interesting Engineering"
+          "title": "Q2 results 2026 today, schedule: L&T, Maruti Suzuki - 100 more firms to declare quarterly earnings; Oct 27 Tue list",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSzN0eklkaGJBTjY4Y3VBZTgxNEZFeV8zTGg3YzFWQ01sWkQ4TVp5ODZSSTRjMEdPcEFrZm03dF9jNHZmMHJ6XzhBV1ZzNFhxQ1JJRU9oZ1dQSUhqZ2dtckdCb1lfX1UtMXI4M0hNQnRLTFFyN2ptTGc1QXRraHpORTR3S0xIaU9oZlZsN1VPeFJvNzVOTXFZNUlpa0ZFeGdlczR5bHljUGpkVXdTR2hxT19hRVp3LWxuckZ1VTcyWEcwWFFDaV9TbUJORGJ1SVhXQ1B5MzBHY045RXRRdk1GcUFoNE5qMlc5X1FDTG8tX2R5QUFaVFBqVW9B?oc=5",
+          "publisher": "TradingView"
+        },
+        {
+          "title": "Q2 results this week: LIC, ITC, ONGC, Airtel, Nykaa, NSE, Lenskart, SBI and more to declare earnings",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObEdqTmJLd0dOeDJMcmc3OTBadGY3RGlkUFN4R0l3NnRlX0FIdmxONmtKRnpvbGZsaThTeUUtb1dZX2Y3QkNZMmlsVTNPNzR2ZGRPdzlSSXc2Nl9VaDByZE1pZE9OTXFPOFNKUXBqWlAtRWg2YXNGbUVkZEtORU9tdHRuSmhMR2VpNzA2TDRDeDhOdDl1bGJCQ2RENHNWRVV4azNlejhpNTNCZWplRml3ZUJyb1Vfb2ZJT0UzVHNLWWtWLWJKaVphRXp6Y0kwTmp2Ty1US3Fuc3lGRUFxRzJ6X0RVOFpFTVFv?oc=5",
+          "publisher": "Upstox"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-dc907af866",
+      "id": "en-bfa2095661",
       "lang": "en",
-      "title": "Hansi Flick reveals his favorite victory after hitting 100 wins in charge of Barcelona",
+      "title": "Ravindra and Chapman ruled out of India ODIs",
       "category": "sports",
-      "published_at": "2026-11-01T18:00:00+00:00",
+      "published_at": "2026-11-01T23:30:07+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "Hansi Flick reveals his favorite victory after hitting 100 wins in charge of Barcelona",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbUoyRzFxbEtmMmRoc3kyRWRfRGlWbzRKRDVTM2J3aW5lZUdCaTVOak9DUE5jTFExSV9yOWZjZWhraG1JSVdQd25fQ1JCaXd1YXp5TDByUWlRTGZYRUctRXFTa3dxZllIUE5zLWQ5LWpNOWhOZUl1cGNqSnNQeTFwX2RqV3g3RVg0VkYyMnY2WkszMjVuMngtZXY4Ry0tak9SMElRU1Fwd0Z0V0dKQVhZWXJ0d3oydjVWLXhpX0dVTW1QYXppRGU1QWNSc0VPOFh4LWtQVFdKc1J5UEE?oc=5",
-          "publisher": "Barca Blaugranes"
-        },
-        {
-          "title": "Barcelona 6-1 Alavés (1 Nov, 2026) Game Analysis",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zeEV6QXFCcHVkaWRXdXI0TEdFZUdUNnN3ZzRhaG5ackFocVdzdUVkTkttaDgyb2VISnJBV3Q0d2ZKMmdhTnI0eXlONmNyUFllYW5la1BhWmpjYllqQ3dGZ1Z2V2s?oc=5",
-          "publisher": "ESPN India"
-        },
-        {
-          "title": "Hansi Flick: Record-breaking 100 wins",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEJqS3hEYmRWQXJDa3FRMVBVejVYcFZMVmpESWVfemExYkdZWjcxVm9PZnMyci1iZllhdDJUMUxVOURtR0tpTWJGWEJTRFVVOXdOTVJpYjRubHdZUi00eVJHUWJvXzU3dktJNWFPUWJXYlpqaDl0aHd2UHM1Yi1tV1ljemtwaTlTWi05T0RBTU9XZE5EUGozMnVsSUZ4ZGZKdnc?oc=5",
-          "publisher": "Official FC Barcelona Website"
-        },
-        {
-          "title": "Barcelona bounce back with 6-1 win over Alaves",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcEd5MTIzUjA1OExYb2RkMnV4U0xjRWlQRkN4RlhodFZGV0htWGxKSnNReFg4WGl1NEJLRV93dlNjTU1TWWdsLVk5YzhaUTlhMHA5TG1SbGZabWZvT0h6WGh5eXB3eXpCbWtteUxDVEhaTzZhOWpaVXBVdHNvSHg4alRhSV9RbHZsZWtjZWM3b09LamdaTGk5QlBJM1o?oc=5",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Lamine Yamal, Raphinha help Barcelona hammer Alaves to retain Liga top spot",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMF9ZNUxZSmVHUVlhM3pFRkhPUU9jbENNLWtueUxJZzdXc21zLURJYUlEcnN0aHhCVGg0ZkpFR1FydDJvX1ExQWV5Rzd6MkJGQWtsRDR0bDdaVUUyWU5iQU4zS0ZRQXhPQ3ZqdndYaUZLTWVSLVRPZzdnMEFnWGx0NjJfY3U1VExJU3I4emoxaHNjYlBtay1USXNEMXNva1pXc0w3QVo2TkQ4ZjM5OGphY3VkVnFJQV9Z0gG-AUFVX3lxTFBET3F1dTJsX1pWb0ViRG9tZ1d3RTh0b0R6aElxNkxJNTJuWlp3WVh1Z3cwbDhpOTgyZllFclBYZktaaE1OTjZGXzFlVkRPOUdWa2Q1QW1uQ1M2MTNMNHVuTWZqaEFweHhTNTFPc2lUcmZyeUVGNjRQS0xDVHE0a09PR0dibjJyRjdodGJJNVZWRlROUFRJMkRwZ2I2eVBkTkdHQVA5V2NxUTljNWVzOU9rbVFkZE1XRHBiUno0aXc?oc=5",
-          "publisher": "Al Jazeera"
-        }
-      ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-fe2c931c24",
-      "lang": "en",
-      "title": "4 Zodiac Signs Attract Generous Abundance & Luck On Monday",
-      "category": "entertainment",
-      "published_at": "2026-11-01T17:51:11+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "4 Zodiac Signs Attract Generous Abundance & Luck On Monday",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYUdxZUZJdXJ6UGlSeXJUOExsRmFQQUtaVkxvRE5XaURzaXRzSmlYN0VrOVRZQjNHRXUzRzZ6UmNONTdnUXhjX2I5UjdrQVBZcWZvRUQzVjB2VGdEMHFCaEYxS2wzN0NDVHNBOFZSaVkwTncyREpNeW9qdWQ2UW4zUmdR?oc=5",
-          "publisher": "YourTango"
-        },
-        {
-          "title": "Aries Horoscope Tomorrow, November 2, 2026: Moon Trine Saturn in Your Sign Steadies a Romance",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQb0xoYzd1aVI5bEZWaG01TlRJQ1JYRlhHbTlFUjVWOW12T3RDS3FBbTM5S2lURk5XcUN1R09acHBETS0wTG5iN3BCam5wNS1SQnk5UWlEdUZYS1FwdjRSSFZDN0RidF9zUmMwNjcwYXRHWDg3Nm54elJBalZFSThTMFFqelI4R2RfSUpZODJoeVEyd1lpQ3B5SV9mdDZ4TnpLTUJzOVdDS2w2bzFnbVc0ZzQ4MGRYcXdPckd4aGRqbjZUMlF3czlwTTJHV204V002aXZ3OTB0RG93cFNCbTNTM0hWN0pwR1BzZk5nRHFIVy1TM1FhOER2a244ZFQ2eEt1c2c?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "Today’s Daily Horoscope For All 12 Zodiac Signs – November 2, 2026",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQldwcFBNUktRZFBrTWJGUnFIb24xNTN2MkRLWmZlSERQMVRjOHpoUXQycGhya2RIakktNmRYbVpPZEpVT3c0emZHWmVMZ1l1bXl4UWZkOElFeUl4WUR4TWNBbzJsWk04RTg3dGtWUjdNWTVWaXhqZEdyYjVtUGg5X0g3QWZvTUVkWHNCRktpVXFDME14STFQaURnUk95d3FWVmZSb25vcw?oc=5",
-          "publisher": "iDiva"
-        },
-        {
-          "title": "If You've Been Stressed About Money, 3 Zodiac Signs Get Some Financial Relief On November 2",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTEtLbGhBZDZ5T1c1dTVDU2tUNXV3eHpyTG1UTVdibmtIYjFmanhfZThKcElrTTI0WUFvZjZwVXdIWTdWTGtFT1lWdE1SOHctaWlFUUhSUVdpX0F4ODRUcl9OV29UeURYUW5KeXAzOGY2YzFJNWd5elVabUNvaG9RMUwtY1U?oc=5",
-          "publisher": "YourTango"
-        },
-        {
-          "title": "Numerology Horoscope Today, November 2, 2026: What Date Number 2 and Universal Number 5 Reveal for Your Bi",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQWlNJUFZhRU9VUG5xUVl5ZV9yR3YyUjlxcWY4RFJmbkVCMGp6R09LbDl0X2hRemV4NkRKWHM2M2JBREVnQmJZakxBUEJPaURHMHZXZ1QtTDU4NTRBZ2RoM3NuV0JWMExTRzd3UXdTNU9Eb3lzOTVWMnJ5RjQyM1dnZTFuSzE2aWdzTlUxQ3lQMlZwLXFfd0liMGZPQUg0UUoyNnFNR1MxRXR2ZXZjSGhlWWtKZWZjQnh0YnJZRzFkUzYwdzhXNHcwaHJiUGlSaVVFTnhXWlotUGlGT0p0dXlkU2hhemY1ZF9ROU1jS1hSVjhsdVNNMDNZWXpzbmRLMXFWeUVLbjlBeWNxSEpOaHNRbXdocTJvdlgxcGU0ZFhiSk84ZUViNnBz0gGsAkFVX3lxTE1WMzR2bzVDUmVwaEpFNEtkT0YtRXFrQUp1dEo5ZmU1X3JtZ3lZRHExc1hZS3MxN196ZThleDNsNTVmUDVibDUzcW9zVzdacW5xTVM0eHNHaUkwUy1adFNiR2ZkaWNhWkZNbGVNdWc3b3p3S0ZuOERNOEh6dGE3Q3RBcUkyLXN2YkRDQUZ1bTZqNVZ2YXlHcnlORU90akhqLVhjUk9sX0Z1d2JuRjhHbGIxSmxHelE3LUlRU21FNWpUdHVERmp2RjFXbmZvX0FKWVlDdUk0a2VyTDlSM041aF9zV1VDb1BIekFXMktaTzBCcHlwQzFJaGQxdmIyRHlZdXJXLUhKd3d4YlRPcV93ZElOMUg5eklRUENKQWRIVk80aTgzeDVvTXByT2h2eA?oc=5",
-          "publisher": "The Economic Times"
-        }
-      ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-2f27200af9",
-      "lang": "en",
-      "title": "Jansen owns cuckoo and calm to put Australia to sleep",
-      "category": "sports",
-      "published_at": "2026-11-01T17:46:49+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Jansen owns cuckoo and calm to put Australia to sleep",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLTZGTmh6OFhQeHRyU0h0bzRrdUhQRUNJa0NpM1lZcTBXdmdhTmd6a0NnVWJISmhTVG1yYVUtX1FXVlBlSUN4QUM5VXl1YlFvc01HODdET2c2RldjSWloQkNfb1MzZzdTZXJkUndZR2dJQXF2V0VRTHNKdVhRc3Q1b3g5SHVBZFE5VnVRbGVMeEhZRDhrVEo2RjBXdi1JWk1aem11YtIBtgFBVV95cUxQNlVQYzVYSlRlWjVmWmVaRV9Va3RNTDU4Z1I4bXo0MlBoNVFYRXBHWHZCazF1UHdVdUJoQUhFeWdCaHRmWHcyb3FiQlRyVWloNXk5bG5iaDJ4ZFQyRHFjNktHYXB4QVJqVERhRHVOYi14UVRmU05kN2N4aXhpa1FjajlRVl9QNDVsZ3ZVdmFzMmpqWUVkR0NEMDBjdzZybFJLcVhDemoyeHY5eFRWdjl6V1EyUmZsdw?oc=5",
+          "title": "Ravindra and Chapman ruled out of India ODIs",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYy1JZFM5XzE1RkZPYXM0YkljbmJSNE5lMVhwWDBRQnFvNXhiRUlYbkJsTU4yOTlWS2xhR3NJc2I2M3NqNjFkekY5Q0Y0eE45QUhUeXFqSnhqTU1XNkJaT3ZLQkNsWVIwTTk3QkltRDA1MWVCMmdFUVo1TnRKcGdxWUlBbEhJVGpqNDhEV0FUNzRrYjZXdWtuWG1IZWVXeUJ5dVZwRHZVX19rSkJVTXRlS1J0NW93MVN00gHKAUFVX3lxTFBFeXpFdXFLNHRLWUd0UXhMeWE2dmYzOFFsM2pqenF2MUVJRm04OU9JRnR6WWJvQ3F0dms0a1lFdnVhYmRDdmp5aXZ5cnhhMmhOTlhPeWpPV0I0RWVvaDNNWEp1SnpOdzhOUEZfN3dCYlplX3FjNVZQZzRvRWF3YVU5YUxVb1JBODdQSFY5ZER4eEo4YkEwOUdQUTZ1eDY2cEFKYTI4TFFVQlVoSWFrNDNZZHo4aG9SQ1RFU2w4NHhCa24tQ1UwZTlfOGc?oc=5",
           "publisher": "Cricinfo"
         },
         {
-          "title": "Jansen's long night of the soul dawns bright",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcGg1MTRIMUloN3YwUjNGNW1wMWlHeUZ3MVlfdnJKRlhvVlR5V0gxbUpPdG5sdWJVSG5teXBKdWJKOURWMjJ5NU1kV2lxYW5ZTDdPUHVnZzBYbmlhdnFValM2eXRuQ0xSX2tfTFJPbkZhNzdfUW1rTmN3b185SWtmWnVCM1JHMzVrNnRvNzRoRGJubWlMS2ctV1k3YnhBQVQ3Q1E?oc=5",
+          "title": "NZ vs IND 2026: Mark Chapman, Rachin Ravindra ruled out of India ODIs",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQWlKLS1rUE04YU1UMlNQSzl0MUtmc3JNemQwQkh1VTBWcTlTbXprV2F5cG5WdW5tMktmbTlxbHIxaDVzdi1BRVZINE5xaU93bW94RGdYQjNpdHNrdlJTZHlvUkszSlluYnVrT2s5bC1CYnczektxUjRtZzBGdFRKVUJGdXA4VW54WlFGYnBhNVZXbjhOcTZKX05vd25Udw?oc=5",
           "publisher": "Cricbuzz"
         },
         {
-          "title": "Newlands saps South Africa's seamers, despite Jansen's double-strike",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMEJYOFkzN3RLbi1CaHVQSVZUMEIyQ1JyeXRPMnM4ZTNMRWtlWHdHLXhveEp2ZGxFZFFWRFMwaUh4VDhKTlBnTHlXSDM3VG5XN0RuNlAtSnp0Mk1qeURvV2x0YlZ3RXNUUE1XVW80bVR6RGF1N1hoVllHUEFUNTVYMWtaYWxZLXBpT0R6cUg3NW5lNzhVZjlLY1p0N2dZbjZSbHJlWU9NT0RNSEJjWGVja3hudlpxQ2FhM1hNaUgzLUduQjjSAdQBQVVfeXFMTWttRl9LLTVKSXdKZlNMTGRWOVNRQmQ5dTNQSGZqRFc3Y19jQjd6OW4tNkhxR1N6QlJXLUxqZWtZakVLTFZya1ZQM3ZGYmE4NmphNlhHNHozblFpUU9lV0kzbXV2Uk1DQVA1eUZxWFk1VlNuSnpKWnctcG5hRHJ3eTFZNXdwU0dJakxCQS1CVENMNlkxQjZ1Uk5TSkloUGQwd1BqdVl3NWtPMW1UT1NrdkhZRFJiODNqb1RraGVuSUlyMmdFVTMyQXVMWWktbE5obHp2a28?oc=5",
-          "publisher": "Cricinfo"
+          "title": "New Zealand lose key duo for home ODI series against India",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUDdFZTNwN1c4Y016a0swVEVZOTFjeDFMeUtsQWpQQ2wwNjhuWktHUlR2STNWWDBwOWdhMmJ4TU5NaWtoRkVQYWZKMmRhZkNXaGlpdVZ1Tmo4SllxQkpPSkJ6bXhrSmNNNEx0SjZNN0V3eXQ4YUFleXQ0VTcydHhabDV1c3ZwdjdiSXl3UGd4cXNUbzVjeHc?oc=5",
+          "publisher": "ICC"
         },
         {
-          "title": "Marco Jansen belongs to a great tradition but top all-rounders are hard to find",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRDV0elREdmJlNmt4dG1QT1JFQkpLbmxabzQ2TFdzUUtwaE5vSDR0LTNVaWw0XzJ4aF81cXFuQmlJdG9oUENGTUJPeHZzbUtvLThfcnFKaGpaZkNrTkliMjUwc2NtTEVzUjZIZjRpVnpYR0dSbEMtMzZ0RDRicGczRXA3NnNFOHNKWGFOZTJKTmFNZEtDUUI5Tk5nY3BheFdTeThNSw?oc=5",
-          "publisher": "The Guardian"
+          "title": "Chapman and Ravindra ruled out of India ODIs | Nicholls, Fisher, Foxcroft, and Seifert called in",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ3F6N2ZEakR2SzBVTnZ1dDk5c0dpN1FBSFN2OUtIa3VUeGdXSjZBV005OE1SQ0FQUVkydjNycFhaNGp2aGRuREtFa3BLVGpLWFNMS2F0dHpxMTlBck96MW9yX0I5dlFfNU52MktRdFdLUTU3ZnNfZXlQS1RzalNUZV9YWUh4dzJENUo3dWZobUdGOUl4R2hiWWFTR2lCXzI5TnFyNWd4QVRHY1pZVzNwVQ?oc=5",
+          "publisher": "NZC"
         },
         {
-          "title": "Why Marco Jansen stands above the rest",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUTd3dTBuRW9XaDJMNm5adWpfYnoxTDJNRl9kS1Q5bHhnb3ZteW5GTllnVERLMHYzSE1LR2l1LUZydEQyRUROc01nUFQyQW1iVWNRaFZiaXBJbmFDemo2Z1BHblYwTml4S3QtS2w5T0JCc3VNbFNPMFpxeWNGWmVRUlg0cUgwaURLQk1XallrQWQyZG1uUmpMUjhNdkI5OGs?oc=5",
-          "publisher": "Hindustan Times"
+          "title": "India vs NZ | Rachin Ravindra, Mark Chapman to miss ODI series",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRGpDMDBIWEYtUllYMGZ4ZlptcmtCc1dRMFZiQ2laNjhOMnhSbWhQdWlXdlFHUEd4TE1EMFZ4dW5NNjdaUFhtSnNBMjkyRGs1a1hfaG5zWVIzZkJiMzU1NDE0TWlUWmRJVWMxWUl1bnRGYnI1SjBUVzlEY1p1UW1pbC1laFJIUld1aVZwTkl4dzlZTG81RUF6LUVYdlp3OHlCWWdJX1EtbXpGR2NJcUtieA?oc=5",
+          "publisher": "Deccan Herald"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "hi-418ac83796",
+      "id": "hi-62ea88af50",
       "lang": "hi",
-      "title": "Bigg Boss 20: पंचायत के 'दामाद जी' आसिफ बिग बॉस से हुए बाहर, फूट-फूटकर रोए यंग-स्काउट",
-      "category": "entertainment",
-      "published_at": "2026-11-01T17:46:23+00:00",
+      "title": "फ्लोरिडा में व्यस्त सड़क के पास जेट क्रैश, 9 लोगों की मौत - 9 dead as florida jet crashes near busy roadway",
+      "category": "world",
+      "published_at": "2026-11-01T23:03:00+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "Bigg Boss 20: पंचायत के 'दामाद जी' आसिफ बिग बॉस से हुए बाहर, फूट-फूटकर रोए यंग-स्काउट",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPU0tnbGQ2cDBRWGh1TGVpVWlTMk5ab0xKSl83dEo4aDdWamlmVkdIS2IzbU9fUWh6TG5DU1JTY08zZmVaSzI3LXhDVTdrMXZURWpuRDNSazNwbXJYOFNGTlp6Q2FLYy1UdnJ4QkFvbUJ4dk9JVTVNU3phRGlkbzFIb3kyS1hJRHNBOWhPVE9iQ2FKemZKYXBlTDczV2U2MkNISDJLTzlCcHdvNnJOUVA0MWM2ZHhTdkczRWstcWNVRkVfVXRneFUxTzhXTzZiNW1jNjAzR0Jhb1BMcVhMNG9fV9IB5gFBVV95cUxQV2oxMWtXSzRtWnZkcjFoN2pXUWZGbXNMQUxWeF81djFQcHhBcHhhaDlJaUp1c1V2bUZVNUpWX1Nhc01vUnlURWxubHRyWFFrQmdyQUhTcHE1WWJ2RWtpcF90Si1MR0dMYTFBMkhGNUxLa040dmNicmJnMEstY2dEQVFFWlNNdzJjeUZlemYyNzVuYlVNVWRVQlZtMkRobzdaOW1MenYxNjFmRFQ2M21Wa1k5LWJWNzdIQnFVd25pdkNtUkRSUVp4aWY2dTVKcWtaMTkzbFNYZ0dJZ2ZSMzJFY0VKS0pXUQ?oc=5",
+          "title": "फ्लोरिडा में व्यस्त सड़क के पास जेट क्रैश, 9 लोगों की मौत - 9 dead as florida jet crashes near busy roadway",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRE5IMkxJa0lGTWlsZWVkRWVyeXdXLWxqYUg1T3hjYlBDaDQ4NGk2cEF6bkxCR1BhSFNKTHNSdHZDb09HSHdVZkZlbTd5V282RlBOV214MkM5NmVXLVdsemhtUjJOb0xsejljd1hwMlByY2RKUUFqNTNiNXJsSzljckVaX0htUmtFMXFKUHloeUVvN3I3dDNOcmdwNjNyMXc?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "US में बीच शहर मिसाइल की तरह आ गिरी जेट, सभी यात्रियों की मौत; क्रैश होते ही आग के गोले में तब्दील",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPa1lScG5hbFdfYWV4OEdjU1AzOS1udlF6Wms3bnBXWEdodVY4cmJTSi1ORDMxSDVrLXhsalZtUkhFdVZWWUZiWTFoX0VRdGJuNjNtX1RWMUloSnZRYWhGYmpiNTczd3V1bHVGbG9qb2VJU05rbzRDWjJ5R0xTRUx6THBBSU0zSXljWi1uZ1I0b2ZGMVIyRzFFMk5Wd1FPOUQ0VkVZMVdZT0VCVTFhaXQ1dXNlNzdqdnpjVHRfU2dSNEhobVk0cmlNZ1dxekZtTjJHRG5YQmctcUdSWUw4NkgtaVBxZWNwME1Ic1U5bGJxWHE?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "फ्लोरिडा में विमान क्रैश, 9 की मौत; सड़क पर आग का गोला बना जेट",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQXIzYW9CR283X1ZOVGo2Y2lQeEZRd2pwWTZ3VjUzODJybWwwN1JqckVncnNMOEl0YlpfYnhySTVwUFlZaVkzLUhtSWs2NndrLUZJWFBCcVRobFFJMU9yOGtQaktLeGZITjVVVllVenJ3TTFTMEw0NjFuUzBJcHk4dHMyRWhkdm50NkhjREJ2OWhFdmVETEFjR0pqcElYOVh0eVVYbWlpRjVCdGZSUVcxZERNcThLRzRldjI0dGg2bW43QmEtZGNpS1hTeXppdURl0gHWAUFVX3lxTE5YcTNrMThBdkc1cVRGWFZvNlJyTHRnV1FSRnNTYnVNZUkzWHhJS2p1YURhQk56QWctbmZnMkJoZ3NTTXFCM3pUdW9Obnd3eTdsV3BSVkhXVS1sSVk4Z0p4SzBHNkFRN0pMak80dmZPSDVleUZpS0QzSGZkOVRQXzhwZGVhaDh5VE1zYVM3bU15VXdZci1zWXpjWmNpblVLWVNwaGhEWlRuelpkcXYxMkNTR01YeDlsTzk1Uk1JNFZRNmtaa3IxUnk2S3dvTTJERE9kTl8yLUE?oc=5",
           "publisher": "AajTak"
         },
         {
-          "title": "बिग बॉस 20: आसिफ खान शो से बाहर, माही-कनिका के बीच हुई जमकर बहस; सलमान-एल्विश ने खींची इस कंटेस्टेंट की टांग",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSjJvUHp3RmtWZ2RpSEJ0WEFkdkY5NldoaS00Qk5mZlVJYlJsRmQ5NlUtZmFaWnFBazJhX1dHQkx1eWpPNy1GaWJXaGYxZ2JlOFJDWnVhVm5nRll2cXNHLUtJbDgzdUtmekJmak1SbXJZQUVxM2NZRklhaHdCTG5WYVFrT3JfdjIyMUw1TVhBZkRjcE1KZ1ZVRENTbDI5NmFib1NWOFFieTZjREk2THUwUnZkLTBvQkZGTm9yVmpTU2hnZVBVYmtpT1lrN1c1LWUzOTNpOdIB2gFBVV95cUxPY24tVjA2QURQa2F1OHZfcHhjWmNOX2VuaVRrRTBLVlU2eXJPUm0xb0owNGxaS2RVaHZQUGo1Rk5GUDRuZ0RLTkFfTFZsNEQ3Z0ZqeHhiSHNubWhMUjNsWVpKR0hhY25fcGxsZGU3aEk1MnFTT3ppWGFCQkJGOEtMYlNra281N3N5cWhsZUZoa1VjajdhWU4ybWFUd1hscm1YczhhNER2NGtESkw4NVdxZ2pOVHlYeDdzNEwxVjczZ0lqa0puS0ZGZmtLMkxJaTVlSWR1T3JNRzJlZw?oc=5",
-          "publisher": "Amar Ujala"
+          "title": "अमेरिका के फ्लोरिडा में सड़क पर प्लेन क्रैश: गिरते ही आग के गोले में बदला, 9 लोग सवार थे; रोड पर आग लगी; VI...",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONE1JR1R1Q0otclhKajNIWGhEMldTN09DNW1kaXhseUpfa0dZblo2TlBRVGl4UDdsYlFMMkZuQjEybUVpTkJUZGZKTUlHelJJOTNVZzI5NUFCdDRiMzY1SHhkN0ZjUVQwOWRNXzhiSjlfV0hvVUFBZm1VWTVhdzZST01MVHlRYmt3UEd3WUtyTFRyVW1VYVFfVkptU19NN1NaeThHNVVETUZocUt5RUIxUnctSFV5Qmx1VDR5WNIBwgFBVV95cUxOdVZkRmpqQ1RHbDl5alFWSDI3VjVsbjhXMjJSUDQ1MUVxRXZqeWYwWERPM1ZlbENBR0FXRzZhVnlydHc0dkh5Rnd0SE01OUhWM0NjVHU1NEhGZ3UwdlZ3RXBDU3RtakVpb1FhR2xFcmF5QzRVRFFmQ2hHV3VDNTBVMG8ybHlpWWhoMVZVc09Xc2VRR1FVX0pDMF9zQ2g1T256cnE1RjdOYnEzWmVwSEJvUWpGUU9TNmFPMWVPWGl1T1NBdw?oc=5",
+          "publisher": "Dainik Bhaskar"
         },
         {
-          "title": "बिग बॉस 20 से दो कंटेस्टेंट हुए इविक्ट, एक ने 2 करोड़ रुपए देकर शो छोड़ने का किया फैसला",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUDFNUUNJcGpnQkttRWpBZ3NXWi1peWE2aWxoOERkZDU2Tkd6QVd4MmNTZWFwVTNuMGVoa2FXR1VFbDhYWE1HTXYxN3Bqb1AyNlVFZGNUaEZtVm1ZZXBWNkY3OHNsajhoOW15WTZvc08wcGFLWnV3bUt6dmd1LUduMElQeUNtSW5uMTFJa1JTV19NSU1PdVZKY2VZVDB2OGloeDhlZWg1LUtLSE16eXlXb00yQXoxWE9ReGV4REd3WDBQZ3l0NVlDRzRR?oc=5",
-          "publisher": "NDTV India"
-        },
-        {
-          "title": "Mary Kom Movie: Priyanka Chopra की Biopic पर Mary Kom, बोलीं-‘मेरे Struggle का सिर्फ 10% दिखाया",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ20zQ1NUXzNHeHlmVUNxcEZabUZZSzgtZjY3UXUxcU4wVGJDNEhsaS1qeUpPWFhrNmdDNTVKeUVKNUlOenJiZXl6YWktNEx0TkZEOTRFeHpnVzhDSnJ5WXpZZEpIS0RudXFMUnZaVWgyWE1vZFdXTlA4dXJ6Nk16TGt2LUM4OWxu?oc=5",
-          "publisher": "cinematalk.in"
-        },
-        {
-          "title": "आसिफ खान का बिग बॉस सफर खत्म, भावुक पल साझा",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rN0pBZU5iMUM5MVVaRnh1MVVyZ3dEUEVLTFF6VGU5aHc1X1h2T2xpejdjOWNGUnQ3dGY4akZVQkN0WkFHQjM1UEJPRVVjQ1liOHNJcXN2eGxJQ0FLVkFkc0p5czN2d3oyZGNOQndKY3dra3hxSU53?oc=5",
-          "publisher": "The CSR Journal"
+          "title": "हवा में उड़ते ही धराशाई हुआ प्लेन, आग का गोला बनकर सड़क पर हुआ धड़ाम, 9 लोगों की मौत",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbVNZM296WnhnNmFYWTJ1QTZsZGZWc1N2Y2M1UEJJRWkydnBXalN0SnpWRUdJdGlCMkNBX19FTGN4Q0tPLXdZUjVUdVBEaS1XT3FvMU9GNUkxbWdnVzY4N2daVnJnT1I4ZW9QQTQ4c3I3aVZJN2ItRWNUTE16Vm43NW1Qbms4OXZiWWpGQzJ0ZXRob19raWN0VlhEeHdpc0lDTHhnU2NCQjFzSjdnWndGTjhnYm15WHdCcF9wdFMtNDY1N1Q1?oc=5",
+          "publisher": "News18 Hindi"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-63fe847d6e",
+      "id": "en-58b48ec42a",
       "lang": "en",
-      "title": "Global Fight against Antimicrobial Resistance: New Superbug Threats, AI-Designed Viruses and Promising Drug Discoveries Offer Hope, but Major Challenges Remain",
-      "category": "health",
-      "published_at": "2026-11-01T17:44:30+00:00",
+      "title": "Qatar LNG carrier struck by ‘unidentified objects’ in Gulf",
+      "category": "world",
+      "published_at": "2026-11-01T22:36:31+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "Global Fight against Antimicrobial Resistance: New Superbug Threats, AI-Designed Viruses and Promising Drug Discoveries Offer Hope, but Major Challenges Remain",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZUG9SbjUzcWdYdGpxcUxvNTZTQ0hnM3ZZVi1QbklMWFR3T1NUbWR0N1Bwc2stWnJLSnptWFZWQUZSLTRRTTBwSXloSzFWUVJ5RF90RllLdFVfMHpzV0ZHdGh1VQ?oc=5",
-          "publisher": "drugscontrol.org"
+          "title": "Qatar LNG carrier struck by ‘unidentified objects’ in Gulf",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSU1Fc3JpWUM4REFIanVUZEJBRUZyQmxQbW82TTJ2TlB5bWp2bVNQV25pWlhGcmY5T19mWUV5M0xvekFGODFoLVkzMnR3a25wSVhIUWpHM2xkcS10OGtwVXFTZHY1ZGVqNGl1dTdMa19yWllzUmVqc2ZWOEtINDBJaDJ5d241UE1rTFFuMTFwcEVrUDdBb2tIQmdVc05ld9IBowFBVV95cUxNZEtDQS12eTRKS0NESXZxRVgyLVB4QXhRRmVsR2I4UEJxSG5yUzVjS1gtZUs3Z28yUXlTcHhiUEVvY2JVXy1KYjNveHZvS0ZHZVk2a1d5aXlBSUlNSHgwNWFCUWg3dzBPajF6UkZrVDFHTWJUdU9DYmhyRTlnTjVuV0ZRNVBVTC1XSFVPT3dBbDNfV2xFWXV6WC14LXZQbnM2eTRJ?oc=5",
+          "publisher": "Al Jazeera"
         },
         {
-          "title": "Scientists have deployed an AI-designed virus",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCVFhLNktJMkI5MF80d2V1TG5TUDVLWmpUZ1FfNUxERXJrM1B6Vmk0MDNwREFxc05IRTNISFM3UFltYXBPTEhtUktLczNUc1ZwMV94NGVocTQ4SnpuY0pYWXN0QUIyNldMLW13aTZMVU4tY3BNUE5ZRlNlcw?oc=5",
-          "publisher": "Nagaland Post"
+          "title": "Indian Seafarers Targeted In Projectile Attacks At Strait of Hormuz Safe: Sarbananda Sonowal",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZl9NYmZnN1BYa3NITUFZb0oyWjJmRWxKQ0N3RXZ4SVN5QzdKTVJHVjNES2NqOU85UDRsWG05UXFRYW92QVNOZWJjZC1ocDBVQ0poMUkxclZnNC1YZk1ERzBaLVhQcnhfMUhZTlJrYTJSVGFYZkpVSjhvWXNfWTd6aVl6Z055Rzd6RUcyZ2lFZ2ZrZlZvS09QdjhZc29qNDdiMmVFd182UEZCQnIwUWI2VGM5WG9ZWC1rWTZwUlVDcXdqMnEtSWxMNWFNTThad0Z0YjlFSjZRa18wZ2VCM3l6bHFOV2Vad9IB6wFBVV95cUxPSHZxWlJNZ29mUnV4YmlwUmxpZ1kxMTdxR0xuLUE3RXc1YkpwZUhaanZYZGFIdDZ2Wlk0cnFxSzJyemdmeTlpZGFzaXpwSWF6YmVSTm9zWGE5T2t3c0ZWYmpaOTh1YllkVzFKUkdxWlFQYUVDU1h1TG41bjAwaGhOUFliYTM4T1BNQnZLaU1yQktELThDODBOa3pBSGI2QUdlSTltRUtfTW5uVVJ4QXgxYlhnTzdOU2xpbFQ3TmJVZDdYUk4xb3NzeVB2Ymo4WmRpVElRN2pnZV9FRmk4LVlSV0pyYmhndDBqVnZN?oc=5",
+          "publisher": "Deccan Chronicle"
         },
         {
-          "title": "AI is no longer just coding or generating images. It has now designed a virus that was used on a human bei",
-          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNUGl1RHo3ZmdkV042Nm9Db2xxT1BFLVRZY3I1bWRLZzZnWG5ZcHBWTDN0S1YtWkxfR3ROdnAxdnhjMV9jWXpzZWo3ckhxMEVJcmZSOW1mSVJlNnBTZTBmMmhRUUJiLTFGM1pBWkNTejJpY3QtaHpWbXA3UlZqem9pWFBMeHBlX1BCNXVZZkNINmh5WVViLVh6U2ZNdzlEYkRiMWRNTkI5X2lxa05vSHFZUW9tUEdBd1lxdXQ3VHNsR0Y3dThvRHNYX3ZZNUE1X3hpdlRsc0t5a1ZiTlI3LVMyT09IUFVodFJzanZzcEF2VnBhSHpEd0FmZlBuV2wtZC1sdUVjSzlIckxBMkx5UW1vc1VLS3doWjQ4bElLZ2REMHNmSVZkajJSOGN6UmNoYnZaTWNJ0gG4AkFVX3lxTFBfRElCdUQ2T2xxVGFrS0VsRFVTVThkVW5FTUpfbXZvTVdMR1gtc19WbFRSNy15V2Nrd09zVTlMcENJVV9jNU5FUTcxU0hYUVM3bk5zUlRXbHBHdVU4NWZuekpKWE02Y0k0ZDFnREsyRXJMWklOOEo1TDhabU96REtZZmFUN3dObk95SVo3bW1HVU9saG92ZVNNZDFrY1g5RUZwUjIwNE5TeXk3RG9rN2ticDBWNVlIZ3poVUhyMTVwZW52Sm9xckFMZ0J1SzFIVkc2UjFZYnQ3VkxsS0YzMXgtN3VtM0FFQ25EaDJWYTNvYmh5RW9yQ3l3ZEVGaVYxOGFhMXQ0YlRiTmJWSkNHLWxLaFFTb3NPWS1PeWtZNWdFeWw5N210R0dReWJKNzlRZnRkOHg0MXJldA?oc=5",
-          "publisher": "The Economic Times"
+          "title": "LNG tanker with 6 Indians was sailing to Pak, Iran attacked it despite giving approval: Report | The tanker remained operational after attack",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcjVISGdaSDdhZnJWRlJRaTBBek5aMkkxbHRkdWlpZ2UtakJ1VlR1d19nekRWY1hjUFlkbXh0eEVzSWxvMmtSSi1lVS1tNGI1MlJkbkUxRHpsU01ZUENqNDJ0MnA4RzhpQ3RGOENBR1lZVldvdG4ySVhfYUhpY2lPT29aQU5ycXl6VjBRd0ZVaklhUm1JLWFIVmFpSExBekV0b2p2R3FEdkNlYUFfVU9Zak95V2hEWXZpOEZsZGt4dTh0WUNscGppR1A0cW9RcExvNDdV0gHYAUFVX3lxTE04QW5oRVZtRGlBMHkxX3RmSTVVSzItLU02RWU2M1FMaVZLbV9qUmp5MFhKOE04aU9rUXdvTWdFWjIxdTRodzc4VzhKbW1vNGN6RF95WVBNX2NnX0l6bEhzNlhtaGg3eV9fWXdGcnRKY1k2M19USUp4MWRPZW05S3BMUm5vR0pHM04wSnhsSldWSnAwaTVkYXJVNHhFcEt0NW9HVGx0NkNpODNwTkhsQUVRR1FpVVlUVkhtdVRCQWdUSzZJdDRUbFA1SnlDX3JhZHdWU0VfdDlXeA?oc=5",
+          "publisher": "Inshorts"
         },
         {
-          "title": "AI-Designed Phage Treatment of Resistant Bacterial Infection",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUWUwYWk0ZS1GVmxUWTJOS1ptWjBrYzAxMUhGWlV6bDhuemVfM2V2cnUxTUV0N1ByNDFsMU51T2ZRaWh5cV9GNWtEU1pQX09MaFJHc2t1T0g0SlZIUlpOUUJTUTVpblpOT3lqSElpdzlFelpSRGl5cnIxTVNNUXl2NXBFbnZ3XzZJYkJEdG5LdFc4VUtheGJzRGRObw?oc=5",
-          "publisher": "Contagion Live"
+          "title": "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0hUQWdzWTA5cjZaOFAwYkdWYmM1ak1KNXhJTDk2RVhnY0lfSWFsekFTcUhDY25faVlzVElMNUp1YXlHeWVPaVdMc3VYRTFMejlVTV9PMWR3a3A3RHFsQTJnZDJqRC1KX1o1YVlkczhjNlBOOHJBVlZod2tCemxkVnVLTWRqaERaNEJoNWdVTnE1cjlyMktVVmVSQVBfaGpELW9SNlVhVmxqV1haOGNNSA?oc=5",
+          "publisher": "Bloomberg.com"
         },
         {
-          "title": "AI-Designed Viruses Mark Medical Milestone: Omnii-1 Deployed in First Human Patient to Fight Superbug",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wc2l0d1VBcm5ra05ZOENDOXJNTVNPemVVb0FjRm11TFE0RmU3Qk5DRXd1c3lPWU9BQlBjRXJVM1ZVaktXOXdHcy1mVWZ2MkNIUEliQl9xOU5SY19Za2xZZEctZw?oc=5",
-          "publisher": "drugscontrol.org"
+          "title": "HE GCCSG Condemns the Treacherous Attack on the Qatari Gas Tanker \"Al Mayeda\", Underscoring That the Security of Navigation in the Arabian Gulf is a Pillar for the Stability of the Region and the Global Economy",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iRThxTjl3dEZmclNraWpEQWdIdVFuVnp1ZC1fV0F5b0Uyd2F6amdNSUlkRHJGWnczc2RYZHpzQkl2cmxYSlEwU0N0ME16MEZwdkpPbFJPZmYtNGVobFFieEFmSEVpREs2clNTSkUwWXNSM2ZSdHlpZ2hn?oc=5",
+          "publisher": "الأمانة العامة لمجلس التعاون لدول الخليج العربية"
         }
       ],
-      "queued_at": "2026-11-01T21:50:55.367533+00:00",
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-eedf9d4355",
+      "lang": "en",
+      "title": "Do you know signs of a stroke? BE FAST are the words to remember",
+      "category": "health",
+      "published_at": "2026-11-01T22:22:12+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Do you know signs of a stroke? BE FAST are the words to remember",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91TE1uS1dlTFRRSjRHQm9MVEZaT2JmdU9lRDFldDN2U2I0OTFKbTJLOVhkMXEzTnFxTThoUjg0UGVERi1NU1Vqc3c5NUdxRi1Uc0tLWGNPWDZ4ZVUwRlo2b1pKMWhYYTc3TXA2RHNQemRJX0dZZHc?oc=5",
+          "publisher": "NPR"
+        },
+        {
+          "title": "CMC observes World Stroke Day",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQWhRaTZBc0ZLelN6Nkw0aWQxZ2JtVEFwNGZSRW5GOS01aHRWV2VENkZlQzdWZjRYZEZkVDZvc0JuOEkxcFg2R0xqYU9XaDMtdzJVQ09lS2w2MXdIajhjSkZLXy00dnhLeDdyaUNpdTlxNElXRFJGaGQ4WjJFMVZlaHB6RHpKS1NUX1VUanM0UWtPZURfLWdqeEIyLUtNa0ln0gGnAUFVX3lxTE9Rc05jNUU1UW1vRlVRSll5VUc5MGdTOWRuNmRpOVpmcm5yTGRlM21XZXF6N1ptTi1xWGNoYnRMRDkyel82Y1JSa1RFUjktWFRqVUdxSHdFTEFzMG96Nk1WLTN6WnpfOEYtdUNGQ1FIR3BGaGZnU1RMQWZlTnYxcFZ2bTAwc0VFdmVYNnhLTXhmZFBvSzNYMzFGeFdSNG8wQmFkWkgyb0Fz?oc=5",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "World Stroke Day: Nadda Urges Citizens to Recognise Stroke Warning Signs",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN1VrcjFTcGFyU04tVzcyUW5QQjJ2SnZfcGVVRm1CWjVXY3U3dkI0ZkxpTFB2cXk5VklJVWg4WDhfdjBiZmVkQ1pyNWhHMnNvcDVPdl81Z280THY3WlBZU05ZejNHSnYxMWQ5aUc2QzBRSG11NDVrTXczdVNZQTVXLUI5eVNtcG9uNm5yN2dDeUtxMTlYdXF1dENRR1FIUQ?oc=5",
+          "publisher": "News On AIR"
+        },
+        {
+          "title": "Every second counts: A neurologist explains how a quick response to stroke can save lives and preserve brain function",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQVG12SU5FeWE5U2NXTEhYbGhRQ0RXTVNEbVM5MGFtVWJmajhxV01xbk1ielN1YnNfeDZiSU81c2dqWkN1RXNpN29OdFZFbnVFOUo3LUhTa3JjQ2trdi1PRXFWZWtfdTB2c1NxSVZkUEpVeGgta1NyaldFXzNlQ05NeVlqNzN3Y09YX1ZrdWllcVcwUE9ROGREU3liVW9zX2kzWTI5VlRlOG9JWDAzQ1Fnbm5pS3JEdFJyVzBnbDlZS2xIVFUwWDFPd2w4eFFOSXJUUGpyUEFNWGhlWWk0TVZfbWtzT1NBMjVWWFR0RzIxN1FwTTdqNlltalk5Q3hsSzBLeTlXMzgwZEFZREtaR1hjNHhwMA?oc=5",
+          "publisher": "Hindustan Times"
+        },
+        {
+          "title": "Recognizing stroke signs early can save lives",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUHBNV2FsLTZjR1QzTU1KX3FzSVJ4a0lyMXVjM2dYcnNtWHVrX2RXWFdSRTVUR3FCV29rSnYzeWZyQmI1amp5a2xvdXpaR0MzS1VuZ19xbGo1eDRKcEVWazRfMFlQRTY3eTAySmNwb2djNThKMjdyckM3RUxfM3JhcXIxanpIOTB5d2pLbkJn?oc=5",
+          "publisher": "Nepalnews.com"
+        }
+      ],
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-fc1526513e",
+      "lang": "en",
+      "title": "Excel tips: Copilot in Excel",
+      "category": "technology",
+      "published_at": "2026-11-01T22:19:45+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Excel tips: Copilot in Excel",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTFpiRG5ESk1BWm9ySmxyY2dLY0tyWEVmaHJ1V3N4bUxpRTU0OF9wNnFWQ1lYLTBadkszTFNJTktYTzZoQm4wS0l2YjFGSHpYbU91QThJT0hiajdoTWh6ZkpMVUN6LUFjMVlDU19JamJBVFdoamtuRmsyNGJ2LURrSTZrZDBHZFpvUUFN?oc=5",
+          "publisher": "intheblack"
+        },
+        {
+          "title": "AI Tool of the Week: this Copilot feature can automate your monthly Excel reports",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZFhXQWRGVWxFaHBrS0xBM0lFYVBRZlp2dXNON0xMVG8zb2VNbmV4aFlCRGNPdXkyNHNjTkdqa005Z29hT281c2V0SEZfckZzbzhHT3FqdDZxUzY0UnJUeDFNUEdUSDE1ZjVsWFZieVBQamhIWWFYY0Rtb1Bia0lCRmp2a1o2WWRoLS1OalR4OW9RLUhhOE9mU0h5Uk53bFkyS1Ywd3llalNwQ1JxUXV5bS1kZEJMZlEyU1c4THg3Ti13b09iYzJhMlFfUkpQYXY0OW5iOHBkeVN4MGs?oc=5",
+          "publisher": "Livemint"
+        },
+        {
+          "title": "Here are all the new features Microsoft added to Excel in October 2026",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZWdfQVJ0NzdfMGJFRHRWalZUa05sTHhXTkhZeDlGTXdOQ011bHdxbVktYklVTDY5Y3M4UUtwckJfQk4yMkpmMVdmRnFaeDhONUMwSlhmbHJnbHJvajVJMnBPbXNVcFY2Z05HS1pqRnFoYnRkai1hdHByUEwwTkVPaEZSYm4xUHdocGZ6eEw4NnBJeUstOWNVQTJaUGtXTVdC?oc=5",
+          "publisher": "Neowin"
+        },
+        {
+          "title": "Excel Copilot Will Import and Clean Data Using Natural Language Prompts",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tZGlubHE3YlJORzdfdk5lN2RORTV5RzU2QThYc2xublFtc2NXdnRucG43Rlc5QkpFbXpoY2ptQk5nR21mSnNtZXJfVDhMVlQ0eVJyN3JfalNVbkZVU25zU3BGRdIBaEFVX3lxTFB1OXBnc2ZYbVJLT0tNWmZCSEo2TlRVcTVRQ0oyZDd4dV9EU0RJTkFhSHZyRVczeE5Za2loQTRYcm5Ra3A2dlhkazJBUGRDaXpaYk8xckxnT19FcFRpWXJMeGFvZktBVjRs?oc=5",
+          "publisher": "Mezha"
+        }
+      ],
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-866154cb74",
+      "lang": "en",
+      "title": "Body language expert examines reactions to Kane winning Ballon d’Or",
+      "category": "sports",
+      "published_at": "2026-11-01T22:15:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Body language expert examines reactions to Kane winning Ballon d’Or",
+          "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNQ0MzaTVpTFktQ1JTdEJXY2w3MWplQXNLcGNId0JvVHc5a0N1Q0Q5MEFKOF9sWnp5RkV6ajV6eEl0Z2NXR3A4WjFuQUV6cVlKbUhTUURrUWpOSEFUVHkzQW9UUjhiUzh3aFBLUkxpTE5jQ2pScHNMWlNVUTVOZDJoMDAyWlhzb0hfY1ZsTEdid0Z0dFhZYmVCa3VJU2w1RUFxUkRSWUtCWE9lVXhrNm5RTW0yekhaS0N5TjZreTFTcTF2cHFrZExBZ0M5b2l2WktIWlc3MmM3QTVjZXpEcElqc0FBS0VJSGhMX25ySjVPVWNPcTlmbXdJZXVXYjYxUDQ0Z05SYkt3WDI5TFdZZkFQVTVvTE9hSWVNaFVKOVhjbjhlcjB6cFQ0aGtyT3kzZ294WDlvUUhSZnpYU0U?oc=5",
+          "publisher": "Bavarian Football Works"
+        },
+        {
+          "title": "Harry Kane parades Ballon d'Or in front of Bayern Munich fans before Borussia Dortmund clash",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdVdlVnJLOG54RVh6VTRWSWVwRHhqNXRKb3llQUFjVmNYWmVDc295a3ZtZTFpZ2dGUWgwQnV1OG5NcHJPSTBZNlVsOXpiMjZfQVhKQjA4ZnFqa1RhWUJ1R3dJS2ZGS25weGVZaS1GSVIzS0YzMnpobXI0VGtSZjRCeUs2Y1NGYkR6a3RZYW1FZnhrWERoQjZnVGFHdlI5TGl4akNEV0J3UllPYk4yemt3?oc=5",
+          "publisher": "ESPN India"
+        },
+        {
+          "title": "Raising the white flag: Barcelona star accepts idea of departure after 'Flick's harsh message'",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeVFQRWNZT3g3MzdRaTN3d0QxdngtLWFGcTF5enpMbDlrY0NyblB6QkJUOEhVcmhOSkE5SXVjcTltVHZFY0FZaS1OMld3eUptTHZLNlI3bEU4YlB1Q2p6LWFoeHhtTXdDejlUVFd0eV83YmlWLUZkbkpKMnpSYnVhRkRhb0RabmhnZWpoZDdrUVVvSC0xd1NvOHdpTWZmMWRWVEEyX3Z2S3IwOGNZSEk5UXFtQ3ZjLVlRcFFVQlRsUXpCanRyTXI3anl5ZVFPN01oaVFHUFZpREpVRUE?oc=5",
+          "publisher": "Goal.com"
+        },
+        {
+          "title": "The exact points that separated Harry Kane and Kylian Mbappe in Ballon d'Or race revealed as official voting figures emerge",
+          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOWTN5X0N4bEN5aUJzc3k2VGtfWFNMYjhsREdSNVNJaWozVUtObFdQN3JaLTZWY1J6bWhwQm9RUGVTUHZwOTFFaHFoR1lvdE9tVDROUnFqSElQRjNmdVMzd2JzQ2VTNzBheEZsZlBoWXRaLXVtdUZ6ME9LVEd5LThmVEVsMXlTMG9kLUxTNUtBOVFzYUQ4YWFHdVE3aE5Nc1NIalFob1VrWk03ZmRURjZ5RjJQc0tVOE40WFVDQ2hUV2xVcVdLQmk4SlRTZ1hxZ3UyTFBTUl95ekZ0RDZXYXltd1J1c0czYWJGZlVka3JnSlUxbVhIeDg5dXRETVEwYUpyZHJuVXJLdWJ4cnFfZ1pSWXZEMW9IcG1WUy01VGZYWVhmQ2duZURuNnBDSUYxUnlGSy1sNi1pYw?oc=5",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Harry Kane: “Jose Mourinho definitely made his stamp on me”",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRzBKeHh6dW1TS3JIN0lHV0N0a3hmajVIVm1qODV6LWE2bU9GWUlJRTlkZ0tVSFUxVHBrLWNvaDItWVYwbnJnS0xfeXhuNmczVGRhbFlsOGNhb3RBanh6ZmpCZDFxdl9sZkJ6NnJTb1dSc1JDU0RuVVdCem1EdGo1MGdkQ2tmNXZBeWE0Y21SdUxsenhPUUd2LXg2OEt1X0prWHc?oc=5",
+          "publisher": "Managing Madrid"
+        }
+      ],
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-08cbc783fd",
+      "lang": "en",
+      "title": "9 dead as Florida jet crashes near busy roadway",
+      "category": "world",
+      "published_at": "2026-11-01T21:54:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "9 dead as Florida jet crashes near busy roadway",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMDRXLUpNZEZiR0xwMmNzRGttR01Cd3RxR1JQV1VrZEs5cmNPV0NrcVhDZ0dBSE9fY2d3V010M0lNNURQd21hZnJfQVFKdTBLUTk1UloyX0RTLWFsYkQyMzljTG9EUGtLWmxsc0RkLVJWaVdYOHRzSHdNVlBWS0t3M2gwcXFuaGtGOVVWN1FmLWVXRXh0X2NrSmtmYTdFTnNzLWVlWU5HV2o3dlRlTGRBX2E4UExLdzV4eEE?oc=5",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "'Mayday mayday': Videos show moment Florida jet crashed near busy road",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUTVOeER1VVVPMW1aczloOVZiNmJOZExSdnhSeGVsT0ZkXzYwUmhIZWxDMlVnV0VaQ25UeF9TNjJQdDk4dUJtdU5ZUnVvVndGT29XQkhKelpNX1lBemp6bDN1enFJbkxvVzFNZU5BUlpqXzVxcUotQ0Rxa0dYa2x2Tmp5N3YzSXhaS3JsM3ZhSlJkVllPOWtRZE9QS3lkTnBoRmU4a1hfZVNVWlZvRk5ZZWpETzQwd0RkVUVFS1dfREFMZUhZeEpFaTdTUzUwNnRTcUlwZw?oc=5",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "9 Killed After Private Jet Nosedives, Erupts Into Fireball In Florida",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcHpVa3BabmFRT2hnRmhYRERvMjlDOURiSXI1bTBjQ0lxT3BNX3VtMVZwcmFyNi05MmR0TDg2bHU5VGJQcEV3UXVqVWdsbzZKMUx4RUlCaWJ4Y2FRRm1Ka3lDTDN0a0FuT0c2elZFQVZyQzd0YlNPdTVWa18wVGRvTUQ0MFk5cy1jOVkwakF1X0E2TmxtdE9ZelB4Z0lieUNkZ18wbDl5NmxIWkE2Nmc?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vUlJzX2dBUVVoZDFRak1IOFF4aW12bTZoSi1HeTdOY0FyTWp2M0pHTmtMRVh3SlIzUXFsNWhrWlR5dG1vUUJmaWRNYW43aTVGbC1BWG8xdF9hY1k?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Learjet plane crash in Palm Beach County, Florida kills 9",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTcWQ5OXN3NllJNlVibFNZdm95OURiTUxLVThOdHhwQ2RfdmlSRHRYV1F1QlpXZVFTSjVGaTNaZFFUVlcwd1hWVmVQU2NhcXFLS2ZTd0R4aDJqbVZtRklidXR2X1J3V1FlWDNr?oc=5",
+          "publisher": "CNN"
+        }
+      ],
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-bebfcfd6c4",
+      "lang": "hi",
+      "title": "झारखंड: थाने में महिला से दुष्कर्म, थाना प्रभारी समेत 15 पुलिसकर्मी सस्पेंड, 3 गिरफ्तार",
+      "category": "india",
+      "published_at": "2026-11-01T21:24:35+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "झारखंड: थाने में महिला से दुष्कर्म, थाना प्रभारी समेत 15 पुलिसकर्मी सस्पेंड, 3 गिरफ्तार",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTEFwOTU3VHZFa2lwZWdxbk5wZ3BHbV9JSkpETFpvRkhtXzJjNERtN1RBTzlNMDJieVQ0ZHVZaDU5bDJ1bTBaVVh6ampHXzBtbGY0SGNrZVRna011cjVnekQ5aFBmUUdrYWxtQkVNQkg2Z05BaFhYeHFjOENOc1QwamRHZExIUlhweHZoNVlZOGlUbXlWUFduRDRLMktyc0ppM1pCRDgxSTN0bThNT3NYa3hGOTRTSlZPNVVXNUtjNm5OZGtRRmZWSWg3d1dzTm15VWw5SnktbHJneFJpYTZiVkUwNWZPWmd6cmc?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "गम्हरिया थाना में महिला से दुष्कर्म के विरोध में भाजपा ने फूंका सीएम का पुतला",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOR3N3SkVsR1NTU3JZdWMwSEU0aExhUVM0NDhYbF95aDU3NUhidk5ISktrcHpMdDVCUjYzSlAtYWZncFNGakFIbzBCcW9ycWhNc25aaG5obG1IQjhhNVFtWnRsTHVSZmE4anFFZzZMT0NRblpneldIcjZwN2R3THR1S0x4VExKdEZweXJZNFRqekVHVTQzVC1hLXJDSFFIbnVJTUJlZk53VjhXdDNMcHRGS0o3c2VWem5idTJ6Z2pNMU5sTFlkZkhWeTdwOUhvZklXV1ZvV1ZXVlk3ZkxqOHZYLVFoQnpncTVOWFlmXzBhWXVWMk9veE5IbEJMbVDSAYICQVVfeXFMTlhkdnBxUlVzaGVyOUdKeHk5ckZpd1JjU0sxT0loME1yVF9jSFQtZHNFMExKcFk1NWFRbVpMZnBwWG1KMktjZXowem9FYnVLdHRPcjVFbGpuVV9sVlRQTzUzT0JoYTBDZGNqVWYyRTlZZlQ0c3MtTUpmZkV4bE1JR1R4b0FTWmpKMFVFb3ZpRnBoZm16c0VYWEpPVzIxTEJUQ3hNbTBkNEpsQWt1Q05YSGlrRzZxR2FzX29KeHYwZWZFdm0zNlNRWjRFcmltUk9oZkxmTnZvMk5UVXRrODJjNEZ4b0pBQVJMS2N2Q3ItNFdMMVVCZmNjVUNCTVJ5SVJZWUxR?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "Jharkhand: थाने में महिला से रेप, अब तक 15 पुलिसकर्मी सस्पेंड, 3 अरेस्ट",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORktaVUZ0SlpqaDh6X3Y3TXBSYmR1T3YxRlVka1dabEZveUlMQ0tDTEdmMS00WGktdGpmUjVZV25lRTVxeTJtSzgweklvVGVVOWpseWNzd1lDYnFidTJGMlJoajdYbDFHU052dVg1bG45SUhVSUdsNFFweEZKeHhjdllOcEwxX3N3UldWRVN2ZEw2Y0RKeDFRdU50a2NSMzktWDF1ZHJ4ekxsS0RlTThFVTZwM3hsT2t5N1dvNmFIb2xyNjY0dVZIVXhqWmh1SXhiMXRIMVR2dEhwWGlHQzFMcnBYblcycnk4S1R1TC15TkVPSWc?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "जब रक्षक ही भक्षक बन जाए, तो हमारी बेटियां न्याय की गुहार कहां लगाए: अन्नपूर्णा, National Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQWhsVl9NaExQdW1wVEZibkIzb2xuVC1JR0NQQl9NUDVJWDRMTVZmN3Y3b0NXM0NKRjdCT0draUhjeW9nQk9uUVhMenZFdVJLS1Z2bUFkS21rVXJtamlxZVBDMUhBdEhDWDMtemZFb3hiaVBVU29XQ3oyV3daUDJHMkJoT2ZWVTZ6QzhFZzVXNUNweGd1WklJVTBEN2pyNlV1eGZvdHRHVmZjZ2hSY1YxMkJ2UXAtdzgtbEZYWTJUeTRwbnpGSW9yTmk4Qm9NbUpudzZiWGZRNFM?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "Gamharia Thana Rape Case: गम्हरिया दुष्कर्म कांड में बड़ी कार्रवाई, 15 पुलिसकर्मी नप चुके हैं; ओडी अफसर गिरफ्तार",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOazdDZVJSaTlCQ3dsRnZQblEwWm5wTzZHTzUwNC11Y256THhkR2NaR2pjR3UyZDlYYVZOOENBZ3NMUEk5cFRQNEV0dTFhcE1WQVVLNklHckNvaEtLM2RKekxWMi1PaHdrdXZ1SmVqSGp1ZUVLbW53WVMtNHZ0cHo3eGdra0VrNVdkVk9BRTdYTUdmMmI4bFRFZXZxbnV0aVlKZlRKU2gwZUlKR3kyUnBLMUlIZ3lCZ21PRFJqYTh3?oc=5",
+          "publisher": "Jagran"
+        }
+      ],
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-cbe697abc3",
+      "lang": "en",
+      "title": "Trump says the US is very near to securing a deal with Canada",
+      "category": "world",
+      "published_at": "2026-11-01T20:57:35+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Trump says the US is very near to securing a deal with Canada",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTUpNTVd3cGYyZTQ1WktSOW1oN29jcjQwaGZTajBPSDFhOGk0SzNydmZTSXh4UzIycHJPSEhWYkZDUlVSWnBmZ2tFTHQzVmo3MmVlRVBhbzdPenVrUlo2clJTTHg0Rk9yeWljdWhTNllwUnNpSGRuWDZfRUFzYjVTetIBhgFBVV95cUxPQjRSTGw1N2RIN1ZSOTVoNWNNWmMyNTJIdXJraTJlMWhOblkxQnFUY3h4LWhiTWxZUU9ubjRHbDdrdHJ0azB0dUNVbHIyaVV2RktpX2lqbnBWc2FtSjZvNVdqZFQtbGozZ3RUdHR4bWtlLTYtb29HbmhxSnBoc1gwc3gxQ0dkdw?oc=5",
+          "publisher": "Forex Factory"
+        },
+        {
+          "title": "Canada PM Carney says he had good conversation with Trump on trade",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTVp6eW1RZEIxdEhIbFhsclhWUHdUaXhRWXpBWDZ0Mzl4anEzQWVHZ28wa19oQ0R3c3Y2WlJKUklldWUxTE5mNjVDYnNOU0ZCN29jRDRxamR1SDhBM2NaaExLX2JDTEFHbnJybDZaYmQ0LVNhbmZUTzVIZnVTUXIyQzFYM1Z5dDRGX0ZtOEdvaHJ4emI1VnVHWG1IOGFJX0Q2R0JQTVRWSW0zM21YbEEwYVRzaEZOYk5OU285SlFPZlNyT0tmbnRtT2dR0gHQAUFVX3lxTE9rbWJZVTdmTVU5ejNmM1JhekhyT2ZZVUlvVTlCaU1kVXUtbVZsNU00dXprWU8xUlo5Q0duSlc1d2VtR3M4T2hBYzl5QW9HT0FYQTBXVVMyOGltOGg1dVlrck9xZ3BHUGZ5SE1BUU5kVC1GUTgyV05nNHc5N25hQldTWUZLRDJuSnpJbFNQdlBtV3BQZmVqN1pOMDF3N1BIM2Y1SW8wOTZHblliQ2o0bENmS3dSd2dSTndRdi1Bdk1GNmRna2lyMUM3SHR6MWtxU00?oc=5",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Trump says US, Canada have 'concept' of a new trade deal",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYkdVQi1MWlZSQ24xUkR6aC12d0llYjlUWlFDcmVuX1ByZk5tZ3JoQ3NTd01CM2piUFV2MGlEMWdCSnRTV1ExRDFUVGhYNjVVU2ZQT3lIS1UxbEVxSzNfZmdlY2duVXkySm8yNGNpbWRCdXpOMEF4ZFk3NXlJME5yZmRJTVVnVXUwa3VmcVBwWkNIejVkVjYtQWlYblJmdmVZbzI0eHR6YlMwTUJpWTZyR3hwZ1g?oc=5",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "Carney signals progress on Canada-US trade deal talks as midterms loom",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSzM2N25iblh4YVR1a2t4RGxRSDB4cFRjMGJGUkJHQlY3OGxHS2ZnVE1jRWxZT0F1S0pIS3pIMV9JZmVwU0ZpOWdKMmxRWG1Ua1h6b2FqdFNqTjhvTTd4TENOQzIxQzlmbTFVcWJqejJWaDVCd1ZKZE9wdkxXN014SWxHU0dUTUVObHo2aUVnVS1kM2gxWTNJM3lqVFB5djkzSHpiTzgyTGphMFE1YWt0bNIBtgFBVV95cUxQYzFEZVNkLXJVT0UyZmRQUEVPYVluVUdvcW1hTUV5TVV4ZjBZNng4WWJXRkZDTEk3bHBxUG91Ym02Q1VSWjF6Zm4yQ3VMZmY4SndEenJ2QnBEcXp1RTJFLUVwN2k1RF94NU9wZlBIZzBDc004UHhiV0tXRmN0M201d3dsNjNQZk5OSEduTGlxVGN0dHBPclo1cnJQbFpMUHBDZnBzXzVBcTJXYl9JX3dXSHdra3VUdw?oc=5",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Carney brushes back Trump on trade, Europe and Russia",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS01LMGQ3UEdRNU5rRUZmb1pzWXBfSlJ0RGFHM1NEVG95cThXMzVhSG9UOXZ4UnZpLTNFSVNfN01ZdGFEMW5vMEFaajhqRW4tRmEyRVNxU0RkZ3dwbTFuQ3Nha19lRm00TkhQejduU29DUDMwQ0NMc2pRRVF2amFHSkF0QkJYNE84T3hzNmR4NXR3Zw?oc=5",
+          "publisher": "Politico"
+        }
+      ],
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-fdd2199092",
+      "lang": "en",
+      "title": "Stocks to Watch Today: RIL, Maruti Suzuki, EAAA, NTPC, Affle, KIMS, NCC, Jio Platforms, Coal India,...",
+      "category": "business",
+      "published_at": "2026-11-01T20:27:03+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Stocks to Watch Today: RIL, Maruti Suzuki, EAAA, NTPC, Affle, KIMS, NCC, Jio Platforms, Coal India,...",
+          "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQakpIUjdZb0h0c2ExSGJzMThkeG1GVHVrdm9oQ05RQVNuVU4xT3k2SWZQajI1TnRZWWFkOFpGSm9QZ01ZU1djUmNwZ1puRW13S0lHQnBtb19GdS1la3NKek16bFB4Qkc4SWxBOHdaT0JBV0gtbXNkN0pxdFlsSGc5SXNzeUxwV2tob1NHTm1sTnduQVhWREhXWndGN01idFdaTmpiZURfWEFvVzBZeFRWUDVvMFJYWkNJVEQyMnhBeUdBRWl4UDFwYTdZd0laQ2huZDZ3V3BESWtSSW45VnVtZ2hZRHkwOVk1N2ZRRXc1UG1XeGZpdzB0eFVzX0FPUlBaWmhTb1FRRzNwNlp1d1ppS21adndXOXN1RVpGRkpnNHJ4UDQ2bVlMNG5uRVZOSXBLaUo3X0h0NVc2UdIBvwJBVV95cUxNV1ladVlhRVFvZGl5UTVnVU1kTE4zeUxaODRXNFdmTFZGTUJKMi16eFh4N3JnemRTdGRHemVjQWZGUXJzSUU1WVlDZGp0aTRjM1VYT0hPaDdjYlBmZ2QyN1JNbU5Rd1B5dzlXd0dhWDZmbExVT0EtN3ZpeFRjSVgtUlcwVDFIOEJZMEsyXzc3UHYydmpFNzNqT05TNnlPWjFwSWNYbjYwcnp4YW5ETkJaaHdDdFltYlhraDNxdHI5RTRRdUFpSGpNbXVET0QwcVB1T0VmemVZa2NIbjZtVDY5MU9aTmY4YWJPcHBHZGNZTWVPWTlFWExXNHlzckJNUUkxa3FKdUpVYjg1eEJfeE1LY1dSbW9zYmdkMHZ2aGxFVHp0dmxTdUw4VVd0b1owLUw2aDBlSTk4S3VrSElGZHRr?oc=5",
+          "publisher": "Moneycontrol.com"
+        },
+        {
+          "title": "Reliance PAT jumps 33% to Rs 29,550 crore in Q2 on strong telecom, petrochemicals growth",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYnBDc3pLdFhzblRVWmhmTjF3S19FanAxdDd5Y085THVjV0JwVXFaenRwaHRnc28wdWd5QzRyd0tiZnhZazJ3Nk04YWl1Z2RTa3h0N3dvN1Jzb1lIU2EwMmN3Y3FlZ3VabTRsYllOU1ZkTEVRQ2dZeFZ6cm0tbjNhVXlPZU50d1FaZjFub3FzR1p6U3pXNTg2SVZ1SkZVX2hCem03TGd3S3NKVERvZmRUMjZMa3BmaWpaa01McXNQZjV5emRnZ3ZGZjVuOVJudkNPRURLZ094X0dld9IB3wFBVV95cUxPWkJEZV9xUWtDSGQzYUt0Y2JQNFVPRF9URmJiRy01eXp4ZVZTV0x4Q3lDdGZVczdFRDdXR0NkWF9Ddk83cExQQ3h0OFBKU3VSSDRwYU5NWU10WUpCOVBwS3ppTzFUal9UQzFENVlRR19fUFpuNDBBcXdFMElqZG5OUEM5TUt2RWhHQVVIVk9rV2dEb29Yb2dnZVJYZVl6OHd1a0NKSzJJa0J0dW9RNUtrdENlLUk3UDBQeGN4TERRQ3lTWlF6UXUzeGI4c2wzZnk5MTB5S044TjdNNUtKb0Vv?oc=5",
+          "publisher": "Telegraph India"
+        },
+        {
+          "title": "RIL Q2 profit jumps 41% to ₹25,548 crore on O2C, Jio strength",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSWs0ZHktU1ljdkVtbHhKSFpfNEdveHljM2JOYTFkVmVUeHFxZTJJenNfZ19VZDFuWWpGdkxGZ2ZCSS1lN1ZETlp3bVdtdDZmZEdJbmFqRkItOE82MzViUXRSMTRiNGtMRUthMzUyQ3F5d3kzN2d3cTVPdVVOZnY3TEZPX0RqNEdzYU5IQzB6NHZtd0E3V1FIRTNGQ2ZTeGJodDBUb3VFNEplaFUzNTBuckVrSnBfSnRqeThldtIBwwFBVV95cUxQck95QmxfMm55QW9XZTJucHRCYVFPRlJEN0NJMGFYbVJBTDMySUo2TU05Z2NodFpFaVlJTkVUdHR6TFNOZDZlajFBVHVFZDYzeWh3Nk5tbmdsNUE4SndUTWVnWlJIOG55S0YwQ042UTJoY0JHbng2ZFQtWGpHX3FOR2ZCVG14NjBpOERyVWlGVzJ6ZXZHNlNaTHJqSjZrZFU1OWo1b0pSNWZmM0FDRVVkajU3TkxlUGZDaVhNUUt5djNvTm8?oc=5",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Earnings call transcript: Reliance posts Q2 2026 beat as energy drives record profit By Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZXBzaTluaUs1Z2hDWmFNOTVGSC1melFKSl9FdlZTcmk2TnFfWXl6N1VSNjdGb3ptbHBrSkdZOXBtYWpwYndLazNIc2lGZXZZc1RLYlFhRnh2SElDSHdVWXdYSEQzLVhNZWZWd3hCTmdLWGJsOU9kd3JicjJUZEhUazVUTTg5eExkYWZVNF83a3A2UHV2SWw3Y0NmX1VNTjU5a3gybTlPN0lUVkx2YlpNc1FQZEZ3SDJHT190WDFxS0ptS1FTRGVNQ2EwRmNnTXZLbEFJaXpPaXRULVBw?oc=5",
+          "publisher": "Investing.com India"
+        },
+        {
+          "title": "Stocks in news: Reliance Industries, Jio Platforms, M&M, CDSL, ITC, NTPC, IOCL and Hero MotoCorp",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZkRDQXB4akg1N2hZNDJEZ1dYZnExWHdHNlQtV2NtUnVDaUluN0dkeU5BLUNlbVVaRWlEaHNPdU0zUmNFR2p6SVhPbDd6SW90WTg4WENpYnZ3S2RvOU8xOGV2Q3JXRVhSb0Njb182aFE0c1NqUGIwU1pHT3BBbktYQUdWUkJ3elJTaXVZUDJFZXl1c1lEbmVwWTZ6Ry1waU9GR3QzNlY4MFphMExfRFhsLTVDSFhhSENyOHRMcEtKSUpTWlM0WUt5VlZxZHZoZFdEUlFmWUdKYlpaUGtYcl9CUklDWlNRTEVBTjNnM2pVVHJzbFZx0gH6AUFVX3lxTFB2eENmOTlxcHB6ZXdLWVUzVGUxMmQySEltb1BaVTdZM0dZVEI5S09Ra0UtbkpXVjRHeHVlOWhQdlZEVGp3TEk3bE1XRUF5dWpmWVRLZjVLb1hvZU1IQnVYQ19lSjEtMTlQd2lrTEswN0M1Q1dKMlB0VFhncXd5TElKVE13RlIxeWp0Q19RNUNyMGJMbnQyUGtsQmZPTXZPUFhDQUM3Wm5POU5EVmo0N1JZWHZtbGRvZ2lIRjUtaFVxR2xXZkN2b1ZsZzV2SVhMb0R0VHp4U1VxQVlqYTBQS2I4VjZFM2lSSUNoa1d5RDNCZ1lWcWdpd2Z2Znc?oc=5",
+          "publisher": "The Economic Times"
+        }
+      ],
+      "queued_at": "2026-11-02T01:22:28.873461+00:00",
       "reasons": [
         "insufficient_value"
       ]
