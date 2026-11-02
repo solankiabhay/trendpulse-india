@@ -78,6 +78,33 @@ class ProjectFiles(unittest.TestCase):
                 for source in post["sources"]:
                     self.assertIsNotNone(engine.safe_url(source.get("url", "")), source)
 
+    def test_trending_topics_are_classified_for_category_filters(self):
+        cases = [
+            ({"category": "trending", "title": "GTA 6 release date and PS5 early access", "keyword": "GTA 6"}, "gaming"),
+            ({"category": "trending", "title": "India vs Australia T20 World Cup", "keyword": "India vs Australia"}, "sports"),
+            ({"category": "trending", "title": "Nifty rises as RBI announces policy", "keyword": "Nifty"}, "business"),
+            ({"category": "trending", "title": "OpenAI launches a new AI model", "keyword": "OpenAI"}, "technology"),
+            ({"category": "trending", "title": "Lok Sabha election campaign updates", "keyword": "Lok Sabha"}, "politics"),
+            ({"category": "trending", "title": "Unclassified local topic", "keyword": "Local topic"}, "trending"),
+        ]
+        for post, expected in cases:
+            with self.subTest(title=post["title"]):
+                self.assertEqual(engine.infer_trending_category(post), expected)
+
+    def test_category_filter_page_has_only_categories_with_visible_stories(self):
+        from datetime import datetime, timezone
+        cfg = engine.load_config(ROOT / "config.json")
+        base = next(p for p in json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))["posts"]
+                    if p.get("lang") == "en" and engine.indexable(p, cfg))
+        gaming = dict(base, id="en-0123456789", title="GTA 6 gaming release update",
+                      category="trending", keyword="GTA 6", published_at="2026-11-02T05:30:00+00:00")
+        sports = dict(base, id="en-1123456789", title="India cricket team wins match",
+                      category="sports", published_at="2026-11-02T05:00:00+00:00")
+        html = engine.list_page(cfg, "en", [gaming, sports], "en/index.html",
+                                now=datetime(2026, 11, 2, 6, 0, tzinfo=timezone.utc))
+        self.assertIn('data-cat="gaming"', html)
+        self.assertIn('data-cat="sports"', html)
+
     def test_image_search_terms_uses_headline_keywords(self):
         query = engine.image_search_terms("GTA 6 release date PS5 users access")
         self.assertIn("gta", query)
