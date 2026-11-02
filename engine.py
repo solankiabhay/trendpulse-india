@@ -452,12 +452,16 @@ class _Desc(HTMLParser):
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.text, self.anchors = [], []
+        self.text, self.anchors, self.images = [], [], []
         self._href, self._atext, self._font, self._ftext = None, [], False, []
 
     def handle_starttag(self, tag, attrs):
+        values = dict(attrs)
+        if tag == "img":
+            image_url = safe_url(values.get("src") or values.get("data-src") or "")
+            if image_url and image_url not in self.images: self.images.append(image_url)
         if tag == "a":
-            self._href, self._atext = dict(attrs).get("href"), []
+            self._href, self._atext = values.get("href"), []
         elif tag == "font":
             self._font, self._ftext = True, []
 
@@ -521,6 +525,7 @@ def _parse_item(it, feed):
         if _local(child.tag).casefold() == "enclosure" and (child.get("type") or "").casefold().startswith("image/"):
             image_url = safe_url(child.get("url", "")) or ""
             if image_url: break
+    if not image_url and d.images: image_url = d.images[0]
     return {"title": title, "keyword": keyword, "published": pub,
             "summary": text if len(text) >= 40 and not boilerplate_summary else "",
             "boilerplate_summary": boilerplate_summary, "image_url": image_url,
@@ -1744,6 +1749,8 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
             }
             try:
                 enrich_candidate_summary(candidate, cfg, max_sources=5)
+                if candidate.get("image_url") and not p.get("image_url"):
+                    p["image_url"] = safe_url(candidate["image_url"]) or ""
                 detail_raw = candidate.get("summary", "")
                 detail_parts = [tidy(part) for part in re.split(r"\n\s*\n", detail_raw) if tidy(part)]
                 detail = tidy(detail_raw)
