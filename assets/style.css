@@ -408,3 +408,22 @@ a, button, input { touch-action: manipulation; }
 
 .badge-politics{background:#fee2e2;color:#991b1b}.badge-gaming{background:#f3e8ff;color:#6b21a8}
 .card-image-fallback.cat-politics{background:linear-gradient(135deg,#7f1d1d,#dc2626)}
+
+
+/* Market snapshot — homepage replacement for the language hero */
+.market-section { margin: 1.5rem 0 2rem; padding: clamp(1rem, 3vw, 1.6rem); color: #f8fafc; background: linear-gradient(135deg, #0b1f3a 0%, #142f50 100%); border: 1px solid #294767; border-radius: 1.15rem; box-shadow: 0 12px 30px rgba(11,31,58,.14); }
+.market-topline { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 1.1rem; }
+.market-eyebrow { margin: 0 0 .2rem; color: #fbbf24; font-size: .7rem; font-weight: 800; letter-spacing: .13em; }
+.market-topline h1 { margin: 0; color: #fff; font-size: clamp(1.45rem,4vw,2rem); line-height: 1.2; }
+.market-subtitle { margin: .35rem 0 0; color: #cbd5e1; font-size: .9rem; }
+.market-free,.market-live { display: inline-flex; align-items: center; border: 1px solid rgba(74,222,128,.4); border-radius: 999px; color: #86efac; background: rgba(22,101,52,.22); font-size: .65rem; font-weight: 800; letter-spacing: .06em; padding: .3rem .55rem; white-space: nowrap; }
+.market-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: .8rem; }
+.market-card { min-width: 0; overflow: hidden; padding: .8rem; border: 1px solid rgba(148,163,184,.2); border-radius: .85rem; background: rgba(23,56,90,.72); }
+.market-card-heading { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin-bottom: .4rem; }
+.market-card-heading h3 { margin: 0; color: #fff; font-size: 1rem; }
+.market-card .market-live { font-size: .55rem; padding: .2rem .4rem; border-color: rgba(251,191,36,.35); color: #fcd34d; background: rgba(120,53,15,.2); }
+.market-widget { min-height: 92px; overflow: hidden; }
+.market-unit { margin: .15rem 0 0; color: #cbd5e1; font-size: .72rem; }
+.market-disclaimer { margin: .9rem 0 0; color: #cbd5e1; font-size: .72rem; line-height: 1.5; }
+@media (max-width:760px) { .market-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width:380px) { .market-topline { flex-direction: column; } .market-free { align-self: flex-start; } .market-card { padding: .65rem; } }
