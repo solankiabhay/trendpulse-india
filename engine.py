@@ -1326,7 +1326,7 @@ def card(p, up, compact=False):
     text = f"{p['title']} {tidy(p['summary'])} {cat}".casefold()
     image_url = safe_url(p.get("image_url", ""))
     if image_url:
-        visual = f'<img class="card-image" src="{esc(image_url)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
+        visual = f'<img class="card-image" src="{esc(image_url)}" alt="{esc(p["title"])}" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback-category="{esc(category)}" data-fallback-label="{esc(cat)}">'
     else:
         visual = f'<div class="card-image card-image-fallback cat-{esc(category)}" aria-hidden="true"><span>{esc(cat)}</span></div>'
     return (f'<article class="card{" compact" if compact else ""}" lang="{p["lang"]}" data-cat="{esc(category)}" data-text="{esc(text)}">'
@@ -1646,6 +1646,62 @@ def collect(cfg, fetcher, stats) -> list:
     return out
 
 
+def image_search_terms(title: str, limit=7) -> str:
+    """Build a compact query from meaningful headline keywords."""
+    stop = {"the", "and", "for", "with", "from", "after", "before", "over", "under", "into", "this", "that", "what", "when", "where", "who", "will", "has", "have", "was", "were", "are", "its", "their", "about", "india", "latest", "update", "live", "news", "report", "says", "said", "today"}
+    words = [w for w in re.findall(r"[A-Za-z0-9]+", normalize_text(title).casefold()) if len(w) > 2 and w not in stop]
+    return " ".join(words[:limit])
+
+
+def find_commons_image(title: str, timeout=8):
+    """Find a headline-matched Wikimedia Commons image with an explicit free license."""
+    query = image_search_terms(title)
+    if not query:
+        return None
+    params = {"action": "query", "format": "json", "generator": "search", "gsrnamespace": "6", "gsrsearch": query, "gsrlimit": "8", "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": "900"}
+    url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "TrendPulseIndia/1.0 (https://solankiabhay.github.io/trendpulse-india; image lookup)"})
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            payload = json.loads(response.read(1500000).decode("utf-8"))
+        ranked = []
+        for page in payload.get("query", {}).get("pages", {}).values():
+            info = (page.get("imageinfo") or [{}])[0]
+            meta = info.get("extmetadata") or {}
+            license_name = normalize_text((meta.get("LicenseShortName") or {}).get("value", ""))
+            if not re.search(r"CC0|CC BY(?:-SA)?(?:\\s|$)|Public domain|GPL|FAL", license_name, re.I):
+                continue
+            image_url = safe_url(info.get("thumburl") or info.get("url") or "")
+            source_url = safe_url(info.get("descriptionurl") or "")
+            if not image_url or not source_url:
+                continue
+            relevance = jaccard(tokens(query), tokens(page.get("title", "").removeprefix("File:")))
+            if relevance < 0.12:
+                continue
+            artist = normalize_text((meta.get("Artist") or {}).get("value", ""))
+            artist = normalize_text(re.sub(r"<[^>]+>", " ", artist))[:180]
+            ranked.append((relevance, {"image_url": image_url, "image_source": source_url, "image_license": license_name, "image_credit": artist or "Wikimedia Commons contributor"}))
+        return max(ranked, key=lambda item: item[0])[1] if ranked else None
+    except Exception as exc:
+        log.debug("Commons image lookup failed for %r: %s", title[:100], exc)
+        return None
+
+
+def backfill_missing_images(posts, cfg, limit=12):
+    """Backfill a bounded number of missing thumbnails per scheduled run."""
+    updated = 0
+    for post in sorted(posts, key=lambda item: item.get("published_at", ""), reverse=True):
+        if updated >= limit:
+            break
+        if safe_url(post.get("image_url", "")):
+            continue
+        result = find_commons_image(post.get("title", ""), timeout=min(cfg.get("timeout_seconds", 8), 8))
+        if result:
+            post.update(result)
+            updated += 1
+            log.info("matched a freely licensed thumbnail for %s", post.get("id"))
+    return updated
+
 def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_only=False) -> dict:
     root = Path(root)
     cfg = load_config(root / "config.json")
@@ -1793,6 +1849,11 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                 p["summary_refresh_attempted_at"] = now.isoformat()
                 updated_existing = True
     all_posts = posts_doc["posts"] + new_posts
+    if live_fetcher and not render_only and not dry_run:
+        image_updates = backfill_missing_images(all_posts, cfg, limit=cfg.get("image_backfill_per_run", 12))
+        if image_updates:
+            updated_existing = True
+            log.info("added %s Commons thumbnails", image_updates)
     # Order matters: pages -> posts.json -> published.json (history is marked last)
     render_site(root, cfg, all_posts, now=now)
     if new_posts or updated_existing:
