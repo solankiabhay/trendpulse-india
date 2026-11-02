@@ -1520,22 +1520,32 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
                    f'<div class="grid">' + "".join(card(p, up) for p in archive_items) + "</div></section>")
     hero = f'<h1 class="sr">{esc(cfg["site_name"])}</h1>' if scope in ("all", "en", "hi") else f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>'
     market_snapshot = ""
-    if scope == "all":
-        # Home pages live under /en/ and /hi/, so the shared asset path must
-        # go up one directory. The root landing page uses its own root-relative path.
+    if scope in ("all", "en", "hi"):
+        # One shared ticker is rendered on the root, English and Hindi homepages.
         market_script = "../assets/market-ticker.js" if path.startswith(("en/", "hi/")) else "assets/market-ticker.js"
+        market_label = "बाज़ार" if lang == "hi" else "MARKET"
+        market_note = "दैनिक अपडेट" if lang == "hi" else "DAILY SNAPSHOT"
+        market_aria = "भारतीय बाज़ार का दैनिक स्नैपशॉट" if lang == "hi" else "Indian market daily snapshot"
+        market_loading = "बाज़ार की कीमतें लोड हो रही हैं…" if lang == "hi" else "Loading market prices…"
+        market_date = "दैनिक संदर्भ दरें" if lang == "hi" else "Daily reference rates"
+        market_disclaimer = (
+            "ये दैनिक संदर्भ कीमतें हैं, लाइव ट्रेडिंग भाव नहीं। सोना और चाँदी IBJA बेंचमार्क पर आधारित हैं; Nifty सूचकांक NSE से हैं। "
+            if lang == "hi" else
+            "Daily reference prices, not live trading quotes. Gold and silver are IBJA benchmarks; Nifty indices are from NSE. "
+        )
+        market_source = "डेटा स्रोत" if lang == "hi" else "Data source"
         market_snapshot = (
-            '<section class="market-strip" aria-label="Indian market snapshot">'
+            f'<section class="market-strip" aria-label="{esc(market_aria)}">'
             '<div class="market-strip-label"><span class="market-strip-dot" aria-hidden="true"></span>'
-            '<strong>MARKET</strong><span class="market-strip-note">DAILY SNAPSHOT</span></div>'
+            f'<strong>{esc(market_label)}</strong><span class="market-strip-note">{esc(market_note)}</span></div>'
             '<div class="market-ticker-viewport"><div id="market-ticker" class="market-ticker" '
-            'aria-live="polite" aria-label="Gold, silver and Indian market index prices">'
-            '<span class="market-ticker-loading">Loading market prices…</span>'
+            f'aria-live="polite" aria-label="{esc(market_aria)}">'
+            f'<span class="market-ticker-loading">{esc(market_loading)}</span>'
             '</div></div>'
-            '<span id="market-ticker-date" class="market-strip-date">Daily reference rates</span>'
+            f'<span id="market-ticker-date" class="market-strip-date">{esc(market_date)}</span>'
             '</section>'
-            '<p class="market-strip-disclaimer">Daily reference prices, not live trading quotes. Gold and silver are IBJA benchmarks; Nifty indices are from NSE. Sensex is shown only when a licensed BSE feed is available. '
-            '<a href="https://snapdata.dev/docs/" target="_blank" rel="noopener noreferrer">Data source</a>.</p>'
+            f'<p class="market-strip-disclaimer">{esc(market_disclaimer)}'
+            f'<a href="https://snapdata.dev/docs/" target="_blank" rel="noopener noreferrer">{esc(market_source)}</a>.</p>'
             f'<script src="{market_script}" defer></script>'
         )
     body = f"""{market_snapshot}{hero}
