@@ -47,6 +47,9 @@ GOOD_HI = item("संसद का बजट सत्र अगले सप�
 def make_root(feeds=None):
     d = Path(tempfile.mkdtemp())
     cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+    # Most pipeline tests validate native feed behaviour; the dedicated Hindi
+    # translation tests cover the optional local model without changing fixtures.
+    cfg["translate_english_to_hindi"] = False
     cfg["feeds"] = feeds if feeds is not None else [FEED_EN, FEED_HI]
     (d / "config.json").write_text(json.dumps(cfg, ensure_ascii=False), encoding="utf-8")
     shutil.copytree(ROOT / "assets", d / "assets")
