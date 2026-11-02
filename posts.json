@@ -735,9 +735,10 @@
           "publisher": "Universidad de Córdoba (UCO)"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
       "summary_refresh_version": 21,
-      "article_body": "Flashscore.com: “This year's Shanghai Masters could serve up an all-Spanish final between Rafael Jodar and Alejandro Davidovich. Standing in their way in Saturday's semi-finals, however, are favourites Alexander Zverev and Daniil Medvedev, with the future world number one and the former rankings leader widely expected to…”"
+      "article_body": "Flashscore.com: “This year's Shanghai Masters could serve up an all-Spanish final between Rafael Jodar and Alejandro Davidovich. Standing in their way in Saturday's semi-finals, however, are favourites Alexander Zverev and Daniil Medvedev, with the future world number one and the former rankings leader widely expected to…”",
+      "image_url": "https://livesport-ott-images.ssl.cdn.cra.cz/r1200xfq60/118e0a6b-af20-4c52-aeb1-deec0b724e07.jpeg"
     },
     {
       "id": "hi-a84be8fbf7",
@@ -2545,8 +2546,9 @@
           "publisher": "Rediff"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://im.rediff.com/1200-630/movies/2026/oct/15jailer-2-cameos1.jpg"
     },
     {
       "id": "en-a6f3c68316",
@@ -3189,8 +3191,9 @@
           "publisher": "El Periódico Mediterráneo"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fes%2F43642567%3Fdate=2026-11-02"
     },
     {
       "id": "en-adadf8e4d0",
@@ -3515,8 +3518,9 @@
           "publisher": "Telegraph India"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/10/PTI10_19_2026_000001B-e1792382201430.jpg"
     },
     {
       "id": "hi-7485619e88",
@@ -4261,7 +4265,10 @@
           "url": "https://www.thehindubusinessline.com/markets/brokers-call-apollo-micro-systems-buy/article71626545.ece",
           "publisher": "BusinessLine"
         }
-      ]
+      ],
+      "image_url": "https://bl-i.thgim.com/public/news/s1ftc7/article71627232.ece/alternates/LANDSCAPE_1200/apollo%20microsystems.jpg",
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-efef7c95e0",
@@ -4642,7 +4649,10 @@
           "url": "https://www.espn.in/cricket/story/_/id/50297292/new-zealand-cricket-nzc-revives-single-ball-rule-ford-trophy-trial",
           "publisher": "ESPN India"
         }
-      ]
+      ],
+      "image_url": "https://www.nzc.nz/media/x5ykoy33/260210acesfirebirds_050.jpg?width=1200&height=630&v=1dd65ad5691db90",
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-5e6f7e7d58",
@@ -4816,7 +4826,10 @@
           "url": "https://www.newsbytesapp.com/news/science/google-october-2026-system-update-improves-pairing-storage-and-alerts/tldr",
           "publisher": "NewsBytes"
         }
-      ]
+      ],
+      "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2025/01/google-play-services-3.jpg?quality=82&strip=all&resize=1200%2C628",
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-3ddc3abcef",
@@ -5199,7 +5212,10 @@
           "url": "https://www.business-standard.com/industry/banking/bandhan-bank-reports-622-cr-net-profit-in-q2-gross-npa-at-3-11-126102801215_1.html",
           "publisher": "Business Standard"
         }
-      ]
+      ],
+      "image_url": "https://etimg.etb2bimg.com/thumb/msid-135266878,imgsize-31030,width-1200,height=627,overlay-etbfsi,resizemode-75/articles/bandhan-bank-q2-net-profit-surges-five-fold-to-rs-622-cr.jpg",
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-b8ef53aaf2",
@@ -5731,12 +5747,12 @@
       "slug": "india-and-india-a-squad-updates-for-new-zealand-tour-4d820a002e",
       "url": "en/posts/india-and-india-a-squad-updates-for-new-zealand-tour-4d820a002e.html",
       "title": "India and India A squad updates for New Zealand Tour",
-      "summary": "Cricbuzz: Prasidh Krishna’s participation in the ODI series against New Zealand is looking increasingly doubtful. A conditional selection for three of the five matches in the series, which begins on…",
-      "source_summary": "Cricbuzz: Prasidh Krishna’s participation in the ODI series against New Zealand is looking increasingly doubtful. A conditional selection for three of the five matches in the series, which begins on November 4, the 30-year-old pacer could miss the white-ball leg of the New Zealand tour, having…",
-      "article_body": "Cricbuzz: “Prasidh Krishna’s participation in the ODI series against New Zealand is looking increasingly doubtful. A conditional selection for three of the five matches in the series, which begins on November 4, the 30-year-old pacer could miss the white-ball leg of the New Zealand tour, having…”",
+      "summary": "BCCI: MEDIA ADVISORY October 30, 2026 India's tour of New Zealand India and India A squad updates Prasidh Krishna, whose availability for India's five-match ODI serie\n\nCricbuzz: Prasidh Krishna’s…",
+      "source_summary": "BCCI: MEDIA ADVISORY October 30, 2026 India's tour of New Zealand India and India A squad updates Prasidh Krishna, whose availability for India's five-match ODI serie\n\nCricbuzz: Prasidh Krishna’s participation in the ODI series against New Zealand is looking increasingly doubtful. A conditional selection for three of the five matches in the series, which begins on November 4, the 30-year-old pacer could miss the white-ball leg of the New Zealand tour, having…",
+      "article_body": "BCCI: “MEDIA ADVISORY October 30, 2026 India's tour of New Zealand India and India A squad updates Prasidh Krishna, whose availability for India's five-match ODI serie”\n\nCricbuzz: “Prasidh Krishna’s participation in the ODI series against New Zealand is looking increasingly doubtful. A conditional selection for three of the five matches in the series, which begins on November 4, the 30-year-old pacer could miss the white-ball leg of the New Zealand tour, having…”",
       "category": "trending",
       "published_at": "2026-10-29T23:00:00+00:00",
-      "generated_at": "2026-10-29T23:52:27.964297+00:00",
+      "generated_at": "2026-11-02T10:17:59.774734+00:00",
       "kind": "digest",
       "keyword": "prasidh krishna",
       "score": 89.51,
@@ -5756,7 +5772,10 @@
           "url": "https://www.firstpost.com/firstcricket/india-forced-to-reshuffle-after-prasidh-krishna-sidelined-from-nz-odis-rising-star-tipped-to-be-called-up-14056220.html",
           "publisher": "Firstpost"
         }
-      ]
+      ],
+      "image_url": "https://www.bcci.tv/cms/images/gtykgr9m2ngt/10VWJm2WDOoGEYx6k2yeQz/bda12d6eb36f7367b25f753ac796ee7a/Website_Thumbnails.png",
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-815652667b",
@@ -6106,7 +6125,10 @@
           "url": "https://www.telegraphindia.com/west-bengal/kolkata/cyclone-arnab-weakens-over-north-chhattisgarh-new-system-takes-shape-over-bay-of-bengal-prnt/cid/2186944",
           "publisher": "Telegraph India"
         }
-      ]
+      ],
+      "image_url": "https://th-i.thgim.com/public/incoming/671cs9/article71646438.ece/alternates/LANDSCAPE_1200/10745_30_10_2026_18_57_0_2_IMG_20261030_WA0052.JPG",
+      "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-713fea2553",
@@ -7269,7 +7291,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1111811/nabis-inclusion-comes-a-day-after-prasidh-krishna-was-ruled-out-of-the-series.jpg",
+      "image_source": "https://www.cricbuzz.com/cricket-news/140726/nz-vs-ind-2026-auqib-nabi-added-to-indias-squad-for-first-three-nz-odis-cricbuzzcom",
+      "image_credit": "Cricbuzz",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/5db08be6f0ac7085eb79.jpg"
     },
     {
       "id": "en-e269dc1ac1",
@@ -7486,7 +7513,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://www.voiceofemirates.com/wp-content/uploads/2026/11/370515_0.jpg",
+      "image_source": "https://www.voiceofemirates.com/en/sport/2026/11/01/todays-match-schedule-and-broadcast-channels-liverpool-clashes-with-arsenal-and-real-madrid-faces-racing-santander/",
+      "image_credit": "صوت الإمارات",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/090ff6992dee2bfada8a.jpg"
     },
     {
       "id": "en-edfb66d9d2",
@@ -7522,7 +7554,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-01T21:50:55.367533+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://assets.arsenal.com/prod/images/gm_preview/965262f7ee04-sunderland-england-christos-tzolis-of-arsenal-during-the-premier-league-2026-27.webp",
+      "image_source": "https://www.arsenal.com/news/team-news-tzolis-returns-to-action-at-anfield-a4e836x0Ta2C",
+      "image_credit": "Arsenal.com",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/10c18680190319826330.jpg"
     },
     {
       "id": "en-e6b5f9e938",
@@ -7669,7 +7706,11 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://static.toiimg.com/thumb/msid-135415458,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/world/rest-of-world/6-0-magnitude-earthquake-strikes-japans-coast-near-shima/articleshow/135415435.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_version": 2
     },
     {
       "id": "en-2080c48d50",
@@ -7705,7 +7746,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://www.wisden.com/static-assets/waf-images/54/7f/60/16-9/i1ylOeCF9M.jpg",
+      "image_source": "https://www.wisden.com/cricket-news/wi-a-vs-eng-lions-2026-full-schedule-squads-and-venues-for-england-lions-tour-of-west-indies",
+      "image_credit": "Wisden",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/ca6f6bd611f81bdf6c72.jpg"
     },
     {
       "id": "en-14d1c99094",
@@ -7741,7 +7787,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://th-i.thgim.com/public/visual-story/u9glva/article71653050.ece/alternates/LANDSCAPE_1200/iStock-1314155790.jpg",
+      "image_source": "https://www.thehindu.com/business/Industry/domestic-pv-dispatches-cross-five-lakh-units-mark-in-october-on-strong-festive-demand/article71652936.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/6997d674bfe86c9eacfc.jpg"
     },
     {
       "id": "en-5c1685d537",
@@ -7777,7 +7828,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://e0.365dm.com/26/11/1600x900/skysports-f-f1-ryo-hirakawa_7394469.jpg?20261102022241=",
+      "image_source": "https://www.skysports.com/f1/live-blog/13605843/f1-mexico-city-gp-live-race-updates-results-stream-and-highlights-from-19th-round-of-2026-formula-1-season-as-kimi-antonelli-looks-to-seal-drivers-title",
+      "image_credit": "Sky Sports",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/49ff1c38d2a3dd6c6bc0.jpg"
     },
     {
       "id": "en-a4f4094eb2",
@@ -7848,7 +7904,12 @@
           "publisher": "NBA.com"
         }
       ],
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://www.betseeker.com.au/wp-content/uploads/2025/08/betseeker-monday-nba-tips.jpg",
+      "image_source": "https://www.betseeker.com.au/nba/nba-tips/nba-tips-monday-november-2-nba-picks-multi/",
+      "image_credit": "Betseeker",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/e3d0815d047c2fc7b8ce.jpg"
     },
     {
       "id": "en-07c9d56953",
@@ -7921,7 +7982,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://i.abcnewsfe.com/a/163ad1d7-1296-452c-bcae-ede86acf2c96/flooding-storms-one-abc-bh-110126_1793538904600_hpMain_16x9.jpg?w=1600",
+      "image_source": "https://abcnews.com/US/cross-country-storm-make-election-day-soggy-part/story?id=137746749",
+      "image_credit": "ABC News - Breaking News, Latest News and Videos",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/0104f4a8517dbd22a576.jpg"
     },
     {
       "id": "en-e46108c91b",
@@ -7994,7 +8060,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://static.toiimg.com/thumb/msid-135399461,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/sports/cricket/news/uae-se-haare-pakistan-pm-gets-fact-checked-by-ex-india-cricketer-after-victory-over-india-tweet/articleshow/135399145.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/8470aa6adcb3a34d0b90.jpg"
     },
     {
       "id": "en-f362feca79",
@@ -8067,7 +8138,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://static.toiimg.com/thumb/msid-135428712,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/india/cbi-extradites-mahadev-app-kingpin-sourabh-chandrakar-from-oman/articleshow/135428665.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/e32d7e3982f53886b3a7.jpg"
     },
     {
       "id": "en-35f9641358",
@@ -8103,7 +8179,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-02T10:12:05.609152+00:00"
+      "image_lookup_attempted_at": "2026-11-02T10:18:15.867762+00:00",
+      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA6NewZealand.jpg",
+      "image_source": "https://www.notebookcheck.net/PS5-users-can-access-GTA-6-up-to-18-hours-early-on-its-release-date-with-PSN-workaround.1439752.0.html",
+      "image_credit": "Notebookcheck",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/a6d42393565ad0741b60.jpg"
     }
   ]
 }
