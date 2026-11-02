@@ -378,3 +378,30 @@ a, button, input { touch-action: manipulation; }
 .trend-kicker { margin: 0; color: var(--orange-dark); font-size: .78rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
 .trend-related { margin: .5rem 0; color: var(--muted); font-size: .92rem; }
 .trend-actions { display: flex; flex-wrap: wrap; gap: .65rem 1rem; margin: .8rem 0 0; font-size: .9rem; font-weight: 700; }
+
+
+/* Featured editorial images and distinct category badges. */
+.card{padding:0;gap:0}
+.card-visual{display:block;overflow:hidden;border-radius:13px 13px 0 0;background:var(--soft)}
+.card-image{width:100%;height:11rem;object-fit:cover;aspect-ratio:16/9;background:var(--soft)}
+.card-image-fallback{display:flex;align-items:flex-end;padding:1rem;color:#fff;font-size:1.05rem;font-weight:800;background:linear-gradient(135deg,#0b1f3a,#315a83)}
+.card-image-fallback span{padding:.35rem .65rem;border-radius:7px;background:rgba(0,0,0,.28)}
+.card-image-fallback.cat-sports{background:linear-gradient(135deg,#14532d,#16a34a)}
+.card-image-fallback.cat-technology{background:linear-gradient(135deg,#1e3a8a,#3b82f6)}
+.card-image-fallback.cat-business{background:linear-gradient(135deg,#713f12,#d97706)}
+.card-image-fallback.cat-india{background:linear-gradient(135deg,#7f1d1d,#ea580c)}
+.card-image-fallback.cat-world{background:linear-gradient(135deg,#164e63,#0891b2)}
+.card-image-fallback.cat-entertainment,.card-image-fallback.cat-gaming{background:linear-gradient(135deg,#581c87,#a855f7)}
+.card .meta,.card h3,.card p:not(.meta),.card .more{margin-left:1.15rem;margin-right:1.15rem}
+.card .meta{margin-top:.9rem}
+.badge{border:1px solid transparent}
+.badge-india{background:#ffedd5;color:#9a3412}
+.badge-world{background:#cffafe;color:#155e75}
+.badge-business{background:#fef3c7;color:#92400e}
+.badge-technology{background:#dbeafe;color:#1e40af}
+.badge-sports{background:#dcfce7;color:#166534}
+.badge-entertainment,.badge-gaming{background:#f3e8ff;color:#6b21a8}
+.badge-science{background:#ccfbf1;color:#115e59}
+.badge-health{background:#d1fae5;color:#065f46}
+.badge-trending{background:#ffe4e6;color:#9f1239}
+@media(max-width:42rem){.card-image{height:10rem}}

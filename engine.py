@@ -1302,11 +1302,18 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 
 def card(p, up, compact=False):
     L = T[p["lang"]]
-    cat = cat_label(p["category"], p["lang"])
+    category = p.get("category", "trending")
+    cat = cat_label(category, p["lang"])
     names = ", ".join(dict.fromkeys(s["publisher"] for s in p["sources"]))
     text = f"{p['title']} {tidy(p['summary'])} {cat}".casefold()
-    return (f'<article class="card{" compact" if compact else ""}" lang="{p["lang"]}" data-cat="{esc(p["category"])}" data-text="{esc(text)}">'
-            f'<p class="meta"><span class="badge">{esc(cat)}</span> <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
+    image_url = safe_url(p.get("image_url", ""))
+    if image_url:
+        visual = f'<img class="card-image" src="{esc(image_url)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
+    else:
+        visual = f'<div class="card-image card-image-fallback cat-{esc(category)}" aria-hidden="true"><span>{esc(cat)}</span></div>'
+    return (f'<article class="card{" compact" if compact else ""}" lang="{p["lang"]}" data-cat="{esc(category)}" data-text="{esc(text)}">'
+            f'<a class="card-visual" href="{esc(up + p["url"])}" tabindex="-1" aria-hidden="true">{visual}</a>'
+            f'<p class="meta"><span class="badge badge-{esc(category)}">{esc(cat)}</span> <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
             f'<h3><a href="{esc(up + p["url"])}">{esc(p["title"])}</a></h3>'
             f'<p>{esc(tidy(p["summary"]))}</p><p class="src">{esc(L["sources"])}: {esc(names)}</p>'
             f'<a class="more" href="{esc(up + p["url"])}">{esc(L["read_more"])}<span class="sr"> — {esc(p["title"])}</span></a></article>')
