@@ -1497,31 +1497,19 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
         hero = f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>'
     market_snapshot = ""
     if scope == "all":
-        market_symbols = [
-            ("gold", "Gold 24K", "MCX:GOLD1!", "Per 10 grams"),
-            ("silver", "Silver", "MCX:SILVER1!", "Per kilogram"),
-            ("sensex", "Sensex", "BSE:SENSEX", "BSE benchmark index"),
-            ("nifty", "Nifty 50", "NSE:NIFTY", "NSE benchmark index"),
-        ]
-        market_cards = []
-        for key, label, symbol, unit in market_symbols:
-            market_cards.append(
-                f'<article class="market-card market-{key}"><div class="market-card-heading">'
-                f'<h3>{esc(label)}</h3><span class="market-live">MARKET</span></div>'
-                f'<div class="tradingview-widget-container market-widget"><div class="tradingview-widget-container__widget"></div>'
-                f'<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>'
-                f'{{"symbol":"{symbol}","width":"100%","locale":"en","colorTheme":"dark","isTransparent":true,'
-                f'"displayMode":"regular","valuesTracking":"1","chartOnly":false}}</script></div>'
-                f'<p class="market-unit">{esc(unit)}</p></article>'
-            )
         market_snapshot = (
-            '<section class="market-section" aria-labelledby="market-title">'
-            '<div class="market-topline"><div><p class="market-eyebrow">INDIA MARKET WATCH</p>'
-            '<h1 id="market-title">Market Snapshot</h1><p class="market-subtitle">Gold, Silver, Sensex &amp; Nifty at a glance</p></div>'
-            '<span class="market-free">FREE MARKET DATA</span></div>'
-            '<div class="market-grid">' + "".join(market_cards) + '</div>'
-            '<p class="market-disclaimer">Market quotes are provided by TradingView. Exchange data may be delayed; verify prices with your broker before trading.</p>'
+            '<section class="market-strip" aria-label="Indian market snapshot">'
+            '<div class="market-strip-label"><span class="market-strip-dot" aria-hidden="true"></span>'
+            '<strong>MARKET</strong><span class="market-strip-note">DAILY SNAPSHOT</span></div>'
+            '<div class="market-ticker-viewport"><div id="market-ticker" class="market-ticker" '
+            'aria-live="polite" aria-label="Gold, silver and Indian market index prices">'
+            '<span class="market-ticker-loading">Loading market prices…</span>'
+            '</div></div>'
+            '<span id="market-ticker-date" class="market-strip-date">Daily reference rates</span>'
             '</section>'
+            '<p class="market-strip-disclaimer">Daily reference prices, not live trading quotes. Gold and silver are IBJA benchmarks; index data is from NSE/BSE. '
+            '<a href="https://snapdata.dev/docs/" target="_blank" rel="noopener noreferrer">Data source</a>.</p>'
+            '<script src="assets/market-ticker.js" defer></script>'
         )
     body = f"""{market_snapshot}{hero}
 {trending}
