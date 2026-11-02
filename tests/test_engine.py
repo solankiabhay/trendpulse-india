@@ -875,6 +875,8 @@ class HindiTrendLinkTests(unittest.TestCase):
             self.assertIn('assets/app.js', rendered)
             self.assertNotIn('id="nomatch"', rendered)
             self.assertIn('id="latest"', rendered)
+            self.assertLess(rendered.index('id="categories"'), rendered.index('id="latest"'))
+            self.assertIn('data-cat="technology"', rendered)
 
 class LanguageAndUnpublishTests(unittest.TestCase):
     def test_other_scripts_are_rejected_for_en_and_hi(self):
