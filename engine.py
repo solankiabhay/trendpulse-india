@@ -1324,9 +1324,9 @@ def card(p, up, compact=False):
     cat = cat_label(category, p["lang"])
     names = ", ".join(dict.fromkeys(s["publisher"] for s in p["sources"]))
     text = f"{p['title']} {tidy(p['summary'])} {cat}".casefold()
-    image_url = safe_url(p.get("image_url", ""))
-    if image_url:
-        visual = f'<img class="card-image" src="{esc(image_url)}" alt="{esc(p["title"])}" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback-category="{esc(category)}" data-fallback-label="{esc(cat)}">'
+    image_path = p.get("image_path", "")
+    if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif)", image_path):
+        visual = f'<img class="card-image" src="{esc(up + image_path)}" alt="{esc(p["title"])}" loading="lazy" decoding="async" data-fallback-category="{esc(category)}" data-fallback-label="{esc(cat)}">'
     else:
         visual = f'<div class="card-image card-image-fallback cat-{esc(category)}" aria-hidden="true"><span>{esc(cat)}</span></div>'
     return (f'<article class="card{" compact" if compact else ""}" lang="{p["lang"]}" data-cat="{esc(category)}" data-text="{esc(text)}">'
@@ -1687,20 +1687,63 @@ def find_commons_image(title: str, timeout=8):
         return None
 
 
-def backfill_missing_images(posts, cfg, limit=12):
-    """Backfill a bounded number of missing thumbnails per scheduled run."""
+def cache_image(root, image_url, timeout=8):
+    """Download a safe image to the repository so pages never hotlink publishers."""
+    image_url = safe_url(image_url)
+    if not image_url:
+        return ""
+    try:
+        request = urllib.request.Request(image_url, headers={"User-Agent": "TrendPulseIndia/1.0 (+https://solankiabhay.github.io/trendpulse-india)"})
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            content_type = response.headers.get("Content-Type", "").split(";", 1)[0].casefold()
+            data = response.read(4000001)
+        if len(data) < 256 or len(data) > 4000000:
+            return ""
+        signatures = [(b"\xff\xd8\xff", ".jpg", "image/jpeg"), (b"\x89PNG\r\n\x1a\n", ".png", "image/png"), (b"RIFF", ".webp", "image/webp"), (b"GIF8", ".gif", "image/gif")]
+        extension = ""
+        for signature, suffix, expected_type in signatures:
+            if data.startswith(signature) and content_type == expected_type:
+                extension = suffix
+                break
+        if extension == ".webp" and data[8:12] != b"WEBP":
+            extension = ""
+        if not extension:
+            return ""
+        digest = hashlib.sha256(image_url.encode("utf-8")).hexdigest()[:20]
+        relative = f"assets/news-images/{digest}{extension}"
+        target = Path(root) / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if not target.exists():
+            target.write_bytes(data)
+        return relative
+    except Exception as exc:
+        log.debug("could not cache image %s: %s", host_of(image_url), exc)
+        return ""
+
+
+def backfill_missing_images(posts, cfg, root, limit=12):
+    """Cache publisher images first, then use Commons for articles without one."""
     updated = 0
     for post in sorted(posts, key=lambda item: item.get("published_at", ""), reverse=True):
         if updated >= limit:
             break
-        if safe_url(post.get("image_url", "")):
+        if post.get("image_path"):
             continue
-        result = find_commons_image(post.get("title", ""), timeout=min(cfg.get("timeout_seconds", 8), 8))
-        if result:
-            post.update(result)
-            updated += 1
-            log.info("matched a freely licensed thumbnail for %s", post.get("id"))
+        image_url = safe_url(post.get("image_url", ""))
+        if not image_url:
+            match = find_commons_image(post.get("title", ""), timeout=min(cfg.get("timeout_seconds", 8), 8))
+            if match:
+                post.update(match)
+                image_url = safe_url(post.get("image_url", ""))
+        if image_url:
+            local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8))
+            if local_path:
+                post["image_path"] = local_path
+                updated += 1
+                log.info("cached thumbnail for %s", post.get("id"))
     return updated
+
+
 
 def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_only=False) -> dict:
     root = Path(root)
@@ -1850,7 +1893,7 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                 updated_existing = True
     all_posts = posts_doc["posts"] + new_posts
     if live_fetcher and not render_only and not dry_run:
-        image_updates = backfill_missing_images(all_posts, cfg, limit=cfg.get("image_backfill_per_run", 12))
+        image_updates = backfill_missing_images(all_posts, cfg, root, limit=cfg.get("image_backfill_per_run", 12))
         if image_updates:
             updated_existing = True
             log.info("added %s Commons thumbnails", image_updates)
