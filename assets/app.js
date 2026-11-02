@@ -3,9 +3,9 @@
   'use strict';
   var LABELS = {
     en: { all: 'All', india: 'India', world: 'World', business: 'Business', technology: 'Technology',
-      entertainment: 'Entertainment', gaming: 'Gaming', sports: 'Sports', science: 'Science', health: 'Health', trending: 'Trending' },
+      entertainment: 'Entertainment', politics: 'Politics', gaming: 'Gaming', sports: 'Sports', science: 'Science', health: 'Health', trending: 'Trending' },
     hi: { all: 'सभी', india: 'भारत', world: 'दुनिया', business: 'कारोबार', technology: 'तकनीक',
-      entertainment: 'मनोरंजन', gaming: 'गेमिंग', sports: 'खेल', science: 'विज्ञान', health: 'स्वास्थ्य', trending: 'ट्रेंडिंग' }
+      entertainment: 'मनोरंजन', politics: 'राजनीति', gaming: 'गेमिंग', sports: 'खेल', science: 'विज्ञान', health: 'स्वास्थ्य', trending: 'ट्रेंडिंग' }
   };
   function matches(item, cat) { return !cat || cat === 'all' || item.cat === cat; }
   if (typeof module !== 'undefined' && module.exports) {

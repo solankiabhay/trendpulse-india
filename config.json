@@ -131,6 +131,34 @@
       "lang": "en",
       "category": "trending",
       "weight": 10
+    },
+    {
+      "name": "Google News POLITICS (en)",
+      "url": "https://news.google.com/rss/search?q=politics+India&hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "politics",
+      "weight": 0
+    },
+    {
+      "name": "Google News GAMING (en)",
+      "url": "https://news.google.com/rss/search?q=gaming+India&hl=en-IN&gl=IN&ceid=IN:en",
+      "lang": "en",
+      "category": "gaming",
+      "weight": 0
+    },
+    {
+      "name": "Google News POLITICS (hi)",
+      "url": "https://news.google.com/rss/search?q=politics+India&hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "politics",
+      "weight": 0
+    },
+    {
+      "name": "Google News GAMING (hi)",
+      "url": "https://news.google.com/rss/search?q=gaming+India&hl=hi&gl=IN&ceid=IN:hi",
+      "lang": "hi",
+      "category": "gaming",
+      "weight": 0
     }
   ],
   "max_review_items_per_run": 20,

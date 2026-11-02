@@ -405,3 +405,6 @@ a, button, input { touch-action: manipulation; }
 .badge-health{background:#d1fae5;color:#065f46}
 .badge-trending{background:#ffe4e6;color:#9f1239}
 @media(max-width:42rem){.card-image{height:10rem}}
+
+.badge-politics{background:#fee2e2;color:#991b1b}.badge-gaming{background:#f3e8ff;color:#6b21a8}
+.card-image-fallback.cat-politics{background:linear-gradient(135deg,#7f1d1d,#dc2626)}

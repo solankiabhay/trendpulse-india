@@ -43,6 +43,7 @@ CATEGORIES = {
     "entertainment": ("Entertainment", "मनोरंजन"), "sports": ("Sports", "खेल"),
     "science": ("Science", "विज्ञान"), "health": ("Health", "स्वास्थ्य"),
     "trending": ("Trending", "ट्रेंडिंग"),
+    "politics": ("Politics", "राजनीति"), "gaming": ("Gaming", "गेमिंग"),
 }
 DEFAULTS = {
     "site_name": "TrendPulse India",
