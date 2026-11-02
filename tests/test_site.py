@@ -78,6 +78,29 @@ class ProjectFiles(unittest.TestCase):
                 for source in post["sources"]:
                     self.assertIsNotNone(engine.safe_url(source.get("url", "")), source)
 
+    def test_image_search_terms_uses_headline_keywords(self):
+        query = engine.image_search_terms("GTA 6 release date PS5 users access")
+        self.assertIn("gta", query)
+        self.assertIn("release", query)
+        self.assertNotIn("the", query)
+
+    def test_card_has_category_fallback_for_missing_image(self):
+        post = {"lang": "en", "category": "gaming", "title": "GTA 6 update",
+                "summary": "A source-linked update.", "published_at": "2026-11-02T08:00:00+00:00",
+                "sources": [{"publisher": "Example"}], "url": "en/posts/gta.html"}
+        markup = engine.card(post, "")
+        self.assertIn("card-image-fallback", markup)
+        self.assertIn("cat-gaming", markup)
+
+    def test_card_marks_remote_image_for_broken_image_fallback(self):
+        post = {"lang": "en", "category": "sports", "title": "Match update",
+                "summary": "A source-linked update.", "published_at": "2026-11-02T08:00:00+00:00",
+                "sources": [{"publisher": "Example"}], "url": "en/posts/match.html",
+                "image_url": "https://upload.wikimedia.org/example.jpg"}
+        markup = engine.card(post, "")
+        self.assertIn('data-fallback-category="sports"', markup)
+        self.assertIn('data-fallback-label="Sports"', markup)
+
     def test_required_files_exist(self):
         self.assertEqual([f for f in REQUIRED if not (ROOT / f).exists()], [])
 
