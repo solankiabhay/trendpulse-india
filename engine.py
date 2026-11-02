@@ -516,9 +516,14 @@ def _parse_item(it, feed):
             text = text.replace(s, " ")
     text = tidy(normalize_text(text).strip(" -–—|:·,"))
     boilerplate_summary = is_boilerplate_summary(text)
+    image_url = ""
+    for child in it:
+        if _local(child.tag).casefold() == "enclosure" and (child.get("type") or "").casefold().startswith("image/"):
+            image_url = safe_url(child.get("url", "")) or ""
+            if image_url: break
     return {"title": title, "keyword": keyword, "published": pub,
             "summary": text if len(text) >= 40 and not boilerplate_summary else "",
-            "boilerplate_summary": boilerplate_summary,
+            "boilerplate_summary": boilerplate_summary, "image_url": image_url,
             "sources": sources[:6], "lang": feed["lang"], "category": feed["category"],
             "weight": feed.get("weight", 0), "feed": feed.get("name", feed["url"])}
 
@@ -534,6 +539,7 @@ class _MetaDescription(HTMLParser):
         self.descriptions = []
         self.paragraphs = []
         self.links = []
+        self.images = []
         self._paragraph = None
         self._anchor_href = None
         self._anchor_text = []
@@ -546,6 +552,9 @@ class _MetaDescription(HTMLParser):
         values = {str(k).lower(): normalize_text(v or "") for k, v in attrs}
         if tag == "meta":
             key = (values.get("name") or values.get("property") or "").casefold()
+            if key in ("og:image", "og:image:url", "twitter:image", "twitter:image:src"):
+                image_url = safe_url(values.get("content", ""))
+                if image_url and image_url not in self.images: self.images.append(image_url)
             if key in ("description", "og:description", "twitter:description"):
                 value = values.get("content", "")
                 if len(value) >= 40 and value not in self.descriptions:
@@ -849,6 +858,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
             final_url, raw = fetch_source_page(url, timeout=min(cfg["timeout_seconds"], 5))
             parser = _MetaDescription()
             parser.feed(raw.decode("utf-8", errors="replace"))
+            if parser.images and not c.get("image_url"): c["image_url"] = parser.images[0]
             final_host = host_of(final_url).casefold()
             if final_host.startswith("news.google."):
                 publisher_key = re.sub(r"[^a-z0-9]", "", source.get("publisher", "").casefold())
@@ -868,6 +878,7 @@ def enrich_candidate_summary(c, cfg, max_sources=5):
                     final_url, raw = fetch_source_page(target, timeout=min(cfg["timeout_seconds"], 5))
                     parser = _MetaDescription()
                     parser.feed(raw.decode("utf-8", errors="replace"))
+                    if parser.images and not c.get("image_url"): c["image_url"] = parser.images[0]
                     final_host = host_of(final_url).casefold()
             if final_url != original_url and not final_host.startswith("news.google."):
                 source["url"] = final_url
@@ -1148,6 +1159,7 @@ def build_post(c, now) -> dict:
         "published_at": c["published"].isoformat(), "generated_at": now.isoformat(), "kind": "digest",
         "keyword": c["keyword"], "score": c.get("score", 0),
         "sources": [{"title": s["title"], "url": s["url"], "publisher": s["publisher"]} for s in c["sources"]],
+        "image_url": safe_url(c.get("image_url", "")) or "",
     }
 
 
