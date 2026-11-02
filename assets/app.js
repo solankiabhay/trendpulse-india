@@ -23,7 +23,7 @@
     var present = {};
     cards.forEach(function (card) { present[card.getAttribute('data-cat')] = true; });
     var preferred = ['gaming', 'technology', 'business', 'sports', 'politics'];
-    var cats = preferred.filter(function (cat) { return !!present[cat]; });
+    var cats = preferred.slice();
     Object.keys(present).sort().forEach(function (cat) {
       if (cat && cats.indexOf(cat) === -1) { cats.push(cat); }
     });
@@ -56,10 +56,18 @@
     addButton('all');
     cats.forEach(addButton);
     var active = 'all';
+    var empty = document.createElement('p');
+    empty.className = 'empty';
+    empty.hidden = true;
+    empty.textContent = lang === 'hi' ? 'इस श्रेणी में अभी कोई खबर नहीं है।' : 'No stories in this category yet.';
+    grid.parentNode.insertBefore(empty, grid.nextSibling);
     function apply() {
+      var visible = 0;
       cards.forEach(function (card) {
         card.hidden = !matches({ cat: card.getAttribute('data-cat') }, active);
+        if (!card.hidden) { visible += 1; }
       });
+      empty.hidden = visible > 0;
       buttons.forEach(function (button) {
         button.setAttribute('aria-pressed', String(button.getAttribute('data-cat') === active));
       });
