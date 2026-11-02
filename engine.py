@@ -1762,7 +1762,7 @@ def backfill_missing_images(posts, cfg, root, limit=12):
         if post.get("image_path"):
             continue
         attempted_at = parse_date(post.get("image_lookup_attempted_at", ""))
-        if attempted_at and now - attempted_at < timedelta(days=7):
+        if post.get("image_lookup_version") == 2 and attempted_at and now - attempted_at < timedelta(days=7):
             continue
         attempts += 1
         image_url = safe_url(post.get("image_url", ""))
@@ -1780,6 +1780,7 @@ def backfill_missing_images(posts, cfg, root, limit=12):
                 image_url = safe_url(post.get("image_url", ""))
                 local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8))
         post["image_lookup_attempted_at"] = now.isoformat()
+        post["image_lookup_version"] = 2
         if local_path:
             post["image_path"] = local_path
             updated += 1
