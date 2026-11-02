@@ -176,14 +176,15 @@ a:hover { color: var(--orange-dark); }
 
 .cats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .cat-btn {
-  min-height: 40px; padding: 0.4rem 1rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 40px; padding: 0.4rem 1rem; text-decoration: none;
   border: 1px solid var(--control-line); border-radius: 999px;
   background: #fff; color: var(--muted);
   font: inherit; font-weight: 600; cursor: pointer;
   transition: all 0.2s var(--ease);
 }
 .cat-btn:hover { border-color: var(--orange); color: var(--orange-dark); }
-.cat-btn[aria-pressed=true] { background: var(--orange-dark); border-color: var(--orange-dark); color: #fff; }
+.cat-btn[aria-current=true] { background: var(--orange-dark); border-color: var(--orange-dark); color: #fff; }
 
 /* ==========================================
    6. ARTICLE GRID & CARDS (Homepage)
@@ -324,7 +325,7 @@ main > section > h2::before {
 .tools { box-shadow: var(--card-shadow); }
 #q { min-width: 0; }
 .cat-btn { min-height: 44px; }
-.cat-btn[aria-pressed=true] { box-shadow: 0 3px 10px rgba(255,100,28,.18); }
+.cat-btn[aria-current=true] { box-shadow: 0 3px 10px rgba(255,100,28,.18); }
 .grid { align-items: stretch; gap: clamp(.85rem, 2vw, 1.25rem); }
 .card {
   min-width: 0;
@@ -580,7 +581,7 @@ a, button, input { touch-action: manipulation; }
   background: #eef3f9;
   color: var(--navy);
 }
-.category-tools .cat-btn[aria-pressed=true] {
+.category-tools .cat-btn[aria-current=true] {
   border-color: var(--navy);
   background: var(--navy);
   color: #fff;
