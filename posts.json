@@ -147,8 +147,9 @@
           "publisher": "News18"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "en-1e451fee0f",
@@ -191,8 +192,9 @@
           "publisher": "Universe Today"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "hi-bb90bbf6f7",
@@ -481,8 +483,9 @@
           "publisher": "cfo.economictimes.indiatimes.com"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "en-13e8ca6feb",
@@ -1400,8 +1403,9 @@
           "publisher": "The Bangladesh Monitor"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "hi-2ceba114d3",
@@ -1523,8 +1527,9 @@
           "publisher": "India Today"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-26T06:47:59.179189+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "hi-027e63035d",
@@ -4124,8 +4129,9 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-27T04:14:51.644014+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/25/1792931019946_harper_beckham_david_beckham_honored_1087960861_1.jpeg"
     },
     {
       "id": "en-0c7a367fd1",
@@ -4371,7 +4377,10 @@
           "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
           "publisher": "CNBC"
         }
-      ]
+      ],
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108249635-17678211782026-01-07t212254z_580003149_rc2lwia0j4jv_rtrmadp_0_hsbc-results.jpeg?v=1767821236&w=1920&h=1080",
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-83e3c58c6b",
@@ -5248,7 +5257,10 @@
           "url": "https://thenewsmill.com/2026/10/cricket-australia-discusses-extending-andrew-mcdonalds-contract-beyond-2027-world-cup/",
           "publisher": "The News Mill"
         }
-      ]
+      ],
+      "image_url": "https://thenewsmill.com/tnm-og/611789.jpg",
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-e6889620b4",
@@ -5352,7 +5364,10 @@
           "url": "https://www.adani.com/newsroom/media-releases/adani-enterprises-ltd-announces-h1-and-q2-fy27-results",
           "publisher": "Adani"
         }
-      ]
+      ],
+      "image_url": "https://www.adani.com/-/media/project/adaniv1/newsroom/media-releases/thumbnails/adani-enterprises-ltd-announces-h1-and-q2-fy27-results.webp",
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-9615255a54",
@@ -6795,7 +6810,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fde%2F43701256%3Fdate=2026-11-02",
+      "image_source": "https://onefootball.com/de/news/gefuehlsachterbahn-fuer-buli-ass-vom-abstellgleis-zurueck-ins-rampenlicht-43701256",
+      "image_credit": "OneFootball",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/9cd6d54591f2ef95d5d0.png"
     },
     {
       "id": "en-005ad5a0c9",
@@ -6830,7 +6851,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://s1.abcstatics.com/abc/www/multimedia/deportes/2026/10/31/a-becerra_1495702549-U83041367076iCp-1200x630@diario_abc.jpg",
+      "image_source": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/reencuentros-betis-malaga-boqueron-20261031115620-nts.html",
+      "image_credit": "ABC",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/9a56ec47c37f434edf08.jpg"
     },
     {
       "id": "en-8ccd5bfc38",
@@ -6973,7 +7000,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://cdn.mos.cms.futurecdn.net/fauxF3UVUEucerkpFVot2e-1920-80.jpg",
+      "image_source": "https://www.gamesradar.com/edge/gtavi-cover/",
+      "image_credit": "GamesRadar+",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/37732343d6a366467d74.jpg"
     },
     {
       "id": "en-d45b39990d",
@@ -7008,7 +7041,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:36:16.956770+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://platform.managingmadrid.com/wp-content/uploads/sites/103/2026/10/gettyimages-2297447489.jpg?quality=90&strip=all&crop=0%2C10.736794775067%2C100%2C78.526410449865&w=1200",
+      "image_source": "https://www.managingmadrid.com/114842/vinicius-and-endrick-make-brazils-list-for-the-next-fifa-break",
+      "image_credit": "Managing Madrid",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/9b3c37ab4176b3e64c62.jpg"
     },
     {
       "id": "en-844d988acf",
@@ -7043,7 +7082,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://s.yimg.com/lo/mysterio/api/b45ade66556b473dccf97037e15f06c96653decd69c3c668413bbd9ff5290ad0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fes%2Fgoal_739%2F308bc2735b9a6565335b9c8806670c0f.jpg",
+      "image_source": "https://es-us.noticias.yahoo.com/deportes/avecina-salida-lisandro-martinez-barcelona-084016734.html",
+      "image_credit": "Yahoo",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/dd96ad3989dc25cf39db.jpg"
     },
     {
       "id": "en-14f96b5e69",
@@ -7078,7 +7123,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://www.nauticareport.it/resizer/picscache/1280x720c50/d8f9a3b6a2f32b236cf774131f663260.webp",
+      "image_source": "https://www.nauticareport.it/dettnews/turismo_e_ormeggi/turismo_nautico_sicilia_1712_imprese_posti_barca_record-18-33629/",
+      "image_credit": "NAUTICA REPORT",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/129e772a65c63ae3814d.webp"
     },
     {
       "id": "en-b37614bc86",
@@ -7113,7 +7164,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://storage.livescore.com/images/web/medium/news_article_default_image_4.jpg",
+      "image_source": "https://www.livescore.com/en/news/football/serie-a/watch-diego-moreira-puts-milan-3-1-up-against-inter-with-amazing-free-kick-sempremilan/",
+      "image_credit": "LiveScore",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/f770e2420db275875445.jpg"
     },
     {
       "id": "en-61fd82667c",
@@ -7148,7 +7205,12 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://www.fcbarcelona.com/fcbarcelona/photo/2026/10/30/191afe9b-59fd-4cd4-b0d6-437eb365d27b/_MGA2290.jpg",
+      "image_source": "https://www.fcbarcelona.com/en/football/first-team/news/4601620/the-squad-for-bara-v-alavs",
+      "image_credit": "Official FC Barcelona Website",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-abf5f8d3f4",
@@ -7183,7 +7245,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://dimages2.gazzettaobjects.it/files/og_thumbnail/files/fp/uploads/2026/10/30/6ae4aa13ea60c.r_d.1315-755-0.jpeg",
+      "image_source": "https://www.gazzetta.it/Calcio/Serie-A/Roma/30-10-2026/roma-inter-calendari-confronto.shtml",
+      "image_credit": "La Gazzetta dello Sport",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/dd95c9c1ac3fd75df4e5.jpg"
     },
     {
       "id": "en-1f54f800e7",
@@ -7218,7 +7286,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://indiantelevision.com/wp-content/uploads/2026/10/TRAI-3-1000x600.jpg",
+      "image_source": "https://indiantelevision.com/regulators/ib-ministry/machines-are-now-adding-more-mobile-connections-in-india-than-people-are/",
+      "image_credit": "Indian Television Dot Com",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/02063b4358ceac330ce9.jpg"
     },
     {
       "id": "en-11b6fa6688",
@@ -7331,7 +7405,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.toiimg.com/thumb/msid-135419934,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/tilak-varma-likely-to-play-third-india-a-match-jasprit-bumrah-leaves-for-new-zealand/articleshow/135419929.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/d95d28aba08a1db64a13.jpg"
     },
     {
       "id": "en-e80b7fbc5b",
@@ -7440,7 +7520,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-01T16:39:52.822725+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.toiimg.com/thumb/msid-135403323,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/sports/cricket/news/irelands-indian-origin-pacer-jai-moondra-creates-cricket-history-with-record-breaking-6/26-bowling-figures/articleshow/135403168.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-02T10:58:10.314392+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/61794de18440747f99fc.jpg"
     },
     {
       "id": "en-8ae666bff8",
@@ -7909,7 +7995,9 @@
       "image_source": "https://www.betseeker.com.au/nba/nba-tips/nba-tips-monday-november-2-nba-picks-multi/",
       "image_credit": "Betseeker",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/e3d0815d047c2fc7b8ce.jpg"
+      "image_path": "assets/news-images/e3d0815d047c2fc7b8ce.jpg",
+      "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-07c9d56953",
