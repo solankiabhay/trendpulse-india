@@ -1687,6 +1687,36 @@ def find_commons_image(title: str, timeout=8):
         return None
 
 
+def find_publisher_image(post, cfg):
+    """Extract the publisher's own OpenGraph/Twitter image from a story source."""
+    for source in post.get("sources", [])[:3]:
+        source_url = safe_url(source.get("url", ""))
+        if not source_url:
+            continue
+        try:
+            target = embedded_source_url(source_url) if host_of(source_url).casefold().startswith("news.google.") else source_url
+            final_url, raw = fetch_source_page(target or source_url, timeout=min(cfg.get("timeout_seconds", 8), 5))
+            parser = _MetaDescription()
+            parser.feed(raw.decode("utf-8", errors="replace"))
+            if parser.images:
+                return {"image_url": parser.images[0], "image_source": final_url,
+                        "image_credit": normalize_text(source.get("publisher", "")) or host_of(final_url)}
+            if host_of(final_url).casefold().startswith("news.google."):
+                publisher_link = next((link.get("url") for link in parser.links
+                                       if safe_url(link.get("url", ""))
+                                       and not host_of(link.get("url", "")).casefold().endswith("google.com")), "")
+                if publisher_link:
+                    publisher_url, publisher_raw = fetch_source_page(publisher_link, timeout=min(cfg.get("timeout_seconds", 8), 5))
+                    publisher_parser = _MetaDescription()
+                    publisher_parser.feed(publisher_raw.decode("utf-8", errors="replace"))
+                    if publisher_parser.images:
+                        return {"image_url": publisher_parser.images[0], "image_source": publisher_url,
+                                "image_credit": normalize_text(source.get("publisher", "")) or host_of(publisher_url)}
+        except Exception as exc:
+            log.debug("publisher image lookup failed for %s: %s", host_of(source_url), exc)
+    return None
+
+
 def cache_image(root, image_url, timeout=8):
     """Download a safe image to the repository so pages never hotlink publishers."""
     image_url = safe_url(image_url)
@@ -1737,6 +1767,12 @@ def backfill_missing_images(posts, cfg, root, limit=12):
         attempts += 1
         image_url = safe_url(post.get("image_url", ""))
         local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8)) if image_url else ""
+        if not local_path:
+            publisher_match = find_publisher_image(post, cfg)
+            if publisher_match:
+                post.update(publisher_match)
+                image_url = safe_url(post.get("image_url", ""))
+                local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8))
         if not local_path:
             match = find_commons_image(post.get("title", ""), timeout=min(cfg.get("timeout_seconds", 8), 8))
             if match:
