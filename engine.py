@@ -1504,8 +1504,9 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     # Render every category on both language pages. Filtering is client-side
     # across fresh stories and the archive, so older Hindi stories remain usable.
     cats = list(CATEGORIES)
-    btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
-        f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
+    # Crawlable category URLs also provide shareable filter states.
+    btns = f'<a class="cat-btn" data-cat="all" href="?cat=all" aria-current="true">{esc(L["all"])}</a>' + "".join(
+        f'<a class="cat-btn" data-cat="{c}" href="?cat={c}">{esc(cat_label(c, lang))}</a>' for c in cats)
     trending = ""
     if top:
         trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
@@ -1557,7 +1558,25 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>
 {archive}"""
     title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
-    return page(cfg, lang, path, title, L["tagline"], body, alternates, active={"all": "home"}.get(scope, scope), app=True)
+    list_jsonld = None
+    if len(visible_items) >= 2:
+        list_jsonld = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": title,
+            "inLanguage": "hi-IN" if lang == "hi" else "en-IN",
+            "mainEntity": {
+                "@type": "ItemList",
+                "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                "numberOfItems": len(visible_items),
+                "itemListElement": [
+                    {"@type": "ListItem", "position": i, "url": f'{cfg["site_url"]}/{post["url"]}'}
+                    for i, post in enumerate(visible_items, 1)
+                ]
+            }
+        }
+    return page(cfg, lang, path, title, L["tagline"], body, alternates, jsonld=list_jsonld,
+                active={"all": "home"}.get(scope, scope), app=True)
 
 
 def article_page(cfg, p, posts):
@@ -1627,7 +1646,7 @@ def article_page(cfg, p, posts):
     ld = {
         "@context": "https://schema.org",
         "@graph": [
-            {"@type": "Article", "headline": p["title"][:110], "description": description,
+            {"@type": "NewsArticle", "headline": p["title"][:110], "description": description,
              "datePublished": p["published_at"], "dateModified": modified,
              "inLanguage": "hi-IN" if lang == "hi" else "en-IN",
              "articleSection": cat_label(p["category"], lang),
