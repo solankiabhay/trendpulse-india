@@ -2,776 +2,6 @@
   "version": 1,
   "items": [
     {
-      "id": "en-2e17014094",
-      "lang": "en",
-      "title": "New family of fungi found in Yunnan has massive fruiting body",
-      "category": "science",
-      "published_at": "2026-10-26T12:08:39+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "New family of fungi found in Yunnan has massive fruiting body",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHM3UWVCNDVPMGNmd296NXdIekhINnlObENPTFBMc3RQZEJqOWJXemNzNzhPblFDODRfbWxERE04Ty0xQk9RbzJuM2E0bVFZXzZWN2dmSzV0VUZGNjBqdW5iU1RjNHZta2RNZFJueHlnZmh1M0hVamlnTTIyRHN2THVqVjdHQmVDZHZWbTdDRG1kY3BFS3RxdG1MYnY0T0czUHQ4a3NGV1ptU0wxRjZsamhGRVJZQ1Z2UUE?oc=5",
-          "publisher": "CGTN"
-        },
-        {
-          "title": "Scientists Discover Giant Fungus Named After T. Rex In China",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWXBCaGliQjl1N21fUDI2UWJqQnBETjRHSEdrOC1OYjhqanJCWTYwMzExYnR5bWUtOHJnN3YyLTh6Vnd4bUtOdXo3UlhJTjUwS2kyUFVPWnNFNGhDa2VTOWJiYXc4b1FSOGVPZXJzbFRRREtpNWtXSTJFZk80N1R2clZwTi03UGhqb0haR0I1NDFhel9XdUZFVTRabzJKZ9IBpgFBVV95cUxNNXBDUXRuamNLakxJQ0thTXY5bWVTSHhScHE0dXFPc1gzTEc4MWNCcm9pOUdDRl9rdmRVOUpxOERvU0FEQ19zaHFJSnpucHpmQzdxUEpTb3BpMHhQdVQ4d3Q3a3pfTWtVazV3R1kxU0pzZUVWNEVzWHcxdlRGZnRvLWlPZkZBUnVfa1d2emYwRVN6M29hbldlcDk2WldreERnNGx6aF9R?oc=5",
-          "publisher": "NDTV"
-        },
-        {
-          "title": "Experts discover ancient, “extreme” species in Chinese forest – and name it 'D-rex'",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY3RITlBVb0xSb2VLRzdzSnUwM0xyTGhyOEpWRWo1SDVLdmFLcFd4ZWt2dk94aW5PWGRHZU5McktWckpPajFNdVlxbkxtLU9oaUJLMENuS1R1VWJ6TmZ4b09VazExeUtHMU1oQmVPaVBqSk5ybnIzV01EVjMtN01ZNnJn?oc=5",
-          "publisher": "BBC Wildlife Magazine"
-        },
-        {
-          "title": "A Chinese Team Found a 50-Centimeter Fungus Named After T. Rex, and It Belongs to a Family Never Described Before",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Ob0ZDN3p4X2JTUW5nOU1oOFBtaDRtRjhfV3ZZTFZpaGYzU3FzdTIyQWdwN1JraklOd2dJbkNhR285bFZUZnpNeTc2OC1BNGJjbHNOMTZEUi1RR3pEaGotN21Gd0VKWTZGTllHcnB4NA?oc=5",
-          "publisher": "The Daily Galaxy"
-        },
-        {
-          "title": "65-Million-Year-Old Giant Fungus Discovered!",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMEVWdWlWdGY2TU40NHJuMUNOZnpaM3lzSjctTm1JV0NSbzhZT2MtUTJpMTlqSDVqdGxqSkUwcU40TjZ3WHNEbVloV1BxVGN0b3J5Vkd4YnpqQlhUbjU4aFNHbDRPZDhuaDhiQlBRMVlqTjZfanRzRkRVd09LelkyYg?oc=5",
-          "publisher": "Infomance"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-2da7fa5e4b",
-      "lang": "en",
-      "title": "Sunlight at night: US startup’s demonstration of lighting Earth from space draws critcism",
-      "category": "technology",
-      "published_at": "2026-10-26T12:02:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Sunlight at night: US startup’s demonstration of lighting Earth from space draws critcism",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTFxQTM3V2ZWbjQ3Q2I5ZVV0bHluS2RsWnJmRzU3THpuYTktaXkwUGFFWWJCcnAwdDJKcmlGNDB1ZjFrbUtIS2hzSkxFclBIUlFhbjZpaTFKeTMtM1NTYkRzc3ZDODljZ2Itd1JHQUVWei1COUZmdGdwaHBHYk1OeFhIeDhRXzJPWTVMeUZHZ2MycHh4bktn?oc=5",
-          "publisher": "The Guardian"
-        },
-        {
-          "title": "Can this company bring sunlight at night to Mumbai's Andheri or Delhi's Lajpat Nagar?",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPcWNVNXlTbzQ0WXo1VVI2UWtJVEx3VllLZG1XTUJ5QThRWmt0eGlqWmJkS2hISUJMWks2R0VtYXFNenBGOUY0VFEyU0VOUlVXUzZKTzJYMWNLS2NNbUhJWnRDQVhNRHhNcERDOHdTU2djN0dJeEdfREJHZEdFNDJSRk15bFBtUkhJQ1VrVXpkaXNieUhMcnQwSExLM0w5Uy0yMXlpazNGTk1rWDF3RWZVTF9nM2FINGcxWnA5Nm9WM2dmQTBrdjk0dW5KQVRhQW1aVG1lSTBLUnB0aHBycUp3Z2w1b1lWc2VZNG82YUhtZ1BENFdfaDVZbNIB_gFBVV95cUxPWTU0ZjI3czdfZy1Lb1N0WnNSbnlQdm0xcG01aTZmcWZGcHhfZUpPbEZITU5kUHYwWDUxZ2lhYm12LXVSdUNoa3I5Q1F2ejdiVGY0YmtkYXFOdnE3LVphbnZBZVRUaGZJQWJCVFMxTkhPVUtFZHROaFVMUFpXcEtuZGdXUzgxaHNpUWN2dG5TTGQzRFJKdjRCR1ZOb0hPa1ZGcmdvWkZfT2R3Q0R0cjVnM3VNNzh0SmZEYzR1a25udEVocUVtcFJYcVFLZ245OEFtNFdBV1NxR3hwVi1CRjV2T3hRRkNoWDZ1ei1PSmZNZEdOM1BaZUM4WW5jWWMydw?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "An American startup wants to sell sunlight after dark. Who gets a say?",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYS1sUnVlSVdTUzlpZWh1YzUyZDNqVG9oUzQ4dFFRMTRBTGt2UHdFRDhhb3NFTmUtUGJKMWxUYXJDOXNydGlwY01yYWhERmRodkZvSUVCUTNObFktc0w3UWoyYjZQMk53TGlsUkdIemtCaU1mUzlPNHl4Vmg4MXY0MEVRckd2Si1JU3pLNnM4SWVOVWdhc3Q5Q1lIWEgtcEp4dnExOVF3?oc=5",
-          "publisher": "The Conversation"
-        },
-        {
-          "title": "A rehearsal for space mirrors leaves California rescuers unconvinced",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZkxRVG9aS2xhdUVkbzFWcHk5R2phZ3EzV0xxQ19sVFkyeWpSZWhaVDIwU21JVXd6Um1nakh2RkQ4eHFRalFrRmNsNkppVWVCUFRObjBNN0twd25iMmgyYUlReGpwLTZHUWp6Yi1FSElEaWlENlotdUpWNTFzbkF6R21oZ1RHdHZEeGM4OXJybTVrbXhmYUVXUGJB?oc=5",
-          "publisher": "DarkSky International"
-        },
-        {
-          "title": "'Blinding' desert lights in California turn out to be a tech test for orbital sunshine",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVjFlUzFndzRZR25MOXRHZXJHaVFVb2tnVi1IWUI3RjNiYXlFaXRhOUZpUzV2ZUYtRzUxUGtxQ3lYenZad0lIZm5xeDNhNHczQmExNG5fb3A3VVpEM3BpejJzVjNrcU5JUGRvczEzQ21Ha3RLMUtSS1NaS184Vkt3Wl84c2VWb3c?oc=5",
-          "publisher": "The Cool Down"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-18c6daaab8",
-      "lang": "en",
-      "title": "Jailer 2 Box Office Collection Day 11 Live Updates: Rajinikanth-starrer is highest-grossing Tamil film, earns over Rs 710 cr",
-      "category": "entertainment",
-      "published_at": "2026-10-26T11:50:03+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Jailer 2 Box Office Collection Day 11 Live Updates: Rajinikanth-starrer is highest-grossing Tamil film, earns over Rs 710 cr",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOT1ZURlBQbW1DbFRCUGlieUx1MHJKZTRDRlI5NjhkU1F0Umk5d3dfQnRqNnVwbHZzZDZHS0prUTduM0w2QWlEYWZPQi02SGVIZWN3dTA5TFd2Wjd5S09NdU5tWF9oUDE1Qm1xWmhEZW5yVTVRSzk3Q0tuWE5rXzZLeldtRnhvQWhSZkZNZzRXQ0IyRXJtTnRBMTlNamhTdUJJMDZtMVpoSXFmOV9SRkZyU2c1ZWdVUThEbjkxQnJVdnloeWNyRlVBTXBKeTRjVThGWUNiVGRxTVgtalc4dVHSAeQBQVVfeXFMTW1KdUg4ajlBTHhTa2RtQTZBVzlobEtDSzcwQjZfYjc0ZXZLSzlyZlNadUl6eU50M2ZlN1FXS1lHRVdaS1N2TnMwaVU1SlVHQ2d4N1BiVTJDdVpKLTB4UEl3REVQNU5pTEpBQ29lQjFESjI3eFBFVjdwM1I2MHBuMjFzMmdxR0l4eTVSZ215OVRxRGF2T1NDcjJrMnEzdUtjT3JRUWNSRnJfWDFZYVQwVnNYVDluNExTcjUxTGVQV21haktqYmVlZFM4bTZlOVFvcVVxVWdWWnBuSEJ5b0R6U0ZLUDlF?oc=5",
-          "publisher": "The Indian Express"
-        },
-        {
-          "title": "Jailer 2 Box Office Collection Day 11: Rajinikanth-Starrer Earns Rs 710 Crore, Becomes Highest-Grossing Tamil Film Of All Time",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaU9tZEdZR3FEcTJxc0dfSlItYXVVd2QyUmlad2lzVEFUYzlOSkxhejIyb2s0WUYtZGQ4cmxBc0EtazdBWmxNZE45cVVzZlFXSkZKamxkWGt2TWFDeEw2VEdDMzlIUVI5ZXFjMXhjLW9Vek1fTzctajV1ejhWR3FEQzZsOEZFMHVTOEE5LWw3cm9WcmZIdnFWX2ViZUNWRVN5VHFzZGZCd1NINlFVQ2lKb0RqUWxIZDlUSEpuc1lEQnhlMTFFdGhZc1lUNDNJYkptMUhJSUhYd2FVT2U4T2hITEVpRS0xblVMWTBqTEFHbTlfQ0J0YV9oLXBsQmTSAYQCQVVfeXFMTW9rbGhud3ZjLXVseEFwanlGQ1hPLXJpU2VHOUoyMm02TXZBOWdiYS0zX09xbUVzRGpLQTYtNURGbEt6YkhIQktLSDdsQnJmbXAxbjBVZ3pyaE44ME8tTTNYRWloM04tNGY2c3Z6TEw3d3phUFdQOU9CM1JJem9JbDg3TURxdENCOVhGbXJFRWpzaGVJZjR0a1ZmdS1oSUpyZnFuYlVxS2RvM2dDTU95TDJFdUVWaDlWdXh3dXZLSjl5MUxaSjNLMmQ5OVNhbC1BTjhHZi01S3Q0TzZReWpXY2VDczJWMklZQkNfOFlMSnBBUzlmUkRleDQzUTdueVN5NlFhcS0?oc=5",
-          "publisher": "NDTV"
-        },
-        {
-          "title": "'Jailer 2' box office collection Day 12 [LIVE]: Rajinikanth and Nelson Dilipkumar’s action film enters its second week, targets Rs 425 crore India net on second Monday",
-          "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPU19rcE1Ka1VaVnMxTldIZTNxSjlDVXdPUU5Gc0ZacDd0bzZfT2huR1dDdDRnY0JkQW54ekFsWF96d1FRLWtHZTBwWGN6aEh1V3U4YUtjU0plaWZpVEs5SVkxUkNvN0NjUXdkcFIyajl4MHdDN01LOFlrTkhfTHUyaGNKajlWZUtQX3hnY1gtZ1U0R1NySUItYW1Id2RCSHJrQ1VZSlhLMU5WbTU3MEgwRXhMOElPemVOWGU2TXlOSE1ndmFkMERXYlpfeVVLR1BOMjQwakdOckdEMGJOVFVkNDE3dUJaR21Ra2Z5blMxTF9UYkxDSkRQcW9CZ3haRzYzZmx4RE5MNkRlcWtlZGdYXzFSeW9jWUg4Z0JhbHJnU2FCQ1p3QmVfVlV5eDJtSmYyWjQtd0NGWnBqOFhuS1lNc3EzekJrZHp3cGpLd2oyNzc2WkxSYzJHeFRzdEM3OXFjSGVLLXo0Q1J3VFpVeDNBcDE0cTYtX3NzSHAxZHdic3hnbkdqby00MmxjQ01sUQ?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "Jailer 2 Box Office Collection Day 10 Highlights: Rajinikanth film eyes Rs 700 crore mark",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUFRiLVFiajBTTXhqd25lMkdaa0NVQ185dndHQTJVOFlXSzRHUmt4NXhRQWs0alJmOUhnbDM3RDlDSmxXOWhkVzhyYTRSVy1jeHVHam90dDFQVnRxRFU3SGJheHlPblJ6RExPa1lvR3BpYzFvX0wyTmd2OC1CWUp5QUt6ZV85LTI2TEdQa1cwcUQwbFUzZjhDcHBWVjU1RkUxQmkyS2Z0bi11Ui1GQTg3U19mMTRvT3NGaU5NOWZWRG92LWc1MW9NM1pId2xGc01BX0ZnQXZfUzhrVG8tRkE?oc=5",
-          "publisher": "The Indian Express"
-        },
-        {
-          "title": "‘Jailer 2’ Day 9 box office: The Rajnikanth-starrer actioner surpasses lifetime collections of ‘Salaar’, ‘Sultan’",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWnR1UGJZVW81UU9WTGZrcUZkZ21Ya2Q3dXk5ZkJ3SHFudVNhazdqMkFOSW8tdHdIQXdvenRueFJzQ2RsNlJ5RlllVERtVktSR3BrcURlZ0tyUnNPUTVrTlgyMjNpUUxvLThlMkhKVl9ISF9SWXZ5b2t1OV9KNlFQbTNVWUpISThLeEY4UFNVQlBiWUNZQ2ZFUGdheGdQNXh6MXBza2s0VWRsZGpGTkh0RUhRWXJhQTVNNzhBRDlGaFF6WWwtSlgxMUdZallPc0lOMEhhYVdIYWtWUEc5RVAxSDlHS1pWZGhPamxMNUYwTGk3a2VB0gH6AUFVX3lxTE5MZTVyN2Q4ODdiV1MzN2MwdG5fRzZFNkVTd2tralA0WGhWbk43UmZXcnlJRThYcTNKcFZGc1VpVnQtSkplMGtjcHljUzh1TzNXQkNDV090T2EyU1p3aHdLaU9DcDc0R05pU3NmbHJkNVd2RXd4R3VTcDFPbUFkcWFCbmM1b0FyM1ZfSGFGYkMxdFZCbTN0MDAwcGFWN2VvcE5aWnBpOFVFRFVGZ2wwODlEeUdaY2plVThEbGZ1c2RjWU9hblJraUlHTGxHRlFJWEdxcHl0N18xYWZTMm1aOWRQeXVZSzhPVmttYzV5OTNPeDBSZGExOWhlUGc?oc=5",
-          "publisher": "Telegraph India"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-6a2e0d7904",
-      "lang": "hi",
-      "title": "इजरायल चुनाव में नेतन्याहू की अग्निपरीक्षा... जंग ही नहीं, जातीय संघर्ष भी मुद्दा",
-      "category": "world",
-      "published_at": "2026-10-26T11:49:43+00:00",
-      "summary": "AajTak: इजरायल चुनाव में नेतन्याहू की अग्निपरीक्षा... जंग ही नहीं, जातीय संघर्ष भी मुद्दा\n\nHindustan: बीबी शानदार प्रधानमंत्री, वोट दो... ट्रंप ने नेतन्याहू को जिताने के लिए झोंकी पूरी ताकत; असली मकसद ईरान\n\nThePrint Hindi: इजराइल में चुनावी नतीजे चाहे जो हों, भारत के साथ संबंध मजबूत बने रहेंगे: राजनीतिक विश्लेषक\n\nJagran: इजरायल में कल मतदान, संसद में एंट्री के लिए 3.25% वोट जरूरी; भारत से कितनी अलग है चुनावी प्रक्रिया?\n\nNews18 Hindi: इजरायल में कैसे होते हैं चुनाव? भारत से कितना अलग है वोटिंग सिस्टम",
-      "sources": [
-        {
-          "title": "इजरायल चुनाव में नेतन्याहू की अग्निपरीक्षा... जंग ही नहीं, जातीय संघर्ष भी मुद्दा",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbXhnc3c4Y3c4bVVFajVIVE5Lc0k1aWpMb3FQVHhGaHJlaEtvTldzaGNrWWlBNUJ5bmRtdVI0bGxVaVJ4VVpldEtlVkhidksyQm9PZFZKbDBVQURvMlhHRVUxWTdiZVU1d29sV1dQYVdHMk1KSFY3Y3ZSSWdVVHoxLUxtemdHU3FZTkl6c1VyVXVFeDNiZXE5MmZHV0VQNFpzSjJPczBSR05acnRrbUYtVHBKRUE3NVI4MF93S2tJb1NrWUFjaGQyX0g2RzhnYmRBLW9Z0gHYAUFVX3lxTFBqOFVHVkJVN2t4VGs1Z2xEOVdRcWZRQVJ0Yzg1bE1palhibWRnN2NqUTFEVjlkeFFPOFI5SkE2SEctNTdsV05WZlpwTVF1andwTzgxSkZKbm9SMk5SMXJodkN3TXBrYWRER014WHNyb0VsWHIzM3Vsc0o4N1VzT3o5OHFnYzFLYVVwYlhkeF9nVnk2UUNQRmRuSUlBZFJZVjBVU2tfc0VOUDZTb0NTbzZlMTZpdTRUTjMxeHU1Y29kS2xtTnhJYUNPbVB3NWQwYUxNTms4eFZxeA?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "बीबी शानदार प्रधानमंत्री, वोट दो... ट्रंप ने नेतन्याहू को जिताने के लिए झोंकी पूरी ताकत; असली मकसद ईरान",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMWVkNWhBYm5fYmZteVlzM0xSZmZfQTZZOGJWUjJHRlVBV3BPdHFRZ1U0eDRmYlZ5bWtNQUw3OEFSYlV2WFhhLUNvTmZGZUdlMjE2cDk5UWJqczYwNWdmUjBVQnNXNGlvN1dpOVozRExUbi1teGJSZXhSbVVBczJtdnNJUERqck5CSDRtZW1NWTBIdkxqSy1peFU4Zkp2TjNGMWtqUVQzYXhKUTUzdHU1ZmRKVHJ5VDVqcWNoaThRTkw5SldQcFVFdUhZT3ZDVVY1c3hlY2xMVjlTaFl6cUxUWVUxZnM?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "इजराइल में चुनावी नतीजे चाहे जो हों, भारत के साथ संबंध मजबूत बने रहेंगे: राजनीतिक विश्लेषक",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLWhlUk9nN0p0X043MFM1c0RmcGpieHBsMjBlWktSVWxRLUtRUjZxNVpmZEhJeTF0TkVVcHVHcXk0ekhlUEo3MFdWYjB2SDB5N0dRSVZfdFNxTHc2SGJidjFoRHNLN3BIWGNLNGVWQnQyeGx6ZWVucUJOczRsdEhCa2NZdC1zbi1RUGdGZ3NQYnQxZmRicXBGSWNUaGNxUnY0ajBta09LLUdmU1N3VGJ2d0xtdWxjZ1VINW9qdzZOZEJyM2xLVEV0cXlra0RCUWotVW5xSdIB2gFBVV95cUxQUUhaZEhIeWNGeUc2R21iekJzMXJuSnZhVTNWOHZwQlcwWkNQRU0xU3JuMnNjUWw0bUwxUks5b0pycU5iNHN2anQxQXdJRkJGNTRjVl9LUlNaak5ERERULXk0TEExUmNZYk1LWjljMkc3ZkY1UGxsVUJYTENXR3ZyMEtLYVVlRGloa3hHNUV5Z1l1S185SEJTU0R3anEzSUhvSkVsWnBMdV9fUVpDb2xxbm1pNkJobEtmUnBJUjktejljU0Q4d2ZJc05GX2lKOFRrelNyM0N4QWFsZw?oc=5",
-          "publisher": "ThePrint Hindi"
-        },
-        {
-          "title": "इजरायल में कल मतदान, संसद में एंट्री के लिए 3.25% वोट जरूरी; भारत से कितनी अलग है चुनावी प्रक्रिया?",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdk9lempPUHRreVN4THlaYUFucF9hWlo1X2VoanpUUmh6LUdxTGhNM0prZUxySzJPeFlBaFFyRmJxRUljWnNVYUg0UlBrcm5NME9MYU5Na0ROaHFrTTQ4SXpENXdDemwwVTVrSUlGemFnY3N0WmQ0ZVZIcUJTMWlqSUxrRWxZUmg2am5iUVVjamJwbkFEdWF0V0Zwbl9PWEI4US03SFdnbDJoQWhUeU9tZHJnMmlnOFFfTF9nNEJlWUx4X1dpZEFQZ3VYR01hWTI1M3Br?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "इजरायल में कैसे होते हैं चुनाव? भारत से कितना अलग है वोटिंग सिस्टम",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQ0F5cVdYOWNTUkdCbkpDNmpUcGpCcXNmM09wOVNvczAzcUtZclNLaUN0VHdPSFlQTlVHZ01wc0VCcVdqRlUxQmNvZ1o4bWJHSjBVTll0aVJ5SXZOVGRhQ0RGWUdybnhjODgxdmtEd0RBcFlNR0xtMnlVVkp0cVo4QUZCeWJjQUtrMUFkUUduN3R6b3ZHRVFGbGJpd2ExdTd5THdJZjRGVkRKOXltczFUWkEyWVR1QW5yLTkyN21tZWVMUWU0VmZBODdZbHZ5eGFtTjJSNEZ1dW5leGx4Vzh1WjRqSjRucWNHZDNza2NkQ2FfdFgtdktoNVU3SThyWW5xZzI5MnhXT2E3UQ?oc=5",
-          "publisher": "News18 Hindi"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-f2f3f8f455",
-      "lang": "hi",
-      "title": "IPL Trade: प्रीति जिंटा की PBKS में शामिल होंगे हार्दिक पंड्या? ऑक्शन से पहले दिग्गज ने कर दी बड़ी भविष्यवाणी",
-      "category": "sports",
-      "published_at": "2026-10-26T11:42:49+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "IPL Trade: प्रीति जिंटा की PBKS में शामिल होंगे हार्दिक पंड्या? ऑक्शन से पहले दिग्गज ने कर दी बड़ी भविष्यवाणी",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQenpIWnktS0VrMzUtdXJQMlREVVZQVkI4SzhfTEJNc29OQmswb1dKNDFuWUJDajUwNHUxNVN0MUo1dlN5Z1RCV2dMZDJxcF96akRfVU11Nm45QXVuUFM5TXVMT0FxTGFEbnVVMVlHNmxJbS1EWkZKQXd1SFdoQ0JnQVY2bHBpbVEySDF5cWZ6MkNJY1RFVXpUVjBsYWJXTVA2M0FQSzhzSDlvNFF3czFOeElmWHBlLTNaczBtMDRSaGtNTmpqam5QS2E5VUNOeG1NT2dmVVVUQ3nSAd4BQVVfeXFMTUdFUDJkQUJ5dVNlNFVYR2xlTmxKRkloeU8xX3hGTTRNTnlOS3BMbTkwaFZIZFVGZGRfbjNhVEc1eFpOTHM2VjVfbFBLaHYtRnEtRVFvZE9TSURQU0VUTTQwRFBpVms4TVVwRnhlSVp3d2p4bTFhVkVReHFKQ0dsM3RrTkRZNlRfS21BVXo3ZnI3Ui1YMmpoeFJVVHdtRjdhSUYxN2FBQ2huc3pURWcxTDI2N2ZkSlJRWDAzZTQtTmN5ak8tcVZzQy1Ddm1mTXI1QjVncU1NM2Q1T3RZbFJR?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "हार्दिक पंड्या पंजाब किंग्स में जाएंगे, दिग्गज ने कहा- भारत के लिए सिर्फ 10 मैच खेलने वाला बने मुंबई इंडियंस का नया कप्तान",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQaE1wNG9BSGZ4b3d1UUZzYmJOQkNfU1RuV3J5X1ZWUi1XVDdTdnlkRDNBUGJ5anp2X0ZteHBOdWc5M2xsYWpzWDJWUzY5cmd2NWR4RWJMd1FZUmx4ZUZSa0ZSeGJISVpwWks0V25yLWdBRGtSWWdWdHYzbG5wclc0Q2gxWU4yTEZRX1RDX19OcTNjNmY1N0RiZUwwNjlrS1hpZHc3d2xFS1JyRmRvMnZQWW41eGhvS0JWX1dpWUJwNUxJMld6Yk05emwzY1FRdHlRSGNFWHoya21mNXpCWjQzV3JvOHROd0d1NEtEUktNZjdUYUNxOUR6QmhaemVtUzd6MEJEM1JSOXlVVFlxdzZBR1pjUFFSSUtmTE5GT2pvUENjRnFYQXo4?oc=5",
-          "publisher": "Navbharat Times"
-        },
-        {
-          "title": "Hardik Pandya: क्या चोट के कारण खत्म हो जाएगा पांड्या का करियर? गंभीर क्यों तलाश रहे बेहतर विकल्प",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOFM0Mk9McnZObnF1QzFWRzd2TWVmcUItMkhHTFRSek9FTTBlQzAwejJoWjdRZGJpbjZBRFdWTS1Ha0dlWUttZ0pRcmpqNkd3VUphQ2FkajZwTDdhbFVrazI4WVEzZXN4Q1pfeXVaamNQbjZsYkNrYzZWR3BsSElLWkVXckxOYVdGUGlFbHBiY2h3ZXU1UmNQbEx4MVdCTTRYaFc5TWg4Z2hVMXhlQUhtVWszV0JFUEQ1V2t2LW03TTEwaWEydl9Jd1hn?oc=5",
-          "publisher": "Prabhat Khabar"
-        },
-        {
-          "title": "हार्दिक पांड्या महीनों तक रहेंगे क्रिकेट की दुनिया से दूर, सीधे IPL 2027 में आ सकते हैं नजर, Cricket Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdzJ2XzdiZjRlODlQamFzbTJWeFpjSHVYYm9UUkhFZTE2S2VUOVRVek03SWNNNHdlMmhidmZsODFqZk9TeHhTaklwc0lkWGZWcGtHeW5VQXZfWUlicGxWT2FiNlJrTkVDd3NFcjBRNTVPSEUyMEhrZFlSNHFkdHp2dFdMb1VPb2dsUFg4U3RfMm1JSGo1eldxZGxjV1Jxbks5MWNIajRwYk12SXk4dkN3TzJYOEEwWHJXdTM1akVWOFhiemxLYnRkb0dkcmVHLXpkSFZsanoxenpSd0k1Wkdz?oc=5",
-          "publisher": "Hindustan"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-36e6ff0bfc",
-      "lang": "en",
-      "title": "Researchers Urge Adding Dry Eye Treatment to Menopause Care",
-      "category": "health",
-      "published_at": "2026-10-26T11:31:04+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Researchers Urge Adding Dry Eye Treatment to Menopause Care",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2J5amE3ajE0b29ldklONmJ6U01FdjRNaEpIZ0hvSmhrN1VVTTBMRnpsNkR4cndOd0tnakptUXkzYlhxWENBTVhKWFZJdXN3UDgxbnk0U1g0Sm9hUnZYLVI4bTU3NmlnTzV3cC1OZzJoZFlfcWhaUzFGNVdNRU02b2RsRENyWkJpQU5IblpDcllnc3d2OWhDcG1NSy1paDBreVM4M0dKRWNhSFk?oc=5",
-          "publisher": "Medscape"
-        },
-        {
-          "title": "Research highlights the link between menopause and dry eye disease in midlife women",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUDBPNlZRQ3VxOVBCTmlMVkliRmdFckRidFlfYzJqUWRra3JBWDdlZDhMMG5zOF9hTERYYnN5NWFVaUhQLXlJa1B6QW1xeXRRbEFicEMxVDgwa3dua2UwTmZYTWVmVTJjM0xUc1dLZ9IBb0FVX3lxTE9vV0k5ZHRfTkVQWjZRQlNUeklWTnlZR3BYZXhVTXNRZ3p2Qjc4aDVlbHN3RC1rOXd0ZTRVaGF3T2lrb3JKanlTZ09pYWZfbUw5WUxyU0tIMDYwZ0N0eHdOQnVKTGJNOThUQk54UTdaYw?oc=5",
-          "publisher": "Charlotte Observer"
-        },
-        {
-          "title": "Link between hormones and eye health highlighted for Menopause Awareness Month",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOFFtSnE5bmhyWjZuOEhlelZvRmVzTVZCTGpNc3FwQjhfbzlRWGdqaEZWT2tiSVFlR0V2eWUtMHAzOTJtUXZ0Y2ZKM0h0TlJRSWhxVnVXTWZJaGZoUWtwUHRweU10Z0lxbS1iVGhibTFra0JlajNmNzZVUHFHRUVDTTRTRDNVeFpDVkdoLUttWkpsazQtTGlRVW9MUEdQR0N4UktNSG8xYk1VODZ2eWc?oc=5",
-          "publisher": "UK News Group"
-        },
-        {
-          "title": "“My eyes felt like they had grit in them” Blue Lights star, Andi Osho, reveals little-known symptom of menopause – as Specsavers Harlow offers new ZEST treatment to tackle it",
-          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOcDVDQkZmbnNNRnE1cl9oX3JReHkxalhVeGFlOXFyWXZkeEJpVlJ5OUZUYWpWbGRXbEVvOS04b0l4aC1pNjIyd0ZFNS1HZlA4bXJFT1A4aGMxNzk3MFpEWXFOSmZReV9WSmhDNVRjVnotTlFZWTNwd2g4ZHZSZkNfVnNlMFA0OW5nRERQRWZDZFFLcUZzSTZLMGZtY2hQUmRQanJQbFB4eWE4V3lWaTEzTTVYUDBqZ1UzSnFZRWRhYWM0X3ltaVJpOWFRdVdDQm9GMTRJQ28yMmpsbUtmY2NJbTY0UGlLbmRYSHZTZlhZaGV0UzBwQndjYjZLZ3B5bVBJWHhIM0xDekpXajBISU0yb013UDNBQUR4WTVCMXpFUzVYWGV4WXZWejhzak95aVhp?oc=5",
-          "publisher": "Your Harlow"
-        },
-        {
-          "title": "Menopause dry eye affects more than 50% of women: What causes it and how to find relief",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zaFd4YWNleTluY3ZMN2VtUkVfNUlNVDkxV0RtZVZCb0xOUFN2aTY5cXVHQ050dmE2eDBuTHc2SzRoT1BiT3pOWDR0eXRwV05xV3hYLWJEUlA4SnV3akFUT1pya1U1R0Fx?oc=5",
-          "publisher": "Raleigh News & Observer"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-1133fe9645",
-      "lang": "hi",
-      "title": "ऐपल पहली बार लॉन्च करेगी टचस्क्रीन वाला मैकबुक प्रो",
-      "category": "technology",
-      "published_at": "2026-10-26T11:31:11+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "ऐपल पहली बार लॉन्च करेगी टचस्क्रीन वाला मैकबुक प्रो",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOEtHWVo2S3JEcDdxT0JjVDRlcUVvSHR5VnlVWFBpVUJBbmVpUWpJYWNTYVpFbkppOWhWWEFUeGYxYWFlSUlPSXBoX0liRU9aWHRPakc5UFBQMS1fNE05MTFCeDhGdUp1eHZwY0VkQ0FkRHRiMVZ4WGFmQjNYVjFPNFFUYzVGWFZqWEJlWFktMjNwMVJRcmJnVVdaV3kwQzd2Q0NPUXlhVzA1OVc2YmxfYnNHWldtUVpiMzR6S1dpU3pIT1B2UThNTXJOZzc?oc=5",
-          "publisher": "NewsBytes"
-        },
-        {
-          "title": "₹3 लाख तक हो सकती है Apple के नए MacBook Pro की कीमत, मिल सकती है टचस्क्रीन और Tandem OLED",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQOGh3QmNEVmg2M3VDdjVqVVo1UndmRTNPNWc1VW8xQVpLMFdrOGdSR3pnT3R5Q2NjQ1JRV3o0eFptRU1NRExzdl9pWWVoTkh2cm0zVURXRGxKTUg4amZaNG5EWW5zYnRGVGtqQklWb2wwaWZMay1ZYTF3dWhpMFZyYzhobGItYmF6Uzg3cTBaNTA0dGcyV3JOa2x3U0hHZUFlYWthbW9JYXpCQnBCZVZUMGJjTGIxV0x1SlhzNmVoX3pqbUdRRGVTeEtyeU1XTnRfZHhacjlVQzlJX05teXVmMWNSUVloX1N1QjgxVlNORXJ2VTlwN2JNQQ?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "एपल लवर्स के लिए खास होगा अक्तूबर का आखिरी हफ्ता: पेश होंगे OLED डिस्प्ले वाले नए गैजेट, जानें क्या होगा लॉन्च",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTm5wenZSMlJMSlkwQ1NTVjJxSUNsejZsQkZXVEVZdENobE1qd1B5Z2dWSDF1R0NuTUFCaDN4OVVneG80WTAyNkRfUU9fdGRkeV9SQlZNM3dKUjdjdWpvTkZWOTlmWE55VHJDUU1kS1dfV25kQ0k5ckNISFlnSEpINlc3bzhkX3gxUzdqUzJrRVNGanZEZmVhWjVhQk5MREhlT1duQzF6RUk3Q3hrSmxXel90T3Q2Vk5lZEpYY2d0TlJnNmR2RThuNjhHcW1aU0Zoc2c?oc=5",
-          "publisher": "Amar Ujala"
-        },
-        {
-          "title": "क्या टचस्क्रीन मैकबुक प्रो और ओएलईडी आईपैड मिनी जल्द ही लॉन्च होने वाले हैं?",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wb0JGYWVLSWNSZ3ZhME1xeWdlMTV3ZXVmZkFyM0JIWktJenU2cFlNb0wtQ2pjeFE1STRyM0p4NW1ORk1UdEtyT25ETlBNc3RacWFUeTVxTnBzdzBienBWcE1pN2VmVlB1WG9RQXREVGJDUDYxR3ZfZmxuOA?oc=5",
-          "publisher": "Vietnam.vn"
-        },
-        {
-          "title": "Gadgets News 20 October: 28 अक्टूबर को आएगा ऐपल का पहला टचस्क्रीन Macbook, Vivo V80 FE 5G भी जल्द लेगा भारत में एंट्री, पढ़ें बड़ी खबरें",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNamh0alAyY1VBeFREWlY1RlB2ZDZ6TWZKTzVHUk44cFZCVVhlT3B5TjVSR1dyM3N0dWtlTFU1RmIwTklyd3dDR3o1TFNSQW1wWkFVakNCdXNxd1RfSmZXb3BrQlZPN0YxazloTF9MN0Zhdmh6emhuaWEtRk1QU00xS2x2aHlMMDlWVUZVaWNnNEhiemJYaVdqVHlZdXNwR2JFalM3Zi1saldkT1ZPSWswajFkUktwZndQelM2OWFkRDFrcEdMMFBrS0hIR2RMdmdkc2lyT3d3RlhRVVJlZ3dSN2ZsZw?oc=5",
-          "publisher": "Navbharat Times"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-bd07c9de5e",
-      "lang": "hi",
-      "title": "27 अक्टूबर को लॉन्च होगा Redmi K100, कलर वेरिएंट समेत कई फीचर्स हुए कंफर्म",
-      "category": "technology",
-      "published_at": "2026-10-26T11:24:56+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "27 अक्टूबर को लॉन्च होगा Redmi K100, कलर वेरिएंट समेत कई फीचर्स हुए कंफर्म",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdDFwZnQyMU0wMFJZWEh3M0pnd3VvbW1GZXplZjRYdXR6WVI1ZExKa082aFNVdGliTjVRLTU2eTQ0M1p2U0xHQzNxd0lxZTFwb3VMYlQxcERJenFLRkRNTG1PSTZTeHRmdEFIck1LZW5qbEhpbjJ4V1VMbEcwOGV0R3hKTmo0OVFvU3d0ZjhtUEJ2Vm9xQXZlR0lLVDltbG1UQVRUcUw3amJ2aXpTMUR6M1NyLU4yV3VrdWs5dHBUV1cxaW9qR2Q0?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "10,000mAh बैटरी और 165Hz स्क्रीन! Redmi के नए फोन में मिलेंगे कई दमदार फीचर्स, 28 अक्टूबर को होगा लॉन्च",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbnhrMVFtS193c2t4cE1lWWItaEhoTFk3d0k5QWxUVWhnTUJrR0s4WVduSTVlMUtUeWltZEVwTlhaTkxxNEJDZUJkekhMTmV5S1dGQjZWMFplQm9TSnIxMHJobEM3WUNDYXNzYUNRR0EtSGlmc0QzY09YN3NKMG10QmtBZms4cUpRMzdrR1B1UFIwdFBpeVBCZzRlLXR5d242ejB5SGp5MzZoWkJqSGF5YWVGWTZqTmJSaEZRVTk1VC1TUEJqenR0SXNWY9IB0AFBVV95cUxOUHlMLXB1aFBEbDJpQnpXZFpJc3hvWHdfSWljbzJmbzc2M2JfRFZRckkwcWNBYWVSWDU4S0xpekwtS3FVMTJGRXhSTjNBbTAzS2VFaHl2cHdKSnJlaE92ZFBPcWNBUlJDYjZxUUNueWM3a3pDZDBBYkpGemExcWViM2pCeVpSUktlZ19iUGNUdUJVaFpfXzhOaFFIdWNsLUZ2U2lJVVg0LVI0UVJ1Z2tiVVkxWU1UdEYybmxkOGU2RE9kZHpuSEI1N09DdVU3MnVD?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "27 अक्टूबर को लॉन्च होगा Redmi K100, Bose ऑडियो से लेकर 165Hz गेमिंग डिस्प्ले तक मिल सकते हैं ये फीचर्स",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNS3doSUpLUkhERHZ3UmJIRnVNWVpxNmdQbmVPQWV1c3RFSjl5aHFiY281OTN5YlVDMThISHlRazVXeTVzb3drUnpYajJXM0lvc25YQXMwaEozRmduV3k1dXI3LXBWMFZwN3JFZWhDel9VbXlSRzY5S25YaVBUTjRLSzM2RzlBemc4WG12V2FNRTVRajJHWXo2aUIzQWx4enI4emxPRG8zUExQM0pCTnlMcVd3WHM0RFhXeWhCa2lTMGMwenBualFzOXhtRjhxenRBRlRnRFpiY3IxVVdLY0lic2JB?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "Redmi K100 Snapdragon 8 Elite और 16GB RAM के साथ हो सकता है लॉन्च, Geekbench पर लिस्ट",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQnVfamlfNTdaWHF1anEzZ3pvOVZmME11X3ZpX3RyeHZTMFpfVEVFV0M5aTB2aDR1azFSSFJsT0VUZ2hSajZsVkJrVGZqejYyYjNaaEJhaVc2bXd3OEY0dl9QTmxrSTAwemVTTkRwNEx1R3dSNGdPcFRKU05fbkVpNkwxekY1RnFo0gGOAUFVX3lxTE9tUHh6c0lUVENNLWlEWGczNFUyay01cXFKd0xISTdGck1iQ1BWVUw0bm1xeEk3clgtUzZJeUdLSWJNNDl1Z0VhZHUzdTU2V0VWZ09jaGhYVi16TkFuNTFpMmk0Q3g4TG9VR0hYUE45eHJ2bVlYaUo0dEc2RHNRS1pIMGN1Z044eW1tWS1CM0E?oc=5",
-          "publisher": "91Mobiles"
-        },
-        {
-          "title": "रेडमी K100 का तकनीकी विश्लेषण: स्नैपड्रैगन 8 एलीट चिप, 185Hz डिस्प्ले और 10,000 mAh बैटरी",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcFYzQ1lkUko1andWeGZsT3diajd2MHlfRWxyWlVkNGRKZzduOGx3ck81WENZT3dtMF8taEpWUS1yRXo5d0tJN3dLdm5uVUxxQnBmZ1Q4UGpmNnVCSUZ5bU13ZVQ1eTZsQTlkeHk3ZXdGLV9aVC1DNXZoU2N2SElkWWdzXzNHZUpZLTA3WDJ6MmpOdUpTazR1akEycTMtUHk3Y3poQVRkYXc3R01rRGNJeEt3?oc=5",
-          "publisher": "Vietnam.vn"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-163b30692e",
-      "lang": "en",
-      "title": "Former DMK Minister Anbil Mahesh Poyyamozhi arrested in ₹100-crore private schools fraud case",
-      "category": "india",
-      "published_at": "2026-10-26T11:21:53+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Former DMK Minister Anbil Mahesh Poyyamozhi arrested in ₹100-crore private schools fraud case",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMFdzRDFqNTNBNTd5bl9NeUN2eXZXMkRtVGg2aF83cWtfSVl1ajQ4aVIwNmdLSFMwZy1xbzNTUWp5NUN2Rms1UjBSMnV1UG9QN00xX3JQWkh0am9CZnNCQ3p5NkU4UENHVHRZbG93Y1dEckJ5djZQT3NaV21uRHl3TlFUYkhQdlFzN2VkNFBEdHV5SHk4bG9sZDlCQ3BwM3dITWRkSjZqcUFzQzNyRlk1MjNOS0twRjYzQWVmMktDONIBxgFBVV95cUxNUDhrLTVCTnpiRlptRFJlQVFoTnJmNjlRMmFEbldOZUIxRFBCaHlkVTBUQWlOdXYzc2hoQ0d3djAxMDh6T1ZiU0Z3WUtvQ2VjcVFEUkROU3N3c013M2pxZDVoRG43ZF9aREZGc2VmWUs5VVc4WTM5dGk1UU5mNEpOSlRjNXpucXFjdkVLVThpQm12c0E4YUpEVzlkYmhmaWxnclVTVDh2ekVmVk5Pdk5sZ2V1YkNsWWNxV2lkNnIyUTllRDhZa0E?oc=5",
-          "publisher": "The Hindu"
-        },
-        {
-          "title": "Former Tamil Nadu school education minister Anbil Mahesh Poyyamozhi arrested",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOElCaTc1RmY5V1R1VUlFUmRrUUxveUN0eVRpZ0lLd2tBaVdVazdGOERGWlliOHZET1dwV2VjeS1PN0tKYkloQXJ3UHQ0N1AzSHhhSF96bV96b29PdnhMZzRWSEZQNmt2dTV4Znd2bXM2TUpBRTgxdnBDQS0wdEstMDlaQU1HcHpHcUdveFVsUXBMNXB1MDgxQzJMUlZOR1luTEZVcGtzUC0yaG5GOEJ3SmRsY3pjMGcybGlIOHdLWnJveklKbnhKay1wT2x0c0k?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "Vijay-led Tamil Nadu government arrests former education minister Anbil Mahesh Poyyamozhi",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWVpvbE1SaG50Sm85LW0zU1JNRl9sOVdlZVlBOC1XTHBtUkxfenVER3l3QUxiME1fVmV3RWY3d0dSaDJBVGJzMWdvYm9XWVBIM1pESDR1TWc0RUY0VUE0X1dqMDJnWUljRUhIUlpTRzZnYzU4U1Vqc1N0eU1SZldhbUJJWk5rM2NWTWJNNVFFUFZrMDF6UkNNT013eGpCLUR5N25zM0RHM2lWeDJPMDZJQmZRbkMzTVB6a2FaVWVYQWZJTFZCMnhSZTgxYnNoX3lNcmNSbUZYT05RRXdkQlBLOEtn?oc=5",
-          "publisher": "The Indian Express"
-        },
-        {
-          "title": "Madras High Court Denies Anticipatory Bail To Former Minister Anbil Mahesh In Alleged Corruption Case",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXBkNVZoNllrdzdxOWNvUXRZZWFaVE9seURpU3Azc3liM3RRdzlmQlNLZ1NhVG5UUnBtQVJtWllvc05nZnFjYlRPMlEyeUFta0w0V21ka1Zud3o3dzdNRnY0NnVLN0Z5SVNvNzRxWTZhYXM1c0psaWduNkVFNDduVDhYNTNLOWRyUjZSb2JGTWhpRmNvRVFXZEhURTdXaTY1eVh3QVNibEFrTUhOLUNSdGJSX3VsNzJaZEpvcUxDbl9VRE5ZWlVwd3Jn0gHPAUFVX3lxTE9NYm54LWxJUWZQRkZIcWlnb2xmZUtwNU9IRjJZWHBNcHUxNl9zOEE1ZF82elZhZUxDODBIX0dEWmlCWlFUd0NNYTVhcEhvczBxMG5HdVhTZnhiY2FjRWtzS2FmM0pqei00SnlYbUo4dHlVUzhyOUxRa01wVFFyRUl3Ym9kZzdrbjdjak5VVHhjZ1I4RFE2ZjRvUjhZNS1vSnZEWmlmblA4eHdzRVJsRDI5RmZUN2V4QzlWenNyWGZlS0FzNG50LTlaQzIzdjdXdw?oc=5",
-          "publisher": "Live Law"
-        },
-        {
-          "title": "DMK Ex-Minister Arrested In Alleged Rs 100-Crore Bribery Case",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTUtyWVhtazAyWlpyc3JOMWhOeUM2Y0o0d2I4NUQySWk1YVI3UlAzOEw4YWtpeUVDLUJDYUJsSTRIVlN5aUVQZzVoUm5faEVldElHdlItZjdETVZ5bHNpaTRJQTJWcjlKYWFoazdTZkZnMTNGM09HR3lVOWJMdkhhU1ZBOW1VS0RqZUtiQW9FaGpYSFBZbVluR0g4M1dvZzRLelRFY3NZOFdFS3g1VlhKSk5nLXJuZkdaeW9QNVA0T3N1UkhNVTdoaHJZVEhMNWVIUzRUQVBn?oc=5",
-          "publisher": "NDTV"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-3b0c76ea0c",
-      "lang": "hi",
-      "title": "E100 फ्यूल वाली गाड़ियों के लिए रास्ता साफ, पेट्रोल के बिना चलेगी आपकी कार",
-      "category": "india",
-      "published_at": "2026-10-26T11:18:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "E100 फ्यूल वाली गाड़ियों के लिए रास्ता साफ, पेट्रोल के बिना चलेगी आपकी कार",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSXRndVZsQlc3VnBKNVNFTmFQcksySFE3QkxVanloSW5xWVFfU3kxUXpWS2xSZ0dkNENzUG12bXBFTURYU2s5MlRZakttWEFEVWdoTTNmZV9YNzVyV3RLYlg2RDRESDhIeGNzU3ZOY050Zkk3V1l0MVl2Z09RWndTeXZpeGJBZFU1RU9Kb0ZwV0hubWcyUGIzc2ZUa29wb1VwQmVxZ3UtcmVEeU9GSXM3RTgyd09Ddw?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "बिना पेट्रोल दौड़ेंगी कारें! सरकार ने E100 फ्यूल वाली गाड़ियों का रास्ता किया साफ, जानें क्या बदलेगा",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ3VNSFZBV1ZzaUVWTG5BWjNGNFppTjNwdFhFYWxxRFp3N0xZSDRYaHdwRzk2aC1ScU1LOUMzQVgyUXQ2N1RGdDBMdXJNLTVQbmUxMGtVYkIwSVQ3bTY2bFVhRWJidXYxQ1BERC1wd1BmSDRMcXVrcEw1T3VCUVc4eHBIbk5XRGIxOC1qZ1B2RDVMY0RmT2Izd0pSNFdYRVFpT2tGUTJtOGE3WExxOGR5ZW1KT1RWRnpVeGc1QzNwTDdPQmJ20gHKAUFVX3lxTE5tMkZwNlctU2laSkNYbTd0MUtBSjJQd1I2VERyNWg4WGQ3T0NhVk5ldVhPZjZZRDZSNzVacG1USkd4UEs4cVF5a2JxNnBKMHVPSE9PYmVBRDdRbnZjZ21DVGg2OTVQeHFNTmRtRDA1MTktUE8xbERqSFdNeTkya1JqcW5pa29HUklubEpKYWw0dGswdzdnZ0VHT0xnNnBITVFNSFZfTUdaMUYya3FrMWwxVzFPcjJDOUZzaWFNNE5PM2s0NVdIMk9hLWc?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "100% एथेनॉल वाले ईंधन को सरकार की मंजूरी: सरकार बोली- कच्चे तेल का आयात और प्रदूषण घटेगा; 9 सवाल–जवाब में स...",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQelpzMkRPQVp6WTNRU2lYMG1WaC1QekRHUloxbGdxUnRpWXhEa1J2akRHdnZKd2tUMVM4Tkx2RVo4cHNtYm43dTk3S05HcXlCbm1Ldzl6SnVnclNLcWRLRFJ1cjZaWmFlUFg0WmJ0LWViRDBJcGs5bFZRbEVWUjVfYktfYjJWMmtscy1EdlRHd0x3OW92Vm5lMU9zTTd6WUd1bkhGTW1wZE5FZFRjSEhuUHU0R2hsVzdyRVJv0gHAAUFVX3lxTFBocnROc0MxSVgzZnZzcGoxcTl1OFQtM2NkWENRLXdIZE94MVpYNTlOX2pTUnY3SDVuRW82TzhXbVJpNVluSlBkQWF6aFlpYXdQMVJqcFlDQ2NiSzdINUtqaUI4MkFkanVmS3N2WnZVNnpva25HbGYwQThxQ0t3Q2hoVzlXYVlRaUo2dWNvVzg5NkVWU3F6Vl9wLUpDR1VOeWdCdHNnaENSbTdGeDFyZ3BVVjNMcnlDaHJMUFdsS0c5bg?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "अब सरपट दौड़ेंगी फ्लेक्स-फ्यूल वाली गाड़ियां! केंद्र सरकार ने दी E100 फ्यूल को मंजूरी",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQUdaSldzS2I0dlRHOEhMOHJ1a2oyUG10ZU9seFczdTE3YVZnQXhxTlc3NzZQODZEVVBvTFJxUGp5anN4UUZ6NWxpSnNESFlFZGJGUTZORzZ5YkROQ0JnWjctWjcyaUdvb3VveTAwSVBJZmpmMWRLQmI3clc4Q2k5OFAtUUd0S09mWWZoS3ZiUWQxQ3plWEVucThyWEI3eDlSU1M1VGRGLUV4Y2hzRkhtZ2lnQ3NUWmRlTGxYcg?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "फैसला: ई-100 से चलने वाले फ्लेक्स-फ्यूल वाहनों को अनुमति, National Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZHdtdjdMX29mQV85NUdIUzV6ZGt3dkp6Y0pTRkRiUTRJR3A4N3AtclhYdHpONkY0ei1SWnNUTkstTV94ZFVBMFhtdmsyejlkajdKTlpqTm13SU1KT1k0UkkyY04wSGxTcG5ERVBIWndZc09fRW1KbnJVdlV6MDRQYko5cHJfbXItNDhnaEZ3V29WaEhva0ppUTA2dnlubkE3OTlvU1Y3MlhtT19oX2hMMnpkZTctbERSQ3dhUEJqREViMG05RlJySWJfWDR6WjlJYlJQSw?oc=5",
-          "publisher": "Hindustan"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-a3936b32b7",
-      "lang": "en",
-      "title": "Jordan arrests three suspects over church attack in dawn raid: What to know",
-      "category": "world",
-      "published_at": "2026-10-26T11:11:58+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Jordan arrests three suspects over church attack in dawn raid: What to know",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYVVyZ2g4M3hpMUxPYlFfOEdOVFp1NTYwc3RDTjVaSVEtdnJZMkFUbGdITTdvN0VSTzBVc3oweU11VE9DTk9jUmR0VmR4T2Y5YnI5bS1IOHFscG1ITkYtc25aaDNUNU9xamtYSml4bjlLMlNtOWZya3VlZGF3UHhfR3hSLVdtWU53OUJ6dnJxeDVkZE5XT2htSjdTcUpqdzJnSmhER3VxVVRqVFl0eVNIVEZNelRzX03SAbwBQVVfeXFMUF9DbXEzVjB0RTBUdEtoMmlkRmdoOWhxQTVsVkRrRzdsQkNUQ3EtOTkyS3VoODluM0g1VnlqdmFJWVYtVm9lTWRLU1h5dXFzRHh2RnlmbzFqVVUwX2N1R1pJdkE2aGR0akRBc2pRblZEVEtMOWJ4ajYyN2FYZVhFWm9WM0tNSHFtSGxCeFJMMThZTGs1MVo4UzJTbjNZR1JlaTYxVnFuN2QxTjJCX3d2M1k3NFVrd3lqTkhjeC0?oc=5",
-          "publisher": "Al Jazeera"
-        },
-        {
-          "title": "Jordanian security forces arrest 3 men for deadly attack on church",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY3MyWEltNHg2ckV3MjR5VmhPcW1MNHF3Y2JWbTA3ek9raDZodWlUWHFQZTZDa2UyTGVkYy0wSXcwWXR6bEtjNXlQWG52bFA0UWJHbkNGOWNEckxKaVVLYmw1LVVZRWdYTkJGT3M1U0Z5RzktczVLZjd5clc0UV9mN21YaGlrZmhYVHZ4czJOR0NXQmtMSlVuOTE1V2FtSm1RZjhEYk9JU3FqSXRRRTdnSzhGU0hRS0V5UWJmN9IBwwFBVV95cUxQNkV2Wnk2c2RfbDhqTm5YR1pNUE43Wjl2X3k2TnEyMWZOYXNFYkxoTUpBQmRwM2ZiNHp2cEdvQ3RYSkdqdEMyLVlXRy1xSGFQV2thUlhET0RjenZzSl90WkdLQU5HZnlfQlJuVDBfUmkzeVB3M2gyVlZSRnI1UU5LQ3UtLXFDV3lQVjkySVUxUG93QzJjYmNrUUJuVUtycEN1OGpJYmZSSDBrOUJ1LWlqUkpkV05xdDlQQWNHUnpYdC1SQmM?oc=5",
-          "publisher": "The Hindu"
-        },
-        {
-          "title": "Pope appeals for end to hostilities in Yemen and prays for Jordan attack victims",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX0FwZlhnb2F1X3hMQU9Ec01tY3ZyYTJEUjFxOGU1SC04eTF5cmpfc1czanBENzY2R0YxSlF6QzhSU3R6eF9OdlVGdFlqczYwejRFdnVYbTc4M0ktdG9rNi1HUUJtcURURkt3dHVHNjJOS19VVEZTOXlmaXJ4Zl9aMTh4MFM3Z19LbkZVckhoZks2ekNVN21jZERsTmY?oc=5",
-          "publisher": "Vatican News"
-        },
-        {
-          "title": "Jordan forces arrest three suspects after shootout over church attack that killed nine",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYU1tUTRuTHpYTG9nalpsdnAxanA1WHJnMkVCYWR2RlZxMmJzanU4dE5sbkw0OWZiOHF3bVN5WjJrVXBYN2tWZWttTExIUVlMMUZCZTVLZWtOQXBjMzlRRjJDTl80RUo3R3Q2Vnl2VjlDYnpGQVNqMnJxSjRZV1Q4R1VRb1YxNzQ0OGxwbTFfZWRJN0lqaEFzU2Y2Tm9naW0tTjhULVZIc3c4TG8ySmY4RWpQQUZrWS1lakhqSWFFWHc5emFNOWxkNmxNMHNCLUkz0gHWAUFVX3lxTFBvYmw2dWFNZFRDMW4zQXJhZ1pyX3NmVnRjejRTZzFITjJJazlVZ1E5d2VDeFp5dWFRei1hem1qV2gzZnFuRXdhdDVQR3poQmtlRXNLa3lQOEg0X3Aya2l5UDZqNFhEVDNtUUhEQWVGc093NFQtaWtsczR2VnNwMWdqb2VBbGM1TmFXeEdTRjdNSlVyZ2RDY1UzWnVqNFY5ZGFOdFNfYUtqbzZ1SkRFOVdoMDJaTE9RUGdzNVFFRWEtN29jbTUzQkJPcEFzc19OOW84azA4YkE?oc=5",
-          "publisher": "Telegraph India"
-        },
-        {
-          "title": "Jordan arrests three suspects in deadly church attack",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNmcwQVQtcVl2Z1o0b3VLSGtDbXJQRzVUc2VEZ0Q4ckMwbHBrLUxmVnRxbVlVZ1lVbTRyelFTbWsxVGMxNlZTVG1lS3NNbXhyTTE4aF9jRUVsUkVGQXlWbTVhMWg5a0hKOEEyb1RYaE1tWElwWjN4amRuYURjZFRaT1U1U2lXN0prNFYySm5LY0xOWUxZalNON1psa9IBoAFBVV95cUxPMktfZk9IWUhJTWd2bkhKYnFfQWpHMFpVZVdjNXJhT2JYRHRVSzhlbGhWVUk3R3d2VjczbWVEa2FEYkVaR1V6cUpPZUN0cXRWS0dCZU9GRVdaY2Q4LTU4N0diSlFfT3dpUmZoUURRRkQzZlV4UUpudVVfRXNjU0I1Q1dKMmVJUkdxbzhBYUN5Sk14T3RKX2tiWGpmU1NiTVBB?oc=5",
-          "publisher": "Al Jazeera"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-0e49a67936",
-      "lang": "en",
-      "title": "Drones, guns and missile shields: DAC clears Rs 2.12 lakh crore defence proposals for Armed Forces",
-      "category": "india",
-      "published_at": "2026-10-26T11:10:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Drones, guns and missile shields: DAC clears Rs 2.12 lakh crore defence proposals for Armed Forces",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORndFRC1GSk5kbXNWMUZWV2NGcHdNVDZQcUpzQktrVzJiZkhZdnRSSFI1RjNNTkpxVThmT1F2OWVfRVhPbDdBR2FGdk5KYnJYSkoyQ1MtUjJmcWJjd29Jc1JOOE50XzZsVEVEeE5iOTJhWVF1cGktSlBnMDc4Wlh5RHZCSHhKMGlGdGZHTjM1akROYl9xQ1ZZaWZadjVicTVZb19GYl9ZTDhnUmlBQzE2blFWeVpueThjdHEzazBaYVlreVZrMDBYQ0ZHdjNSaFYzVGxqVnlzaFJUMFNDNU91ZG41c1NMSGxNMHdXVkc4cFJuZkxLejd1NTE2bWU3Y2N0?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "Govt clears Rs 2.12 lakh cr military procurements",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNE52eDNEUHZsZmZDX1pFeFFDV0dXZEgyaFZHbG1iVEZLVjF2bkJfek5IV3ZlMG1tdldaalZmUWRqQUNtdF9yMDZtLWZQRXRTT0ljdEpuTXdpQ3k2TFpBWUh3NWh0R2VVSFphQXN4ZV9nOFBEckoxR3M4aGVxRnJTa2ZGNm9GeVJxZFdUZUVVcDhWeWlSd3hIUlh0YUZSVEFibjVQWjlrSTlDeXBBeTdQSU9zOFJvLWpvZUlhT2NPR25IT3BMa0J5dm0ybw?oc=5",
-          "publisher": "Rediff"
-        },
-        {
-          "title": "Light helicopters to kamikaze drones: Centre clears Rs 2.12 lakh crore defence buys",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd2NTS3ZMUkFfTHRKWU5jdENCRHlwZUtJeElDR2poZzFmVHFab1lPVTk4cEtmLUJTTEZQYVNUdnhHeUxfQzA4bTM5TURpVnluRjdJYm8zLWtuT0FpdnpxQzZYdDVSRGdoM29ITXZaOVdkTHR5UENPVjJMVDZaODBRMi1RSjdoM0RxTE10eVFNZ01YT0RzUHBHSm1TVHNnUFRFUi1HZzd6SXl0Y0xRT0Vha3Q2a2hrdXp2UVBqTzJoczJ3SzZXdjlDLWdwdHIxZ9IB0wFBVV95cUxQa2ZtNGtKVGVPR2MxZm51LU40Zmt5SWFzZzVWQVJxSGJ6bUlNMmVPcnhTMG1ILXMtMUV5NzJYQ2k0Z3RjQ3RNOVp2YnJQcW5PZmZRbTlDQ1lON3puaXlWMHl3QVBCR29YZDVuRGtObUNZZWJTNzdLdXhLbF9UdTVVQ3hRVTkxYTlQU2FkQnFVODc2OXRsSUxDMWtGNDFnUDRELVg3Y2U3SVhsdTMxRUlPM2lVYm04TjlaRlNNdXJUeEc3RlRwaFNTQWJpODJBcEZ1TFJj?oc=5",
-          "publisher": "Telegraph India"
-        },
-        {
-          "title": "Rs 2.12 lakh crore defence push gets DAC nod, 82% for Indian firms",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSHVBM1Rzdm9mbUwwbFFnLWlUUE1wNVZlaHlwN2o3NVNMdmh2WUtCUUpFSlNyUTd1dlVBeTBfNk1PWmpoVFpPQ21GN1FPa21Xd25zR05pZHFjbHozNkRFM19XUUU3SWNOMmU0ODVlY0NBQVFIeHd6WXNKQ2V4S3JpM1Nud3lzd2V1U0lQZXh5VHlVOWxmUWU2anVia1gwZ09lMVd3WHkzaFduZjZIbzhpZ0xmTkd4M21PekdTeWZ3WDVqTkMtUG94dl9kONIB0AFBVV95cUxQaXdHa2FhampHd0pzVHA1Mk1QYVlUMUVzc25VSllVV2JZRDl4MmhCODM2NmNqRWM5RlRkS1I4WUNvY2w1Q0dXeldLWFk1b1V2cEQ0RDdHZWFLTEhRWWpENGRJX2t6SnRUTnNsbnVKSE5kYXBUcXlBc3hVZzN4QU82ZGxkbzVIdGVVWWxxRXZYRGE2SE40S1FPTmVYVU5jcmpWZE5HNHZBVkl5cDNIeEVGWTM0MnV6aU1SS2xhd1RsSTI1cmtNN2FOSjhRSjNTQm9C?oc=5",
-          "publisher": "The Economic Times"
-        },
-        {
-          "title": "Kamikaze drones, attack-ready helicopters, missile defences: Inside India's Rs 2.12 lakh crore defence acquisition plan",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPam1LcEVkSS11a0JOWWdaSmxiVlliUWhJNGd0S1RKT3gtWXZnZk5FTnppV1RoR2Z5bHlQbG5RaVlVb2h3d19HdktZRUZoMGMzeFMzZVpQdTNxVkFsVFhBLVpxZl9GalRQaFRuOVZid195RUdaWUtIbUxwYnVIZWlOS1laRm51ak5NcXljVVlvdWdsNmlySlVZUDZEdU5kaGV2VDVZaVRyR253UnV0NGZpeTQ5OFhMQzBHQnZ1Y3BuX0dTVmNrNjlTNmZXdnRmYi1ES1B5UGQ5RzBSY3NCdjc4amZGR05MYndDOF9fNG02ejRacU5TbmgzN1V3?oc=5",
-          "publisher": "THE WEEK"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-2947276528",
-      "lang": "en",
-      "title": "Cyclonic storm 'Arnab' to cross Andhra Pradesh-Yanam coast as very severe storm by October 28: IMD | LIVE",
-      "category": "india",
-      "published_at": "2026-10-26T11:07:23+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Cyclonic storm 'Arnab' to cross Andhra Pradesh-Yanam coast as very severe storm by October 28: IMD | LIVE",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbTltYVpIbmVORldiWVJMaUFsQ1hzZEk4elpBaGRLb1VQdF9vc0JDSGZiaGRhUTJqdi1LT3lhYU5kU3gwVU9rV2VZOE5CSF81TmVKOHQxTkdiWXAyakl0U20zTHBBNmJtSXZENmtXQ2plem50aUF0NUZsak01QVVyczhxeVJhUGxfbU5teVdXQ0xtLVo1N2hSNFRQRHZjTXF2UHJldjktUDhOQVo2RE1SYzhpQkpDc25JT180bkF0VmxkczBaTmpNM0ZVQjhMMlNRMjBsTVhIanBEenhZNGVqb0lISjM4ZmtIdzIwV0R0YmlZUWZjT1lVVFBUUlU0MlZ6VlE?oc=5",
-          "publisher": "The Hindu"
-        },
-        {
-          "title": "Odisha bans fishing, tourist entry in 6 districts amid cyclone alert",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVTk2VW9URHpRTzBjdWxqNFRUbHY5a1JGVGZDbEtRUVZ2QmhpVndOa3kxbU9TYmlZcmJBNFRqNkJweEl0bkZBTXZyaU4wVDdRNHRubUt5SDlnbTJLMk1iSFB4Mjc1MjhRNDJNb3RNUXdEcFg3TXZmNkdFZW1jUWlHTTJILVZrdVU0QllRYWNER2RpemxPUlZYMnVERGEwOEVXekhlUG5tdEJSeVZwMFcyQjdRaE1zQ1NpNEI4RHZHYTA0U1RPWUM1MXdtS2tOY0hnbVHSAdgBQVVfeXFMTnlkcjlla1hLYXh4MlhJRWtNVWx3QlFMaHRMVFdzdlkzX0p3dmdIQWpETU0ydFQtSU5TN1NPbU1fTzduWS1ZLVlnZThRMnBNdEQ5QlJCTXliS3VJZ2hEcVdXTU1WaUx3R3ZYLWRfZG9wMFp2S24xUXl2LWxOWUkxeEhHdjAxQXdsTURfdzJnS1R1X2UzbVFSaklUdTBCcG1keTVrQzFESFk3czEzNlp5ZXhMSkttV001X3RjQ1BqcEUyeXBfRDVsVlRRbUNFVVpZM1NHWUxla09S?oc=5",
-          "publisher": "The Hindu"
-        },
-        {
-          "title": "Cyclone Arnab closing in on Andhra coast, 4 states on alert ahead of landfall",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ1BEWERFMU84MVJBQ1lJSGNOZWRCVTU3dmRuQ093NS1ZVTBkWGZMVEZHVUt3UmQtWFBJMVdrRmd1YS1rcGR5VWRYRU9uWHhvYm85Zkp3WVlzOFRwWFBraHVaRGhrQnpYVUJ2UkhKQ0JfUXRXS085SEFpVnpzV25rMEoxYTZEOFM4djQ1cTNyTHBUODhJeENWRlNHRkFyUzJ0NVpzNnAxUG9IWTd1NUxfQkJoRE5VTVZlU1hCUDRSTmRSRTkteUw5R3FLLTE1ajlXVEpuT0dNNzVjY3NIVVVJ?oc=5",
-          "publisher": "India Today"
-        },
-        {
-          "title": "Daily weather tracker: Cyclone Arnab intensifies over Bay of Bengal, may hit Andhra Pradesh on October 28",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZWVCNi1nVzB0MDRLS0dqc21ORHVzWktacS1kRkZfaWllVmE2WHplSEhPTV9obHRFaVJpTWxROGxxWHZBa1VwcnVrQmlGNWgwbXVma2o1ck1JdUlFVmxlZjdWUENRVk5wdjdDQU05MUlXNWF6cm52SGk3bHFQbjJXSFB6Y0tvcTVORGUyZGZ6MlJOcWtzSk9SX2hJeUNmQmRhU1JZM19oc2plQmszMll1VFE3aWduN0lRVGRpU2hYNUVGZ3RlWS1VY0lMSjdYU0YtbzBUZVBNRmJWczlsVGhod1psRdIB8AFBVV95cUxQanVBaFEzM2VhcDF4Zk96VG5YVG0xSVkwUWdwRjB3a1V6UTJFNWxlZ01yX21PTDI3NktaOVVHTEZIWTk4cnV1R1dYZGFTaXpab05JQ3pXOWt1WnBITmNYVVlrOHBMNkxaSEVPMnRVU0hPbk03SHNsbDJhTGRycnpTckFOLVVBdnlsdHlKSzUydGoyQVF2c1Rtb1VmRFJXRHNMY3hqWnNsenFnMDNNNzBDOEttXzEyQnNWMERmU3RaRWNwTDJDWTZRS0tid2tmOWg0Wk9HNERCUWNiRk1PVVE1S0ZMOGk0dW5HZ2FCRVNCclo?oc=5",
-          "publisher": "Down To Earth"
-        },
-        {
-          "title": "Satellite image shows Cyclone Arnab moving towards Andhra as storm intensifies over Bay of Bengal ahead of October 28 landfall",
-          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNaks4SlZTZTlmMTNhY1pOdG9rMi02TEVvTkNGZWtOTE5NMGRBaXEtRTRzNXZvYjBrN3ZvUV9JeXlxNnRMRGVNM0FyR0tCMkFhUC1aSmRIaFUzOWFoQzhvX0c2QkhUT3ViTW45clR1MlJMblhwYjVoSEFXYVJLYVR0OWlvbm1uQlRJcUpfdkVoRUx6T2RtVzZnVGJRTTUxaUFFbzRXdG5KUVAxZlJlWWhzcHRpU3BtSjlsLVZQNHZfTkhzX2UtVEJ3TTA1VU9tb09MRmlmOFZiV0w2ci1YLVhsZHBoR1lVTjJ3X2dQLTBPOTR1VDVXNzA0NklaTUZic0FJU1RSVnlzNm81ZzhnQzFrOHYyZDhkNGZQbnNuMDFXOFJVcmJHaFVrWHpzbndyMms?oc=5",
-          "publisher": "Hindustan Times"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-6e55cf881a",
-      "lang": "en",
-      "title": "Sammy hopes for strong WTC finish to boost West Indies' bargaining power",
-      "category": "sports",
-      "published_at": "2026-10-26T10:58:45+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Sammy hopes for strong WTC finish to boost West Indies' bargaining power",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWxrcFZvS0UxdzM4amhSbjlNYU5ic2R3R1c2d2NGRzlMSUNrREMtUXdiNFVHclVjeU9OWXRyXzh5b09yQzBmdnVLcWs5S2R1X1hrRmVQajhJdzVHQUVoMGd0M1loNnE0SmMtVEN5dXV0VWtWeTV4WFdkaVhNVHNwOHZudW1wLTFSelBFX09rOFJCalZneFpfRHZDU1ZieWE1ZHp1cjNaNUhVNlVEQjNjZ2JwY2pZakk?oc=5",
-          "publisher": "Cricbuzz"
-        },
-        {
-          "title": "Daren Sammy Says West Indies' Swagger Is Back",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUXdjYVNOampQT25kZUd1dHRRekdPS0wyNkc4LU85VFBkelRwaVY3dURBMVFtY0liUWVjT0xNb1hTZ2prc3lBdTdCenh2SVVXcF8tSXBnYnpDZENudHNsTDJFZnBNZVVaVGtsS2ZiUGxhd205VVlXSng4alNpekdaMVQ5TTFCMWtqandZNGliQlNHVzRWbDBCUNIBngFBVV95cUxQMERBbjNBSjhxN1ZnOHpWclVDdE55SEY0TU5NY0ducWFid3hZeDVGaUpDZjJqcnJZSEVvV3JhamVOYldJOERzUkNfUWpVREZQMmE5NS1USmZSN1Y0TEtLdFJaTHZGTnh5RG9UX01sdHJmSGFNc1dZY2Rqd1IyZ0VCZERKNXZUTzF6VTVqQURoVF93blNDNW51S2pfWVUzZw?oc=5",
-          "publisher": "Rediff"
-        },
-        {
-          "title": "Daren Sammy urges WI players to focus amid contract issues",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFBpQzJ1QjFNOC16MW5TUDZwYk5TcDMwb2dRNFNTeUNKWUpKMFNBZmxBQ3BDbkw0b1hXbmFicHN3eThjYUFaY29NZEJDTEdETFpoUFBFd003QlR6QlNvd2tDNThjWU9xOXV1R3ZYMU03TlVvanJDcXRVX1RvdTNsN0g1YUt3RzBoUWQ5LTJBYUY?oc=5",
-          "publisher": "NewsBytes"
-        },
-        {
-          "title": "Sammy pleased with West Indies progress",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE02cy1SWnlDNnNSZmpRbFdXUlhhdXM2SUtvd0luWU54Z2J4TzMzeEpWT3IzbFJtd2kyU3FtT1lBekpySnpWNWNnNkxScWNaWnZJekN2UUlFX0MxSllkUkZoWGV2T09aR0c0T3V0azFWQ1NkaHZ5aXFEZHh3?oc=5",
-          "publisher": "Caribbean Life News"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-75ee0d4766",
-      "lang": "hi",
-      "title": "Kia Sorento ने लॉन्च होते ही मचाया धमाल: पहले ही महीने में बिकीं 1,739 यूनिट्स, कंपनी ने दर्ज की रेकॉर्ड सेल्स",
-      "category": "business",
-      "published_at": "2026-10-26T10:57:33+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Kia Sorento ने लॉन्च होते ही मचाया धमाल: पहले ही महीने में बिकीं 1,739 यूनिट्स, कंपनी ने दर्ज की रेकॉर्ड सेल्स",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPeVJZX1AxQXRpU0Z0emF6NFdKNTRhMURjZTUzRHBUVUEtX3V4Y1NiTm1ZNkVNSVJ1ZTEtdk5HX1dLVlJDNXhHVmE4SF84cjRKLXVFYUxqNzQ4UlVnS3RWMW9xTkoxcGJ2a09TOTA0d2RZcnJpTlItZDB4WkRlZDYzYmtuRk43dEV5NDVsTGpibkREOGhnWWtPVVloOVdsdGI4MjlSQy1sb2duT1Q5Z01BOWVCc0VYeFpyazhPVkhkMDcyb2FmYXpaaXF4UmlVb0xTZ3dmT3k4RnU3OEFxazQ1eTAxYXhEc01zVmZvdFFBOEN5SUh2Q0N2WG42UFhIRlFiOEhKeUMzTy0xejDSAZACQVVfeXFMTjNtOWhvbXl4Q3FoZHdDMUVXTUY4bE1YY0Fob2w1Nzh0LUNHZmZOUWotOXpOT3NjcWZIaTBnUDhhMXlXNmhBVGYzLVJyd0NWSkxfQlFpZS10QkpxVkhtNzFnYzZTanZwTElIWG9CWE1fMmZGeGFPMlNaZWNHVFZVeFNWQzRvQlVuelZYZTNXVWUzamVtaF9RV001NlNVSW9INVJockRHU3VDVU92WENhTFNqUDRsQXFyMU1fVDBxNWtrbjgtUXJGQ1VMTnhlSjJ2cWpPTlVNX1dBUnJ2WkUtV2FWdkQxOWc4VV9zNTlEUXJRN1ZlZTk5a2hrakF6cFhiQ0VIRkNrWnJHMFdVY212OTA?oc=5",
-          "publisher": "Navbharat Times"
-        },
-        {
-          "title": "6 एयरबैग से लैस, 11 वेरिएंट्स और फैमिली के लिए एडवांस सेफ्टी मिलेगा... 6 महीने में 67,667 लोगों ने खरीद ली ये SUV",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa1RKeWpQZTFRLUN5TEFfakg2SWd2R05TRGVZZEtCdHdvbXJNUkVjVkdienY5VnUwcy10M0NSUldIVWdoT2FOVmtQbG5uTlBtcnZBSGJZbVRoU0J5di1xblNxa1RMRC1kVUJTSm91NmxZSGFDSGd6bjE3VllaTXh3bWxMYzVjUEpCX0FhTmFSVDdaY2l4ZjNHWG9IazB5Z0R3QWZ3MS0tbnNKYS1WVFZqTk5ab3NCYzlULV9Obw?oc=5",
-          "publisher": "Prabhat Khabar"
-        },
-        {
-          "title": "किआ की इस SUV को 6 महीने में 67,667 लोगों ने खरीदा, 99.28% बढ़ गई बिक्री; इतनी है कीमत, Auto Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS1dzM3kybXNSY0hxUkFwc05wMVR3Zm9rTlZSMXVBVm9fRlNWODJoRkczNHNrY0NKbkVTcnRTR3dLazVEcXNLSlhaOUp0dlJ4bzNnYXEzbFNqU3p5amJodzRoM0swVXBGQlNLWnhiZ2dBNjlPWWVYcC1JR2lBaXJNS2M4MEk0cksyMkd6WUZ3R2V1bFJweEl1Ym54VThBMXBncHl2XzdB?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "10 एयरबैग की सेफ्टी वाली SUV के दीवाने हुए लोग... पहले महीने इतनी हुई बिक्री",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb2szN0syb1RDbWVyMWI0WEtjeW9janI1b29WVUNxclFDVTMtZGcyclZwRzh3azdZQ2U0WjJ3dktTckxmZFN1bWpLZWhRM2FZakg2TEVyb19fTGFaNkF0MDdSeFo4V0N0VXBpNy1hV05aZ0p1S0dMeVZnY0phZWl2bEtXdVJVMmNIVHpDZ2RwNHpVTXdhVXVSYUFraFRVdnhqclp1Um9fb0I2Nm5QVzhPNklBY0tsdkI50gG-AUFVX3lxTE1QZ1dzeHZ3cWF3QWZxSWNKYXJ5RGgyXzN6NXhheWpqSkFHTkxYNWdjU1U3SWZweURHM1FZek9yY3NkOGtRSGNYTU1CbElkM1ZzSkRyQmVoUWtTTW9DNmpDbVdNU2dIOHpscHVydmZ2c3dmdW1XcElkU3N1UGlzZEQzak1ZczFVejBaUllJSjF2MUFJaW1CbzNsZHFOLXFpVEltamZ3RTVSUmpYS2lxMlZYUmdEcU80b2VXbDFQN2c?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "360° कैमरा, वेंटिलेटेड सीटें, बोस ऑडियो; लॉन्च के पहले महीने इस हाइब्रिड 7-सीटर को इतने लोगों ने खरीदा",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRVFTd3BTYXdRaWhpc1diSEdqclpxRFRCdTRZTEpKWGZSZWVsZW1PbzNfTENVZUd5RE95UjlWVXVDREgza2FBRnZleU9kRERfTDNqcmtpNGlqR3VYNjVzWFpSb1NRcFBqaUJHWHR0M1FQd0ZiMFVlam9vRUVCdWJHVDBVZWFfMWJLRGxrME9nZFBiU3I4c3JGSGR6dTlhdk1mRDhKa0NWSTB6UHJpOXIwWWZEV1ZvcnNt?oc=5",
-          "publisher": "Hindustan"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-ab5f831e65",
-      "lang": "en",
-      "title": "'UP Police Need Education In Investigation' : Supreme Court Orders ₹6 Lakh Compensation To Man Acquitted...",
-      "category": "india",
-      "published_at": "2026-10-26T10:53:26+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "'UP Police Need Education In Investigation' : Supreme Court Orders ₹6 Lakh Compensation To Man Acquitted...",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVjlxbjBCSDFzVmpJLTZSZkdkaGExdmw2NWlzRTJHcjRNNGFBRS1lNU5sNHNSaklzNV9WOHAxQ3EtSkZUb3RNMGIwc0Z0aEtPUFNXRUt3eEdWc1JTZmxoVnVWSnVrd2RjYzZqaWM3cTI5WXljMlBLSFJ1SnE5SGV2NW1iY2hkcGFCdkN3TGpGY2FGR3hvOWtfQjBfVkxJY2o5X3BxeklVZnlvSi1jUmR2eHl3VzR5QWZ1Y3ktbkliclLSAcYBQVVfeXFMTnJ4WkdZbjNReW10ZG5qSTZ6ZXVTaUJac1RBRFZpS0N5MUI1Q2w2b1FkWjRDMUVYZE5wYlJONkhXaTNucktyY01KUTFjaEszVXUtM0w3NlUzSV9aMFZIeXRIQkQwcHk3N2lUd2hFTEI5bzdldEQ2UFlfc1lLdW5HbzJrSTE0ZFVnZ1pVcUJBclBaUHpBWnNjbUtwY1EzdHNyT0ttTVUtSzBuYVF1WDdWbzlXMFpQRWtSenpJTWxpeXo1amd2ZmpB?oc=5",
-          "publisher": "Live Law"
-        },
-        {
-          "title": "Supreme Court orders Rs 6 lakh compensation for six-year undertrial custody",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYm82d2FNZFU0Wi1wU0JqNWVtY1g5Q3JIcHk5MldERl9PMzJlTnk3U1JUcWIyMV9ZZUVlclBQUlRfSGlqM2tnLUR2NTd4ZVlpRDc2M1dPMTBMRzRPemNHenhRNzZENDFkSHFNWk56Y2VyUEpnWU54WjVyUVNmTHZURTNuMmlWOWViNEFkc0ZTQ2YzaU1rMEpTMEpMT2lXTjFNZGt4TW1PMlE3UERoQ3BKYnpOYk9oTHlpTF9qcmgtSHRlUlQ2dVVpVDhqaUgwUGFDQ3U5dFZTeEtpVjZlSndGUk5FRQ?oc=5",
-          "publisher": "India Today"
-        },
-        {
-          "title": "Supreme Court Orders Rs 6 Lakh Compensation To Man Acquitted After Six Years As Undertrial",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3a2c5bXBkZmJ1OEc1MVlOaHpEaWtLWW42aFNqMTUwX1dWNzZaMWZhUUxBbGp4SlRud2ppM3NtTXpKelYtY2QwUjZELUZTSy1GVW51cTZFN3VsNjdadGVCSGpYWDVzc21nX1l1ZTR3WWpxRllm?oc=5",
-          "publisher": "LawChakra"
-        },
-        {
-          "title": "6 Years In Jail Without Evidence: Supreme Court Orders State To Pay Rs. 6 Lakh",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SZW1SWm01cmxQTTdWWS04Vi1vcHhVMHhob3gwWXFWOHhwc05QWnFieDBCRy1QMjIzNFpsa0s2TlhZVWNXSUpoX2JTd3djQ2djQS1wNTh1eGNoeFltcy1MTWZpNGpjc0c3SkdpejVaWXFKWkttRTJkX2ZrenE?oc=5",
-          "publisher": "Juris Hour"
-        },
-        {
-          "title": "‘Educate Police Officers In The Process Of Investigation’: Supreme Court Orders UP To Pay ₹6 Lakh To Man Acquitted After Six Years In Jail",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQeGxOMGdrZi1oN2V6RnBUSHo0WnpHNV9ic2ZSOWhpdFhLeHBweTYzbU5GNmNWZHB2MFg5UmJPVG9jMGJfd2Z6RDRVdjZaWVBhb1VPSW9ubnJlVl9vMHRJOVUwaHVXME5Sby1uS1pINnpQWFlNUS1QRzQwOWJjeVBjNEkzaEdqdkxXSjJwa3VzNldaeE85VXFCRUZ1ZEE0eFQ1eElVSm9CUGFEUU83QWQybi1ESHNzbDdPQVhwRTUwZ050M01MWXd1SEprWVNfczJPZDY1SWxQNXhlaWN2blZoVW12YWs0QUttTVliNTFaamhTSlFPdUMw?oc=5",
-          "publisher": "Law Trend"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-7a9b3e1423",
-      "lang": "en",
-      "title": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
-      "category": "world",
-      "published_at": "2026-10-26T10:49:35+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbjZqVnhxNmJJMDNWWEZkYjAtSWVxbVBKZENjMDZqd1JfcGpWdUhWdGJ1S2tHM0lDcEp0clVQVUV3Nl9mcjZqVGJ4UWdENU1CSGZmMEdVMml2T0UwOU9VTmZlamhxNDlOa1VENzl0Z2xITmNnbjNMTC1uNndyS0hNb3hoUUtPUzgwU0lhUTk4Zk45YjZWZnFwY295RXBzbEJPTHR5ZTJ6ZGJ2RHM1WmkxU1czc2VlWjlESzU00gHAAUFVX3lxTE04TzhkRlV1Ym5FMms4ZmVYY05fOWxfeExwb181SW1QTzh1UlVfei1nZS1FZzNIcURMMFd1Z1cxSDZxY01MV2Z0S0tCYkNQUEFmNHg5bEpCMnE1cWlTd1BtVC01cHZHUDVsOVIxVWZaMnBpaTNMMm44UGpHVW55U013RmxtY3FtTGpOREJ5UFVpWUtWb2htZzRGYWRSVFR6R3F4NVkyYWRUaTFHd0x5dHNjZFQ3WHI0U1NIRUtxMXFvVA?oc=5",
-          "publisher": "Al Jazeera"
-        },
-        {
-          "title": "Iran war live: Saudi, Pakistani and Turkish officials in Tehran for talks",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRHlMczN4OHlwQkRhYU9rV05TLUtVS2pjaGxWTXMxTGs3RnJNUWFJYk1KdVlPZlhpNTVKYnE1aGZ3N0U0anluNWI4RHRUcGo4c1NJRTNhM2I1UXJWa21TRUIxWmtIMXBVSjlObUxDU1hhTEdkajAyTmx1SnlUSkMxNXhzLUpaNVpFcTVxOTBBWTRBZkFUWlo0blNYRFRIWUhRbkVxc0xRZTBOTE5McXZzOUwwTHBsdm5hQTlTLWdB0gHDAUFVX3lxTE96a1VjOTJNRXBMNV9HZ3hDN3BXWkRDOTVkZ2FVazI0V3R1TmZveHo4ZzJkUS1ONGt0aTc1MW15cHVwU08zaVEtUlhDa2k1dWkwSUhCU2RWRjh2OF9ZdS1pVk9Vc185aGhEZzdCWTUyVkRzQk9ucDJqc3FRWThJRE1NN1ZaVHdqXzRIYlc1bFFURWRLdVlmWVpJUFptVmpySGhnSW1teUI4NWc4TGt1U2dGVnZCdEYtX01HYm0yczZxTlcydw?oc=5",
-          "publisher": "Al Jazeera"
-        },
-        {
-          "title": "Asim Munir returns to Tehran as Pakistan, Saudi Arabia and Turkiye seek to contain regional crisis",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcXNrdmF2Nk1Oa1VmU09yblZjVy0xWkVBaGs2eVFzNno3enZpNEFpZnpiRkFwUHBIaXJnLVlBcnJUblZ4Zm9JSEpTVXhZRUtsdmtMS2ZwWFAxVVBlNjB1NTRSRERBc3F2Z001NHVXZFBsbFAyMHJhakNrcW9BdUotYjVhcUdKV2dWbzNlRkNWbGpNeDFJUFU0V04zNDEtZFBwdGx5cGFtRGo5YjNIZWVnSmJ6T0RsSkFSczFzclB4VmlYR3NkenRodTNNbjhxY1h1dnhEelVyb3dNU2t2aXNJ0gHkAUFVX3lxTFB6MGhMT2lKcTZ6SFd1MHBTeGU0ZVFldVJlVkxKSGNRc3UtNXh0dEFXVXlxVl8ybEF4dHZwNmZCQTJBMFRDRGRiRWpDNmlQM3QtVGtVT09WUFVpWlVYOXhNajhna0NBWmFxRXdmUWFyd3lDOWNkc3lBQXBFMzlrdXB0MEY1VjRzNDdDcTZ4OE9KTEkzVVlTOUd3VVA4UnhLWnFtOWxOTzZTVXlmUTRoVld5ZTNEanhobTNka3I0b3Q1b3FGOFFlNGtKUVdLZDVvc0dRWjN5UUJJNlhMek5FUnIyb0E2Tw?oc=5",
-          "publisher": "Telegraph India"
-        },
-        {
-          "title": "Officials from Mecca pact countries to meet Iranian officials in Tehran",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORnpERmd3Z1pYM2xFeTBMOEVnY21scU00QlNJOTdFdE5wbFhmcjdQU1ljTk9vWlJmd1JKdDRvT1p1LVZLT2hpM3h4UmVKYTRhTkJnVmJKZFhkRmFuUF9CZzA1YXNON1VmQ0ZOODVVTkJDZndUUzUzRUxEZmdDa2YyZlA4N1IyVGVCaVlNN2lGRnVXZWxQeTVlYTZnMmRJOHhrRGxYVTFNSXNEZTZfOGhWRGQ4RVlGSWNyTXZoSi1Zb1N0VW1EODBSdFBn?oc=5",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Saudi, Turkiye, and Pakistani officials to visit Tehran for security talks, says Iran",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNekd1c0dhcGF6LXRwVUg3VDZDSTNGZnZzeXNoaFVBVklxZURtcXFoaC1vblh4clZtZng1MTFGMG5iRVBoY0VHSVJtYngwNF93QTBPNXJYMkRPZWVRcFdTdW1UZ3RJQm5IOG8yMkpsUXl2VmtnS2lVRFVIQjZST0dRc0dRWFpQbThzRjlGck9GNHBlQ2NlRTExZlhyZ0RZTGJMeXZubVFOc1VEdDVwazFxWjBZNkU3SGljOVFaZDJSaE5laUZvN1lIdjFvbm51Y2RSYV9JUG1jUWZJWVhxazV3?oc=5",
-          "publisher": "The Hindu"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-6fe65a088a",
-      "lang": "en",
-      "title": "Does air pollution cause dementia? What new studies say on what it does to the brain",
-      "category": "health",
-      "published_at": "2026-10-26T10:47:44+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Does air pollution cause dementia? What new studies say on what it does to the brain",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU1F4UzVYb2Z3OHdudEYtUEhHVWpFU3k5Unp1RU1EeEVTcnRzWDNjaEp3b0FrZGpud3Z0ODJ1OUVaYUVZQ2NiaGRvT3NGMGhqVmcxVjNjVl95enlYYzNHNzdpSlcxaGRBRTdyUUtxMUJuQjRCSzlPcGJwX3JBZ1dSaHQyTFpmZUhsU0Y2VTRQS29sTTU1M2FmdElTQ1hXVkhWLVhzMjZ5NjI0bHBBRGt1c1BaSEF6QTVWbFBmctIBwgFBVV95cUxPUkVIV1VYWXdwWlF4WVNlZTdqcjItZGtWOVROd014MlVUS1NNVVpmcm1TbUVHMGs1RlMwTlN0elRDTkg2OWpzNnVnaHVhYzRXSEVTd0x0SXd3RFBONF83eG5ULXpuVE5Fd0FGRGFhc05ieDZnQ3JDcjJMdUV5X0l4NGZFV2UyUUdibFgyc0tiWVZHX1Nibi1UeHQwT3RVZy1vUDRadVQ3UlpVME9LbmFKd0xSTnV0Rlk5SDBPLWJXOEVLQQ?oc=5",
-          "publisher": "ThePrint"
-        },
-        {
-          "title": "How a scientist who studies dementia protects himself from bad air",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM3BBMTZGTW1MUGhqTUR6blNBR2dkRUJjOHFEemRMamRBQ2VBZG9MQzEtZ2M0bTNScEV5bHpGS2xtUkVmMVZsVXpfeU02VVJLV1lqNzRSOFdqQ1IzNFRBOTlheFVSZEsxR3Ezcjl6M0tYaUhxQnRvWlRjTFRKLWNHTGE5SndzZmxuckI2TEtIQ0d5UUsycVFaUFA1a3dlaGdPWWd0QkktREFHbWdzYlE?oc=5",
-          "publisher": "The Washington Post"
-        },
-        {
-          "title": "Neuroscientists are digging into a worrying link between polluted air and children’s brain wiring",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLXlCeVRfRVVLbGxHYmktVy1oUTVCZzFZMks0S0d6Ml9FaVhQYnhMbGk5Y01JTEVLRVg4cENOMFZKcGw4VVdRb2dlcEl5bHVRdkhLcDVLWnpPSGdBbS03U2ZxZER1bzVEeVBRZE1vVUFTZ2hBWnVQVjV4c2MxeW0zX0wtek5mLTRKUzlpdVdRYkowZGJXQlcta1dGVll1cW8wbUhVWl9nazNQT29FR1VzUno4enFSZS1ESDdmam9n?oc=5",
-          "publisher": "PsyPost"
-        },
-        {
-          "title": "Long Term Air Pollution Exposure Linked With 14% Higher Dementia Risk: UK Study Based On 488,000 People",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZlFZVU5TNzYwQ1kzY1ZLb2xSYzFvZC1zZGdCOV9hUnhjSXgxTXRyYnhFVHJqLVp1T2Y1d3dtRUhLR2xUU0doZmpBOExQdWJDOTVFUmVHRHZud3dGODZOTnQ0RmlLdGppV1U4V0pEbWlXZGkwYTlwVDJIaDJ5b0tvLW50SkI2aHJZSjJtLWdmMUNERFQzSjVITy11VC1sZE5jcWJQbm9yWXFhdFRTMjZPVEo1dlZmSjQ1WkRfZDhnMWVrSk9nV3VNWVdYdmxWR1pHd3RpTkNOWklNS1NqRVBrc2VzRGNzY0VFT1VLcmFISEJROF9C?oc=5",
-          "publisher": "Health and Me"
-        },
-        {
-          "title": "Pollution may play role in harming aging brains — and more health headlines",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQamJybHZVQ1dWYXhDRUg2TlVHTUItbUNrckJrV3NoOHctaWM2aE1NQ2hFc3U5djlZQU9yTjE5NE0xeXJKTFIwSVdVYVRUUngwWUJCc1F6THF6b1JPZk1lcDVfT0FJVFMyY0Zvd3E0N3RJQXJYaE5uUTlnNEVMb1VXQ2hDN1hFdVU4SWw4aDRyWi0xVzVHVFRvOWhKdEJ5ZHc?oc=5",
-          "publisher": "Yahoo Health"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-ac60392748",
-      "lang": "hi",
-      "title": "1977 में रिलायंस ने कैसे बदली थी भारतीय शेयर बाज़ार की तस्वीर?",
-      "category": "business",
-      "published_at": "2026-10-26T10:41:21+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "1977 में रिलायंस ने कैसे बदली थी भारतीय शेयर बाज़ार की तस्वीर?",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13YjVLWlMzNW4tX0huVXliNWt6QjRDLVdDclVZamhjV00tQk14Wk5nSTd3aE9GcFFPa0hoekZ4SXMzQk90QjJGbkxYQjZ4QjgwT2RwdVBLVG9fZWRa0gFiQVVfeXFMUC01bkVKbFJfLVFHVVhLcUJoeUZNclJMVDhzTHpUaFFhM2NZSFpXb1ZYS19ObW1qYlFUdmZXTUFjZUFWZzFJaTRkTWlkRWl3dFVWVDItRU8zb2d2dFVhbmJkeXc?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "जियो प्लेटफॉर्म्स IPO का अलॉटमेंट आज: 28 अक्टूबर को लिस्टिंग, BSE-NSE और रजिस्ट्रार साइट पर चेक करें शेयर म...",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ3N1R0pqYW9DdXBodnBsUFViZmlRVTFDdDJKWDZwWVV4eUZ3dm1xa1dCdTJhck5Xb19vOFdhbXpncmxpSXRXRFpDUHZGaXVIbmcwSkljRVk5TVp3dUY4UTBxbG9iX0hVQXdjMlBaQS1UZjdiRTBkYzkxYXl3RGN1MFRnaW42NUZnSzJMdVh6QWJmdm1NTHZzdXhreG0tdFdCaTBnOHk5RzdGZ1RkMXp2cVJ3eVAyYllKckHSAb8BQVVfeXFMTlVMMWJ1WXE2WXBWVWNVeHE2TFdjVWVQb2hXUUtDNEtWOXlkOTFqM0Rsd2hMVmZJc1dMRjYyeUhlWThiZXJzQS15RWhfTElqRlZqQ0FWUUl6X1NNNE81bk5FMG1WVVRFcFhGVVpYRklyclZQbHo4LXlIbU01dkVFYXZUVk9vS3hGWmNSSWxMNWFhZVdZSFNMaWZkZ2swYk9NaTd2bVI1MXJUTlA2WGZJZlNlby0wb1BlYmlDazhBRW8?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "Jio IPO Allotment: आज होगा शेयर अलॉटमेंट, ऐसे चेक करें अलॉटमेंट स्‍टेटस",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQjRxQi1jeWRJaUVOcEZSeVVuSVMtUTh2Z1Qyc3VVRWxuZ21pdzhscGxOSmRia3ZrSEh2UzZNbEhjS3czbWR2U0x5ZUJkSzluc3pMV3hPTDQwalJuMlBQWVhZeFNwT2I5bVhGVHFBTUN5TE4xVzJOWi1TVHN6TlVlUGk5NHZuNDZzNGpXYlVDT3lIZWRBaURSRUg0ZHpWMzdOMHlYYXJJV0otNUQzNW5XOXItX0lidGw2YnFNNmZKeXBjZUJlNjVmX3RJSUlmMUEtYW14TkM4SExybkE0azlmeVoxNnY1NnRLXzFMTEtoX2FVQXkzMlE?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "Jio IPO GMP Today: लिस्टिंग से पहले ग्रे मार्केट में जियो के शेयरों की धूम, 1 लॉट पर ₹2964 का फायदा!",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTElWSFF5bWdEQ2EzbzItRnpxYUtCSTdMS2Rjalotazd0TVljOGFGNzZJVm93YzhrcVN1SEtZWDhQWXMydmVrbXZqX0F6VlpXVDdMWF9oQnNzZGlZSHkzRERSUHVKTG5KbG1nTWxrSkV5ZW5DSDBCSzdxY1V3VEctR3EtbHRuMnRfVTZhc0ZVR3Y2d2FrRmZWV3FiVXdZbTR6Z0dPNFRYY0g3WC1ZVUxtczltUzhMbFZOZGdYaC1PaTY1dDI5Ujd0bE1yY1FucmFtajRfbDg4dGstc1J2NDdJ?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "JIO IPO ने बनाए 12 अनोखे रिकॉर्ड, 1.38 करोड़ से ज्‍यादा आवेदन, ₹7.4 लाख करोड़ की बोली",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSDZISTZvMkNlME11Rl9fVHlFTGF6Zzgza3czUnZmUW05WG0tX2lqTlgxWXNqczBVY2tOTmZmRkZyT2Y5QkMzYXJlQ3BTdmduNEc4TUdNTWhnMzh1TnNZLWMyaWNoQmk0RFZFT2ZhVzRCRWNtNlhuazFsdUN3b0NHcjlpbzRON0RXakl6RHJNbHZQaVBsZWM4WUlxVGp6TlNTVGNUUU84QlFWVW43Zk01bU04SHl4OWlscTZpd0pnR1BZSUFVM3FyVkh5ZFNxbk1yMi1J0gHYAUFVX3lxTFBOSWxmY0xpNGZyQURfMVg4UVJ5YTIwVGh2T1pWOXlDMXZlb00zY0tBbU96WWtFWURmWEJEUU5HTnlDQ28xaVV3MVBPTHVHb1JzaEgyYjV5Nng3dzQyUS1sMjdHUFoxWnBqOVk2OV95NU43YnloTE8wTlB6WnlEaDdJSV9jMDRrazUtOTRIWl9RWnE3ZEY2dmZjdkt5azhSMFpyVHRxZG9IXzJ6VDZKYkZYTC1yOFpXZHpYanJDeUVHUi12YjVqVjBWREFfQ1lIbjhjcmN1QmlxUA?oc=5",
-          "publisher": "AajTak"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-576cf3cbe5",
-      "lang": "hi",
-      "title": "अमेरिकी स्टार्टअप का पारे से सोना बनाने का दावा: क्या हीरे की तरह सस्ता होगा गोल्ड; पहले भी इसे लैब में बना...",
-      "category": "business",
-      "published_at": "2026-10-26T10:39:26+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "अमेरिकी स्टार्टअप का पारे से सोना बनाने का दावा: क्या हीरे की तरह सस्ता होगा गोल्ड; पहले भी इसे लैब में बना...",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRnNvMFg1YWVSNXJlaDNaSGpBSUlNNC1TdER1TUctMjVfekE4T3A4WmpWNUwtOXZYNnE4dFhLM3BOT0RqVndfZ0lSalhnYV9UVTk4S01TaUQtcG9WLXU2RzVVbEc3QUlUeFlCTFFnNEJNUzJYOVk0TFhXMkFaVlJ5dFQtNGxNbDJiRjZ3dU96MWU0YXdiT1FIak9KTDZqM2RCbzFQNDM0UXdRV3dTSmFNVXR4endOZEJGenFXdWN30gHDAUFVX3lxTE16SWJjemZaV0ZPVzQ2Vk1oYWZmbkNSMjJYaUoySUVIZEsxcFpfOUtUVzdZbncyejRITWVHNlBmakhTY1A0VlhNTjFwa0NSbWxJWFJtM29kVHZhSnVDcmlZTFV1aGNzdE01ci1aeWtqSmVnZTNvb2JtcUZMSG8zLVUxMHRtaE9pdWxYZ0p6YlhQcy01SmE3S1hWcHFzWnlqbTVjT05ZN2pGdWRLdmpJaVRGdzlFNEdBcXN6VlM4c1N0Q2Nnbw?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "लैब मेड सोना क्या सस्ता कर देगा गोल्ड रेट, जानें कैसे किया जाएगा तैयार?",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPak5sajBmN0Rnb2FBVjZySXFrTVgzVjRJMV8wQ0ZuZXVkZ2hSdFJ2MFBBRVhScXlkbGRwem9CQzNYRkljOWpRd2xUbVdWNFdUU05iT3phdF9YM21UejA0MWVFSGFVUThMc3pOM0pMS0JxTlFiVjlkRi03Y3d5NGU2ZWJhbEg0V2VUeG5tNURxclVXMEJUT2xWazlJRUhlU29sZ2dwbTkxWENhUi1HMHgxTkFXQi1WZ041TW82aFNZSUpXd0pXVHRqNkpYV20xZzNnU1F5WXZpMkdKQVnSAeABQVVfeXFMTVcyZnludm93dUpiQ05ZU2xiNUpRQVQ0dzJzeTJOS0JXRzB1aUNGa3FKOWY0cEtpWlpvamFDckNFa0NpZlVmdmQ1X3QxbVRZN19vaUtfaS1WRmptUXM3NEdSS2c3Qlg4YnFTaGZ6QWFmTWg2RlQ4WTMxdWFoTGJsVS1FMk0yOEJQUG1HZHoyUEFncnRqYUtWMGlZMmxFT0JYZzFkY0lMeXdFZlB1Y0d5U0s3VmJlZ1oyWk9XeTZmNC13b01lM1VVNGNJLTJuR3BmVGtOSXFEUVhfNXUwNGFCMFg?oc=5",
-          "publisher": "ABP News"
-        },
-        {
-          "title": "अमरीकी स्टार्टअप का पारे से सोना बनाने का दावा: अभी बेहद कम मात्रा में बनाया; जैसे हीरों के दाम गिरे, क्या ...",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlNUR3A3ekVsR29oc29ZSkxYZFplSWJJMDJjMkRVUHZFWXgzNDFNWS1LYlpmVy1wcVo5eHhLeTZQazhQS0RxZl96ZTFzTzNkWHVCRE9ZX2toM2sxUlRlZkdvREo5MFY1SUw5bGVQUUZrTGhuZ2NmdGRTRWVLb2RtTVhDNVZtb3hIdTBucm1oTUVsVkpyeFVuWWZRZ2Z1aGpENGJuU1dQV0FqVTAtb3ZFRHFvVHNCbnhoU1JZ0gHAAUFVX3lxTFBUcXlsc2lDUkN3bzFka0Q3ZUVNYXRSOTFBVjVRNE1CckxxZ2lqWFJ6ZTB5S184MUtVZVN4TTRMTHY1cVZ1ZjRrNG1QTGJrV1RLRzlERUs1ZHlLSk0yTE91YXBpVVdHTHR3M1pwenVBUjhmWWJWQ0F0dVNDQlZqZXFyb0M2bTI2NzdoQ3JleDhSYjZvclhJSmpOdkx3OGFXTTJCcWFPTHgwQ3JKWWM1S2ItRjdvQ2lOeEtmeTJoWHhpVQ?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "पारे से सोना बना देने का चमत्कार! कौन कह रहा बना देंगे एलियन; Top 5 खबरें, National Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNm5nWEgxZjBUQmR1NDhxLUEtWWtLQ00zcnpwT2FqZi1ROUQzY195UGFNTHBwSnVvLWZBcUxSMlhyZk1Dd1EycGtzcmFRal9VY1pBRVdieU9sVGVnRERhejE1bTRyY1pVcDlvNGhHS1dPVHk3ZlFLd3V4NjJRcExHaUNSZmlHUF94WUVuR2xPZmlwWElReGxhdTJacms4SWtRYWhVanBnUktKYWNaWm1uaklJRzM1YmJXY05DdnZzbTBLQQ?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "सोने के कीड़े मिले सबसे बड़े दुःस्वप्न से: सोना छापने वाली मशीन",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ21uUWNIYnpmSVFnRTVxclN3M3NDdmQ4QXNXUTY1SHVZZ010TXNUd3lyeER2R0lqMHFWMzloT1MySFJwLVVOZHNJTjdTVjE2TEo5UHBFTlRlRTA2MWZWbXAya2k0UDYyMnBZZUtQU3ZPNHFWdzFrYVFMdlYyVGEzcnFHbFA3SG5CZlRsSGFIdktNQTRpUlpYd0otWDRGVEdZaUlGMFVpNA?oc=5",
-          "publisher": "Bitcoin News"
-        }
-      ],
-      "queued_at": "2026-10-26T12:30:39.968432+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
       "id": "en-13f6cfc8b5",
       "lang": "en",
       "title": "Four Observations from Bayern Munich’s nail-biting 3-1 victory against SC Freiburg",
@@ -3737,6 +2967,459 @@
         }
       ],
       "queued_at": "2026-11-02T12:30:39.733581+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-ff3206ce8b",
+      "lang": "hi",
+      "title": "Gadgets News 2 November: बिना स्क्रीन वाला फिटनेस बैंड 5799 रुपये में लॉन्च, Motorola Signature 27 का वीडियो आया",
+      "category": "technology",
+      "published_at": "2026-11-02T12:31:00+00:00",
+      "summary": "Navbharat Times: Gadgets News 2 November: बिना स्क्रीन वाला फिटनेस बैंड 5799 रुपये में लॉन्च, Motorola Signature 27 का वीडियो आया\n\nAajTak: Motorola ला रहा पावरफुल फोन, मिलेगा 200MP कैमरा, भारत में नवंबर को होगी लॉन्चिंग\n\nHindustan: इस महीने में लॉन्च होंगे ये 12 एक से बढ़कर एक स्मार्टफोन, 200MP कैमरा और 10000mAh बैटरी वाले फोन भी लिस्ट में\n\n91Mobiles: नवंबर में लॉन्च होने वाले फोन: 20,000 से सस्ते और 2,00,000 से महंगे मोबाइल आएंगे इंडिया\n\nAmar Ujala: अपकमिंग स्मार्टफोन्स 2026: शाओमी 18 प्रो से लेकर वीवो एक्स500 तक, इस महीने मार्केट में धूम मचाएंगे ये नए फोन्स",
+      "sources": [
+        {
+          "title": "Gadgets News 2 November: बिना स्क्रीन वाला फिटनेस बैंड 5799 रुपये में लॉन्च, Motorola Signature 27 का वीडियो आया",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPaU95V0lseHFkUUtuU010X2lxSjF0OHhrbmRYcVJBZ2VESTlQUVNZbGV2VjdUUUNDeVUzc1V5YVRPQ05EUUFqMWlfc1BMNnpKVTVPaWxaVi1veXA2VDMwZ1lhZG9QM1BwdUtuQ1N1dEVzdG1aaWh1NVRqTnZ4cThSYlh4YnZMY0xwU29FdXU1SHRCTnRNQUxfV1R4Vi1Pd3ZMVTgwT19zazhxRTdNN2U5NDlmQXl5MHJES1dvbTNsMGVBZ2dIWm9JTnhscko3RDc2YWI3QzVKVWRsVWRqWldRNDNUczFTUVR4V2JhZDAzbURZT0x3TV9PMlFMeHFwTWpWMmhrRGFSblowcEJpNG5DWWxqOGHSAZoCQVVfeXFMTTF3N1NJMEJrVnM0N1ZzZGZnRi03dkp6YzkxMGpVZzdJSnZuNWxNWlpLczBVX1BPZ2U5QzZ6REl1a1ZnUW1fWkZnR2hZVFV6Ny1TT0tCRW1mRnZjeHFBSDBVbkdrVWo5ajBRQi1ZRkdZWFZMZWRZeE1ySjZRRXZBY3JGbm4zdFJNYmF5V3BSZ3ZpRWpUeW5WMllfNjVmRzllSW85dUZyVHRYSWROclBhd0lpNFktZGoxMjVodU9fdnNwYXk2SThKWGdweE94OVA5TnBPSVROc0tpamdjR1NlV3poUVMtSmp4c2RFbWVKdU9vY0ppYk5fNl9Rd1BGVVB6Z242Y0FZVHlyNFVtT1hsdDkwak1uOElOeE9B?oc=5",
+          "publisher": "Navbharat Times"
+        },
+        {
+          "title": "Motorola ला रहा पावरफुल फोन, मिलेगा 200MP कैमरा, भारत में नवंबर को होगी लॉन्चिंग",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ2ItT0J0NFRhVXhGX3U5bktvY2YzbzRoSFN3Z041VXRxT183by1WTEJWcGlyVWlnY05Rbm4yMk5zQUZuZ3ZHTDJaYVB4OEJIcGpNTlFpTk04SDk3bVd4dWplLVVQTkptclhRXzJpSXhyczhOZm9ldHBDX25LSHNsM05MNWthT3h1SGxoR2M5bFo2RGdjaG1nYTd0cnY1RldiWjZvclJjWmxHOW1Td21qOC05RjN5Z3FBcjBwUjhzeENRTnNfdUdr0gHMAUFVX3lxTFBETXVMU2l2MVdGN2FpdzNaWWw1ZVNTcnlkN2VyLUN0WlpZTWF5REllRmpsSkNtQjh2ckU3cTJSdDBGU1NxV19WVUZiMk5IX25IR2xtOWE1SEtsajd1b1pjOU9TSEJFYWhKX2xZQkZNZjNjLUFkZzN1UGtQRW5ScDh2QWpZSUM5V3pFMW9wVnBCdmFFRHpxNi1WOHlYRGE5ZzgxSTVvbnBIR2NBVmRCSlBvQ051azNEd3JYRUU3cUp0elRyaUY5bVFEQ0tUMg?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "इस महीने में लॉन्च होंगे ये 12 एक से बढ़कर एक स्मार्टफोन, 200MP कैमरा और 10000mAh बैटरी वाले फोन भी लिस्ट में",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNGI5eDRmWEtVc3oxMEFNMUd5Q2VCbTN1NkFfRTJNNGZ3RWlsSWxvUVBjUEtydW83ME05emg5SGxMT29mSjBiejZoRWlKNm1CaExOTUJmUXRlZ2tfY2U1M1lvNWQtQjNzV0xtZUhPaDNCVHh4cG50ZzRPTGRYVng0clJHSGdRVlZSSWc4NGR0a094MFYyVWN6QlpxeTF3RldHU0ROZUpNblJJdXRWWUhnUGVhZGs2U0txcDAzXzdISTBSRWV3OHAwNEJFeUZVN1BwejN4azUzeUdwTF80QUVTRFFobjZRWWZIWVlPYUhSaURaVk1xdlBaZnhlQ09zMGxZcTc2dXVpQQ?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "नवंबर में लॉन्च होने वाले फोन: 20,000 से सस्ते और 2,00,000 से महंगे मोबाइल आएंगे इंडिया",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkY5SzhPbW8xeVplcEFPdlJWYUwzakoxTkdwbWN1UWpFX2wwNlp1TWlrSkR1OXJKdGk1UWVPVURNYzluYVNIVGFZLVNXaW5xaHdXSVg5OFQ0MFZ4OXRLZWtVV3BhUGx5UUxMbi1TZllkU2lTRE9yblJyNFVtV0FuVnV1NGxLQdIBiwFBVV95cUxNd0kzazZCQW43N19wOE9HLWpDankzOVpqSGc1N0NrWWdxcFJEX3U3WFlrV2xwaWNSRUpUVTlXVURBVDdEdUpyUGw2c1BZU2VacC1NRVd1U2E1dTZISDdrSnhWb1N5TEdZWVk3WFZPaktXbm9Ka3JlOUg3U3plZ3dsRUVTV1FJZy1iVTFB?oc=5",
+          "publisher": "91Mobiles"
+        },
+        {
+          "title": "अपकमिंग स्मार्टफोन्स 2026: शाओमी 18 प्रो से लेकर वीवो एक्स500 तक, इस महीने मार्केट में धूम मचाएंगे ये नए फोन्स",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxON05YNVQwdV82YVBvOFRMVnl0TzFpVkZtdlJyVzRBcWROaHFUZWdPMzVsOGxpckRsQldqQmFtcnVQVXc3TnFkT01tWmZfNTZoYmNhOXdqa01BdzFNX3BSOHFwN0N6MDYzRFdLOXZQUzNldnI3WlBDeHJLUWJUTzV2dmh1UEY2MjZ1SllGR1hQM1kwV3UzWXhDSHltdHg0ZXE3Rm1WOVM3RXNNRlZtRTkwWlZvaHMwUi14N2hTY1JxcXdDU0gyV0FRNFlNMUNUbFdLNlFBd2tUTUZyY25ReGg4ZG1wLTE5d3J1eWx1cWlObEs5OW0tVHVCZTdKa3JPdw?oc=5",
+          "publisher": "Amar Ujala"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-1d28626521",
+      "lang": "hi",
+      "title": "iPhone 16 की कीमत में कटौती, Amazon Diwali Sale में मिल रहा 21000 रुपये सस्ता",
+      "category": "technology",
+      "published_at": "2026-11-02T12:07:19+00:00",
+      "summary": "India TV Hindi: iPhone 16 की कीमत में कटौती, Amazon Diwali Sale में मिल रहा 21000 रुपये सस्ता\n\nAajTak: ₹16 हजार सस्ता हुआ Sony का 43 इंच 4K Smart TV, Flipkart सेल में मिल रहा धांसू डिस्काउंट!\n\nJagran: Samsung के प्रीमियम 5G पर डिस्काउंट, 50MP कैमरा, AMOLED डिस्प्ले और Exynos 2400 प्रोसेसर भी\n\nHindustan: मौका! Flipkart Diwali Sale में सस्ते मिल रहे ASUS के लैपटॉप, मिल रही 18 हजार रुपये तक की छूट, Gadgets Hindi News\n\nNews18 Hindi: आधे दाम पर मिल रहा है iPhone 17 Pro, यहां मिल रहा है बड़ा ऑफर, बस डील के लिए पूरी करनी होंगी ये शर्तें",
+      "sources": [
+        {
+          "title": "iPhone 16 की कीमत में कटौती, Amazon Diwali Sale में मिल रहा 21000 रुपये सस्ता",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkVkb250enZmOVk5dlo5Rl9zMTJSOG4yS1RrcG9nbnZfZVdrT3E1VTVVZUZkMmlISFdOQ1duTzFsU3paUVVUdS1HWlZRbDVtLTZsdFJaeVo0ZWZfcWNYb01ob0R4ZUV1OWlCQ3NRUFRtNjJfaE5fRGNQT0s0Y2dnMGNiTUdDZkxMbW5oUmhXRFl2OHQzV0F4V0ZRSVhoclZ4SkFMakt5ZEhyMkZDeHhNWndzX1LSAboBQVVfeXFMTVViSDIxTjZZSE9nakkxcVJab1hjallla3NNQk9UYXpscmlQLXZZa3V2a1ZZX2xjcGFRdG01VVVyZmZwbUJnYjdaZ3pIUC1SaldnU3c5cEQyYVhYNU9PZ3VEVC1GT0ZUWmZzbFVNajhqT24wM0ZqN1NBSjNybFVBeHlGVE5ETE9HTlNmaWg0SHpDazhhYnZtaEhCM0RSdmxzTnVJUXhnZWlfZzA4YVlKZ3BMT3h5bXB4d0ZB?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "₹16 हजार सस्ता हुआ Sony का 43 इंच 4K Smart TV, Flipkart सेल में मिल रहा धांसू डिस्काउंट!",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVjZaX0pWYmdVN0RtclBwLXZyaUxhdmQ4cjg4RVNUY1ZCQk9NUWhsSThpRDc5ZU5GY0s1b3VYNl9QX3k5ZC1xcWNRcVBvbWxwZ2lGYml5OG1EQVNjMTQ2TjQtY1lJQldXSzJOQWtpLXNkTWdHSTlkalpKYm5ycXFSRi05US0xMThSNUlJci14VUxycXV5UzZ1RWpNdTJURlE3MGFZek1wMW5TNXdpVTNaZ0dVMjc5ajYtZEpLSGpGU1A0em4tRnZhdHdUYVE2TDFB0gHWAUFVX3lxTE5JUE5UNEpGRzVLMVVOQ2hhMktFdzBSYUEwNUlNdnNxcTVIa3dmbzJfT1ZjNFJkcmhOMWNuQU14TEhpR2V3ZlViUXp4SmVxby1yekpfMWh5aGk1MUw2QUtybUxTUFhBbEdseS1uM0V6cHBNOEdkeFpfd2VhWm4yRFluVjBYTXdJLUFoZV8zMUM4amk1RXZTQ1Vad3llZS1mVDlRM1YtQXlSQXFhYlNibEhqNDhlbzVnZUlielZqazhLdU1fOGpDbFRPaDhiSjVaLVlOZzU2TUE?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "Samsung के प्रीमियम 5G पर डिस्काउंट, 50MP कैमरा, AMOLED डिस्प्ले और Exynos 2400 प्रोसेसर भी",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUkRjNkNPRE5ZdC02dkk1N1hoM29YTE1VamRvQVdiTXpRM0U5OXotMTMtd0Fub1l2ejRna0g3VU96MktNVEFWUVMwWld5Rk1GejUzNllNNlBuMDhoQnUtM1dRWFEyUVdBb2gtc1k1amRiZEp3OTZzUGhBS1JpNTlVTWhjbEozODFFT0ZjS1YtTF9sVHFvVF9UM1lGcEhJZS1OMXRQMDBWdHlRMmZsTDgwdUVIUmVtUDRNMk5NbG1HblBhaVBZYlBXNHkwX2xwRXVod1N6XzVtSkxSa3l2VmVpMVpLbXJacWM?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "मौका! Flipkart Diwali Sale में सस्ते मिल रहे ASUS के लैपटॉप, मिल रही 18 हजार रुपये तक की छूट, Gadgets Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQU16YXh6ZUZnTGJqRTJMUDZIU21xZnQwWkVMaWR3OGllbEhwb0xqQ195TktLOU9BTGN2N2R5djgzQmhHSGRfaF9MVDFYdFpOWTl3X2ZlcHRPVGpxd2F3YTZLaTcyTEptUmZZbUFFdTN4aTY4U3BOTXBfdDYySGFSZzVNc3ZQcGVMVk5zbVpHWXlucnoxNjNhancxUXhxMzJoZi1wVFU0Y1lCd1lMQmg3ZHkzTEM5NU1wWFdFOWxjV09CU1pOSHpsdXI3WWoycUU0TDJ6Mm9UckgyWFU?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "आधे दाम पर मिल रहा है iPhone 17 Pro, यहां मिल रहा है बड़ा ऑफर, बस डील के लिए पूरी करनी होंगी ये शर्तें",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRHF1U3g3Ui1kZ3phS2d6UDNpc2h1ZXdheEJIQ2t6SnRQZEk3OV9zSkFYNC1qMFNseF84VUJyekVLUUFRaFR1VlFnN3dHU2QxUzlJRWR3dkgxR0dxUEFqNGg5dy1oVnJYS0g0cEx3VnJuSThpZlVqQVMwZ21tMUx0OWNUaUFXS2lub0hsSl8zNE5vc3pvUGJYVWhqNWNGY0J5T2xKVGFPNGktYkI3WGNoV3VKYlV2eXFfWEtTcFpsVXJiV0VlTHFERUMzWFEzQml6WUI3SG0zYmNpaUF2TjVWWF8zZ3lCQ184S3ptY181Zlc?oc=5",
+          "publisher": "News18 Hindi"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-c1fcb00bdd",
+      "lang": "en",
+      "title": "NCP leaders meet Amit Shah, explore merger excluding Sunetra, Parth Pawar",
+      "category": "india",
+      "published_at": "2026-11-02T12:21:16+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "NCP leaders meet Amit Shah, explore merger excluding Sunetra, Parth Pawar",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTVdZN1ZLdEJIcFFpelU3eUpiM21oTnpObk1OdlN1c0lEOHhzOTRweElPZU13cEVQbzhMRDA3TDFsYUgzTkJPck9OUC1hel9RaDZ1TXA2dDRqXzFFS0NQdDBMNVg0TWpiellIWG5lenpJR056WGQ2dWt6SktOVW5MSnBzMlJVMTgzd3dFcFJZeWU4aldFQlByVDYxWmF5M193NnZGaGVfU0FZRXpVbjdBUzVCd2puMXhQVjdULUln0gHEAUFVX3lxTE5NdDc3eGdPSTJqQnZZWlg3OUlaQnNLdkc1WGpyQ1ZtNkMyQ3NoNDJHTGVnOWdBZTItcnlvZEdTZm0xam53cXRPSXFSQXFBWVJaVzUwN1NfOVozZ1FIRTdIM3FJWWNYUHk4RnVGVXl5TEhCQjhnQXpEejdMOXkyVXM1QTFDbEFtbFV4OEo3Um9SZG83eXBQWGNaa3pGMERFRU0yRnNmbzBlX01MMlVrUWlMdE9XTkl6UkFtcm45b0EzMGtpV08?oc=5",
+          "publisher": "The Indian Express"
+        },
+        {
+          "title": "Sunetra Pawar sidelined? NCP clears air after top party leaders meet Amit Shah",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSW9NRjVleEtjRXAxRXU3OEpDcVBxOG9WXzgza1lNcDB3VlVaUGpOTEwxaVdqMF9xQ0ZiN3RscWtBcGJxZk9CR3VNX0hzUVVRTTJFTDMzLVFyWUZub1RmdkFjdFFOc3FKNGk0bFF5X2w2OW00RXZ4TFRNS25wcUp1cjdKVWJkWWM0YkJRU1ZZY3BCOG90VUVybzBPSTk1Z1pfYUlSdGc5YkRHY1ZMODd4amhaeTU4OUlQWjJB?oc=5",
+          "publisher": "India Today"
+        },
+        {
+          "title": "Six NCP leaders meet Amit Shah amid Finance portfolio demand, party denies rift",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNc0xoRjd2RDRMOVJibmdDd1BMalE4T2xkRW91M3Nja1ZmemlFUmNxQWN4V1RGYWdPR2V5eWNXRTRHd1FOVGV3UnlhSVhuQlZNaFpNazV3bkpKczU5ZHo3REFpWkNsWk4tM1h4Zm5qSTlXWWt5cGZGQVotMnAtUzNOUWlteGtTNVNLM0t3WjFBa1V6dkVCamlrQ3o5X2dGQ3dyOUJ0OHdJUjBoMGdrdTVjbTc5ZG1Fb3d4bVhXYnJxRGI2aVRtbVJKbzkyOENpTE9VRVIzOQ?oc=5",
+          "publisher": "Mid-Day"
+        },
+        {
+          "title": "NCP Dismisses Rift Rumours Over Amit Shah Meeting, Calls Reports ‘Misleading’",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObWFUQ09VZmFSTF9vTnRQdmUta25SNmxhejk1b2VvdlZHWkZsbTI5NnhPRm1JYmhuczlkZ3dBQ0hoWExXRnlzRXpvQjNTUUNpSFdoajlrTnV2Mm9Dbm1EazV6Tlk1ZE9nS3pFY05CS2pZSTkxeWc2aGlBYkdhWF8tUFM1ank1NTRla1pFajV6RHp2SjdxdlMwWmFxMXRLY2I4MEtWQ3VlT0RYQ2o1UExVYk5oanBacFlHU0tESGtyUTlxX2Ja0gHKAUFVX3lxTFBTc095OFppY2dpaFNyYjhIc2Y0TWs3SWlqUHlIUWd0ZFJzZk84VTJ3TkdMeGNWMHhKOElEaXBmcjlBU1g0MGlHU09WU0NMTk4yWWQ5Yy1jQjBUcFFiMWVXSERfRkJQWnRIQ0RjSVQ5YlpFUzJkRUQwT0QwMXAwbXBXZ2QyWDUzSi1UcGVTSzlVblJVeHJCdDJBSDBLQXc4a1phMlhmU3I2SDJqZTRpQUVGRXA5Rkt2VXB1NGNWRW0yVEZWVk53eE8zVWc?oc=5",
+          "publisher": "Deccan Chronicle"
+        },
+        {
+          "title": "Six senior NCP leaders meet Amit Shah to seek Finance Ministry in Maharashtra",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQkloQjV6bFlsbGJHRkM0Qm1YNkN0aURaci0zcG80QUIzbjRYSXhpTXF0bEpXV2dZZURUUUpOUEYxUklEREx2SldOS1lRTDJnS2RKa2JaelAzTUt1RlNIVmp3SmtuekNTUHpkRm9RQm1vdXlMVFV5VXFvbnc4ZUxSaEY0N25lSUtSQ1pXandHQjJ5dmFvYzhGOTNZejlrcVV4NHUyRXRPeDVBbzJDSFg0?oc=5",
+          "publisher": "The News Mill"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-c715fb58d3",
+      "lang": "hi",
+      "title": "LIVE: 'फर्जी वोटिंग से जीतना चाहती है कांग्रेस', BJP के 'लोकतंत्र बचाओ, अराजकता हटाओ' मार्च में बोले अमित शाह",
+      "category": "india",
+      "published_at": "2026-11-02T11:51:00+00:00",
+      "summary": "Jagran: LIVE: 'फर्जी वोटिंग से जीतना चाहती है कांग्रेस', BJP के 'लोकतंत्र बचाओ, अराजकता हटाओ' मार्च में बोले अमित शाह\n\nIndia TV Hindi: BJP Protest Live: अमित शाह ने हैदराबाद के भाग्य लक्ष्मी मंदिर में की पूजा, दिल्ली में BJP का मार्च शुरू\n\nDainik Bhaskar: शाह हैदराबाद पहुंचे,‘लोकतंत्र बचाओ, अराजकता हटाओ’ मार्च में शामिल होंगे: SIR पर कांग्रेस के रुख का विरोध; न...\n\nPress Trust of India: अमित शाह दो नवंबर को हैदराबाद में 'पदयात्रा' करेंगे\n\nAmar Ujala: 'अराजकता से सत्ता हासिल करना चाहती है कांग्रेस': शाह का कांग्रेस पर हमला; पदयात्रा से पहले क्या आरोप लगाए?",
+      "sources": [
+        {
+          "title": "LIVE: 'फर्जी वोटिंग से जीतना चाहती है कांग्रेस', BJP के 'लोकतंत्र बचाओ, अराजकता हटाओ' मार्च में बोले अमित शाह",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRFZhakNpOWw2NFVvX21PaHlFTU5vOVNXeXVicmRNMGJsNGdIeDFJb0c2WDR3b292eVplQWwxaEZjUXdDMXJxWXkwOGl4dlVyVVZINHJ3ZzgxZUJjNEJNUW0xUklZXzBLQXhSekh5NXFaY1FQakxTXzdoY2c4Mm5BV29yMks1d2xMZWdTMVg1elhOT2FyRFRrV3ZLTk4tUElsazR2OHFLc0lCWjgtQWhLR1VORQ?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "BJP Protest Live: अमित शाह ने हैदराबाद के भाग्य लक्ष्मी मंदिर में की पूजा, दिल्ली में BJP का मार्च शुरू",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUHdmNURDVDMyekh6Z3NiclVfNERPOVBKRjlUNkNsdC1EUlpNZzZRUm5GQWF0dnI2b2hINGp3R2YwRUwteHVXQ2xEX3BaS1JsWHlrVkQwWHdjQkxZWF9VQmhMaWZpSXZmUVVOaUN6M3JRN3ZGMUU5a19HWHM1TVVDdHEzOWNGelV3dDRmNjhOU2VuN3lIaV9mSWlUMHRMcTZPRGZ2RkR4dmZnQmswd3lKSi1oU3FFbGtJZjIzQTNlU2g3X2dILVRiM2hBZlRjSU10N0ZVX1k4U2FiQQ?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "शाह हैदराबाद पहुंचे,‘लोकतंत्र बचाओ, अराजकता हटाओ’ मार्च में शामिल होंगे: SIR पर कांग्रेस के रुख का विरोध; न...",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVXpRa2NKbUdZdVZ2dDZVd3dtaGIwWXdNM0NUa19ZdFBNUkktSkpCQ1dEZlZEMjRiSFVNTUI1OFEzeWFyck5OYTBzZTNOUmRrOVRkTk1HMXhQOHB5MlBuSmlQUHNEanEtSFktdXdWMEEwWjRSN1BXaGxhM1U2SVZMa1Bqd24xbENWZXU1bC16bjRTN2RtS25mT0Zic0RGMU9LRHZINXZUdWpiQlhlak9MdVg2aw?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "अमित शाह दो नवंबर को हैदराबाद में 'पदयात्रा' करेंगे",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fRUpGRlRoOGMweW5MajJIeTZNbkxVb2lDMmhTVWNfWGczSHdaT2tBYkJMSFhEY0RDcFExRG1EVWdXaTBjeDFiSGhhSFk1WkdmNGd3SDFUOWJJZw?oc=5",
+          "publisher": "Press Trust of India"
+        },
+        {
+          "title": "'अराजकता से सत्ता हासिल करना चाहती है कांग्रेस': शाह का कांग्रेस पर हमला; पदयात्रा से पहले क्या आरोप लगाए?",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVDFnX1Mzc2F3ZTlHbUI1OWdJSVFMSk9pMkRjc3VSaVo3d3Q2OTY4YTZMUXhfUWhJNVE5N3d3dDhoVUJweUVCZ0lBZkQyZXY1dUR1WTBZWFRtYUYzLVF4MGNfQlpiaXE3SXAzOFVSSmxMQkhrSE9IaFdxMTg1cUpiOFBTc1pOZk9fR2ZjWDcyYzNfZ3lXUE52ei01ZWNWNFBreG8xVHZSNkFLWUhZY0pZaDMzOTljQkZTenM4T1d2SzNESFBUMm1GRlg4QnYzUQ?oc=5",
+          "publisher": "Amar Ujala"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-72b6fd580c",
+      "lang": "hi",
+      "title": "'सबको पसंद आए तो वहां से निकल जाओ', रामायण के गानों पर मचा बवाल, रहमान ने ली हेटर्स की चुटकी",
+      "category": "entertainment",
+      "published_at": "2026-11-02T11:49:26+00:00",
+      "summary": "AajTak: 'सबको पसंद आए तो वहां से निकल जाओ', रामायण के गानों पर मचा बवाल, रहमान ने ली हेटर्स की चुटकी\n\nNews18 Hindi: 'आप हर किसी को संतुष्ट नहीं कर सकते', 'मंगल रंग' की आलोचना पर बोले एआर रहमान, खुद को बताया अपना पहला क्रिटिक\n\nJansatta: ‘जाओ जाकर आइस क्रीम बेचो’, Ramayana के गानों की आलोचना पर बोले रहमान\n\nAmar Ujala: रामायण: 'सबको खुश करना है आइसक्रीम बेचो', म्यूजिक पर उठे सवालों के बीच रहमान ने क्यों लिया स्टीव जॉब्स का नाम?\n\nJagran: आ गया करवाचौथ का नया 'एंथम', श्रेया घोषाल की सुरीली आवाज; रिलीज हुआ Ramayana का एक और गाना",
+      "sources": [
+        {
+          "title": "'सबको पसंद आए तो वहां से निकल जाओ', रामायण के गानों पर मचा बवाल, रहमान ने ली हेटर्स की चुटकी",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOUFrNUY5ajZlNXd5RW5VMDZ0T1FtNldyMFAwR2Y2TmpzSVBxQ1ZWZ3RlUXJRdzZNVm1LMVp2ZkVRMDlvUEFFR1V2dXBjYUotR05TQVowV3dqNnk2SWlGcUF1Y0V1UlpYUEFGSU5OUFpKTXF1WHhXUl9Wa3YzZjdPcE1HTC11NWpycVBBOUkzTGpZQUdHSklrSWxxc0p0d0tjV25JS09xdXF6bWxyMFNmSTJfSzd4WklOd2UwOTRnZVc1RmNYck56Z1JSeTRST3FyRWJfbC1MVm9KWlZHbkFGN1NLQ3FXbkh1Y19CVFlNUjQyd19KTXNiRHdoY9IBgAJBVV95cUxQMnpicjZjRHFMMGF5R2VFZFprckZnZkFsV3hZSk54MHdSTEFLQlpaa1N3Y1BJWWZYYWJVQi1QVTZaZVF5SEp2UzNNT2RWbGwxdVlfTXUzRWRYX2MzcXdQZDlRV1N4QmxXWnROMnNkQzVKdEItYVRJenQtZW9MY25GX05aRWJSNm91OTlKR3gtbVZYUFloMzhMeFV1czNuRV8zeF9nTUt1YlBndEd5MEcxbGp0WEJweTdQaHNPSkYyeUdocnRaZDVuaGZPZURnU21ITF9XSW0yemliV1pELWNnUktRYl8wZXpyVzk1VThyT0ludnBJTWNpZXZWUTRCVjMy?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "'आप हर किसी को संतुष्ट नहीं कर सकते', 'मंगल रंग' की आलोचना पर बोले एआर रहमान, खुद को बताया अपना पहला क्रिटिक",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZWhmNkZuZGctZmxKNW84QS1VOXBqNk5VUnVaYi1DNWNVNjRDN21TT1BvanV2WENiNVBMc0ZUZmRVR0V0bDZBT0pfaTZJTkdISFkwcUpBd09FU3I5OWxKTC1NMktVUDNXSjdsZFg5UlBKTnVpOVFJTURQeFJLcXkza2JPSkhlRUFLdlEyNlNuaXEzWGVtZjVDUk53YS1iOVFuN2xiTWJCUy1zdW4tVmVYVE5sdWlBVkM3YldSbWFiYmk2cDlJS1RVZUl2RVNsWlJsR0ZDQWxyQWltclRGOFNJblRLTUxpS043WDMxcWUydE9CTTA?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "‘जाओ जाकर आइस क्रीम बेचो’, Ramayana के गानों की आलोचना पर बोले रहमान",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ1paYWtNOXhxTEo3UTc1QTJrWFNKRG5YcnlqRnpQRFBLZmpUcmljNEMtZ3FWeFhVZFVEaEhpVUcxa0lnRTVPeFVkY21DUnJxNS1QeWgtZGhGWFVzckJoT3BuUVdPMXo5SjR1X3ZtTEM1MVNYSHJkaDRVVXBHNy1LLUZLOWhTU3d3S0RidjBKWWVBcGlJMDlEQ3gtc3VFZ0lndnlSdFdOY19sdmctZnY0b3F0MDhJWk42M2VJ?oc=5",
+          "publisher": "Jansatta"
+        },
+        {
+          "title": "रामायण: 'सबको खुश करना है आइसक्रीम बेचो', म्यूजिक पर उठे सवालों के बीच रहमान ने क्यों लिया स्टीव जॉब्स का नाम?",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYnlVVm13S3EzZVU1WS0zYWRHMzVlTkRYOHo4d1B6TzhFTW94MkRqdVlmRnpWWGYzV0pmbXBxVUtVWW9RbEJuY0hnYjdXeWJ1aDhxaXFvZjN6eTR2OUVocnBkWTRGOXBpaW9ZSzNzbm12X0NRbHBxSnZ6cmZiWFl3YnkxRnRvY295dE5tdUhyYlhjMEQwNXdpRXg5LXRPWmg3bEJpbHVDdXJmXy1qbERwSjRjd0lxZjFrX3JJ0gHAAUFVX3lxTE0tWXBlUjctTi1TLW80dEZHVWFmZjB2MDVOOFBYLVJfdVNoQlQ4bE5haERnYnlxd1RLeEJtVWJiT2dlQzlyY2t3T250ek90cm11M2pRa05HOXJacU5ZRTVERG9XbTNSUDVNOWRGZm5xRG9pancxdkRSUXVuMU1NOEJrcUxQWDhfaGlENTZXYlRPYmVQYmpEUE5vSmx5dG5qTzFpN2tXRjRkaV9Pd09rR0xUbkZsU2JNWjNseTE1RTNwVg?oc=5",
+          "publisher": "Amar Ujala"
+        },
+        {
+          "title": "आ गया करवाचौथ का नया 'एंथम', श्रेया घोषाल की सुरीली आवाज; रिलीज हुआ Ramayana का एक और गाना",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYmJmNlZXenJoX2NBa3FuYllMS2tCbWF6ZzRYT2I5Z3U1b0ltLW5fQ2l0LW90TGJIZkcwSUJpbjF3dFVmRWh6TW5UNWVkSDFvRmpsdVdEZlpNYlBJSGF4MVk3YVdreEdPN05yZFNPaHF5bEJPZ1QtcU9IVFBYbExnMTRlOUs4eWo0U05WemR3bHJzaFFSSWg5QUZyTURlRXBGLUNmbWpLa2pvNTlGMkZNMjdBbFNMeW9nS3JkOEptR3kyVkhTR1FVU3BCelBxOFZEcHRWWFlBSW9lV0x1TXowWkZB?oc=5",
+          "publisher": "Jagran"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-90063662c8",
+      "lang": "en",
+      "title": "BCCI extends IPL retention deadline to November 17",
+      "category": "sports",
+      "published_at": "2026-11-02T12:17:56+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "BCCI extends IPL retention deadline to November 17",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNmkwc3IwSHk2T0JxYWhBR2RFckdFS0hDSHVOY1JYX1UyRDhjLXZqZ041X05GM3lsWGhWdTNTdkxaNENtZ0RSeW1GOVdIUUFmSEhBZ2o2NTJTOXNLbkl5VWxlZjF1N2ZpWmJLaEV5Ul9zbGtDRFRPX3V6SlFDR2RlZ21hanhXejBDcjlpY29FOU1SUlRMTkRXSTBPcw?oc=5",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "BCCI Extends IPL Player Retention Deadline By 2 Days",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMmo1eldpQjFaaTdudDYxdC1XZVhsUFFHSlJTbkFOUGpXaG9BXzJYcENOWDd4TUlqOF9FYWpxR09weXd4VmthdzZxa2NpVC1NTVFFWVhKeDhfRFJXZWswdVpyX0dPbC1aRjh6bHBoVUZpNWNja0pLMVNIMFJ4ODJyTzhmNWE3WDRJbzRFdW43RmkzTGNtaG1tWnd0Q3d4VmJhU2Z2cg?oc=5",
+          "publisher": "News18"
+        },
+        {
+          "title": "IPL teams given until November 15 to announce retentions | BCCI hasn't yet finalised dates for IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbzhNcVJLTE80TUVFMGFnSVp2dHhXQUU5RUg1ZDUycHpla2JnSDdPalhlOTR0c1dpVGR1czVJRGZ4NVctbVVqVkFWQkw1bERldHVneHQ1RVZmU3h5YjZ5Ml96ZnlodTBJdFBYMkw3T2NLYUhib1hIc3FCNl93VEUwSUNhdHdRWW85RXk1d1RmSnBWTXgwbUxFWXNOaHVvZ3Bo0gGmAUFVX3lxTE10SHY2SjNySjlTbWJIUFFzUXdKa2F3UGtFUnM0ZllDRm13cDdkQlNaVUdCWWw0ZVRDYS12WUdBUEh3ekVLeXFwanhGMWhycDVSWE05T2VOenhmckhWUTNGMEZCQVl2alNwQlpsYWJ5NXYzR2xvZ1dPM1ljZ1JzMjhNZ3hDLWlTTUsxbFVLMWtIaWlra0J0MWZhNENPRWNUYkpSbVc4cEE?oc=5",
+          "publisher": "Inshorts"
+        },
+        {
+          "title": "IPL retention deadline set for November 15",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPem1ZWEtKTzNlRUl4eFlvbmh4OWxab2k0REFYeUgtc0gwRWpMR0lsVzJEazFDa0FYb3V5Y205R0pnVk14WnltWUlOc0otWXRSZjN4bFFWVml0aGNRMTNmQy1TcWY5X0FKNU5IbUd5bGJIUTRWXzJ5TTdaazEwc1lqcDZ1U1ZGZ3hHanVLcEdkenBQTk1FWXAwZ3R0YUtoNTh6R0lv0gGqAUFVX3lxTE5UQmFmN0xZeDg3Q01IcmtXLVFNbWhCZ3ZnZ214Ym5neG82Z3RVMXRRRlA5a0FqMnVLRG8wQTV6ZVBCVk5hZk1ZZjd1Y3pMSGVjLTJHVUplRkRnUTc4Y2t3ZE95R2pqVHpkRXo1MWVnbHNMUGlaU1Y4WE5xTHFyS0xkMVBPTVBScDBHMEw5eW13b1kyTTdCWGR1aEJSeVhWeXNHT1VVTlVSOC1B?oc=5",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Big names who could be released ahead of IPL 2027",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUR6TDdjQUdGT1o4QWJzcnprd1JxQkxmdnV1VzFXeG0zRVhwS0RKT095dkV1ZnhLa0cxb092LTAxdE53THp1RWlFRHdyYWFkNHlxRVdObkRHUE1FTHdPeTNRb3pQa3ZpT0hzS2dQaHd6Nmt6U0NZd2J0S19Id0VSNXlpZlFFYVJldHdYdW0wRU1lMGhHRG9ENHdpc28?oc=5",
+          "publisher": "NewsBytes"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-be7a7fbbcc",
+      "lang": "en",
+      "title": "US Midterm Elections Live Updates: Michigan Democrat’s endorsement of Republican sparks row on eve of Election Day",
+      "category": "world",
+      "published_at": "2026-11-02T12:12:11+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "US Midterm Elections Live Updates: Michigan Democrat’s endorsement of Republican sparks row on eve of Election Day",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZ2RDZmItdnpKR20ydER6bEZvWmdtcFV5VjlKMjJUWkZlNG5GaGR6VmVBcFpkaXR1SlpCMGRwTm1WTG9GeXg3M2k4ZlhYOWNBMFRXV0xzUV83MGo5OFl3VUhUMy1UeHNiOUVvWThLTFdrR2w3RjRGdU9SeUROZmljNjFTZ3ZEWHEzcEZoTXpfa3pCaWZWak81aFJ5ZFZWaUNaaW9ROUYzTDAwVDBZYmJSTzE2SDRmbEtsWUl2MElJSEhudWlDeWtGd3hEYTBOUHMzd2RLTW54aXJGelYyb1QyMDZvcU15di0xcVFSNU9WLUhha0hVUzg00gH-AUFVX3lxTE9Ja2Y5dlh2ZEoxSUlXcU5iZUIxQnJNZlAtcG9lbHd0TDJRc2VYS05ocHFvZUxaTWdaWHk2NWlBb0x1VFVMN3lfOUhCWmNvcEV6MjZNM3dRaDQ3Q05BeHZnZm1JQ2dER1kzanVHQ1Q1NG9UNHl1cFF4dWFMWGZscGQybkRENFZybmNtUDQ1Z0NaclZTd1NaNjdLdFVDcGFnM0pyUHd3UE1wQTFsOVM2RWg3RlVadk43RF9rNHZIRV9EUzBSUTVVWF9yOE52YklrYXF6eFR2bldodGttR0hPSUNTZUxkOHg1Szh1VlQydUppZm5GUmlWc3lmS1pDVXZB?oc=5",
+          "publisher": "The Indian Express"
+        },
+        {
+          "title": "US midterms 2026 live: Final day of campaigning - follow latest",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIZjRVaFl3VjN4Z0Vab2p6eTRoRFRxNDF5MXh5LTc3RENiWm91SEZUNVFzMjhJUnRQZ2RBY1VBS1ZIcHZBYjVBT0EwcnRCVnlNTjJFSUJB?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "First Thing: Stevens defects to back El-Sayed’s Michigan opponent as Trump delivers anti-Muslim tirade",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORTdaUHhXVUhMTkw1Yl9jb1prTWk0RDczTGUzN3dsV0hSWk9EOGNPZVV1RzdKalBfREo3V0ZzNDNyUUNTZDN2cTlwdTJkaU9iMHNwcEJGdzZ4MTBseXU1SHA3LU93YldOemxqenBGMm1OTW5MZzQ5Z1hrMVdENnU4d0hWWEgtYjY4ajJRTUJYbGNiZEJZZ2FrcmNFdFlOSkpQREN6YklzbnQwTXdJeEppMm5GZ2NTVUhYMy1VRlF4R1NLTmcxZEhBWk9WemVvcUhqb0t5YWE0VkNFVDB5TmdfN3NB?oc=5",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "Why did Democrat Haley Stevens just endorse a Republican for US Senate?",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa0NNTGtmR3RWZ05jblJfSV82aHJVaWRDOUVaSE5SUE0yYmF2WEVMZkY0SHI0SE5HMzJ6Wmp4eDZfa0JkelYtZEZ3NDBZU2dqQmw1N0pORmhhMC1kMEktX1pWX3BpRjlCcVVrSG9OamV3aEVIcG1sa0VwMFRfZS14S0hSN1JVSU1aUmFQYUZPOWdKSncwZWRWWm95VmdYNEVoWWlteXFSQVZyUEhUUndHWtIBtgFBVV95cUxPTWhoeGNnckRwUnd5RkZ6UXhPT2NqVmdySkhpVmthdE5uQlVpLXl3Smp1Wjd2cXBKWHhDR05zaXhxN2VFbzNqcldNdHF5aTVsRU01T1BieFB1d25aSTA1Q0NBVUxpZjlBV2dFUUo3UWxFMjZheDBBSDJUYnYzbmJ5Si10cmgwYmhncThiMzVQTDZuZmRTMkwxejgzdEs4dlBQb05WQnlNclN5NGRtZFhjSVVBN3Zodw?oc=5",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Inside the Abdul El-Sayed-Haley Stevens Meltdown in Michigan",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbkZtX1pFRE9hei01bjNucXJJeDVQRXlybi1EdzBscUh6OTZyN2s0OU5vNWM0ZXJZTGNtczhpRE50dnphVndlSS1uWE9YT1dQdmJWYVF0VTdJenFPYTJjYUVoZ2lsREdfcjdOVXRrbl9VMEhTaXVhcGRVSjlteUVldEw3UzBWbEJlbjF4MG1yNDlDMTJmbEFXZ0ZFS1o?oc=5",
+          "publisher": "The New York Times"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-82df5f8f5e",
+      "lang": "hi",
+      "title": "‘रामायण’ में यश से भी खूंखार है छोटा रावण, नमित मल्होत्रा के बेटे का दमदार रोल, दिखेगी जबरदस्त बॉडी और रौद्...",
+      "category": "entertainment",
+      "published_at": "2026-11-02T11:16:12+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "‘रामायण’ में यश से भी खूंखार है छोटा रावण, नमित मल्होत्रा के बेटे का दमदार रोल, दिखेगी जबरदस्त बॉडी और रौद्...",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNTlFwMC1KSFhTQ2ZrcVo3bU9tQzJUV0N0SjFILW5keTBINVo3akJPN2lxQUNDUHR1cnA2bUFvTkJSRGZSU2lzb2lYYWZySDMtdkJwU1pMWmxpNFJ3Y1VKVmV2MHJ0M3gtYTloaFVENm9ib3hWU3lmcXRzQ0wwUTMyRkVib3JpenhGQWRzUDJUeHpiS0pRRW9SdFV0dXlxdDFnbnVkU1pVbFBVODQ2SzFmOVMxSC1RSDB2bWpGWEsyUklaNDEwbVcxN0ZzdmRDaEFGbVFRS1BXdGdYel95WkEwNDA3U2otOHJpSGhJQmV0cmZMemdFRnNHS3Zpd9IBgAJBVV95cUxPQm83MVVpWDQ0N0VGUnRDRDJscnZqa0FON0s0UFdBUTZhV2M3eElvcUpNeS1SSm1NeDJfVlUwVDdNLVM4X2g0RS1xd24xQTlVc3NpMk1SQ1VCNVNEamJzQk1oZHdkWkJKRnRFU04yUjVXU2hmYWtnYnlES2FFMzZldmR1NmF3MDNNaHlxdGh0OFNqZERVbEcwTXlfMVA4dlJxM3FwcWdVRXF3eW9waWZPd1ZCVm9jdzFiNDRMeFRlZ0p3SGN5by16bXJISjVycnVqY3k5SzlWVThZUUI4ZklOOWtabWRtVTJrN1dPaXBsOVJaUFQyTXdORExKUHFxeDY5?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "'रामायण' में छोटे रावण की एंट्री ने चौंकाया, 16 हजार करोड़ के मालिक के बेटा राघव मल्होत्रा करेंगे यश का यंग",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPbGdEVDVwdV9YbWJaaUVQTVRJVno4Y0o1dkpva3NudUJjLXZWZGVhSDNoNXpMTXNPcy1BTE9pSUEzNlFmUEs4SXhDdnlOZ3ZIXy13MUZCb2Jldkxvb09rN2xVTHNURGYtZGZtZS0yS1U5V2w1LTVFcXlRSjZONDJXSlVibko2MmZHYnk2QnZXelR0R3psMTFydlpDNU1La2FVM1oxYnJ6ZENaNHZkajl3aEJYMmxPaGFHYWhPVjA2NUNKZHhYeHQ4N045TEZqVEpxR2JqMmN5VTBSc0daTEkyTWFMeUlOUWpOeTN1cm9JSE9OOS1HN29LWHRPcHBoTzVselVsWHFKek5LZmZWV20tb0hoZFh1UWY5bkItMERnWUQzMXV5cnFB0gGsAkFVX3lxTE5pemh3Zm5jY3VzNy0ycm9MN0s2VG1NbWdlS2NUYnJ1c0YwZGJzUHNZanNxNEtjcE9hQnlicXhEa0RHLUt4MGdkRXlWLV92aTBnUkhSNHpwaGdBTDBzR3A1Vnp0VldjaXl2YWt3VTg1bkhuNWZPUmJYSUxRZUd3ZmFGQUxoaE1LTkJkTEp0U3JsZkFtWkczY3RYV1NUU21QeE5MWnFyT0h2V1o0WkcxVU8yZ3Fsb3g4WF83dTFfd1ZKdGhtQW1NQWdDNzlNYjJrUUcwdlZPWnJ2ZEMwNjBIaTNaQ09Vb2hSNGI3NG5jalBvUWN6cTNVa1NLbFpSeEx0N0dIX240c0Z1c21QYWhGcHg0eS1nZVk0MFJxZTllZzcyYXNoNUZTbUZTVXQtZg?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "छोटा रावण है रामायण का सबसे अमीर एक्टर, यश के यंग वर्जन के पापा की नेटवर्थ 16000 करोड़",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZGNhY0Y0M3NETWVhWDJNWFVxVG4zdVcxUWlqbDRrS2FBQWp0UjJtSW50TXpIMVFpLVhLNUE3czgxWDRuaVAtNnNCdEZsbng4UFNsVjNNNXZ3NnR6M2lVSlI1SEt1dW9NMkVlaVVPREtfSWVLSXI5OUlNSDNQd3VQZUFmM3lDdERrNk1aQjFUU084c055NTQwTWQ3N21OQWdFdFFMSDZZemNTNnlVbnlCREtMa19nNTZSS2lmbzcyVlRJS2dqd0g0MTN3?oc=5",
+          "publisher": "NDTV India"
+        },
+        {
+          "title": "रणबीर कपूर की 'रामायण' में राघव मल्होत्रा की एंट्री, फिल्म में यश के युवा रावण का किरदार निभाएंगे",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQTdYNjUtUEl1dnpGOHpjSHB2MzAyUXVfRUxMSEV4OWhhNW5KNnZtZFEyWHI4aFY2clFvSlMtdENuc3RhUFVlRERRbERJalJtbUtHNWtXQWVTT0Vwa0V0UFBDMTJ5ME1STTJreVRKQlQyTWFaYU9TV2xUS2dXb3ZOeVZvWmJXOXJTSlZNVFJOWmN1YTNhY2c?oc=5",
+          "publisher": "| Now Noida"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-48a4f91979",
+      "lang": "hi",
+      "title": "सीएआईटी ने दिल्ली के उप राज्यपाल को पत्र लिखकर प्रदर्शन स्थल को शहर से बाहर तय करने की मांग की",
+      "category": "india",
+      "published_at": "2026-11-02T11:00:42+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "सीएआईटी ने दिल्ली के उप राज्यपाल को पत्र लिखकर प्रदर्शन स्थल को शहर से बाहर तय करने की मांग की",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yVk92a2FRMUt1bXU1OVQweHV2U1hWUGtNYTM1c0NiNVpSMEtCOFdvMEF5RXdBLVlVXzRiSllhdDBQOHdFS2hNSm5oc0syaXFyRHl6Y2hrSQ?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "'सोचिए, एक इंडियन US में प्रोटेस्ट किया होता, उसे अगली फ्लाइट से डिपोर्ट कर दिया जाता', बॉम्बे हाईकोर्ट ने इमरान खान को लगाई फटकार",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQjlBTlFIOUpKT0VMN3g1Q3YzZ01YLW4wNVVuWm5KQTJOaDVSa1FFejhfeWxJRjhULVlTRUNQX1lfeHVyOGx5SUtrMWl3V0RLZDRWNkZ4Y2pUWnlGZENldXhPT3ktQURMbzdWYUJfLUJiMUYwakQwZHhLNV8taUN3YnJ0Rk5IY2x1OXlabF9GeDJMM3NqWjBHZk8wWV8zd0NIaFBic19udXRja2lGTGtKZHQwdmZQOHdubDk0QjM0ZzJkYWp4cTg1ejdNdzlnZEYyVGdRZDRmSzV6YlR2WkE?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "'भारत में रहते हो, कमाते हो तो नागरिकता क्यों नहीं लेते?' इमरान खान को बॉम्बे हाईकोर्ट की कड़ी फटकार, नहीं",
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNNmlfeVVhX2ZvX0FZV0hTcXktYnZZU1M0a3hFRlFSVzN2VWVxUUNUUVJBeFJIN0RTVXE4b3o0ekNITzRZTHVlUHRCd0dFQ3gxZ01JM3hzaGxxT2wzeVo0cFJPTzIwcGFmeXZZQUhlOFhISnpmeGFUQk1Vd1JEZ2pTTERwNi1iNVpfcHVOQjJLRGprbmxmNHhuQU1BQXluRnpUaUxUeS15YVhGVHoxT1A5V2VocVhPTDN0cFhFeG5fNDNnb2hzX2xORmg3bHRPSVJ3STFNUkFBRXVwY2FIWXFjUUFtdzdmd2FTM0d1TDFDOFg2NnFVZGtTYUdUZGlhUm9QLW13emR1U1A5cEZPVFk2bFhhbzFKVjd2NG5ycHRKMA?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "'सिर्फ हलफनामा काफी नहीं, बिना शर्त माफी मांगें'; बॉम्बे हाई कोर्ट ने इमरान खान को लगाई फटकार",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa3dSbzhFTDJCQnQ5ZVo1bHFhX2R1Sl9Pb01zX20yU2t5akZFbTNMcmxHWUlhSFNNdGhaVmJ5cFpFLUxvSEY4Q1AxSzJDY0k3QWZ5NkJXSmxOQTF2MWZpeFZ5V1hBVTRuVC1mRzRIbFBNQXJnM3ZWdEhkam9SVzF4MUh4cmxlUURiMHljajJmVDQ0bHk2MjlPbEdmSG9NZnJHQ0RUbV9kZGdreEdjRmZOT2R0ZnBmb2dvaEE?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "इमरान खान ने मांगी बेशर्त माफी, आगे से नहीं लेंगे प्रोटेस्ट में हिस्सा, हलफनामे के बाद कोर्ट ने दी रियायत",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPWFlGNy1zSGU1TTduQ1EzXzFYMUp3dGk3NTR1c19TR2c5cEdDRnZPSi1ZeVppVlhBQ25YXzEtVUVTeW5QeUVtTGdDYVREaGcwQURQUW5ZVE5remt4SGJaMWV4Z3dfWjhkcHphRC1HNFF2aHB6SktiSGh0RUhKNFlwdWptYS12MTdBVUNzUmp2OUFKckxKNmE1TU5DX09Jdkg4SUR1UUFzWWgycHRZRWpNM25RMjY0RnFRRXdKdGVRRFdHbzh2V3ZPWEx6YV84TkZSSnM2bXlpd3dkSUJ3UmRzNXh1TjNNM2F2VThVRGdnSHU4ZUN0dWpMNlJKcU9waW9SY1FCYlNjZjBrNlZK?oc=5",
+          "publisher": "Hindustan"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-8b1b2f661a",
+      "lang": "hi",
+      "title": "रामलीला मैदान: क्या इंडिया गठबंधन को मिलेगी रणनीतिक बढ़त, या चुनौतियां अभी भी बरक़रार?",
+      "category": "india",
+      "published_at": "2026-11-02T10:55:41+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "रामलीला मैदान: क्या इंडिया गठबंधन को मिलेगी रणनीतिक बढ़त, या चुनौतियां अभी भी बरक़रार?",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WNU5CRzU5VUtaRGdfd3VucmhKcmVnWVBjLUY0LVpDTFNtN0w2cF9EeDFPaUJXOVp6ODRqWUwxMmZsTF80VHZzX2hQaVhHcnZFdjBEYjhPQWRWT3lx0gFiQVVfeXFMTUpQYzY1Mi0zQlA3TW1uV25hVXZPbzZJMEJQUlpnSWpzdDRBQUJqQ3l5YWRudGFBTm5ZMFN4Wnc5bDFlc0ViTTE3Z0Q4SlYtT2JkTWFRZkZuWGlzalUtNTVIbUE?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "'विदेशी मदद से प्रधानमंत्री बने हुए हैं...' राहुल गांधी का आरोप, PM को दी खुली बहस की चुनौती",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOanVYZUkzNFotT09SWHB0Ym5qbGtzaGl2ZTNmWEVYSHZ3T1dVMGhVdXB0Uk5mYjNNNjNzWF9Jdmg1RlJ2bGgxVTNLTFdzTFM5NzRaSEptR3U4dGxXdkJwY1lySllDbzhiNElpTHQxeTRZcmFFMkFnSmdDX0paX1FxWVNSOWk2TUFhUUlLaDdSbWdjbW9QNFFnX1hScHBsa1c0M3hQX0UxcGloMGNiWEhDVG1XZU5tOWlWRzZuckhUbVIzOTI1bUJ2NFNpVTFxRnhj0gHWAUFVX3lxTFBfU1N3QUljT3JyNlRPZHdUWGVNUGllTnJiOGIwQ2hwU1c1OG9TUUlPR3pFbUEwaUxZX2hJQWxrZ3haakltdzVGV0kwNkxmSl9tRGpERXFVaGhuNnZ5cS0zQ3E4SjdoZ1JBTmRWb0xCZU5HMnI2NlBGZ0JJd2RMN0dGOG03T2R6VU9PVzlNdmpDSGUwUzlINnczaEdzRlN6YnFudkppeS1MN0JkZmlZMTVvcFFtbnZmMGJ6eU80YWFWOVpCTzBUZUhRZlc1ZHBOMFJvVXo2SWc?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "Salient points of the press conference of BJP National Spokesperson Dr. Sambit Patra (M.P.).",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVVgyRDJGZUFpMGlGYS1vWkQtUDBFc2VxM044ZU1nd01XNDctdGh0dm5ycFNocjZMUklQbWRtaVJ0WU1JZFhpUGM5M0gwSndtd3BtbzN3bHRBd0Y5X2RKdDRfMUJPOHphX2U3QldRNllvOWJSZ0xId0g2Qm56cTBycTZ6WTZpbFlmdWJFRFNyRWUtSGpqcHlhdndXZ1FiN2tGZDE1VVAwTUFDakZpY1pzMFF1M3dCSlk?oc=5",
+          "publisher": "Bharatiya Janata Party"
+        },
+        {
+          "title": "दिल्ली में INDIA की महारैली से 2.5 लाख दुकानें बंद का दावा, कितने हजार करोड़ के व्यापार पर असर?, Ncr Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUkRJOFlpU1RPbkdmWmtvTDNpZlJFOURkblh2UGRNNXFZU2RDWXlYNmUxZ3ZWM1EwQ2RyZ09kZU1ybVladW12S2IxVTJSQ1ZOUTYzS2JOaDJIZzluc3o3dDRiX1ZhUlc3TjItLTRhOWNIQzVORk5BOW81NWdLaFBLNE4wRkk4b201R2JQR0N4WW9oNVlEaG1ZNmE1N0V3WHVyOGJhNE5Fd3AxTWlmbmNxNlhkMmF2Z0RNcDVURjVn?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "राहुल गांधी की रैली से व्यापारियों को 12000 करोड़ रुपये का नुकसान, चेंबर ऑफ ट्रेड एंड इंडस्ट्री का दावा",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUjZSLWJ3R1BfVlhYVlBLNlZXTnhzNVUyOGc0TGtIb2o1Zk1QdTFyNm1iX2V6dk95QXFQWFJ5QzlSWkhMYlROZXhmWWt3RzY4d2tOQW5EN2d1VnFaSmpHdXl1Tk9EYUJQYWJONEwtUmI5WUNVQ252c0xRc1RHeHFJNmVidGxMZE5kcUhDWlZ0LTJDZGF1N1E0V3RzeV9FYmJHbXg2c1lkdTg3azlUMWNYaERLRE53LVJwSHNlTmxlR2R5ODVhekZpVGFiZkFaRjhXcnB2UjVYUmswS29jZkNlTGpFQlB1TzRVVmo2MA?oc=5",
+          "publisher": "India TV Hindi"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-6a9e01509c",
+      "lang": "en",
+      "title": "ITC Q2 Results Preview: Profit seen falling nearly 30% YoY as cigarette tax hikes bite",
+      "category": "trending",
+      "published_at": "2026-11-02T12:00:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "ITC Q2 Results Preview: Profit seen falling nearly 30% YoY as cigarette tax hikes bite",
+          "url": "https://m.economictimes.com/markets/stocks/earnings/itc-q2-results-preview-profit-seen-falling-nearly-30-yoy-as-cigarette-tax-hikes-bite/articleshow/135419165.cms",
+          "publisher": "The Economic Times"
+        },
+        {
+          "title": "ITC (NSE:ITC) FY26 financial results and operating trends",
+          "url": "https://www.kalkine.co.in/article/consumer/itc-nseitc-what-do-the-fy26-results-reveal-about-fmcg-expansion-alongside-a-diversified-earnings-base",
+          "publisher": "Kalkine India"
+        },
+        {
+          "title": "ITC.NS Q2 2026 Earnings: Revenue Grows 4.77% YoY to ₹78,213.28 Crore, EPS at ₹16.51 - CFO Commentary Report",
+          "url": "https://www.siam.in/aticles-market/ITCNS-Q2-2026-Earnings-Revenue-Grows-477-YoY-to-7821328-Crore-EPS-at-1651-63-11294",
+          "publisher": "https://www.siam.in/"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-fce1d0e390",
+      "lang": "hi",
+      "title": "भारत के एक साल पर भारी पड़ा दक्षिण कोरिया का एक महीना, चीन को एक्सपोर्ट में 38% से ज्यादा का अंतर",
+      "category": "business",
+      "published_at": "2026-11-02T10:35:46+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "भारत के एक साल पर भारी पड़ा दक्षिण कोरिया का एक महीना, चीन को एक्सपोर्ट में 38% से ज्यादा का अंतर",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdlpveDRRMWtoTTZycGluTmRFUFgxSEppdS1lWUxtZTR4dG5VdEQzamZZVzk2N3JfMDQwbVdwbXVER2t0R1ctSUYwTWg4bjVxcE5OY2t5VkQ5OFBfa0JoX0xiQmpNcVhaSTVjeHd4Y3BEZ1hyd3BiY1JSeVoxN0NPREZsRjRLLTVacTYtV0xNWWtlWEU0ZW1pN0xVblpIcmFtRjBYLW9HZWlmdDZURFQyTWJIU2xTaERiTFIyWF9yUWRmRkxyblZQQ1Q2S0J4S0dfVkE3d21tMUV3MGo0LVl5TGpsdWvSAeoBQVVfeXFMTXVLbzJQdGE5TXRzQjFPLTRobTZNRTV6OXNPSkNGQngwdlN5QUdzc3VjQzY0RzFOZjhXNWJ2Rk9TNmJianhQRkI0T19pR01zTUdYRU9mdzMyaGEyaW1CRG5sTFp0TEF2bGVadWtRb1lySjF1dUU0RnFXeDFaZWNGTWhGVnFnV254V0lMWVJyelVJRzlhVVhWNE1pR2JGZnVBN1p0QUdxVVhQVWVaZTRnX1dqQUlwNGVPNlBNWnFlM1p0cFpYcWZIeU5GcU9KV2M0TU50SWFDeDQzR1dkTncxTEczWWlibGx2SGRR?oc=5",
+          "publisher": "Navbharat Times"
+        },
+        {
+          "title": "साउथ कोर‍िया का चीन को एक्‍सपोर्ट अचानक 132% बढ़ा, भारत क्यों रह गया पीछे",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONjdlZFdGazNtTWdRN0lNelZnQkJiakRDRDlkMExYaGN4dXdDSzFmVE44N0RGUkd4Q2lobEhILTFmSTF3aVROcGE2bEdnZkdmLUwxUnlkX2xHV2dOUkx5YzRCZ3NibjBBTU84YkgwNFhacVF0MWx4N2w5ZEtJc3FzaWREekJvTERJM0RWMHMzc01QNVhuZ1B4SVhkUEh1aWFURFpJUnBCbEJySjZpcl80dWFrZ3NSWlNzcU5KUlNDMURvUkV2NVdyWTlNdw?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "दक्षिण कोरिया का निर्यात अक्टूबर में 93.7% उछला, 1974 के बाद सबसे तेज वृद्धि",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vTGdhaXdrZk04WkZRbjFIRVNZZ21nRUJLVGRocEwxLWM1cXR6WGMzNHpBVURuY0ZhQVpkWDhtOG9wektDa3FJRWhPRXFoOFpTRnc0TE1uN1V4Mk1DQm9SaDFpYVR4MzV5?oc=5",
+          "publisher": "Investing.com भारत"
+        },
+        {
+          "title": "एक उद्योग में मिली सफलता के चलते दक्षिण कोरिया के निर्यात ने एक नया शिखर छुआ है।",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQckhlYjVpM253TXVBZFlNVnZYZVl4b245YjFJaWpnZUdkbUZ3RTl5VTFyLVlIZFlpdVJQVnh5S2ZVNUlIUDJVaTVDcFpqTEVuZW8xTE1xSmEwZTJsUEd4NnppX1FtTTlHMmZGSXp1c3NmdjRvMno2WTBqQ01QOWlrd3VJbHFOcUp4VDdRVm1VWQ?oc=5",
+          "publisher": "Vietnam.vn"
+        },
+        {
+          "title": "सेमीकंडक्टर निर्यात में 259% की भारी उछाल... दक्षिण कोरिया 1 ट्रिलियन डॉलर के वार्षिक निर्यात के करीब",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DZVlTQnBsN1JSRmt2dWxSN01CZzZJY1p2QWZPdkdVczllWmpobzBGVlJ3cDF1N3pGaWVZMmNHeDlmRXFnSmRUdlpoMUw3eWlwb0hKWGpYUEZyY3ZSNkl3?oc=5",
+          "publisher": "재경일보"
+        }
+      ],
+      "queued_at": "2026-11-02T12:48:03.075298+00:00",
       "reasons": [
         "insufficient_value"
       ]

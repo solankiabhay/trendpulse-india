@@ -4771,7 +4771,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-28T08:03:18.857483+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://mcdn.pokemon.com/pokemon-prod/image/upload/c_limit,w_1920/f_auto/v1/live/pcom-cms/static-assets/cms3/us/img/video-games/tiles/pokemon-unite/generic/pokemon-unite-169.png",
+      "image_source": "https://www.pokemon.com/us/news/special-event-and-library-feature-added-to-pokemon-unite",
+      "image_credit": "Pokemon.com",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/1de64329480e506fdd04.png"
     },
     {
       "id": "en-8dedaefd53",
@@ -4806,7 +4812,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-28T08:03:18.857483+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://sportsgambler.sirv.com/teams_betting_tips/677c5f858ea9e.webp?h=800",
+      "image_source": "https://www.sportsgambler.com/betting-tips/basketball/detroit-pistons-vs-new-york-knicks-prediction-odds-6019718/",
+      "image_credit": "Sportsgambler",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/0b8ac65a73ff895ecf49.jpg"
     },
     {
       "id": "en-2a41790c6d",
@@ -4912,7 +4924,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T04:55:47.862338+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.toiimg.com/thumb/msid-135233217,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/india/we-know-everything-sc-on-pleas-alleging-unilateral-decisions-by-cec-gives-petitioners-10-days-to-reply/articleshow/135232872.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/82fc1a54c8c7395a701c.jpg"
     },
     {
       "id": "en-6ad6949ab7",
@@ -4947,7 +4965,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://th-i.thgim.com/public/incoming/2lho54/article71624086.ece/alternates/LANDSCAPE_1200/DSC_4853.JPG",
+      "image_source": "https://www.thehindu.com/news/national/karnataka/over-61000-form-7-applications-filed-by-election-officials-in-karnataka-none-cites-reason/article71623783.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/c518bd1b7b2297c93200.jpg"
     },
     {
       "id": "en-28c617aba3",
@@ -4982,7 +5006,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.toiimg.com/thumb/msid-135258186,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/life-style/people/she-bought-a-200-coupon-at-a-garba-event-and-wrote-her-6-year-old-grandsons-name-on-it-a-year-later-grandmother-kiran-raikwars-family-received-the-50-lakh-suv-they-had-dreamed-of-owning-for-years/articleshow/135257700.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/8adf1b340fe2510a62eb.jpg"
     },
     {
       "id": "en-5201c1f027",
@@ -5017,7 +5047,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://static.ffx.io/images/$zoom_0.8576%2C$multiply_2%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_45/t_crop_custom/c_scale%2Cw_1200%2Cq_88%2Cf_auto/f5b5bae9c95a08812d79502f8a1f85d1e863ac3d",
+      "image_source": "https://www.nine.com.au/sport/cricket/south-africa-australia-live-scores-third-test-day-two-highlights-results-latest-updates-20261028-p619h0.html",
+      "image_credit": "Nine.com.au",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/06473a92c715a91f3f97.jpg"
     },
     {
       "id": "en-1f01468813",
@@ -5052,7 +5088,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+      "image_source": "https://www.bbc.com/sport/football/live/cqe9l1yej078t",
+      "image_credit": "BBC",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-5a1c4e3daa",
@@ -5087,7 +5129,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://onefootball.com/pt-br/apostas/static/wp/santos-x-palmeiras-16.webp",
+      "image_source": "https://onefootball.com/pt-br/apostas/palpites/santos-vs-palmeiras-28-10-2026",
+      "image_credit": "OneFootball",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/edd1cd1b75bf480ddbd0.webp"
     },
     {
       "id": "en-5b9f4c43ce",
@@ -5122,7 +5170,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2025-12-24T021516Z_2142499538_RC2OMIAIT6Z8_RTRMADP_3_USA-DAILYLIFE-1024x768.jpg",
+      "image_source": "https://www.pbs.org/newshour/nation/daylight-saving-time-is-coming-to-an-end-again-heres-how-the-time-change-may-impact-you",
+      "image_credit": "PBS",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/b2f8d602956b2f69dd4a.jpg"
     },
     {
       "id": "en-6c61e66855",
@@ -5157,7 +5211,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://s.yimg.com/lo/mysterio/api/39cd2602b8c920c149f4370cad21bb7b93d65dc48cca4f25e4d864f3eceaf89f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2Fc2f8bfa4-0612-4f2d-8d91-173d72965077",
+      "image_source": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html",
+      "image_credit": "Yahoo Finance",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/2635c3b6cc104c79a574.jpg"
     },
     {
       "id": "en-51b283a60c",
@@ -8529,6 +8589,80 @@
       "image_credit": "Notebookcheck",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/a6d42393565ad0741b60.jpg"
+    },
+    {
+      "id": "en-c21ff1ef00",
+      "lang": "en",
+      "slug": "asi-queda-el-ranking-atp-tras-el-atp-500-de-viena-cual-es-el-c21ff1ef00",
+      "url": "en/posts/asi-queda-el-ranking-atp-tras-el-atp-500-de-viena-cual-es-el-c21ff1ef00.html",
+      "title": "Así queda el ranking ATP tras el ATP 500 de Viena: cuál es el puesto de Alcaraz, número 1 y clasificación",
+      "summary": "Onda Vasca: La actualización semanal del ranking de la ATP ha traído un cambio histórico. Por primera vez en su carrera deportiva, Alexander Zverev ha dado el salto al número 1 mundial . El tenista…",
+      "source_summary": "Onda Vasca: La actualización semanal del ranking de la ATP ha traído un cambio histórico. Por primera vez en su carrera deportiva, Alexander Zverev ha dado el salto al número 1 mundial . El tenista alemán presenta 9.550 puntos destronando a Jannik Sinner, que se queda en…\n\nVietnam.vn: Zverev también mejoró su récord de la temporada a 65 victorias y 14 derrotas, con 12 apariciones en semifinales. En las semifinales del Abierto de Viena 2026, se enfrentará al ganador del partido entre Alex de Minaur y Carlos Alcaraz. Por su parte, la otra…",
+      "article_body": "Onda Vasca: “La actualización semanal del ranking de la ATP ha traído un cambio histórico. Por primera vez en su carrera deportiva, Alexander Zverev ha dado el salto al número 1 mundial . El tenista alemán presenta 9.550 puntos destronando a Jannik Sinner, que se queda en…”\n\nVietnam.vn: “Zverev también mejoró su récord de la temporada a 65 victorias y 14 derrotas, con 12 apariciones en semifinales. En las semifinales del Abierto de Viena 2026, se enfrentará al ganador del partido entre Alex de Minaur y Carlos Alcaraz. Por su parte, la otra…”",
+      "category": "trending",
+      "published_at": "2026-11-02T12:30:00+00:00",
+      "generated_at": "2026-11-02T12:48:03.075298+00:00",
+      "kind": "digest",
+      "keyword": "rafael jodar",
+      "score": 89.83,
+      "sources": [
+        {
+          "title": "Así queda el ranking ATP tras el ATP 500 de Viena: cuál es el puesto de Alcaraz, número 1 y clasificación",
+          "url": "https://as.com/tenis/mas_tenis/asi-queda-el-ranking-atp-tras-el-atp-500-de-viena-cual-es-el-puesto-de-alcaraz-numero-1-y-clasificacion-f202611-n/",
+          "publisher": "Diario AS"
+        },
+        {
+          "title": "Zverev asalta el número 1 mundial",
+          "url": "https://www.ondavasca.com/zverev-asalta-el-numero-1-mundial/",
+          "publisher": "Onda Vasca"
+        },
+        {
+          "title": "Zverev avanza a toda velocidad hacia las semifinales del Abierto de Viena.",
+          "url": "https://www.vietnam.vn/es/zverev-toc-hanh-vao-ban-ket-vienna-open",
+          "publisher": "Vietnam.vn"
+        }
+      ],
+      "image_url": "https://cdn2.ondavasca.com/667fddc8-dbb7-4429-9baf-d00ffc158c8c_16-9-discover_1200x630.jpg",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/a82ff41cc9c85c5580e6.jpg"
+    },
+    {
+      "id": "en-bfa2095661",
+      "lang": "en",
+      "slug": "ravindra-and-chapman-ruled-out-of-india-odis-bfa2095661",
+      "url": "en/posts/ravindra-and-chapman-ruled-out-of-india-odis-bfa2095661.html",
+      "title": "Ravindra and Chapman ruled out of India ODIs",
+      "summary": "ICC: New Zealand have suffered a major blow with news that Mark Chapman and Rachin Ravindra will miss the upcoming five-match ODI series against India. Chapman is still recovering from his hamstring…",
+      "source_summary": "ICC: New Zealand have suffered a major blow with news that Mark Chapman and Rachin Ravindra will miss the upcoming five-match ODI series against India. Chapman is still recovering from his hamstring injury and will require a further two weeks on the sidelines, while Ravindra is…\n\nThe Times of India: New Zealand have suffered two injury setbacks ahead of their ODI series against India, with Mark Chapman and Rachin Ravindra ruled out. Chapman is recovering from a hamstring injury, while Ravindra is still struggling with a shoulder problem. Both players will miss the upcoming ODI…",
+      "article_body": "ICC: “New Zealand have suffered a major blow with news that Mark Chapman and Rachin Ravindra will miss the upcoming five-match ODI series against India. Chapman is still recovering from his hamstring injury and will require a further two weeks on the sidelines, while Ravindra is…”\n\nThe Times of India: “New Zealand have suffered two injury setbacks ahead of their ODI series against India, with Mark Chapman and Rachin Ravindra ruled out. Chapman is recovering from a hamstring injury, while Ravindra is still struggling with a shoulder problem. Both players will miss the upcoming ODI…”",
+      "category": "trending",
+      "published_at": "2026-11-02T12:20:00+00:00",
+      "generated_at": "2026-11-02T12:48:03.075298+00:00",
+      "kind": "digest",
+      "keyword": "henry nicholls",
+      "score": 89.74,
+      "sources": [
+        {
+          "title": "Ravindra and Chapman ruled out of India ODIs",
+          "url": "https://www.cricinfo.com/story/rachin-ravindra-and-mark-chapman-ruled-out-of-new-zealand-s-odis-against-india-1561050",
+          "publisher": "Cricinfo"
+        },
+        {
+          "title": "New Zealand lose key duo for home ODI series against India",
+          "url": "https://www.icc-cricket.com/news/new-zealand-lose-key-duo-for-home-odi-series-against-india",
+          "publisher": "ICC"
+        },
+        {
+          "title": "Double injury blow! Two key players ruled out as New Zealand name updated ODI squad for India series",
+          "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/double-injury-blow-two-key-players-ruled-out-as-new-zealand-name-updated-odi-squad-for-india-series/articleshow/135441725.cms",
+          "publisher": "The Times of India"
+        }
+      ],
+      "image_url": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/prd/mhnzily2t5gx8aungg5s",
+      "image_lookup_attempted_at": "2026-11-02T12:50:43.564987+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/a74a15d3a7becdc18863.webp"
     }
   ]
 }
