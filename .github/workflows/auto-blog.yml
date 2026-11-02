@@ -62,7 +62,22 @@ jobs:
                   argostranslate.package.install_from_path(package.download())
               print("Argos English-to-Hindi model is ready.")
           except Exception as exc:
-              print(f"WARNING: local Hindi translator unavailable; English-only snippets will be skipped: {exc}")
+              raise SystemExit(f"ERROR: free offline Hindi translation model could not be installed: {exc}")
+          PY
+      - name: Verify offline Hindi translation
+        run: |
+          python - <<'PY'
+          import argostranslate.translate
+          langs = argostranslate.translate.get_installed_languages()
+          en = next((lang for lang in langs if lang.code == "en"), None)
+          hi = next((lang for lang in langs if lang.code == "hi"), None)
+          if en is None or hi is None:
+              raise SystemExit("English/Hindi Argos model is missing")
+          translation = en.get_translation(hi)
+          sample = translation.translate("The government announced a new policy today.")
+          if not sample or not any("\u0900" <= ch <= "\u097f" for ch in sample):
+              raise SystemExit("Offline Hindi translation smoke test failed")
+          print("Offline English-to-Hindi translation is ready.")
           PY
       - name: Unpublish requested posts
         env:
@@ -75,8 +90,6 @@ jobs:
         run: python -m unittest discover -s tests
       - name: Run pipeline
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4.1-mini
           EVENT: ${{ github.event_name }}
         run: |
           if [ "$EVENT" = "push" ]; then python engine.py --refresh-only; else python engine.py; fi
