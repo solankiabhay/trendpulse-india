@@ -27,7 +27,7 @@
     Object.keys(present).sort().forEach(function (cat) {
       if (cat && cats.indexOf(cat) === -1) { cats.push(cat); }
     });
-    grid.querySelectorAll('img.card-image[data-fallback-category]').forEach(function (img) {
+    document.querySelectorAll('img.card-image[data-fallback-category]').forEach(function (img) {
       img.addEventListener('error', function () {
         var fallback = document.createElement('div');
         fallback.className = 'card-image card-image-fallback cat-' + img.getAttribute('data-fallback-category');
