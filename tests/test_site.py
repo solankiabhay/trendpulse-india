@@ -292,6 +292,8 @@ class Accessibility(unittest.TestCase):
             if "tests" in f.parts or f.name.startswith("google"): continue
             h = f.read_text(encoding="utf-8")
             res = re.findall(r'<script[^>]+src="https?://[^"]+"|<link[^>]+rel="stylesheet"[^>]*href="https?://[^"]+"|<img[^>]+src="https?://[^"]+"', h)
+            # TradingView is the explicitly approved third-party source for the free market quote widgets.
+            res = [item for item in res if "s3.tradingview.com/external-embedding/" not in item]
             self.assertEqual(res, [], f.name)
 
 
