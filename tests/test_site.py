@@ -96,7 +96,7 @@ class ProjectFiles(unittest.TestCase):
         post = {"lang": "en", "category": "sports", "title": "Match update",
                 "summary": "A source-linked update.", "published_at": "2026-11-02T08:00:00+00:00",
                 "sources": [{"publisher": "Example"}], "url": "en/posts/match.html",
-                "image_url": "https://upload.wikimedia.org/example.jpg"}
+                "image_path": "assets/news-images/0123456789abcdef0123.jpg"}
         markup = engine.card(post, "")
         self.assertIn('data-fallback-category="sports"', markup)
         self.assertIn('data-fallback-label="Sports"', markup)
