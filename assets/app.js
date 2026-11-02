@@ -40,14 +40,20 @@
         }
       });
       empty.hidden = visible > 0;
-      buttons.forEach(function (button) {
-        button.setAttribute('aria-pressed', String(button.getAttribute('data-cat') === active));
+      buttons.forEach(function (link) {
+        var selected = link.getAttribute('data-cat') === active;
+        if (selected) { link.setAttribute('aria-current', 'true'); }
+        else { link.removeAttribute('aria-current'); }
       });
     }
 
-    buttons.forEach(function (button) {
-      button.addEventListener('click', function () {
-        active = button.getAttribute('data-cat') || 'all';
+    buttons.forEach(function (link) {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        active = link.getAttribute('data-cat') || 'all';
+        var url = new URL(window.location.href);
+        url.searchParams.set('cat', active);
+        window.history.replaceState({}, '', url.toString());
         apply();
       });
     });
