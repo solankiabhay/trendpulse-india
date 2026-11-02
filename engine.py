@@ -1471,7 +1471,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     all_items.sort(key=lambda p: p["published_at"], reverse=True)
     dated = [(p, parse_date(p["published_at"])) for p in all_items]
     items = [p for p, dt in dated if dt and cutoff <= dt <= now + timedelta(hours=1)]
-    items = items[: (12 if scope == "all" else cfg["max_list_items"])]
+    items = items[:cfg["max_list_items"]]
     archive_items = [p for p, dt in dated if dt and dt < cutoff and indexable(p, cfg)][:6]
     # Only genuinely recent items appear in Trending, Latest, category filters, and search.
     visible_items = [p for p in items if indexable(p, cfg)]
