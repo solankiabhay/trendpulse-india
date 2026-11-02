@@ -1496,7 +1496,10 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     if scope != "all":
         hero = f'<section class="hero"><h1>{esc(L["hero_title"])}</h1><p>{esc(L["hero_text"])}</p></section>'
     market_snapshot = ""
-    if scope in ("all", "en", "hi"):
+    if scope == "all":
+        # Home pages live under /en/ and /hi/, so the shared asset path must
+        # go up one directory. The root landing page uses its own root-relative path.
+        market_script = "../assets/market-ticker.js" if path.startswith(("en/", "hi/")) else "assets/market-ticker.js"
         market_snapshot = (
             '<section class="market-strip" aria-label="Indian market snapshot">'
             '<div class="market-strip-label"><span class="market-strip-dot" aria-hidden="true"></span>'
@@ -1509,7 +1512,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
             '</section>'
             '<p class="market-strip-disclaimer">Daily reference prices, not live trading quotes. Gold and silver are IBJA benchmarks; index data is from NSE/BSE. '
             '<a href="https://snapdata.dev/docs/" target="_blank" rel="noopener noreferrer">Data source</a>.</p>'
-            '<script src="assets/market-ticker.js" defer></script>'
+            f'<script src="{market_script}" defer></script>'
         )
     body = f"""{market_snapshot}{hero}
 {trending}
