@@ -6004,7 +6004,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Ffr%2F43695840%3Fdate=2026-11-02",
+      "image_source": "https://onefootball.com/fr/news/je-suis-persuade-quil-y-en-aura-quelques-uns-dans-le-stade-le-lillois-benjamin-andre-evoque-labsence-des-supporters-lensois-43695840",
+      "image_credit": "OneFootball",
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/74fdc29a85776ada65d7.png"
     },
     {
       "id": "en-9811a5fe5a",
@@ -6040,7 +6046,10 @@
       ],
       "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/cybersecurity-cyber-defense-center.jpg",
       "summary_refresh_attempted_at": "2026-11-02T10:11:45.044200+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/27792dc767849ce8db8e.jpg"
     },
     {
       "id": "en-278b2dfa5e",
@@ -6075,7 +6084,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://cf-images.assettype.com/cinemaexpress%2F2026-10-29%2Fqodufvts%2FManjanathi-first-schedule-wrap.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "image_source": "https://www.cinemaexpress.com/tamil/news/2026/Oct/29/mari-selvarajs-manjanathi-wraps-first-schedule-of-filming",
+      "image_credit": "Cinema Express",
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/a0d8bc407f6ec456c779.jpg"
     },
     {
       "id": "en-660974bc02",
@@ -6111,7 +6126,10 @@
       ],
       "image_url": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/30/1793367136362_match_thumb_1552801_355f6553.jpeg",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/df197c50412d95879972.jpg"
     },
     {
       "id": "en-f7c1e8e6f1",
@@ -6147,7 +6165,10 @@
       ],
       "image_url": "https://th-i.thgim.com/public/incoming/671cs9/article71646438.ece/alternates/LANDSCAPE_1200/10745_30_10_2026_18_57_0_2_IMG_20261030_WA0052.JPG",
       "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/161bfb4a4d42be122924.jpg"
     },
     {
       "id": "en-713fea2553",
@@ -6182,7 +6203,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
+      "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+      "image_credit": "CNBC",
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
     },
     {
       "id": "en-a130fd0cdc",
@@ -6334,7 +6361,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://www.cricketworld.com/media/img/a/d/169600.jpg",
+      "image_source": "https://www.cricketworld.com/match-predictions-the-ford-trophy-2026-27-4th-6th-match-30th-october-2026/114093.htm",
+      "image_credit": "Cricket World",
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/46168166a779defb8f67.jpg"
     },
     {
       "id": "en-abad75004e",
@@ -6369,7 +6402,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://sportsfly.cbsistatic.com/fly-874/bundles/sportsmediacss/images/fantasy/default-article-image-large.png",
+      "image_source": "https://www.cbssports.com/fantasy/football/news/cardinals-bam-knight-love-cleared-to-return-for-week-8/",
+      "image_credit": "CBS Sports",
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/1f26f0a77c7968105bb3.png"
     },
     {
       "id": "en-6905d12581",
@@ -6404,7 +6443,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://img.etimg.com/thumb/msid-135273818,width-1200,height-900,imgsize-30850,overlay-economictimes/articleshow.jpg",
+      "image_source": "https://economictimes.indiatimes.com/world/us/youtube-outage-today-when-will-it-be-back-up-are-youtube-music-and-google-search-also-down/articleshow/135273446.cms?from=mdr",
+      "image_credit": "The Economic Times",
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/ac85d1c20fb20bbb42a2.jpg"
     },
     {
       "id": "en-9ed6584099",
@@ -6439,7 +6484,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://th-i.thgim.com/public/incoming/offbnw/article71639825.ece/alternates/LANDSCAPE_1200/Hong_Kong_Resettlement_After_Fire_41762.jpg",
+      "image_source": "https://www.thehindu.com/news/international/hong-kongs-housing-minister-resigns-after-fire-investigation-finds-inadequate-oversight/article71639735.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/9e3adec8075a4b6fc8c6.jpg"
     },
     {
       "id": "en-b018b1ca82",
@@ -6474,7 +6525,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://www.netinfluencer.com/wp-content/uploads/2026/10/twitch-splits-suspensions-into-streaming-and-chat-penalties-citing-data-on-low-reoffense-rates-20261030_124937-2db91e-1000x600.png",
+      "image_source": "https://www.netinfluencer.com/twitch-splits-suspensions-into-streaming-and-chat-penalties-citing-data-on-low-reoffense-rates/",
+      "image_credit": "Net Influencer",
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/c8aac522d2ec6d3c327e.webp"
     },
     {
       "id": "en-d7964d6813",
@@ -6510,7 +6567,10 @@
       ],
       "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/janhvi-kapoor-peddi-295104706-16x9_0.png?VersionId=2C3Y4ESBCgok58MC2UXVgnIy.w3hqR.B",
       "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_lookup_attempted_at": "2026-11-02T11:14:32.259213+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/bf7f20bdfa91a6bd91d0.jpg"
     },
     {
       "id": "en-c0965e21f9",
