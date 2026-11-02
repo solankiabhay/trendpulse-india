@@ -1748,9 +1748,10 @@
           "publisher": "BBC"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
       "summary_refresh_version": 21,
-      "article_body": "Sky Sports: “Welcome to The Radar , a Sky Sports column in which Nick Wright uses a blend of data and opinion to shed light on need-to-know Premier League stories. This week: 🔺Manzambi's big impact at Villa 🔺Janelt's excellent defensive work 🔺A glimmer of hope for Arbeloa?…”\n\nBBC: “MATCH REPORT: Champions League - Aston Villa 6-0 Fenerbahce”"
+      "article_body": "Sky Sports: “Welcome to The Radar , a Sky Sports column in which Nick Wright uses a blend of data and opinion to shed light on need-to-know Premier League stories. This week: 🔺Manzambi's big impact at Villa 🔺Janelt's excellent defensive work 🔺A glimmer of hope for Arbeloa?…”\n\nBBC: “MATCH REPORT: Champions League - Aston Villa 6-0 Fenerbahce”",
+      "image_url": "https://e0.365dm.com/26/10/1600x900/skysports-johan-manzambi-aston-villa_7377563.png?20261015132726="
     },
     {
       "id": "en-e0bbbe0cde",
@@ -2424,8 +2425,9 @@
           "publisher": "The Shillong Times"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T04:55:25.452359+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://im.rediff.com/1200-630/cricket/2026/oct/18priyansh-arya.jpg"
     },
     {
       "id": "hi-61e75eb458",
@@ -3288,8 +3290,9 @@
           "publisher": "MadeInFOOT"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://medias.lequipe.fr/img-photo-jpg/maghnes-akliouche-avait-ete-victime-d-un-tacle-appuye-sur-sa-cheville-gauche-samedi-en-fin-de-match-a-strasbourg-p-lahalle-l-equipe/1500000002626885/195:72,1477:927-828-552-75/c293b.jpg"
     },
     {
       "id": "hi-2cf7b276a6",
@@ -5602,8 +5605,9 @@
           "publisher": "Last Word On Sports"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg"
     },
     {
       "id": "en-8f05ac6694",
@@ -5707,8 +5711,9 @@
           "publisher": "Telegraph India"
         }
       ],
-      "summary_refresh_attempted_at": "2026-10-30T19:03:24.290179+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21,
+      "image_url": "https://static.toiimg.com/thumb/msid-135299458,width-1280,height-720,resizemode-6,overlay-toiblogs,pt-32,x_pad-1045,y_pad-670/photo.jpg"
     },
     {
       "id": "en-4d820a002e",
@@ -6436,7 +6441,10 @@
           "url": "https://theprint.in/entertainment/peddi-shame-janhvi-kapoor-will-always-carry/3084607/",
           "publisher": "ThePrint"
         }
-      ]
+      ],
+      "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/janhvi-kapoor-peddi-295104706-16x9_0.png?VersionId=2C3Y4ESBCgok58MC2UXVgnIy.w3hqR.B",
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-c0965e21f9",
@@ -6888,7 +6896,11 @@
           "url": "https://timesofindia.indiatimes.com/city/guwahati/centre-suspends-census-in-manipur-amid-nrc-first-demands-by-meiteis-nagas/articleshow/135409652.cms",
           "publisher": "The Times of India"
         }
-      ]
+      ],
+      "image_url": "https://th-i.thgim.com/public/incoming/n8r9b2/article71649201.ece/alternates/LANDSCAPE_1200/20260901433L.jpg",
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/f7c11761dbbc1cf4e5f7.jpg"
     },
     {
       "id": "en-ecbc5a4529",
@@ -7201,7 +7213,11 @@
           "url": "https://www.ndtv.com/video/poland-news-in-poland-judge-suspends-her-court-s-president-protests-coup-claim-follow-1183397",
           "publisher": "NDTV"
         }
-      ]
+      ],
+      "image_url": "https://th-i.thgim.com/public/news/national/yw6clx/article71650785.ece/alternates/LANDSCAPE_1200/IMG-20261031-WA0067.jpg",
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/8ac1d3a83d57a810f0c8.jpg"
     },
     {
       "id": "en-02302fc4bd",
@@ -7307,7 +7323,8 @@
       ],
       "image_url": "https://im.rediff.com/1200-630/sports/2021/jun/08manu1.jpg",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/e5ba68b941f2948549ce.jpg"
     },
     {
       "id": "en-e79119a26a",
@@ -7343,7 +7360,8 @@
       ],
       "image_url": "https://navbharattimes.indiatimes.com/photo/33600677.cms",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/3ab8f4513d0b8f02c192.jpg"
     },
     {
       "id": "en-914a18d3e8",
@@ -7414,7 +7432,8 @@
       ],
       "image_url": "https://assets-fr.imgfoot.com/media/cache/1200x675/mou-real.jpg",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/5d6d3c69e7e4e8174161.jpg"
     },
     {
       "id": "en-b246069fc3",
@@ -7520,7 +7539,8 @@
       ],
       "image_url": "https://s.yimg.com/lo/mysterio/api/e12972cd619cde848f8e15e735da06e435872c0cef350098b947fef980ff290e/lightyear_networkapi/resizefill_w1200_h673%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fliverpool_com_951%2F89b75e8bab57d7b774ee450a0fe20e55.jpg",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/cac82ade4c4bc1d639c5.jpg"
     },
     {
       "id": "en-76e1a98292",
@@ -7556,7 +7576,8 @@
       ],
       "image_url": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43706642%3Fdate=2026-11-02",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/3434ae1b60eb54e01148.png"
     },
     {
       "id": "en-cc7ba9f6ec",
@@ -7592,7 +7613,8 @@
       ],
       "image_url": "https://www.bostonherald.com/wp-content/uploads/2026/10/celticsms007.jpg?w=3559&h=3707",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/d06cf1361cf67e2c6af1.jpg"
     },
     {
       "id": "en-87a6a31daf",
@@ -7740,12 +7762,12 @@
       "slug": "f1-live-mexico-city-grand-prix-2026-uk-time-start-time-grid-a4f4094eb2",
       "url": "en/posts/f1-live-mexico-city-grand-prix-2026-uk-time-start-time-grid-a4f4094eb2.html",
       "title": "F1 LIVE: Mexico City Grand Prix 2026 UK time, start time, grid, radio & updates",
-      "summary": "BBC: Follow live text updates and listen to radio commentary of the Mexico City Grand Prix.\n\nThe Guardian: Lap 29 of 71: Will Hamilton get to spend some time out in front in clean air? Nope. Ferrari…",
-      "source_summary": "BBC: Follow live text updates and listen to radio commentary of the Mexico City Grand Prix.\n\nThe Guardian: Lap 29 of 71: Will Hamilton get to spend some time out in front in clean air? Nope. Ferrari brings him. Hamilton’s blood pressure must be through the roof. Kimi Antonelli leads!! (But he’ll give that back when he pits.)",
-      "article_body": "BBC: “Follow live text updates and listen to radio commentary of the Mexico City Grand Prix.”\n\nThe Guardian: “Lap 29 of 71: Will Hamilton get to spend some time out in front in clean air? Nope. Ferrari brings him. Hamilton’s blood pressure must be through the roof. Kimi Antonelli leads!! (But he’ll give that back when he pits.)”",
+      "summary": "BBC: Follow live text updates and listen to radio commentary of the Mexico City Grand Prix.\n\nThe Guardian: Giles Richards had the privilege of watching this historic race. His report is here: Thanks…",
+      "source_summary": "BBC: Follow live text updates and listen to radio commentary of the Mexico City Grand Prix.\n\nThe Guardian: Giles Richards had the privilege of watching this historic race. His report is here: Thanks for following along with us today, and congratulations to Kimi Antonelli. Barely older than my second kid. Time flies.",
+      "article_body": "BBC: “Follow live text updates and listen to radio commentary of the Mexico City Grand Prix.”\n\nThe Guardian: “Giles Richards had the privilege of watching this historic race. His report is here: Thanks for following along with us today, and congratulations to Kimi Antonelli. Barely older than my second kid. Time flies.”",
       "category": "trending",
       "published_at": "2026-11-01T20:30:00+00:00",
-      "generated_at": "2026-11-01T21:50:55.367533+00:00",
+      "generated_at": "2026-11-02T10:07:29.361623+00:00",
       "kind": "digest",
       "keyword": "f1",
       "score": 89.25,
@@ -7765,7 +7787,11 @@
           "url": "https://www.espn.in/f1/story/_/id/50323510/kimi-antonelli-world-title-mexico-city-grand-prix-formula-1-mercedes",
           "publisher": "ESPN India"
         }
-      ]
+      ],
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2895/live/a97704b0-d660-11f1-a258-ffc7400bea96.jpg",
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/772b1c7518c2c7cd9b03.jpg"
     },
     {
       "id": "en-4765a34658",
@@ -7831,7 +7857,11 @@
           "url": "https://indianexpress.com/article/india/india-first-bullet-train-b28-speed-capacity-features-10946006/",
           "publisher": "The Indian Express"
         }
-      ]
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-135434602,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/a4e62d2aaeca63a05bc2.jpg"
     },
     {
       "id": "en-3a871b9632",
@@ -7902,7 +7932,8 @@
       ],
       "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
     },
     {
       "id": "en-c17af3ddcd",
@@ -7973,7 +8004,8 @@
       ],
       "image_url": "https://th-i.thgim.com/public/incoming/fymnse/article71648492.ece/alternates/LANDSCAPE_1200/BS4%20VEHICLES%20BAN%20STANDALONE%208.JPG",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/5d345405f465c266f867.jpg"
     },
     {
       "id": "en-c6141df1a1",
