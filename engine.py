@@ -1669,7 +1669,7 @@ def find_commons_image(title: str, timeout=8):
             info = (page.get("imageinfo") or [{}])[0]
             meta = info.get("extmetadata") or {}
             license_name = normalize_text((meta.get("LicenseShortName") or {}).get("value", ""))
-            if not re.search(r"CC0|CC BY(?:-SA)?(?:\\s|$)|Public domain|GPL|FAL", license_name, re.I):
+            if not re.search(r"CC0|CC BY(?:-SA)?(?:\s|$)|Public domain|GPL|FAL", license_name, re.I):
                 continue
             image_url = safe_url(info.get("thumburl") or info.get("url") or "")
             source_url = safe_url(info.get("descriptionurl") or "")
