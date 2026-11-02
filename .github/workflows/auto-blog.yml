@@ -89,7 +89,6 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests
       - name: Run pipeline
-        env:
         run: |
           # A source-code/config push should also run collection once so the fix
           # is visible immediately; scheduled runs continue to refresh every 2 hours.
