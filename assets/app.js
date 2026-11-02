@@ -23,7 +23,7 @@
     var present = {};
     cards.forEach(function (card) { present[card.getAttribute('data-cat')] = true; });
     var preferred = ['gaming', 'technology', 'business', 'sports', 'politics'];
-    var cats = preferred.slice();
+    var cats = preferred.filter(function (cat) { return !!present[cat]; });
     Object.keys(present).sort().forEach(function (cat) {
       if (cat && cats.indexOf(cat) === -1) { cats.push(cat); }
     });
