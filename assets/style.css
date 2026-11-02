@@ -496,6 +496,7 @@ a, button, input { touch-action: manipulation; }
 }
 .market-ticker-name { color: #cbd5e1; font-size: .68rem; letter-spacing: .035em; }
 .market-ticker-price { color: #fff; font-weight: 750; font-variant-numeric: tabular-nums; }
+.market-ticker-item-date { color: #aabbd0; font-size: .58rem; font-variant-numeric: tabular-nums; }
 .market-ticker-change { font-size: .68rem; font-weight: 700; }
 .market-ticker-change.is-up { color: #86efac; }
 .market-ticker-change.is-down { color: #fca5a5; }
