@@ -20,13 +20,11 @@
     var cards = Array.prototype.slice.call(grid.querySelectorAll('[data-cat]'));
     var lang = document.documentElement.lang === 'hi' ? 'hi' : 'en';
     var labels = LABELS[lang];
-    var present = {};
-    cards.forEach(function (card) { present[card.getAttribute('data-cat')] = true; });
-    var preferred = ['gaming', 'technology', 'business', 'sports', 'politics'];
-    var cats = preferred.filter(function (cat) { return !!present[cat]; });
-    Object.keys(present).sort().forEach(function (cat) {
-      if (cat && cats.indexOf(cat) === -1) { cats.push(cat); }
-    });
+    // Keep the full category navigation visible in both languages, even when a
+    // category currently has no published cards. Empty categories show the
+    // existing "no stories" message when selected.
+    var cats = ['india', 'world', 'business', 'politics', 'technology',
+      'entertainment', 'gaming', 'sports', 'science', 'health', 'trending'];
     document.querySelectorAll('img.card-image[data-fallback-category]').forEach(function (img) {
       img.addEventListener('error', function () {
         var fallback = document.createElement('div');
