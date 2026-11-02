@@ -1658,7 +1658,7 @@ def find_commons_image(title: str, timeout=8):
     query = image_search_terms(title)
     if not query:
         return None
-    params = {"action": "query", "format": "json", "generator": "search", "gsrnamespace": "6", "gsrsearch": query, "gsrlimit": "8", "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": "900"}
+    params = {"action": "query", "format": "json", "generator": "search", "gsrnamespace": "6", "gsrsearch": query, "gsrlimit": "8", "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": "640"}
     url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "TrendPulseIndia/1.0 (https://solankiabhay.github.io/trendpulse-india; image lookup)"})
@@ -1696,8 +1696,8 @@ def cache_image(root, image_url, timeout=8):
         request = urllib.request.Request(image_url, headers={"User-Agent": "TrendPulseIndia/1.0 (+https://solankiabhay.github.io/trendpulse-india)"})
         with urllib.request.urlopen(request, timeout=timeout) as response:
             content_type = response.headers.get("Content-Type", "").split(";", 1)[0].casefold()
-            data = response.read(4000001)
-        if len(data) < 256 or len(data) > 4000000:
+            data = response.read(1500001)
+        if len(data) < 256 or len(data) > 1500000:
             return ""
         signatures = [(b"\xff\xd8\xff", ".jpg", "image/jpeg"), (b"\x89PNG\r\n\x1a\n", ".png", "image/png"), (b"RIFF", ".webp", "image/webp"), (b"GIF8", ".gif", "image/gif")]
         extension = ""
@@ -1900,10 +1900,11 @@ def run(root, fetcher=None, now=None, render_only=False, dry_run=False, refresh_
                 updated_existing = True
     all_posts = posts_doc["posts"] + new_posts
     if live_fetcher and not render_only and not dry_run:
-        image_updates = backfill_missing_images(all_posts, cfg, root, limit=cfg.get("image_backfill_per_run", 12))
-        if image_updates:
+        image_updates, image_attempts = backfill_missing_images(all_posts, cfg, root, limit=cfg.get("image_backfill_per_run", 12))
+        if image_attempts:
             updated_existing = True
-            log.info("added %s Commons thumbnails", image_updates)
+        if image_updates:
+            log.info("cached %s news thumbnails", image_updates)
     # Order matters: pages -> posts.json -> published.json (history is marked last)
     render_site(root, cfg, all_posts, now=now)
     if new_posts or updated_existing:
