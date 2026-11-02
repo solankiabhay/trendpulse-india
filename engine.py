@@ -1501,8 +1501,9 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
     # Only genuinely recent items appear in Trending, Latest, category filters, and search.
     visible_items = [p for p in items if indexable(p, cfg)]
     top = [p for p in sorted(items, key=lambda p: p.get("score", 0), reverse=True)[:3] if indexable(p, cfg)]
-    cats = [c for c in CATEGORIES if any(p["category"] == c for p in visible_items)]
-    chooser = ""
+    # Render every category on both language pages. Filtering is client-side
+    # across fresh stories and the archive, so older Hindi stories remain usable.
+    cats = list(CATEGORIES)
     btns = f'<button type="button" class="cat-btn" data-cat="all" aria-pressed="true">{esc(L["all"])}</button>' + "".join(
         f'<button type="button" class="cat-btn" data-cat="{c}" aria-pressed="false">{esc(cat_label(c, lang))}</button>' for c in cats)
     trending = ""
@@ -1538,8 +1539,11 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
             f'<script src="{market_script}" defer></script>'
         )
     body = f"""{market_snapshot}{hero}
+<section class="tools category-tools" aria-label="{esc(L['cats_label'])}">
+  <div class="category-heading"><span class="category-kicker">TRENDPULSE</span><strong>{esc(L['categories'])}</strong><span class="category-hint">{esc(L['cats_label'])}</span></div>
+  <nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats">{btns}</nav>
+</section>
 {trending}
-<section class="tools"><nav id="categories" aria-label="{esc(L['cats_label'])}" class="cats"></nav></section>
 <section aria-labelledby="latest"><h2 id="latest">{esc(L['latest'])}</h2>{grid}</section>
 {archive}"""
     title = cfg["site_name"] if scope == "all" else f"{cfg['site_name']} — {L['tagline']}"
