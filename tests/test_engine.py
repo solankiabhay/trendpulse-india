@@ -555,6 +555,17 @@ class TeaserAndIndexingTests(unittest.TestCase):
         self.assertIn("दैनिक अपडेट", files["hi/index.html"])
         self.assertIn("DAILY SNAPSHOT", files["en/index.html"])
 
+    def test_category_navigation_uses_crawlable_filter_links(self):
+        root = make_root()
+        cfg = engine.load_config(root / "config.json")
+        files = engine.render_site(root, cfg, [], write=False)
+        for path in ("index.html", "en/index.html", "hi/index.html"):
+            html = files[path]
+            self.assertIn('<nav id="categories"', html, path)
+            self.assertIn('data-cat="technology" href="?cat=technology"', html, path)
+            self.assertIn('data-cat="gaming" href="?cat=gaming"', html, path)
+            self.assertIn('data-cat="sports" href="?cat=sports"', html, path)
+
     def test_root_homepage_declares_language_alternates(self):
         root = make_root()
         cfg = engine.load_config(root / "config.json")
