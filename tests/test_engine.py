@@ -625,7 +625,7 @@ class TeaserAndIndexingTests(unittest.TestCase):
         self.assertGreaterEqual(contrast(color("control-line"), "#f1f5fb"), 3.0)
         self.assertIn("outline: 3px solid var(--orange-dark)", css)
         self.assertIn(".hero .btn { background: var(--orange-dark); color: #fff", css)
-        self.assertIn(".cat-btn[aria-pressed=true] { background: var(--orange-dark)", css)
+        self.assertIn(".cat-btn[aria-current=true] { background: var(--orange-dark)", css)
         self.assertIn(".more { margin-top: 0.8rem; font-weight: 700; color: var(--orange-dark)", css)
         self.assertIn(".src { color: var(--muted);", css)
         self.assertIn(".card h3 a:hover { color: var(--orange-dark); }", css)
