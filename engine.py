@@ -1285,13 +1285,18 @@ def canon_path(path: str) -> str:
     return "" if path == "index.html" else (path[:-10] if path.endswith("/index.html") else path)
 
 
-def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex=False, active="", app=False, og_type="website"):
+def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex=False, active="", app=False, og_type="website", og_image=None, og_image_alt=""):
     up = "../" * path.count("/")
     L, name = T[lang], cfg["site_name"]
     canonical = f"{cfg['site_url']}/{canon_path(path)}"
     # Listing titles already include the brand; avoid repeating it in SERP titles.
     full_title = title if title == name or title.startswith(name + " — ") or title.startswith(name + " | ") else f"{title} | {name}"
     alt = "".join(f'<link rel="alternate" hreflang="{h}" href="{esc(cfg["site_url"] + "/" + canon_path(p))}">\n' for h, p in alternates)
+    social_image = safe_url(og_image or "")
+    social = (f'<meta property="og:image" content="{esc(social_image)}">\n'
+              f'<meta property="og:image:alt" content="{esc(og_image_alt or full_title)}">\n'
+              f'<meta name="twitter:image" content="{esc(social_image)}">\n'
+              if social_image else "")
     ld = ""
     if jsonld:
         safe = json.dumps(jsonld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
@@ -1308,6 +1313,7 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1f3a">
 <title>{esc(full_title)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="{'noindex,follow' if noindex else 'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1'}">
@@ -1318,11 +1324,11 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{esc(canonical)}">
 <meta property="og:locale" content="{L['locale']}">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="{'summary_large_image' if social_image else 'summary'}">
 <meta name="twitter:title" content="{esc(full_title)}">
 <meta name="twitter:description" content="{esc(desc)}">
 <meta name="twitter:url" content="{esc(canonical)}">
-<link rel="stylesheet" href="{up}assets/style.css">
+{social}<link rel="stylesheet" href="{up}assets/style.css">
 {ld}{script}</head>
 <body>
 <a class="skip" href="#main">{esc(L['skip'])}</a>
@@ -1342,7 +1348,7 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 """
 
 
-def card(p, up, compact=False):
+def card(p, up, compact=False, priority=False):
     L = T[p["lang"]]
     category = p.get("category", "trending")
     cat = cat_label(category, p["lang"])
@@ -1350,7 +1356,7 @@ def card(p, up, compact=False):
     text = f"{p['title']} {tidy(p['summary'])} {cat}".casefold()
     image_path = p.get("image_path", "")
     if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", image_path):
-        visual = f'<img class="card-image" src="{esc(up + image_path)}" alt="{esc(p["title"])}" loading="lazy" decoding="async" data-fallback-category="{esc(category)}" data-fallback-label="{esc(cat)}">'
+        visual = f'<img class="card-image" src="{esc(up + image_path)}" alt="{esc(p["title"])}" width="640" height="360" loading="{"eager" if priority else "lazy"}" decoding="async"{" fetchpriority=high" if priority else ""} data-fallback-category="{esc(category)}" data-fallback-label="{esc(cat)}">'
     else:
         visual = f'<div class="card-image card-image-fallback cat-{esc(category)}" aria-hidden="true"><span>{esc(cat)}</span></div>'
     return (f'<article class="card{" compact" if compact else ""}" lang="{p["lang"]}" data-cat="{esc(category)}" data-text="{esc(text)}">'
@@ -1511,7 +1517,7 @@ def list_page(cfg, scope, posts, path, alternates=(), now=None):
         f'<a class="cat-btn" data-cat="{c}" href="?cat={c}">{esc(cat_label(c, lang))}</a>' for c in cats)
     trending = ""
     if top:
-        trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True) for p in top) + "</div></section>"
+        trending = f'<section aria-labelledby="trend"><h2 id="trend">{esc(L["trending"])}</h2><div class="grid">' + "".join(card(p, up, True, priority=(i == 0)) for i, p in enumerate(top)) + "</div></section>"
 
     if visible_items:
         grid = '<div class="grid" id="grid">' + "".join(card(p, up) for p in visible_items) + "</div>"
@@ -1639,7 +1645,7 @@ def article_page(cfg, p, posts):
     if rel:
         rl = f'<h2>{esc(L["related"])}</h2><ul>' + "".join(f'<li><a href="{esc(q["url"].rsplit("/", 1)[-1])}">{esc(q["title"])}</a></li>' for q in rel) + "</ul>"
     hero_path = p.get("image_path", "")
-    hero = (f'<figure class="post-hero"><img src="../{esc(hero_path)}" alt="{esc(p["title"])}" loading="eager" decoding="async"></figure>'
+    hero = (f'<figure class="post-hero"><img src="../{esc(hero_path)}" alt="{esc(p["title"])}" loading="eager" fetchpriority="high" decoding="async"></figure>'
             if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", hero_path) else "")
     body = (f'<article class="post"><nav aria-label="breadcrumb"><a href="../index.html">{esc(L["latest"])}</a></nav>'
             f'<h1>{esc(p["title"])}</h1>{hero}<p class="meta"><span class="badge">{esc(cat_label(p["category"], lang))}</span> '
@@ -1658,7 +1664,8 @@ def article_page(cfg, p, posts):
              "mainEntityOfPage": canonical,
              "publisher": {"@type": "Organization", "name": cfg["site_name"]},
              "isBasedOn": [source["url"] for source in sources],
-             "isAccessibleForFree": True},
+             "isAccessibleForFree": True,
+             **({"image": [f"{cfg['site_url']}/{hero_path}"]} if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", hero_path) else {})},
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": L["home"],
                  "item": f"{cfg['site_url']}/{lang}/"},
@@ -1669,15 +1676,31 @@ def article_page(cfg, p, posts):
         ]
     }
     return page(cfg, lang, path, p["title"], description, body, jsonld=ld, og_type="article",
-                noindex=not indexable(p, cfg))
+                noindex=not indexable(p, cfg),
+                og_image=(f"{cfg['site_url']}/{hero_path}" if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", hero_path) else None),
+                og_image_alt=p["title"])
 
 
 def sitemap_xml(cfg, posts) -> str:
     base = cfg["site_url"]
     urls = [("", None), ("en/", None), ("hi/", None)] + [(f"{l}/{pg}.html", None) for l in LANGS for pg in INFO_PAGES]
     urls += [(p["url"], ist_date(p.get("generated_at") or p["published_at"])) for p in sorted(posts, key=lambda p: p["url"]) if indexable(p, cfg)]
-    rows = "".join(f"  <url><loc>{esc(base + '/' + u)}</loc>" + (f"<lastmod>{m}</lastmod>" if m else "") + "</url>\n" for u, m in urls)
-    return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{rows}</urlset>\n'
+    rows = []
+    image_by_url = {p["url"]: p for p in posts if indexable(p, cfg)}
+    for url_path, modified in urls:
+        post = image_by_url.get(url_path)
+        image_path = (post or {}).get("image_path", "")
+        image_markup = ""
+        if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", image_path):
+            image_markup = (f"<image:image><image:loc>{esc(base + '/' + image_path)}</image:loc>"
+                            f"<image:title>{esc(post.get('title', '')[:180])}</image:title></image:image>")
+        rows.append(f"  <url><loc>{esc(base + '/' + url_path)}</loc>"
+                    + (f"<lastmod>{modified}</lastmod>" if modified else "")
+                    + image_markup + "</url>\n")
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+            'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+            + "".join(rows) + "</urlset>\n")
 
 
 def render_site(root, cfg, posts, write=True, now=None) -> dict:
