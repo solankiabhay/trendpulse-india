@@ -1328,7 +1328,7 @@ def page(cfg, lang, path, title, desc, body, alternates=(), jsonld=None, noindex
 <a class="skip" href="#main">{esc(L['skip'])}</a>
 <header class="site-header"><div class="wrap bar">
 <a class="brand" href="{up}index.html">{esc(name)}</a>
-<nav aria-label="{esc(L['nav'])}"><ul>{navh}</ul></nav>
+<nav class="primary-nav" aria-label="{esc(L['nav'])}"><ul>{navh}</ul></nav>
 </div></header>
 <main id="main" class="wrap">
 {body}
