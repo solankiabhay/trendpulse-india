@@ -1640,7 +1640,7 @@ def article_page(cfg, p, posts):
         rl = f'<h2>{esc(L["related"])}</h2><ul>' + "".join(f'<li><a href="{esc(q["url"].rsplit("/", 1)[-1])}">{esc(q["title"])}</a></li>' for q in rel) + "</ul>"
     hero_path = p.get("image_path", "")
     hero = (f'<figure class="post-hero"><img src="../{esc(hero_path)}" alt="{esc(p["title"])}" loading="eager" decoding="async"></figure>'
-            if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\\.(?:jpg|png|webp|gif|svg)", hero_path) else "")
+            if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", hero_path) else "")
     body = (f'<article class="post"><nav aria-label="breadcrumb"><a href="../index.html">{esc(L["latest"])}</a></nav>'
             f'<h1>{esc(p["title"])}</h1>{hero}<p class="meta"><span class="badge">{esc(cat_label(p["category"], lang))}</span> '
             f'{esc(L["published"])}: <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
