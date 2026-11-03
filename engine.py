@@ -317,6 +317,7 @@ def translate_candidate_to_hindi(candidate: dict, cfg: dict):
         return None
     translated = dict(candidate)
     translated["lang"] = "hi"
+    translated["image_search_title"] = candidate.get("title", "")
     translated["title"] = title
     translated["summary"] = summary
     translated["keyword"] = translate_to_hindi(candidate.get("keyword") or "")
@@ -1188,6 +1189,7 @@ def build_post(c, now) -> dict:
         "keyword": c["keyword"], "score": c.get("score", 0),
         "sources": [{"title": s["title"], "url": s["url"], "publisher": s["publisher"]} for s in c["sources"]],
         "image_url": safe_url(c.get("image_url", "")) or "",
+        "image_search_title": c.get("image_search_title", ""),
     }
 
 
@@ -1745,9 +1747,19 @@ def collect(cfg, fetcher, stats) -> list:
 
 
 def image_search_terms(title: str, limit=7) -> str:
-    """Build a compact query from meaningful headline keywords."""
-    stop = {"the", "and", "for", "with", "from", "after", "before", "over", "under", "into", "this", "that", "what", "when", "where", "who", "will", "has", "have", "was", "were", "are", "its", "their", "about", "india", "latest", "update", "live", "news", "report", "says", "said", "today"}
-    words = [w for w in re.findall(r"[A-Za-z0-9]+", normalize_text(title).casefold()) if len(w) > 2 and w not in stop]
+    """Build a compact image query from English or Hindi headline keywords."""
+    stop = {
+        "the", "and", "for", "with", "from", "after", "before", "over", "under", "into",
+        "this", "that", "what", "when", "where", "who", "will", "has", "have", "was",
+        "were", "are", "its", "their", "about", "india", "latest", "update", "live",
+        "news", "report", "says", "said", "today",
+        "और", "तथा", "के", "की", "का", "को", "में", "से", "पर", "है", "हैं",
+        "था", "थी", "थे", "लिए", "एक", "यह", "इस", "उस", "बाद", "आज", "क्या",
+        "कब", "कहां", "कहाँ", "भारत", "ताजा", "ताज़ा", "खबर", "ख़बर", "अपडेट",
+    }
+    # Unicode-aware tokenization keeps Devanagari words instead of dropping them.
+    words = [w for w in re.findall(r"[^\\W_]+", normalize_text(title).casefold(), flags=re.UNICODE)
+             if len(w) > 2 and w not in stop]
     return " ".join(words[:limit])
 
 
@@ -1850,18 +1862,35 @@ def cache_image(root, image_url, timeout=8):
 
 
 def backfill_missing_images(posts, cfg, root, limit=12):
-    """Cache publisher images first, then try Commons if a publisher blocks hotlinking."""
+    """Cache images fairly across languages so English posts cannot starve Hindi posts."""
     updated = 0
     attempts = 0
     now = datetime.now(timezone.utc)
-    for post in sorted(posts, key=lambda item: item.get("published_at", ""), reverse=True):
-        if attempts >= limit:
-            break
+    eligible = []
+    for post in posts:
         if post.get("image_path"):
             continue
         attempted_at = parse_date(post.get("image_lookup_attempted_at", ""))
         if post.get("image_lookup_version") == 2 and attempted_at and now - attempted_at < timedelta(days=7):
             continue
+        eligible.append(post)
+
+    # Keep newest-first ordering within each language, but alternate languages
+    # before applying the per-run limit. This prevents a large English backlog
+    # from consuming every image lookup slot on every scheduled run.
+    eligible.sort(key=lambda item: item.get("published_at", ""), reverse=True)
+    groups = {}
+    for post in eligible:
+        groups.setdefault(post.get("lang", "en"), []).append(post)
+    ordered = []
+    preferred = [lang for lang in ("en", "hi") if lang in groups]
+    preferred.extend(lang for lang in groups if lang not in preferred)
+    while any(groups[lang] for lang in preferred):
+        for lang in preferred:
+            if groups[lang]:
+                ordered.append(groups[lang].pop(0))
+
+    for post in ordered[:max(0, limit)]:
         attempts += 1
         image_url = safe_url(post.get("image_url", ""))
         local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8)) if image_url else ""
@@ -1872,7 +1901,16 @@ def backfill_missing_images(posts, cfg, root, limit=12):
                 image_url = safe_url(post.get("image_url", ""))
                 local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8))
         if not local_path:
-            match = find_commons_image(post.get("title", ""), timeout=min(cfg.get("timeout_seconds", 8), 8))
+            # Translated Hindi posts retain the original English headline for a
+            # more useful image search. Native Hindi headlines use Unicode terms.
+            search_title = post.get("image_search_title", "")
+            if not search_title:
+                search_title = next(
+                    (source.get("title", "") for source in post.get("sources", [])
+                     if latin_ratio(source.get("title", "")) >= 0.60),
+                    post.get("title", ""),
+                )
+            match = find_commons_image(search_title, timeout=min(cfg.get("timeout_seconds", 8), 8))
             if match:
                 post.update(match)
                 image_url = safe_url(post.get("image_url", ""))

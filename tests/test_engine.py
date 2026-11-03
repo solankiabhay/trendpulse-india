@@ -64,6 +64,51 @@ def fetcher_for(mapping):
     return f
 
 
+
+
+class ImageLookupTests(unittest.TestCase):
+    def test_image_search_terms_keep_hindi_devanagari_keywords(self):
+        query = engine.image_search_terms("भारत में नई तकनीक और स्मार्टफोन लॉन्च की खबर")
+        self.assertIn("तकनीक", query)
+        self.assertIn("स्मार्टफोन", query)
+        self.assertNotEqual(query, "")
+
+    def test_image_backfill_alternates_english_and_hindi(self):
+        posts = []
+        for lang in ("en", "hi"):
+            for i in range(10):
+                posts.append({
+                    "id": f"{lang}-{i}", "lang": lang,
+                    "published_at": f"2026-11-{10-i:02d}T00:00:00+00:00",
+                    "image_url": f"https://images.example/{lang}/{i}.jpg",
+                })
+        calls = []
+        def fake_cache(root, url, timeout=8):
+            calls.append(url)
+            return "assets/news-images/test.jpg"
+        with mock.patch.object(engine, "cache_image", side_effect=fake_cache):
+            updated, attempts = engine.backfill_missing_images(posts, {"timeout_seconds": 8}, Path("."), limit=12)
+        self.assertEqual((updated, attempts), (12, 12))
+        self.assertEqual(sum("/en/" in url for url in calls), 6)
+        self.assertEqual(sum("/hi/" in url for url in calls), 6)
+
+    def test_translated_hindi_candidate_keeps_original_image_search_title(self):
+        candidate = {
+            "lang": "en", "title": "Indian parliament budget session begins soon",
+            "summary": "The Indian parliament budget session will begin next week and officials have announced the schedule.",
+            "keyword": "parliament budget", "sources": [], "image_url": "https://images.example/story.jpg",
+        }
+        translations = {
+            candidate["title"]: "भारतीय संसद का बजट सत्र जल्द शुरू होगा",
+            candidate["summary"]: "भारतीय संसद का बजट सत्र अगले सप्ताह शुरू होगा और अधिकारियों ने कार्यक्रम की घोषणा की है।",
+            candidate["keyword"]: "संसद बजट",
+        }
+        with mock.patch.object(engine, "translate_to_hindi", side_effect=lambda value: translations.get(value, value)):
+            result = engine.translate_candidate_to_hindi(candidate, {"translate_english_to_hindi": True, "min_title_chars": 12})
+        self.assertIsNotNone(result)
+        self.assertEqual(result["image_search_title"], candidate["title"])
+
+
 class ParsingTests(unittest.TestCase):
     def test_valid_rss_with_related_sources(self):
         c = engine.parse_feed(rss([GOOD_EN]), FEED_EN)[0]
