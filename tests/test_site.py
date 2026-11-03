@@ -248,7 +248,7 @@ class HtmlSeo(unittest.TestCase):
     def test_article_social_preview_and_structured_image_metadata(self):
         posts = json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))["posts"]
         post = next(p for p in posts if p.get("lang") == "en"
-                    and re.fullmatch(r"assets/news-images/[a-f0-9]{20}\\.(?:jpg|png|webp|gif|svg)", p.get("image_path", ""))
+                    and re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", p.get("image_path", ""))
                     and engine.indexable(p, self.cfg))
         html = engine.article_page(self.cfg, post, posts)
         image_url = f"{self.cfg['site_url']}/{post['image_path']}"
@@ -256,7 +256,7 @@ class HtmlSeo(unittest.TestCase):
         self.assertIn(f'<meta name="twitter:image" content="{image_url}">', html)
         self.assertIn('name="twitter:card" content="summary_large_image"', html)
         self.assertIn('fetchpriority="high"', html)
-        match = re.search(r'<script type="application/ld\\+json">(.*?)</script>', html, re.S)
+        match = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
         self.assertIsNotNone(match)
         graph = json.loads(match.group(1))["@graph"]
         article = next(item for item in graph if item.get("@type") == "NewsArticle")
