@@ -249,7 +249,7 @@ class HtmlSeo(unittest.TestCase):
         posts = json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))["posts"]
         post = next(p for p in posts if p.get("lang") == "en"
                     and re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", p.get("image_path", ""))
-                    and engine.indexable(p, self.cfg))
+                    )
         html = engine.article_page(self.cfg, post, posts)
         image_url = f"{self.cfg['site_url']}/{post['image_path']}"
         self.assertIn(f'<meta property="og:image" content="{image_url}">', html)
