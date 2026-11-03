@@ -1870,10 +1870,35 @@ def cache_image(root, image_url, timeout=8):
 
 
 def backfill_missing_images(posts, cfg, root, limit=12):
-    """Cache images fairly across languages so English posts cannot starve Hindi posts."""
+    """Cache relevant, non-reused article images fairly across languages."""
     updated = 0
     attempts = 0
     now = datetime.now(timezone.utc)
+
+    # Feed aggregators sometimes expose one generic Google News logo as the
+    # thumbnail for dozens of unrelated stories. A repeated URL/path is not a
+    # trustworthy article image: invalidate it and retry from publisher pages
+    # or Commons instead of permanently caching the same graphic.
+    url_counts, path_counts = {}, {}
+    for post in posts:
+        url = safe_url(post.get("image_url", ""))
+        path = post.get("image_path", "")
+        if url:
+            url_counts[url] = url_counts.get(url, 0) + 1
+        if path:
+            path_counts[path] = path_counts.get(path, 0) + 1
+    reused_urls = {url for url, count in url_counts.items() if count > 1}
+    reused_paths = {path for path, count in path_counts.items() if count > 1}
+    for post in posts:
+        url = safe_url(post.get("image_url", ""))
+        path = post.get("image_path", "")
+        if url in reused_urls:
+            post["image_url"] = ""
+        if path in reused_paths or url in reused_urls:
+            post.pop("image_path", None)
+            post["image_lookup_version"] = 1
+            post.pop("image_lookup_attempted_at", None)
+
     eligible = []
     for post in posts:
         if post.get("image_path"):
@@ -1905,9 +1930,11 @@ def backfill_missing_images(posts, cfg, root, limit=12):
         if not local_path:
             publisher_match = find_publisher_image(post, cfg)
             if publisher_match:
-                post.update(publisher_match)
-                image_url = safe_url(post.get("image_url", ""))
-                local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8))
+                candidate_url = safe_url(publisher_match.get("image_url", ""))
+                if candidate_url and candidate_url not in reused_urls:
+                    post.update(publisher_match)
+                    image_url = candidate_url
+                    local_path = cache_image(root, image_url, timeout=min(cfg.get("timeout_seconds", 8), 8))
         if not local_path:
             # Translated Hindi posts retain the original English headline for a
             # more useful image search. Native Hindi headlines use Unicode terms.

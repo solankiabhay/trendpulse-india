@@ -92,6 +92,26 @@ class ImageLookupTests(unittest.TestCase):
         self.assertEqual(sum("/en/" in url for url in calls), 6)
         self.assertEqual(sum("/hi/" in url for url in calls), 6)
 
+    def test_reused_google_news_thumbnail_is_invalidated_and_not_cached(self):
+        shared = "https://lh3.googleusercontent.com/shared-generic-logo=s0-w300"
+        posts = [
+            {"id": "hi-1", "lang": "hi", "title": "भारत में तकनीक", "image_url": shared,
+             "image_path": "assets/news-images/reused.png"},
+            {"id": "hi-2", "lang": "hi", "title": "खेल समाचार", "image_url": shared,
+             "image_path": "assets/news-images/reused.png"},
+        ]
+        with mock.patch.object(engine, "find_publisher_image", return_value=None), \
+             mock.patch.object(engine, "find_commons_image", return_value=None), \
+             mock.patch.object(engine, "cache_image") as cache:
+            updated, attempts = engine.backfill_missing_images(
+                posts, {"timeout_seconds": 8}, Path("."), limit=12)
+        self.assertEqual((updated, attempts), (0, 2))
+        cache.assert_not_called()
+        for post in posts:
+            self.assertNotIn("image_path", post)
+            self.assertEqual(post["image_url"], "")
+            self.assertEqual(post["image_lookup_version"], 2)
+
     def test_translated_hindi_candidate_keeps_original_image_search_title(self):
         candidate = {
             "lang": "en", "title": "Indian parliament budget session begins soon",
