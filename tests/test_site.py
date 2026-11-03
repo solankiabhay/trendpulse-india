@@ -245,6 +245,44 @@ class HtmlSeo(unittest.TestCase):
         self.assertTrue(urls and all(u.startswith(self.cfg["site_url"]) for u in urls)); self.assertEqual(len(urls), len(set(urls)))
         self.assertIn(f"Sitemap: {self.cfg['site_url']}/sitemap.xml", (ROOT / "robots.txt").read_text())
 
+    def test_article_social_preview_and_structured_image_metadata(self):
+        posts = json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))["posts"]
+        post = next(p for p in posts if p.get("lang") == "en"
+                    and re.fullmatch(r"assets/news-images/[a-f0-9]{20}\\.(?:jpg|png|webp|gif|svg)", p.get("image_path", ""))
+                    and engine.indexable(p, self.cfg))
+        html = engine.article_page(self.cfg, post, posts)
+        image_url = f"{self.cfg['site_url']}/{post['image_path']}"
+        self.assertIn(f'<meta property="og:image" content="{image_url}">', html)
+        self.assertIn(f'<meta name="twitter:image" content="{image_url}">', html)
+        self.assertIn('name="twitter:card" content="summary_large_image"', html)
+        self.assertIn('fetchpriority="high"', html)
+        match = re.search(r'<script type="application/ld\\+json">(.*?)</script>', html, re.S)
+        self.assertIsNotNone(match)
+        graph = json.loads(match.group(1))["@graph"]
+        article = next(item for item in graph if item.get("@type") == "NewsArticle")
+        self.assertIn(image_url, article["image"])
+
+    def test_card_images_reserve_space_and_prioritize_only_featured_image(self):
+        post = json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))["posts"]
+        post = next(p for p in post if p.get("image_path"))
+        featured = engine.card(post, "", priority=True)
+        ordinary = engine.card(post, "")
+        self.assertIn('width="640" height="360"', featured)
+        self.assertIn('loading="eager"', featured)
+        self.assertIn('fetchpriority="high"', featured)
+        self.assertIn('loading="lazy"', ordinary)
+        self.assertNotIn('fetchpriority="high"', ordinary)
+
+    def test_sitemap_includes_article_image_locations(self):
+        posts = json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))["posts"]
+        xml = engine.sitemap_xml(self.cfg, posts)
+        root = ET.fromstring(xml)
+        ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9",
+              "img": "http://www.google.com/schemas/sitemap-image/1.1"}
+        images = root.findall(".//img:image/img:loc", ns)
+        self.assertTrue(images)
+        self.assertTrue(all(item.text.startswith(self.cfg["site_url"] + "/assets/news-images/") for item in images))
+
     def test_footer_legal_links_on_every_page(self):
         for f in ROOT.rglob("*.html"):
             if "tests" in f.parts or f.name.startswith("google"): continue
