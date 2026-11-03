@@ -58,6 +58,9 @@ def check_tree(root, site_url):
         for href in p.links:
             if re.match(r"^(https?:|mailto:)", href or ""): continue
             target, _, frag = href.partition("#")
+            # Query strings do not change the local file being linked. In particular,
+            # category filters use same-page links such as ?cat=technology.
+            target = target.split("?", 1)[0]
             dest = (f if not target else (f.parent / target)).resolve()
             if target and not dest.exists(): problems.append(f"{rel}: broken link {href}"); continue
             if frag and dest in {x.resolve() for x in parsed} and frag not in parsed[next(k for k in parsed if k.resolve() == dest)].ids:
