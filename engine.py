@@ -1349,7 +1349,7 @@ def card(p, up, compact=False):
     names = ", ".join(dict.fromkeys(s["publisher"] for s in p["sources"]))
     text = f"{p['title']} {tidy(p['summary'])} {cat}".casefold()
     image_path = p.get("image_path", "")
-    if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif)", image_path):
+    if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", image_path):
         visual = f'<img class="card-image" src="{esc(up + image_path)}" alt="{esc(p["title"])}" loading="lazy" decoding="async" data-fallback-category="{esc(category)}" data-fallback-label="{esc(cat)}">'
     else:
         visual = f'<div class="card-image card-image-fallback cat-{esc(category)}" aria-hidden="true"><span>{esc(cat)}</span></div>'
@@ -1638,8 +1638,11 @@ def article_page(cfg, p, posts):
     rl = ""
     if rel:
         rl = f'<h2>{esc(L["related"])}</h2><ul>' + "".join(f'<li><a href="{esc(q["url"].rsplit("/", 1)[-1])}">{esc(q["title"])}</a></li>' for q in rel) + "</ul>"
+    hero_path = p.get("image_path", "")
+    hero = (f'<figure class="post-hero"><img src="../{esc(hero_path)}" alt="{esc(p["title"])}" loading="eager" decoding="async"></figure>'
+            if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\\.(?:jpg|png|webp|gif|svg)", hero_path) else "")
     body = (f'<article class="post"><nav aria-label="breadcrumb"><a href="../index.html">{esc(L["latest"])}</a></nav>'
-            f'<h1>{esc(p["title"])}</h1><p class="meta"><span class="badge">{esc(cat_label(p["category"], lang))}</span> '
+            f'<h1>{esc(p["title"])}</h1>{hero}<p class="meta"><span class="badge">{esc(cat_label(p["category"], lang))}</span> '
             f'{esc(L["published"])}: <time datetime="{esc(p["published_at"])}">{ist_date(p["published_at"])}</time></p>'
             f'<p class="notice">{esc(L["disclaimer"])}</p>{fs}<h2>{esc(L["each_source"])}</h2><ul>{srcs}</ul><h2>{esc(L["unconfirmed"])}</h2><ul>{unc}</ul>{rl}</article>')
     canonical = f"{cfg['site_url']}/{p['url']}"
@@ -1869,6 +1872,48 @@ def cache_image(root, image_url, timeout=8):
         return ""
 
 
+def generate_fallback_thumbnail(post, root):
+    """Create a branded, per-story SVG thumbnail when no trustworthy photo exists."""
+    title = normalize_text(post.get("title", "")) or "TrendPulse India"
+    category = normalize_text(post.get("category", "trending")).casefold()
+    palette = {"india": ("#102a43", "#f97316"), "world": ("#172554", "#38bdf8"),
+        "business": ("#052e16", "#4ade80"), "technology": ("#1e1b4b", "#a78bfa"),
+        "entertainment": ("#4a044e", "#f0abfc"), "sports": ("#7c2d12", "#fb923c"),
+        "science": ("#164e63", "#67e8f9"), "health": ("#14532d", "#86efac"),
+        "trending": ("#172554", "#f97316")}
+    background, accent = palette.get(category, palette["trending"])
+    words, lines, line = title.split(), [], ""
+    for word in words:
+        candidate = (line + " " + word).strip()
+        if len(candidate) > 34 and line:
+            lines.append(line); line = word
+        else:
+            line = candidate
+        if len(lines) == 3:
+            break
+    if line and len(lines) < 4:
+        lines.append(line)
+    if len(lines) == 4 and len(" ".join(words)) > sum(map(len, lines)) + 4:
+        lines[-1] = lines[-1][:31] + "…"
+    tspans = "".join(f'<tspan x="110" dy="{0 if i == 0 else 76}">{esc(v)}</tspan>' for i, v in enumerate(lines[:4]))
+    label = esc(cat_label(category, post.get("lang", "hi")))
+    svg = ('<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">'
+        f'<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{background}"/><stop offset="1" stop-color="#0b1220"/></linearGradient></defs>'
+        '<rect width="1200" height="675" fill="url(#bg)"/>'
+        f'<rect x="72" y="72" width="8" height="530" rx="4" fill="{accent}"/>'
+        '<text x="110" y="145" fill="#cbd5e1" font-family="Noto Sans Devanagari, Noto Sans, sans-serif" font-size="28" letter-spacing="3">TRENDPULSE INDIA</text>'
+        f'<text x="110" y="290" fill="#ffffff" font-family="Noto Sans Devanagari, Noto Sans, sans-serif" font-size="54" font-weight="700">{tspans}</text>'
+        f'<text x="110" y="610" fill="{accent}" font-family="Noto Sans Devanagari, Noto Sans, sans-serif" font-size="26">{label}</text></svg>')
+    digest = hashlib.sha256(post.get("id", title).encode("utf-8")).hexdigest()[:20]
+    relative = f"assets/news-images/{digest}.svg"
+    target = Path(root) / relative
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(svg, encoding="utf-8")
+    post["image_path"] = relative
+    post["image_kind"] = "generated-fallback"
+    return relative
+
+
 def backfill_missing_images(posts, cfg, root, limit=12):
     """Cache relevant, non-reused article images fairly across languages."""
     updated = 0
@@ -1956,6 +2001,11 @@ def backfill_missing_images(posts, cfg, root, limit=12):
             post["image_path"] = local_path
             updated += 1
             log.info("cached thumbnail for %s", post.get("id"))
+    # Ensure every Hindi archive item has a visual, even when no real photo is retrievable.
+    for post in posts:
+        if post.get("lang") == "hi" and not post.get("image_path"):
+            generate_fallback_thumbnail(post, root)
+            updated += 1
     return updated, attempts
 
 

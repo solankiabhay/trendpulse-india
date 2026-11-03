@@ -67,6 +67,24 @@ def fetcher_for(mapping):
 
 
 class ImageLookupTests(unittest.TestCase):
+    def test_hindi_missing_image_gets_unique_branded_svg_fallback(self):
+        root = make_root()
+        posts = [
+            {"id": "hi-1111111111", "lang": "hi", "title": "भारत में नई तकनीक की शुरुआत", "category": "technology"},
+            {"id": "hi-2222222222", "lang": "hi", "title": "क्रिकेट में भारत की शानदार जीत", "category": "sports"},
+        ]
+        with mock.patch.object(engine, "find_publisher_image", return_value=None), \
+             mock.patch.object(engine, "find_commons_image", return_value=None):
+            updated, attempts = engine.backfill_missing_images(posts, {"timeout_seconds": 1}, root, limit=0)
+        self.assertEqual(updated, 2)
+        self.assertEqual(attempts, 0)
+        self.assertNotEqual(posts[0]["image_path"], posts[1]["image_path"])
+        for post in posts:
+            path = root / post["image_path"]
+            self.assertTrue(path.exists())
+            self.assertIn("<svg", path.read_text(encoding="utf-8"))
+            self.assertEqual(post["image_kind"], "generated-fallback")
+
     def test_image_search_terms_keep_hindi_devanagari_keywords(self):
         query = engine.image_search_terms("भारत में नई तकनीक और स्मार्टफोन लॉन्च की खबर")
         self.assertIn("तकनीक", query)
