@@ -662,3 +662,10 @@ a, button, input { touch-action: manipulation; }
   #searchform .btn { width: 100%; }
   .hero { padding: 1rem; }
 }
+
+
+/* P2 performance: defer off-screen archive painting on long news lists. */
+main > section[aria-labelledby="archive"] {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 1400px;
+}
