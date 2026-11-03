@@ -1828,7 +1828,7 @@
           "publisher": "BBC"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
       "article_body": "Sky Sports: “Welcome to The Radar , a Sky Sports column in which Nick Wright uses a blend of data and opinion to shed light on need-to-know Premier League stories. This week: 🔺Manzambi's big impact at Villa 🔺Janelt's excellent defensive work 🔺A glimmer of hope for Arbeloa?…”\n\nBBC: “MATCH REPORT: Champions League - Aston Villa 6-0 Fenerbahce”",
       "image_url": "https://e0.365dm.com/26/10/1600x900/skysports-johan-manzambi-aston-villa_7377563.png?20261015132726="
@@ -2182,7 +2182,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://assets.goal.com/images/v3/bltdaba592743bb812b/crop/MM5DCOJRHA5DCMBXHE5G433XMU5DCORQ/boga%20juve.jpg",
+      "image_source": "https://www.goal.com/en-in/lists/juventus-squad-boga-returns/blte0699aa8dba3a01e",
+      "image_credit": "Goal.com",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/98dd8b5d177cfbfcca28.jpg"
     },
     {
       "id": "en-2af124cb0f",
@@ -2216,9 +2222,12 @@
           "publisher": "The Daily Star"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-02T10:11:45.044200+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/Mehazabien%20Chowdhury%20%281%29.png"
+      "image_url": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/Mehazabien%20Chowdhury%20%281%29.png",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/26b74e40354ee495ebc6.png"
     },
     {
       "id": "en-de88519502",
@@ -2254,7 +2263,10 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:11:45.044200+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://th-i.thgim.com/public/entertainment/movies/blqva9/article71592073.ece/alternates/LANDSCAPE_1200/Rajkummar%20Rao%20in%20%E2%80%98Prahaar%E2%80%99"
+      "image_url": "https://th-i.thgim.com/public/entertainment/movies/blqva9/article71592073.ece/alternates/LANDSCAPE_1200/Rajkummar%20Rao%20in%20%E2%80%98Prahaar%E2%80%99",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/5b14d5f3d1e8e2ec4843.jpg"
     },
     {
       "id": "en-4b8ba84d8a",
@@ -2290,7 +2302,10 @@
       ],
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/prd/gd6gpdjigyzvgf3smh0r"
+      "image_url": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size20-webp/prd/gd6gpdjigyzvgf3smh0r",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/206280cd12bb4d0fe7a9.webp"
     },
     {
       "id": "en-bc77b7af48",
@@ -2325,7 +2340,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:18:25.052626+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://th-i.thgim.com/public/incoming/aelw4v/article71597294.ece/alternates/LANDSCAPE_1200/WOMEN%20PROTEST%20SIR%20DELHI%2036.JPG",
+      "image_source": "https://www.thehindu.com/news/cities/Delhi/delhi-anti-cec-protests-dipke-released-after-signing-peace-bond-sporadic-protests-continue/article71597306.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/0d3abe2b8017394a5a01.jpg"
     },
     {
       "id": "en-2ec20e9203",
@@ -2360,7 +2381,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:18:25.052626+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://media.philstar.com/photos/2026/10/18/6_2026-10-18_22-40-16.jpg",
+      "image_source": "https://www.philstar.com/sports/2026/10/19/2564164/eala-seeks-arrest-skid-vs-parry",
+      "image_credit": "Philstar.com",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/9618a9e7e06f3a52fdef.jpg"
     },
     {
       "id": "en-83f4007423",
@@ -2395,7 +2422,12 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://etimg.etb2bimg.com/thumb/msid-134984218,imgsize-35174,width-1200,height=627,overlay-etelectronics,resizemode-75/news/components-hardware/cyient-dlms-normalised-pat-grows-by-26-to-15-82-crore-in-q2fy27.jpg",
+      "image_source": "https://electronics.economictimes.indiatimes.com/news/components-hardware/cyient-dlms-normalised-pat-grows-by-26-to-15-82-crore-in-q2fy27/134984218",
+      "image_credit": "electronics.economictimes.indiatimes.com",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-5bd19a516d",
@@ -2430,7 +2462,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-19T19:44:15.058713+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://s.tradingview.com/static/images/illustrations/news-story.jpg",
+      "image_source": "https://www.tradingview.com/news/te_news:593002:0-taiex-trades-at-4-week-low-as-tech-weighs/",
+      "image_credit": "TradingView",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/84be656d55ee8fd58962.jpg"
     },
     {
       "id": "hi-8d28101bec",
@@ -2515,9 +2553,12 @@
           "publisher": "The Shillong Times"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://im.rediff.com/1200-630/cricket/2026/oct/18priyansh-arya.jpg"
+      "image_url": "https://im.rediff.com/1200-630/cricket/2026/oct/18priyansh-arya.jpg",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/cfa8d2349aa466e5e898.jpg"
     },
     {
       "id": "hi-61e75eb458",
@@ -2681,7 +2722,12 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-19T23:27:40.959851+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://m.thewire.in/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhld2lyZS1pbi1wcm9kLXNvcnRkL21lZGlhNmVmZmZhZTAtY2I4My0xMWYxLTk3ZDItNzEzMjA1NmJlMmNlLnBuZw%3D%3D",
+      "image_source": "https://m.thewire.in/article/film/prahaar-is-a-timely-reminder-of-due-process-for-every-accused-in-a-retribution-crazed-country",
+      "image_credit": "TheWire.in",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2
     },
     {
       "id": "en-809a0945c2",
@@ -2716,7 +2762,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-19T23:27:40.959851+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/9cad/live/89e4af20-cb94-11f1-93a7-b36f3083f4d3.jpg",
+      "image_source": "https://www.bbc.com/news/articles/cmde83w13p00o",
+      "image_credit": "BBC",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/4905c16d88571d2ea731.jpg"
     },
     {
       "id": "hi-3634ea7248",
@@ -3491,7 +3543,7 @@
           "publisher": "MadeInFOOT"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://medias.lequipe.fr/img-photo-jpg/maghnes-akliouche-avait-ete-victime-d-un-tacle-appuye-sur-sa-cheville-gauche-samedi-en-fin-de-match-a-strasbourg-p-lahalle-l-equipe/1500000002626885/195:72,1477:927-828-552-75/c293b.jpg",
       "image_lookup_attempted_at": "2026-11-03T09:53:36.698227+00:00",
@@ -6182,7 +6234,7 @@
           "publisher": "Last Word On Sports"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
       "image_lookup_version": 2,
@@ -6305,7 +6357,7 @@
           "publisher": "Telegraph India"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://static.toiimg.com/thumb/msid-135299458,width-1280,height-720,resizemode-6,overlay-toiblogs,pt-32,x_pad-1045,y_pad-670/photo.jpg",
       "image_source": "https://timesofindia.indiatimes.com/toi-blogs/toi-newsletters/bharat-abroad/toi-bharat-abroad-us-midterms-red-blue-a-little-desi-too/articleshow/135299309.cms",
@@ -8047,7 +8099,7 @@
         }
       ],
       "image_url": "https://th-i.thgim.com/public/news/national/yw6clx/article71650785.ece/alternates/LANDSCAPE_1200/IMG-20261031-WA0067.jpg",
-      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/8ac1d3a83d57a810f0c8.jpg"
     },
@@ -8674,7 +8726,7 @@
         }
       ],
       "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2895/live/a97704b0-d660-11f1-a258-ffc7400bea96.jpg",
-      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/772b1c7518c2c7cd9b03.jpg"
     },
@@ -8752,7 +8804,7 @@
         }
       ],
       "image_url": "https://static.toiimg.com/thumb/msid-135434602,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/a4e62d2aaeca63a05bc2.jpg"
     },
@@ -9424,7 +9476,47 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-03T09:53:36.698227+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/de55f7f27c9393840016.jpg"
+      "image_path": "assets/news-images/de55f7f27c9393840016.jpg",
+      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-cfd3956a7b",
+      "lang": "en",
+      "slug": "dda-gears-up-for-dust-control-in-dwarka-narela-cfd3956a7b",
+      "url": "en/posts/dda-gears-up-for-dust-control-in-dwarka-narela-cfd3956a7b.html",
+      "title": "DDA gears up for dust control in Dwarka & Narela",
+      "summary": "The Times of India: DDA boosts dust control in Dwarka and Narela with mechanised road sweeping, water sprinklers and an 11.8km misting network amid poor air quality.\n\nHindustan Times: The Delhi…",
+      "source_summary": "The Times of India: DDA boosts dust control in Dwarka and Narela with mechanised road sweeping, water sprinklers and an 11.8km misting network amid poor air quality.\n\nHindustan Times: The Delhi Pollution Control Committee (DPCC) has asked seven government agencies, including Delhi Police, the Municipal Corporation of Delhi (MCD) and the transport department, to submit daily reports on enforcement of winter pollution-control measures by 5pm.The move is aimed at closely monitoring compliance on the…\n\nANI News: New Delhi [India], October 28 (ANI): In line with the vision of Hon’ble Prime Minister Narendra Modi Ji for a Clean, Green and Developed India, New Delhi Municipal Council (NDMC) Vice-Chairperson Kuljeet Singh Chahal on Wednesday held a press conference at Palika Kendra and informed…",
+      "article_body": "The Times of India: “DDA boosts dust control in Dwarka and Narela with mechanised road sweeping, water sprinklers and an 11.8km misting network amid poor air quality.”\n\nHindustan Times: “The Delhi Pollution Control Committee (DPCC) has asked seven government agencies, including Delhi Police, the Municipal Corporation of Delhi (MCD) and the transport department, to submit daily reports on enforcement of winter pollution-control measures by 5pm.The move is aimed at closely monitoring compliance on the…”\n\nANI News: “New Delhi [India], October 28 (ANI): In line with the vision of Hon’ble Prime Minister Narendra Modi Ji for a Clean, Green and Developed India, New Delhi Municipal Council (NDMC) Vice-Chairperson Kuljeet Singh Chahal on Wednesday held a press conference at Palika Kendra and informed…”",
+      "category": "trending",
+      "published_at": "2026-11-03T15:50:00+00:00",
+      "generated_at": "2026-11-03T16:04:47.204455+00:00",
+      "kind": "digest",
+      "keyword": "narela",
+      "score": 89.86,
+      "sources": [
+        {
+          "title": "DDA gears up for dust control in Dwarka & Narela",
+          "url": "https://timesofindia.indiatimes.com/city/delhi/dda-gears-up-for-dust-control-in-dwarka-narela/articleshow/135504538.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "DPCC asks seven agencies to submit daily pollution action reports by 5pm | India News",
+          "url": "https://www.hindustantimes.com/india-news/dpcc-asks-seven-agencies-to-submit-daily-pollution-action-reports-by-5pm-101793673634027.html",
+          "publisher": "Hindustan Times"
+        },
+        {
+          "title": "Prioritise night-time cleaning so dust levels on roads can be reduced by morning: NDMC VC Chahal instructs officials",
+          "url": "https://www.aninews.in/news/national/general-news/prioritise-night-time-cleaning-so-dust-levels-on-roads-can-be-reduced-by-morning-ndmc-vc-chahal-instructs-officials20261028231627/",
+          "publisher": "ANI News"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/e8ad9ce80633b789d3a5.png"
     }
   ]
 }
