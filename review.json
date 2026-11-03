@@ -3059,6 +3059,688 @@
       "reasons": [
         "insufficient_value"
       ]
+    },
+    {
+      "id": "hi-530e83f8fe",
+      "lang": "hi",
+      "title": "महंगाई या मोहभंग? कोरोना के बाद पहली बार सोने का इतना बुरा हाल",
+      "category": "business",
+      "published_at": "2026-11-03T09:01:14+00:00",
+      "summary": "AajTak: महंगाई या मोहभंग? कोरोना के बाद पहली बार सोने का इतना बुरा हाल\n\nThe Lallantop: रिकॉर्डतोड़ सोने की कीमतों ने बिगाड़ा बजट, 6 साल के निचले स्तर पर पहुंची खरीदारी\n\nThePrint Hindi: भारत में जुलाई – सितंबर में सोने की मांग 29 प्रतिशत घटकर 162.5 टन रही: डब्ल्यूजीसी\n\nLivemint: Gold Demand Drops: 6 साल के सबसे निचले स्तर पर सोना, क्या धनतेरस – दिवाली पर लौटेगी रौनक?\n\nNavbharat Times: Money Matter: भारत ने खोज लिया सस्ते सोने का रास्ता! नई दिल्ली की इस मुंहलगी 'मिर्च' से यूरोप के छूटे पसीने",
+      "sources": [
+        {
+          "title": "महंगाई या मोहभंग? कोरोना के बाद पहली बार सोने का इतना बुरा हाल",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdjFid2ZfR0NBYUQ2NmRMNVRaZWhqb19RR3pUdF84Ynlzemc4d041V1pabHVsS0dkeDVseU9YVW0wdzRSd3JJYXdKQzNSR1JtSWZGMlhDY2J6Szh0dDltZlgyUlhvbEUybFI5SEdRcWd3VHNDdzJXTmFlUmpyeTdkVlFGY19DYkoya1FsV1VSczQtSlp0YVBDMTJIWllSZWhOUk5fY2k5RkY5U1U4SVBIbHFLY0x5WUNPdnExbURPTHdDaGFyYWczOHhQS2FBZjFFS3BWWmFhSUlMQ0RQeXdiNzNHQkY3bEdERVlBNlgxSzhYZ9IB9wFBVV95cUxOSDhxR3NwNEpibFVVVkV4OGN6YXdSNmVUMFAwOHN4QkNtY1ZWOFgyMURrT3BrUG1qYlg5XzZPcDVYaG9GR3RtMlpjZTRPN1NHU2ppQVJiUUJHNGRVdzdTLVZVbG1tY2UtSWZoZEJKS25YdW1aMTVERXllZzBOazVRUURkbkRhbHhORk1jSDRSeEt3UXptQmxCdlphLXFnRS1IajJtaFFWTFlNM1dBeVFPS0RkOGFia3VjbmU4M08tSnFWYUJpUHZ2WldtSmg0UXdkZkdybkwyWGFJczFFenJRQ0wzVS1fRlNoN3RfbmFJUm9xamhKVmtN?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "रिकॉर्डतोड़ सोने की कीमतों ने बिगाड़ा बजट, 6 साल के निचले स्तर पर पहुंची खरीदारी",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT2drR05zQmg1QnpqTUZVcU8xM3hzMnZVLWxOSGxsZ19ZOGMyY2dwNlF0WkNWbUoxenhxdjNNcjBnQ3ZfY2xHZjhuMkxCbUZabWlPVGZfTkNDcDBzeGxTZ2YyQ1hvdU1ITW1sM2lQRzFqTXA5aVk0b1NSaDBySi15V2NReWhoZjc4cDhRRloxczJJazVNNlpHTmFDc3FRTjBiRVVpSEFUV1RGN21DdldaTzJuT3FseVHSAbwBQVVfeXFMTnNielJlUmZRSnNBeE9SaFlZQkFiTjBzLWdjZUhOMkxLblF0TUk5VlZKenhZYy1JMnNWWFpMX0hubTNoWUxtOExIdUhabUI3MUh4VVF4TGVJUGpYdTNoWmVobFhQNTdrZVNWcERMRGxVcEFuZVNSSkkxd0hzdHFHdG5mVEhfSmY4azVrNzRlbXBiYkItMUtDelpTY19CNlNSQmdvdEFyZE43dVpNdDZyZVRLYUpHUmFyZncwSHg?oc=5",
+          "publisher": "The Lallantop"
+        },
+        {
+          "title": "भारत में जुलाई-सितंबर में सोने की मांग 29 प्रतिशत घटकर 162.5 टन रही: डब्ल्यूजीसी",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOEJTT1JiT3Bka0M0UFBPMS1fWk1wNXlYZHNlWmx5aHMxMk9ZbExSQWVULTBMNWFhcmVERVpWZnhfcGNfRjYwMEw3SmdiMlZEYkJVMmFnamFvR21aU3dTTzJnVGZ2RFU2YmlPMHdtTHBlQkg0b18wVllfNi1QTjNHUWtBdjVjb2IzNk9neDBya2Y5NjgyTjhKUGtackZOcDl5akNXcU9VcVB4N1k2Y0pFM2IxZTVodG5xZ3hWTDJYMFbSAcYBQVVfeXFMUHZXUGJJbkZ3XzFCajBCUUFyaEo4XzVFdlR0clZmSnJDVF9yT1kxRXF1V0RpVC1fU1EzRnBvQjg1bmEzY0FOMFVoNFFlUEJLNDJDZjdnUmRySVFvWllDOVZLRjZHYUdfY3ZnM002ZWo1aWF0RmR0UUs3ZUhWdGx0ODNYNWlIa1ZRSV9ndHAyZUhBLUJtbjZIWlotdkxDaENaVFRsOVRkNVJlMzJMWTljRnRXUkc2Z3JMWkVNR2k0Ym5IWDJoaGhR?oc=5",
+          "publisher": "ThePrint Hindi"
+        },
+        {
+          "title": "Gold Demand Drops: 6 साल के सबसे निचले स्तर पर सोना, क्या धनतेरस-दिवाली पर लौटेगी रौनक?",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWWNUNXZSaWUtV3BUYzlYWndXZVhLZlBWVENoN0JFM0NDU0hiSXNYTi1Fc05nRFpqbnZqVWt5VExCb2FwTDZOek0zSEpWcGNWa0c2cmNZZVkyMW1Pay1lci1tcS1rLXFGWDd5WHV3djNYY3FWWk1KcnNUV1hUR0NkY1NaNnpDN3dTVGJsZ1FNYTNtX2RLUF9CMTNXQWRTSzJSNjV1M0F0QmlmTnpmZHlWYzl4cWEzZXFXdHhkTUNnUVN1cXM2ODNVVklvaUlHLXBSMTNHOUxIejFBZw?oc=5",
+          "publisher": "Livemint"
+        },
+        {
+          "title": "Money Matter: भारत ने खोज लिया सस्ते सोने का रास्ता! नई दिल्ली की इस मुंहलगी 'मिर्च' से यूरोप के छूटे पसीने",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxON19fcEtkUE8ybjRDME1URENVSVNsSFJmSkhQSGUxZEpNVnB1WmR3VklRdGhNQnBJcUN2QVUtRjBxRDNONmQ5LUw0SWc3SEU1UFZ0QmdmVEl5cGNjSFFwaXVEUFhfZTkzbm9VTWt3MVd1cU5RUGlCNmxMTUY4Y01Pd1ZxWlR3VVVQMUZaVHliakJPbDlGSXVDUTRBRnptWGdJcUZWcktyd2FEa25fUFJvVWVqbllEVHlCamRKcmhoZ3RhQU5Rb2VFcTUyTnVyN0RiMm9QOGFMNWd2ZGVQSWpva04xZGIwTV9OMTdNNkxTaDJLRnVLZjN3TGN2QQ?oc=5",
+          "publisher": "Navbharat Times"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-d0d7531857",
+      "lang": "en",
+      "title": "AP Municipal Election Results 2026 Live Updates: TDP Leads in 8 GVMC Wards",
+      "category": "india",
+      "published_at": "2026-11-03T09:21:04+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "AP Municipal Election Results 2026 Live Updates: TDP Leads in 8 GVMC Wards",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRmwzd0lVQmdtcnRUOTlXakRGZ3kzRExtTFFVeS1TLWp6Q1lNWTdSZjhvTUN1ZHdmeXlnYlUxZ2w5RnFkRWdsejA1NC1DUnhLWUlPY1V4N0VvRXBQUnplanFjNm5PTTBjV0hraUZvNFpGRHNZdl9zNi1JRkpkMkR1MFY4YzNNQ29rMXpGN0pROWFYbWhLS2dLSXZnYWlRUWFsSGE0a18wYXdLeEFuNHNxc0NJcHcyd1BxZUlnY1NYeFlHMlZ1THBuQ3BrWlphcDZOb1hXa0tSSEMtQzFz0gHiAUFVX3lxTE5fMlZfcDJKWi1lTENaZWdEUkVYTERrclJEVGxIOExwTENsTFFVZHZuakJITkxUSXFlaG9uM2REc3dWaW5qTzE1NEJOYjhvUXc5eTJYMFpkdlZLem93Nk42dDlwcU43MkhLbjZEdU5sa2FVR2IybkhjRGxVWld2UVlON0h0WExOS3p5ejdpUVlTN3piTl9vbmFXLXpNLWFzQ09UQUhZQnBTWnVsSGpKVTQyVEFtcUVNMV8tM3l1ZXVETkNTcGZCeW8tTk9ja09Yc3BzR040SnZRUGktdFZDZl9oNWc?oc=5",
+          "publisher": "Deccan Chronicle"
+        },
+        {
+          "title": "Independent candidates may turn out to be kingmakers in Vizianagaram municipal polls",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOc3RTQlZfdnNsRVh6ZGZwSU1xTktCZ1ExWUY2dkt0cEtxZXQ1TUpNcWQ5RmRSdUZoMmRFWTdvQ1N5SE9CQ0c3bGE3R3JzR29OM0NmbUpPXzVyV29MRTQ2YkJIem5SUEFIWEkydlcyLWdFY3VWMTdOc0tzSXR5cHpkYkQzMXF2cGNZeWlpODhYRHNDRm5UdS1pUFJYVW1YZGVkV3RHQ3ZOVWpJS19OWS1xOFJSX2VoNW5GblZfNFlna25paU1JYkYzOEhSaGhKRGdrOTZFNVYzeUdKU3FhTmV0V2J2SGFBVGZlUE1tZVBSUdIB9gFBVV95cUxPT0gyeDgwVjdaVE1fcFc0ZjFhRGszT1Bla2ZVRmFnMnFrRjFzZGZxX2tTWDRwLW92SlphR3FSeVBUUDg4em5pNGFSTld1bGNpdnd6TjRHVHViNk5UUzZsdDJHWmdsMGtZSDlPeHhDOU13b2U2Ty1BWXRsY05zajNvTGUwRkF6OFViYTFMc2h5TW0wWWwyVHllWmJNa1puUkFPQ2FyOXpDZklIaHltOE9fVTJLSmdlVTFpdk52bUdOUlc2eEpjNlY5cldzc2xTNTIzejlLd1Bkc0k3MzMxSjJseGpxNXYxZ1BNQlRNSzBwZlBMbTFFUWc?oc=5",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "GVMC elections: All set for counting of votes today",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQi0zRjZTQjVaaWpIZDZCZzZUUkRXWVVOTlp6eHU1bFgyNzhadk1hT2NSSjI3WmVSN3E5Q25ZMXowc3NmM1ZRZTIxMFRnYkh1bkx1RThiRVNsZ3BOY1p3UVZjU1FtOTBvYWZBcU1icDZ3ZVoxY010dnRRam1UUUUzOHBxalQ5ODFRejV2VTgxRjVUYlZWbmQxanYyeVNmd2RXcUcwd0o3THVSR1BMZF9TOWZKaWZkWm5z0gHGAUFVX3lxTE1VQjBZODFmZ1J5OXZxTGVPUExsSmRyTFJZQ09GdUNqTTU2S1ZLZUZjcGthV3pPZ3V3aldUaTgtTXZ1MEJXbzVaXzJRWUtmTmpvSHRNdjlabHhHREtFaHJFRHJLeElXRUg5VTh0RFYxbFFCREhxMG9hY05BMVdyVktzZG50cHc2cGZqc1Z1TkIyN3lFME1TNG5ubzZJbGc1czBJWEl5aGtmNEpBNEdRVklHMlJrb2g1TjFBa0ZlbTBmcExjYlQ3Zw?oc=5",
+          "publisher": "The New Indian Express"
+        },
+        {
+          "title": "Andhra Pradesh: TDP leads in 8 GVMC wards as counting begins at Andhra University in Visakhapatnam",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMm5LM0RGSkVBUWlxUmRPUGphMVFCdEZfclpXRFlHTmIzN0lESUROSm01VHlnRGkwTDgyUjQwSXY3aTlOQXNmSzVjYmNPaEJCVktrcWZhdlVFVzU1LVBad0owV2NQQTlMVUd0dTBVNGE3VXdUSVNOLWpreHlEOGwxcTAwbmhYY3lvaVFKYzd1Y1dKcDJDS3ZmNld6T2ZUT0NoclJTOERiU0MwUk9vNHlaNkJULXNBOWJHekprTzcyWHh3cU96WG5oakhFT3IyS0NEWVdBd3BtVlpHSTc0YXVySndYRUM1WmJrdzctTU50clFrOHct?oc=5",
+          "publisher": "ANI News"
+        },
+        {
+          "title": "GVMC records 56.3% turnout, with core city areas lagging behind peripheral zones in voter participation",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOVWs1MDNienR1dUNXUFNTNVViMW4zUGRlTlBfNkFjOU9xVEpsMUNPNFRiU3NyeC1Ha2NCTU1iNVQzbXA1NFVvNDBWTFp1RjZFdmhWaUtzdk5CUlNoNk1xVjRmNWhwek9BV2R1Q013QzZIWDVDSmtsVEFPcTdxdVFGMDNNMDFBTGk2UlBBZ25GRzB2LVJQT0pnUm1kZmdWcVFreGFZT3U3enB4YmVvTTh6UG5JZmxpZnJWSUJBaEhyM19VQnk0UDBuZnVFNXJpOFpBNlh0U2Q0dGk2TG51TmptS09IU1RlUExyR3JrYU1OdE5HLVZtUUFmTkJIZllSWXVSYWpuT1JQUzZxa3M?oc=5",
+          "publisher": "The Times of India"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-7174f7bd5b",
+      "lang": "hi",
+      "title": "MP- शराब तस्करों ने ट्रक से कुचलकर TI को मार-डाला: ADEO, 2 आबकारी आरक्षक सस्पेंड; पत्नी को SI की नौकरी और 1...",
+      "category": "india",
+      "published_at": "2026-11-03T08:36:28+00:00",
+      "summary": "Dainik Bhaskar: MP – शराब तस्करों ने ट्रक से कुचलकर TI को मार – डाला: ADEO, 2 आबकारी आरक्षक सस्पेंड; पत्नी को SI की नौकरी और 1...\n\nAajTak: देवास में शराब तस्करी रोकने गए TI को ट्रक ने कुचला, मौत; परिवार को ₹1 करोड़ और पत्नी को SI की नौकरी\n\nDainik Bhaskar: कांग्रेस ने TI दिलीप पुरी की मौत पर प्रदर्शन किया: सिंगरौली में मानव श्रृंखला बनाकर सरकार को घेरा, सरकार के...\n\nIndia TV Hindi: अवैध शराब से भरे ट्रक को रोक रहे थाना प्रभारी दिलीप को ड्राइवर ने कुचला, CM मोहन यादव ने किया 1 करोड़ मुआवज\n\nJagran: सरकारी खजाने में बीस हजार करोड़ की प्यास और सूबे में बेकाबू होता शराब का 'जहर तंत्र'",
+      "sources": [
+        {
+          "title": "MP- शराब तस्करों ने ट्रक से कुचलकर TI को मार-डाला: ADEO, 2 आबकारी आरक्षक सस्पेंड; पत्नी को SI की नौकरी और 1...",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYzBjdUtUU1pqelpVTkpRR2pVM0dlMTVWaXdRYW1GdVFFRTFtbHExM3RhSEtucHFMZ25BVFpsSzZmQWV6aVh4WmlrTWFGLXlCT3A4NmhwcHlDNVhmbTBWRTlQYTBHODdLeVYtOWtoQkp6ZGllWFNERnBlM3RCN2RhbE1pRDRSTUdPeGVDZkVIa003TW9hMlZfaVpIM21GMndkTW5YN29tQVFYRGFCNzlkdDVBRVlPWlNqRmw0RHRmdWJvRFN5WURz0gHMAUFVX3lxTE9UR04wM1o4YmwtcU40cmZrR3RPaDVYVE1EZG1kU1ZrUTctRjlROTBqa05NWGhOVzdHTHgxZFFTRVRGTWZhTFk4ZHBaRzFyY21lWTFPdGUxR2hmUEdoRjV0V09uMTlLM1hwSkFkYVFnN0RVVHdjdWJxZWFQb2VNalRvVUVETmd3NWlLY214VVpVQk1ScllVZlZQYVdlaVFaRTBfdEUtOEo0SWhnZFJKMmhrR0ZvLUJ2UlpGalVzOHJUQ1J0VXdMSm9hdThPRA?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "देवास में शराब तस्करी रोकने गए TI को ट्रक ने कुचला, मौत; परिवार को ₹1 करोड़ और पत्नी को SI की नौकरी",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRjNZNVJvcS14YS1OcFRrSUJSMVFhQ3NHZG1CbnZCRndNT2NQSmhacG92ZmJiLXZMdnY3QUdPVTZFTWhzV0xUMGJFQmNXSjVZbUQ4Z1Bob0Nxdlo2b2JZQ21RcVgyM3ZMZTJ3ZXp3clV0cVBRREVXNGtzRlNBdHltcEI5dHFLUVVFWU02X1BwNGZ5QzJXQkZvNUIzeHVwX3drNHJCelJrVXBrenpwWjNhbVZJWEFJZXRwLWZBblFmd3dtUTZJYmV5elRGZDYyOGFvSWw3TGU0dUh4ZjhoUGdreXBRZ1F1a3dzT2hxWWtqTE1aQdIB9wFBVV95cUxQd3Q4cnc1MkRMZnJCcDhFcXJzQzlvbVJXRk00Smt0V1ByendkNzBLcnlQaXluUVJnZVZGWnRXUFlKWEZRMXlWZVJYQ1hLWWhHQjItdEc0ajhoRHBJMjVzcmZwUENHOHE2TDBBTDJoWmQxSWRDTFIxbDV6cWhHVFZGWUkxaVVKcmpzZmRvaG56Ym5TQ3BCRkItTm54VUgzNURQTnU2alpya091ZlU0Y1lTYXVCM3drejlNSUluNENWYUctOEVEcThWX09HQUNJVHRDcTYyZXhpbDg1aDhObWNBTlpFc0Q0NV9Dak1OeC03WTc3Rms0bWlj?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "कांग्रेस ने TI दिलीप पुरी की मौत पर प्रदर्शन किया: सिंगरौली में मानव श्रृंखला बनाकर सरकार को घेरा, सरकार के...",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcC12NklfeDBabUN5dklXMzI4SFRXT2JSYVh4WmwwUG9yTjM1a2ZlZFRscHJxQVNkTWNac05BWHlnWW50cFliXy1Mb1Q1MXRZNUcwTHk2NS0zOTRaa202STl1Y3F5MXcxemEzS0pZRXk2eWRic29wTDRxbmJGaHliT1ktR1VqeV9XRDFPRG41bG1Tb1p2Q093cE9tRHpUR3h3aW9hMlBaUEtoLVBqUV9hdVNzY0hNQ0pmWV85SURZQkZaYkNzSVNjcW1aa2Z3V3ZjaXZzTXBB0gHbAUFVX3lxTE5YN2JnaWxFblBEZ1N3RUFrSHBCazBfSUZKTDB4OV9uempRdk16ZXRVYkc1Snh2aGtTVlZvTmZzOW8zRUdwMXNnazFmcjFXTXRzN3lDQThFV0RiOC1kbmVCYmZNTVlqMTR0cmRJenk2QTR2X0JfalVVZUQ1QnRKNjNtazYzdklyMWEzQWNwNmRFZFZqdVNRMWhYZ1g1REpRaWRtMjBkNjVselFieDU0VFlpbl9YQkM2QjlBZm5Qcm10ZGVUMVJOTnpPZVRWcWdqMnEybHdTWTNQNldOMA?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "अवैध शराब से भरे ट्रक को रोक रहे थाना प्रभारी दिलीप को ड्राइवर ने कुचला, CM मोहन यादव ने किया 1 करोड़ मुआवज",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQS3BhM293c3FoWHZyUi1EX05qYzg1UE4zMUtvaFpTR3JfQWZZMnM4RXpmR1ZEcVhVN0VVdGNkdHVkZEFWWm9Zak9SLXVYdXBkb2xyVjhZQUN1MERRQy1MaC1EU2U5cWp3ZThDeG9NN2s0Z21mNE5GUjRraEhiMTN6WnQ5YXdOR1g2RFY2eE03TzlTTkZGaHk4aVdDLXNtZlBZNGcwTm5sQ1BDOTFJYmEyZ1hvNVBJWHlzZmxpSGZWbHd5NzhfSW05cHRhZmpxc0YxVkt2WDlVTFZ0ZU1aUUE?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "सरकारी खजाने में बीस हजार करोड़ की प्यास और सूबे में बेकाबू होता शराब का 'जहर तंत्र'",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNUFlNFFWVTRISlhXamdWWm0wNnhvTDg3Vkk3RG85RXVVQm9NX09kUFFJV3p5aG1BdS1EWHk3RndPNWZRRXRzbGZPWHZmTnh2NV8yZi14RWx0NmNEU01NeXhMdTlrVGQ5UUFpRkJWbTlEaVRnYUtLY3RSYm5XbFhuQ0FmOVJWVXI1NzJWcy1UYzY0MmczTmsza3hoaUFzRjlBWFF6QjVlb1RIREc0SDcyZ0t3?oc=5",
+          "publisher": "Jagran"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-1c29044987",
+      "lang": "en",
+      "title": "Stock Market LIVE Updates, Sensex Today: Sensex Jumps 1,000 Points Higher Amid Fresh US Strikes On Iran",
+      "category": "business",
+      "published_at": "2026-11-03T09:16:29+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Stock Market LIVE Updates, Sensex Today: Sensex Jumps 1,000 Points Higher Amid Fresh US Strikes On Iran",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRElBWE9iVW1LYWVhTS1MWXhiUXVOWXlxd0NrTVFqZDFNUGF1YXFSQVlSVnlXZkVMa3BCUWhkOU9fR3I3YnBCbXdBVEpHMzExYWRnNFFEQk9NVlN5QkVjMUdzdkdMNFFOLU93VnhGY2QtR0ZyUHk1N2J4a3NScGhSM05jb2tzU0w1ZlRMaW5ON01xNm9DZmF1dGtXSDFNOFpjNVJjaXMzbTR5SGdpeHM1UXBHaFN1RG82UDRtYm5ycUQyVHdBV05jR3FVbHh0eW_SAdcBQVVfeXFMTWhhUFNMMElBcmJRb2tUZ28yV2hGSlo0b2RBZDBQMGx1cDVNbk1PZnpMN2JyZElYQ1dCc0kyRU1CNVF5SHJ3V3pNYm9PRmZJMXhZR3FjbElma3hiUjV2UHdKb2dSQk96djhwQkFJQS1kR0NTc0dzODBOMFJSOTF6YjUzQUhsOVpHRGJGQUJFbFd6YjB0TjdRN3ZNeUJ2aWJkYTJ3RmdSSlFzUUs0Z3VEMlkwSzc1eGVVYllhbllTcHNMdmZTR3M4X25WTV9jQVZYRmZJNUdlX3c?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "Stock market today: BSE Sensex rises over 1,000 points, Nifty50 crosses 23,700; top 5 reasons for rally",
+          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOTHZOOFZKZXdIUTBNOFVFUXo3U0xyRktmN2NWNWZISk5JcF9FWVA3TFNDcFNHWWVQZGpEQmY3V2ZHYU4xQUc1TTlwaUh1dDFPcEdqTGVBTWpCRFpJRUIzN2hOY1o1bEJaZjI1OU9XODEycWJxY2FMLTFjU1RWMlk3cVN3b2pGekJRTmtFeFR5YkxQNGNFS21Ka0pvenVNRVp0ZGI4VFYyZVZLYzNHQkR4ajlLbllraGVhVkhGTEdvbjZ1WGRScEloM3lWQWotbnFfNkh0LS1qUHhIWXJNS2ZUcFNGYTBKcUtkc1I2ZDR4UEhxWTNkOHlDazFsZGVQMlhFMElqUG84X0toVEdjWTFOMjJ3bWxmaE11bF8zNWJRTEFpc2hjUmxNSkpQWDRjOHRFN3d5d1RR?oc=5",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Stock markets extend rally in early trade; Sensex jumps 615 points",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZE4weFhMaWF1Z2hHeTBCck9RSjdsMnY1NFp4NXpUZ2g3NEV6SkFxWkw3dXdja0xwMFdxXzNtd2NsSzEtRFRoZTBQMGJrcVZ6WE5GNHMyRGtGNmtPZTFtSzNMTkdHaF8wTEtfUEYxTm4tMzdvdnVzenROTld2WnRldnliajRtbjk1MXFUb3VvNDdYZTVnekNfdFlvMV9zU09WdnJlVVhzRVNFaFZpYkwxQTFxdzJZcVhOYWFTNEhYUEh4Vzh4NXfSAcwBQVVfeXFMTlJzb0hNZXY1YzFGM04xMFg0MVppaU1qNmFwWEc4ZndpeE4yRGFPdmZUMnB5S2JEWnVYTkUzdFZLYXRSSW5FQU1nbl9fcUpDQ1BmMkZHSlZVOFV4OWFzNFEzUTMwaGJOZkpHMVVtemFqTl85eXJRdnlua1FSbXZSYTZGMm9JRlJxQ3g3U2ZUQ1lhWFdVM2owUXo5YTh2S05XREVfZG9QckI5c2ppUV9UQXQ2SnVrNWtXWC1Hak5BcE0wUnJpNmdXUUJqeFF2?oc=5",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Sensex gains 900 pts, Nifty near 23,700: Easing crude oil ‌prices among key factors behind market rally",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZHZBQWNmQTdjZTAwS1VFcUFSazdJS2wwYzAxMGdGMkR2TThVeGdBVjZVZHZEblM5OUo2cG1CbmphOGtOUFJRVWxsUXRvMHFuaFUyd1NDb3hDam9xc25CTEhZU2x0UFdCVXBHaGFtQzQza25tSzkwdjNURU03OUNuMVV3MExkdlVCQjJUWWVteWdVMHdGYU9rZThDQkl3dDdNZUpNc0FaOWlKYm5tOTFYVlVleFVVWHU0ZFU0Vl82VGJYMjFzM3Jrd3RONjkwUXdIdGxpNE15QzNMZnVLbEI2TlV2SGI0MFpfNWwxc1ZqNUhJbGJQZVpjT9IB_gFBVV95cUxPQzMwbGlINlFCU2hCb3FaZTFKcDhRUl9qMlZDUktFbmVDaG43X0l0eVZmQUJZb2h6QnA4cXRGdzRwdEJ5cGNOVXI2VXB1QUpFZ0R0ZWJKTk82YUVXVlp5RDVUZnA3UFNIeG9XTlU1UXBVZVVBcnVwTWhSRXhGNW1xMTJCX2YtSUluc0xRMnk3by1PTlRXMzBKLXA0eEVvR241dG9yQm1hamlCRi1UWEo2TXRweUhkNDROSHplT3dhM2p4czlPaGdyb0tUd2RHeGFqQWUzYlMwZDJEMkJRVkJpQ0tHREZXNXNGNlZLQWVjRHZiZERoMmxSRUFxZDJ3Zw?oc=5",
+          "publisher": "Moneycontrol.com"
+        },
+        {
+          "title": "Sensex jumps over 600 points, Nifty gains as crude oil retreat and FII buying lift markets",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdEI2LUNkT29rZmxrYVUzd1FmelNyQ1BXYWJrRGNBamRTY2pWdFpyWU1feEl0VnR5VW5aNDl6azV2WU5uU0NuUnp4RU1ncm1oSkdXSjJpeUZjTG41VUZiMERIdW8tSEpkYW84c0xZUzl6MEZHdHdOOU1Ya3lQUFdMXzkzWGc1MkQxT3VDMS1jX053SnF5RnJmc1QxX1FjSDFMSm1qYkJZRXhaQ1JTZGtEQ2RxYThBUkJKZ1BZRTdUZGNhRlZZZHJhd2ZQY1luMmJMb2h4NGRkaHfSAd4BQVVfeXFMT29uWWU4cFJEVEVJakRQTmlEcUNUcnVJZWx3b3B4UEZDbk9RNkxiY3R1Z1hjS2NSQkpvbnRPeTVQQ2dpbnNSRVBrMzdoMGxqSmNDcUhmSV9ubmJOb0FSLXI5THFteWJJS29JTnNnemtzckxLS1VYMGVjd2I5Y1gxaWoydnpuQTg4eHFRTHhycHVIaExkS1E1TGZRY2lIRGRxaFJOSUQzbFF0WGVOYlRjUmtWRmpUSVY4bTVlNlE5ZE9KWk1PQWdBcERZM2wtM2IwZXhHbVhXNjlrcGRFUS1B?oc=5",
+          "publisher": "Telegraph India"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-26f4d42437",
+      "lang": "hi",
+      "title": "Orry-Sara Ali Khan Fight: 'अमृता सिंह ने मुझे दी गालियां', नर्क बनी जिंदगी, सारा अली खान ने दर्द में छोड़ा साथ, ओरी बोले- बदला लूंगा",
+      "category": "entertainment",
+      "published_at": "2026-11-03T08:30:10+00:00",
+      "summary": "AajTak: Orry – Sara Ali Khan Fight: 'अमृता सिंह ने मुझे दी गालियां', नर्क बनी जिंदगी, सारा अली खान ने दर्द में छोड़ा साथ, ओरी बोले – बदला लूंगा\n\nAmar Ujala: ओरी – सारा अली खान: बचपन से थे दोस्त...सैफ की बेटी से अब क्यों खफा हुए इन्फ्लुएंसर? बताई दोस्ती टूटने की वजह\n\nNewsBytes: ओरी ने सारा अली खान को क्यों किया ब्लॉक? अनबन पर खुलकर की बात\n\nNavbharat Times: 'अमृता सिंह ने मुझे गालियां दीं' ओरी के सारा अली खान से दोस्‍ती टूटने पर दो टूक बोल – वो नकली हैं, बिल्‍कुल फेक",
+      "sources": [
+        {
+          "title": "Orry-Sara Ali Khan Fight: 'अमृता सिंह ने मुझे दी गालियां', नर्क बनी जिंदगी, सारा अली खान ने दर्द में छोड़ा साथ, ओरी बोले- बदला लूंगा",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNY2c4dW9tZ2ZPTGJ6TnExdmZvMlpfSnJYaWNXc1BTQlc2bklrTWtvV0MxbjFMRzhLbGdWdFBSV2R4NE5nQjNfSGhuRTNNS01XR1lnYVV6NE92ek9Sc1JKSElCUzBzSDluQVBpNkpBY1BZQTIxZUNaTDR2RDl0M1g5emdnRl9Qb0FfZ1g3R1JzcHpFbWRsZVo0NmdLa3VsSnF2NE41YUJsTmxvR1RZRkNZUDAzZVR4aDZRYlBvb3FtR2xrdlhGVnlzYUg3NWZRN0p6azJ6SDRPbHVrUDZmdFlsX3d6SGwwU2NKUXl6NlFMQlBGclBwSEJSZWxOOXpnc05QUkpBV0Y2R3R5N004VzdkLXVuNNIBmAJBVV95cUxOUnFJMUVEY2NvLXJjQWJRUTlVLUFyaUttRl9rQlVvRG1kcFpoYldCVDhEdE5LYVZqdlpUSGJZNkFBeXRSa3FxRkVJMXhOVWtoVUhxLVktQnZwMkFtc1pyb1ZRc1JXQldUQTNlaDJpTHZBV1k5cnJROG9yNlYtM09pV0lIakt1WGh0VXB1aDMtR3F0RFBVTVBNWUtGY0hhbnNmcXVnMXhraWFWdzBKZXJkUU50NjJGMjBIYlpjeG5xSC1RakJsMFVhUjBCaFl1MXI2NHRJRUg3dHh1ckdkMmdEMXZyUlg1RVBfTjFRcV80WDJES2ZRemMteFV1b1ktYkVYRFRBR3dtMUJaeUFVcFppb3ZUUnVEd2N4?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "ओरी-सारा अली खान: बचपन से थे दोस्त...सैफ की बेटी से अब क्यों खफा हुए इन्फ्लुएंसर? बताई दोस्ती टूटने की वजह",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZVkwLVpyM25NenJQNjFEa0h2MkhobW8wN0tZQ1hzR0JrdWx3QW53MjRET09pS011dFFDVVFFdnN3UmFqeWk0LVUtWnl0WndHS2xKVWZ2M0MxUlAyMnhFeUFPa0ZMckZOMUZZQ09IOEwyTHZySnl6UlFLS29XTV9HS3dqWTFuWG1zWGdnZmw0ckxTcTFyZ180OU5La3VsY29JV0hHOWpZcy1TdUlnVWVYMWVQMzE2UXhyWGoxNGp5VURlRXJGaG1WRVllQVJ2VmV0QVpqMGRWdDhWc0p3ZVhxOE1YM3l0UllVTEVaTlJySEF6S1HSAfgBQVVfeXFMTnY0dWZmRnIzSTByVzNONmp0VFdVWkhHM011Uzgyd1hzLWRtRXUwN0lpNGNUR0cxelNCSUlfcjJZUnVXNm85ZUJhQjh5M0c1Rjd3Vk1LWEpLUVJrUjMtcTdTWTJNbFJWaVhIYkUyNEVCbkR3V1EycUFYTVlDbFgxTGRzUUMzZWZHRnhBX2Q0aWxhTmZYWlA2T2V6b1pCdHFLNlRwUGNjX2lnMVJOUkk5Zm1WbC1BdE41V2FoY0t5TjRXUGFvWVZGY1BEbnJ0OWNMcjZjd0FSRk9rM014UjFhWkUzNXR6Ry1tSktsVVFyWF81MWJCLXJhRzU?oc=5",
+          "publisher": "Amar Ujala"
+        },
+        {
+          "title": "ओरी ने सारा अली खान को क्यों किया ब्लॉक? अनबन पर खुलकर की बात",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYWlsYW9QZVgtMEs2LUloN29YMnQ5V29WWGhkbEU2bVN4akNtcUhDVjFiSmRBWGlKRTZvQWNGazJ1a1lmX0dhU1p0Z0xKRkNlQTBmZXBWQWlOYVpDYmJkNjUwbFZDeDFQNFloZDFHdDJsam9fZGpjTlZaZnBSSDRZNlBQY2kxZ3dueXhHNEtiRkdOcVhXUWJpY0NuV2J6YnFGeVNJSEVLcEw0YXlVUVEzN0h3?oc=5",
+          "publisher": "NewsBytes"
+        },
+        {
+          "title": "'अमृता सिंह ने मुझे गालियां दीं' ओरी के सारा अली खान से दोस्‍ती टूटने पर दो टूक बोल- वो नकली हैं, बिल्‍कुल फेक",
+          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNYVBzNXFUY3dnTlRRbW0ySWtkdmZBMkFzNGhhTVl6emdXcHFIdkJfbS1LcXBORktRS3M1ekhhd3lObWtXaWVxU3FiNWJrMFZOOFZwZzlJTmZlMTlJb19VUi1raklBdDRNVU5fWDgtV2owTURLWDFZSW9fYzg3V3c0dk5QWlkyTU5jamoxSXczOEo5ZnZKMU04SFlYR1IyTkxlVlF5b1pXb3cwcDVFRDVfVlkwbnM3MG10c1FSOWI1X21hbk5DYm5tUDRocG8yelZIXy1RT1IyMDZrZ0JOZlpaZnE3R1pwVlBhbXFfSW1UTWNKdXVNN1E2RHJ3SUdLLTZlM3NkbWdPUFpoOHRiREVCVmFENGl0bWg3WHRBUFo0OVotNHM?oc=5",
+          "publisher": "Navbharat Times"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-fea1a21cd7",
+      "lang": "en",
+      "title": "Cyclone Murasu LIVE updates: Eye of cyclone crosses Andhra Pradesh coast",
+      "category": "india",
+      "published_at": "2026-11-03T09:14:50+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Cyclone Murasu LIVE updates: Eye of cyclone crosses Andhra Pradesh coast",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWlIzX1Y3dlRpNzdNNHJQU1Zkek41aDFyOVFBem1ScFhGQWx1ZEFreGJNLU1rSmJmcWVaLUtPY0dqWFI3QVc0MEx5Q0RGd2U2bGhjMjhCMUFYNVYwdlQxVmdrSnd4V2RYRlFUSkhhUGJxOWxORlFhVEtFQWtmSV94YTZoYllJOV9oSVM1TkdYYWpITWUwS2QwQlBRTldKSzFoWXpYN29CLWhieGsza3kyamJoSDNLRzFnYUF1UmtERXhFamYyTzRZRXk5WHVmNUFOd1V6UFZZTnNpZVFBNEtkQXBKUEtwYjNUemw4SQ?oc=5",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Cyclone Murasu Crosses Andhra Pradesh Coast: Crops Damaged, Transport Hit",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNOGRpZGlxNVlkN2pPelg4VS1IUExjQk96SlRRb3NEZVV5SC1MNlo3Y1NVX2FlM2ZScmZDbXJna0hLd0puSGhkWGZnV0J1Z1Q1N0hYNnU0Z21DMEJQdGxPTzFWdkpFUlYwaHFXbmlheXVtbnk2N3Q1bmpwdzRvenhoYklYWnZMTmpFMWxwdWVwWHg0T2JLb2JYdGt4THRnUXJDdzM1UXdqVVRlaklhUzZBeGFaSzRRZnBicFAxcWpLUGFQcFRTNWRWaGtteWVGY3AwMVRXSmE4V0ZLVlBBeXhJdkd3aDY4anBBZ0h1eXdibkE2cjVZMW1mdUlsYTVIaWdEUDRqaGZLRXRvRHZQN0lOQmVKY3pLeExHdVg1MEwwSTZYMXdXZVVF0gGvAkFVX3lxTE9YanBBQkFiOGR4UnJaTFpaaWdWVkNnR1JfVGtBMDdFLVNOa00yV3NmVUFMN3c0Qy1hbWZrQXFGWHlHWkdHTEhPNmQ2MkJUU0ZkOUkyT1czWkFhTjNGakdGck9VN0xiRXk4NnFoUjhDaHhsX0JyOTU1VVZGMTMzTkk5WVM3ck15dThVSEVCOWx2M3BSVVk4bndhU1FUZlBjZjkxdy1kbmxIYmhVSXZHanJSNWlPeUVKQWVvMkF4MmszTS1QUm9fR0puWF92akVhUXhfdDFYVWJVYkVKYlVpRTZ5WWF6VVFCbGZsbnNyYjdTQ1U5Vy02cmxILU05aU1GcUQ1OHZjcGZ2M2pJazJfcFZMSzQwSlV5eXVLaXBuZV85R1NvNnNwZEdoMHBtT3plSQ?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "School holiday today (November 3): Are schools open or closed in Chennai? Check Cyclone Murasu updates",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQb3BvTmNlUFJVX2RHdzRsRnprWWRhYnN6MndiX3d0TXdnWFVZNjNYbFVPSE5vT2o3QVVNU3ZHVkJyNjRlZDJTbXZNY1JqSjRrbWJ6Y2RuWGh3a1Z3QWhJZ29VY2xjUlZVRzBiQ1pvVFBINmlOeWxwRDJfNWJuUEtCTEgwdDE1SEpLbTBXZmdmYmotOVBJWEoyNm9BV0tJSUhaUlZ5eUJ5dHViRTRGeEZJWFF0M3lIT0FIN2hjb0hsaE1UaHQwM1hybEVrNHVkb0xnc2U5SVhERlV6NlpaLU1mXzFsNzk4dzl5bUV4a1hGSU1VbFlQVU1idmlQY3FJTG95a0xlbmFB?oc=5",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "The story of Timmy the Tin Can",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbzhTZ1dfQVoxcXAweFNGSV8wSXBJVzJEQ3ZETnFzemVJTVBweTNVMlBEMmNrN0RsWndBLXVaTXFXaEtIVnV6aFhDV0s0Nm5WRmM4MnNCVDNJOUNKWWxjcXc3Rjh2YVJxakxUWGh6em1uNDctM2g0R3NtZHZZNVdRRG4zYTBtZkt5SG0yanA0NGcwZFNXU3N1Sm5qd1RmQjFFZFZqdTh0b1FIb1hsdDNERFJn?oc=5",
+          "publisher": "Rediff"
+        },
+        {
+          "title": "Cyclone Murasu: Andhra CM thanks Karnataka people, CM, for support in cyclone relief work",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU3UycUZQM3pHV2dEU21KY3JZZnZFaE5pbTRuSUZhc040V0dobmFObjJubXM3OUtRWGNGWDBacDZHbFhfRTlYb3EtQjgwY3R1Qml4UmhZOVNkeEx1RFRnSnZ1LVhwTjd6ZUhkZHNxZjluT21TeFl2N2hGZVhtR2Q4dk12VmdWTXIz?oc=5",
+          "publisher": "Deccan Herald"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-dbb13538ed",
+      "lang": "hi",
+      "title": "Diwali Sale में सस्ते हुए Realme के ये फोन, ₹12,999 से शुरू कीमत, दो फोन के साथ FREE मिल रहे Earbuds भी",
+      "category": "technology",
+      "published_at": "2026-11-03T08:20:00+00:00",
+      "summary": "Hindustan: Diwali Sale में सस्ते हुए Realme के ये फोन, ₹12,999 से शुरू कीमत, दो फोन के साथ FREE मिल रहे Earbuds भी\n\nAajTak: ₹14 हजार की रेंज में 7000mAh बैटरी और 144Hz डिस्प्ले, मिल रहे धांसू फीचर्स!\n\nAmar Ujala: दिवाली 2026: सैमसंग, शाओमी और मोटोरोला के प्रीमियम स्मार्टफोन्स पर ऑफर्स की बरसात, अभी चेक करें ऑफर्स\n\nPrabhat Khabar: ₹10 हजार में Lava Virat V1: 5000mAh बैटरी, 90Hz डिस्प्ले!\n\nJagran: 7,200mAh बैटरी और 120Hz डिस्प्ले वाले फोन पर बड़ा डिस्काउंट, MediaTek का प्रोसेसर और 50MP कैमरा भी",
+      "sources": [
+        {
+          "title": "Diwali Sale में सस्ते हुए Realme के ये फोन, ₹12,999 से शुरू कीमत, दो फोन के साथ FREE मिल रहे Earbuds भी",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQa1hjYml3ZHFLbF8zZHg4Wmxlc3dPWEhORW9YNHpQZVVtbTRLQlBpZ24xWUoyeS0yUTh5ZVcyUEJuOWwxSjlUMnpodnluSUZmNml2Z0ZDQ1AxQkRNWkpGZ2pSQ0ZWYXJ6RGxGRVpuNVBGQ1o3MmVkRFlNcExtcHVpUGw2OG5OUi1iNF9vSTI0ZlhoUE1KOXptdV9NalVWYmhsZ2pHbU5zd2JCUFRlVXo3ZV9yTWJoVFBSZXdkUnBmWFNNcWRxMlo1bE9VVGFVVHM5OHZaVGIwWGFSdzg5WWdkQml5bkVSeVZkMjNtU2VUNVRiLTlELXFwWkg1bExIbGdfQ3FyVEk3RnVfSXJOSzFud1F5dTg?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "₹14 हजार की रेंज में 7000mAh बैटरी और 144Hz डिस्प्ले, मिल रहे धांसू फीचर्स!",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWVB2cm9nUEhxQV9Fb2p6X1ZFNzVGYi1mWDVObWJZLUNyV3UwbWNWVF9jZlRyQVlVYmt6VWExRGNPMFBtM1JEd3lEaXhUNjc1UEkzS1FHcHVpajA4a19ac1pYc2RrSDVDT1ZFc1Y3OW44NXBTWmpZU1NCdTZGTG44UnZPSVlKOXoyQjFvNzY0QkMwTFg0aUVlS3BaUWgxN3J2Wks4d1p2MDFNbUFxanhwZV9MU3p1d2ZsWV9CZm1ZN1BGVmdBeC1GQkVlUVVIZUJSbTZz0gHYAUFVX3lxTFBfUXlZQmFrOVZGQUNYZ1liUTR0SUczTVo0UzFXYkticEdUV2dLYVNXb3BrTl9kc21ZVEt3OWd2N0Jmcm1IbHJxbVlRbmpqU3NWazJDUUlCYURIVnVrS0puUnBXck9XODVOMDV3elBERV9FRmtVaU16WG9FUXh6MUhqZS15dnR4YW4tZnpTMGdYM25Venp2VUl5cjVQLVJaZGZIdW5tS0ZJLWk3dVN6ZWdDNlpLUjVZUlVPSURYR3lKZ0loQzNfVmQ4RTRRMEhtMUZNXzgxS2ZMMA?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "दिवाली 2026: सैमसंग, शाओमी और मोटोरोला के प्रीमियम स्मार्टफोन्स पर ऑफर्स की बरसात, अभी चेक करें ऑफर्स",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRVZuUEt1U0MzdGJXME0wSGNvWmNQeWdjdVR3Y196TlBCYzAwOWk0bS1NZGFaajJFT3ZHVlg5SXY2WkNqeHJiZFpRaVhtS3VnQlNveWFkWnVwanNjVmlhVTZCMlhMVTZ3eXlEY2tLYm9JTnpXMTBKSjFGRTVJT2NUMHZBWUpUb1YzNF91UW95ZWNPWnlBVC1IclJPOWxWYmN3dm1vVVoteTRYY1ZhYTljLVhyaW9UdHJ1RGxkdWw2MjhvczIzcjZJdHpWaUVNcUQ2Wmp0WmpQY3hXWktk?oc=5",
+          "publisher": "Amar Ujala"
+        },
+        {
+          "title": "₹10 हजार में Lava Virat V1: 5000mAh बैटरी, 90Hz डिस्प्ले!",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOE1BSnJ0VEFvUENQSy1CcFM3b045cFREd21meDRMbkFGRnlLNFpQZVVFSzUtSE1aZE1SbEhtUm5ScEJ1b1Z6bG80ZENlU0wzaF9LZ0Zyd21qaEVEMlB2bkd5WmNKRVYtNDZEM24xU3gzVHZneVJLNkUxbTNVaU4tS0tEdEJHUFdVaXQtTTc2bGd6aWVYaGh6eGlCcVpTSTE0YktNcFpOOUY0aEhoYjhKTVl0RmJLUkVXem1mUHlDbDFHSHpPS1pj?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "7,200mAh बैटरी और 120Hz डिस्प्ले वाले फोन पर बड़ा डिस्काउंट, MediaTek का प्रोसेसर और 50MP कैमरा भी",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV0JUMlNZQW1lWkFMNEdtSXh1U1REbkFTQzM1d0dOa1A0WUFhMVQ5alFCckhqczN0TXAzTWx0M2FuOG81cmxxZzQ0MWFzOVhSckoxRFVESjEwMDJSbzlKUFZTN0o4TktMQTF4V085Nmp4RFFNR3hIajlRdERYaGNua0thWTVqRWJtUUFfajRCZVRscG5xdWdsZjJ3UWktM0pJbGp6eXFDOFhyODVpYW9qblFzdlpnVU5CclI5UGZ2T2FZWUhRaGFrMTdfVk85Z2c?oc=5",
+          "publisher": "Jagran"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-e5e1d45867",
+      "lang": "hi",
+      "title": "सुप्रीम कोर्ट बोला-प्रदर्शन स्थल किसी एक संगठन के लिए नहीं: दूसरे लोगों को भी धरना देने का अधिकार, समय सीमा...",
+      "category": "india",
+      "published_at": "2026-11-03T08:02:29+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "सुप्रीम कोर्ट बोला-प्रदर्शन स्थल किसी एक संगठन के लिए नहीं: दूसरे लोगों को भी धरना देने का अधिकार, समय सीमा...",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUGUtY3Vjd0U3MTZPaWJqVDJMTDBaNV9WSE5vekRIQkVRVmZmc0tuVmJnQzZJb2Q3WkY3MG5nQXh2Vm5rTlpqLVZQdG1KbE4xRVM3US1LV3JjTVgyRnJqTmZOaURTdnhIb19nQTBrZ0hDZEZJUXFLQVVwRThVOVV6SzlReWFfd2JDc2M0d0JHVGlEV3RlOVY5ZU91WDdpSHlLVDNRTl9LVHNfVnBMdlNmelBBRVNvSW5yVzlr0gHAAUFVX3lxTE9NdzlMUWotX1RqXzV0eC1qcUdXRWVCMExiOHFHdVAtNFBlU0QzX0RoZnRlQVA1MWMtYWhSajAwYTktbU9LYWtncFNETHJHRjFrZFVWQXFCUVQwM0lzdEJfa1JacXhYbUJBVkowN2sydkZXem5hVEVaOU5ZclYxVXBxUjZ3UzIyWS1OaFBDdWt0SGlmdmdkdUpzdnFkR001NkFLcFpadVk4WXB2dTdJbXNRYXhQUVNSNjRSLTlvSlpKbg?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "'विरोध स्थल पर कब्जा नहीं कर सकते', जंतर-मंतर पर सुनवाई में बोले CJI सूर्यकांत",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZDQ0N1d2RUhmM184WlJ3SVUtN0kxUUc1MDg2S2I4S19YUlh0LVE3ejdwYWxYQnZ0dzhEcjBRb180X2x5eE9uc2ppYzNUcW1NQUdOb21qb2dJeDNwb3VEV3dGdUNLMG11OTk1VWpkY2c4US1HRHJvcGJVWlFJd3BkTTVtclFqaTJXVE03akpYM0VZdmJhQ0JpTGpZX1FLVGJhM2o3MDhaVEtRNXRRaXBqSGx3RjVobllUQ3IxaVQ0Qm1VeXJ0ME5FZjdPUnpUSkNuSFhhX29lbEI5UGlWZFQtZnc5NktuWVBE0gHuAUFVX3lxTE5DV0c0U0RISmpXeXQ1c1h3SDVFOTJaMlFiVjZBWnpaTjFjY2lwdE1iYWFDRmtYUC1aTUNBS2dORTd1aGgzcTNHS2ROQkZlYUVSNWhrSjRIX0FYT2VjWVdyMThjQkY2VldfUTE4VFpuUXNRd0pQNHVLZ1JkUTNTVjU3MXVfUkY2UkN4dlRwNkNxUE0tZ1NyVUR5UUVfcGZiUHBzb0phVDhSRUdqcVl4eEkyVjBDa29zS2JnZmZSWWJCd2llUXgxWkNVelVaTUVDT2hrR2c2MkFHd3R6ZmExWjJROVJVTGFqZFI1QjgtR1E?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "'प्रदर्शन के नाम पर किसी जगह पर कब्जा नहीं किया जा सकता', सुप्रीम कोर्ट की टिप्पणी, केंद्र को नोटिस",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQQURlNmxYbDJPU0d3NG93WHpDbmFWNk5qVmVkSl9mNmVJNnlFcDZmLUpOZXJrUlVtYTdGdENHbU9jbFg1TDhySzB1Uk9kZlNkdDk4NUExcUZDeGVjVjlNdm9ubFF3M0trTEdGdVRUWDJ6bGZQTDJCald0cnhOY0dZOS1NTjlhUUdGSkdKWk1DUHk1RjdmbHdRM0drTHNrX3kySmxrWFBuaTlwSmpzNVlWZVRsZGNzMDMzbl9EVTV3M0szbXNHZXBoR2M1VS1faGVIVkFOak1TSFFMRy1uUWlWSUU5dFFCLTF2ajBOcGlhc3BIczU5cVpoZUJIZEI5NVJvczNxTkxOSTdkSWxDQndPRHpwZmkyTkxK?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "'आप किसी जगह पर अनिश्चितकाल के लिए कब्जा नहीं कर सकते', प्रदर्शनकारियों को लेकर सुप्रीम कोर्ट की अहम टिप्पणी",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSlJkRmJ6bE90RHZEVXV4dE94bDRNWmVTV0lZeEhTcWQ3SWU3VmN2bm1nTWNtMWFudjNwdTRtNmlNSzRUZGNURkNMUTFYdUxnNlQyWG5LVVU3Rk5jbnIteEFhZlZ2dFU2d09iWDhpbUl4Y1ZLa3FaQmZkUV8xYUNRTzZiTHhudGlua3pud1llYVJicWxFekxlWHBZNG9zd04tOXRtRHRnbUlveW91eXJRQnFLdzA?oc=5",
+          "publisher": "Jansatta"
+        },
+        {
+          "title": "हमेशा के लिए आप प्रदर्शन स्थल कब्जा नहीं सकते, कहां जाएंगे किसान-मजदूर और ट्रेड यूनियन्स? CJI की दो टूक",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVU05Sm1mVl92b1NWNkN5SV9DY3pyWE9oU1FSMjd5SHZLWHZpd0JKdXNTeUE3UXRmRm9RSUs2YjZnX3Nxb01xdVZjQzFrTXhKdW13XzhsZXhUWXYxbEowYTVUMkpmWjhDSEpTMXdpRGQyOWgzS3NPUEtnMng5YWVnTUlPUFRRTEJURVhvQ19hMnB5RjhtTGNsUUVINUQyWkZsOTVJUmZCSTZpUkZqOEdES2RoWE9ONGtXRGowZmw0NlZGYVhUSXltTDhyWFFmZHBEQS1GX3pIMERFcDkyUG1laExfQTZhNndWY0J3?oc=5",
+          "publisher": "Hindustan"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-4e049b76c2",
+      "lang": "en",
+      "title": "India News Live Updates, 3 November 2026: PM Modi inaugurates Pune Metro’s 23-km Pink Line built at Rs 8,300 crore",
+      "category": "india",
+      "published_at": "2026-11-03T08:55:01+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "India News Live Updates, 3 November 2026: PM Modi inaugurates Pune Metro’s 23-km Pink Line built at Rs 8,300 crore",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbDBuY1VCd3hkeUxHVkFTWGRXX016LU5va01sdFNOSmNzU0RhSVltYi00WUE5MFJXVlVFMUxDNlZ6VURpcV9heFZWcUcyTHNPWUR5VDVMN1ZXZW0zcS1DeDJpVFNmZWZnbVhYXzhHMmZzNk5jeFpsemxHUFM2M3B1RzFkcmJiU25HUFl5a3p6eEZiUDZNTTk1VXJkdGtiSVlac3drTzVKME5Tc1VVdGgtc2NkeUVaSkQxRFVXSDJPY0ZWclpETUxXX3V0ZTBNTnQ3NjhwOTBaN2g5OXdCSVNrRlZsVDJzdlZsU0HSAfABQVVfeXFMTkhPZWpqRGs2eDg2M3Fwakx1OXRUODE0Qm9FaUs4VWl4b01RZUlaSEo0U0swYUJWb2F1aDRhcFYyaGFSMTd2SjRMZmtab2NYWW93WXNnRzQ3YkdMM0FnZXNubVVZcWNEMVg5aGxkYlpEbUVsMFNqNXlLX255WWt4NWRiMGNWbzdUVGpsOFdaYm9vNmdSWWFpRWN2TGdvZmw2WnJDTmRJSUdMWU9DbDZYNWdNVC11Q0UwNGQzejc1M21CN1dkX0p5ZGJ6dTJJLWVHZ0kwTHMtdHBnMGgydFhNSDdnWnJkb0ROc194bFpwdGJL?oc=5",
+          "publisher": "The Indian Express"
+        },
+        {
+          "title": "PM Modi inaugurates and lays foundation stone Pune Metro projects worth Rs 21,800 crore",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNnpBSzR6ZGN3Znoya2lhS0htZ0hCYnR0UUU0ckpaWF9NX09QYTFiV2tGd0pzSmxCWkRPTjBlV1VCV2luZERJMmd6NUlVYnRiVTJHaUR1MlV0UW9SNzNINEtfQ2o5QVc2YWgwX0xzTHVpSmFESU1VQTJBaTNmdWtBYXY0NFZmYVhudkFBWFBub0p5ZDI5SFBoNTlDeElPVldzanppb244Mm8wNWVQT3I1bHpKZ1JHSW8?oc=5",
+          "publisher": "News On AIR"
+        },
+        {
+          "title": "Watch A better-connected Pune is a faster-growing Pune! New Metro projects will boost the city's growth and improve Ease of Living. live on X. Join the conversation and get real-time updates.",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jWjJYNVE4aGNPOVZYWXlqOThMSlR2Y0t2TWdWMUtUbWc4ZURVRW5fYjg2Vk53ckRCVXBlU2JLVG5zbFVwM193MXYzU1BWb3pmOWlv?oc=5",
+          "publisher": "X"
+        },
+        {
+          "title": "PM Modi Inaugurates Pune Metro's Pink Line, Launches Rs 21,800 Crore Projects",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMW0zRXFMTVpmRjF4YWJvb0pXUV9aSHdlWjR1cFl6LTRtTXM3bTdvU3lvUC1Sc1FDZ2NPTDF3WTZHWndaOW5ISXJiRTNOVjZFYm5EMGV5UlBEU2NzZnBESDE3WTV6czZpTFVhY3plb1R0cy1KRWk1b2YybUNXMkNqQ0ZQNnFxZTF1Z19ncGlxNUN2WXRUT0huU08yS1YzT1E5SmN5aEgyLWpXVDdCbmNPRHE5bm5lU21mNEVta3pPbTVleHPSAcsBQVVfeXFMTWtiaVZBMHlNX1BIRHF3ekFWcUtGa2RyWnpmVklfLUxLeU1zMFNkMTdyQWN6SU93bUpYLXhRYmxNQjBCb3ZJS1E1TENKS0pVMW1OdDFCa2lZRERWS2NVQUhjV2V0anY5elEyM2lkQnlRdkRKQjJNdWlCTmNQRXVNVmFfLV9pRU95NDk2ekY5dHQ0UDFNck5LX0x3aTJaVE5fOExMZGljVFpzYi1pbTdzZXZ5eVBxUzdJb1VSZ2xlSjVLVy04ZUFselJNczQ?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "PM to Inaugurate and Lay Foundation Stone of Pune Metro Projects Worth Around ₹21,800 Crore on 3rd November",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNcFBnNTl6a0d5VFlaZjBTbmpvcXRnSkItN2RiSXlCVGJ1dTI1MnlKQkI4ek9MdXFWWmx1WldDcjA5Qi1UWmNVeUUzeXFOWmtGb3V2a1hZQkhzYlNDbWM1ejBRbVpQTnpSZGFtc180U29SaFZWMFMwSlp3aWRrUjFfbkp0VGVkYVU2Z0xsRjdvMERtN0JjbG1aMHR6SjBrdzhVY1kzSldiRG0yaXdFampXc1dfeGQyLVd3NVRiNV9oMUhVZkhTTmZJMmhQdG8yVHJhYkZoNDl3OXR4TVdWc2lpMHVjcExBMmFLcDVsWDZacDFjQzFNYVJQN3VtRW5aejRpVW9IMmJUUWdwM2t5Rl90dVFOWEU?oc=5",
+          "publisher": "NarendraModi.in"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-4c019f11a3",
+      "lang": "hi",
+      "title": "Kavya Maran Wedding: बंटने लगे कार्ड, हाई-प्रोफाइल शादी... 25000 करोड़ रुपये की मालकिन हैं दुल्हन... विदेश में शादी!",
+      "category": "entertainment",
+      "published_at": "2026-11-03T08:01:15+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Kavya Maran Wedding: बंटने लगे कार्ड, हाई-प्रोफाइल शादी... 25000 करोड़ रुपये की मालकिन हैं दुल्हन... विदेश में शादी!",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOY1ZYbGNtbEFIVWJBSExzcHRNMTVZcUVHa3JaRFhKMW0zaENaMXFKRUVSbmY0U0VXRmlMWFVzQzdmbl80aHZZUzdNT3QxcUJ3WDJjeGVFV1dyTkJWX19EZmJwOE5pYnBQbUMtZUFEQ18tSXFOV21VaUhUZl9FM1R2Z2VtQ3hXenUwRHkyRVdDQWpqYlVYOElaZ2w3czVua3BYV2FoTS1oNGViUXFKeTc5ZkFpbC0yY3pYdGV3ZHJDdnoxbTRweVhNVjNLQjlxT2pNSnRaTFBnU1FRV0Uz0gHiAUFVX3lxTE1wRGMxdjlDSTdySEJicjBwak5tUWhBU2hmWFNETDZJV0I2UGZiSXNBTGUtcmNCNTZmMXU0LUdIcG45dThIUkwxOXJXdktYRjdWUmtBbzdiSnQ0UmNfWnRmR1VjUE8yMmIzYXk2SzFmdU96N3RQV3ZTNHNCTHJVTGlFTm5Vd0kwZTZqSVg5T1AzQTU1c1Nqb3ZtUDdNZEp5SkJXSFg4Z1pIbU5PQVBFQ2J2c1EyTU9QU1Y1ekdTX19vNU5JOE5rTEtkaW4xZjlOcjEzSWNBZTZnX0FiRUV3S0hUTmc?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "अनिरुद्ध रविचंदर: इवेंट में काव्या मारन का नाम चिल्लाते नजर आए फैंस, शर्म से लाल हुए कंपोजर, वीडियो वायरल",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM1hzS0dObmJZN2pRSEFCOGJsWk5yV3lUcmV3dnlJbWlvcWt6R3IxckFFODY3R25VQThDMmRTblNITDFVOHpBZFZzU2VmaVVMNE9nQi1yNjk5enR4cklmQktiVUVjYTU2NElHZ05mNmNaWDRlbmpJd3ppR1NLdzdnZ3VXRkdwTnh5bEdhaDJHT2hSbTZXRG1SVGNZbU42eWZWNGxuSGo5N3Zjel9IWmJyZ1gtSUlEcHVWRHBscVU4SkJBVHFk0gHKAUFVX3lxTE1hZDBVRk00ejUzLWJTbzE1TVlyUk5oejhiTWNQMndSaVpWNG1objBGenIyWjIyaEJ4TmVleDY4allZWmN1aDA1VXUxU0VuZ01ESkNwazR0d1l0S2NzblVGZldDREk3TlZhNWFhaWhqWFMybWdqYzYxeXoybUFIWFl6SEFZcm43cnAxNGlleUVLTXN0QWNJeVlBdjVuRTJFMzdidUxjSlZqblRycFF1bUloejRaSXFoTWlpdzRqQnBNQ0J4NHJ5THNFSEE?oc=5",
+          "publisher": "Amar Ujala"
+        },
+        {
+          "title": "अनिरुद्ध-काव्या की शादी में रॉयल ठाठ! 3 महीने में तैयार हुआ विंटेज वेडिंग इनविटेशन बॉक्स, कपल की मांओं ने किया पसंद",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQaG1TNnhrSUZHV25DMnQxVnNXd05iRGlFOVRWZmZJdDVPOTVjZzlmckdhZ1ZlZ1U3czVaSjR4QkFsQ1RUQ1pDMW05S3h3WGdZUm9wZFZwaHpXb3FDb19HNXBVMkIyamxiX1d5a3FzVjdFVTJlX1hwSUhseTBCZXFObkpnQjl5WHNiLW5jT3k1NTRrOUpsbWNfcF92ZmJRZEduMEZERm8xczQ3UEd4bVVXRTJPdE52Vi1ubWdmQzVTbHhvNHFwS0ViLUFoUWdHMUE5WDREM1FOOC1GNDZNdXZZQ0Fzc3V6d3g3OE1lc3ZPUnRseGdUWTIyMFU5RGs3LVpUd1JBb3o1NndOX2NnRUxRTdIBlgJBVV95cUxPcXFTYnVmeUF2S0hjQXRRcmF2MnFUQjNCZ053WFRPbU43RS1LNHkwck5HTmhhZzVPb0RteTBxbkdiUVZFRUxpQ2txMVUyTVp1UEtaRHdnamw2UjBoQXU0NE1ONTlLWVo0VVJjWmg2Y0F3VC1PRWc0R0lIYVJFNDB4c1FVMUM4YU83SDRWNGcxaFBIZEcwLVo2OWhEZVhfZDFPYm9jZkNlNnRkZzViOV9sZnNxNHpkQmYtOGpjWFBWTjVLQnZmRl9QWVBkTlpQa1pzeERKTzFCc1NUeFBjVUtaaURUMFlCdzgyRlNzbjVKYWE0ejM4ZmtkYVUxbHpvMTNtNkRNX2hPZzJKSGItYTdkTFlyZEF4UQ?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "Anirudh Ravichander ने Kavya Maran के लिए ‘Kalyana Vayasu’ Song गाया , Video हुआ Viral",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcU01eU1ldmRxTTFrRlRkTU1PbllmNGJjbUJKanotUHNJUUFxSDRNYTIxb1FxOHJsR3VlZnB1bm9IdEFWR3J2V3pnUGpHc2RTTjlUZzRRM0hnSHg4OFEwaHBMUlVVWTh0eW9oYUpRU05QU29XWmFmREhEODU4ZjlXZ3RYY2tEd3A3TUFWaDYwaU4xVGV1?oc=5",
+          "publisher": "cinematalk.in"
+        },
+        {
+          "title": "काव्या और अनिरुद्ध की होगी ग्रैंड वेडिंग, चेन्नई रिसेप्शन में शामिल होंगे VVIP गेस्ट, शाही कार्ड हो रहा वायरल",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQb2ZlbVgtcGJyM3NVNldBOGJiNUVobmR6MzBKS1huRUJ0Rng4V2lNUGNMVm8tSkFhY2ZLM1FWRmtwOXpoc0s2ZlFkMU9aZjVTYjlQMWczRjdpQW83dFEzekd3Z3BERGRYOHF1OGJCNUh6LVFQYXZhSm1UWVBwd09QSTM0NkUxMXBXQ2gyZjFITzhBR2FPbUxGeGI3b0RCcEFLLUxRRWVHelZOR2RoQWJweUYzUXBDTUFvWTZ0OUlpTUVxdi1YOHRiMkxLUjlGNU44d0FaTURlVHVsN1ZYQmktVHh2RV9QOFYxN0VVZW1famVWU0F3bWw0RF9UbjNHQQ?oc=5",
+          "publisher": "News18 Hindi"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-efa8929cee",
+      "lang": "en",
+      "title": "Tenerife striker Jesus de Miguel's condition 'worsens' after serious injury during match",
+      "category": "trending",
+      "published_at": "2026-11-03T08:50:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Tenerife striker Jesus de Miguel's condition 'worsens' after serious injury during match",
+          "url": "https://www.bbc.com/sport/football/articles/ck62yvz046pjo",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Tenerife provide injury update on Jesús de Miguel 🏥",
+          "url": "https://sports.yahoo.com/articles/tenerife-injury-jes-miguel-071100196.html",
+          "publisher": "Yahoo Sports"
+        },
+        {
+          "title": "CD Tenerife player Jesús de Miguel (30) dies after foul by goalkeeper",
+          "url": "https://www.goal.com/en-in/news/cd-tenerife-player-jesus-de-miguel-30-dies-after-foul-by-goalkeeper/blt2dbbb366259eaded",
+          "publisher": "Goal.com"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-83756f5b4e",
+      "lang": "hi",
+      "title": "फ्लोरिडा विमान हादसा: हादसे से ठीक पहले क्रू मेंबर एयर ट्रैफ़िक कंट्रोल से लगा रहे थे ये गुहार",
+      "category": "world",
+      "published_at": "2026-11-03T07:30:37+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "फ्लोरिडा विमान हादसा: हादसे से ठीक पहले क्रू मेंबर एयर ट्रैफ़िक कंट्रोल से लगा रहे थे ये गुहार",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kQ2FQMS1NdFJBcDhsTmtyQ2dvUVRIZ0dKSmc5LVoxMDYzeVV0YXYxeGRyaUxTSVFkbU1na2Y1VF9QRU1GY0lrd0t6cmFUQ1dLdkR6NlEyNDJJNXdr0gFiQVVfeXFMUG5PXzZHS0N1STRIVE9wQVc4Q18zOFJxX1k0REpZT0p6T2ZMYnUySjR3ZGdmb3h6a2VrY3hjSTJyWkVZXzI0OVRzZ3B6UWNVb2NCSGJ6WW1vYXFiQ0R1Mi1mRXc?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "'टर्बुलेंस है, बर्फ जम रही', क्रैश से पहले कॉकपिट में चीख-पुकार, पायलट ने बॉयफ्रेंड को भेजा था आखिरी मैसेज",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZFJ1RG5DbWlMeGtKMUhtVTdfVzRkZHZ6MUFEWUk0UDdlRWRDbFB1X0lmc1FuZi1OWm14TDM3ZDh0QU5wdHlxdC12cjlBYWtqcGF4X1A4YWxPendpM1dOb21WQTRYV0dfTEoxbFNKdG9GdTNyU2JCT2U5VzJUR1Q2UzNXbDNQY1B6UF9LVjRLZ3ZKc2JDVE9Ka2d1N0JhUlh1YjZXVG1ENUJjNTlYcUx5ZlVVdUFTbmZiUHNadF9tVTFwSDFtZlBGc2I5UUdGWTVzQkk1WUluYlJld9IB3wFBVV95cUxPU2c4YjkwYUdFSjQtTGZWUWYwb0lUYXlSUlAtb29rVlpYX1JKSkhSQTBENkVKMlE1VVpQMzlOc0tfbzRfdVBEa0pIWlkzNy1pV20xZXZQYmJUaTllZTRKY0Exd3VRNmxLVjZPZVNZNERpVEJNVHFWSmNtSms0M0pkdFpmY1JXUW5zQmFGN2s1NElDYkRMNnF5djl6ak1KakhhNEhQcndWTXNwcXRYanlNd09yV2lsY2cyekpxUWVqYnhSQmk4VHNpZ2NwVUYtTXh6OTlZbzFBQlRxT1ZxbzBV?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "अमेरिका में प्लेन क्रैश, 9 की मौत: पायलट बोला- तेजी से नीचे गिर रहे, जमीन से टकराने वाले हैं, वक्त नहीं बचा...",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONE1JR1R1Q0otclhKajNIWGhEMldTN09DNW1kaXhseUpfa0dZblo2TlBRVGl4UDdsYlFMMkZuQjEybUVpTkJUZGZKTUlHelJJOTNVZzI5NUFCdDRiMzY1SHhkN0ZjUVQwOWRNXzhiSjlfV0hvVUFBZm1VWTVhdzZST01MVHlRYmt3UEd3WUtyTFRyVW1VYVFfVkptU19NN1NaeThHNVVETUZocUt5RUIxUnctSFV5Qmx1VDR5WNIBwgFBVV95cUxOdVZkRmpqQ1RHbDl5alFWSDI3VjVsbjhXMjJSUDQ1MUVxRXZqeWYwWERPM1ZlbENBR0FXRzZhVnlydHc0dkh5Rnd0SE01OUhWM0NjVHU1NEhGZ3UwdlZ3RXBDU3RtakVpb1FhR2xFcmF5QzRVRFFmQ2hHV3VDNTBVMG8ybHlpWWhoMVZVc09Xc2VRR1FVX0pDMF9zQ2g1T256cnE1RjdOYnEzWmVwSEJvUWpGUU9TNmFPMWVPWGl1T1NBdw?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "VIDEO: फ्लोरिडा में आसमान से गिरा प्राइवेट जेट, सड़क पर टकराते ही बना आग का गोला; पायलट समेत सभी 9 लोगों की",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTG9RbGhRUEg0MGdHaHBPbmlZeEpLR04xcEZ0Zlk4T2N0NHlzXzJVbFQ0U3ViUEFsYXJyM2x2eTlGR3hPNUpRV05WRUpHbFpobVloMGI3OWlfT0VQMjFYU2NXa093b3RBZ1ExQ0pjeGRIVUhTMmhST3NCVW5YRW9nVk5jRHZ1N0l6eEtrSGpzdEloMUZpZFdFd3p0bW1KdnFibi1MSGloWW8xeUMwU1Zhb2c2aXpWQnNZMnRwWXFQTUNDU3pxd3gwVjRHUkZBMHNuV25sLWg3bEZHRWFBeWxvcDBCbmtiaVMz?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "फ्लोरिडा हादसा पैकेज:::मिसाइल की तरह जमीन से टकराया जेट, International Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdHcwZTVubWJ0NGFNZ2pwRFlXQ0cwd3BFNGhZQVZESDR3QWxtVFg4Yk4wTS13NTd2MVBRTmwxRkJDbGNXTWFKODFYQnVqeFBka1hUSVRETnFLMmM5d1lUaVc3LUxvdWNCdVluRUdnY21TYXJPZVM2dlVwSW5ZQXZhcUxDM0ZqQU4tNEpFY296UktCZVVNXzhrSlpiaGNoSXVKVzBKSFNNTGtERF8xdDI4TXNaTXQtSEhNMVJtYWZyQ2VaQTZmd3BEdXh3?oc=5",
+          "publisher": "Hindustan"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-d00efa8b9a",
+      "lang": "hi",
+      "title": "भारतीय क्रिकेटर ने 14 गेंदों में मचाई तबाही, पाकिस्तान से छिना फिफ्टी का वर्ल्ड रिकॉर्ड",
+      "category": "sports",
+      "published_at": "2026-11-03T07:27:51+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "भारतीय क्रिकेटर ने 14 गेंदों में मचाई तबाही, पाकिस्तान से छिना फिफ्टी का वर्ल्ड रिकॉर्ड",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQczZQRjk0Q3Nsd2RDUDhmTVBBNzlvemMtTXpsUFhwRG5ndFp2QlFUd0dsMUJoR3NNaERGUXBsR3lWNWptdUF1UDF6MXc4LWRTSTFLWHlLLS1aR2dVWmNRYzZubWRjRTZ5ZTdJUkVjZi1jdDVvNUJXOEJlcm9YbElHRWpDaFpYRXZ1TlI5UTBjM3NVNThwU0thRkVCbmJpQWlZdXRPSG16Unp5NzJlM3N1aHBSQTNYUlNGa1BvTnRjY19xYWJINElsd0U5dExSVk5YU0HSAdcBQVVfeXFMTlpSVk5jR1dhQjlYQkZZYVoxcVFMSnNCb2RwelZqZzlmV3Babm1RVFVUR0Zpa2lyNTFPWUdvSGZxRG9nQ2QwTkp6T2RXaHYwMk1pdVh4dDRwUDdwMURtcnVBQXZBSlYzVEdyLU9hX1lGOVpRcnNoTnN5X1E5VllMQnBMd3pVMThCOEFaYXd4SDB4YTJna0xkRVFIeHg3eGlFS2loVUFUNFkxbUF6dF9kcTFtY0ZjN1RDOGdwcGtrTFUtWXFOUW0zMHk5eURicFJUZUhaSVJGX1U?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "प्रेमा रावत ने तोड़ा पाकिस्तानी खिलाड़ी का वर्ल्ड रिकॉर्ड, 14 गेंदों में फिफ्टी जड़कर रचा इतिहास",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU0lVTkJhMVhuZER4cmZYT2JyOXc0YjlRSHBob0w0dm0yeTRmRlJodVRsejlZbWNPQ2lGOGNIR2Jva2l4c0I1OUVIOWZaOGl0VE85OXcyQV91MjZ5S1NpTjlQLTIyVlNGWVFYNkhVWHNrMUJWaFdUel9lVjRPS0hIbFptWVVtcW1xZGY0enZTZU1qY3hyWHh6SFhfQUVCQWhWLUlaR2FWa210cWRkeXVlSElEdFR2WkNOQ09tQm1OTDkzTXEydXlQOU11MHhvM1JhcmVXTktpMTdLd0ZBeFE?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "14 बॉल में 50, सबसे तेज अर्धशतक का वर्ल्ड रिकॉर्ड, प्रेमा रावत ने रचा इतिहास",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS2Q2TC1LLUNBU1VlOGtvQ2NxVk5LSDU4RFBveUtNcWpSam1Sd3dLdTZUU1NheXpYRUROV21VUTB3WGF2R0MxTGVLN0VmNzlCWkl4OVp6SUtMblp6OGI5aVBRbkVKb1NTQUU0b0xBLUZPVWFGRW5nZFgwdUtWTXNDV2tkWlU2aGE4Uy1oWlZuS3Axa18yZHRYTjRPQXJQdk9VNEpyWFRiYkR1alV5R3NJelRHc3dpR2toUV9FaTBlRXZjRDFyOGkxTXdsdUlOQjhaZl9EeXVxeURTcHJiYXNvUnhyR21HQQ?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "भारतीय क्रिकेटर ने पाकिस्तानी बल्लेबाज से छीना वर्ल्ड रिकॉर्ड, महज 14 गेंदों में ठोक दी फिफ्टी, Cricket Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOb3ZIcVdJUVgxVHRDUk9IZjQzTjNnc1lhc2JmTEh2djVwSFlzakFMZTAzcGI2RmQ1UFJnWlhSZHlsQVp1VG85dlJaLVVNUXE0YkJFdzNVS2JSdGIxQzU1THZQREVjOHZrOTExWWxPWk5yVjRIQmxROW1VTDhXYS1abDVZMGMyTFVkZi1xWjFEbzRVM3poRS1kczdBQ1ZLSjdkTGRTZjd5ekNsUDREMVpxWkhNbnM1NmZqNV80OVkyTXBFWjFEQ3dHbkxsaTdOa2c3bjdDb09meks0UWZZMWJHWU1TU05yUEc2TkdFdmhTUUY0cWVQWC0wUnlzZElibXZZamww?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "RCB की प्रेमा रावत ने सबसे तेज 50 रन बनाकर किया विश्व रिकॉर्ड पर कब्जा",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcWl5czRFWlM1R2xmU0tlUlpnQmRtUE05eXNwcXVkQmhhNm50OFJIVlJFc0FLMlIySlliVU4yRzVtUHFuN3dFWXEzR2JVTTVDcG51ZU5LOWdmTkhHY0czOE1jOUp0U0gxMWQxa0xzMkpuOEVLMlVrWWM3RDNRSHZuUlVGRnhmNXBLNzVUSS1TSllEUUtrbDR3cE9CZzhWVmF3LUE4cDhTU2NBdkUzMHVUeURjbUZUUzFVZHBJc2htTkcwSC1JdDJjS1Rma9IB0wFBVV95cUxNazBuVm9VZWszRmR1Qk9zMXJna1o1M2tKdXdnVXBYbFZhdkR0bmVJSnhRYlg1Rnc0M0J0ekJpM3ZSOG9aNTBpQnpFbS1Ld2p3c2dlVGNOYWg3UE1fUWtJQ2F5b255MHNuNFJnQWJ1cGgtZk10OVlMbEtMRWVock94TER3azQwVjhDMDdLUkVSWW5VWVFYbXpKNTFSNzFmNzRMU09fdDZlaXBYYThQaUhRVHdKSklRR1lBRUN1MHBmVHNRQWlqaFlGbUttR2dkZlhKZS1V?oc=5",
+          "publisher": "Webdunia"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-af1184b0a1",
+      "lang": "en",
+      "title": "Voyager 1 Briefly Loses Contact With Earth As It Nears One Light-Day Distance",
+      "category": "science",
+      "published_at": "2026-11-03T08:49:23+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Voyager 1 Briefly Loses Contact With Earth As It Nears One Light-Day Distance",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTTlfTFV0MlF6aEpQRjlaSFdCdVNFMm1hbmFwbVh1Ui1BNXhJRndlRHBpdWVsaWJnbEdwQmkwYURaTHp6SHVkOGhHRi1CNHNHZk1YdjRoVW9Pa3RXWXhZa2NfRFZEOFdybG13ZWZ5SU9qZ012Yy1wUnFNQjRCaDVzZ2dlMGVHYlhwZ1V2YWNqUHBkQzZFZ0JqZ3pFWWxkWWJKaFBzb3VnUXh6Z1ZXaTRPRDN5Yy1TUdIBvgFBVV95cUxOWlc2QjRyV3FFTnhkd2JxTnZnV0lDQ09TZGFtN19zdnVPZWtURGs1czVoVFc1U3RTdVBVUEQtV1Nqb3VreG1mMmFzemNXVi1iT0h3XzM0SW5WX2FkNUhTTDl0Qmg4Y2lnM1hfNU5fUGVuTlF0cVBqc3B1OVozNC1mcXhkUm1TcnBadnNxR3NWSjlLODBQTTY3QndYRWZleHgta2lsZkZ3dUMybFpSMWViblFsNm1wd19vaTJHV0Zn?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "November’s Night Sky Notes: Light-Day Away",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRkNHYlVNQjEwLUFoN19mRWtMQVlkejMtcDBrQU9SdzJtWmtKRHR5NTVrTWlwUUYxVmFrYXJWVFh3YUFLQnpPdUpIZFRFRzVjb1JqREZ6NS1MNFZoeHBUTmw3dWt0RmR3Ym1tUjVBVmhNOUkwZTE2aVdlUE5OSXpnLTBUekRaVVdBSDZ0WVR5aUxwSWQzbnd2TzJzX0M5ZFA0OHAzWmVNVjdVcTV1eGc?oc=5",
+          "publisher": "NASA Science (.gov)"
+        },
+        {
+          "title": "Voyager 1 lost? Where is NASA's spacecraft right now, and how long will it last?",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZTI4NnRZS0lHY01TWnMxRWl3ZXU3ZTBaMGl1b2JHdFoxV3ZhUm11cklMSHcxLXpEUm1PbGJPS3hfeGlTS3R3dE5QVlNJLVRZNGRQcUFKNXJtLVk3SXY0SU9VR1RubTBiMXV4LWYwWHJpTEZZNkVRd0dwVS1ud2NTUXRVMG9OZW11aHlvV3lqd2oyek5qaTdMcHdpZVFNdllzLXVrcktmSEhjX2Q1eUM1QlF1dUszTGNlQ25abVQ2MkFqY280LVpVOEtXX0t4RjZBb21zeURJNGdpTE1sNC1GYdIB5gFBVV95cUxQVUgxakY2MzZBdEtSbVZ0ZG12SUM4WEtaemRLeHBFSkJZdWt2cHhnNWRqb19uV3N6aFpjOG1keFlIN0xqQU5vQkx5QkN6QnEwRjZ2NVluTm9DcjFPNzV3YzE4MW5TT2NGdEcxTjZrZUFBN2VyVFMtVlVrWDQ3U2x2VF9aX25NR3U0a1ZWa3Y0YURWRmF2cmNReXZaWmg0QVpqSGtVaUF6YXFuel9sMldnQzREZ1lrSU9WeGpsU1hTbmw3U0RjNmU3ekdXdUpLU0xSbmJFeVJoU19uT1BGa1pYN3JjdWdZZw?oc=5",
+          "publisher": "The Economic Times"
+        },
+        {
+          "title": "Voyager 1 is days away from being 1 light-day from Earth. What does it mean?",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdjJmWEhqSmEzMVFzQ3dzM3dhdThhSHNaTXpoNEhocWtlVFUwN1h6STVWbFdpVHpMTHZ1cXVYODU1QklQX1dWLTNqbWNnUzQ1Rk9vV3hPNENjWEVsUGk1TkluRmQxV21qYXRqUmJPaEpDTDBHOGo4S1VDMjFtbW9oMzVsZ0FKekFRV1BaN1NSdHVlU0x4TklrNUhqWFcwZHpWaU56blVma0VyNHpobXgzSER3RFM2bzdPc2tyeEdhdVJkSnY5cUI3THdVRllLdw?oc=5",
+          "publisher": "India Today"
+        },
+        {
+          "title": "Farewell, Voyager!, by Dennis Mammana",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42WWJtNk1GRVFISXo1MldiNUFsUFBJRi11TTVGdnVnUTFDVDVub1JyY0dyazRTekxTaFdKYXU5dW9NOFRDSFBKY1ZKYlpfMG1XLVcxSDhzU185Ync4Z3JIeXVCQThmU0stY1RLQW1Gc1c?oc=5",
+          "publisher": "Creators Syndicate"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-f1b1060c48",
+      "lang": "hi",
+      "title": "टीवी एक्टर अनुज ठाकुर का 30 की उम्र में निधन: सोते समय आया हार्ट अटैक; मां जगाने पहुंची तो मृत मिले",
+      "category": "entertainment",
+      "published_at": "2026-11-03T07:19:46+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "टीवी एक्टर अनुज ठाकुर का 30 की उम्र में निधन: सोते समय आया हार्ट अटैक; मां जगाने पहुंची तो मृत मिले",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNkV5U2V5Tm1oLUpJVlhzOC1Vc3dQeFprUlNhamZPWW9NUVV0NUtMRldqNnZTcjdtMjEyTjFlTXFvb29FWHVmNjQxQS1LZVpRQS14ZC1LR2QyNFNsRUZjOHdYb0Rmam5YaDZiR3pfTUtjcy15N2xPY1o4TjQyeWpkV09jT2hCVEIzYWRkZHdEZE5WMjJDZm5TeEJmWlZBRGJMR2xQSXd6YURxWlNldmFUeW9OUEpndlB0WURrOU1n0gHDAUFVX3lxTE5tTlpwaGVGdEtJcFFmVHVpb1J4UF9UaEV2cmxxa2V3MWdDYlNuUUU0dVhjRjRRLUJKeVpEN2VpZlRpTVFTNGpxOUJGcGQybGVRVnZPNlNkUy02dHluNTZCZFJydFNZNFEzbjY4azREVVlGdlQydlhFWEhPRUxwMkNMTTNzX2RYVVNscTJIT3haX29zczZWM1pLUFcwUGZObkxkV0gzRjJiQ3ZZX2hldFd2N0N4NTdFN09mQzR2VjJUUjVfaw?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "कौन थे एक्टर अनुज ठाकुर? 33 साल की उम्र में सोते-सोते हुई मौत, उठाती रह गई मां, अब सामने आई खतरनाक वजह",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPWmU5SW94V0lzN2Zkd3drRUZaTDh3aTFLaFdzUnM4ZmVQSXZRcTkzUVZ3ZXlLTVJ4TXd4NkxCRFNYV3ozUXdoZ1JXUjJ3UFZvZTAyUi1SWVJmVmZKbHc0TGdxX2RJVVQ5eE5xVDJ6OUV5WVpzaXFSUGcxQVNnYWxNZnE5elZlOFRfLWpyVW5zbzlNSC1mOW1VMFg3MHZ3dk9wR3hEa3BCVWhNZm81dFlkQUQ5YzgzTF9BNlVPNlBYOXBJX044ZHAtY0k3X3NmeExfaVMyNFc3a1B3b19ETEhsWEUyNFRmVGNUUTVMMl9GU0luYTNFVXA5cmV3SGZOeXfSAYQCQVVfeXFMTXlLM3AyRHZ0b0UwVGptWUM2UWc4SzFiVzhrV3lGc3lHT3ZoQ0c3SXdlQ1g4VWJvUWJkaHhpbU9UY19GS1BXS2NkalNyNTItdGdBcEp3bXJzbm9JcjJ4a1BqdnRWOGczVmc5TEhLcVVDTS0xQWNBdE0tcWxLZ0dtbEVSUUJNUmFnOEFtZzAteE1EbWp2dW5DWUl5ZWdsR0RPZVVqdUhiNThtUGRKUFdtSUpKNXZfTC0zQlBPd0F4YkNyelZPd2F1TEFHTjZWNjB3ZXI2TDluR0ZWaG8yWmE1NGxTa0Z6Rm9RRXNteDZvZ2xzQzlDUHl2V2hLODhTTmV2ZVFmc0U?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "Actor Anuj Thakur Died: सोते-सोते दौरा पड़ने से एक्टर अनुज ठाकुर का निधन, 33 की उम्र में ली अंतिम सांस",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxON1VORWpxN09Ea2FXTmR6V3dxNElZLUJCbk1QdDlPZW5oWVFNR2pxQkRVYVZzeXJCSmphRWJUaWx6bzFaRjhFZ2N6OGlDU1FzX20xN1RvX3hkRkJKbVVaSWR4T2lrRkRaN0VfaU9RdTV4QTF0Sm9UUG1jLU0yZlZ0aDAyRkt2S0VVdnZFY1A1a1ZtVWw5cThqTlFOaU56SzN2ZUQ2c3BCX3VxNUw5ZTZaV1ZzQl9hWFh1MFV3Zk1vWjFXYkt2V2RUbGJNMTJESUNJS2xyOGFBeGxQbC10RTk0MmYyLUljdXA0UnpSdmRvZGFUc21rc01LZ1YzV3hpREluTDFmOWRrb0ZzMXllZ210OVpReVJxZU9l0gGeAkFVX3lxTFBfWkFrRE5xRjRRb2VNMWJmOEtFTlQ4STR0NjE1TmVycDVSSkJSdmhpQWszcTdSeDlmVEZIdm56SjAwTEJfcDVwYUp0ejRIRkV2MEJvWm9mV2pXLThoLUNMUHN3QlR3c1BsZnZra0dtRV91Mzg4ZVJmeno3OE5OVjJmOWRfdVp5LTU0T2VkNjNqOVlSalNfb3d5RFdtbjdLX21ydF81QnFKODk3dTR2aDBSLXRZVkJyRVVGd0lPYjdMMDU5ZTVCV1FNeDY5SlVDU1dCWEdsUE51ZkNnWmRzVVotaWFKc3dTX3U1TGVJYVMwMDNqRDd1bTNUcXdTM3EwSDJiQVdublVDSlhySVVtSFNFVnpMWWlOLUJVczZ4OEE?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "जिस उम्र में पूरे होने थे सपने, उसी उम्र में छोड़ गया दुनिया, टीवी एक्टर अनुज ठाकुर का 30 की उम्र में निधन",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNnZCbmhjUWpMRjZsTjJxcmdwTm5jNnRXcm83M3ljbHBIc0NnZElLNWc2QzFzOXh6SUs3TUtudVNnSi1TRnZzSldIT2VxWG5xRHd0YVZLempWU2NEWGFUcTFRdGxTcWxWUmZOVzBKVFRtckR6UHI5cmItU0RfSTJOY1hvTkszdUVITVVsSWl6bGRGMnNEdXI0S3F1XzRkNl9Pd3VIdEd5TjhXM3RCd2xjT29wOU9wTzlORHc2TV9hcGZiaDZQYlp6SDlwc0JKeGxzNllLQzhCcGRVWk9ydHhINnVTanpqdnhOVnBEajJ3OA?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "अनुज ठाकुर निधन: महज 33 वर्ष की उम्र में दुनिया छोड़ गए 'बंधन सात जन्मों का' फेम एक्टर, सोते वक्त पड़ा था दौरा",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQ1dRZkZRZDUxRFNMSUozclZHNDVTUURtOGZLS056QlNQWHZERGE1amxBSEpHWDlaZjl3d21fdDVCTEtkS1NROHV2T2pwRUNpbGo5TndXU1I0Vkg5NkNocldSVlZaN1FaNkE4YTZzUml0Sk0zUGhKWWJxTUVSR2ctemxmOTAyR1JWTkdYbjUwSThZbTZOeDhIMzBmanZvVzBEaEJBeXNKdzAzTGs4MTRha090OFk4NlZVY0pLTmJoNi14SGpGQjJvUjhpb0VVVzFCejVvZGlWS3VpZmt2QmpSTnlmSmxsVmw4eGxzVlJfdkRucHPSAfgBQVVfeXFMTWFUVUtXTm1hb2lBSkwyTUNfb19DaFZDall6UXJGRnZGdDhhZldhSW9xWG43Y01GeGlrbmtXWmhQMGRqdmN1bTBXWmw5SlF2aVptNWhiRGRmWmpackxLSzlPSDlVdno4b0ZVQmJ2QklIdmQ5UVA1TE93ZkpSVncyZkNrMzI0ZnYzdVdjamJWczV3OHFwVDZ3UmEyOFpXb3FLYjhGbUVwaVAtM0NxR1EwZk5RbDIyTDlkS1BIOGQxODAzcDduSGFGRVdDZl9PbFRQNU9Pak1MUU9zTlR4VFYzdXdZU1FGSDZpdEtLVWxXQV9HQlEwYy1CMnE?oc=5",
+          "publisher": "Amar Ujala"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-27729a2caa",
+      "lang": "hi",
+      "title": "ताइवान के पास 24 घंटे में पहुंचे चीन के 49 फाइटर जेट, क्या अब नई जंग होगी?",
+      "category": "world",
+      "published_at": "2026-11-03T07:18:11+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "ताइवान के पास 24 घंटे में पहुंचे चीन के 49 फाइटर जेट, क्या अब नई जंग होगी?",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN2g4cDhIN085aXpFcDNmUWZ4ZHNjd2QzajBtVlY1V0JraTNqQnpvRWJmRm1mSF8zTXJfcE40bWNwT1NFSHQ2VjFMOE15X0tJc3MxN1ZOYXBybVZUYWZiRW92RV9tMTYyY011VHpnNmFKdm5HZmNVRnpLa1VSZmtScWVoUjVrRC00OWNEamZFOWo5ZmxtSDhtN2xlakIzTzFZb0lhTk9hU0o4QWJRTHo1UnUyWE12TUlwdHRHakVjeE5LT2Zr0gHKAUFVX3lxTE9lbHdVd1B0SmRReGJQdkp3ZHI1V0I1QzJtTmdSRmpKWDc4ZEE4MDY1VmlGRHc1Ujl1WTU0NUhYcnladlM4S1VKOUxsdS1jcEpDaC0tUFdENi0za1JqVFFDRW92QkRtYXJkV19kVnlYRHZyVHJYaUg2VlQ2QXRkUlhDWXZZc0NOcjQ3Y1FXYzhqRE92QWQ4SjltWk9hb3Z4Vm1PZk5JZXRJSUhHT0xwM2h5QldSOXhseGVhQWhLQ3p1cXRVOFZuUy1UMUE?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "APEC शिखर सम्मेलन से पहले चीन पर ताइवान की स्थिति कमजोर करने का आरोप",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ3FkQ3FVcHF0d2ZVM1dMaWVIcmNydnpLWGdxWWFzTkQyNFJqY2ZoZi1sQTZ4SmNZbzEtUjBBTlB1MG52T1BGRWJwUFJ0MGNndWx6R0g2MUlGR1ZVaUZkeTNWLTIzQm9OLXdJZUpsbkc3REtsc2ZFR09aUkJnUW9UdzVnbklzZjN4eWphdDhsUnFRQnZ1ek0wS0traENmWnF6U1RDZ05zVDZmT09adXZlczYyR00teUox0gG-AUFVX3lxTE1iVVVUeHlxdTd1b3hyR3dsZVNrRG9Md2JsS3A1cnE1ZWF3aFZTbjRJOGJrRU1VVUNLdWR3RVVFM1pDRkVYbXVCMXFMcjZkOHdJU295QjlJaDg3aUFiZUZETlZSTGt0NnUtbm4wYTM5RW9xLW5tbmdOR0hobF9xc2M3cFBmd1JHZDl6Zl9BSGxVaDVyRmtLOFNxUHJ0ZHBXOTNKWkhZTDBVRVhkeS1KOF81aG03TFNkVWlxcllkeEE?oc=5",
+          "publisher": "Lokmat News Hindi"
+        },
+        {
+          "title": "ताइवान के जलक्षेत्र में घुसा चीनी जहाज: तटरक्षक बल ने रोका, टकराव की नौबत; क्या है विवाद?",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTUJkWF9zZ1FjUXl4UW5nenN0MGlYcWJsV01KdENHUmxiVkVqb1lGSk9MS21Yc2lkdnZxOUs3NWNCWEdnSUEtNVV2X2U3X1dvbGxMY29vSF9pQkxfbklnRkFKMlQ1dF9CaFdjemplRDJPOE8wQ1Y2OGx3RWpqY2ZNejRqZUNITEpxcVNlcUNOM2NHaXRmVWJyLS0wR1V0T3hzcFZtMERieXQ2WmJJei15T3Nvd1JWNkdNT0HSAb8BQVVfeXFMTUY5WmFBdFZJU0VLVEpleWM4MzgyWWlrc0hfY3BYX0pZbTB4eThDN1pYMTZOOS1vRTA3NHBmVHBfYTd2WlhaQ2Z0LW55UVpYWXRZRk5MUGVMOEl6aTlwenpDcC1vSElfZHZTZEJRRDVESThxdnduX2pUcFdxOGxLcVZiWEZ1ZkJvbm9PckM0MDQzemRmVjJpcGNndHRtelhqTERiaWJveGZfbXN0Sm9hSC1fVDMxSkM3NnlRaXNTQ0E?oc=5",
+          "publisher": "Amar Ujala"
+        },
+        {
+          "title": "ताइवान-चीन तनाव: ताइवान के आसपास चीन की सैन्य हलचल तेज, 24 घंटे में 49 विमान और 12 नौसैनिक पोत दिखे",
+          "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQcjYwWlFDSl9NN0Foem9vSktRQ1puRWhSbUl4MG9nRVJNV21qX0FodGlMdU5LbXdRaEhtRWVSdE5MR2FkRzJtZmVrMEpXRi1scy1Qc0pHOE9WZi1kU2xIUmg4NEpmSENwU2tPNmx1OXFvUElmc0JKek04N0xsQlVhak5SQ0RYUEI2YTlLcXI0ZTZCYjhDeGd0aUhQUUlBcldDUlpWRzR4U01PNHh0TGtfS2lwNVlJbkl5LXFEbmpDMVVWNUloaEIzSjhnUUNsUjBYRWRGcUx2X0VaRzJYZWJJY2hSUDhkX29RV01fY2dHbjdfZHl6WTg3Zi1TZG5tamw0WGp4Q2ZHZ2w1X2hwYzZGYTRHRjVJQzFCOHBJdlpHazN3TmNtcWNlRTFrZTkzV3c0c3hCM0VFR1pRa3E5cEhCdm5R?oc=5",
+          "publisher": "दैनिक भास्कर हिन्दी"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-3a94554dbd",
+      "lang": "hi",
+      "title": "रिपोर्ट- ट्रम्प रक्षा मंत्री हेगसेथ को हटा सकते हैं: ईरान पर हमला करने के लिए उकसाया था, 8 महीने बाद भी खत्...",
+      "category": "world",
+      "published_at": "2026-11-03T07:10:39+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "रिपोर्ट- ट्रम्प रक्षा मंत्री हेगसेथ को हटा सकते हैं: ईरान पर हमला करने के लिए उकसाया था, 8 महीने बाद भी खत्...",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUzJPb0RuUkg4bERWVGE3M3ZBZHBiWkxjcW54a0ZwcVA4T1FZaVJSdXliQmVaSjN4T1NiTXNpTGUxdE9rQjVnRzhETlpNNVRNcjk0Sm1xS2FvX1c1VlR6ekRlZE95U2pkdlhwZUFaRmF5MW1RNHdXSFVCTEEydGIzV1c1bnI2WmZmcjdvRjA1aklfZkowLU9YcVNJbGVjU05BWFdHZDMxQ210dTQ2cERsb2s1dlFxdDVHdldISlRsNVQxRlgw?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "पेंटागन से एक और विकेट गिरा! लेफ्टिनेंट जनरल को ट्रंप प्रशासन ने किया बाहर",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1dKT1hkUGR1UVZ1SVBUUGtUeVo4NzVOVkRPWGVWa1pYMVQ0ZXpmT2hjN3FJb2pTa3JicTNzMjF0TGxUUFB2ZG5mUG9MaTEtdXowalVJSkJzUC1kdFFPdWhsRHI1TFFNUkNtUHRBWWRoSXU0ZzItQWROeExybUs2QjRRdk9QUW1nSjlYRkVPblB0MTNCTGVCZGtwcHZqRVFOV1hNbXRoTFpQQlg1SUMwTUZMREl5TXlnX0Rwc25QRGFvVzQwM3JYNFpEd0swUnBOdVlKRzBR0gHbAUFVX3lxTFAzdHk1NW42djV6Q1pLd20xZHg1Rjh5NkROTlRDVEd3Mk5wVWpBQVhKMzhMY2o1dWNDZjFhLU15bmsxVmcxLWE0V3QyYjQ0aXU4c2dTcFVTSWFnMmpYUzV6R3dObFVFU1l4bkVQRFdNYjFhcDE0aFFGdDdweGhGMWl4WHc0alBLM0dESFVBb2NkUkhvWURjYzlncm5JaEpJQmFiek9ITVdTajVKbURGNVUxdElveUVmSzVLbE82cGR2WGpqQnhQZzgwbWVrMmhVMGJ0eWlXUDAxMHpqbw?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "हेगसेथ विवाद ने तूल पकड़ा, महाभियोग की उठी मांग... खुद ने ट्रम्प का कार्यकाल पूरा करने का जताया संकल्प",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96WkxEa2JSdDFvdHk0ZWNBajZrZFdQWVlkZm5ITmtqQnZBdk55QTQ1dVIxaVoxRXVkOUhibmR2dl9ueXFqU1RiLUtBME9VeVJhZzRGbHNIOWFIMkJOcW5Z?oc=5",
+          "publisher": "재경일보"
+        },
+        {
+          "title": "नए ईरान सैन्य अभियान का विरोध करने के कारण हो सकता है पेंटागन के मुख्य रणनीतिकार को हटाया गया: रासमुसेन",
+          "url": "https://news.google.com/rss/articles/CBMi8AhBVV95cUxQVXVwV2Y2ZEo0Y2psSDBmM3BlQU5QYmVQVVVIeWVGWlRpdzNXT2VPakxvUmVYc1I3WmRvWWlWU3FlLTZNaUZ2OFk2RE5BaGpSMXFoVlN2ekdONUdhTE1GU1ZmRndhM0JVeFRabjhDWkxyd05zWjFfY213S3hUMVF0Njd0R21WTUNCYUtpLXJaVGpWR093amREa2NBcDF1X2RITVFyUDQzTVdsXzlsSVFkZFVYN1czeUhCNTFNNTVNUFhBbUNNcU1wYmpZZ20zTHg1ZnB0eEs3OVhXTG4xX3V4WWswZUVBNWhJYzBjZlZabG5WdHN1eTVHclkyNnBlZXRkU1pBbURfX0UybW1NQWpfcW54OXlZSzM1Ry04VkFsS0J2Ny0wY19OcV9BSHJHTF9oZXlBSVRwQkZyWERxNVJ6UzRQX2YwSUhia2p6Y3FxMk5fYXZDWXVldktpN0puQ1QzWV8tUUplNjFXRVNxM29sak5ObDhHREh6UTBWemgzVWVtcDQ5NTVsQ01xREYwZGtrN0ZnVFNpOE5Fcy1jeDk5bHotX3l0ZWZFSnpLMzJwN0RXMldaSVc0MXJhdTZjMEQzQm5JRnVJcVBIUXlIT2EyYzVUOHJEUmc1eC1pbEE5LXJubE5MS0NtTlF4OGJyV3NTVWNQSGFyVE0xOG9vaWNyMXFZblZWUzZuRG93V0RLUUw3Z3pYVU1pRU5YNVVWaDVhcEV1NXdVSzdiSVRQNHM3SmoxQk1pY21wQlByeE00dk1CUDJrbFdqcXJwSjJqR1BFZ2liaHFUbWRjNWUzbmZxbjJ1X3FPU2FqSEhLbUZPalowUG5fdE9ZdVBKTzNqeWQ4Q2ozelF2QkV3akVpQXFMbHZ2TVVISWIxaTJJd1dqenBpRzRxbTBrNHlta0VfTkl0dWRTU216dFAyVkxPMG9QR0hiY0tMS0NXdS1CWHhtanAtTkVuYkRsakg4OHJYWnQ0MzN1ZXFhT2JfRXQyRnVLLVJfeS1RR3BNWXBLc3BaNE9WdkNqbjlNdlMyR3pqS0JOZWxwZ09KeHZSV2NEaGd6dnhJVXRDNkVreEpkVU9naWNFVEVsLXFOQ24wRFkyRmZZdDVzUEhtdE53Z3g2R25ZUFNWUWJKcndIT2ZZUTRyUGs0Wm5QWHU5WjB3M2d2M0NLT1U1SF9WQVZqR25LUl91Z1pCclZUSlRBMlF1bGJPbGdqQkF5c3poYXByUVZBR2pIQ3g2eWRSQnF5dDlRcnh6T01FZVNfNXRsT203NENZWUthZFBVbzcyVTIzQk5SdmJMaW5uRktQWWY3b0Z2OGpYeUhpLXRUZTcyZEdlaTRLVDNXUUtGa1dPdUN4SThlWVlNNW42N2VnemxQRWZXeFFUYng0RlV2SWJIMldsb1pYZmgzSHV3NFBoaWl0c0l3SzRORzFWbW9YakpLaThxTnZ3anIwbnVheTlxY3dnTHVLSEY2LXFxSWlUNElFTXo0MFhXMHU2QUFtaGV5aUpwLXRJbQ?oc=5",
+          "publisher": "UNI Varta"
+        },
+        {
+          "title": "अमेरिका के एक बर्खास्त जनरल ने ईरान और यूक्रेन से संबंधित गोपनीय जानकारी लीक करने की बात स्वीकार की है।",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM21tX2g2ak5kNXlrLTREWm9xR0pmeTZQVGVXSVN3c1lZbnNnZzFvZnhfbWRuUHlNUFRWUmt3dHlYNktHT0VZNjllTmRZQ1RCUGV3enU0dFl3TDZuR0FLSTlUNlJHbk5tbHpkM2YxenRKNzUzYzRtUzI5bnhHazQ1VW1EREc1ek9oZmIyS3h3S3lUcUc5T05rZDRvd0Z6WTQ?oc=5",
+          "publisher": "Vietnam.vn"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-66f77f6aaa",
+      "lang": "hi",
+      "title": "दीया मिर्जा के दिवाली वीडियो विवाद पर बॉम्बे HC की BMC को फटकार, कहा- दोबारा अपलोड करें",
+      "category": "india",
+      "published_at": "2026-11-03T07:10:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "दीया मिर्जा के दिवाली वीडियो विवाद पर बॉम्बे HC की BMC को फटकार, कहा- दोबारा अपलोड करें",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOclg3RkJjWm9EVDZQanRucU5HZXB4RkdGLXhmSlVhcFlpbU5fS3lzSEtyZFhycDFpbWJGUldOaWl0TXNZUU1NWk5YX0lDY2hEcHRpTmVSblpxV0xZQWpYM3J4eGZtb1hCbVNaa1c2ZXExYzNiUkktSFZtMXBCTlJ3SlgwR3lxUEJ1NjN5RTBaZjJmb3p4ZXNxLUh0OU83bEQ0MndKNXRNeFJ2RlVPWi03eGlCWjdDc3Bo?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "बॉम्बे हाई कोर्ट ने दीया मिर्ज़ा के वीडियो से जुड़े विवाद पर दिया ये अहम निर्देश",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGSlZzYjFLYVlnNU5kT21hdlg0WjdWWEV6aXUwcEEwSUFIWGJjdlB3S0lFVnZfa3ExY0Zra1N0Tnd0LURMNW04TXhmdWJDUnU4cE1MQUpjQ21HTVFp?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "'BMC का एक्शन परेशान करने वाला...', HC ने दिवाली पर दीया मिर्जा का वीडियो बहाल करने का दिया सुझाव",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWnpmWFJMaTVnZlV6QkdJTlo0R29ESHQ2eTJKWjV1Mm1rNU9ONHF5aXVQVUV0U3FvbEtfZnA5ZzBQaVpCRFZXNWhDM0IwcEZWaU9VOURUSjQxR1otei14cllDUWFBMU83OG5XMHVMNDBoVkc5VnFJR3JwMTNOakFmY1ZNcjNNNGZHY1FIYzQzaEZhVUI4VUdJalE2Z19lSjFocTdWUElzMnhsdWhCNWRjMTBBdS1sMmhFLTNmUWJNZ9IBxAFBVV95cUxPblRNUW8zdW56UGI2ZF8yWkVwSXpMejEyaExSSGhzQndacGtKMUxVdUNMMnoyNHgwN2lMVFFNS3lfQllGTmRPVlRmcVlIOXRpaWZkTnI0VjUtdHZkREJmOS1KemUyN1dlcmFTT0Frc1dPTmpBVEs1eThOd3k2dXRGclY5cGFDdHR3UEYzNFowODdqMGdhOVdTSEFSem9nWV95MU9UeGlZSkh2UzkyaTIxdFlGdElFNk85aTExN3V5MmtOOGY5?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "प्रदूषण के खिलाफ दीया मिर्जा का वीडियो फिर अपलोड करने का आदेश, बॉम्बे हाईकोर्ट ने कहा- 'भारत एक धर्मनिरपेक्",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNWjJFbDFZc0plTzBoaUlKRFRuaUZEdEh1WWp3WUQzdFZzdXFOc0Rmc2JGTVRYNzJWUk9YM090NGJscFJEb3RBVkJHWHlXeEcyazRLMkp5dHVad1pobnNHZzRCN1JPVGw3N19DLXkxMkVMQUZyY0I5bXpLSkdsNUdlX0tZcFJTdTR1U0JQS2luZS1QaFhvTVdwUnFmcjMxV3hDSEo2ODFQMUJ6V1NmSjVNeDVCVGdsZDZfZkFPMEdWZjV0TlQ1cEk5QWNqZDU0NmliZUJoYllaN2xpZDRQanJvNkJaUTlJMUozWGFZMXBTXzQxbzRNNFRpc1hFZUI1ZUU?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "हाईकोर्ट बोला- दीया मिर्जा का दिवाली वीडियो दोबारा अपलोड करें: BMC ने भाजपा की आपत्ति के बाद पोस्ट हटाया था...",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON2NLaTdOY1dfTmh0TTNYLVVzdkV5dkp5aEtaZ0ZGdGFkMFl5ZzJYUUVPa0VvX0I1LU9TcVh5ZjZiR3BXY0JoTDRmMF9rRXJxdXluVG5zUUNlYmdhVWRBWVFCOFF0SzMyYXZ4cDRxX0xONWJsejYwT0FicGJkYzBwUEpoNzRCZW9nbkR5eVRzZk9OczNoWVBYbThVZWoyQmFsWC1XWkZFdk9ka3BJajR3ZEF4NDBJZEVzWWfSAb8BQVVfeXFMT1hlX3dGbU5kb3FQaU1KQUhrb1VKTmRoUTk1WWpudDFYU0w4TXVRMW5TbGZPYzdRSTlkZ0N5WXBFV2RjMFlzRTZIamtWVS1hSEd1MC1UTDVCS0s4alcxck5CMEYtVS1wNTB1X1hwOTJmVzB3RXZzOVZLNW5PWTdhZzVQc283NElOaGExTW1wblpjbVk5R3RwLWxaU1dsSmhLWkwyT1loelhlc1E2bzAxbU1rN0JyQlJFZ0s5U1JIdFk?oc=5",
+          "publisher": "Dainik Bhaskar"
+        }
+      ],
+      "queued_at": "2026-11-03T09:25:44.398556+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
     }
   ]
 }
