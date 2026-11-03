@@ -1356,7 +1356,7 @@ def card(p, up, compact=False, priority=False):
     text = f"{p['title']} {tidy(p['summary'])} {cat}".casefold()
     image_path = p.get("image_path", "")
     if re.fullmatch(r"assets/news-images/[a-f0-9]{20}\.(?:jpg|png|webp|gif|svg)", image_path):
-        visual = f'<img class="card-image" src="{esc(up + image_path)}" alt="{esc(p["title"])}" width="640" height="360" loading="{"eager" if priority else "lazy"}" decoding="async"{" fetchpriority=high" if priority else ""} data-fallback-category="{esc(category)}" data-fallback-label="{esc(cat)}">'
+        visual = f'<img class="card-image" src="{esc(up + image_path)}" alt="{esc(p["title"])}" width="640" height="360" loading="{"eager" if priority else "lazy"}" decoding="async"{" fetchpriority=\"high\"" if priority else ""} data-fallback-category="{esc(category)}" data-fallback-label="{esc(cat)}">'
     else:
         visual = f'<div class="card-image card-image-fallback cat-{esc(category)}" aria-hidden="true"><span>{esc(cat)}</span></div>'
     return (f'<article class="card{" compact" if compact else ""}" lang="{p["lang"]}" data-cat="{esc(category)}" data-text="{esc(text)}">'
