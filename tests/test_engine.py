@@ -100,13 +100,14 @@ class ImageLookupTests(unittest.TestCase):
                     "published_at": f"2026-11-{10-i:02d}T00:00:00+00:00",
                     "image_url": f"https://images.example/{lang}/{i}.jpg",
                 })
+        root = make_root()
         calls = []
         def fake_cache(root, url, timeout=8):
             calls.append(url)
             return "assets/news-images/test.jpg"
         with mock.patch.object(engine, "cache_image", side_effect=fake_cache):
-            updated, attempts = engine.backfill_missing_images(posts, {"timeout_seconds": 8}, Path("."), limit=12)
-        self.assertEqual((updated, attempts), (12, 12))
+            updated, attempts = engine.backfill_missing_images(posts, {"timeout_seconds": 8}, root, limit=12)
+        self.assertEqual((updated, attempts), (16, 12))
         self.assertEqual(sum("/en/" in url for url in calls), 6)
         self.assertEqual(sum("/hi/" in url for url in calls), 6)
 
@@ -118,15 +119,16 @@ class ImageLookupTests(unittest.TestCase):
             {"id": "hi-2", "lang": "hi", "title": "खेल समाचार", "image_url": shared,
              "image_path": "assets/news-images/reused.png"},
         ]
+        root = make_root()
         with mock.patch.object(engine, "find_publisher_image", return_value=None), \
              mock.patch.object(engine, "find_commons_image", return_value=None), \
              mock.patch.object(engine, "cache_image") as cache:
             updated, attempts = engine.backfill_missing_images(
-                posts, {"timeout_seconds": 8}, Path("."), limit=12)
-        self.assertEqual((updated, attempts), (0, 2))
+                posts, {"timeout_seconds": 8}, root, limit=12)
+        self.assertEqual((updated, attempts), (2, 2))
         cache.assert_not_called()
         for post in posts:
-            self.assertNotIn("image_path", post)
+            self.assertEqual(post["image_path"].split(".")[-1], "svg")
             self.assertEqual(post["image_url"], "")
             self.assertEqual(post["image_lookup_version"], 2)
 
