@@ -593,3 +593,72 @@ a, button, input { touch-action: manipulation; }
   .category-tools .cats { margin-inline: -.15rem; }
   .category-tools .cat-btn { min-height: 36px; padding-inline: .78rem; font-size: .86rem; }
 }
+
+
+/* ==========================================
+   11. MOBILE-FIRST NAVIGATION & READING UX
+   ========================================== */
+.site-header { z-index: 100; }
+.primary-nav { min-width: 0; }
+.primary-nav ul { align-items: center; }
+.primary-nav a[aria-current] { background: rgba(255,255,255,.10); border-radius: 8px 8px 0 0; }
+.category-tools { min-width: 0; }
+.category-tools .category-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem .7rem; }
+.category-tools .category-heading strong { color: var(--navy); }
+.category-tools .category-hint { color: var(--muted); font-size: .88rem; }
+.cats { min-width: 0; }
+.cat-btn { white-space: nowrap; }
+
+@media (min-width: 42.01rem) and (max-width: 64rem) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 42rem) {
+  html { scroll-padding-top: 7.5rem; }
+  .site-header { position: sticky; top: 0; background: #0b1f3a; box-shadow: 0 3px 14px rgba(0,0,0,.16); }
+  .site-header .bar { display: grid; grid-template-columns: minmax(0, 1fr); gap: .35rem; padding-top: .55rem; padding-bottom: .45rem; }
+  .brand { font-size: 1.18rem; line-height: 1.35; }
+  .primary-nav { width: 100%; max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .primary-nav::-webkit-scrollbar, .cats::-webkit-scrollbar { display: none; }
+  .primary-nav ul { display: flex; flex-wrap: nowrap; width: max-content; min-width: 100%; gap: .3rem; padding: .05rem 0 .12rem; }
+  .site-header nav a { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: .45rem .72rem; border: 0; border-radius: 8px; white-space: nowrap; font-size: .92rem; }
+  .site-header nav a[aria-current] { color: #fff; background: rgba(255,255,255,.13); box-shadow: inset 0 -2px var(--orange); }
+  .wrap { padding-left: .9rem; padding-right: .9rem; }
+  main > section { margin-block: 1.15rem; }
+  .market-strip { margin-top: .85rem; }
+  .market-strip-disclaimer { font-size: .78rem; line-height: 1.45; }
+  .hero { margin: 1rem 0; padding: 1.25rem; border-radius: 14px; }
+  .hero h1 { font-size: clamp(1.55rem, 7vw, 2rem); line-height: 1.2; }
+  .hero p { font-size: 1rem; line-height: 1.55; }
+  .hero .choose { gap: .55rem; }
+  .tools { margin: 1rem 0; padding: .95rem; border-radius: 12px; }
+  #searchform { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem; }
+  #searchform label { grid-column: 1 / -1; margin: 0; }
+  #q { width: 100%; min-width: 0; min-height: 48px; }
+  #searchform .btn { min-height: 48px; padding-inline: .9rem; }
+  .category-tools { padding: .9rem .75rem; }
+  .category-tools .category-heading { padding-inline: .15rem; }
+  .cats { display: flex; flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; gap: .45rem; margin: .75rem -.1rem 0; padding: .1rem .1rem .45rem; scroll-snap-type: x proximity; overscroll-behavior-x: contain; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .cat-btn { flex: 0 0 auto; min-height: 44px; padding: .45rem .9rem; scroll-snap-align: start; }
+  .grid { grid-template-columns: minmax(0, 1fr); gap: .9rem; }
+  .card { border-radius: 13px; }
+  .card-visual { border-radius: 12px 12px 0 0; }
+  .card-image { height: auto; aspect-ratio: 16 / 9; }
+  .card .meta { margin-top: .8rem; }
+  .card h3 { font-size: 1.08rem; line-height: 1.42; }
+  .card p:not(.meta):not(.src) { font-size: .94rem; line-height: 1.55; }
+  .more { min-height: 42px; display: inline-flex; align-items: center; }
+  .post { margin: .85rem auto; padding: 1.1rem; border-radius: 12px; }
+  .post h1 { font-size: clamp(1.55rem, 7vw, 2rem); line-height: 1.25; }
+  .post p { font-size: .97rem; line-height: 1.7; }
+  .post ul li { padding: .9rem .85rem .9rem 2.35rem; }
+  .site-footer { margin-top: 2rem; padding: 2rem 0 1.5rem; }
+  .site-footer ul { flex-wrap: wrap; gap: .35rem .8rem; }
+}
+@media (max-width: 22.5rem) {
+  .wrap { padding-left: .7rem; padding-right: .7rem; }
+  .brand { font-size: 1.08rem; }
+  #searchform { grid-template-columns: minmax(0, 1fr); }
+  #searchform .btn { width: 100%; }
+  .hero { padding: 1rem; }
+}
