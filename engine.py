@@ -1758,7 +1758,7 @@ def image_search_terms(title: str, limit=7) -> str:
         "कब", "कहां", "कहाँ", "भारत", "ताजा", "ताज़ा", "खबर", "ख़बर", "अपडेट",
     }
     # Unicode-aware tokenization keeps Devanagari words instead of dropping them.
-    words = [w for w in re.findall(r"[^\\W_]+", normalize_text(title).casefold(), flags=re.UNICODE)
+    words = [w for w in re.findall(r"[^\W_]+", normalize_text(title).casefold(), flags=re.UNICODE)
              if len(w) > 2 and w not in stop]
     return " ".join(words[:limit])
 
