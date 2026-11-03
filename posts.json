@@ -39,7 +39,9 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "article_body": "Jagran: “घटना 13 जुन की है, जब लंदन की सड़क पर UAE की शाही परिवार की महिला महराह अल नाहयान कोकीन के अत्यधिक सेवन के बाद बेहोश मिलीं थी, उनके पास उनका बच्चा अकेला था। अब अदालत ने उन्हें पुनर्वास कार्यक्रम व जुर्माने का आदेश दिया...”\n\nAmar Ujala: “कौन हैं महराह अल नाहयान?: नशे में धुत लंदन की सड़क पर मिलीं बेहोश, अमीराती शाही परिवार से क्या है रिश्ता?”\n\nDainik Awantika: “लंदन।UAE के शाही परिवार से जुड़ी 32 साल की महराह अल नाहयान को लंदन में बच्चे की देखभाल में लापरवाही के मामले में सजा सुनाई गई है। उन्हें दो साल तक रिहैब कार्यक्रम में शामिल होना होगा। साथ ही करीब 7.7 लाख रुपये का जुर्माना...”"
+      "article_body": "Jagran: “घटना 13 जुन की है, जब लंदन की सड़क पर UAE की शाही परिवार की महिला महराह अल नाहयान कोकीन के अत्यधिक सेवन के बाद बेहोश मिलीं थी, उनके पास उनका बच्चा अकेला था। अब अदालत ने उन्हें पुनर्वास कार्यक्रम व जुर्माने का आदेश दिया...”\n\nAmar Ujala: “कौन हैं महराह अल नाहयान?: नशे में धुत लंदन की सड़क पर मिलीं बेहोश, अमीराती शाही परिवार से क्या है रिश्ता?”\n\nDainik Awantika: “लंदन।UAE के शाही परिवार से जुड़ी 32 साल की महराह अल नाहयान को लंदन में बच्चे की देखभाल में लापरवाही के मामले में सजा सुनाई गई है। उन्हें दो साल तक रिहैब कार्यक्रम में शामिल होना होगा। साथ ही करीब 7.7 लाख रुपये का जुर्माना...”",
+      "image_path": "assets/news-images/0c78db888736d7e08fa8.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-fac02bccba",
@@ -240,7 +242,9 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:02:24.982863+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/f3d4351f8ddabad8c343.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "hi-041450a2dc",
@@ -286,7 +290,9 @@
       "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/334c971ff66cc392f76c.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "hi-0368a447b3",
@@ -332,7 +338,9 @@
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/04494e1688e3559228b1.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-ab0dbcecf5",
@@ -411,7 +419,9 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:02:24.982863+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/de4c8167d9189a9d1c6a.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-800c019fbf",
@@ -791,7 +801,9 @@
       "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/c14b5552739c1dcfc788.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-14ef912a2f",
@@ -905,7 +917,9 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:02:24.982863+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/3964bf956946cae2a0bd.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "hi-572157617e",
@@ -951,7 +965,9 @@
       "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/fd88d691e8c33788ff89.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-5877cce147",
@@ -1043,7 +1059,9 @@
       "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/58b15c50880a2cfceb26.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "hi-a193e1ed8d",
@@ -1087,7 +1105,9 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:02:24.982863+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/8a4314c85573154654a9.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-cf57eb779b",
@@ -1179,7 +1199,9 @@
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/15f6d2da239d646ee95c.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-9809b1448a",
@@ -1271,7 +1293,9 @@
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/c796c39308aed109383c.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-8e3f789060",
@@ -1477,7 +1501,9 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:02:24.982863+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/fa3ab925bd6447660c9b.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-948d2fbb68",
@@ -1604,7 +1630,9 @@
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/3906cc29b9cbb05ea0d2.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "hi-995d44c757",
@@ -1650,7 +1678,9 @@
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 1,
+      "image_path": "assets/news-images/f61dfe6274feb6b050c4.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-c68f9a584d",
@@ -2436,8 +2466,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOYnhpMDRKZzAydHRleXNSVDlnTmxPZFQwbUNfc3VmZ1c5cU9vdmdhVEhPOUxmWm5Yb05OZk1xellYVnhJS0d6d0pMNjhpcVNWMGt3TWxnUWJ2azBqQTh5Y0F5R19OSmRyTXM0S3BEcUc2cE9Oby1lX2hVTVZxSUxaU2s3b2xXeUVvUWIyUVpVWm1PNFd0N3ZEZ0ZyLURWRlJYc0hCRGQwTEEtRmtJdVZjZWhrMVk2VmVMcVh1TWZYcnA3UWdSZ1BSZjFHNkE2cVpsVGhTbGdTczJ5S3g5dDljb3Q2S3BiTVk1X1pmNmVQMUJHZEFFcmRjTkVZVQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "AajTak",
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "en-54c8be06e7",
@@ -2518,7 +2552,9 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:02:24.982863+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-936b8ad851",
@@ -2705,8 +2741,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZmN5bFg4eW9LUnZhNmNRWWItZHR3SXVsTDlxTHVqNXpHTEMyX093VHZtbVB5M0Q2Q2k2YjBKQ0dQQm1MT0hCS1pvaUdsSnBMVFkwRF9sNnRlN3RHbEdjanNHOHFQNU1WeF96d3BvN19nQklDVDVwQ0s5NHl6SHdnVDVjWDFDc0hJenoycW5ZTlRCX2VXTjhWMWRxNS1aQmNuQURHODNreGt0ZzU1UjI1UmxGb0hTaDJJcTRPeVRfUDlhLWtobkstMlV5QWF4cmFQNXN4NVR0WDE3eEhNTkVlSzF1SGzSAeoBQVVfeXFMT1M1bzJQQU1HcWRBTFZHNjBpYjBsaG4tZl9lbC1uR1dKSXg0ZEFQaWkwNlpPa3cwNWxiQ0hhejE4MU9ablBqdG0wQ2RfeFR4d2E3bFZfOThrejFuSldRMXVCQ3Nkb1lzTTByQkdKOWFmY2RHMlBlM1BBUVlha3ZuU2thY19oUF80S2ZiNXhkWFV0aUtrdHpyam5aRDhETmdiWVdHS0h5aXJUMmNkbmVQb1hRUlEwdHlZRzJGUDBIckhNSC1KWWlRT1hCcXp6YnQ3MERlRi1BanlGN1JONlI2R1RvdnFYTElnM2dB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "Dainik Bhaskar",
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "en-f7f84f9447",
@@ -2857,10 +2897,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T09:02:24.982863+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "en-be42343d1d",
@@ -2976,8 +3018,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "Dainik Bhaskar",
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "hi-f875434402",
@@ -3011,7 +3057,9 @@
         }
       ],
       "summary_refresh_version": 21,
-      "article_body": "Indian Super League | Official Website: “वाज़ पिंटो और पुरुषोत्तमन दोनों टीमों के शुरुआती सीज़न के प्रदर्शन में सुधार लाना चाहते हैं। पुणे में इंटर काशी एफसी और ओडिशा एफसी बालेवाडी स्टेडियम में भिड़ेंगी। दोनों टीमें अपने 2026-27 आईएसएल अभियान की शुरुआत बेहतर नतीजे से करने की कोशिश करेंगी।”\n\nSportstar: “आईएसएल 2026-27 में इंटर काशी और ओडिशा एफसी पुणे में पहली जीत हासिल करने के इरादे से उतरेंगी। ओडिशा एफसी के मुख्य कोच टी. जी. पुरुषोत्तम के अनुसार, टीम पंजाब एफसी के खिलाफ मिली हार से आगे बढ़ चुकी है और अब इंटर काशी के विरुद्ध जीत पर ध्यान दे रही है।”"
+      "article_body": "Indian Super League | Official Website: “वाज़ पिंटो और पुरुषोत्तमन दोनों टीमों के शुरुआती सीज़न के प्रदर्शन में सुधार लाना चाहते हैं। पुणे में इंटर काशी एफसी और ओडिशा एफसी बालेवाडी स्टेडियम में भिड़ेंगी। दोनों टीमें अपने 2026-27 आईएसएल अभियान की शुरुआत बेहतर नतीजे से करने की कोशिश करेंगी।”\n\nSportstar: “आईएसएल 2026-27 में इंटर काशी और ओडिशा एफसी पुणे में पहली जीत हासिल करने के इरादे से उतरेंगी। ओडिशा एफसी के मुख्य कोच टी. जी. पुरुषोत्तम के अनुसार, टीम पंजाब एफसी के खिलाफ मिली हार से आगे बढ़ चुकी है और अब इंटर काशी के विरुद्ध जीत पर ध्यान दे रही है।”",
+      "image_path": "assets/news-images/f5709a14e78ffa3524ff.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-c9c633a241",
@@ -3092,8 +3140,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-03T05:53:48.780057+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVzVaTV9fM2ZxZGpJMS1IMTVyNkNzS1hoNThLeUczeUpoa191YUw0TlYxU1htRkplQTVuMmJiN3VUeTBDOWNJSXgyYk9wOXJtamkyc2tiaHd5djMyNS1xNW1Id05BUGZQVmk4eTlZSExTYjNYQ2dCSmxkbGJxX1BWSW1mUzhXYml5YUIzVlJOTkVlYUJZMlBXMXk4MUl1TWpYLWNvcFF4dm9QVXlKZUNsanNjaFRtWFNNZ21odnlzd2xuWW9UZUxRTzVpSloyS25WMlRiWktGaXgwM0luODhoUXQ5Ymh2eG9UZjBHV0ptQmU2VktjcnB1MlJkWXZidw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "Jansatta",
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "hi-b09d51afdd",
@@ -3139,8 +3191,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "ABP News",
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "en-84a750cc5c",
@@ -3175,7 +3231,13 @@
         }
       ],
       "summary_refresh_attempted_at": "2026-10-21T00:27:15.265972+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_url": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/6TAUF2UILTLFPPRQZWHS4RO3TQ.jpg?auth=8192502ce7280afb09d754d273c0541b2af8e2012de4bf2b43c5a038588a6bd0&width=1440",
+      "image_source": "https://www.bostonglobe.com/2026/10/18/sports/nba-celtics-paul-george/",
+      "image_credit": "The Boston Globe",
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/56545cb479dffd2fbcf4.jpg"
     },
     {
       "id": "en-e8d6b6739d",
@@ -3402,7 +3464,9 @@
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
+      "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-654aa0bba2",
@@ -3602,7 +3666,10 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:17:59.774734+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/10/PTI10_19_2026_000001B-e1792382201430.jpg"
+      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/10/PTI10_19_2026_000001B-e1792382201430.jpg",
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/88cd7ff29fb8996582c1.jpg"
     },
     {
       "id": "hi-7485619e88",
@@ -3650,7 +3717,9 @@
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
+      "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "hi-a33d445d15",
@@ -3698,7 +3767,9 @@
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
+      "image_path": "assets/news-images/6b2c60e12a041760b252.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "hi-0d3ee6c68e",
@@ -3748,7 +3819,9 @@
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
+      "image_path": "assets/news-images/7a6257bf8c30324d9216.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "hi-5e28639f7e",
@@ -3798,7 +3871,9 @@
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
+      "image_path": "assets/news-images/be288a2b658d45677b0a.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-6b67e7e1ff",
@@ -3884,7 +3959,9 @@
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
+      "image_path": "assets/news-images/41e8ca559627c6255168.svg",
+      "image_kind": "generated-fallback"
     },
     {
       "id": "en-bfb156a2b5",
@@ -4207,10 +4284,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-26T23:40:03.891607+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/ck1wvl8w944yt",
       "image_credit": "BBC",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-0f429f0345",
@@ -4930,10 +5009,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-28T01:04:51.831074+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/ck3r57d482xqt",
       "image_credit": "BBC",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-ab39d32f18",
@@ -5334,10 +5415,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/cqe9l1yej078t",
       "image_credit": "BBC",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-5a1c4e3daa",
@@ -6022,8 +6105,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:07:29.361623+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
+      "image_lookup_version": 2,
+      "image_source": "https://www.dimers.com/tennis/news/novak-djokovic-vs-jan-lennard-struff-tennis-prediction-atp-swiss-indoors-2026-ac",
+      "image_credit": "Dimers",
+      "image_lookup_attempted_at": "2026-11-03T06:46:14.402804+00:00",
+      "image_path": "assets/news-images/64cde5ec18360311d4d2.jpg"
     },
     {
       "id": "en-8f05ac6694",
@@ -9138,7 +9225,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/d77c8f79ef7efba813bf.jpg"
+      "image_path": "assets/news-images/d77c8f79ef7efba813bf.jpg",
+      "summary_refresh_attempted_at": "2026-11-03T06:42:46.386996+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-eae4bf7293",
@@ -9176,7 +9265,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/cad128764e8d46239f91.jpg"
+      "image_path": "assets/news-images/cad128764e8d46239f91.jpg",
+      "summary_refresh_attempted_at": "2026-11-03T06:42:46.386996+00:00",
+      "summary_refresh_version": 21
     }
   ]
 }
