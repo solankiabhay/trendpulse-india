@@ -3139,591 +3139,514 @@
       ]
     },
     {
-      "id": "en-69aac5ace5",
+      "id": "en-e2ca3f1b35",
       "lang": "en",
-      "title": "More people are having strokes before 55. Here’s what experts know.",
-      "category": "health",
-      "published_at": "2026-11-03T16:00:54+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "More people are having strokes before 55. Here’s what experts know.",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeWc2Y0pRVHVnaTNoM1ZYOXVhbkhYdE43bkF3UlNPWEhoRTN1VDZVZ2ZRWWljODhUZlppemFVR1lQcXJTRW9pbkVGVW9DbWJHbkVtdnduWWg5TzZQbEdtSlBZd19XOTJRM19YU3pqdTRMSjVMTWdXZ0lSb2FJbVpYY1o4QXZRT2hRUlhtTHlvQV9Bem1MVGRGNmM4bE5hdU1hQ0J2WVB4QzAxSG5NclUtUEgyVFFKWUU?oc=5",
-          "publisher": "The Washington Post"
-        },
-        {
-          "title": "​Before the warning arrives: How your 30s could shape your brain health, and surprising stroke risk factors you shouldn't ignore in midlife​",
-          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNSnJCNDdqY0RYYndGVGQtRWRRUnBqUXBhQlo2aXRfMVM5WC01MlFmQlFDVzNYZkNma3J0ZnJvT3V0eGxlZURSaGxsUURPTDFwaXFmUEFRV1MxOU5GM3pQZXhKSDhZQnBKckFHRG5kNWVsRHUzTlZCMDF2c1BuWVVFUl9rOW05bThhZEdsREdhWlMyY1JKd184LXB1em1fMUtkcTJqLUM5aC1LVkxLWmpvRnFJSTdURzlDb0ZuVzgxSWRwTW5oTTdoM3g1V3hIOXJqTjkxc2hvVTNWWG1WX253eDduRWFwWjJ0NkFueVNlZm1kWk10aXJDQUZmS2pYQXU2cm5zdWtBMUlTMkRvZmVhLUJaWkFPb0pMMnlsclZwcVpRM1MzN3AtOVVKZnpjUGxrbGFHU2I2cw?oc=5",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "Stroke isn't just an older person's disease: Neurologist busts myths and shares facts about how younger adults are at risk",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPbDIxUjNaM0xfYmo1Vzhic2ZGZXFsRlhKVmE3Ylp3SXhzSDN6SENvb192OWZ1LWhvWmhLRVM3RkNjS2I5U0tGTVhMcEEwMzBLQkZsMmotMFFoalNHWEVwME1aaVBBY21ZWG5wYUpTM2NuY1V5VWU5MjZGNExISzUtZ3UyN0M5bXdtay1mWW5mbzh4c2VGQUJBSHluVDNWY1kwRENwLTVmVkF3a3BOYkNQNmlVaDVJcDlCVmVRVkladnJicy10eXRFMG1uRTF5Rm9IWGx3ZU42NjNhZnZMdC13aG5hazUxdkJ5UzJETnc1eklIVkhzX3NXV1NHcUxtY3o2aFY0bFRtajJITm04QTBvbWZKcjd3ajg?oc=5",
-          "publisher": "Hindustan Times"
-        },
-        {
-          "title": "Think you're too young for a stroke? Here's why doctors are concerned",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVjhxSGRhckUxZnh1aWxhS0N6NDVRTVZXRk1NNldncWNsblpvUkpnUFB4eDl3Q2I1TENrRTNYN1Z3Uk1Ic0gtTU9Rc1BkT0JrSHpNUXJMRW1XY3BuV2hXU0pqSnZYUnJ4N0wwWUp3ZFhJWVlpWmRxXzhZTFhNWElYWEhJbTNwUTRlV3R0SktnRUNrY3dRUV9LWWZlMzVEbHRpcFdndVZybHFQdUwwY25V0gG_AUFVX3lxTFBuOU1UR1NsTUZGWHd6bnpYSEgwWTl0QlBqT1VtS3YtajhmLXA1RFVWVEdOWHhFNU9JTm9UMHdjcTN1X3JVMGFoQ3NJY1U1SHB1YmlaVmp3LVFkYmZIR3VyWWVMaGRLM1B1YWZjSWRraHpZU1ZNTnE0aHVLYUlTeDlwNThibzd4dVJMdHpINFBFTUhEOThmcUY1V0dyMVhWUUpFbmVYdTltMHpkN1hEYkZmYzRrVTVVRVlSMzNyYVk0?oc=5",
-          "publisher": "Deccan Herald"
-        },
-        {
-          "title": "Stroke In Younger Women: Understand The Risks Across Life Stages",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcTdqZUt0cnpkZ2JDeXhzbWMyd25GTklKMVhiTVhmUTR0bGYwVi1GVEt1UENPSm9ockhJcnAtWjVCci1NNlFQU1BsNUxCQTlyM003b3hzT2RkNGFycnNCZU5hMVcwVVo2M2lzaUpjVlFST0pHbHR6dGZmVzlwR0dzckNUY19mU0tGckhFWXhTR0g3R1J4a1MyMDZ1YmhwYkZYYU9MUdIBqgFBVV95cUxNa0hVbzdpc0tqSHBjYXd4YnJRdjdvX3VFcFh2X0VsNVFSMnd0MjVlYUFQNVNxMmNnOXFKdmh5Y0JSdjh1R3NxcFpYM2pGcDQ5X3Z6T19NOVZ4UVNTbjVfZTJ2SEJaZ284TVNuYmJTalotSzRhX3ExLTlaUzRhN2JVZUxmOXNXcEstZkNVaWRRVnV4QTd2dlRUTmd1elQ0OHpvNEI4bS1ZRkMydw?oc=5",
-          "publisher": "ETV Bharat"
-        }
-      ],
-      "queued_at": "2026-11-03T16:04:47.204455+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-c65f13079a",
-      "lang": "hi",
-      "title": "'हम ट्रंप को मार डालेंगे...', तेहरान में लगे विशाल होर्डिंग से ईरान की खुली धमकी!",
+      "title": "US midterm elections 2026 Live: Blue wave batters Trump, Democrats set to control US House, Senate",
       "category": "world",
-      "published_at": "2026-11-03T21:23:37+00:00",
-      "summary": "AajTak: 'हम ट्रंप को मार डालेंगे...', तेहरान में लगे विशाल होर्डिंग से ईरान की खुली धमकी!\n\nHindustan: परमाणु अप्रसार व्यवस्था के लिए अमेरिका सबसे बड़ा खतरा : ईरान, International Hindi News\n\nLokmat News Hindi: ईरान की खाड़ी देशों से अपील: अमेरिकी सैन्य ठिकाने बंद करें, आपसी भरोसे से बनेगी शांति\n\nBharat Samachar: 'अमेरिका न्यूक्लियर नॉन – प्रोलिफरेशन के लिए सबसे बड़ा खतरा...' ईरान के तीखे तेवर, ट्रम्प के बयानों पर किया पलटवार\n\nPars Today: अल – बरादेई: \"मूर्ख\" ट्रंप को फ़िर से युद्ध – भड़काने से रोको",
-      "sources": [
-        {
-          "title": "'हम ट्रंप को मार डालेंगे...', तेहरान में लगे विशाल होर्डिंग से ईरान की खुली धमकी!",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTWxDRHB0QXV6Tm9QVjFOa3Q5WExWZTZLcFNFUnh3eEUyazQzbENtTW5CQm1sa0FNdFFQdFlXaWFHOVZ5VXdDV3Q5dW45V3JOMFdmQmN3cnZ1MGNMbEZ4T0pkMTZUYmFEbGhCSDY4LUtKRVlDYjBIV0tkSldHYk0tVXRBYW9fdHdhbHBmUldfSGNsLS1YelZOZlJyRUczcjZ3Z3ZvUkRvX1hPcXZ3R0FjU2htNVNqTEdPaFUxMXExZGFFTXk2dUhJcXRxczlUU242b1FoLXVQY1VXLTJacEHSAeMBQVVfeXFMTjgxeEJEdG00TjhCLTRjVzJMaXNQTVhmRDZBYlZhdTR3ZE00U29WTVhyWjJTT0hmNnRYVDJaOVRnenBabGU3NGJEakNQdGxGdmU4cWZEZUhCX0tNUmQzSDdjaktyLWR0Yl85cEU2OFQ0QXZ5WXRmbm4ydFpMS0dTazAyU001QmR1dENvSVFEWUlWNUs5Um5XWFRyY0VrOFo4LWtNNVNvdWZGNHotMHFYclZqTVBISVFBaklNN0cxMXBhcXJjX2pzMk9kd3p0RUVCMXpfNXFFbWlkX3NxT2RybWZrdW8?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "परमाणु अप्रसार व्यवस्था के लिए अमेरिका सबसे बड़ा खतरा : ईरान, International Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOHBvZ1MzU2NYd2g3RG9hZ0VzMWwtbDFtYmRvUW5CVFVuZ2tEOVZwZ1F3b0stUkpqX3NpbjNKOVZjWjZBQVh0ZHRNalJYa3ZSUmxfdVZMY2hJV3U1dEpRYzlnRDlpWnN4YlI5cHRfMzR4bUZxQXlhT1dQZm5QalZYQXJ3V0h6OExFVENMc1J5TlJUMVZSQnVhVzFNSmRveXdodlBkdmRkRE9xQkNldmlkYVl6VTZNRTAyaEY0ZDdvR09xbmNrWjZFQl9SSjRGRHZGNUd3UHc2bW44QQ?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "ईरान की खाड़ी देशों से अपील: अमेरिकी सैन्य ठिकाने बंद करें, आपसी भरोसे से बनेगी शांति",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTHFfc082Y3pLeHRWeVpfNW9iZUkxVnBpSWhUeWxBdTd4Qk9PNXFTZEhHajZjMzRXTnlSVF9sNFdCVmRrS19ld2tWRjlqZ3BCNkZlSXoxX2NzUEQ4NTZ2dzJyWXZ0Q2VDWUdkRGRQb0ZURGlvVmdSSWctTUVZZXhVc1JBUkpCNGdtLWpOSW10WEgyckZ4cTJnWG1LNFFZNi1hN1lsaGcwUkgtWjFvc3JONWxrTmRzcjZ4eEYtenF6RmlYdUgw0gHKAUFVX3lxTFBxbC1PSWZaWDBGOEpiZUZ3ZzEtWE5PY2VBQTFxYUNpRVFxd1RINF9uSlVrWmp0XzFvMGt2cVFrTmlLc0NEZnF3dHFkMl8yanZYRnJnYno4NXdySFZ0TkFib1gyNzBtWjVQQlFIWEhmUXdCTGo4VW5tYWh6U28wNkRoT2U5cjhpNFdlai1YUFFiREFsSVI2R2tHOWI3bjMzakFsRktZX1BBSDhQc2V2TUs0Ti1kYXRVa1VLZzNZQWtlRGdjVDl4XzdPZlE?oc=5",
-          "publisher": "Lokmat News Hindi"
-        },
-        {
-          "title": "'अमेरिका न्यूक्लियर नॉन-प्रोलिफरेशन के लिए सबसे बड़ा खतरा...' ईरान के तीखे तेवर, ट्रम्प के बयानों पर किया पलटवार",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOExOQUlKTVp0S3lYUFg3RDBfVVlLRDVRT3F2cHk4ZndQWjg0Q29pbXpaa2JfTEpfa0VHLWVSS2ZaN2l3cE9CQkZac2VObzZ6S0pTWlJKTzZBV19GV2FfbFYzYXNlVDRCWG1KRmF5ZDh1di04MTNXYTRoQUhvVHNOQVMxSVJ1eWtiNWsycXlueEVteDhyS1c2YVMwT09IUFJIdXBpQ09tVk1RSENuYjhKSEt0eDBFUUFFSVFhUlB6eWtRMkRUOG5EamZ3ZUY0Sm8?oc=5",
-          "publisher": "Bharat Samachar"
-        },
-        {
-          "title": "अल-बरादेई: \"मूर्ख\" ट्रंप को फ़िर से युद्ध-भड़काने से रोको",
-          "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxPbWN0dHFVWHJsSG9tTWt0dTY3YW4wOGJSbkptcktFVHluVG9fbUdzNWg3OVdTbVZwRlVrcmtFdEd6cWpXaXpfZmxKVFZPRllkV3BCTGRHTjA0VUotNjZydkJGTXZzQ2g3cEliNy1MR3BsMVY3NUIyTTNHbjdOSGdJTThRellJamxZOGE3X3hfRExuTjVkZ2FoMmp2RVdfTm5nVTh6LVprVkNnRFNLWWtVdHM3cGRIUnRSUlFoRk5Ndk9uM2JBbENaamtXWVZPR09rdjBQMmRHOFE0bmxQeTVqM2h3djhSVlZSMzV4em4zUklQNFJiaVRXaGJwa2JnTVBZTGlRdDVGYmJRb1hva1IyZGwyNjJWSDZQSG85WEN1LWdOYlZvYlRteERuMEJGeExBcHFSUExDY2lJX2d0QjZxcWV5Q0tSUk95UGtESlRtSng3RGNVc2FGMVB1RFZ0Y1g5RC1QVnhMUmE1LVMyWFJ1cDl6bm5RaHNGZnBfUFVycjA1SXVtaWlFZzdpclhrZmJENkVTSWcxYUF4SjBiRXNUNWxDQkhjNVFyNno2SFVuLWJDV2pOQVplTGR3VXZwUzlNXzZPSF93UWQzZ0JjVFR6a3Y5eUdGNVFlVHpZbnRZRjdMM29QOTVkUU9XTHhRR3RuWnAtRHdJb0VkaXIzTEJxMHo4RzVNTElqNGtVVTIyYnpoczI0V2tYODh1X3E1VTNyU0pxenNXdEluQmU2RmcwdGlXZzBPbHlQTWtEaUt0WkhvVEtzY19tMFIzc2RDV2VWMUYzMnZZQlY3bEJqbmQ1YW5MSXdvN2NYeXhoVW5YTXpBVWM?oc=5",
-          "publisher": "Pars Today"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-c418ce5be2",
-      "lang": "hi",
-      "title": "तुषार कपूर से धमकाकर मांगे ₹5 करोड़: लॉरेंस गैंग के हैरी बॉक्सर के नाम से आया फोन, जांच में आवाज फर्जी निकली",
-      "category": "entertainment",
-      "published_at": "2026-11-03T20:40:02+00:00",
-      "summary": "Dainik Bhaskar: तुषार कपूर से धमकाकर मांगे ₹5 करोड़: लॉरेंस गैंग के हैरी बॉक्सर के नाम से आया फोन, जांच में आवाज फर्जी निकली\n\nAajTak: एक्टर तुषार कपूर से बिश्नोई गैंग के नाम पर मांगी 5 करोड़ की रंगदारी, हैरी बॉक्सर की आवाज से मैच नहीं हुआ ऑडियो\n\nIndia TV Hindi: तुषार कपूर से मांगी गई ₹5 करोड़ की फिरौती, फोन करने वाले ने खुद को लॉरेंस बिश्नोई गैंग का सदस्य 'हैरी बॉक्स\n\nNews18 Hindi: तुषार कपूर से पहले बहन एकता कपूर को भी मिल चुकी है धमकी, 1 शो बना था वजह, TV क्वीन पर FIR तक हुई थी दर्ज\n\nJagran: लॉरेंस गैंग का नया टारगेट Tusshar Kapoor, 'गोलमाल' एक्टर से मांगी गई 5 करोड़ की रंगदारी; पुलिस केस दर्ज",
-      "sources": [
-        {
-          "title": "तुषार कपूर से धमकाकर मांगे ₹5 करोड़: लॉरेंस गैंग के हैरी बॉक्सर के नाम से आया फोन, जांच में आवाज फर्जी निकली",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdnJNV2V0TE1ac21ab3pncjUta3lUSHRidEtEcmpvUWlhaXU0UDBkV3k0QUFUYWVIV2xaRmpUREFYQzlaUENZeFR5VlBKSlJia3JVc2JlakhDZTJIZ3I4cDlmY3ZqYnRhUGRaMThDTkdnTDd4bTh6d3lqekdZTUdIMktDREV6TndLTGVET2pnbmp5cmt6Uk9tT3RyN2ZDQmJ3UC1rREdqOFc3QWkwSm9kNkN2dFFLVWIzOTU3ejY3MjRhREI2OUJjdWlPUdIB0AFBVV95cUxOQzhXc1FvOHlzdUV0REFCUTRBdnVZTVUtQmRXVG5LNEFsdmpuU21UdTFMekRsQndwSjhidUliYnR5Ri1YdkFBQ0IxZ2YwRFBoa04zTjNCbTRGLTNsUndWVnV2a0N3c2FBSFhYNTlreFhsMmpLbzFJM0FPQVVtai0xRm9ENldwdlhscDIzS3NwVEthT2dKTVgxdmUxZTBaYjdDbHZpT09Xekc2aFcyeFdLRmR3aFBkckpyNUM1Z19kTllsMFBLZ0VUQ0dlLU9YSkFI?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "एक्टर तुषार कपूर से बिश्नोई गैंग के नाम पर मांगी 5 करोड़ की रंगदारी, हैरी बॉक्सर की आवाज से मैच नहीं हुआ ऑडियो",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNVXFGZXZnQThlcDdLODJCeFFKdUdWVklOcmlNZFRabTg2bWQzNHMzVmN1TEQxX0stWXdIRVN6NDE2TWVDbHBteDVuYU5BX0R5YmZza1lCcmh4RkZYRmN6NEk3Ukl1MlNvcXRNVWh0NkdFTFExQzhhZEhUWWlCRVNleUFlRHhDWFl4WTVRQTVCalh2UjVUTDE4eWVURV9qNVdDVUZaTjFZa0xHcTJXekdhZ2VsN1lGWmhiSWdlUzhYWUZ5SlhRQ1M0UlJSSExQODVpN0FVdHpjVF9PUjd4YTNVdXpoOWszU1JiMHR2ZkE3c1pxV3ROWW80QXBFenp3eHFZ0gGGAkFVX3lxTE1jaXl3VUgxSmU1aVlHSk5qS29HSG83QXc0M0dMWUNSbWlGOVg5c3lickRFWVc2SGVwem5MU0VPZHdOYTlmOWd0bmdJUTJtb1dIb09NU19md1BqTFNDcFRPNnRVZGVOY094UHY0V0VBbHRWTmdONjVfYV9JZTlQelZtekxCQmd1djlTdldjdVljN3BpaG5pSVFlYVNYdlFvZUdtbWpnOFVqWVVRVlVSbWlCUVNwaVY5S2s1X3V6VUE3SG5QTElTdDZTZHB5RXItaFI0UG9RZVpsN0wzSFpJMXhaR1pRMjVPN1R1QlFUTy1qNWNTR1lUbUY0b3hUUy1rTjUtVEw1MWc?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "तुषार कपूर से मांगी गई ₹5 करोड़ की फिरौती, फोन करने वाले ने खुद को लॉरेंस बिश्नोई गैंग का सदस्य 'हैरी बॉक्स",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPTGkxTnVPNzhZemNWaURUTkNyZHNBaXN6M0tHbGxiNWYwMVY4Y2g5a2VYYlR0Um1Dejd2NW5McGxta1J0LU5ySGN3MEJDREt0cUVhZFlZTVNCb3poVjhJRjZsX3hjbmtYVXRxMnJOQW40aTVTQW1GSkpBVzNZX1NDYTVZY24zdXlZb0xteC1idTFpeGZ5OHpLbnlXNnRaQTl2cHZaMDJGWl9QZmNPNGdNUWVxeF9zNEV2dUFUMzFjR0w5YmpMSnBLY28wQm9HV1FzODhpMDd1M3YtWVBOYTNaLXpUTWhNM2VUVzFDVllwOEUwS2hvUkE0RlE3N3dOYUo4SHNZLQ?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "तुषार कपूर से पहले बहन एकता कपूर को भी मिल चुकी है धमकी, 1 शो बना था वजह, TV क्वीन पर FIR तक हुई थी दर्ज",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeC1iNnpLVVJvVEhWVWMzeC16UEZoREt3RTVXN05nbUZDTXR2VkNxVHRrRTB4a19UV0Z5SDEwd0ZaSDc5RldzZF9BcGZYRG03MVpjMjBXNWRVV20xU3dHRE5KeVRlRmZ5Y0pnVzBwMVVCamlIYmhZbnFJMERsb3Qyb0FZaThPTDlPNWZWZkREX0g4VEJTcFhSZ0FIRmtqV01qeVZkVTctNnVmWlc5VWRZTmtORm9VaEJROGFOMXhveTE1UFhEcllLZEpwOE90UU95UnE2c2N1ZUdBMXhfYWc5YlU0YXk5VERGMVRQbWY5dzgydXMtZjdyRg?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "लॉरेंस गैंग का नया टारगेट Tusshar Kapoor, 'गोलमाल' एक्टर से मांगी गई 5 करोड़ की रंगदारी; पुलिस केस दर्ज",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbW1xR3hiR2oydHFGY3QxRk5FNF8tZFdtZ1h2dzRDcFE1R3FrRFByRlBZTWlZU3NuNC1UcnZTR2ZqUE5Kd1VDM2ZrQzQ4UFkydXR3MU9PbzN4OEtncXQwcVFNcm45RHpNODB4NW5nOTZFN241Z0tHWUotMTRjZnEzWHcwQVQxbm5Db0RvbXZPMDhIcEc1amh5WnNOQl9TWlN4OXdGVjA3Y3RtOG1iV3BLUFNhOVN4RHBBVExtTjJjTDM1dHp5d2R1X3R2d3ZrU19pdERtREJFMU1MZ3FQbEs1NTFGNE1jcXQ4c3A1Sw?oc=5",
-          "publisher": "Jagran"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-637c7be9a5",
-      "lang": "hi",
-      "title": "दिल्ली के ACP मनस्वी वशिष्ठ सस्पेंड: पुलिस हेडक्वार्टर के बाहर कल प्रदर्शन किया था; वकील से विवाद के बाद ट्...",
-      "category": "india",
-      "published_at": "2026-11-03T20:17:35+00:00",
-      "summary": "Dainik Bhaskar: दिल्ली के ACP मनस्वी वशिष्ठ सस्पेंड: पुलिस हेडक्वार्टर के बाहर कल प्रदर्शन किया था; वकील से विवाद के बाद ट्...\n\nBBC: दिल्ली पुलिस के ख़िलाफ़ अपने ही अधिकारियों का विरोध प्रदर्शन, नेहा बोरा ने की ये टिप्पणी\n\nAajTak: फैक्ट चेक: ‘दिल्ली पुलिस बनाम दिल्ली पुलिस’ का नहीं है ये वीडियो, ये गुजरात की घटना है\n\nJagran: 'मुझे सस्पेंड करने का फैसला बिल्कुल सही', निलंबन के बाद ACP मनस्वी वशिष्ठ का पहला बयान वायरल\n\nHindustan: 'हमें दी AK – 47 इस्तेमाल करने की धमकी', दिल्ली पुलिस के अधिकारी के खिलाफ HC पहुंचे वकील, कर दी इस बात की मांग",
-      "sources": [
-        {
-          "title": "दिल्ली के ACP मनस्वी वशिष्ठ सस्पेंड: पुलिस हेडक्वार्टर के बाहर कल प्रदर्शन किया था; वकील से विवाद के बाद ट्...",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObTNZdy0tVTVaV0tST3o4MW9mLS1WSDN5ZnJ5OXZtOG1mbkF6TFhicjkxalY0Nm1IT1ZRZDRxUFh5aFl1MHZFRXQ2TWFtZVJGOEQyaXNnaUtzSWszaFBiV3NveEdrNklzbFI5Y0o4TW9xUHY4QmxRNXJvdWttNzBzNDNkU19YVEhUSUc0THJZSGoxTmxuQzBpc2tnejhCWENaNmowWmxwTmJ3ZC1oc3FLWXRaN0dxdFgwdEIwaw?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "दिल्ली पुलिस के ख़िलाफ़ अपने ही अधिकारियों का विरोध प्रदर्शन, नेहा बोरा ने की ये टिप्पणी",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0MnJVcTE3SnkyaTdsMU1ZV0R3NWFHLXN6bUNJWWY3WkJELXUzWW14eWdJMkZsY2YyNEtyOHZwMlBpUEFpb0xMQWlCMHpJQWVCcVVsLVM5VmVGVlNE?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "फैक्ट चेक: ‘दिल्ली पुलिस बनाम दिल्ली पुलिस’ का नहीं है ये वीडियो, ये गुजरात की घटना है",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLUp5bnprRVg5bWFLZHRIeThxNmY5bXdnWnRtb3VjUmpEVWE4eHJhZkI4Mms1TGdTVXdDVHRrLVZNaWFBV3dqczhlUl9DR3ZFSXcyeWJwYl9vcDBrQzJ4MGlVQmszZ2lUaEdxSW45Vm1mZkd0WURvNTlqVVBIR3NKTGJ6clRpSWNWZW9xa3otMmRycERUZVVtTmJHVVFVejlidTR0OUI5XzluN2RZb1AwT3YyejhOZUdEbU1FX1F0RklaYzRPOUU2bHgtWVdjeWNQaHfSAdcBQVVfeXFMTnZtSFN0QzJ2OU15bnl2dlJHVldLTjZzemZuTWIyZlJBZ00tS2hsRUxEWlV4Q0ZGNDYwSk9HU0xFYS1SOURtVjFVYXR5TEVXSjVxbkJ4ZlUwMWUyeWJJWHdkaGRFTkNRUEV6cDBUcEx3dldER0tMeS1RMGc2ZjFpeS1Icnk4bmZRV29HbmVDTVFySHF2dEd4cVZ6dE9jN3JpelBXdFFxNUZxNW9jVHFIdjZIU05SczlHMHhSU0l2R0NxcUt2NXF1Xy0xMC1heVRXRXphZDRtMFE?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "'मुझे सस्पेंड करने का फैसला बिल्कुल सही', निलंबन के बाद ACP मनस्वी वशिष्ठ का पहला बयान वायरल",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSExHRmVWc1NWcy1ZekQ1b2ZCc0syNGxXdDluUnVQNDNLOV92VjNrNkVYVjVya2hfSXFoSE5uNXlBRFp6UkR1cWRKRkVVcHBUT2U3eVZnWThDTVJERmNDeWJZcFpRWEhJYnQwOEcyMkE2SkM4MXRWaDBRMWd0bFB3M3dVd2tOVkMtYk4zR3lWZEpWUlZ6N0RVeGVCZTV4S3pnaURES2VEaWFSRE1vY0NCamZHeG9ZVlA4WUN3OUZ6WlhZSXNvbExpSjQ2V3A5Mk1uOGQ1cXdZcDdVblV5X0lGdFRRUQ?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "'हमें दी AK-47 इस्तेमाल करने की धमकी', दिल्ली पुलिस के अधिकारी के खिलाफ HC पहुंचे वकील, कर दी इस बात की मांग",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbFF5RUJvX3NNazYxdXZBQjdJRHJIUVBsUWhhTVE3d1A4Q0dGbnQxWnE2bnJ1V2c0dGMtWm5qWGNjZ2trWmJmdllQMG1LbWptZU9ROWRudjQxa0dmWm9KeWNPV0VqTXF6VE9XMDJmaVFMYnpIcWJaYWxURXlHQzNldXA5cnpYNm5FMElhajBQNHZSUXRBUFZPTG9GT0wzX1dCbU5BOU5TbkFJSjZ1TU0xZ1F1MXIwc3h4TTc3dEh5ZGZJQkpzeXMzMnVZY2tmWHd6UUJiQg?oc=5",
-          "publisher": "Hindustan"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-b26903be16",
-      "lang": "hi",
-      "title": "US Midterm Elections 2026 Live: सर्वे में पिछड़े ट्रंप, अमेरिका में मिडटर्म चुनाव के लिए वोटिंग जारी, कब आए",
-      "category": "world",
-      "published_at": "2026-11-03T18:37:53+00:00",
-      "summary": "India TV Hindi: US Midterm Elections 2026 Live: सर्वे में पिछड़े ट्रंप, अमेरिका में मिडटर्म चुनाव के लिए वोटिंग जारी, कब आए\n\nBBC: दिनभर: पूरा दिन,पूरी ख़बर (Dinbhar) US Midterm Elections पर भारत की नज़र क्यो\n\nAajTak: अमेरिका में मिडटर्म इलेक्शन की वोटिंग जारी, तीन सर्वे में पिछड़ी ट्रंप की पार्टी, 470 सीटों पर है टक्कर\n\nHindustan: ट्रंप के लिए सबसे बड़ा इम्तिहान: US में मिडटर्म चुनाव की वोटिंग जारी, हार गए तो क्या असर?, International Hindi News\n\nJagran: US मिडटर्म चुनाव रिजल्ट: ट्रंप की नीतियों पर जनता की मुहर या नाराजगी? आज नतीजों में सब होगा क्लियर",
-      "sources": [
-        {
-          "title": "US Midterm Elections 2026 Live: सर्वे में पिछड़े ट्रंप, अमेरिका में मिडटर्म चुनाव के लिए वोटिंग जारी, कब आए",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYW5Jc1JVcklBN3c0T2V0VmxVdV9ldHJQOTVwbzlfQ1VQYW5lUi1fMDc1Rzl0eHQ2SDRjd2VqbXhWYlFVZGgxOTdhZVBidFpmeWRqbnZKdVNxMXJRVzlobk9fQnpESVFlR1hMV3o4akJ1LVNTeXN5REx3VDJlbS1tM0Rzc3czSkNfaTlwZmdHd0hldWIyTm5aUzY0Z0NXN0lsMGZMVzVyMWpJc0EwVmJLMDNYbWlEbUtPN2FKeGdsM3Z5ZXpFSnNLQUNaejNsQQ?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "दिनभर: पूरा दिन,पूरी ख़बर (Dinbhar) US Midterm Elections पर भारत की नज़र क्यो",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiQUtRb3dVS0dFN3VrR1BDOVU3OVNpQkE4cEgxS1ljN2N5UlR1d0syM0p4cjRnMjNhR0ZsT3NrbVJ1SWxLN19yOC1TeWRDdnRjWTFqUU4tanJoVHFjM0tsSURB?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "अमेरिका में मिडटर्म इलेक्शन की वोटिंग जारी, तीन सर्वे में पिछड़ी ट्रंप की पार्टी, 470 सीटों पर है टक्कर",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObUVyd18xalVEME9MbnVObGFfeXR5eFhlVEFkLUFPTVRhbEN4ejhPWDFIbW1nQklxRDFqb1NVWnF2WERpdjgzcWZkNkRWWnBFRkk4NFJJeHYwUkdxVVdnQjBkLUFZZ3hNaU51WHBzOUw1SHRUZm9abk9DOG90dUIyYzdDeF9YV0txYjN6aFRkRFhBdTAzamhFOE5NXzYxaFNGYmRaY1I4Y19QQ3R0ZENiQTZhNks0VFZJRVNyajVIc1prNjR6eXBGbWwtY2c1bXRZMk9POWpVMmNOMUE?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "ट्रंप के लिए सबसे बड़ा इम्तिहान: US में मिडटर्म चुनाव की वोटिंग जारी, हार गए तो क्या असर?, International Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPLVlNT24xdWdMQk5VX0xQUXc0d2E3dmpVN2pqdGcyeTBHZ2lHbkFtN05CblM5N3FQbkhvaUFqRThUSWplMmR3dmtQRDRGdUkyQk9nNm9CVFpTWXEwcjhQaktBbFFqMlpWQUw3VnRVX1ZWV1FDS0EwUHlid3pFYTh5NHVJazdXb2R5UTZ1Wnk4WnhVU2Q1QjNkc25GOUZOcmxZZFByXzBtMU5DV2xLc3NOREl1S0VTMEdwdFZkSEg4TnJwUzV3VFdnSWljZUdnbG1wdFNJazFLZXlxM3F0bVJBRzFKaENHaVM4VEcxS0dKY1R5dw?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "US मिडटर्म चुनाव रिजल्ट: ट्रंप की नीतियों पर जनता की मुहर या नाराजगी? आज नतीजों में सब होगा क्लियर",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQVJOSDIzdW5SWXhpa3dRNjVuYlMyUmZnLUlUcU5tOG1wWGNwWjBnbmVnNzNTSGpVVWhnaTVHUXlHdmRKTzJUVWk0elNYMjdpTFlXSThTWjJYaEwyY09Tb3NNR0JDc2R5d1V6Sl9nM19IYnZhX015OEN6MGxhVjc0Um5ZWmE3cWJZbU41alR6bENBYmhBM3pVZ0F0aTN1VWU3UEdQcGtVVEFSZmFqWWE1WVBDeXRDY2tRNzJvV1FKQnhUcGk1T0hHaG5xWGZUN0czWjNreG83NzE?oc=5",
-          "publisher": "Jagran"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-7d1dc6c084",
-      "lang": "hi",
-      "title": "पृथ्वी की ओर लौट रहा NASA का 1.5 टन का टेलीस्कोप, मुंबई-हैदराबाद समेत भारत के कई शहरों में मलबा गिरने का खतरा",
-      "category": "science",
-      "published_at": "2026-11-03T17:53:07+00:00",
-      "summary": "NDTV India: पृथ्वी की ओर लौट रहा NASA का 1.5 टन का टेलीस्कोप, मुंबई – हैदराबाद समेत भारत के कई शहरों में मलबा गिरने का खतरा\n\nAajTak: NASA का रेस्क्यू मिशन फेल, 6 को धरती पर गिरेगा Swift टेलिस्कोप\n\nNews18 Hindi: स्पेस से गिरने जा रहा 1100 किलो का दानव, धरती से टकराते ही बन जाएगा आग का गोला\n\nNewsBytes: हबल टेलीस्कोप को बचाने के लिए नासा को निजी कंपनियों की जरूरत क्यों पड़ रही?\n\nHindustan: नासा का स्विफ्ट टेलीस्कोप जल्द धरती पर गिरेगा, International Hindi News",
-      "sources": [
-        {
-          "title": "पृथ्वी की ओर लौट रहा NASA का 1.5 टन का टेलीस्कोप, मुंबई-हैदराबाद समेत भारत के कई शहरों में मलबा गिरने का खतरा",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQ1VlOU0wMmRVdXdPTlg1T09sN1hVZ2J3RGk4dmVDZ2t2cWxEdXNySDgyV05kMDJWRFBfYkk3NDNBTW1oaXY4SkxiVmRiRVBibEhhcVQ2amJDbnFGUVAyN1JQek5PNWtXQlFOTmN6QU5ibXY3a3BncGdubzg5RGVpakpISm0wbGtXU0lULTBjRk9FMF9MVnRMMTVpQ29HYUdXTU0ySjUzbjBXVnZVUGtUNjh5b2xlcEhGTmROcHpPRnhYaHBSNHcyVVRIZnFreXMtNjdUZ3Z0bFc?oc=5",
-          "publisher": "NDTV India"
-        },
-        {
-          "title": "NASA का रेस्क्यू मिशन फेल, 6 को धरती पर गिरेगा Swift टेलिस्कोप",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNc0x6a0hOTUdSdExlQVR5cDlJMmRnYnVZZjZvQy1ETWtJMWNsSHpONnZKSGliYWNsN3JuSXZDb0lscU1KRW9LOW95TjAxNWExajY1cGZNdVN2ajdpU0F3OFFxMUQyeHhtN1ltV2tCRmhodVg4SXR1eGl1QTQzWWo2RFpYbHJhOHR1SmhrZ3l5TGE0ZzZDSEc1b2w1Um1pUkZPU0RzNlhFQ1dpdVhnUUo1aW55eGdGWVpFbFdHbWRxWdIBxAFBVV95cUxQZExMTEdGM1d1YlZkMU1Bd3pJQ25WazFMNnVTU2ZXd0RhWFdtZGMtQnQyNUZ1cmxMOHVtQWxnc3pOWjAyQTV3em1FaHNXX25vaGtscGdtdk03ODRGNFl0QkhvZzRicWdQOWNqMElGNUFxMC1ZaDc2MXdzYU9FcEZsRWVLYUJzNGtUVVlkY3NGWmp5Qmd4NE5kUFFxZVM1eHowajVxU1VlU2UybFpvV0dubzZWZm93STFIdVhKQXMxbFhfUmRV?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "स्पेस से गिरने जा रहा 1100 किलो का दानव, धरती से टकराते ही बन जाएगा आग का गोला",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLUtwV1BDMXI1RU9FVl9aRC1OT3cwRmVSeFdvdDNYTWFaRHRMakxJaDREelNHTGNOVHdyM3c3YkxVblFJdVBOZmh0VDlqREFSY1M1ZnBuUVQ3U243Y0RMelBoZjhxZ1R0TE9DTktUejI3QlRxR2dtZTRkenhXQzdXTkxVbDlOZFJLMzV6X2V5S1A3NlFncDhycGpxZG0xN1ZSM3dpZmlEUThldm8wd3M1eGNjSnBSanBxbGM3OUJxZ29md1BocFNfblk0aw?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "हबल टेलीस्कोप को बचाने के लिए नासा को निजी कंपनियों की जरूरत क्यों पड़ रही?",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTEVEVEZPdUltMkpmS2V2aE5uaEE0SVVLX0VPTVJVSjdvVDNNZGJLbHZVOXlQdi13N3VUS2tOTGFDQVBHYjZtMnR5Mm9CbXJlekpPY3ZodEhQa1ltekFEUlFydDNDR2NodWpSOEtFUTZuR0R2dmRoR3J1WTVqNEQ1VC1rWDBkY2NDUFBCX3ZDMHF2WHQ4VFFabldWMG5LYlZ2R1J2UC1ORjVEOHhzQnNlUlpqcUpIdw?oc=5",
-          "publisher": "NewsBytes"
-        },
-        {
-          "title": "नासा का स्विफ्ट टेलीस्कोप जल्द धरती पर गिरेगा, International Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM25IaE1CNF9FampOdDhrcEZDY1FXc0ZISDFaeXBLZkF5SV9GQlJNa0FhTl9NRG1qd19oMlJCdHFNVnFhTmMxVHRVYmRCazhiRWRYbEI1a1ZyZG9pNkxWX2pJYmxwTjFRRjB5cVh5cGpxZGJLZGhDS3NIN0ZWSlhVTHlxSDhUYWJRMDZGd19MYzFSZDNxX2tmM2dmRkc1MVhwcEItMXFDY0tOZHhMcFJrWE8xdUxDQ0ZMX0sxakxvQW9vcVI5b3d2NTc1cTdNUmc5UlZvNE9mR18?oc=5",
-          "publisher": "Hindustan"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-9098f9967a",
-      "lang": "en",
-      "title": "NASA asks industry for ideas about saving Hubble Space Telescope",
-      "category": "science",
-      "published_at": "2026-11-03T22:00:00+00:00",
+      "published_at": "2026-11-04T05:40:08+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "NASA asks industry for ideas about saving Hubble Space Telescope",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVDVJaS1CSnR4czBnUThSQ01FYWlPcUNGOFV0dUZKeTFiSUdQTXBuZlk0VUM0R1ZGTG14Wkdxc1A2UDdPUXBVdWFtbENpTDVuaDhPNjJOUm5kb2pmVVlOSjRXTDEtRFV4ZTY3SDFlbFA4Ukl5Q1Z5MjRya0pKUGM1czNSSjNEWUJNVWttZ2VQQ0JxWm1IZFBqVlN2TE85MTZUelVwc0oyRzNVZVM1SWlQdGR4WEptWTJLTE04?oc=5",
-          "publisher": "Space"
-        },
-        {
-          "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMFlBZWRXVXR5UF9wbkJBbjl3dk95bFRqMXByVGFBSkZHak1ndFpFTXpxaDgzRm4wZENsUlI0dGZSS1JNSjRSY1lwQjRpbjZ3RXFBZjNqSFVDZG9iWkM5TklhdFAzWnlQbGNNRVYtTWtBOS1pWU5SLW5WbW1DSmx3cFZIdnpIZnlkdGE0UnhOaGJZemlaSUk0WGFtcUQ4VGxoUTR2OW5HQllmd2s?oc=5",
-          "publisher": "NASA Science (.gov)"
-        },
-        {
-          "title": "NASA reaches out to commercial space industry for help saving legendary Hubble Space Telescope",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV3M3dWprWXlwLTNTTjNCVHA0aGg4YVBBckFIM1cxUXNsTE1UR3VabXNzZXI5RkxkdllSQkdUOE1mYV9lbmpDOEpVYWQwVmRMUHBKZ3l6QTFEcDNTeVEwZUdFMjVUY1VCOC11akFGeXBFMVRzUllORnpHOEVJNHF4NU1UVGRBd0NlbDgzekxfOTZCOXZ6Q29ud1NaczU0MmJwWFE?oc=5",
-          "publisher": "Mashable"
-        },
-        {
-          "title": "NASA ponders a Hubble servicing mission or a controlled deorbit",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT05pVmU5c01SbFduVXEzYmY4MnhpRE50Ry0xckhXRUN1VWpOOVZ3aVlyNW5EWEJoWV9KOGh2NnFTeDNkUUcwcDZwWWtlSHhJTk1qbmRfcXBoOXBLaG1aMkxGMGIwd0dBNnNkVGNIRFM3czU4TDBUSGZpU3lGMFRqV2luTEpQV2pPY1d2ampWWVI5V1JnTFp6MzRlZDBGOTRQYW82WU1EaDlaWDhWSUdiZTlvWGtKRzlDdEE?oc=5",
-          "publisher": "The Register"
-        },
-        {
-          "title": "NASA turns to private companies to save the Hubble",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOREVSdk9CbkJsM0VhXzhaUzIxVlRGQl80ZG9uQjlETndYS3dpTDd0WHpJQmszbl9HVGtvQWxRQUxpQ0Jha0N1OEQ4aEpPMUhXMm1NUmg0WVZ1T2tFQnFxZzRnb21UcWtKWG5KMWZFaG83ZGFfajNGdGpmRHZ4WmNNT1RNdGsxcDM1Y25J?oc=5",
-          "publisher": "Universe Space Tech"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-725de68714",
-      "lang": "en",
-      "title": "100% passes, 3 duels won, 1 assist: Shea Lacey puts Carrick on notice with explosive cameo in sensational comeback",
-      "category": "trending",
-      "published_at": "2026-11-03T22:00:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "100% passes, 3 duels won, 1 assist: Shea Lacey puts Carrick on notice with explosive cameo in sensational comeback",
-          "url": "https://thepeoplesperson.com/2026/11/03/man-uniteds-shea-lacey-dazzles-in-comeback-vs-as-roma-321188/",
-          "publisher": "The Peoples Person"
-        },
-        {
-          "title": "Man Utd fans demand underused star starts every week after stunning comeback against Roma",
-          "url": "https://www.sportbible.com/football/football-news/man-utd/roma-champions-league-win-player-underused-star-551184-20261103",
-          "publisher": "SPORTbible"
-        },
-        {
-          "title": "3 duels, 2 take-ons: ‘Superb’ Man Utd whiz simply has to start vs Villa after ‘game-changing’ impact",
-          "url": "https://sports.yahoo.com/articles/3-duels-2-ons-superb-000000802.html",
-          "publisher": "Yahoo Sports"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-2c4f5c15f4",
-      "lang": "hi",
-      "title": "PM मोदी को राहुल गांधी की खुली चुनौती; राजनाथ से योगी तक..., जनता से पूछे 2 सवाल",
-      "category": "india",
-      "published_at": "2026-11-03T17:20:52+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "PM मोदी को राहुल गांधी की खुली चुनौती; राजनाथ से योगी तक..., जनता से पूछे 2 सवाल",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQc29BSXh0Y1Z5YVZYekI4NTA0bWQwTFRzR05YWDJDVWNvaUxiRGhNeFh6Wm9fWktjOENzNkdSN0xSRnZ5UEJCaVBBMjJZaTY1eVllaURRYzdTSTBpSG9KcHNFMk1tYVNGelBtS2VvYVdmSWc4ZnU4bEY0X282MHhZSWV0ZlhKVmdpUHFrZFBTcFFBR1BkbmdIekVEMVRBSkNVT3QxQ01GMmdXTVp5ZklJekxKYnJDSkdqMUk0Tjh1T3ZIOUlGdE1CTENJZlJmemFMR2pyOWVrTnVOZl9kRjFCTXVQUU1nUElkSlJPOGY4WnV4Qm9MSGNoYUh30gH_AUFVX3lxTE9kTFdqbWZ4OHQ2bTBHeTBWeDhqQ0k1djlNd2VRUkVuN2NTeGZGQURvSWpNcVpXWTRYWnk4UThoT2ZZeU0tUmowMmk1a3o1SXZJQmpxYkJ4Y013TjBNQjZPZ0RKdDJWb2lVU3k3NjRVMlFmNC16UjBYSS1sOFZMYWZRcnlFbzczQ0JtM0ZZMWdoUFM4YVFxVWE5ZEJoU1YyTHBSMnFVUm1pQXJqNktqS0pkNG1GLWJCY19zVUZhaXJnLTFKS0t4aFVfd21pbEVLdDdOc0ZxbTJ5RGtzX2xtdXF5MnlIQnBUTzBYQ3oxb2JjX0NhT1V2UVZvSGJnYU1jdw?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "राहुल गांधी बोले, '24 घंटे हो गए मोदी जी, आ जाइए, डरिए मत', पीएम की किस बात पर फिर दी खुली चुनौती?",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsdXRpdGp4MFphWWVCVGM5eE1SbWs0RFBNbEJSS0lrbnVRejJOMXVYcXg5cDI3SF9TSGpDUTFvLWM1b2VjLW5rdDNYaDJ3LXVqdHBfYXBjY0hxejM0?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "राहुल बोले- मोदी जी देश विरोधी कौन, बहस कीजिए: जगह-जज आप चुनिए; शाह बोले- किसी भी मुद्दे पर बहस को तैयार, स...",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaFA2NkVhZHVHc2lleGVZaUJlTW1RSHM4TWVCb29NcThvQzU1QnJjNzFmejE0NFhET3dDaWhjMmdRX0ZlUkNOaTZvSjdYelJxd2pETWJzLWo5RVRqMXh6dlp6Q2pJS0M0YlItczhBMk5RQ3FZU2NCYWl2VGJsTWZGaG5qM0F2dFR4Mm9BSnpfdTM0aFdwNENMY1hNbUVRclc0UDMtcGdsUjkyb3Nm0gGyAUFVX3lxTFB3djhHelN2SHg5UmdzQU5DcUs3anZxaXAzRWh6RnhrSm9iN0VpNDNuUEFmYlpweGdLUnN5ODRFc1M4WXhOOVVnYWRUNlRMRjhGRVJjbUVVaGhrSkpweDJxb2hibmIwblljM0g5dDF2TTIteDFaQjI0OXRGZ01oOFF5MFluSHExTy0tODF3bExaVURKSHZobDBjVmJWZFRZODJFRnJYdW05U1JkVzY3Sm9SelE?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "'वोट चोरी' पर राहुल गांधी ने पीएम मोदी को कौन सा चैलेंज देकर ब्लंडर कर दिया?",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxObUdLakxJRFBEOEw4RVFKSnI2Tll3NVdZRTBaeGJvdE5JVzBNOUYtYnlxWlpiQlhCTlFEY2J6TzlWNmlrYjR2MWk0VWxOd3M0blRWd3hYUVNxMFF6TXFnb1Azbl9ZUEVjdVMxa1JiS2dVd2loYUFqUjlZTnNwR2FjenNpbmtjOVZmbmYxVjZUa05PZG9nbUN6V1BHbzJLLTB0VFBxenJ6dkxLenNVb1JYQnRiVzYwbDBBNUZiU0lfcXNJUkNCaFBQaGl5b2VObG5zVHZPSEVQeEJXVkV6N0FLLS1Yb09nVmFoS2Zqa2ozTF9Nc1BsMU5TUVgtNnR4a1pia2lCMURn?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "'बहस गंभीर लोगों के बीच होती है', राहुल के 'विदेशी मदद' वाले बयान पर रिजिजू का पलटवार",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPamhwMG1Ec0UybktOaUVKa0prM3pRdl95RWg1VlV5ajlobmd1d1hWY0gtRVJUYmtnODVQcnFjSEtoUEx2blhISVR1TTYtV0RqVThETDJqR1h3cXdEY21TN1dlRGY5c1dMYmJGMFVVU01zYkdvZm53Zno5N3Nhc1BXeFRsTlEzMUZQRzE0dDhzX1U1d01fdXVzcVpPdnlMZG5rZC15RVN3VVhwRkNMazZDY0tYUm9BMXlHSUpHU1RSZ2VSbVlSREN5RVJkUl9PUHRYUkVoNVV30gHbAUFVX3lxTE01bUlxSWF1NlBaQlh1QXBaMFh5X25HX2s3dlZhRF80MTJ5ck9iRnhxeGRPMTdWeFd3eWJKdnk5ajBHOTBqaklqMjBsNXowWkdyMFhKVEw5dXRGVEYtSjd0b29GZTA4Vmd4YU1KRy1BaTNsQmEzSVM1SVFka0NhYlVPQ2tlblJtOVBWNlJtQTZJa1Frek9qMXhYdTIwS0M3eVkzSkVsbDZPYWFzNWxHRUdlS1pzaXdQUzhScF9uUWhlTHE0MFRsYy1nRlZMdjRCVDNfbzEzLUhYWHdvaw?oc=5",
-          "publisher": "AajTak"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-3a94554dbd",
-      "lang": "hi",
-      "title": "रिपोर्ट- ट्रम्प रक्षा मंत्री हेगसेथ को हटा सकते हैं: ईरान पर हमला करने के लिए उकसाया था, 8 महीने बाद भी खत्...",
-      "category": "world",
-      "published_at": "2026-11-03T17:17:19+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "रिपोर्ट- ट्रम्प रक्षा मंत्री हेगसेथ को हटा सकते हैं: ईरान पर हमला करने के लिए उकसाया था, 8 महीने बाद भी खत्...",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUzJPb0RuUkg4bERWVGE3M3ZBZHBiWkxjcW54a0ZwcVA4T1FZaVJSdXliQmVaSjN4T1NiTXNpTGUxdE9rQjVnRzhETlpNNVRNcjk0Sm1xS2FvX1c1VlR6ekRlZE95U2pkdlhwZUFaRmF5MW1RNHdXSFVCTEEydGIzV1c1bnI2WmZmcjdvRjA1aklfZkowLU9YcVNJbGVjU05BWFdHZDMxQ210dTQ2cERsb2s1dlFxdDVHdldISlRsNVQxRlgw?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "ईरान युद्ध को लेकर ट्रंप और रक्षा मंत्री हेगसेथ के बीच बढ़ी दरार! पद से हटाए जाने का मंडरा रहा खतरा",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd2tWSi00cTcxUE5FSkJhUXA4QkN1NEI1MmpHVzktbHZ3c3hhVGI1WG5zZ2NiZEQ5c3JYTFpwcjRBZEJjVmVEMnB3enNZWXo1anhlem4zenFINEtFa05STU1ISkpfZFVRemp3VjhibDNQbjdsRW9LcE9zd3lLYjg5eG1EMzhfLU11RlYyNHVHM1lIOUhnQzJGN0NMWG5QSk8yd2s5QkZfSjhDSWlMakHSAbMBQVVfeXFMT0VNVFJxVWRhWndhdGg1cWN3LXIwQUZyMkxRUzhhLVV2RU5WdHNrS1dkOW5OZ1RlVm5iWEZWYURBNzNXaDVVdzBYWmFFZWUyN0p2bXBiSW90TzIyc19ITWt0dFhJNF9TbFhfeEhLWS1EN2lvaEd2TktNVVktWUpOdkFzUUV1Rm9WemlfdEpYMXBwMG1yZ0kyeThWMHp0dllLWThNSW9iak43LUdVUWFGblhGWk0?oc=5",
-          "publisher": "Deshbandhu"
-        },
-        {
-          "title": "वॉशिंगटन डीसी में अराजकता और संकट | इस्कॉन समाचार",
-          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOUjI2SGxSTXZIbXhZWDg4Y2VIV0R0c2tvSUFfdUxQLTNPaDFhdU9QRUN0TlR0TTlGd2ZZSm9BcXg0NENOcDdRWEFJeTRCLVVjUHVwUGFsS2lnTFVGdklvZjJRUkxISV9nbm93eDVfekdtRFZzbzlncW1KMkJBdUYyXzAxVmdSQzhqRWdUZ19Kd2hESXBiMkJtMmphOFQtSk1QRVEyQUZYM2N0VW1lNTNIZkl4eWQ3U2FFZVU3NFBTakp0ZW5yN2RsTTdxSGV0Y1J1RkZjSFloRWEtUE5GbVhPLWpQbHp4MS1EMTFJMzMyN3hkMThYSmtXY0daSXJEWVlhR0VtZmhxWUI1bTVoSVRuc1ZfQkpnLWtJMS1EWWhXaTd1SnNqS2k1VmZzVnpERXE3Tkd2TDMtcDJqejlCT0VMdg?oc=5",
-          "publisher": "ISKCON News"
-        },
-        {
-          "title": "हेगसेथ विवाद ने तूल पकड़ा, महाभियोग की उठी मांग... खुद ने ट्रम्प का कार्यकाल पूरा करने का जताया संकल्प",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96WkxEa2JSdDFvdHk0ZWNBajZrZFdQWVlkZm5ITmtqQnZBdk55QTQ1dVIxaVoxRXVkOUhibmR2dl9ueXFqU1RiLUtBME9VeVJhZzRGbHNIOWFIMkJOcW5Z?oc=5",
-          "publisher": "재경일보"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-4c6d747682",
-      "lang": "en",
-      "title": "El probable once del Barça ante el Aston Villa",
-      "category": "trending",
-      "published_at": "2026-11-03T21:50:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "El probable once del Barça ante el Aston Villa",
-          "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261103/1004246346/probable-once-barca-aston-villa.html",
-          "publisher": "Mundo Deportivo"
-        },
-        {
-          "title": "Champions League: el historial de Unai Emery frente al Barcelona",
-          "url": "https://www.365scores.com/es/news/unai-emery-vs-barcelona-historial/",
-          "publisher": "365Scores"
-        },
-        {
-          "title": "Los goles son amores en el Camp Nou: la pegada de Lamine y Raphinha redime al Barça",
-          "url": "https://elpais.com/deportes/futbol/2026-11-03/los-goles-son-amores-en-el-camp-nou-la-pegada-de-lamine-y-raphinha-redime-al-barca.html",
-          "publisher": "EL PAÍS"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-142525cba1",
-      "lang": "en",
-      "title": "Carlos Baleba injury: How many Man Utd games could he miss?",
-      "category": "trending",
-      "published_at": "2026-11-03T21:50:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Carlos Baleba injury: How many Man Utd games could he miss?",
-          "url": "https://www.sportsmole.co.uk/football/man-utd/champions-league/news/baleba-blow-watch-man-utd-midfielder-limp-off-against-roma_608349.html",
-          "publisher": "Sports Mole"
-        },
-        {
-          "title": "Carlos Baleba injury: Manchester United midfielder limps off vs. Roma",
-          "url": "https://sports.yahoo.com/articles/carlos-baleba-injury-manchester-united-211604574.html",
-          "publisher": "Yahoo Sports"
-        },
-        {
-          "title": "‘Doesn’t look good at all’: Shearer reacts after Man Utd star pulls up with serious injury vs Roma",
-          "url": "https://utdreport.co.uk/2026/11/03/doesnt-look-good-at-all-shearer-reacts-after-man-utd-star-pulls-up-with-serious-injury-vs-roma/",
-          "publisher": "utdreport"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-0c97d1899a",
-      "lang": "hi",
-      "title": "12 में से 11 MLA टूटे, अकेले बचे पार्टी चीफ ने सरकार को दिया झटका, BJP को फायदा ही फायदा",
-      "category": "india",
-      "published_at": "2026-11-03T16:13:08+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "12 में से 11 MLA टूटे, अकेले बचे पार्टी चीफ ने सरकार को दिया झटका, BJP को फायदा ही फायदा",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPN0xVa3ZpTFJaZlFldjB1WlNEbl82eTNlZlFBZDZiRnBKZEx5eFpRS1FoangyX0ZsMDZBM3p3NGFyRDNxTXJWaXZhakJPQ2VoVGdVc1lCazlobVZxUWw5dmJnaWNOeDdWd1k4WDY3Mm81SlJHU1h3TVpEQWkteVpVOXB2UWhLTExHckMyZ3pJRjlyYTBXbS03TkxERHphajUyT09zTTg0dzlwZERQZE5wVXQxbUJxUUlGWGI4bjVZUW9rdVNKTUU5QnpobTRPenRCN1JPSkoyY0ZVQkNiSkJWbXEyemh6ZFctVU9ZNk1aOGTSAfYBQVVfeXFMT1ZMUFN6Uy1GeTY3akxNV2ZlSnI0R0o3RlhqRWJKRFVDNXRfdFp0cWdDOGRTclltMXVuV0toaHVNWG5lVDlPaHdGdmxuY2JXMm5iRS1RUDExZGNCVEYwN1JKd1p6dk5YV1NKa0JYWGlFZjlGYzJZemhtWm1UdzU2WUFoYm9lb2NWNXdEM1JWMVU5ZDFNNFZqZTBxV0xZcjN4dlM5NmszMGVaeGlNVUV6bWhMbUIxX1ZyeV90SGxPekd2VTExcTBJNlZWVmJEX1ZfUFNBYmpOMG5QY1JKZUhDOHUxVFNmdHJxb0R5MXU1WjZlV2N1dWVn?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "अब मेघालय के मंत्री ने भी दिया इस्तीफा... 11 विधायक पाला बदलकर पहले ही BJP और NPP में शामिल",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjdZWVRLTGxaS0RhbU5kVmU1NHRqcl9pXzBhVDliVkpERERibmlFeVJ6MkZXdkpzcV9ZalY4UGtrMVI4QnpOcm9NSnI2UzRGaWs0bEJLbExjLURhVVZYbTByWDY5U2dQMlQ1OVd1S2JrYlBrUjIwa3pndmZrTlFzS2VOZUtHUDJPUFZHTTBqMFdBYW9xeTRPNGdsVWJBWHpKdU1HeTY0NFZwLXFILWc?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "NDA में ही विधायक तोड़ने की होड़? पहले BJP ने तोड़े 8; अब CM की पार्टी ने छोड़ा सिर्फ एक, National Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbmVpX1NVZFNUdmIxZmVWcjRPeUhfMUxxMVUtSndoeHBjY2ktUGtxdVRwcTlDaGEzaFJyZGNlYUljSVlWQlVZOXNlXy1jT2lXS2ZkQURpeG5HQUFNTGJDZm9DUmtLLWh1UEFVVVEyOVpRYW5LZ1ctZnF0dndIUE5nSHkteGROak5yOFJYWTNNV0NfbUFFQkdRWDNqYU41QzM5bF92X3hVdW1wNkpBZjhRd0xlSFhINW9RbklkdHdxUGVETTh6a0YxdkFtVlh2LVFOU09hRmxEU1RFVjBNYm15Vk5WVklYM2JlWTZVZmhlTmY2a2gwUE9ZZHVCSTUwRmQwejN4S3lPSUVwdw?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "मेघालय के सीएम कॉनराड संगमा ने एनपीपी के विस्तार का किया बचाव, बोले- विधायकों का पार्टी में शामिल होना 'उनक...",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaVdTSzVmaDJrdlFNNFk2Wk4zVFBRLUdGdGdNU0g0bWF0d3pBOGlUNS1HS1lqOVhGV0QzSTlKRTJjYy1CdzJvelZtYUpLUlA3VEwyWUVaTXFfNmYyTFNVckFpTEMxNndtaFE5ZnBIT3VIam5oRHlKVFpTSW1taVFwSzg0aEk3VDYtQ0lTVjZSZnpfR1BkMVVhXy1SSS1KRi0xYmFiQ1JfbGt5UGVwb0tvVU5heVEwMURQVmpzYmcxc9IBxAFBVV95cUxPRDhad0tWY3d5dHBYUldkdmhBTmdkSXEzZkRlb1JDaC01dmJ1Rk1UdEtxOUZBUlhEMlE3WWZCbHdRdlJMT3htVUMydmpvMzl4QVE1dS1DYXM5eWs3dmVLUGVJVjJJelpYbU5LVmxlV3RLMTlrWE44d2ctMldJRnl2eW5xUUl2YWI5NUQyZ2JTOE0yRGNTRFk1dDNINVdKZjVRd1FtVENwTC1hUUZ6QXZpUEhDbnctYUFGV0Y0Um01OFpTVXFO?oc=5",
-          "publisher": "Lokmat News Hindi"
-        },
-        {
-          "title": "Meghalaya में Conrad Sangma सरकार से UDP ने तोड़ा नाता",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRHJ5T2hKWXg2RExVQWFfMTgweUI4UE1DTVc2UmJjNVpvb1lNcXlqdksybFBYdzduaGdBRV93cUprQVBEdmthTUUtb2tyU18yeU9PYWlNQmZTRUZXYlpjNG5URHRoNkhWNXZQZXdKd2FibnozdFA5WUdYOTBFdll5bmVVOWZCNE94dnc0X3dGVDlBRU50amowd3FoTjJSWmhtUDJzOWxkUnhuWknSAasBQVVfeXFMUE9wQTZGWHJ2cnlsclZ4c0hPY2RYZjZ0YlJjOUhqc0gzcGN6RzJ4VzJ1WFJLMkVhUEd0RURMOXFHM2NqRmVDSTYzZnNCS19kVDZuUjQxM1ctenRzVzZQcE9EbmNsVG5WaGVSLS1tdkZQVFEzR3ZxcmZOU2hiOXV2V0dKNUZycTRkWC1UeGRNNGxKLTRJY1h3Q0xrTWwtR3VQUlFSeW5JX2VyRGg4?oc=5",
-          "publisher": "Prabhasakshi"
-        }
-      ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-c64e633f73",
-      "lang": "en",
-      "title": "Asim Munir flags growing Hindu-Jewish ties threat to Pakistan and Muslim world, reveals Iran",
-      "category": "trending",
-      "published_at": "2026-11-03T21:50:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Asim Munir flags growing Hindu-Jewish ties threat to Pakistan and Muslim world, reveals Iran",
-          "url": "https://timesofindia.indiatimes.com/world/pakistan/asim-munir-flags-growing-hindu-jewish-ties-threat-to-pakistan-and-muslim-world-reveals-iran/articleshow/135507774.cms",
-          "publisher": "The Times of India"
-        },
-        {
-          "title": "Hindu-Jewish convergence against Muslims: Munir at meeting with Turkey, Iran, Saudi",
-          "url": "https://www.indiatoday.in/world/story/asim-munir-hindu-jewish-alliance-muslims-pakistan-iran-mohsen-rezaei-najam-sethi-itspc-3031201-2026-11-03",
+          "title": "US midterm elections 2026 Live: Blue wave batters Trump, Democrats set to control US House, Senate",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOdkRicTBDZl9jQVlRSlkyQTR4ZmlkbnhrajhiVktNM1pYeXR4cVJsR2czWnhMZlZSek15alFmWkxZb0tkM1pUbzZ6ZlZ4b09pZzdrc0RZNmFGRkRreDdkenZlWktQaDZLQ1F4VkRiMlI1VVk0ZWdLblFWSW03RllRazVGNmtpNXlWblEtME8yc1lUbXA1Wk10Zk16TE1XUG5xVVhBRWZiWWt0RGZhamY4dEdjR1dCZWNzcmEtS2Y4d0luTzR5b0pDSEU3U3duQnhKRlA4ZEpfXzFwRmVkUFBwRGNEeTVnTDg2YnhENl9maTVCNlRpdUtQMHdOeTJiU0xxb0xfZVRzaktIZHE4VWl2N0ZLNGo3ZGd2UHZTRU5VSmdZcmYybEM00gGsAkFVX3lxTE9tV1VBdm91Z0pHbFpnbkxtMk5uS3FaakVRd1k3czRobjNMU3loWHFycWEzYlVWZVdCWmdSazlNRTdYaGJrMVJabDcyY000ak5oa1p1MVpDY0VMbGVsWUt6bTBiLWNoUTdzS2JqWEFDcWE0YldMRkVIajJfZGZzLXVfZ0hNNjhKTzdiT0FCdlNreWN2NEZNeks3ZjNFTWhBdFRIaDIwazRKOUlwclNQcFBLNnVySEV2QnJPTWMtWTdSMTVxX3FqUlNQLWVHbU4tX3N2UmNJbHJxXzdTOVFTbDdSbnc0allhdUpub0c1eUllZ3g5cFpsRXRNd0FESFNQc1Q5TzRWUXhyUFBYeTVCNjl0UnNmTjcwWEdBSzZoUzd1YzlaT052X3l3ckozeg?oc=5",
           "publisher": "India Today"
         },
         {
-          "title": "Ties between Hindus and Jews directed against Muslims, Pak: Asim Munir to Turkey, Saudi, Iran | US launched attack on Iran on Tuesday | Inshorts",
-          "url": "https://inshorts.com/en/news/ties-between-hindus-and-jews-directed-against-muslims--pak--asim-munir-to-turkey--saudi--iran-1793710087413",
-          "publisher": "Inshorts"
+          "title": "Kansas U.S. Senate Midterm Election 2026: Live Results",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VLXM4M0xvcmJZMFNweWd5SGQ5MGg5OE9hMFBqLTN0TE1GakUwSGhfZFhpYUVILXFrMGFHSVFVTVE5QkFxd3lMZWhqY05wT2xCazdrSnNIZFQyc21LOWdDV2g1SW5DS0tQUzJSWVEwOHlCRnBYUUtTQw?oc=5",
+          "publisher": "NBC News"
+        },
+        {
+          "title": "Adam Hamilton wins in Kansas to become state’s first Democrat in Senate since 1932",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUHFaZ3F6aG82S3hubXlGSEdSSkI5Q1prcFF0ajRmZ291OU9TVzRXMU14YmlWU3NQdkVHYlRLWDRFLVJjakhVS0FrVGZTTEtCM3BaTTJYQThVaW1hZ1Q3VmtoZkVpZS1kSmJKbmhsWTF3VUtRamVCX0YxdXN2VzRqdWpBMUFsWkx1YlJkVjJ6UERmN05j?oc=5",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTlBINU11RVpHR29ySHJlQkIzRkREalllTkFJUnprQTlnYTVhanZwUXVuNGpKY3djRi0xbmFBRmpIVklSTTdyblgtMDF4bU9WSDl4YWJ2Z25NbmtyT1gwWGhfR3F6dGV1Q1cwMkhVTF9Na1BoeGlLdU9KbUJ6XzF3b0ZkTFJFelpZb0hCUHg0ampTcWdYV09GWkVkN2NGUQ?oc=5",
+          "publisher": "- Emerson Polling"
+        },
+        {
+          "title": "Democrats Win US Senate In Kansas For First Time Since 1932",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMm1tb0dwMFVyU3dYenh2Y0RobXlIbzIxUVBGTFBrdElGZ2QzT3FiR25YOGp4Tnc2TUl1SW5kcVRuem1ZeEpkOFlYRFZVeTJQMkJVYUNDSnBPQTFfMTIzOTJlZGFmWTllTDJXLXBpdlhpMTZpWXB2ZVl5Uk1MRzg0N1lfWnVUb09lbXl4b0JfdVprcHpvay1LY2plWnRWaDRqNXg1dzQtaGpBaUxTMTB3cGJKTnVJRHRGQmhRU2lRMUxSdUNRT2ZQZmhtNTdkbE3SAdcBQVVfeXFMT3BhU0JOQ2pOdmMyeHVwTWtSOWJKZjM1MEtXQUwtbGhTMkZnZzZCS3RWdmdQNUtfQjFIRDc3aHdMNDJFdDhIenFkR1lZQ2F6X3MwZWVTTzY5bVVGbHJVaW93Q1g0bEhYd2lnaGE0eEJCRXBkb2x0TDR1cmVIOE1aSEFfQUhGdXdGMi1hNVFqbHdQU1Fxb05GazZNUnkzSVVPRkMwV19oS0tZbmYyX1JkYkZiTlJUQVpva1g4cWZ2SndjNDZkZDcyVXhsOHRGbVF6V1RHZkxJUk0?oc=5",
+          "publisher": "NDTV"
         }
       ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "hi-0581b76790",
+      "id": "hi-c8e6c83955",
       "lang": "hi",
-      "title": "पटाखों की खुली बिक्री पर सुप्रीम कोर्ट सख्त, केंद्र से कहा- आदेश का पालन सुनिश्चित करे",
-      "category": "india",
-      "published_at": "2026-11-03T16:05:00+00:00",
-      "summary": "",
+      "title": "iPhone 18 में मिल सकता है 120Hz डिस्प्ले, A20 चिपसेट और 48MP कैमरा; क्या कीमत भी बढ़ेगी?",
+      "category": "technology",
+      "published_at": "2026-11-04T05:30:00+00:00",
+      "summary": "Jagran: iPhone 18 में मिल सकता है 120Hz डिस्प्ले, A20 चिपसेट और 48MP कैमरा; क्या कीमत भी बढ़ेगी?\n\n91Mobiles: iPhone 18, iPhone 18e और iPhone Air 2 का लॉन्च टाइमलाइन लीक, मिल सकते हैं ये बड़े अपग्रेड\n\nAajTak: अब iPhone में मिलेगा एक्स्ट्रा कैमरा, दुनियाभर में पॉपुलर है स्लिम फोन\n\nVietnam.vn: क्या आगामी आईफोन 18 की कीमत 1,000 डॉलर तक होगी?\n\nIndia TV Hindi: iPhone Air 2 में मिलेगी बड़ी बैटरी? डुअल कैमरा के साथ जल्द होगा लॉन्च",
       "sources": [
         {
-          "title": "पटाखों की खुली बिक्री पर सुप्रीम कोर्ट सख्त, केंद्र से कहा- आदेश का पालन सुनिश्चित करे",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObFNTMGJuTzNCRjBiam93cVZpMHhYdWJBRDJlLWxFV3VqV1VKbnJuS2k3OWhrby1YdzJXQnlpeGZ4dGQ4NGtVWHh6LVMzajRIZk5SVl8waXpzVnI3dUQxajdCMXN3Y1BLS3lXekhHdnBBVGNKZ1UzN1hlNDZOVXE2MTRsMGxsR2Z2NGU5TjZnSGt6REwyTDVDVi1CRXRHeGNJWTZZQjZsNjBrbFZ2VHRxcDVwTVJmZ0VNMVZYNkd3VW1kaEdwR1NOZTM0bjBKRVBHc0l1VDZtQVNWSGw5?oc=5",
+          "title": "iPhone 18 में मिल सकता है 120Hz डिस्प्ले, A20 चिपसेट और 48MP कैमरा; क्या कीमत भी बढ़ेगी?",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTy1ucWNBOS1DdDk1c042UUprSDlUWDhpLThhYk55UWlEOXZ4WkVxcV9QemJtU1ZDamFzeVhQcGtnTmhIUFRkelZxWklJV3dBTVV0RTRld25LckdRNmdOVVVqWDVPcDh3TFU3NjBudU5WWVItMW1NMHlpak9SOG52SWE3dUZXSXlaYmZCb2RhMF84YVdFR1FXbjNsRG5hNGl3QWZjejlqLTNvUU95eTlHQzNOWGpFY205UmxQeloyN3I1aTBzSU1FWEdOdmFqeXJvTVp2RlFvd1lCazZDZTFB?oc=5",
           "publisher": "Jagran"
         },
         {
-          "title": "दिवाली पर सुबह 1 और शाम में 2 घंटे जला सकेंगे ग्रीन पटाखे, सुप्रीम कोर्ट ने तय की टाइमिंग",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVHhaaVlzeFhCd0RLeEJfclI0ZWdoQ1lhWW8xcnFjX2RTbEpWNW00clhmQTMxQXlYRlBCS09hUUU2am5sYi0xOGtjcG5fTnRaQmhXUF83dmo0QjNmd19LYVIyNEN4dXV1dWdtamZvUEFfandTLVMtRThBR3dTUTN3TldRMlB6c3RaQ3RfLXRmLXRNWjZkMF9ETzMxbWN6emhJNU0wVXZNX0RrNlpqYnpLb3Via0RjcEtTNmZyMFJHMDdTamhTY2RMMEVtUDhYb2o3a1hlN09sUjBfb3BiamN1V2xGVQ?oc=5",
+          "title": "iPhone 18, iPhone 18e और iPhone Air 2 का लॉन्च टाइमलाइन लीक, मिल सकते हैं ये बड़े अपग्रेड",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbzJvX2tqUl9Yd0M2cGhRajlIdDN5RWVQRUhjV2hkeWJleEVBUzZscFlDdWdwNHpoOGJNdkxOUjFYX1dVQ1Q4dEVNS0pqNWZyWU5jMGkxbXJoVHZMRWUyUklUUnEzMXNVT2Jha19JYVJuUi1oQTFCaTlEbWkwaTFmUXcwaUNkSTd3cTVKV1hKWG5MZ9IBlwFBVV95cUxNMWktVG5oSldXVHZjb2Q4Rm5DSm14OThfbU9CNnplbDkybUN6aTloeG1kRF9GNHN4dlZsbUZnc0szeHduVUxHamtDZVVOelVTdE05cS1lNWt5LXJsOVAtN1Y3LTFvUzJjWTRPcUR4aGFMSElTdzBNT2hnekMwUmdZUVdHNjRzQ2Q4NVVGZkFnTm0tTEU4UGsw?oc=5",
+          "publisher": "91Mobiles"
+        },
+        {
+          "title": "अब iPhone में मिलेगा एक्स्ट्रा कैमरा, दुनियाभर में पॉपुलर है स्लिम फोन",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV3EtNHdCTDdsRl9DTmVaMjY3cEhrNElOcG9VVU81TExmVkpjRUdzcThrTXRqTlpmcmJCeVJwSF81V3RGWWNnWmlpZFF4TVp1WlNsSmpyT25fMXhRYWE2MkRNMl94U2NYTnJYbUdlN0dFM0x6Rm1kVTRYeFlBYkhpd2JEdXQ0eUhjRldEcGNvVTdsR01UTlRtZkcyQ1RFLVR3YU5vT3R4TkM4cXMxTFEwUmI0MmtLQkRIcFROQXUyTW55emRBeFpDT0hIRdIB0AFBVV95cUxOTTl2WWZrSUJaVTZWcmhDVk5Cb2xoZWlZYUhJcFFkSVNvU0d0SVBTaEZ4QmhvRTdZeEREZzRrdVZNdkRRaWdKT3g4RzA2RWhUbFpDU1prOTd4cHotRGdwX2FlOXZVWlZBdTNiamZpVlVZNmpjcVdXbXNEREwwRlpjMkdiRTVBVHlLdXFHZ3FydWlhejRJOWJPWUZaUEVkLS1zYzJHeXhXUkVMNG9uODgtdFRUWkRDVXVic2kwQ0FLV1daNGhJVHJDUm94NDMtOVdC?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "क्या आगामी आईफोन 18 की कीमत 1,000 डॉलर तक होगी?",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xWHFTS1pESEZacmN4SGtDeTZrNG83dlBjcVVMa0sxSUtrVjNvWGFCMTFoZ1daMnZOU2JqZFNRektENjJDVlF0VW5VZzJTbE9qUW1QbndOQWJtLTVpQ3pNejQzUFlyOFRRTi05Q2gzWVZPQ3JkeUxtMkE0VEY?oc=5",
+          "publisher": "Vietnam.vn"
+        },
+        {
+          "title": "iPhone Air 2 में मिलेगी बड़ी बैटरी? डुअल कैमरा के साथ जल्द होगा लॉन्च",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVkxEVkZoVEpicEpGNGxlcVY0Z2xCZlh4dm1OaHlNWmRPODZlTEN5dE1yOVJ6QlBmNzlSOTk3aHNIN2F3b0QycEZRa3BLc1VYQ3R3SXlMOG1KOVNsN1Z3b0FFMHRERDkwbDJURmJTblR1UEswUHZkSUJwNlpZY2lDSUtLbUZaWDdldW1LVzFDYVVhUlJ0Wk5TSXFCMnVjc1ktUm5VSFJOeDBwR2NqclRQbXp6XzluLV9TcEJB0gHAAUFVX3lxTFBVMWdNLUhCZGU3Nk9ITzdleFcyZmZMTElmeVJ0cG9tWFJPX2hfUndWOHlQcDhPUDl1NnRXSEFuUVBSMjBieTJHckFuRENKN2FaVmJ0ZWNWcDJtUXlsdDhHUExsaTliRy1BcVlpMjA0T0R5Z0EycFVfS1JVUnBZTk1wRDVEdTBpbGM1M29LTWdKUk50dzdaOEZMTDFwd3hrZXdoWUViUkpVUGNjSHNRamdJdXViX0JJNkNsOFFqaklWZA?oc=5",
           "publisher": "India TV Hindi"
-        },
-        {
-          "title": "दिल्ली-NCR में दीपावली पर सिर्फ ग्रीन पटाखे फोड़ सकेंगे: अस्पताल-वृद्धाश्रम जैसे साइलेंस जोन में रोक, सुप्र...",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaTZTYzVPMGV3ckpIRDBOUjYtejBpRWp3TkJIUF9saUdSTVI5bTlrYmo2VjlZVkZrVzVybHZCRDBYTHhWTnpNVG15MGNsVWFjSDlaQ3M1VVJsVXl4WE9vcmE3OTdGVkliWDNGeVk2d3hvNlRPbUJCdkxkS3Rwc2lNajVSa2J4ZlE2R09kc1hfV2dubHRuX3BhTnRoaHFZekM2NUhlR0hlWFJqZ1nSAbABQVVfeXFMTXhJTFUzM2lkNlJ2YWczcTlTN0FJSGc4d1Rab214cTVYQ043Q3BjZWRLeGgxSGE5ZEY4cUlUNF81QzlqN0dGaVcwYnY1R0RvdFFsYUlRNUZrcVN4azZXdl8yaFRQV01wem1nNUE5dGlfYUZKLVozdm9QRlo5a3NYX0stdTdXSlRGamFITG5DWXhsQWhkTHM0cUFBaE1IQTNSbGF2QmZtY2c5OUc0WVB1Mng?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "सुप्रीम कोर्ट के आदेश की अगले ही दिन उड़ीं धज्जियां, खूब बिक रहे पटाखे; अब होगा ऐक्शन, National Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWEJ5V0VoTjJMRU1hamk0OTA2TUR0anR1U3NnRk4ySEFYNU5mRkwxenVuSklkc2ZZYWpRNW4yN01TdHZNWTl6bU1scTFTVDV2UzNsLV8xTDdxdEg3MmwzOHBpU2NHeUZROXZFRzJvMmdRR2ozNW1pdVJtUWtNU1U4cTdfS1hZQ3A0LU9iWW81dHNFVlNGU3RsR1ZPOTFub3c5V2VJOURselZ5d20tOE8tQ0pabTRYTE9pOGdqVjd3dUNRQQ?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "त्योहारों की खुशियां या सेहत से खिलवाड़? दिल्ली में ग्रीन क्रैकर्स की अनुमति पर टिकी निगाहें | संपादकीय",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcmRkZXJlS1hpMkphSmlBSUl4b2REQW9pQzRZbUJvS01lRmNZWEs0LVdwSmd6alBzQURRZzhhUXdrbzBFUzFFMGlYZDdKc0l2dWJqeWVlVmtZMFVuYWhQaDVlZFZDWmk1eE1vZUs3ZVFLTjRPbFdjWVlwWURqUE5hSHJlTVMxenhJdmtxRzdxWDZPTndsNU91RkRscFpYemxjR3l5SFBRa3dWYnZIa2c?oc=5",
-          "publisher": "Jansatta"
         }
       ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-b66e1e40dd",
+      "id": "hi-9a2010e0eb",
+      "lang": "hi",
+      "title": "IND vs NZ : वाह व‍िराट कोहली! जमीन से उठा लिया नामुमकिन कैच, फिर मैदान में छोड़ा 'धनुष से तीर'",
+      "category": "sports",
+      "published_at": "2026-11-04T05:24:40+00:00",
+      "summary": "AajTak: IND vs NZ : वाह व‍िराट कोहली! जमीन से उठा लिया नामुमकिन कैच, फिर मैदान में छोड़ा 'धनुष से तीर'\n\nCricinfo: गेंद दर गेंद कॉमेंट्री देखें न्यूज़ीलैंड vs भारत, न्यूज़ीलैंड में भारत, पहला वनडे\n\nJagran: IND vs NZ: फिटनेस पर सवाल उठाने वालों को रोहित शर्मा का तमाचा, हवा में उड़ते हुए किया जबरदस्त रनआउट; Video\n\nNews18 Hindi: 39 की उम्र में गजब की फुर्ती, पलक झपके रोहित ने डेरिल मिचेल को किया रन आउट\n\nHindustan: विराट कोहली ने एक हाथ से लपका हैरतअंगेज कैच, धोनी का रिकॉर्ड भी तोड़ा; तीर वाले सेलिब्रेशन ने जीता फैंस का दिल",
+      "sources": [
+        {
+          "title": "IND vs NZ : वाह व‍िराट कोहली! जमीन से उठा लिया नामुमकिन कैच, फिर मैदान में छोड़ा 'धनुष से तीर'",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQU2RaeTRKUXNNU2pvNkYzSjV4ejYtVVQ4VnRpemZ0M0ozd2Npa2RubjRsTkFZYlNtU1E2cElZb0VlZV94SXB3OW13bnY1SzM5QndlTTdrVzlUY2EwWU9Qbk5qYURzUjdaNGY0clpReV82S3ZrSHpTamdaMVFKb09oeDBZTU5KYzJMZ2ZzRlVpaWJ4QVNKa3QyS2MwSDlzWTFYUDdXOUJRWTZuVnFEVlcyUEpZM3Jaai1ELTlyd250RV9MSnc3ODlFN0hVQjBrRkhZV3hHQmx2aExhUnMyR1RkYWpSSVZCNENGMDFr0gHwAUFVX3lxTE8tTFBTWG1uSXhta0UyV3hzcDFZVlkxYjFEdFB4MFI5YlVRUlRkNjVNVnR6OGZiYUpkcm0wM0Z6eVptUjBWazFFZ3BwMkxqTktmaXZwQVNQNk1CTmhSak02bDMzenhpQ3JtT0ZxWEVuNkltQ3V1MUN5Ullxc19FN1puUmoyZjZJM2M0cXZESFJMQy1oYXFGX0hoRHJmSFkySVhpQWE2a3k3M01USEM3X2V0dlVCOWduM1NhWGtvUFg2Z09oNU0wMUNFTnlTZVpuSWNta01wam1tbkRld3ZId3RGR09IeVM0Z3FWN3FFY3hiaA?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "गेंद दर गेंद कॉमेंट्री देखें न्यूज़ीलैंड vs भारत, न्यूज़ीलैंड में भारत, पहला वनडे",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV3liN3NJcl9WYk5xbWhtcDRLTmZHay1hSktiSER6bEhjUlBuX2g5VUZJYmI0S2tfR0lGNE9mZEVYVThsaHZrdkxFdjNsX0g2SVMzOUV6ZkF6TEJHRlQ5LWxyai1VeTVTaFpjRzU2RENvWVQtRFVOSld1dUYyUy00TURXV1p2YWJtZE5KTGx0UzItRlpwWGZub3RNTHJOSUdHVDAtRFEzMmktc085VVgwOXFWVi1hUWtuR1QtMTlPQzZPdHVmaGZfSnlvZnVkdG1T?oc=5",
+          "publisher": "Cricinfo"
+        },
+        {
+          "title": "IND vs NZ: फिटनेस पर सवाल उठाने वालों को रोहित शर्मा का तमाचा, हवा में उड़ते हुए किया जबरदस्त रनआउट; Video",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNOEpxSTNMMzY4MTlkY3BRTHkwV0lrcmN0RjRLYjJIUnVCX0N1QjhHVHVTb19iNVFVNXY4ZllsdGxlbXk4cHBaOGhhaF9mRVo1cFZDcnpxSDFIRzJrbW82cURrY1l5eXNRSTNOZmZwUnBWNnI4TGlJclRSeW8yRC1Fcm92Q1pOb2hNR1dRUmhtQ3dxa0ZvOGszNEVaWU51cFhWOXNwOVNWTGdnUXJ2UjNFdmw3SDBDZ2gtZk9lamhCZnhrS1hIOXUtN05vbEFzMVVXamJmb3NMSDZQNWhpRHFNcEd0WHR3Zmc?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "39 की उम्र में गजब की फुर्ती, पलक झपके रोहित ने डेरिल मिचेल को किया रन आउट",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQ2xEYnNFVUEwX3hsSkxnNG1aRkRBSGQ5ZWQ1YURTcFBUak9oNFFWSFBvVEYwZmhOUE5xZlRYaEtWVEZKdXhJSmwtUGRtbmNJWkZYSkZFY3dyT09fMEdMd0pRLUFPZ3B1dUNNT25hanV3U3B5S0NvcFk4VndTaGZVbFo1NEdnSTlUOVcwN3Frd0h2YzRoVjVhM0JtM0owQ1lUSTBOWlk2T240bTBtVmtBUDgwRkVIaU53TWhVMVlGVUUyOUo0ekQycHo0aXVpVFNhTUE5UWl6WEY?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "विराट कोहली ने एक हाथ से लपका हैरतअंगेज कैच, धोनी का रिकॉर्ड भी तोड़ा; तीर वाले सेलिब्रेशन ने जीता फैंस का दिल",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNX2xYVmpKby13TWc1Q3ZHdmZLaktWRmlRV1otVHhGclZBNFJTbFpCb0ZVY3hSdEZPYkRsb0NaWmdVTXdIME9iTzAwaVFyc0FVcVNWaUJRc1lJdUxUS2RGc2pTMk5mU1VpSlRLMk5aYzF6anlKeDljR2s4d0JPNnhsOFdfaWNoRjBVT0YwdWg4SFZyY1IzelMxcVhfNVhRaUdwSDhmeUhweE1neFRhVEFSTTJZSjhNWFRrN2NqTi1zdHFsOVI0U3dDeVBqelRJS3I2NElxTG9FNVRfYkRYVTJjTWtMZzU0TEwya1lOMEZDUEZzNlNjc2JNYUhYODhIUmhHNUE?oc=5",
+          "publisher": "Hindustan"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-2ac8bf2c52",
       "lang": "en",
-      "title": "Why Consumer Trust Will Determine The Future Of AI Wearables",
-      "category": "technology",
-      "published_at": "2026-11-03T21:08:05+00:00",
+      "title": "What is the \"Zeptoverse\"? CERN scientists find evidence of rare particle decay after 42 years",
+      "category": "science",
+      "published_at": "2026-11-04T05:26:23+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "Why Consumer Trust Will Determine The Future Of AI Wearables",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbndsbV83blVPME9TZDh6c0NTV1BNVFBHQ0stczVmOU5aRktldHJHSmVLMjJ6WjNCVXZBQ1JRTmkyWWxEZG11Zk94WWJkSXR4UkxsaDBlS1ZxYklZbEVyWGcwUUVoMGVJNTJ4eTVPSldORkozRU1CcGNPTXFwWU9kcWstQkQwWUZhNzMyZHcxWk44OFppcnhDeHlhamp0MmtkcnlQYWQxczliaS1yTU55Mml3?oc=5",
+          "title": "What is the \"Zeptoverse\"? CERN scientists find evidence of rare particle decay after 42 years",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOakFKNjhjcXEzN3k1elRiRDJyZG1yeWV5d2FCQk5PSDhmZG15WFFkMkxWUGE3YXpnbDN4dm9RMXU2emdPdlg2SGZwN3lWZmJUSlZZTDhDeG5zdTRwTGg2MWw2aTNORWpaRkMyQUl3d185Zk9OOUhCZ3RwdF8ydEw2cjZoZmM4MHJaT1BzWUVtZnpsQTM2SXZqZVpwMXF0eVd4OTFDZmVqaDlHTzRuZll6QWc0cEx1SXIxZ2ZSTnFZWVZHeTA0MUw4cktlLTVOTDNRb0pnWkZwODhYWnZLYUlIWjVFMNIB6AFBVV95cUxPbzBsS1c4dGhUWC1kdXhCXzRIeno0UG5CSUgtUmpyZHpISElZOTdwN0FtaC11dExHSVcwWU9lTl9FS1dNYUdURVVJTEZRNUY1LVBJVDVaYlNMT2RpcHh3bXNiRUZ0a2hWYndpY1YzRUFaRDJ4WkVIbEJXalBrX2x6bFdfUDBaOVZSUEFLTUJwRmFsdGZhbGIyem9OVFFkMXlBMTREYnh5S0ZjN0ZQWFJncU0xRXhtRjVRbzlIRG1ZRE9rb2lMcUJRamVuX01zTHJJR294Q1BPX09kWUtfbnFFMlNJYnZzelEz?oc=5",
+          "publisher": "Moneycontrol.com"
+        },
+        {
+          "title": "The zeptoverse: what is it and how will it transform physics?",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5c0RhMC1hV1F4dWp4bUhmYXhpSUpMMUlTZ1hFdDJYeGc2NFNjYm1TSHZpR3JQVTEtX2xVaHZucGJzVmtkLUdzcFBUWjFFRV9nMXFxRXdxRXZMQ0E?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Physicists step closer to the 'Zeptoverse' after 42-year particle search",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUTd4MEhZeDNfMkVpdkszR2RQdE4taWF6RGt2elFzcWZfb25NRW02N0tFWWlxSGE5THZwZzkta2xfYm9VSl9iRVAwMjZnNk9hMGhvTkpYTVBpN0o1SnpKNEQ0bEdhWHR1NjlIU1drOWlKbUdYbWw0OXZjcnUzY0ZKU1Ixdw?oc=5",
+          "publisher": "Phys.org"
+        },
+        {
+          "title": "LHCb finds evidence of one-in-ten-billion particle decay – Home",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcXNTWmx0TnUwZzdobjloZG10WE5UWkJ4aW5wcXdyY3A0YUt1elU3Sm9YNE1jUkJGc0JaNlVJdWVoRUJ6RWtCZE1aNHBMZlFnbmFVUjYwM1RJNzJjSnJNTVBBQnNjLTl1LV9YcFR2YjhvNU1mRWYwWkd4azhrVHMtUg?oc=5",
+          "publisher": "Home | CERN"
+        },
+        {
+          "title": "100 billion times smaller than atom, scientists explore 'zeptoverse'",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQenRzZFR3SFVlaFVwUTNRckFYRk50OXl0amZPdXh0NTJDS2l2OEk1T0RtNWdrbl9lMWpUNkNNLTZRRVVpamJkYkplZF9TTzYzUWFxR3VucXN0dVhjc3hjWUdFRG5telcwTE13SlRVUHZFdGtYN3BuT0R5VFo0djgycVlPbENlWFFrTTlDczVIdWRIUmRqZ3RUOHIyTlVoWnZ1T1U0QjVCTUJvRXJ5UWtUYTFwX0Q0X1JNdGNJNHBQV1RxOEsteGsxTWVCNmZhQlFP?oc=5",
+          "publisher": "The Times of India"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-da08245aed",
+      "lang": "en",
+      "title": "LIVE: US Midterms Results: Sen: 36R 45D; House: 50R 92D; Gov.: 10R 15D",
+      "category": "world",
+      "published_at": "2026-11-04T05:19:12+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "LIVE: US Midterms Results: Sen: 36R 45D; House: 50R 92D; Gov.: 10R 15D",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaElUSW52Ri1TQkY3bUNrZ3RTODV0aTBvWFpBaDJER3hTRjhsS01PWnRmdVZXb1J1dUpOZVlJazRId0p1ZThtaFpyVTAwWUhCajQxYmFxZ3pMNFZUY2pUTGxBRzdmT2NlOWlXX3RpYlNTOFhSUHFtS1pBUDFfd25LRV9FVlZja2pMUzZxZnU1MFIwWERTc2pBeXZZYkF1TWJ5c3RF?oc=5",
+          "publisher": "Deccan Chronicle"
+        },
+        {
+          "title": "Midterm Election Results (Live Updates): Democrat Roy Cooper Wins North Carolina—First Senate Seat Flipped",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUENZSVpmSzlmVU1yRmh1cHp2RE82SEJVTC01WFFrQzV4ZVh0S3JqVkUtTDFZOGlqUEIzeld5Zm90bFBUZkdqeEUzV2tDSVNmXzV5OE4yRERaT0hUNFI2TE9POGJybXBaaEtob01NWUg2a0VIeGpMM2dPdmFwR2k5R3luTndIZGF2SjF3MEhYVjVKWlZFZlBNVy1YUFpjSlFaQ1VuUTMxeWpIUThqSFdjVVFnbkZzejFCUjBhNGV3WGx6SkppTlp4c3JNR0hIcng3ZWRMQjNqTnd6enFEdXJHN3BiQ25kOXFL?oc=5",
           "publisher": "Forbes"
         },
         {
-          "title": "Why wearables are the next frontier of AI-first personal computing",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBta1E1NmtnSWNUWWRHSEttelVHcjlxUGd3RzZ4aFl5ZmpYRS1zYWJ6NmZfdGx3YkhPeG1TUHprbFotaVFwbWY4blhkZmlkeUppU3NHQ1VzaVdTcUY4Zm41MlQ2X1g5eGNzQlFHag?oc=5",
-          "publisher": "Arm Newsroom"
+          "title": "US midterms: Democrats flip 3 Governor, 6 House & 3 Senate seats as blue wave surges",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOQmZsdGgydjRnQUdMdndrNlpaaXg1SV96RUtacGV0X0tuUnlKcTkyT09hZVBjcFhaWkNPcU9CbkY1ZkhxaDRvRTdzMnlEdWlORjZGSVNCbFJweUdIT0FZM0dPaGllamVnRzlUT0U2MFJmSWJxVjExTFJ3SFZnM3F6VFFmY09sbkVEY1RXRlRFVlBGS1hUc1FXaDJITFlydkg4SVpObC1LT2oyZWwxaExPT1BYRG1zRTVWaTg4dHV3UG03MjNjTXRac0FNbEVYcGtCVkxSd3VqZGI0dzNrTlN6X2sxdTVKbjFVZ0hBRENHWklnNjRPRDc4eXBXbWhERTNWN0RZX2VySQ?oc=5",
+          "publisher": "The Times of India"
         },
         {
-          "title": "AI wearables want to remember everything. What happens when we can’t forget?",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSklHR0YzcXlRWi1PUGhuWW5CVXBZOXRrbTF5Y3JSR0xlU2Y5VlpIS2dRMEJkTER1VHBnUng3V0hfRkFRWUJqU0lXbmNUVFJYYl9nOHpLVXRtQWRSS0hlcHRPc1Fta1BydmllT3Q1V3hZcHgyX2h0Qm9LV29SSVlSZVA5M05Pc1oyYngzbHlTTHFjSXpibHY5YTFHb1djRUp0OFhadFFvVHg1YnNrcGlV?oc=5",
-          "publisher": "Fast Company"
+          "title": "Democrat Roy Cooper wins North Carolina Senate race, flipping seat from Republicans",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zVVpLVDVxYzUxa3FTaFhyWkV2bXlydklsb3QxdlZUakJRZDFlUE1YejNwS3VHalJZMkNqd2t5bEFiNW5RMlZtOXg1bkIxR1hYX3FYblZ4aF9zUTg?oc=5",
+          "publisher": "BBC"
         },
         {
-          "title": "AI Wearables for Small Business: Where They Save Time and Where They Don’t",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSE1xYmNpZjdaTm9FYTBqdkwtUzlLdFFfWTkxWlRIcjNSN1owUkNIZHZtd05tQVk0bDN2em92QjVVQlZ1VGgtT0FjVTM2OEFMbjJudDd5S1pNWDdPQzdYZVhOSHYxUVBWT3NVVTMxMVh4OVJuMHlKRVhfOHhtcjlQQ3FPSWpVb0tVLUl0N0I0QTNFeXJxSG81UGVFQ19HZw?oc=5",
-          "publisher": "SMBtech"
+          "title": "Election 2026 live updates: Democrats win control of Senate, flipping seats in Texas, Ohio and Iowa",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcFRaelBYcUEtYnUtdGFQTGZzZVZBTlZ4SnMtZXc2ZHA0NDNBNU1hUWliaHFsWmNCck9tSk81RDFGQzdjZG1DZXVUaEp1MWFfLXhkYjRTLWNNTHlSTlJGd3puVzktN2I1N0tnQW5DNjZvWHRPeUVTaWpnRFJNS25Cbk5RTHg3QnhRRTlJQ1poY1lpSHlMMVZPVjNieXRhOTk2SDhndmloSnFJRlNfdVd0UUtaemlhSkxxa3QwLUdIak1CY2c?oc=5",
+          "publisher": "The Washington Post"
         }
       ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-3d47204c96",
-      "lang": "en",
-      "title": "Today’s NYT Strands Hints, Spangram and Answers for Wednesday, Nov. 4, #976",
+      "id": "hi-86b70220cc",
+      "lang": "hi",
+      "title": "'नंगा कर देती', बेटी के लिए अश्लील कमेंट सुन भड़कीं लव गिल की मां, माही को डांटा, करोड़ों देकर छोड़ेंगी शो?",
+      "category": "entertainment",
+      "published_at": "2026-11-04T05:11:24+00:00",
+      "summary": "AajTak: 'नंगा कर देती', बेटी के लिए अश्लील कमेंट सुन भड़कीं लव गिल की मां, माही को डांटा, करोड़ों देकर छोड़ेंगी शो?\n\nJagran: Bigg Boss 20:'मुझे पैसे नहीं...' लव गिल की मां की बात सुनकर इमोशनल हुईं माही विज, दी शो छोड़ने की धमकी\n\nNews18 Hindi: बिग बॉस 20 Promo: लव गिल की मां की बात सुन, भड़की माही विज, दी शो छोड़ने की धमकी, 'मुझे पैसे भी नहीं चाहिए'\n\nNewsBytes: 'बिग बॉस 20' में माही विज का फूटा गुस्सा, निर्माताओं को दी शो छोड़ने की धमकी\n\nNavbharat Live: काजी तौकीर को मिला परिवार का प्यार, माही हुईं इमोशनल, 'बिग बॉस 20' के एपिसोड में हुए ये 5 बड़े ड्रामे",
+      "sources": [
+        {
+          "title": "'नंगा कर देती', बेटी के लिए अश्लील कमेंट सुन भड़कीं लव गिल की मां, माही को डांटा, करोड़ों देकर छोड़ेंगी शो?",
+          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQN085Y3BrYXk3eWtjOFZmTFl2MWhxbi1KeUxtbWg5TEJpMnZSa09iVHJLemZQSXJwSDByalp2SnpORWpWZ0pSUllhWjFsdnBaMGlOR0xGdll0MFZOVHZpSGVDSVhGVHZpdUd2ZFJyUllRNVIxLVpjNnRYYWVkWE94aDNvekgzVnlyME53S1FMczF6eXFnb0dYaUhIcVM3ZGVjdTlSdVA5TXVoSU9HVEZCelIyRXZyUnBRWWRmMklUcjRPaUluWlJxQzBTQjBPRkh3dzBoUDdldXdpc3MxZ2pPbUtwUUFyVlBIOE5sNldFeU5RQWVCTnNBLW5teC1ib05Xb2FQVGNqa3RDelFISjAtN1dB0gGXAkFVX3lxTE9sSjVoS0JUUWhST21NdDRFS3R5RHVUallqR1JrTnJpNXpGdWpkYWpmZWxaWi1pYnNVbmNKYTloU0dyb2djZzhLUEhwT0s4TTI3Vms4ajlFZGNVSXlEdmFKLTJkOElLaHRmaXo1THlRY2VXMXljRG5LWnZPcmlQUXFZa180Q2hDTUw3MUhMYVUwOXMtaThCQ2w0X3NFYTU0TXlGcjVXQTFBeEtFRU96UU41T0NYSkZFUWxvWW5mUFJYZzg3bnVPZng1VjJiQXVNd0VRLVZLTXY2NEFuMUk5TkcyZXlGSzBPd3llcnlVdXFLSDNmWXlIREVyWVBKN3VGZnJRcDlOcWdjTElwTmR6TDJOSURwZU50bw?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "Bigg Boss 20:'मुझे पैसे नहीं...' लव गिल की मां की बात सुनकर इमोशनल हुईं माही विज, दी शो छोड़ने की धमकी",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOE9HcG8zNzBwSmhpLWlKcHloQXkySDBWRmJKVlowMEdySTY3TVFScEZXd0loVzNFY2hTbUZYcFN3R2dnYTM5b09VVlRtdWw3ZjdmeTlrRmJZdHl3enhYdG1qVm9uTWtaa01nbTUxakhtV2JGS0J0RFdBTDBYU0dlT2pkRTdGSUZQNWpoR3c3eFFqMDNDQVdBNlYwYXlITGpXWW93MWZsVTRhUGg1MS1ocTJUQkdMQ0RWTFZwSi1kcnl5bkljRS1fUGF5bTAtLVpJX195NFJhRnZJT25jNXl3UzZvTEZoZmVSWDFXSDY4SDNTYlU?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "बिग बॉस 20 Promo: लव गिल की मां की बात सुन, भड़की माही विज, दी शो छोड़ने की धमकी, 'मुझे पैसे भी नहीं चाहिए'",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNS2RKbl9mVDFjMHlDbklLb2VrdWVzTVVSd3FWaEZITW1HTkpid0NMTnA0czhrc0MyMVhsdW42S21rbUloMmFNcm00WHN4anNBY2JmT0F6Ykx0cG5lZlZYcUJyT0NYUEw5ejhiWjFtUG95SlRKTjEzNzZJVFZKM3VxOGdvc2hINUU1bHZwMGU3UjByWnNjQjBlSGdmNVRNckotZnRmQlJMaWIxbVgtOVE1dlhqYUtHQkN2aS1MZklKeTdpN1BCSzlhUkRCWWY3RXpodTRmSzhTSzRkTGtHQzE3S2xBSE9qaWRDQzRiYkxDb053bHVfdTZFTUNrRWRrR3ZvclVoWVp5SlRGZ1NaaW1jREt4Ui1fRVFRZmRXUmNLX3lvSjdlTTNjNEVkeGtTVnpPSndkRTFQbnBBeDlJV2VWQmRNT1UtZ3ota2tB?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "'बिग बॉस 20' में माही विज का फूटा गुस्सा, निर्माताओं को दी शो छोड़ने की धमकी",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYXlCQWh1eGtWRy1jektHYlVFRTFtbzVFT3RzZFlKZ0U4b3ljV1NSbVhRcTBta3Y4Vmh4LVpKaUEzSUItV00xMDNEWTdoaFNVblc3VUs0ZlZVeFRhaUp2YWNLNjVxYmJ1Sk9LYTY0UExzX1dKTXpwNy1Wa3BZb3lFcEhZTEVXVzdSZUN4bDgyVnNqWDhkaHNkZFI0V09DRkhOTWVLNjNNbW91WFYxTERERF9tb09JVXFL?oc=5",
+          "publisher": "NewsBytes"
+        },
+        {
+          "title": "काजी तौकीर को मिला परिवार का प्यार, माही हुईं इमोशनल, 'बिग बॉस 20' के एपिसोड में हुए ये 5 बड़े ड्रामे",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSzFZZmtJVDl2NDUzVVdSLTMzNmVqLVJ5WWt4ODFFZmNSdElUVU1XWnF1QVRCT01SbXE3U0FoZF9uUlFFTmF1YWpkQkxTWlhQYTVBb2t5QU5XYjFWM1RGSjNhclZIdndseERTMUFfVFo4ZW1DdUNCanNTeDdFYk9LNUY4OU93Z3c4NndjUm56R281dGhUanM3TFQ1NTlaX0w4UjBBNVJsLWZFQdIBtwFBVV95cUxQZzcxX2w1LU1vRXpmUm1xLXJ2aldmOVJxRnFjWGVNaDJydzNuekJNRkxDOVRvMGU0NFJUS0o5RjVrdU1MV0pidzZGT3pEeTRiOVNtTWlUaGhvSmliVk5LaTZxVmVFTnF4WmIzeHQ5UlU1RjY2cDJ5Q0FCdnZfMXp4TzFOY0t5aFoyc0dJa2RqWHRNZGFqS2FNT240QnhlbXFtMTk4QjZ3VlBGcFRfcEoxRnVNMGo4Y2s?oc=5",
+          "publisher": "Navbharat Live"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-47ef614591",
+      "lang": "hi",
+      "title": "HP ने भारत में लॉन्च किए दो दमदार लैपटॉप, मिलेगा 32GB रैम और 1TB स्टोरेज",
       "category": "technology",
-      "published_at": "2026-11-03T21:00:06+00:00",
+      "published_at": "2026-11-04T05:06:14+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "Today’s NYT Strands Hints, Spangram and Answers for Wednesday, Nov. 4, #976",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWEd4ZVhlZTNfMk15SHRmSUxQNUY3U0l4VzJzMkdyeHhEYmVhY2NZaXhPV0xqQV9JWlcyUHduUmw1c1BLb1ZFRmlWbFNoSkl6ZDFwQWdKR2dCbzFBRkV2NG95dnNPSWZlMTlVSmtGOWtoMDdhZmNDWTRtSnJXQXF5ZWM4RnBXMlBfMlVRdW91azN4ekVq?oc=5",
-          "publisher": "CNET"
+          "title": "HP ने भारत में लॉन्च किए दो दमदार लैपटॉप, मिलेगा 32GB रैम और 1TB स्टोरेज",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZ2psRkJXa3pWWmtSa2t5Q2xnRUV1QVpzelhzRnpfUzNYZ1NJcVMxQnVRQUpmcEtJMHBJNUp5UWE2aXdRb0pNUC01MHZVcFVfaWhRdm5rTGhWZDNDQXlzbG9SX2R6VDNfV3ZFeGo1X2xGRjZXM0UxR2RFTURGeXMwZ2RXQjVWQ1M3bVloNEc5M19Lcjg1N3FTUXRTOVM3dGczZ0ZsRUpxX2dIWVFCTVNiaVVXbk5NTnRkMmNlTVBsVVZyWVhxckVhV9IBzgFBVV95cUxQT0VxZDBrNXhxYXhZM3d1R182a1VTczBRbmtDM0UwRV8wNkpleWhvNzJsU3JoRHlYaEowZGdQcDlnaG5feFVxaDZ5UG5rUmhUOWFOR0hQaTM1dG41dDgyRnJVdWVhMFlMclJKY180QlNvNUJFWkd2Z3Y0UGJvUkdRam1NcTAxSlAwX1ZlczVOaUdJUDBBYkRHTE8ta0x3RHNqdGtaTFB4Y2RJTWRLb3JVeW5oTXJhRXRETmhHOGpaT1NFNEtlbWhMYjFMbUVXQQ?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "HP के दो नए लैपटॉप भारत में लॉन्च, 1.10 लाख का लैपटॉप ऐसे खरीदें 79,999 रुपये में",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNRVdTMzAyNjZkQ3E4b3NWYnBEQzhCVGVSMGdWZ2dFR1U2aVV6ZHJKTEhYa0F5cGJZQzJ5OGtKMFd5N2xRX2U5TGpNRTdNOS1VNmZ2U3gtRTUxUEgtY25tTG1aWFdUZ2R3MkU1SEduMW5hdHdpc3NIX1UyNXFRek5tM3VOaWtzYlYxQm9tR2RVTWJfNG5vcE16T3NOU1VVUDBaQ2hMUnRfdkFsdGxuNVlIZXh5b2RLZ1BTV0dLenFoVGtvdk9STDlrSVhLbE1QdE1NcV9BVFhteVBiU2ItZ3ZtenhIUnBQdkpyUW1zbVdn?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "32GB तक रैम के साथ HP ने लॉन्च किए दो धांसू AI लैपटॉप; 42 घंटे तक चलेगी बैटरी, 180 डिग्री तक घूमेगी स्क्रीन, वजन भी कम",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOSVZPeGhCUklJOUVnQ1BBVmZ3aDRMRnRtVzNwRDFGWnJRTDRsZ1dEODIwaXZxbFNobmpuMGZHZ3FKRWIzNW9kaUJ1NEFTSFFFY3JmdXZlbW4wRkNjbVAycGN4cE44Rlk1cEtiME9GbHJjbURqazF6NGp6VF8xMUJtc0VIZU5rMGN0YUFmRFVrM1BjQjdodVRudV9ZazBFejViS29QMngwMEVwbUwtTGdXSkJuYlp0SjYxMXRWTVdORFRHdUNOS3Y1WWhMUGIxT2dOLU5QTzhhczdKUTVXejM2eF9EV3p6ZjVUZUozdk5iQV9laXQ3OEV5eGh1RnN0NDFvNnpz?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "टेक अपडेट: ChatGPT यूजर्स दोगुने, HP AI लैपटॉप लॉन्च",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTU5uYlk4eFZySUp3a3NhdDhBR1lLdlVhXzJWa0xDWlhqalJ3RTFjc3pwVGFqeTREQjQ0Sl8yZmJWeFB4N0lsemVwQlY3dWFCajFPc2htZU1aNm5KSkZjS3VnbWtXSElRNVg4MUpUSE1XSkNHRmt4MjRnVk9wTzNwbzBtWndoaFJNa3B1U0FBSjdzdFdIa29HaHgxUkVIV0FidWtpbGxZd1FuZzdSRmc?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "HP ने लॉन्च किए OmniBook 5 14, ProBook 4 G2iS 14 लैपटॉप, लेटेस्ट फीचर्स से लैस, जानें कीमत",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWWtFX1U1clpUd1BLd3ZfbmFiTnFKZmtkMWp6RUU5MmZPNzRTZ2ZMUWdjdXdpT2IwM2FfbWxwZ2M2S3Fmc1VMd3JhZGRYeDRlbURFR0ZVVXRxVEFlYzZDYjR1SzJvX0RKOGRvTV9OMGYtNExqN19lTXc1NTVodklWYmlaZHdtWVVFSkpXc1UxcDQ2blhwNmxYZGlyd1RNS01IZkt0WlpBZFNSQ091RmFrUkNmYlVfM1g2X1VXRNIBxAFBVV95cUxPMm9Pak9ZX2FHejBHTHhZYUpxYmJxR3FTdll2X2Jrd2pUWDh2Y1o5V0VNVUNsQnc5NllmekNtZ05tT3NFbVpMYjlBRV9SeDZ5aHVhRFgyZTQ0ZnZ4bHU5bFl6UUI3MTZrYkRCcFpJcGxuN1ZzYkVyMWxaYWRlczlEejlISGcyVkRHWkFMUUhLN19RTUxWblM1X3N6WVVUN2Nfbjl5OWplV1ktZTB3ZFlTQ3pNS015bHdCZnJxRzd5a1E4cld5?oc=5",
+          "publisher": "Gadgets 360 Hindi"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-7bb7c4dcc4",
+      "lang": "en",
+      "title": "Duffy: Will be 'awesome' to play against RCB team-mate Kohli",
+      "category": "trending",
+      "published_at": "2026-11-04T05:10:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Duffy: Will be 'awesome' to play against RCB team-mate Kohli",
+          "url": "https://www.cricinfo.com/story/nz-vs-ind-jacob-duffy-will-be-awesome-to-play-against-rcb-team-mate-virat-kohli-1560918",
+          "publisher": "Cricinfo"
+        },
+        {
+          "title": "Want to challenge against the best: Kyle Jamieson on Virat Kohli, Sooryavanshi’s Rise, KL Rahul, and Tests",
+          "url": "https://revsportz.in/there-is-a-quiet-pragmatic-lucidity-with-which-kyle-jamieson-dissects-modern-cricket-towering-over-conversations-with-the-same-imposing-stillness-he-brings-to-the-top-of-his-bowling-mark-the-new-zea/",
+          "publisher": "Revsportz"
+        },
+        {
+          "title": "Jacob Duffy on Virat Kohli: ‘He is obviously a megastar...’",
+          "url": "https://indianexpress.com/article/sports/cricket/jacob-duffy-indian-cricketer-royal-challengers-bengaluru-10946304/",
+          "publisher": "The Indian Express"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-7e2f5ca26e",
+      "lang": "hi",
+      "title": "धीरेंद्र शास्त्री के बयान पर अखिलेश और पप्पू यादव समेत कई नेता हमलावर, क्या है पूरा विवाद?",
+      "category": "india",
+      "published_at": "2026-11-04T04:57:48+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "धीरेंद्र शास्त्री के बयान पर अखिलेश और पप्पू यादव समेत कई नेता हमलावर, क्या है पूरा विवाद?",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ZXlLcHZfWWxteF9qQ1hjSUhDWmpKOFJxZ3dSSmNxRl9lNEVhQTlVUVVaSllJd2lxQmNob2NXTUdIWENHWW9HWFpoOWNtdUN2NS1rNV9aVzRJaHNw0gFiQVVfeXFMUDBBWGpVd2M4NzlzWHo1bjFoY3FkZUV1WGhIU192QlBnbjVQQ2VGLWRlRzRUMmZLOTBjcy1oeExjZGJ5RWRqa0JJR1QxNjBUeUVhZnR5UXFfM2dHVlVpbjlNbmc?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "विराट कोहली पर किया था 5 करोड़ का दावा, अब उन्हीं संत ने धीरेंद्र शास्त्री को घेरा",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQbXlmU0lrV2g1cERSTmI0MDJneG5tSVZNdTV2M3pkbGN6bXBiOEx4ZFFaOWQtcHdpLVhhd3ZDODVtQTdCZDNlWG5vU01XQ2h5WnJkeGt2ZzRocWwxenUwZGpIQ1U2NXdKc09qbVhhekhkLWxYbDB5azBXYmlEOXNXMW1xS3hxV2N6cHdiZDdtMVZRUE1vM1JOMU1DQWFWVWNFY243YTRFc2N1NzVsQ3h4MjlmQmxRMjU0d2dSM1oxMTZQbHZwdm91SkxQNEJkeUVTTlh5V3hVMDFfYVpmQUpTWk5ZRldvQUZ1aTJqN1hXaEpCRHBOZ1BXSDc2VGLSAYICQVVfeXFMTllfWXR0dDA1ZHctSUF1ZHh1RHloZy1xS2ROQ1RHV2JDZncwaXlqZHhHbFl3eVpmN3Bza0tEUngxcWRhSmdIZ29PSEJxVXJWcDAwRTloQzVtb1FraXotODRoOUJnVk1GTnJaYXhPdXBjSjRlZHdNbUNZTlk0ajIxUTlBNHplR2NOVmF6RjgyT0hhd3JjOEdDNlF0Z3RlMC1VS3E0V055WTM2WnVoNlQwbTZCczNtWGlrSnVSNktaVHgyeWtjYUhiSkpoRVo4ZzdSN0NKNFZld2lRdWYtQW12RVYtTndud096cGNRR3VyTnh6Y0Q3bmliYTh6bzdsSmg0Tmh3?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "टीकमगढ़ में यादव महासभा ने धीरेंद्र शास्त्री का पुतला जलाया: गांधी चौराहे पर प्रदर्शन के दौरान पुलिस से झड़...",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUzFpRmQzc1o5dDU1VDBfSjFIVHZUZEZnNmV5NXcxOFR1QVFNWjFzOUY0VjNDOFdUMnZxMHpmamU5SEw4OF81OUY0WU1iWGFBajNqZ0NhT2tRalhmREZmMjNzQ1NfV2h4VlcxQ0Z6V1BJOUZHZWFYbXNYWUZDUTZfcnJVaHZuY3V0SU5pa2d0VkpnN0hUYjJBUDNMM2lGaDQyNW42ZDhta1hrZEpvSzQzVGN3QlE1U2g5MFBjSXlZREM4b28w0gHKAUFVX3lxTE5McUVQRzdvMGxDaENQQWp3ZnRTYVRUbm1JX1ZVTVNmTGlDT0p6aHRWeUJJdVdSTHlZN3VMMGYwblNtNlFIWlpZaVpaRlpjUmcxUlBzOVZpV0k2QjFKdTZhWlhmVXZDajBDZFpRckdNNDRCWVR4VmVhZDNyN21STmVxNDRQbGJUTGhzNmVUTEtJdGI3M3RrRTdzNnYxaUZuRFlUQ29qWU12eE9OQ2FVU21mNFA5eEg5NHhXU28wSFdtZHRwbVVtNlFLdnc?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "राम ऐसे कृष्ण वैसे, बागेश्वर बाबा का बयान; कैसे करा सकता है भाजपा का नुकसान",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM3ZDcTZQOVRIOEpLTG5tYVhuV21JWW81RTNjeGJhLWg4M0J1N2lVYjBBZmE0cUVJUFNYa2FmT0ZqRHJVUGFDanNfak1hcjZ3c3RsU3RNNFZRdjlKWkR3alVZbW85YzRXNTAwVUVhbVBJei1Pei1ZN0ZBX18yZGJ6bFJ3NldtYV9OS21MRms0RHVvR3I3bk9yVTZRTGhUTVJtMlFrN2ljXzdrc2lQLVJlX0NLdGowbG9ka3JseW9MdU9GX01ZaEJTMlN5cXJvZzRmLUowQTdhT3podmNlWkR3MHdiUHVQSG1pbUE?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "फैक्ट चेक: 4 साल पुराना है धीरेंद्र शास्त्री का ‘राम जी के पांच पिता’ वाला वीडियो, जानिए क्या है पूरा सच",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa2YxTzE4d1hzWHI3eWFRM0NyR19hVlVtdHpBQzVUbXR4cE0zTWFialh6X2ZsUlBOZlRPNWVKbVJtSUdkYXl3SElkYWQtR0RYNXZ4YU5PX2YxRjlDd2dxeTUyUXJkRHJXbUN4UF9SbEh3WTZtcy1kWWlPbjNsQ25yajBQN1RsenUzM3NLVW5qRXppZW4tZ1o2Vy1FWHlFdw?oc=5",
+          "publisher": "Prabhat Khabar"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-d27cfd55cb",
+      "lang": "en",
+      "title": "This is a 1956 Ford F-100 with an 800bhp Coyote V8",
+      "category": "technology",
+      "published_at": "2026-11-04T05:06:08+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "This is a 1956 Ford F-100 with an 800bhp Coyote V8",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZGdrWDZXaVVhbHJyeDZSRTZ2MExtN3JlU05OOVkwUUwtLTBfUFFXM0RaakY4eW9EaS10eU1zOUhwNzVPaFJlUGVLU3BLX3FDYXd0WV80WlFJbGtvMXV5SFNvenV3ajRxb2ZCcm83ZEZnQWtGNmg4aU9HSWZNZm1GV1ZB?oc=5",
+          "publisher": "Top Gear"
+        },
+        {
+          "title": "This 800-HP Ford Pickup Restomod Took 15,000 Hours To Build",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbDl4YkNXeXdHUHF5R3VlWWtYTmp3UW5XR2ZPZmFxalYzTHRCNm9qYVJRM3BmVlRQeHhGSVFyYkVCVEpIN1BoeXZrbmMyWDd5THVmWFZuTGw0OW9jdmduT1NzWG1sWjNjTllvX3F5MnFBajFWeFU4a1F5U28tejBva1ZzQi1DR0E?oc=5",
+          "publisher": "Motor1.com"
+        },
+        {
+          "title": "Fat Fender's 1956 F-100 Is Officially The Baddest Build At SEMA",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV1VXeWpaWFlkY1VNTHY0SkUzQ2JPb3FSTjMtRExPeXdyOXg1emhHUGJYT1RWVlppVjFwNUFuT2V4Nm1iXzJpMUVRMVllZ1IwNXFzVHBfcEJnUjI1NWx6c1RvZzdwakV2bHpWT0hzbWl2TXlMbEJmclFFeEJsaF8xYVVWX1dtZw?oc=5",
+          "publisher": "HotCars"
+        },
+        {
+          "title": "Fat Fender Garage Turned a Utilitarian Truck into an 800-HP Ford GT-Inspired Beast for SEMA",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUzA0dWtRUFpraTVocXFtSWlSbHJMb1FrQkh3M1pIa2EyNy1nMmJsbWFOOVNKbjctYUlrMWZabjRSQjFFWVEzTHhTMnZFR1ZCaENBSWduT2V5V2hvYmxaYUZiendhUWQ0VEN4cG8yVTNMQnpjU284REpXS1lhbFZFTWtubmZldlB3SzJpbTlOOU0?oc=5",
+          "publisher": "Car and Driver"
+        },
+        {
+          "title": "This 800-HP, 572ci F-100 Makes Zero Sense In This Economy, And It Died On Its Shakedown Drive",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CcHNVZjhqZjF1d3Z2U2lodkJXcC1LaFRHTFdwOWFRb01ETWdaazNpbkNGOUxvckdpNC1ROG9zV3ItZ003bXFMY1VhRkZEc2tNbWc0UnpkTXIxVGx4eDhpNkw3S1pZcHlPa2ROZ1NSaw?oc=5",
+          "publisher": "AOL.com"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-5dd16dcca3",
+      "lang": "hi",
+      "title": "Rupee Crash Alert: डराने वाला अलर्ट... US डॉलर के मुकाबले इतना टूटेगा रुपया, समझें नुकसान का गणित",
+      "category": "business",
+      "published_at": "2026-11-04T04:17:46+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Rupee Crash Alert: डराने वाला अलर्ट... US डॉलर के मुकाबले इतना टूटेगा रुपया, समझें नुकसान का गणित",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUUVUd0lDZTlWVUZfdFNvX0pEanczdUZTQ2JmaEhLVGtabWp1TEYwdmVsWVNWTC1nZ3lwdUJJRkdSa096bnNLamNrS2FXYThuRFhpTndLV1dNbzczREJ4bnpTS0x0dWowR1RBRXJwVXJDOWtDb3BpanJRY3haVmlZdk9Bc1NLZjEyLVQzWnRCRWpmeFlDV1JYOVZBQ3JIZFRsVGpMV0dScy1nME1ZYy10aXd0a1h6Q2FURWRNbUUwSmhLNlJ6dnNObXZzNHNidHNGcUdfdE8ybzZ1NmpvbG9LaXBfdlozdVhoS1dLMFhIa0PSAfYBQVVfeXFMTnIzb2NwR0hmMUlrVXFkY0k3dU92NndZSmViOGQ4QmxTVlI0RGJoOWwyRWx1VE9xbWdSNzRkOTl0LXZjNzhwUFEwWktvUlN5YVI1NDFoSjB4R0hHUlhtMElpVFM5RW5YN2h5dFRuMmEwWDYwVDF6YXZHYU9TbTVqYUk1Y1hkY0hfRjBray1zWXFRcW5hdXh4aFZxZG9RUC1FTTJKLXRfcE1kVkE3TmpnaUh1emc2RnJ2d1VGc0JhUUpWbmJ2cFdfQjAyLWhUOHJMdXNCdDFsNzVtR1JtZlR3bk5IQ1JGTnVhMHdOQ0laTUcyTVQxbm5R?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "रुपया शुरुआती कारोबार में 12 पैसे चढ़कर 94.72 प्रति डॉलर पर",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEFyRzNCVHJYT2wzaHlBSkdIZGY4UXRxekMzRkl6bElNVXRKOHUxOUYtRGR0cHpjSlRmc3NiR21jWjlxVGxrU2ZTZExicmNQOTBrQ2lrdHlGbEdST0FqczZ5TXgteDY2VnJhc0dDQUxrSjBlM1laektLT0NUWDF1N1JsZEFVaFhkc1lXX1U0ODAxN1p0OEppbkJ0bF9qU1M4enlKVUdXUdIBrAFBVV95cUxQbi02VDJSM0RFY0ZTM0NBOVRxOTZWNmUtWjBPbFNGLWJjcHhsT3NXbWd5c2t1dzYwb2llOW9jZGtWVUUtaFRWd25jQU5xZ3pINjRzUXowOTJUaE1pckRlWTYycW9SMEoxd3ptb2ZCa0d4Z0hXVXllb0RnLTFveUpwbFV6UngxbWxSazdsbi0yWVFGSzUyV0RXQ1BOZklZVWtQcDdVYjk2WEJPMXpR?oc=5",
+          "publisher": "ThePrint Hindi"
+        },
+        {
+          "title": "पूर्वी मध्यस्थता के संघर्ष से लेकर MSCI के मुद्दों तक रुपिया को दबाना",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBxV19TNzg5NGFrd3p3b19oVHN5Vnh1WVlmWmM3QXFnQnlQWEZmeFhqMHNRTzJINkY5OEJCWnZfb3JrX3ptV2Zz0gFCQVVfeXFMUGg1NW9TOExPZzBqTGMwa05WNDg5ZXF4Z1o4VWg3SlpjcjlvaTJFMEJjOHIyeFV0OXBRRndSTHp4dk5R?oc=5",
+          "publisher": "VOI.ID"
+        },
+        {
+          "title": "नवभारत संपादकीय: डॉलर के मुकाबले क्यों कमजोर हो रहा रुपया? आम आदमी पर क्या होगा असर",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMzRLaVVYekZRdjMwREJEbTB5SklKc2lVTGJrWFJOa05MX3l0ZHJFelNITXFnV05OMnYzcFM4TG5JcjNqYXRMbF9HVFJBa2E5MFl3clFKc3ZLOTNTZW1HbjRfODhQZkFNUmtGOVlYNUtydmllM1FYMEx6NHJTaWJOb0RkNW9EUDE4YUlyRGxEb0xYaDFGNmZMZmtrREFUV3RRTmpQV0w5MmdoamRZQUHSAbsBQVVfeXFMTUdvOFI2dXRORmxBSWpQd3BLVFFHaEFKZkMxRkRISE51ODZ4WWtKdDN1bTdCejdFMG5tUXVKMEluUFlobm1fVUlOYmdIdXVWOG5uaEVWSlhVeENrQ3daZWNEZGcxZVVSa3c0c0hyRXdJemRTRkdVWDVfckFMckFqdWlMcnY3Z3FVcUpkNTBDT1BTeHhwcGl4VlpKTXNMMDBBcktDSW53RWdibl9BMjBJYkJUYWtSYi16WG5WSQ?oc=5",
+          "publisher": "Navbharat Live"
+        },
+        {
+          "title": "रुपया 24 पैसे की मजबूती के साथ डॉलर के मुकाबले 94.66 पर खुला",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd3l6eDl5MUFBZ3FCTVpIR0ZtUUlkZUphdFlTUGM4elk1cjlKdGRrcmhHYzdOQVAzX21oMUNJb2xENmFySXd0aDhCdm5XZ3R2aUFPd29MYVlNVll4eEgtZDVkRnYzR09zUURUMWU1d1JuTFFXcmdzZ3dHOVVEbUwtV3R5VzdZU0lKMjYxd1c3VkNwSUNMbkdmMUYzX1hhdlk3TDRIVEVYM0VuaUhuZExjd2lR?oc=5",
+          "publisher": "NewsBytes"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-d223f3bea4",
+      "lang": "en",
+      "title": "Trump says he will be ‘Mr Veto’: The US president's veto powers and how far they can take him as Democrats look set to control Congress | HT Explainers",
+      "category": "world",
+      "published_at": "2026-11-04T05:00:38+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Trump says he will be ‘Mr Veto’: The US president's veto powers and how far they can take him as Democrats look set to control Congress | HT Explainers",
+          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPOW04X25lWlBrTVJreDFxaVk1N2RyUXNLb3oydGQzeGsxcjhXcFJySXVJb3RDcWtPaVdxRC1lM3E2LXFsRVJCdnpMTTRyZGJzSlNKVUVwbGtJTXBYSHJLWXczNk9pZWVXRjZkNU03SnpEUThQdlluT25pSEQ1VWI3QmJ0VWNOVVJtNWNvUGs2eVNGUnZrNHUzUzZrdVVHemphcC00bXEtNnAwbHU0cTA0RUdRQk90eDdFb1ZjR01VckNJak5LdlpXdjZsazZOWXh2Rjl6UFpwVngzeHpXTURrTGVtTy1QWF9YNUFaWHpZUnhmTTZfQzZEYjhXVkk3Z0trTzlvZi16eXZaRHNQckNwQXJaZWRRUWpQNzUxOFRVcmswTjjSAagCQVVfeXFMTnE4X2lpQ2lwZHpENTNXS0ZMTFpaR1MwaVBLNC1hTk5uaUZ6ZnJKdGg1T1RmaGZPS3RKNWNGOGlKbkV2cFJVNUs4R2U3Mk81QnNTZHN4cGdrRGJrZ2pUUWVoREJNN2E0dUZZME1XSGZJVlJFTk9FOVJmNXc2Y1hYYThIQXZ5TW53cnA1R1Y5Z21RSjIxQkltS21tZWNyeG03Y2E1UEZRQUt0bUhIb1MtVlMyTW1NRUltajUxR3NWU09EZHVfQ1NEcHBLdW9XUFhvdnBLNnBKNlFDSkM1bXlILVM5MFVXRzNXMzRZUjJWUXJ0Q3NoT1dHb2c2Sm01aTRPaHJXbXRjQTQ3NjRpRHFCUHl3bm4tQmxZS05LOG5LeXA3MmZ2VVJJU0I?oc=5",
+          "publisher": "Hindustan Times"
+        },
+        {
+          "title": "Trump Reveals What He Will Do If Democrats Win US Midterm Elections",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObDc0c21sLVVFS2RGVlZTeDBreG1jeG1jMGtIdWhyZVlaSHpNN0p4bXQtQTFTQVZrbEdGalZEVlBlLUVUbGE4b1NRVS13a21pSmJVNFlJOE9yZUZlV3R0NmRENFlkUnR2dzFrc1ljNHJLMmo4d1hSUDFjc1kzcHRfTVV4YzMtcndKSWF4VG5jMDNDSURLMkRrRlB4UENXS2ViX3FZaEtEYTZ2MHlh?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "Trump White House maps path to govern without Congress if Democrats win",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOXdkX2hvMlBTTmRRRGlTbndZSTFnWnZyYkJ5STRjNFBOUkdwQ3VDUjRuTUQySzhQMkp2UXh0MW5VS3E4WHVXeEhQQ2JnRnUxV0pIVTM3T1J6Y0o3Y1JWamZ4YXMwNEtjazNiU3pERzRaWC1XNXZBZk56UU1KSUFNMWtZS0hrUjNUSW5ILW9kdWVQa3BqYkNPSl9tQk90SEtWcDdXRjZXdkdUT1IzS2ViaTgwTmE5MnlCclh1T0pB?oc=5",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "Trump signals two years of showdown after midterm rout? 'VETO' post follows pledge to accept results",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYkRDN3JXUGkwSEN6cnZxaHd4TWtWQTZpMGlEOXBwTlFvSmM0cGRmRENaaHBVRkJnUkNaUGN5RzhWUXQ0UXh2S3ZLZWRDLUJpQkZyZmVheFM0LVZyVkM1amZnYjdFcFQ5X3JjN0dzZHRSWE9iZHJkcTFtaFdoVFZWZGQ5enczWk5ZMDJxbTU1M3hYZjkxZW9Od2pjbmVxZDZkSy1SQ2JFdTJSdW5NM0E4dWo1N1VBeHJXck1DT29ubGZJYXM1Q1hUUzRWTGw1Q3FzYk9nbWJhWWJ5OUhONnlLblNlT2F1Q0w0UnfSAe8BQVVfeXFMTnhnNjVwNWRsTVlLdU8zak1oTC1KMS02N1BkNHBsZ2dULTZza0c4TkxmamMtNC1WNnJhel9hLVljRVBVLVRvamNzZlRJNnVISExzSWlBTlV6V0RuQjZFaXg4VkUxSHN0ZWRyYzRRVFBUblNBYm1KcFZsRm9MZG1UZUhXLUVRME45ZGNrS3RJSzRzbl96T09uaXVnN3IyRjRrRjIxMFRwbGZLc2xwMGFTbFBIbG51V05lSy0wd2tmT1hoejNEVVFINEJQTlVLbDNGMFJ2NlFUWGRSaDljNkUwTVpJSlUyMWExRkpveGVJbFk?oc=5",
+          "publisher": "Moneycontrol.com"
+        },
+        {
+          "title": "Trump's ‘Mr. Veto’ Threat Hangs Over Wall Street: Tech Sell-Off Is ‘More Than Just A Correction,’ Analyst Says",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXRSb1JnNXpONzNBWWpGTks3RDVKRElKWld5ZnFMZFJmd1h1MFBtaWk2c25XNS1XclMydVVJbFVpeV9kNS1uNTlpT3dRWnpNSVdFTkpDT0diT25hSVlfTnhBT0NqNko2aGw0aWc0TVJnRWdNTEtUd0FKOVpTQWc2dUItMUxEa05EeGRYTFhzWU9DOU5IQ1Bj?oc=5",
+          "publisher": "Yahoo Finance"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-928feca8cf",
+      "lang": "hi",
+      "title": "ऐप इंस्टॉल नहीं हो रहा और फोटो सेव नहीं हो रही? फोन की Storage Full समस्या ऐसे करें ठीक, खाली करें जगह",
+      "category": "technology",
+      "published_at": "2026-11-04T04:11:09+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "ऐप इंस्टॉल नहीं हो रहा और फोटो सेव नहीं हो रही? फोन की Storage Full समस्या ऐसे करें ठीक, खाली करें जगह",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWVNrNkg3NVRiUVBvOHdJeHRUQWJIMVowZzhMZFVWRXlieVJXb3RZY2s2UG9lQS05TTNDMVFsNUx6dkhKTVJ6Tks4RlZsRGNpOWtJSmZtcHV2TVdpNkIzREs0Ym1FdzdOM1dJRElHN1YybXRXUkxra2pCWGxNUWNZYm1OZUl3b1FfUlo3V3VTVkFLa0xLNDNreWRXdDJxOGNXbzlOWjFvRDlUU213emhNUVh3QXY0RXdNT2k3Y3ktNDBRU2RITkc4Z0swLS1yVjBOV1JBcUVWZFF4MzhhMUE00gHkAUFVX3lxTFBMSjFQNTRpMDJ2bTN2WlZuWU9BSlRYVmFUZUpxSVdHcXVVRS0tVkNoOEtxRlN3R3kyR0w1R2M2eE80NWpldW8zWDlKOFNhWTNNOXBoUzZ3OW1GcWNmenBhd1p3T2xDaXB2VEJOUnhrSkVvdzR4OWhkUHVERk9ISHlDNExPTy1IUDlaczVDYW9rbWJaNE1tN2l4TzJCVXRYdEprV2J6WDMyRXRrV09vNUZhTjZadVlkVUpJVFJPeGtGR2FqVkFuSkdOa0ozYkpMTUlEN2JoNExJdTFLb1BiMXVQdGtBLQ?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "फोन का स्टोरेज हो गया है फुल? बिना फोटो-वीडियो डिलीट किए ऐसे खाली करें कई GB स्पेस",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONE9UendhemRrM1BIU3BHTWZvMnZqTG5lR19ITjFCeHJCbzdKOFA4NEVoVjlfZDBLSGNMUDBRX0NBRG53Tkd0cFJ6MG9MQ1lfdVpOU09wRzd2OWhTaDlkRFhCa0JDME9hdTdaNjhGVTY4R1dzTjZua3ZLeHd5SnA0VUJzUE92Z1JnV3ZvM1VLX2pmRUFtclNxb3ZFY2FQbXduWmZrOElvY1R0SVhlb2F4cThkUktRSU9fOWpLS0huS2wzVzdoVnFJ?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "Buying Guide: नए स्मार्टफोन में कितना स्टोरेज होना चाहिए? फालतू पैसे खर्च करने की जरूरत नहीं, समझें आपके लिए कितना काफी",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOam5yRlZXQ3d3VXItb0VhT2VqSjVJRWh3RGhUeF9XaEpma2VFNFFILTY0b09MNjYtd1dyRlB2enhLbmltTko4eERiX0VyUkRlUHJEY1pSMER2dzNGdmZxWEZBSTNHQUtDRDNrYm1ha0I1Q0FtdU5jVUwxU0dkWlVoOHhSNlBBaGdZczJkZ0tuQ1VHT3prbFFaaWI3ZmJWODltcEJwNEVPXzktNFNfVFA4S0FEUVNnSDZBdHJtWENYU0pEWFh1czFLc0tDZC1PdUJtVlBfU0N3TkxYS3ZfOEZndg?oc=5",
+          "publisher": "Navbharat Times"
+        },
+        {
+          "title": "सैमसंग फोन पर 27GB स्टोरेज को पुनः प्राप्त करने का एक सरल तरीका।",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZXZkNVhoNUMyRi1ndk0xbnlRUnZlOG1wV1BBcEItT1FUMENVUTB3Nldyd3RRRXdLazdpcktlTEdDTy1aOGF2UUh0YUcwM1p5MnZMNjFsY0RaNHd5cDd5cHE5Y1ROYlJzLUV1WHBKUXloMy1kRkU5TzY2YzFuUmlTMzlQYjRFSVd3RmhZ?oc=5",
+          "publisher": "Vietnam.vn"
+        },
+        {
+          "title": "मैंने इन 5 Google ऐप्स को उनके विकल्पों से बदल दिया, जिससे 10 GB जगह बच गई।",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ydnM1blhwcDB3eFBBc25KcWxuY1dHaGpiUXkyZ0tGa0REUGdJZWVtREthSXVOVlRTdGxzMXVPVFIxb2tyb2drcm1Ua01aT0JLQ0ZYeF85MGZvZ0JKdTJBNndVaEJPWENTWnhTYzFIdmxDTnlCT3BxR1dkSzc3Zw?oc=5",
+          "publisher": "Samsung Magazine"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-7af3ce2ae2",
+      "lang": "en",
+      "title": "Today's NYT Strands Hints (and Answer) for Wednesday, November 4, 2026",
+      "category": "technology",
+      "published_at": "2026-11-04T05:00:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Today's NYT Strands Hints (and Answer) for Wednesday, November 4, 2026",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQVFIWndCd21QUmFodElFcE91ZUd1dU14NjM2d1RrR293VEVQODVfaUliZG51dG5OdVpwVHdwbDZsLS14SHVxQi0wSlZweW0xWTdyOUUwZWQ0clJ2dmZwcHpUelVDNDN6NERNOUpueml1UUZrbnpRVGdpQ3hrX1BLN3dET2RiVGkydWc1MXl0Z2N1Y254emtHUE9qYlo?oc=5",
+          "publisher": "Lifehacker"
         },
         {
           "title": "Today’s NYT Strands Hints, Spangram and Answers for Tuesday, Nov. 3, #975",
@@ -3731,22 +3654,129 @@
           "publisher": "CNET"
         },
         {
-          "title": "NYT Strands Hints And Daily Guide For Puzzle #976 November 04 2026 Tips Theme Clues And Spangram Help",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNWE1cDNFczFaQ0FXQWJfUFpfbF9mVWd2dWlFSTNZYzh3cm9VajVaTGZtODN2THpOYzEwd2xoZnBrcEtYdEthelF3OE5lSFRsRVJ2NmRsSDlINTh4UnFzLWt5bE4tZDNqRmM1NjFzVkNDR1dBQ0VRbC0yZU0tejZyV2hXdWlRUGxrdHlOS2RxTTFLaEIzUk5jZ1VDbjVqUi1iOENoSllvMnBKRlNQdTVJcjd5Sk5PSUFWVjlpUzl0VlRlS0Q0X0F3?oc=5",
-          "publisher": "GameDaily"
-        },
-        {
-          "title": "NYT Strands hints and answers for Tuesday, November 3 (game #975)",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2F3S2VaVWV3dlU2azlEVHc4cnpHQ3NhMzhYUzV5OE1zOU5ZdU9KQkJvdnlWLTk4VzFLQWljWGxLb0hIbW9ILTl4d1NJMmczcjQ5RnpJSWpHSzNIendzUFltS0hDY05iTl9id0pUR2JYNDBCblRLXzFOU2RhcG9USGpwYkNSMWxyN3lWUnlJN0ZNV1JoT0txMDdiWkpKUQ?oc=5",
-          "publisher": "TechRadar"
-        },
-        {
-          "title": "Today's NYT Strands Hints For Wednesday, November 4 (Getting The Job Done)",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ2VISEMwNzNQMW9MeFQ2WXhLamlCcDBhRko3OGUzT0hkQmswVkZTQXl5SmlkUU9ORmFHZUNOV3pQRHlWNy1vbjFEVnJQTXJackNPQkt6azdBODdZSzU5eWdQM0JnTGI0WWNmeF9UUnl4VkJtMVZOMUV1RUdKT0twOU5pdzlmSEpNM0JINzVxZFNIdWc2dVB2ZjhkbVJYZw?oc=5",
+          "title": "NYT Strands Hints And Daily Guide For Puzzle #976 — November 04, 2026: Tips, Theme Clues, And Spangram Help",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORVlxS1l4cXpSN2hxckdCRE4wOGRVM3NCRXdhVHdCa3VsTmZxVnFVUTB4S1JsMTdVZFhFcEtoX051dVg5QkY0YlpGNi1wWS0yMWJPQU1NT2dMLW9nalhYcDMtWHlKOGJKTTRKQXFxV1hOQUtVbGhJXzd5MThoenA1REJjcXo1aEE4TWZPMHotdmlWVGU5NzlZ?oc=5",
           "publisher": "Yahoo Tech"
+        },
+        {
+          "title": "NYT Strands Hint Today: Tuesday, November 3 Spangram And Answers",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMVlPV0xMM2hrNEhyZjNjdDJKZXFlM2pxNnRUYU9RNDFudGRkYUZKaXFYSGlOcXhZV0lFNkVrdEtSN0hjc1Ewalh2TnpMMFJ3RnpfZWl6ZUV6V0tFUkg5bWwwdF9uOUs3ZGktWGxqY3NEaXotSFItMzB4azVSRlAxckVVNF9oaDZ4OTB4bklqNVRFTXBqVW5CM05taWZmX0oxYl9zQlBCU2VHZjE2M1dvMmJTdVhuT0tYUndEVE12a0VURlFfdGNkS0ZDaEVSVTJSUWc?oc=5",
+          "publisher": "Forbes"
+        },
+        {
+          "title": "NYT Strands hints and answers for Wednesday, November 4 (game #976)",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOGRyajROWkMzWXZ5Y0RXWmJsQU0xRkhJb1g4X2ctUHNnNWJTc3RLczBTa0g1UmdyZ1huTDN1MFZZZEZKZUlaMUdOVHFJMXBxS085dEx6YlNOYU1RZ0JNM3N5d1MzZzdjLWRWMU5DZS15RDJmbXFoMWxLSFZITUkxSDBxYUJXZ1NLY0o0djZsX09Na3kxeExnRzV1djZHUQ?oc=5",
+          "publisher": "TechRadar"
         }
       ],
-      "queued_at": "2026-11-03T23:08:51.604219+00:00",
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-822c1b0e27",
+      "lang": "hi",
+      "title": "इसराइल और इंडिया केवल रहे साथ, रूस ने भी पाकिस्तान के प्रस्ताव का किया समर्थन",
+      "category": "india",
+      "published_at": "2026-11-04T03:52:48+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "इसराइल और इंडिया केवल रहे साथ, रूस ने भी पाकिस्तान के प्रस्ताव का किया समर्थन",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rdkxwWjZQc1RFLTF0M19aeGltN2dFejk1SnpTWm5uZ1ZxYkdtV1FrUjlxbktSYzBWUkt4eTVBUTMyMFJaNXFaWWVhaVVhTGxnMnZiMXBsU3ZnNEJz0gFiQVVfeXFMTjZwNm05c085YklnMGZ1MUUtTDRWb2UtdXdmVnhrYzNfVEthZEQ1OGE0OVBqLXBYd3l3WEZLM3Z3c2NrMDJiOHdPeGRPbWxCWjlsQ0FrNG94Qjc3aGZCRnFrUEE?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "UN में पाकिस्तान के आर्म्स कंट्रोल प्रस्ताव पर भारत और इजराइल ने चलाया वीटो जैसा रुख, क्या है इसका मतलब?",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcW1LM0t3ZTBoTjBVNURLVW9jUXhVMVRqM0REVTJlaElCZGdUaVJ2UEEtZnZVQlJjVElsOVRuRmN4NHA2S1lKMTdza2lqNEo3UHZGSWhZOWw1bkRtTzZOb2V6c1U5eGtxeXRmSmlXS3p2R1NIUElLUzlPMk5DVlV4bV8zeFl6dnVROHNGWHJiMTFkeFFtWlZGcER5TnRPcEhoWkFxYkVKNlZ1ZEZ1blhKT1FDaUphQQ?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "इस कमरे में भारत-इजरायल ने मचाया तहलका, दिमाग हिल जाएगा!",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHYyUnhCRl9BVWdSNXl0NWZjVFVldWdoczJtNmNBanhtUW5XX1NCbkxkOUhlYndsRTlkaDYwYlpENW0taWxxb25OV0RENngzV0QyeEJ2eEctMTlJYWtOY3RvSkpUcTlVUjFyM3g4b09LOU9IRjNmZllXNUE5Y2dzWTFJaHNsOU54V1BMWXZySXRLdW1mYVJRVVlWMnpnMzlXMjE1OGluazBNaHg0TXfSAacBQVVfeXFMTjdFV2VpamxJd201eE1EcWczUm5KZS1LaEJsVUtsdU9TTGFMQ0VpY0dLT1MxdlFTeTBzdUpGNEhzSGZ5aFd3N2hISnZMbEl6dlp6UzlDOVNYeGc5LUpLWmhpRUhmdVQtREt2Um11aGpJT3p0RWhhYVJsd21RZ0ZTZTJ6QzJzRlpDQlBPTGhQUHd1RWlTWDZwdjZMOFlFQ1J4Sy13NGdpTVE?oc=5",
+          "publisher": "Prabhasakshi"
+        },
+        {
+          "title": "हथियार नियंत्रण मसौदे के खिलाफ भारत-इजरायल का वोट, International Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSjlWUTJUbG84OWRWNW9pbXdyUFBLbW1sWlFJQ0dzZDlrTlBHdm1sLVFGem9EazAzaDhPalV6bXpNemVPYnBTUDdZMzhHMmFHWmxEMEJPb28xem5IcTNlRXpkby1EaHVoZ18taWJwMkRMR2JvN05hYmNmenlxRXI4RGdQNGxBOExHTElqWHVMWWlTU1pvYXhGeU5VNmJ4b0IzVjNUcVVQUlpheU5VYTBybVp2cmhnenVVXy1DUUpHdW9wRmViXzBEVFRVbmxmVlE?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "यूएन: क्षेत्रीय हथियार नियंत्रण प्रस्ताव के खिलाफ भारत-इस्राइल का मतदान, कहा- सीमा तक सीमित नहीं सुरक्षा चिंता",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQW56UTFnc05EeC02ZDB4bEt4SDZrX01YZDFFaGNPaXhiS2pUMzJ1ajR4dXh1MDktMVNPT0xiMlhoMHVmSVRCYmwtQTlGeUx5eXg1U3cxWE9VT3lyM3Y3cS1WNEoxcUlwN1Ryd2lwS2pyRlFCbWNuZnJEa1lXNmFCWDRLR25qZGxaTUZfX3FKck5wX2t3OWV5NVNmbDU5VTRzNk9URk5sQmJOcXd5cU5nV252YmN4QTk4eDlpN0F4eGhXejREc09veTFB0gHPAUFVX3lxTFByUDdNb2tSWFZJT0NTT1AzcFZyMElkTTV3alBfblFBdWtJMzVPVUkxRDliUHBEOTQ0YW1RVnNRRW1QTWRKZ1ZkaHQ2V0hKNHBZY1dORDV5Nm1IeUo0ampFU21MaEhxM0doT1RYZndxNXZ2NWFhU3pObmtnOFpORFREN1hieTBwaklnY0RBd2I0SVVCejJkdWRXb3REWDk0TVl5MktWRWtuS2t4a1g0NG0zU0Nid1kyQnJ3cU5rUVQ3NklHVDdIMUZyeUVnWTJyNA?oc=5",
+          "publisher": "Amar Ujala"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-aaafc4e119",
+      "lang": "en",
+      "title": "Special Jeevan Pramaan 5.0 campaign to be held at five places in Mysuru Railway division",
+      "category": "trending",
+      "published_at": "2026-11-04T05:00:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Special Jeevan Pramaan 5.0 campaign to be held at five places in Mysuru Railway division",
+          "url": "https://www.thehindu.com/news/national/karnataka/special-jeevan-pramaan-50-campaign-to-be-held-at-five-places-in-mysuru-railway-division/article71660741.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Pensioners Urged to Opt for Digital Life Certificate",
+          "url": "https://kashmirobserver.net/2026/11/03/pensioners-urged-to-opt-for-digital-life-certificate/",
+          "publisher": "Kashmir Observer"
+        },
+        {
+          "title": "How to submit Digital Life Certificate online through Jeevan Setu before November 30",
+          "url": "https://www.moneycontrol.com/news/business/personal-finance/how-to-submit-digital-life-certificate-online-through-jeevan-setu-before-november-30-14066527.html",
+          "publisher": "Moneycontrol.com"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-07be1d0a0e",
+      "lang": "hi",
+      "title": "भारत-पाकिस्तान मैच के टिकटों की मांग फाइनल से भी ज्यादा: वनडे वर्ल्ड कप के लिए सीटें 34 हजार, आवेदन आए 84 ल...",
+      "category": "sports",
+      "published_at": "2026-11-04T03:42:40+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "भारत-पाकिस्तान मैच के टिकटों की मांग फाइनल से भी ज्यादा: वनडे वर्ल्ड कप के लिए सीटें 34 हजार, आवेदन आए 84 ल...",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVVZZTnFqbC1peUpHc295NEJFLWhLMnp1a1daWERUak11T2pwWkVRV2Yxb3hQakE4dHNvWHVRemtSOGZVNDM3aGEtaFBjVDlYLXVqNEtxSWxVencweHFBTjJIV0lKSmQxV09LRXJoT1N5STJjN2NhU1ktT3Y0QWdBekNYeVB1V1pJUHBYTUs5VjE3WGFfelA3dVNwQlh4UVhtU0dLRmozV1Eza21HZU1zRHNvb1ZjX19hcW5IY2pfbC1fUdIBxwFBVV95cUxNcHBta3pXS3ZTX1l0Zmd5cHZuVlRkamR3WEdnTEEtU3RTeEtabFhKdE05dGtXR283c3VLck1sVEttd3lYblhzb1hXR1VmS2tldmZwOUtkeHI1SDNPOHFkSlN0eWEtamhEaUtQWFBVWG5qZjNkVVlRZllaTTJTRURoZmZpWkNvRkZvbUFmbGlLTGRRTGRzRmNCT2Ezc0ZkMThpZFYtTExoWGdHODZmalJvRlVpdlRQa1dNeVUyNFo4RW1PMUxsOUdJ?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "IND vs PAK World Cup 2027: वर्ल्ड कप 2027 के टिकटों के लिए टूट पड़े फैन्स, भारत-पाकिस्तान मैच की डिमांड ने चौंकाया",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeDBMbHMzQm5HLUhyRUxybDI5ZUZ1LXpXZE9QZnBJNVZpMXk3QU40dldtS05PVzNQSXU1cXJXWnZCYjYzWmhRVkw2MURNOUlQNG9OT1dPS1NsZVhjang4VFY3amY2X3RJT0NKRGlIMjhRV1o3bkM0aHhwNzItRHI4b0pMUTEwc0R4amU5X0dGY3d6WW5FbUQwXzd6Zk9MaTdfUkxzQU5tcnp0YVNzMHZrVkc0V3lRYnpsRTdjMmpnYWJsNUZNOHNLWUVPUjRKZ3V0RTdDRHl3Y1JWRDlaNmxIYU5Cb01zWTlNelE0ejVYcWQ3QdIB9wFBVV95cUxOdUpSRTNIeDNnNkN5SWlJMkV5c25iNzk3b1hobUg4aGxTMXBUT0ZlcnVmWVFsMWFKanowZUg0UF9ZVXhPU1VJNFZ4elBSUnpoZTFtVHF2QTJBSC1RTGNTeHFCbmlrWFZQWF93TVdVYy01R3VXT0JWTEJlb2l2Z2t6MmtwcHJrNmJTRmJXdU51UHpjeVBuVjdhLTAzTXFYNmZEQVhPSFNCTlV1Ri1saFQ4SUU4NTAyTGpGeDhySjlxVDVFclZYcmxYT19YZk9nSGZWM2xoRXVOaXM2akQ2eTVfVzZHVWlPSDFVVzBBdnd6V0pBaklEckNn?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "India vs Pakistan वर्ल्ड कप मैच के लिए फैंस हुए क्रेजी, ICC के पास पहुंची 84 लाख टिकटों की रिक्वेस्ट",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPY0hYVXdnekdjTXc2QmdGSmwxT0lVUWVXaGJ6R2FfN2QwTGVjWTFwak41c0hxRFlFNWFCUURWWDlOYzMwZ0hwcTgxcXFhbzdibXZ0cWVBQnJlWVJyRnFRa2wtRU9MVmNrd0VWTXRwbHRBSnZ3UXhBZjQwTC0ta2RjbkMzSE56Tk1LM3pueGpDZFNsUXdkcE5CSFM3b0FDZ2VrbGZDczRUSkRhdUxnOXgwS2ctbWFuUzVEOUpGM0RPWUdrNDJ1NWR0TFpHQno2TVBEczZSTjF2X3RLQ2lxQ3JqTg?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "WC फाइनल से ज्यादा IND vs PAK की डिमांड, 8.4 मिलियन टिकटों की पहुंची रिक्वेस्ट",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWFRxempZdExzTGVQdzVaY3JSdHl0TnZqaVV6RHNMX0pZbl9ud3lkYjU2cVFhVlNkbjNxMlNKbmc4ODEzMk1vY0xadzFJaWNIelZVQy1ZWGFWR1UybF9lY3RBcVBIV3Itb3dLWF8xdE5jS21uUl9MUWVBZThFZmRLRk9KamlUeU1FbzRHT0xFdDlvSzBtU1dXb0dwUHB1UnVqLXc0N0hWc2lGaUstM3Q1Mk1meWFsSmdQUG5PaVVMMXpVSDUtZ2x0Z0MzQ0VhV21GLUZjRDVITGpaU1VlTkIzek9sODZ4N2xMeU1PMEwwbjZGQQ?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "34,000 सीटों के लिए 84 लाख दावेदार, IND vs PAK मैच के लिए फैंस की दीवानगी ने कर दीं सारी हदें पार",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOXpsLWlBUDEwTDNqUlo2UUN1eHJhVUc1WUREcVRXNGNkd2xFb3BpRWpoTWdLMlk2Rk1LOGtDVUpsbHFoVEs3Y09qYTJYUENKVk9DY3B4b1E5M2ZFNWhVRGVKQWZ0YmRGZnRGRld3b0xla0ZVSXR3YWpidnkwb1dGX1V1a1pvdlFTMEotUkxESXpZd3pfSHZQN3lMSTN1YXVwbTBVUmhURU12azg1amRSbjZEU1U5S1B4UElvSlNRV25URFRaaEtKNjNfMENBQWxYdE5nRkx4R2l1YXZjQVhr?oc=5",
+          "publisher": "Jagran"
+        }
+      ],
+      "queued_at": "2026-11-04T05:52:35.423809+00:00",
       "reasons": [
         "insufficient_value"
       ]
