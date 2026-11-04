@@ -241,7 +241,7 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -420,7 +420,7 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -693,7 +693,8 @@
       "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -728,7 +729,13 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:18:25.052626+00:00",
       "summary_refresh_version": 21,
-      "article_body": "ThePrint: “Chandigarh, Oct 17 (PTI) AAP leaders, including Manish Sisodia, greeted Punjab Chief Minister Bhagwant Mann on his 53rd birthday on Saturday, saying his clear intentions strengthen people’s trust every day. “Heartiest birthday wishes to you, Bhagwant Mann Ji. Your leadership, rooted in the soil of…”\n\nAP7AM: “New Delhi, Oct 17 : Prime Minister Narendra Modi on Saturday extended birthday greetings to Punjab Chief Minister Bhagwant Mann and prayed for his long and healthy life.Prime Minister Narendra Modi took to social media 'X' and said, \"Birthday greetings to Punjab Chief Minister Shri…”"
+      "article_body": "ThePrint: “Chandigarh, Oct 17 (PTI) AAP leaders, including Manish Sisodia, greeted Punjab Chief Minister Bhagwant Mann on his 53rd birthday on Saturday, saying his clear intentions strengthen people’s trust every day. “Heartiest birthday wishes to you, Bhagwant Mann Ji. Your leadership, rooted in the soil of…”\n\nAP7AM: “New Delhi, Oct 17 : Prime Minister Narendra Modi on Saturday extended birthday greetings to Punjab Chief Minister Bhagwant Mann and prayed for his long and healthy life.Prime Minister Narendra Modi took to social media 'X' and said, \"Birthday greetings to Punjab Chief Minister Shri…”",
+      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
+      "image_source": "https://theprint.in/india/sisodia-among-aap-leaders-greet-bhagwant-mann-on-53rd-birthday/3074494/",
+      "image_credit": "ThePrint",
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/51cb01171c5d5012ef78.jpg"
     },
     {
       "id": "en-98e64a0885",
@@ -901,7 +908,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-03T09:25:44.398556+00:00",
+      "generated_at": "2026-11-04T21:49:57.140663+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -932,11 +939,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1125,7 +1133,7 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -1501,7 +1509,8 @@
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00"
     },
     {
       "id": "hi-2ceba114d3",
@@ -1544,7 +1553,7 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -2718,11 +2727,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3103,15 +3113,15 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T09:28:10.212916+00:00",
-      "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg",
-      "image_kind": "generated-fallback"
+      "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
+      "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
       "id": "en-be42343d1d",
@@ -3709,14 +3719,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-03T09:28:10.212916+00:00",
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4116,14 +4126,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-03T09:28:10.212916+00:00",
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4204,14 +4214,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T09:25:44.398556+00:00",
+      "summary_refresh_attempted_at": "2026-11-04T21:49:57.140663+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-03T09:28:10.212916+00:00",
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -9749,6 +9759,120 @@
       "image_lookup_attempted_at": "2026-11-04T14:17:22.927418+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/b2afe4fb5ae332985341.jpg"
+    },
+    {
+      "id": "en-00e007137a",
+      "lang": "en",
+      "slug": "nico-paz-marco-por-champions-league-y-recordo-a-miguel-de-je-00e007137a",
+      "url": "en/posts/nico-paz-marco-por-champions-league-y-recordo-a-miguel-de-je-00e007137a.html",
+      "title": "Nico Paz marcó por Champions League y recordó a Miguel de Jesús",
+      "summary": "Yahoo: El delantero argentino estampó el 3 a 0 parcial de Como ante Lens en Francia. De esta forma, Nico Paz marcó por Champions League y recordó a Miguel de Jesús.La escuadra de Cesc Fàbregas fue…",
+      "source_summary": "Yahoo: El delantero argentino estampó el 3 a 0 parcial de Como ante Lens en Francia. De esta forma, Nico Paz marcó por Champions League y recordó a Miguel de Jesús.La escuadra de Cesc Fàbregas fue una…\n\n365Scores: Nico Paz atraviesa un gran momento con el Como y sigue demostrando su calidad en la Champions League. El mediocampista argentino se ha convertido en uno de los protagonistas del conjunto italiano en este inicio de temporada, destacándose por su capacidad para marcar diferencias en…\n\nLa 100: Nico Paz anotó un gol para el Como en Champions League y homenajeó a Jesús de Miguel con una camiseta que mostró ante las cámaras",
+      "article_body": "Yahoo: “El delantero argentino estampó el 3 a 0 parcial de Como ante Lens en Francia. De esta forma, Nico Paz marcó por Champions League y recordó a Miguel de Jesús.La escuadra de Cesc Fàbregas fue una…”\n\n365Scores: “Nico Paz atraviesa un gran momento con el Como y sigue demostrando su calidad en la Champions League. El mediocampista argentino se ha convertido en uno de los protagonistas del conjunto italiano en este inicio de temporada, destacándose por su capacidad para marcar diferencias en…”\n\nLa 100: “Nico Paz anotó un gol para el Como en Champions League y homenajeó a Jesús de Miguel con una camiseta que mostró ante las cámaras”",
+      "category": "trending",
+      "published_at": "2026-11-04T21:30:00+00:00",
+      "generated_at": "2026-11-04T21:49:57.140663+00:00",
+      "kind": "digest",
+      "keyword": "nico paz",
+      "score": 89.82,
+      "sources": [
+        {
+          "title": "Nico Paz marcó por Champions League y recordó a Miguel de Jesús",
+          "url": "https://es-us.noticias.yahoo.com/deportes/nico-paz-marc%C3%B3-champions-league-204900800.html",
+          "publisher": "Yahoo"
+        },
+        {
+          "title": "Nico Paz sigue brillando con Como: gol ante Lens y sus números en Champions",
+          "url": "https://www.365scores.com/es/news/nico-paz-gol-como-vs-lens-champions/",
+          "publisher": "365Scores"
+        },
+        {
+          "title": "Video: el gesto de Nico Paz por la muerte del futbolista Jesús de Miguel tras anotar un gol",
+          "url": "https://la100.cienradios.com/videos/video-el-gesto-de-nico-paz-por-la-muerte-del-futbolista-jesus-de-miguel-tras-anotar-un-gol/",
+          "publisher": "La 100"
+        }
+      ],
+      "image_url": "https://s.yimg.com/lo/mysterio/api/20d83f426dcdb4bf6cf87c684020f56484a4fafe5ae99132b4e72916b1306386/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fes%2Fvermouth_deportivo_904%2F58d34b7239c9e512b14172fd2b259f84",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/f70a7b1f602e717eacb9.jpg"
+    },
+    {
+      "id": "en-6b2258d66f",
+      "lang": "en",
+      "slug": "lens-vs-como-hoy-en-vivo-por-champions-league-gol-y-doblete-6b2258d66f",
+      "url": "en/posts/lens-vs-como-hoy-en-vivo-por-champions-league-gol-y-doblete-6b2258d66f.html",
+      "title": "Lens vs. Como, hoy EN VIVO por Champions League: gol y doblete de asistencias de Nico Paz para el 7-1",
+      "summary": "Olé: ¡Gooooool! Lens 0, Como 6. Tasos Douvikas (Como) remate con la derecha desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Nico Paz después de un pase…",
+      "source_summary": "Olé: ¡Gooooool! Lens 0, Como 6. Tasos Douvikas (Como) remate con la derecha desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Nico Paz después de un pase en profundidad.\n\nYahoo: El Como vuelve a soñar en la Champions League y, tras la victoria por 4-1 ante el Manchester United, quiere seguir en la zona alta de la clasificación de la fase de liga 2026/2027 con una visita al Lens en Francia. A partir de las…",
+      "article_body": "Olé: “¡Gooooool! Lens 0, Como 6. Tasos Douvikas (Como) remate con la derecha desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Nico Paz después de un pase en profundidad.”\n\nYahoo: “El Como vuelve a soñar en la Champions League y, tras la victoria por 4-1 ante el Manchester United, quiere seguir en la zona alta de la clasificación de la fase de liga 2026/2027 con una visita al Lens en Francia. A partir de las…”",
+      "category": "trending",
+      "published_at": "2026-11-04T21:10:00+00:00",
+      "generated_at": "2026-11-04T21:49:57.140663+00:00",
+      "kind": "digest",
+      "keyword": "como 1907",
+      "score": 89.63,
+      "sources": [
+        {
+          "title": "Lens vs. Como, hoy EN VIVO por Champions League: gol y doblete de asistencias de Nico Paz para el 7-1",
+          "url": "https://www.ole.com.ar/futbol-internacional/champions/lens-partido-champions-nico-paz_0_RwihLYRoJJ.html",
+          "publisher": "Olé"
+        },
+        {
+          "title": "Las cenicientas de la Champions",
+          "url": "https://as.com/futbol/champions/las-cenicientas-de-la-champions-f202611-n/",
+          "publisher": "Diario AS"
+        },
+        {
+          "title": "Lens-Como EN DIRECTO: las últimas novedades sobre las alineaciones y una duda para Fabregas",
+          "url": "https://es-us.noticias.yahoo.com/deportes/lens-directo-novedades-alineaciones-duda-165005194.html",
+          "publisher": "Yahoo"
+        }
+      ],
+      "image_url": "https://www.ole.com.ar/images/2026/11/04/ExiUl5Ty5_2000x1500__1.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/36ce37780c7550d03ab4.jpg"
+    },
+    {
+      "id": "en-3a5bda6681",
+      "lang": "en",
+      "slug": "key-part-of-jet-in-deadly-florida-crash-found-far-from-impac-3a5bda6681",
+      "url": "en/posts/key-part-of-jet-in-deadly-florida-crash-found-far-from-impac-3a5bda6681.html",
+      "title": "Key Part of Jet in Deadly Florida Crash Found Far From Impact Site",
+      "summary": "Yahoo: This story Air Traffic Control Scolded Downed Learjet Over 'Severe Turbulence' Months Before Crash first appeared on InTouch Weekly . Follow InTouch Weekly on Yahoo so you don't miss what's…",
+      "source_summary": "Yahoo: This story Air Traffic Control Scolded Downed Learjet Over 'Severe Turbulence' Months Before Crash first appeared on InTouch Weekly . Follow InTouch Weekly on Yahoo so you don't miss what's coming next.",
+      "article_body": "Yahoo: “This story Air Traffic Control Scolded Downed Learjet Over 'Severe Turbulence' Months Before Crash first appeared on InTouch Weekly . Follow InTouch Weekly on Yahoo so you don't miss what's coming next.”",
+      "category": "trending",
+      "published_at": "2026-11-04T21:10:00+00:00",
+      "generated_at": "2026-11-04T21:49:57.140663+00:00",
+      "kind": "digest",
+      "keyword": "aviator",
+      "score": 89.63,
+      "sources": [
+        {
+          "title": "Key Part of Jet in Deadly Florida Crash Found Far From Impact Site",
+          "url": "https://www.nytimes.com/2026/11/03/us/florida-plane-crash-wreckage-recovered.html",
+          "publisher": "The New York Times"
+        },
+        {
+          "title": "Air Traffic Control Scolded Downed Learjet Over ‘Severe Turbulence’ Months Before Crash",
+          "url": "https://www.yahoo.com/news/weather-news/articles/air-traffic-control-scolded-downed-202852172.html",
+          "publisher": "Yahoo"
+        },
+        {
+          "title": "‘Mayday, mayday.’ A flight from Texas to the Bahamas ended in tragedy. What investigators are examining",
+          "url": "https://www.cnn.com/2026/11/03/us/florida-plane-crash-learjet",
+          "publisher": "CNN"
+        }
+      ],
+      "image_url": "https://s.yimg.com/lo/mysterio/api/0fcaa3af1a6b0e9cb1d0de75c51db4ec0bd113d9f2794ae9618683895c7f7a23/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fin_touch_weekly_articles_766%2F1d81dd495a4e8a3b33d27c204f1d24a2.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/e34050fa78ddf983765d.jpg"
     }
   ]
 }
