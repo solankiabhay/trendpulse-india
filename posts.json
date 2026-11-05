@@ -76,7 +76,13 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:18:25.052626+00:00",
       "summary_refresh_version": 21,
-      "article_body": "Cricbuzz: “Bengaluru has waited two years for international cricket to return to the Chinnaswamy Stadium. The occasion coincides with Dussehra celebrations in the city, and the fifth T20I between India and West Indies offers a fitting reason for another evening of festivity. The venue missed out…”\n\nAl Jazeera: “Who: India vs West Indies What: Twenty20 International cricket series Where: M Chinnaswamy Stadium, Bengaluru, India When: Saturday, October 17, at 7pm (13:30 GMT) How to follow: Al Jazeera Sport will have all the build-up from 11:30 GMT before our live text commentary stream”"
+      "article_body": "Cricbuzz: “Bengaluru has waited two years for international cricket to return to the Chinnaswamy Stadium. The occasion coincides with Dussehra celebrations in the city, and the fifth T20I between India and West Indies offers a fitting reason for another evening of festivity. The venue missed out…”\n\nAl Jazeera: “Who: India vs West Indies What: Twenty20 International cricket series Where: M Chinnaswamy Stadium, Bengaluru, India When: Saturday, October 17, at 7pm (13:30 GMT) How to follow: Al Jazeera Sport will have all the build-up from 11:30 GMT before our live text commentary stream”",
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1099396/rain-is-forecast-on-match-day.jpg",
+      "image_source": "https://www.cricbuzz.com/cricket-news/140539/west-indies-chase-rare-series-win-in-india-as-international-cricket-returns-to-chinnaswamy",
+      "image_credit": "Cricbuzz",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/b7fbb2726c50d5bc4494.jpg"
     },
     {
       "id": "en-8472e7f25b",
@@ -111,7 +117,13 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "article_body": "OPPO: “Beyond visual rendering, ColorOS 17 also improves system-level responsiveness with the upgraded Laminar Flow Engine, an intelligent resource scheduling system built to handle increasingly complex mobile workloads. Built on OPPO's Adaptive Scheduling Architecture, it coordinates foreground and background workloads as part of a unified flow…”\n\nAndroid Police: “Samsung is already in the middle of rolling out One UI 9 to eligible Galaxy phones. And now, Oppo and OnePlus have announced the rollout of ColorOS 17, their own take on the latest Android version, for supported devices.”\n\nnokiapoweruser.com: “The ColorOS 17 October update emphasizes high-frequency utility features over superficial visual changes. By pairing Xiaobu AI’s continuous memory capabilities with practical multi-format exports and drag-and-drop gestures, OPPO continues to refine Android into a powerful, frictionless workspace. Additional rollout schedules and device eligibility details can…”"
+      "article_body": "OPPO: “Beyond visual rendering, ColorOS 17 also improves system-level responsiveness with the upgraded Laminar Flow Engine, an intelligent resource scheduling system built to handle increasingly complex mobile workloads. Built on OPPO's Adaptive Scheduling Architecture, it coordinates foreground and background workloads as part of a unified flow…”\n\nAndroid Police: “Samsung is already in the middle of rolling out One UI 9 to eligible Galaxy phones. And now, Oppo and OnePlus have announced the rollout of ColorOS 17, their own take on the latest Android version, for supported devices.”\n\nnokiapoweruser.com: “The ColorOS 17 October update emphasizes high-frequency utility features over superficial visual changes. By pairing Xiaobu AI’s continuous memory capabilities with practical multi-format exports and drag-and-drop gestures, OPPO continues to refine Android into a powerful, frictionless workspace. Additional rollout schedules and device eligibility details can…”",
+      "image_url": "https://www.oppo.com/content/dam/oppo_com/en/mkt/newsroom/press/2026/10/oppo-color-os-17/COS17-KV-header.webp",
+      "image_source": "https://www.oppo.com/en/newsroom/press/oppo-color-os-17/",
+      "image_credit": "OPPO",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/25f3679376f0a9deafe0.webp"
     },
     {
       "id": "en-77c686ccf5",
@@ -151,8 +163,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTzI3TE10X2tkTlRhbTBGM0FNVUZ2Q2wtTVduS3hFSmhGcHZIYmZGX0czZ0g1LUZoeWhUclRqcURkejdvR1c1ZzZUQzlOeUROUEhmSEFoV05tYnRKUHdaaFQwZk1ZQ2ZGdmZhSThoTmlTQkxjaFB1QmtDUTBEZG5BQzFORlFtV0NmRTkteThLOFk0NlA0WGhHTlJETkxvV2lTdlotRHd0NHY3TkJ0anNNdEY0QUtDZS12OXRHN0xMTQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "Cricbuzz",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "en-1e451fee0f",
@@ -197,8 +213,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSnZ3ZFl2VzluM1ppZ0t0ZkpLN2tYSXV6bTBsak9WbFd0cWZIYnpHWENSX25YcXNnMnU3cXJvaWZISGZNVHFtV25LY2xyamRMUmNYRTlIcGM5dnZTVG52Yk1yOG9fVzZ0b1hXRW1DYi1ubDdBOWdiZERlUVpGU0MzRlNRajdXemVtaldROTgwVGk5QWdENzQ4V1ppZTZYQlpNSG9CVS10bHY5dk9XdURHZklxQU10RzhJU3ZPbE51MW82bEZ0VHdtVm05UQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "Manorama Yearbook",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "hi-bb90bbf6f7",
@@ -377,7 +397,13 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "article_body": "The Times of India: “US lawmakers have urged secretary of state Marco Rubio to raise concerns over democratic freedoms with Indian officials during his upcoming visit.In a letter dated October 16, six US lawmakers, including Pramila Jayapal and James P McGovern, have urged Rubio to discuss freedom of expression…”\n\nHindustan Times: “US Congresswoman Pramila Jayapal was among six lawmakers who wrote to secretary of state Marco Rubio on Friday, ahead of his visit to India, raising concerns over a “pattern of repression, wrongful detention, and excessive use of force by security forces during student protests”. They…”"
+      "article_body": "The Times of India: “US lawmakers have urged secretary of state Marco Rubio to raise concerns over democratic freedoms with Indian officials during his upcoming visit.In a letter dated October 16, six US lawmakers, including Pramila Jayapal and James P McGovern, have urged Rubio to discuss freedom of expression…”\n\nHindustan Times: “US Congresswoman Pramila Jayapal was among six lawmakers who wrote to secretary of state Marco Rubio on Friday, ahead of his visit to India, raising concerns over a “pattern of repression, wrongful detention, and excessive use of force by security forces during student protests”. They…”",
+      "image_url": "https://static.toiimg.com/thumb/msid-135006787,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_source": "https://timesofindia.indiatimes.com/world/us/prioritize-rights-freedoms-when-you-meet-indian-officials-us-lawmakers-urge-marco-rubio-amid-anti-sir-stir/articleshow/135006516.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/5067d73cf163de077a9c.jpg"
     },
     {
       "id": "hi-0cb5955ee6",
@@ -460,7 +486,13 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "article_body": "The Hindu: “Delhi court issues bailable warrants against YouTuber Dhruv Rathee in 2018 defamation case left The Delhi court has listed the matter for further proceedings on October 31, 2026. File. Shashi Shekhar Kashyap Shashi Shekhar Kashyap SHASHI SHEKHAR KASHYAP New Delhi: 11/10/2026: Dhruv Rathee, Indian Influencer…”\n\nThe Times of India: “NEW DELHI: A Delhi court has issued bailable warrants against YouTuber Dhruv Rathee in a 2018 defamation case, news agency PTI reported.The case stems from a video published by Rathee in May 2018, in which he allegedly claimed that the Bharatiya Janata Party’s (BJP) Information…”"
+      "article_body": "The Hindu: “Delhi court issues bailable warrants against YouTuber Dhruv Rathee in 2018 defamation case left The Delhi court has listed the matter for further proceedings on October 31, 2026. File. Shashi Shekhar Kashyap Shashi Shekhar Kashyap SHASHI SHEKHAR KASHYAP New Delhi: 11/10/2026: Dhruv Rathee, Indian Influencer…”\n\nThe Times of India: “NEW DELHI: A Delhi court has issued bailable warrants against YouTuber Dhruv Rathee in a 2018 defamation case, news agency PTI reported.The case stems from a video published by Rathee in May 2018, in which he allegedly claimed that the Bharatiya Janata Party’s (BJP) Information…”",
+      "image_url": "https://th-i.thgim.com/public/incoming/759eji/article71595662.ece/alternates/LANDSCAPE_1200/DHRUV%20RATHEE%20PC%2012.jpeg",
+      "image_source": "https://www.thehindu.com/news/cities/Delhi/delhi-court-issues-bailable-warrants-against-youtuber-dhruv-rathee-in-2018-defamation-case/article71595639.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/ae11c8b405beb0ccb740.jpg"
     },
     {
       "id": "en-dc4bf63a5d",
@@ -505,8 +537,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlZUMDdhOFJ6MzRPUk5aOWFlemVJQ0VJTXFRRFltejZibTRxZzg5amFrSEdFOGMtaGtmYUU3bDhaQzhlRURNQXFDcUsyR21mRkwtbldrTEtMUkViaE1HYXFSUVBGYTN0bG5sdWZuMlVuaTUtdm5rUjZDa1Vmb1dQQ05NRjdfbGt1X2xFTV9BR040a2dhd2VqMTFNWUdKVWdyODBsSlN3ZnNlZ0Y5eG5rdUQ2aHFLOFVrNFpmMjAzRWsxTEJZd1E?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "News On AIR",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "en-13e8ca6feb",
@@ -662,7 +698,13 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "article_body": "The Hindu: “India’s Russian crude binge to continue after Trump waives new sanctions law left Image used for representation purpose only Getty Images/iStockphoto Getty Images/iStockphoto natatravel Steel drum, barrel with Russian flag, 3D rendering isolated on white background The law authorised tariffs of up to 100% on…”\n\nThe Times of India: “TOI correspondent from Washington: For months, MAGA supremo Donald Trump and his minions threatened to “crush” India’s economy for New Delhi’s purchase of Russian oil. The economics has now caught up with the rhetoric. Faced with soaring fuel prices at home and a widely forecast…”"
+      "article_body": "The Hindu: “India’s Russian crude binge to continue after Trump waives new sanctions law left Image used for representation purpose only Getty Images/iStockphoto Getty Images/iStockphoto natatravel Steel drum, barrel with Russian flag, 3D rendering isolated on white background The law authorised tariffs of up to 100% on…”\n\nThe Times of India: “TOI correspondent from Washington: For months, MAGA supremo Donald Trump and his minions threatened to “crush” India’s economy for New Delhi’s purchase of Russian oil. The economics has now caught up with the rhetoric. Faced with soaring fuel prices at home and a widely forecast…”",
+      "image_url": "https://th-i.thgim.com/public/sport/cricket/eaepxj/article71595898.ece/alternates/LANDSCAPE_1200/Russiancrude.jpg",
+      "image_source": "https://www.thehindu.com/business/Economy/indias-russian-crude-binge-to-continue-after-trump-waives-new-sanctions-law/article71595889.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/e550d2a0af627226bb5a.jpg"
     },
     {
       "id": "en-c28c5af143",
@@ -1918,7 +1960,7 @@
           "publisher": "BBC"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
       "summary_refresh_version": 21,
       "article_body": "Sky Sports: “Welcome to The Radar , a Sky Sports column in which Nick Wright uses a blend of data and opinion to shed light on need-to-know Premier League stories. This week: 🔺Manzambi's big impact at Villa 🔺Janelt's excellent defensive work 🔺A glimmer of hope for Arbeloa?…”\n\nBBC: “MATCH REPORT: Champions League - Aston Villa 6-0 Fenerbahce”",
       "image_url": "https://e0.365dm.com/26/10/1600x900/skysports-johan-manzambi-aston-villa_7377563.png?20261015132726=",
@@ -2699,7 +2741,7 @@
           "publisher": "The Shillong Times"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://im.rediff.com/1200-630/cricket/2026/oct/18priyansh-arya.jpg",
       "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
@@ -3692,7 +3734,7 @@
           "publisher": "MadeInFOOT"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://medias.lequipe.fr/img-photo-jpg/maghnes-akliouche-avait-ete-victime-d-un-tacle-appuye-sur-sa-cheville-gauche-samedi-en-fin-de-match-a-strasbourg-p-lahalle-l-equipe/1500000002626885/195:72,1477:927-828-552-75/c293b.jpg",
       "image_lookup_attempted_at": "2026-11-03T09:53:36.698227+00:00",
@@ -6383,9 +6425,9 @@
           "publisher": "Last Word On Sports"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
       "image_lookup_version": 2,
       "image_source": "https://www.dimers.com/tennis/news/novak-djokovic-vs-jan-lennard-struff-tennis-prediction-atp-swiss-indoors-2026-ac",
       "image_credit": "Dimers",
@@ -8247,7 +8289,7 @@
         }
       ],
       "image_url": "https://th-i.thgim.com/public/news/national/yw6clx/article71650785.ece/alternates/LANDSCAPE_1200/IMG-20261031-WA0067.jpg",
-      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/8ac1d3a83d57a810f0c8.jpg"
     },
@@ -8874,7 +8916,7 @@
         }
       ],
       "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2895/live/a97704b0-d660-11f1-a258-ffc7400bea96.jpg",
-      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/772b1c7518c2c7cd9b03.jpg"
     },
@@ -9714,12 +9756,12 @@
       "slug": "elon-musk-s-millions-fail-to-deliver-texas-for-the-republica-fa89e1a836",
       "url": "en/posts/elon-musk-s-millions-fail-to-deliver-texas-for-the-republica-fa89e1a836.html",
       "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
-      "summary": "BBC: Democrat James Talarico's resounding victory in the Texas Senate race caused a major upset in the midterms for Republicans - and for Elon Musk.\n\nCNBC: Musk, who spent a record of at least $474…",
-      "source_summary": "BBC: Democrat James Talarico's resounding victory in the Texas Senate race caused a major upset in the midterms for Republicans - and for Elon Musk.\n\nCNBC: Musk, who spent a record of at least $474 million on the midterms, funneled $224 million, or nearly half, into Texas alone, according to a CNBC analysis of campaign finance records, only to see his favored candidates, Republican Senate nominee Ken Paxton and Gov. Greg…\n\nThe Hindu: Washington, United States Tech billionaire Elon Musk joked on Wednesday (November 4, 2026) about Republicans' defeat in U.S. midterm elections after spending hundreds of millions of dollars to help the party. Democrats win U.S. Congress in midterm rout of U.S. President Donald Trump Democrats win…",
-      "article_body": "BBC: “Democrat James Talarico's resounding victory in the Texas Senate race caused a major upset in the midterms for Republicans - and for Elon Musk.”\n\nCNBC: “Musk, who spent a record of at least $474 million on the midterms, funneled $224 million, or nearly half, into Texas alone, according to a CNBC analysis of campaign finance records, only to see his favored candidates, Republican Senate nominee Ken Paxton and Gov. Greg…”\n\nThe Hindu: “Washington, United States Tech billionaire Elon Musk joked on Wednesday (November 4, 2026) about Republicans' defeat in U.S. midterm elections after spending hundreds of millions of dollars to help the party. Democrats win U.S. Congress in midterm rout of U.S. President Donald Trump Democrats win…”",
+      "summary": "BBC: While Musk spent millions of dollars backing Republican candidates in multiple US states, a lot of his political focus seemed to be on Texas.\n\nCNBC: Musk, who spent a record of at least $474…",
+      "source_summary": "BBC: While Musk spent millions of dollars backing Republican candidates in multiple US states, a lot of his political focus seemed to be on Texas.\n\nCNBC: Musk, who spent a record of at least $474 million on the midterms, funneled $224 million, or nearly half, into Texas alone, according to a CNBC analysis of campaign finance records, only to see his favored candidates, Republican Senate nominee Ken Paxton and Gov. Greg…\n\nThe Hindu: Washington, United States Tech billionaire Elon Musk joked on Wednesday (November 4, 2026) about Republicans' defeat in U.S. midterm elections after spending hundreds of millions of dollars to help the party. Democrats win U.S. Congress in midterm rout of U.S. President Donald Trump Democrats win…",
+      "article_body": "BBC: “While Musk spent millions of dollars backing Republican candidates in multiple US states, a lot of his political focus seemed to be on Texas.”\n\nCNBC: “Musk, who spent a record of at least $474 million on the midterms, funneled $224 million, or nearly half, into Texas alone, according to a CNBC analysis of campaign finance records, only to see his favored candidates, Republican Senate nominee Ken Paxton and Gov. Greg…”\n\nThe Hindu: “Washington, United States Tech billionaire Elon Musk joked on Wednesday (November 4, 2026) about Republicans' defeat in U.S. midterm elections after spending hundreds of millions of dollars to help the party. Democrats win U.S. Congress in midterm rout of U.S. President Donald Trump Democrats win…”",
       "category": "trending",
       "published_at": "2026-11-04T14:00:00+00:00",
-      "generated_at": "2026-11-04T14:14:18.601752+00:00",
+      "generated_at": "2026-11-05T12:06:18.717534+00:00",
       "kind": "digest",
       "keyword": "tesla share price",
       "score": 89.87,
@@ -9744,7 +9786,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-04T14:17:22.927418+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/a934b0aaf9c18997957b.jpg"
+      "image_path": "assets/news-images/a934b0aaf9c18997957b.jpg",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-b998d33240",
@@ -9782,7 +9826,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-04T14:17:22.927418+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/b2afe4fb5ae332985341.jpg"
+      "image_path": "assets/news-images/b2afe4fb5ae332985341.jpg",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-00e007137a",
@@ -9820,7 +9866,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/f70a7b1f602e717eacb9.jpg"
+      "image_path": "assets/news-images/f70a7b1f602e717eacb9.jpg",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-6b2258d66f",
@@ -9829,11 +9877,11 @@
       "url": "en/posts/lens-vs-como-hoy-en-vivo-por-champions-league-gol-y-doblete-6b2258d66f.html",
       "title": "Lens vs. Como, hoy EN VIVO por Champions League: gol y doblete de asistencias de Nico Paz para el 7-1",
       "summary": "Olé: ¡Gooooool! Lens 0, Como 6. Tasos Douvikas (Como) remate con la derecha desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Nico Paz después de un pase…",
-      "source_summary": "Olé: ¡Gooooool! Lens 0, Como 6. Tasos Douvikas (Como) remate con la derecha desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Nico Paz después de un pase en profundidad.\n\nYahoo: El Como vuelve a soñar en la Champions League y, tras la victoria por 4-1 ante el Manchester United, quiere seguir en la zona alta de la clasificación de la fase de liga 2026/2027 con una visita al Lens en Francia. A partir de las…",
-      "article_body": "Olé: “¡Gooooool! Lens 0, Como 6. Tasos Douvikas (Como) remate con la derecha desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Nico Paz después de un pase en profundidad.”\n\nYahoo: “El Como vuelve a soñar en la Champions League y, tras la victoria por 4-1 ante el Manchester United, quiere seguir en la zona alta de la clasificación de la fase de liga 2026/2027 con una visita al Lens en Francia. A partir de las…”",
+      "source_summary": "Olé: ¡Gooooool! Lens 0, Como 6. Tasos Douvikas (Como) remate con la derecha desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Nico Paz después de un pase en profundidad.\n\nDiario AS: Lens y Como se miden esta noche en un duelo que podría catalogarse como el de las cenicientas de la Champions. El club francés ascendió a la Ligue 1 en 2021 y protagonizó un milagro la temporada pasada, mientras que los italianos se encontraban en…\n\nYahoo: El Como es una maravilla y hace historia para el fútbol italiano en la Champions League en Lens. El equipo de Fabregas domina al conjunto francés de principio a fin y se impone por 9-1 en un partido sin discusión, repleto, por supuesto, de goles…",
+      "article_body": "Olé: “¡Gooooool! Lens 0, Como 6. Tasos Douvikas (Como) remate con la derecha desde el lado derecho del interior del área por el lado derecho de la portería. Asistencia de Nico Paz después de un pase en profundidad.”\n\nDiario AS: “Lens y Como se miden esta noche en un duelo que podría catalogarse como el de las cenicientas de la Champions. El club francés ascendió a la Ligue 1 en 2021 y protagonizó un milagro la temporada pasada, mientras que los italianos se encontraban en…”\n\nYahoo: “El Como es una maravilla y hace historia para el fútbol italiano en la Champions League en Lens. El equipo de Fabregas domina al conjunto francés de principio a fin y se impone por 9-1 en un partido sin discusión, repleto, por supuesto, de goles…”",
       "category": "trending",
       "published_at": "2026-11-04T21:10:00+00:00",
-      "generated_at": "2026-11-04T21:49:57.140663+00:00",
+      "generated_at": "2026-11-05T12:06:18.717534+00:00",
       "kind": "digest",
       "keyword": "como 1907",
       "score": 89.63,
@@ -9858,7 +9906,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/36ce37780c7550d03ab4.jpg"
+      "image_path": "assets/news-images/36ce37780c7550d03ab4.jpg",
+      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-3a5bda6681",
@@ -9897,6 +9947,120 @@
       "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/e34050fa78ddf983765d.jpg"
+    },
+    {
+      "id": "en-e06cc8ebed",
+      "lang": "en",
+      "slug": "les-developpeurs-ont-la-parole-vol-24-the-legend-of-zelda-oc-e06cc8ebed",
+      "url": "en/posts/les-developpeurs-ont-la-parole-vol-24-the-legend-of-zelda-oc-e06cc8ebed.html",
+      "title": "Les développeurs ont la parole, Vol. 24 : The Legend of Zelda: Ocarina of Time – Chapitre 1",
+      "summary": "Nintendo: Dans ce 24e épisode de « Les développeurs ont la parole », une série d'interviews dans lesquelles les développeurs de Nintendo expliquent avec leurs mots ce qu'ils pensent de la création…",
+      "source_summary": "Nintendo: Dans ce 24e épisode de « Les développeurs ont la parole », une série d'interviews dans lesquelles les développeurs de Nintendo expliquent avec leurs mots ce qu'ils pensent de la création des produits et partagent leurs anecdotes, nous accueillons les développeurs à l'origine de The…\n\ngames.gg: C'est un endroit où vous pouvez passer en revue chaque ennemi que vous avez vaincu et affronter à nouveau les boss. La page de la boutique Nintendo le décrit comme une zone où vous en apprenez plus sur les ennemis battus. J'ai joué à tous…\n\nGamekyo.com: Blog : [Boitier N64 de Zelda] La liste des 85 magasins Fnac participants : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : [Boitier N64 de Zelda] La liste des 85…",
+      "article_body": "Nintendo: “Dans ce 24e épisode de « Les développeurs ont la parole », une série d'interviews dans lesquelles les développeurs de Nintendo expliquent avec leurs mots ce qu'ils pensent de la création des produits et partagent leurs anecdotes, nous accueillons les développeurs à l'origine de The…”\n\ngames.gg: “C'est un endroit où vous pouvez passer en revue chaque ennemi que vous avez vaincu et affronter à nouveau les boss. La page de la boutique Nintendo le décrit comme une zone où vous en apprenez plus sur les ennemis battus. J'ai joué à tous…”\n\nGamekyo.com: “Blog : [Boitier N64 de Zelda] La liste des 85 magasins Fnac participants : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : [Boitier N64 de Zelda] La liste des 85…”",
+      "category": "trending",
+      "published_at": "2026-11-05T11:50:00+00:00",
+      "generated_at": "2026-11-05T12:06:18.717534+00:00",
+      "kind": "digest",
+      "keyword": "zelda",
+      "score": 89.85,
+      "sources": [
+        {
+          "title": "Les développeurs ont la parole, Vol. 24 : The Legend of Zelda: Ocarina of Time – Chapitre 1",
+          "url": "https://www.nintendo.com/fr-fr/News/2026/Novembre/Les-developpeurs-ont-la-parole-Vol-24-The-Legend-of-Zelda-Ocarina-of-Time-Chapitre-1-3230318.html",
+          "publisher": "Nintendo"
+        },
+        {
+          "title": "Ocarina of Time Remake Hall of Fallen Foes : déblocage et rematchs",
+          "url": "https://games.gg/fr/the-legend-of-zelda-ocarina-of-time-2026/guides/ocarina-of-time-remake-hall-of-fallen-foes-d%C3%A9blocage-et-rematchs/",
+          "publisher": "games.gg"
+        },
+        {
+          "title": "[Boitier N64 de Zelda] La liste des 85 magasins Fnac participants",
+          "url": "https://www.gamekyo.com/blog_article488784.html",
+          "publisher": "Gamekyo.com"
+        }
+      ],
+      "image_url": "https://www.nintendo.com/eu/media/images/news_12/2026/november_50/ask_the_developers_vol._24/16x9_NSwitch2_ZeldaOoT_AskTheDeveloper_TopBanner_1920x1080_FR_fr_image1280w.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/53ca6cdacff858a4fcd1.jpg"
+    },
+    {
+      "id": "en-59d6637b69",
+      "lang": "en",
+      "slug": "alex-eala-brushes-aside-late-replacement-emerson-jones-to-re-59d6637b69",
+      "url": "en/posts/alex-eala-brushes-aside-late-replacement-emerson-jones-to-re-59d6637b69.html",
+      "title": "Alex Eala brushes aside late replacement Emerson Jones to reach Hong Kong Open round of 16",
+      "summary": "Sportstar: Hong Kong Alex Eala overcame the jolt of a late change in opponent to begin her Hong Kong Open campaign with a straight-sets victory on Tuesday. The Philippines trailblazer, now at a…",
+      "source_summary": "Sportstar: Hong Kong Alex Eala overcame the jolt of a late change in opponent to begin her Hong Kong Open campaign with a straight-sets victory on Tuesday. The Philippines trailblazer, now at a career-high ranking of 17 in the world, defeated Australia’s Emerson Jones 6-4, 6-3.…\n\nSky Sports: Watch Sky Sports Live | Tennis | Prudential Hong Kong Tennis Open 2026 | WTA Tour: Tereza Valentova versus Alexandra Eala in the 2nd Round at the Prudential Hong Kong Tennis Open.",
+      "article_body": "Sportstar: “Hong Kong Alex Eala overcame the jolt of a late change in opponent to begin her Hong Kong Open campaign with a straight-sets victory on Tuesday. The Philippines trailblazer, now at a career-high ranking of 17 in the world, defeated Australia’s Emerson Jones 6-4, 6-3.…”\n\nSky Sports: “Watch Sky Sports Live | Tennis | Prudential Hong Kong Tennis Open 2026 | WTA Tour: Tereza Valentova versus Alexandra Eala in the 2nd Round at the Prudential Hong Kong Tennis Open.”",
+      "category": "trending",
+      "published_at": "2026-11-05T11:40:00+00:00",
+      "generated_at": "2026-11-05T12:06:18.717534+00:00",
+      "kind": "digest",
+      "keyword": "alexandra eala",
+      "score": 89.76,
+      "sources": [
+        {
+          "title": "Alex Eala brushes aside late replacement Emerson Jones to reach Hong Kong Open round of 16",
+          "url": "https://www.espn.in/tennis/story/_/id/50368453/alex-eala-emerson-jones-hong-kong-open-last-16",
+          "publisher": "ESPN India"
+        },
+        {
+          "title": "Eala defies last-minute switch to launch Hong Kong title bid",
+          "url": "https://sportstar.thehindu.com/tennis/hong-kong-open-alex-eala-beats-emerson-jones-straight-sets-last-16/article71662218.ece",
+          "publisher": "Sportstar"
+        },
+        {
+          "title": "Sports News, Transfers, Scores | Watch Live Sport",
+          "url": "https://www.skysports.com/tennis/watch/8842583781680936112/prudential-hong-kong-tennis-open-2026",
+          "publisher": "Sky Sports"
+        }
+      ],
+      "image_url": "https://ss-i.thgim.com/public/incoming/nva8hv/article71662282.ece/alternates/LANDSCAPE_1200/2026-10-30T110119Z_1251102038_UP1EMAU0UM5U0_RTRMADP_3_TENNIS-TOKYO.JPG",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/52276f6a40e7c4e93bbd.jpg"
+    },
+    {
+      "id": "en-71f18e8624",
+      "lang": "en",
+      "slug": "alan-jones-dies-aged-80-ex-f1-champion-dedicated-his-life-to-71f18e8624",
+      "url": "en/posts/alan-jones-dies-aged-80-ex-f1-champion-dedicated-his-life-to-71f18e8624.html",
+      "title": "Alan Jones dies aged 80: Ex-F1 champion 'dedicated his life to motorsport'",
+      "summary": "BBC: \"Alan dedicated his life to motorsport, building a legacy that will live on through the countless people he touched along the way,\" Butler-Davis said.\n\nThe Guardian: Alan Jones, the 1980 Formula…",
+      "source_summary": "BBC: \"Alan dedicated his life to motorsport, building a legacy that will live on through the countless people he touched along the way,\" Butler-Davis said.\n\nThe Guardian: Alan Jones, the 1980 Formula One world champion, has died aged 80.\n\nThe Economic Times: Former Formula One world champion Alan Jones has died at the age of 80 after a short illness, the Australian Grand Prix Corporation said on Thursday.Jones became Australia's second world champion after Jack Brabham when he secured the drivers' title in 1980 in a first…",
+      "article_body": "BBC: “\"Alan dedicated his life to motorsport, building a legacy that will live on through the countless people he touched along the way,\" Butler-Davis said.”\n\nThe Guardian: “Alan Jones, the 1980 Formula One world champion, has died aged 80.”\n\nThe Economic Times: “Former Formula One world champion Alan Jones has died at the age of 80 after a short illness, the Australian Grand Prix Corporation said on Thursday.Jones became Australia's second world champion after Jack Brabham when he secured the drivers' title in 1980 in a first…”",
+      "category": "trending",
+      "published_at": "2026-11-05T11:40:00+00:00",
+      "generated_at": "2026-11-05T12:06:18.717534+00:00",
+      "kind": "digest",
+      "keyword": "alan jones",
+      "score": 89.76,
+      "sources": [
+        {
+          "title": "Alan Jones dies aged 80: Ex-F1 champion 'dedicated his life to motorsport'",
+          "url": "https://www.bbc.com/sport/formula1/articles/cmd9345vdy8do",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Australian Formula One world champion Alan Jones dies aged 80",
+          "url": "https://www.theguardian.com/sport/2026/nov/05/australian-f1-champion-alan-jones-dies-aged-80",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "Motor racing-Australian F1 world champion Alan Jones dies aged 80",
+          "url": "https://economictimes.indiatimes.com/news/sports/other-sports/motor-racing-australian-f1-world-champion-alan-jones-dies-aged-80/articleshow/135558800.cms?from=mdr",
+          "publisher": "The Economic Times"
+        }
+      ],
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/9a3f/live/0b723ee0-d900-11f1-9c68-d767468fa269.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-05T12:09:22.475836+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/7bfef9733c8657eff98c.jpg"
     }
   ]
 }
