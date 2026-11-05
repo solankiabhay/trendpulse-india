@@ -289,12 +289,12 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
-      "image_path": "assets/news-images/334c971ff66cc392f76c.svg",
-      "image_kind": "generated-fallback"
+      "image_kind": "generated-fallback",
+      "image_path": "assets/news-images/334c971ff66cc392f76c.svg"
     },
     {
       "id": "hi-0368a447b3",
@@ -541,7 +541,13 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "article_body": "The Hindu: “Neha Bora released, Abhijeet Dipke to be produced before SEM court: Delhi Police left AISA chief Neha Bora being detained by the police during a protest against Chief Election Commissioner (CEC) Gyanesh Kumar, in New Delhi on October 16, 2026. PTI PTI Salman Ali New…”\n\nLive Law: “CJP founder Abhijit Dipke was put under preventive arrest and will be produced before the Special Executive Magistrate Court shortly.AISA leader Neha Bora was released after formal procedures.Both were detained ahead of 'Lehra Do Tiranga' march in Connaught Place.As per Delhi Police, action has been…”\n\nTheWire.in: “New Delhi: All India Students’ Association (AISA) president Neha Bora was released this morning (October 17), after what her lawyers have alleged were arbitrary detention, denial of access to lawyers and repeated undisclosed transfers of her custody on Friday (October 16).Cockroach Janta Party (CJP) founder…”"
+      "article_body": "The Hindu: “Neha Bora released, Abhijeet Dipke to be produced before SEM court: Delhi Police left AISA chief Neha Bora being detained by the police during a protest against Chief Election Commissioner (CEC) Gyanesh Kumar, in New Delhi on October 16, 2026. PTI PTI Salman Ali New…”\n\nLive Law: “CJP founder Abhijit Dipke was put under preventive arrest and will be produced before the Special Executive Magistrate Court shortly.AISA leader Neha Bora was released after formal procedures.Both were detained ahead of 'Lehra Do Tiranga' march in Connaught Place.As per Delhi Police, action has been…”\n\nTheWire.in: “New Delhi: All India Students’ Association (AISA) president Neha Bora was released this morning (October 17), after what her lawyers have alleged were arbitrary detention, denial of access to lawyers and repeated undisclosed transfers of her custody on Friday (October 16).Cockroach Janta Party (CJP) founder…”",
+      "image_url": "https://th-i.thgim.com/public/incoming/6bpz5c/article71595233.ece/alternates/LANDSCAPE_1200/PTI10_16_2026_000427A.jpg",
+      "image_source": "https://www.thehindu.com/news/national/neha-bora-released-abhijeet-dipke-to-be-produced-before-sem-court-delhi-police/article71595229.ece",
+      "image_credit": "The Hindu",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/0d970fb4558bfe0fe14d.jpg"
     },
     {
       "id": "en-307f65e385",
@@ -576,7 +582,13 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:18:25.052626+00:00",
       "summary_refresh_version": 21,
-      "article_body": "Cricbuzz: “Mumbai Indians announced on Saturday (October 17) that Mahela Jayawardene will be stepping down as the team’s head coach ahead of IPL 2027. The decision brings to an end a journey lasting ten seasons, during which Jayawardene helmed three of MI’s five title wins…”\n\nAP7AM: “Mumbai, Oct 17 : Mumbai Indians and Mahela Jayawardene have mutually agreed to end their association as head coach, with the five-time Indian Premier League champions preparing for a change in leadership ahead of the next season. The decision follows a disappointing 2026 campaign in…”"
+      "article_body": "Cricbuzz: “Mumbai Indians announced on Saturday (October 17) that Mahela Jayawardene will be stepping down as the team’s head coach ahead of IPL 2027. The decision brings to an end a journey lasting ten seasons, during which Jayawardene helmed three of MI’s five title wins…”\n\nAP7AM: “Mumbai, Oct 17 : Mumbai Indians and Mahela Jayawardene have mutually agreed to end their association as head coach, with the five-time Indian Premier League champions preparing for a change in leadership ahead of the next season. The decision follows a disappointing 2026 campaign in…”",
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1099652/jayawardene-was-in-charge-for-three-of-mis-five-title-wins-in-2017-2019-and-2020.jpg",
+      "image_source": "https://www.cricbuzz.com/cricket-news/140551/mumbai-indians-mahela-jayawardene-part-ways-ahead-of-ipl-2027",
+      "image_credit": "Cricbuzz",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/0ecc4d5bbef532827153.jpg"
     },
     {
       "id": "en-0c22876966",
@@ -612,7 +624,10 @@
       "summary_refresh_attempted_at": "2026-11-03T23:08:51.604219+00:00",
       "summary_refresh_version": 21,
       "article_body": "Laver Cup: “Meanwhile, Zverev has secured one of the biggest milestones of his career. Next month the German will become the 30 th member of the No. 1 Club and officially finish the year as world No.1. He has ended the season inside the Top 10 of…”",
-      "image_url": "https://lavercup.com/wp-content/uploads/2026/10/JF1_2708_1vSAPuyQ_20260927051118.jpg"
+      "image_url": "https://lavercup.com/wp-content/uploads/2026/10/JF1_2708_1vSAPuyQ_20260927051118.jpg",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/2ad60662b9934b9f5a80.jpg"
     },
     {
       "id": "en-ed67e33ce8",
@@ -690,11 +705,11 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00"
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -771,7 +786,10 @@
       "summary_refresh_attempted_at": "2026-11-04T05:52:35.423809+00:00",
       "summary_refresh_version": 21,
       "article_body": "Flashscore.com: “This year's Shanghai Masters could serve up an all-Spanish final between Rafael Jodar and Alejandro Davidovich. Standing in their way in Saturday's semi-finals, however, are favourites Alexander Zverev and Daniil Medvedev, with the future world number one and the former rankings leader widely expected to…”",
-      "image_url": "https://livesport-ott-images.ssl.cdn.cra.cz/r1200xfq60/118e0a6b-af20-4c52-aeb1-deec0b724e07.jpeg"
+      "image_url": "https://livesport-ott-images.ssl.cdn.cra.cz/r1200xfq60/118e0a6b-af20-4c52-aeb1-deec0b724e07.jpeg",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/25f98f644e5ebe6c8d75.jpg"
     },
     {
       "id": "hi-a84be8fbf7",
@@ -809,12 +827,12 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
-      "image_path": "assets/news-images/c14b5552739c1dcfc788.svg",
-      "image_kind": "generated-fallback"
+      "image_kind": "generated-fallback",
+      "image_path": "assets/news-images/c14b5552739c1dcfc788.svg"
     },
     {
       "id": "en-14ef912a2f",
@@ -957,7 +975,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-03T06:01:28.212143+00:00",
+      "generated_at": "2026-11-05T02:11:29.354041+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -988,12 +1006,13 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1,
-      "image_path": "assets/news-images/fd88d691e8c33788ff89.svg",
-      "image_kind": "generated-fallback"
+      "image_lookup_version": 2,
+      "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
       "id": "en-5877cce147",
@@ -1085,12 +1104,13 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1,
-      "image_path": "assets/news-images/58b15c50880a2cfceb26.svg",
-      "image_kind": "generated-fallback"
+      "image_lookup_version": 2,
+      "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
       "id": "hi-a193e1ed8d",
@@ -1645,7 +1665,8 @@
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00"
     },
     {
       "id": "hi-027e63035d",
@@ -3246,14 +3267,15 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
-      "image_path": "assets/news-images/6432cd71b6a6520158d7.svg",
-      "image_kind": "generated-fallback"
+      "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
       "id": "hi-f875434402",
@@ -3426,15 +3448,15 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
-      "image_lookup_attempted_at": "2026-11-03T09:28:10.212916+00:00",
-      "image_path": "assets/news-images/abb20a3f493588e1258b.svg",
-      "image_kind": "generated-fallback"
+      "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
       "id": "en-84a750cc5c",
@@ -3974,13 +3996,13 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
-      "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg",
-      "image_kind": "generated-fallback"
+      "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
       "id": "hi-a33d445d15",
@@ -4074,15 +4096,15 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T06:01:28.212143+00:00",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00",
-      "image_path": "assets/news-images/7a6257bf8c30324d9216.svg",
-      "image_kind": "generated-fallback"
+      "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-05T02:13:54.784610+00:00",
+      "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
       "id": "hi-5e28639f7e",
@@ -9682,7 +9704,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-04T05:55:07.704543+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/33aab611a95fd390f7a4.jpg"
+      "image_path": "assets/news-images/33aab611a95fd390f7a4.jpg",
+      "summary_refresh_attempted_at": "2026-11-05T02:11:29.354041+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-fa89e1a836",
