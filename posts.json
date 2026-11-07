@@ -259,11 +259,12 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/f3d4351f8ddabad8c343.svg"
     },
     {
@@ -446,12 +447,12 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/de4c8167d9189a9d1c6a.svg"
     },
     {
@@ -969,7 +970,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-06T02:11:31.288410+00:00",
+      "generated_at": "2026-11-07T08:38:44.115770+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -1000,12 +1001,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1196,12 +1197,12 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1617,12 +1618,12 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/fa3ab925bd6447660c9b.svg"
     },
     {
@@ -2794,12 +2795,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3180,14 +3181,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3787,14 +3788,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4194,14 +4195,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4282,14 +4283,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T02:11:31.288410+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T02:14:40.873753+00:00",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -10342,6 +10343,44 @@
       "image_lookup_attempted_at": "2026-11-07T00:07:26.302247+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/bcf8ce5280853c8e511f.jpg"
+    },
+    {
+      "id": "en-77c0bf9bec",
+      "lang": "en",
+      "slug": "khalid-jamil-names-23-player-squad-for-new-zealand-friendlie-77c0bf9bec",
+      "url": "en/posts/khalid-jamil-names-23-player-squad-for-new-zealand-friendlie-77c0bf9bec.html",
+      "title": "Khalid Jamil names 23-player squad for New Zealand friendlies",
+      "summary": "AIFF: NEW DELHI: Indian men's national team head coach Khalid Jamil named his 23-player squad for the two friendlies against New Zealand during the November FIFA International Match Window on Friday…",
+      "source_summary": "AIFF: NEW DELHI: Indian men's national team head coach Khalid Jamil named his 23-player squad for the two friendlies against New Zealand during the November FIFA International Match Window on Friday, November 6, 2026.\n\nSportstar: Chennai Khalid Jamil, the Indian head coach, has announced the 23-player squad for the two friendlies against New Zealand on November 12 and 15. Goalkeeper and captain Gurpreet Singh Sandhu has been left out of the squad on Friday. The announced squad includes three players…\n\nThePrint: Stay updated with The Print: Preferred Source Google Discover New Delhi, Nov 6 (PTI) Former skipper and veteran goalkeeper Gurpreet Singh Sandhu was sidelined, while key defender Anwar Ali was ruled out with a hamstring injury as head coach Khalid Jamil on Friday named a…",
+      "article_body": "AIFF: “NEW DELHI: Indian men's national team head coach Khalid Jamil named his 23-player squad for the two friendlies against New Zealand during the November FIFA International Match Window on Friday, November 6, 2026.”\n\nSportstar: “Chennai Khalid Jamil, the Indian head coach, has announced the 23-player squad for the two friendlies against New Zealand on November 12 and 15. Goalkeeper and captain Gurpreet Singh Sandhu has been left out of the squad on Friday. The announced squad includes three players…”\n\nThePrint: “Stay updated with The Print: Preferred Source Google Discover New Delhi, Nov 6 (PTI) Former skipper and veteran goalkeeper Gurpreet Singh Sandhu was sidelined, while key defender Anwar Ali was ruled out with a hamstring injury as head coach Khalid Jamil on Friday named a…”",
+      "category": "trending",
+      "published_at": "2026-11-07T08:00:00+00:00",
+      "generated_at": "2026-11-07T08:38:44.115770+00:00",
+      "kind": "digest",
+      "keyword": "india football team",
+      "score": 89.64,
+      "sources": [
+        {
+          "title": "Khalid Jamil names 23-player squad for New Zealand friendlies",
+          "url": "https://www.the-aiff.com/article/khalid-jamil-names-23-player-squad-for-new-zealand-friendlies",
+          "publisher": "AIFF"
+        },
+        {
+          "title": "Indian football announces squad for New Zealand friendlies; Gurpreet Singh Sandhu not included",
+          "url": "https://sportstar.thehindu.com/football/indian-football/indian-football-squad-new-zealand-friendlies-gurpreet-singh-sandhu-dropped/article71675916.ece",
+          "publisher": "Sportstar"
+        },
+        {
+          "title": "Gurpreet dropped as Khalid Jamil names 23-member India squad for New Zealand friendlies",
+          "url": "https://theprint.in/sport/gurpreet-dropped-as-khalid-jamil-names-23-member-india-squad-for-new-zealand-friendlies/3092744/",
+          "publisher": "ThePrint"
+        }
+      ],
+      "image_url": "https://ss-i.thgim.com/public/incoming/daf1af/article71675899.ece/alternates/LANDSCAPE_1200/Gurpreet%20Singh%20Sandhu.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/77f34254fd936560447b.jpg"
     }
   ]
 }
