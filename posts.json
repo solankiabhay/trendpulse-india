@@ -308,12 +308,12 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_path": "assets/news-images/334c971ff66cc392f76c.svg"
     },
     {
@@ -748,11 +748,11 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00"
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -870,12 +870,12 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_path": "assets/news-images/c14b5552739c1dcfc788.svg"
     },
     {
@@ -1019,7 +1019,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-06T11:59:42.015467+00:00",
+      "generated_at": "2026-11-07T16:16:41.600164+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1050,12 +1050,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1148,12 +1148,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3314,14 +3314,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3495,14 +3495,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4043,12 +4043,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4143,14 +4143,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T11:59:42.015467+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-06T12:02:21.409229+00:00",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -10342,7 +10342,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-07T00:07:26.302247+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/bcf8ce5280853c8e511f.jpg"
+      "image_path": "assets/news-images/bcf8ce5280853c8e511f.jpg",
+      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-77c0bf9bec",
@@ -10381,6 +10383,82 @@
       "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/77f34254fd936560447b.jpg"
+    },
+    {
+      "id": "en-e4c9e92b11",
+      "lang": "en",
+      "slug": "don-t-boo-ben-white-thomas-tuchel-urges-england-fans-e4c9e92b11",
+      "url": "en/posts/don-t-boo-ben-white-thomas-tuchel-urges-england-fans-e4c9e92b11.html",
+      "title": "Don't boo Ben White, Thomas Tuchel urges England fans",
+      "summary": "BBC: Arsenal news: Thomas Tuchel says Ben White 'deserves to open a new chapter' with England\n\nArsenal.com: Five members of our men’s first time have been named in Thomas Tuchel’s squad for the…",
+      "source_summary": "BBC: Arsenal news: Thomas Tuchel says Ben White 'deserves to open a new chapter' with England\n\nArsenal.com: Five members of our men’s first time have been named in Thomas Tuchel’s squad for the upcoming international break.",
+      "article_body": "BBC: “Arsenal news: Thomas Tuchel says Ben White 'deserves to open a new chapter' with England”\n\nArsenal.com: “Five members of our men’s first time have been named in Thomas Tuchel’s squad for the upcoming international break.”",
+      "category": "trending",
+      "published_at": "2026-11-07T16:00:00+00:00",
+      "generated_at": "2026-11-07T16:16:41.600164+00:00",
+      "kind": "digest",
+      "keyword": "thomas tuchel",
+      "score": 89.85,
+      "sources": [
+        {
+          "title": "Don't boo Ben White, Thomas Tuchel urges England fans",
+          "url": "https://www.espn.in/football/story/_/id/50398846/ben-white-england-squad-thomas-tuchel-boos",
+          "publisher": "ESPN India"
+        },
+        {
+          "title": "Arsenal news: Thomas Tuchel says Ben White 'deserves to open a new chapter' with England",
+          "url": "https://www.bbc.com/sport/football/articles/c6lykkxl52pko?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Five Gunners called up to England squad",
+          "url": "https://www.arsenal.com/news/five-gunners-called-up-to-england-squad-adFjN9G73Kjw",
+          "publisher": "Arsenal.com"
+        }
+      ],
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5bd6/live/21978ab0-d9df-11f1-bbe5-797ee05bee69.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/91d0c8a4b523563a9920.jpg"
+    },
+    {
+      "id": "en-c18de2ef18",
+      "lang": "en",
+      "slug": "scars-that-stay-c18de2ef18",
+      "url": "en/posts/scars-that-stay-c18de2ef18.html",
+      "title": "Scars That Stay",
+      "summary": "The Times of India: Actress Sonali Kulkarni has opened up about her upcoming short film 'Like Maa.' She reflected on how childhood traumas can leave a lasting impact and do not simply fade with…",
+      "source_summary": "The Times of India: Actress Sonali Kulkarni has opened up about her upcoming short film 'Like Maa.' She reflected on how childhood traumas can leave a lasting impact and do not simply fade with age.Sharing her experience, Sonali told IANS, \"I was very touched by the subject Neeru has…\n\nMid-Day: Actress Sonali Kulkarni has opened up about her upcoming short film lsquoLike Maarsquo She reflected on how childhood traumas can leave a lasting impact and do not simply fade with ageSharing her experience Sonali told IANS ldquoI was very touched by the subject Neeru has…",
+      "article_body": "The Times of India: “Actress Sonali Kulkarni has opened up about her upcoming short film 'Like Maa.' She reflected on how childhood traumas can leave a lasting impact and do not simply fade with age.Sharing her experience, Sonali told IANS, \"I was very touched by the subject Neeru has…”\n\nMid-Day: “Actress Sonali Kulkarni has opened up about her upcoming short film lsquoLike Maarsquo She reflected on how childhood traumas can leave a lasting impact and do not simply fade with ageSharing her experience Sonali told IANS ldquoI was very touched by the subject Neeru has…”",
+      "category": "trending",
+      "published_at": "2026-11-07T15:50:00+00:00",
+      "generated_at": "2026-11-07T16:16:41.600164+00:00",
+      "kind": "digest",
+      "keyword": "sonali kulkarni",
+      "score": 89.75,
+      "sources": [
+        {
+          "title": "Scars That Stay",
+          "url": "https://www.thehitavada.com/Encyc/2026/11/7/scars-that-stay.html",
+          "publisher": "The Hitavada"
+        },
+        {
+          "title": "Sonali Kulkarni opens up about ‘Like Maa’; says marriage and motherhood do not erase childhood trauma",
+          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/sonali-kulkarni-opens-up-about-like-maa-says-marriage-and-motherhood-do-not-erase-childhood-trauma/articleshow/135461162.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Sonali Kulkarni says childhood trauma doesn't fade with age",
+          "url": "https://www.mid-day.com/entertainment/regional-indian-cinema-news/article/sonali-kulkarni-explores-the-lasting-impact-of-childhood-trauma-through-like-maa-23658231",
+          "publisher": "Mid-Day"
+        }
+      ],
+      "image_url": "https://www.thehitavada.com/Encyc/2026/11/7/Actress-Sonali-Kulkarni_202611071235066925.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/89e90fb332a4e491576c.jpg"
     }
   ]
 }
