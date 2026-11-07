@@ -1966,7 +1966,7 @@
           "publisher": "BBC"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T19:22:05.672012+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
       "article_body": "Sky Sports: “Welcome to The Radar , a Sky Sports column in which Nick Wright uses a blend of data and opinion to shed light on need-to-know Premier League stories. This week: 🔺Manzambi's big impact at Villa 🔺Janelt's excellent defensive work 🔺A glimmer of hope for Arbeloa?…”\n\nBBC: “MATCH REPORT: Champions League - Aston Villa 6-0 Fenerbahce”",
       "image_url": "https://e0.365dm.com/26/10/1600x900/skysports-johan-manzambi-aston-villa_7377563.png?20261015132726=",
@@ -2746,7 +2746,7 @@
           "publisher": "The Shillong Times"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T19:22:05.672012+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://im.rediff.com/1200-630/cricket/2026/oct/18priyansh-arya.jpg",
       "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
@@ -3739,7 +3739,7 @@
           "publisher": "MadeInFOOT"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-06T19:22:05.672012+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://medias.lequipe.fr/img-photo-jpg/maghnes-akliouche-avait-ete-victime-d-un-tacle-appuye-sur-sa-cheville-gauche-samedi-en-fin-de-match-a-strasbourg-p-lahalle-l-equipe/1500000002626885/195:72,1477:927-828-552-75/c293b.jpg",
       "image_lookup_attempted_at": "2026-11-03T09:53:36.698227+00:00",
@@ -6430,7 +6430,7 @@
           "publisher": "Last Word On Sports"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-05T12:06:18.717534+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
       "image_lookup_version": 2,
@@ -6552,7 +6552,7 @@
           "publisher": "Telegraph India"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://static.toiimg.com/thumb/msid-135299458,width-1280,height-720,resizemode-6,overlay-toiblogs,pt-32,x_pad-1045,y_pad-670/photo.jpg",
       "image_source": "https://timesofindia.indiatimes.com/toi-blogs/toi-newsletters/bharat-abroad/toi-bharat-abroad-us-midterms-red-blue-a-little-desi-too/articleshow/135299309.cms",
@@ -8294,7 +8294,7 @@
         }
       ],
       "image_url": "https://th-i.thgim.com/public/news/national/yw6clx/article71650785.ece/alternates/LANDSCAPE_1200/IMG-20261031-WA0067.jpg",
-      "summary_refresh_attempted_at": "2026-11-06T19:22:05.672012+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/8ac1d3a83d57a810f0c8.jpg"
     },
@@ -8921,7 +8921,7 @@
         }
       ],
       "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2895/live/a97704b0-d660-11f1-a258-ffc7400bea96.jpg",
-      "summary_refresh_attempted_at": "2026-11-06T19:22:05.672012+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/772b1c7518c2c7cd9b03.jpg"
     },
@@ -8999,7 +8999,7 @@
         }
       ],
       "image_url": "https://static.toiimg.com/thumb/msid-135434602,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "summary_refresh_attempted_at": "2026-11-03T16:04:47.204455+00:00",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/a4e62d2aaeca63a05bc2.jpg"
     },
@@ -10382,7 +10382,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/77f34254fd936560447b.jpg"
+      "image_path": "assets/news-images/77f34254fd936560447b.jpg",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-e4c9e92b11",
@@ -10458,7 +10460,161 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/89e90fb332a4e491576c.jpg"
+      "image_path": "assets/news-images/89e90fb332a4e491576c.jpg",
+      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-8a511d2e3f",
+      "lang": "en",
+      "slug": "ligue-1-le-paris-fc-domine-auxerre-et-grimpe-a-la-deuxieme-p-8a511d2e3f",
+      "url": "en/posts/ligue-1-le-paris-fc-domine-auxerre-et-grimpe-a-la-deuxieme-p-8a511d2e3f.html",
+      "title": "Ligue 1 : le Paris FC domine Auxerre et grimpe à la deuxième place",
+      "summary": "Foot Mercato: Menés au score, les Auxerrois tentaient alors de réagir en prenant davantage de risques. À la 76e minute, une belle combinaison entre Kevin Danois et Cameron Archer permettait à…",
+      "source_summary": "Foot Mercato: Menés au score, les Auxerrois tentaient alors de réagir en prenant davantage de risques. À la 76e minute, une belle combinaison entre Kevin Danois et Cameron Archer permettait à l’attaquant anglais de se présenter face à Trapp, mais le gardien allemand remportait son duel et…\n\nMaxifoot: Vainqueur sur la pelouse d'Auxerre (1-0) ce samedi, dans le cadre de la 10e journ�e de Ligue 1, le Paris FC poursuit…\n\nL'Yonne Républicaine: Will Still (entraîneur de l’AJA) « Cette défaite est compliquée à digérer. Le plan du match était clair et bien appliqué. On voulait réduire l’espace entre les lignes et le danger que représentait l’association Sinayoko-Pagis qui était capable de faire très mal. On voulait créer…",
+      "article_body": "Foot Mercato: “Menés au score, les Auxerrois tentaient alors de réagir en prenant davantage de risques. À la 76e minute, une belle combinaison entre Kevin Danois et Cameron Archer permettait à l’attaquant anglais de se présenter face à Trapp, mais le gardien allemand remportait son duel et…”\n\nMaxifoot: “Vainqueur sur la pelouse d'Auxerre (1-0) ce samedi, dans le cadre de la 10e journ�e de Ligue 1, le Paris FC poursuit…”\n\nL'Yonne Républicaine: “Will Still (entraîneur de l’AJA) « Cette défaite est compliquée à digérer. Le plan du match était clair et bien appliqué. On voulait réduire l’espace entre les lignes et le danger que représentait l’association Sinayoko-Pagis qui était capable de faire très mal. On voulait créer…”",
+      "category": "trending",
+      "published_at": "2026-11-07T21:10:00+00:00",
+      "generated_at": "2026-11-07T21:42:14.943644+00:00",
+      "kind": "digest",
+      "keyword": "ligue 1",
+      "score": 89.7,
+      "sources": [
+        {
+          "title": "Ligue 1 : le Paris FC domine Auxerre et grimpe à la deuxième place",
+          "url": "https://www.footmercato.net/a5035629240078003501-ligue-1-le-paris-fc-domine-auxerre-et-grimpe-a-la-deuxieme-place",
+          "publisher": "Foot Mercato"
+        },
+        {
+          "title": "L1 : le classement provisoire",
+          "url": "https://www.maxifoot.fr/ligue-1/le-classement-provisoire-foot-467288.htm",
+          "publisher": "Maxifoot"
+        },
+        {
+          "title": "« De la frustration et de la déception » : les réactions après AJA-Paris FC (0-1)",
+          "url": "https://www.lyonne.fr/auxerre-89000/sports/de-la-frustration-et-de-la-deception-les-reactions-apres-aja-paris-fc-0-1_15077522/",
+          "publisher": "L'Yonne Républicaine"
+        }
+      ],
+      "image_url": "https://assets-fr.imgfoot.com/media/cache/1200x675/maxsportsfrthree243957-1920x1080-6a9dcf5720a4f.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-07T21:44:43.885925+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/15c6cd7e8e91605ea031.jpg"
+    },
+    {
+      "id": "en-3dd1a9c601",
+      "lang": "en",
+      "slug": "valencia-real-madrid-en-directo-laliga-ea-sports-hoy-en-vivo-3dd1a9c601",
+      "url": "en/posts/valencia-real-madrid-en-directo-laliga-ea-sports-hoy-en-vivo-3dd1a9c601.html",
+      "title": "Valencia - Real Madrid, en directo: LaLiga EA Sports, hoy en vivo",
+      "summary": "Diario AS: Sigue en directo el Valencia-Real Madrid de LaLiga EA Sports que se jugará hoy en Mestalla desde las 21:00 h.\n\nClaro Sports: Javier Aguirre y José Mourinho han compartido los banquillos de…",
+      "source_summary": "Diario AS: Sigue en directo el Valencia-Real Madrid de LaLiga EA Sports que se jugará hoy en Mestalla desde las 21:00 h.\n\nClaro Sports: Javier Aguirre y José Mourinho han compartido los banquillos de LaLiga en diferentes etapas de sus carreras . Aunque sus trayectorias los han llevado por distintos equipos y competiciones, ambos entrenadores construyeron un historial de cinco enfrentamientos durante el paso del portugués por el Real…\n\nMundo Deportivo: Este sábado 7 de noviembre, destaca el duelo entre Valencia y Real Madrid en el estadio de Mestalla, en LaLiga EA Sports. Además, en la Premier League se jugará el Nottingham Forest - Manchester City. En la Bundesliga, el Bayern de Múnich visitará al Mainz…",
+      "article_body": "Diario AS: “Sigue en directo el Valencia-Real Madrid de LaLiga EA Sports que se jugará hoy en Mestalla desde las 21:00 h.”\n\nClaro Sports: “Javier Aguirre y José Mourinho han compartido los banquillos de LaLiga en diferentes etapas de sus carreras . Aunque sus trayectorias los han llevado por distintos equipos y competiciones, ambos entrenadores construyeron un historial de cinco enfrentamientos durante el paso del portugués por el Real…”\n\nMundo Deportivo: “Este sábado 7 de noviembre, destaca el duelo entre Valencia y Real Madrid en el estadio de Mestalla, en LaLiga EA Sports. Además, en la Premier League se jugará el Nottingham Forest - Manchester City. En la Bundesliga, el Bayern de Múnich visitará al Mainz…”",
+      "category": "trending",
+      "published_at": "2026-11-07T20:50:00+00:00",
+      "generated_at": "2026-11-07T21:42:14.943644+00:00",
+      "kind": "digest",
+      "keyword": "real madrid",
+      "score": 89.52,
+      "sources": [
+        {
+          "title": "Valencia - Real Madrid, en directo: LaLiga EA Sports, hoy en vivo",
+          "url": "https://as.com/futbol/primera/valencia-real-madrid-en-directo-laliga-ea-sports-hoy-en-vivo-f202611-d/",
+          "publisher": "Diario AS"
+        },
+        {
+          "title": "El día que Javier Aguirre venció a Mourinho en el Bernabéu: así ha sido su rivalidad",
+          "url": "https://www.clarosports.com/futbol/laliga/el-dia-que-javier-aguirre-vencio-a-mourinho-en-el-bernabeu-asi-ha-sido-su-rivalidad/",
+          "publisher": "Claro Sports"
+        },
+        {
+          "title": "Partidos de hoy de fútbol: horario y dónde ver por TV",
+          "url": "https://www.mundodeportivo.com/horarios/futbol/20261107/1004248097/partidos-hoy-futbol-horario-ver-tv.html",
+          "publisher": "Mundo Deportivo"
+        }
+      ],
+      "image_url": "https://img.asmedia.epimg.net/resizer/v2/AHGE5QA5BFLCZC4G6MAZJD5RK4.jpg?auth=11e0c79ec51128bfe1ae5a19ff2a4a04dd52e03c9e6d6a8dd435b7aa6431866f&width=1472&height=828&smart=true",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-07T21:44:43.885925+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/9ecd1bcd63d7c0d23cdc.jpg"
+    },
+    {
+      "id": "en-c588617302",
+      "lang": "en",
+      "slug": "why-cole-palmer-is-on-notice-in-tuchel-s-new-look-england-th-c588617302",
+      "url": "en/posts/why-cole-palmer-is-on-notice-in-tuchel-s-new-look-england-th-c588617302.html",
+      "title": "Why Cole Palmer is on notice in Tuchel's new-look England: 'The competition is on'",
+      "summary": "BBC: England manager Thomas Tuchel told BBC Radio 5 Live it is \"a beautiful story\".\n\nGoal.com: Had he spoken to Palmer about Thomas Tuchel's decision to leave him out of the England squad following…",
+      "source_summary": "BBC: England manager Thomas Tuchel told BBC Radio 5 Live it is \"a beautiful story\".\n\nGoal.com: Had he spoken to Palmer about Thomas Tuchel's decision to leave him out of the England squad following his absence from several previous camps? Alonso told Sky Sports : \"We did not talk about this matter, rather our entire focus was on our upcoming match…",
+      "article_body": "BBC: “England manager Thomas Tuchel told BBC Radio 5 Live it is \"a beautiful story\".”\n\nGoal.com: “Had he spoken to Palmer about Thomas Tuchel's decision to leave him out of the England squad following his absence from several previous camps? Alonso told Sky Sports : \"We did not talk about this matter, rather our entire focus was on our upcoming match…”",
+      "category": "trending",
+      "published_at": "2026-11-07T20:50:00+00:00",
+      "generated_at": "2026-11-07T21:42:14.943644+00:00",
+      "kind": "digest",
+      "keyword": "jude bellingham",
+      "score": 89.52,
+      "sources": [
+        {
+          "title": "Why Cole Palmer is on notice in Tuchel's new-look England: 'The competition is on'",
+          "url": "https://www.espn.in/football/story/_/id/50399038/cole-palmer-thomas-tuchel-england",
+          "publisher": "ESPN India"
+        },
+        {
+          "title": "'A beautiful story' as Bellingham brothers called up",
+          "url": "https://www.bbc.com/sport/football/articles/c5x2vvjy2rpeo",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Alonso reveals the behind-the-scenes details of the crisis over Palmer's exclusion from the England squad",
+          "url": "https://www.goal.com/en-in/news/alonso-reveals-the-behind-the-scenes-details-of-the-crisis-over-palmer-s-exclusion-from-the-england-squad/blt7bc211f41b0a2654",
+          "publisher": "Goal.com"
+        }
+      ],
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/90e1/live/6e8557d0-d9d5-11f1-9e5a-c30c5e3d8c85.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-07T21:44:43.885925+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/29a243d348efb9f50f4f.jpg"
+    },
+    {
+      "id": "en-e6d967a8dc",
+      "lang": "en",
+      "slug": "russell-crowe-leonardo-dicaprios-forgotten-spy-action-thrill-e6d967a8dc",
+      "url": "en/posts/russell-crowe-leonardo-dicaprios-forgotten-spy-action-thrill-e6d967a8dc.html",
+      "title": "Russell Crowe & Leonardo DiCaprio’s Forgotten Spy Action Thriller Explodes Back Onto Streaming",
+      "summary": "Collider: Ridley Scott’s 128-minute CIA thriller Body of Lies, starring Leonardo DiCaprio and Russell Crowe, is now streaming on Apple TV.\n\nMovieWeb: The coming together of two major Hollywood…",
+      "source_summary": "Collider: Ridley Scott’s 128-minute CIA thriller Body of Lies, starring Leonardo DiCaprio and Russell Crowe, is now streaming on Apple TV.\n\nMovieWeb: The coming together of two major Hollywood players for an action thriller epic should be cause for celebration, but in the case of Leonardo DiCaprio and Ridley Scott , their combined effort has inexplicably been forgotten. Now, almost two decades later, the Academy Award-winning duo's…",
+      "article_body": "Collider: “Ridley Scott’s 128-minute CIA thriller Body of Lies, starring Leonardo DiCaprio and Russell Crowe, is now streaming on Apple TV.”\n\nMovieWeb: “The coming together of two major Hollywood players for an action thriller epic should be cause for celebration, but in the case of Leonardo DiCaprio and Ridley Scott , their combined effort has inexplicably been forgotten. Now, almost two decades later, the Academy Award-winning duo's…”",
+      "category": "trending",
+      "published_at": "2026-11-07T20:50:00+00:00",
+      "generated_at": "2026-11-07T21:42:14.943644+00:00",
+      "kind": "digest",
+      "keyword": "apple tv",
+      "score": 89.52,
+      "sources": [
+        {
+          "title": "Russell Crowe & Leonardo DiCaprio’s Forgotten Spy Action Thriller Explodes Back Onto Streaming",
+          "url": "https://www.imdb.com/news/ni66095479/?ref_=nmnw_art_perm",
+          "publisher": "IMDb"
+        },
+        {
+          "title": "Russell Crowe and Leonardo DiCaprio’s CIA Thriller Officially Hits Apple TV",
+          "url": "https://collider.com/body-of-lies-streaming-apple-tv-november-2026/",
+          "publisher": "Collider"
+        },
+        {
+          "title": "In Just 1 Day, Ridley Scott's 128-Minute DiCaprio Action Thriller Officially Takes Over Streaming",
+          "url": "https://movieweb.com/body-of-lies-dicaprio-action-thriller-stream-november-2026/",
+          "publisher": "MovieWeb"
+        }
+      ],
+      "image_url": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/07/hoffman-russell-crowe-and-ferris-leonardo-dicaprio-in-body-of-lies-1.jpg?w=1600&h=900&fit=crop",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-07T21:44:43.885925+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/cb0203b804fa32d78a3e.jpg"
     }
   ]
 }
