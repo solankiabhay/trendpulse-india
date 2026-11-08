@@ -259,12 +259,11 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/f3d4351f8ddabad8c343.svg"
     },
     {
@@ -447,12 +446,12 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/de4c8167d9189a9d1c6a.svg"
     },
     {
@@ -970,7 +969,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-07T08:38:44.115770+00:00",
+      "generated_at": "2026-11-08T08:51:56.707680+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -1001,12 +1000,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1197,12 +1196,12 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1618,12 +1617,12 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/fa3ab925bd6447660c9b.svg"
     },
     {
@@ -2795,12 +2794,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3181,14 +3180,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3788,14 +3787,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4195,14 +4194,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4283,14 +4282,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T08:38:44.115770+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T08:41:34.318183+00:00",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -10653,6 +10652,121 @@
       "image_lookup_attempted_at": "2026-11-08T01:19:03.791404+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+    },
+    {
+      "id": "en-1c357f0c69",
+      "lang": "en",
+      "slug": "bel-receives-orders-worth-rs-909-crore-1c357f0c69",
+      "url": "en/posts/bel-receives-orders-worth-rs-909-crore-1c357f0c69.html",
+      "title": "BEL receives orders worth Rs 909 crore",
+      "summary": "Whispers in the Corridors: Navratna Defence Public Sector Undertaking Bharat Electronics Limited (BEL) has secured additional orders worth Rs. 909 crore since its last disclosure on October 21, 2026.…",
+      "source_summary": "Whispers in the Corridors: Navratna Defence Public Sector Undertaking Bharat Electronics Limited (BEL) has secured additional orders worth Rs. 909 crore since its last disclosure on October 21, 2026. The major orders include stabilised optronic pedestals, communication equipment, navigation systems, night vision devices, software solutions, components, upgrades, spares and…\n\nMultibagg AI: Bharat Electronics Limited reported Q2 FY27 net profit of ₹1,540 crore, up about 20% year on year, supported by a 26% increase in revenue to about ₹7,300 crore. The defence public sector undertaking’s sales growth exceeded profit growth as gross and operating margins declined from…\n\nBusinessLine: Shares of Bharat Electronics Limited were up 3.13 per cent at ₹392 on the NSE around midday on Wednesday, trading briskly after the defence PSU reported strong first-half results last week, with five brokerages maintaining buy or add calls. The stock had hit a 52-week…",
+      "article_body": "Whispers in the Corridors: “Navratna Defence Public Sector Undertaking Bharat Electronics Limited (BEL) has secured additional orders worth Rs. 909 crore since its last disclosure on October 21, 2026. The major orders include stabilised optronic pedestals, communication equipment, navigation systems, night vision devices, software solutions, components, upgrades, spares and…”\n\nMultibagg AI: “Bharat Electronics Limited reported Q2 FY27 net profit of ₹1,540 crore, up about 20% year on year, supported by a 26% increase in revenue to about ₹7,300 crore. The defence public sector undertaking’s sales growth exceeded profit growth as gross and operating margins declined from…”\n\nBusinessLine: “Shares of Bharat Electronics Limited were up 3.13 per cent at ₹392 on the NSE around midday on Wednesday, trading briskly after the defence PSU reported strong first-half results last week, with five brokerages maintaining buy or add calls. The stock had hit a 52-week…”",
+      "category": "trending",
+      "published_at": "2026-11-08T08:20:00+00:00",
+      "generated_at": "2026-11-08T08:51:56.707680+00:00",
+      "kind": "digest",
+      "keyword": "cnbc awaaz live",
+      "score": 89.7,
+      "sources": [
+        {
+          "title": "BEL receives orders worth Rs 909 crore",
+          "url": "https://whispersinthecorridors.com/news/bel-receives-orders-worth-rs-909-crore",
+          "publisher": "Whispers in the Corridors"
+        },
+        {
+          "title": "Bharat Electronics Q2 FY27 Profit Rises 20% on Revenue Growth",
+          "url": "https://www.multibagg.ai/market-pulse/articles/bharat-electronics-q2-profit-growth-cmw4s5bzk002dqk2r8rxswzoe",
+          "publisher": "Multibagg AI"
+        },
+        {
+          "title": "BEL shares climb 3% as brokerages back post-results recovery",
+          "url": "https://www.thehindubusinessline.com/markets/stock-markets/bel-shares-climb-3-as-brokerages-back-post-results-recovery/article71664488.ece",
+          "publisher": "BusinessLine"
+        }
+      ],
+      "image_url": "https://whispersinthecorridors.com/uploads/2026/11/7681489b68e5470a.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/4317784c33c918956228.jpg"
+    },
+    {
+      "id": "en-5c77034522",
+      "lang": "en",
+      "slug": "eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kon-5c77034522",
+      "url": "en/posts/eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kon-5c77034522.html",
+      "title": "Eala tops Sakkari in rain-impacted semifinal to set Hong Kong final against Liu",
+      "summary": "WTA Tennis: Alexandra Eala overcame rain and two Maria Sakkari comeback bids to earn a 7-5, 3-6, 6-4 victory Saturday. She will face Claire Liu for the Hong Kong title after the American ended…",
+      "source_summary": "WTA Tennis: Alexandra Eala overcame rain and two Maria Sakkari comeback bids to earn a 7-5, 3-6, 6-4 victory Saturday. She will face Claire Liu for the Hong Kong title after the American ended Alexandra Shubladze's surprise run with a straight-sets semifinal win.\n\nTennis Now: The 102nd-ranked Liu beat qualifier Alexandra Shubladze, 7-5, 6-4 , to advance to the Hong Kong Open final in just her seventh main-draw appearance of the year.",
+      "article_body": "WTA Tennis: “Alexandra Eala overcame rain and two Maria Sakkari comeback bids to earn a 7-5, 3-6, 6-4 victory Saturday. She will face Claire Liu for the Hong Kong title after the American ended Alexandra Shubladze's surprise run with a straight-sets semifinal win.”\n\nTennis Now: “The 102nd-ranked Liu beat qualifier Alexandra Shubladze, 7-5, 6-4 , to advance to the Hong Kong Open final in just her seventh main-draw appearance of the year.”",
+      "category": "trending",
+      "published_at": "2026-11-08T08:10:00+00:00",
+      "generated_at": "2026-11-08T08:51:56.707680+00:00",
+      "kind": "digest",
+      "keyword": "alexandra eala",
+      "score": 89.61,
+      "sources": [
+        {
+          "title": "Eala tops Sakkari in rain-impacted semifinal to set Hong Kong final against Liu",
+          "url": "https://www.wtatennis.com/news/4606011/eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kong-final-against-liu",
+          "publisher": "WTA Tennis"
+        },
+        {
+          "title": "WTA roundup: Finals set in Hong Kong and Chennai",
+          "url": "https://www.tri-cityherald.com/sports/tennis/article317974619.html",
+          "publisher": "Tri-City Herald"
+        },
+        {
+          "title": "Alexandra Eala to Face Claire Liu in Hong Kong Final",
+          "url": "https://tennisnow.com/alexandra-eala-to-face-claire-liu-in-hong-kong-final/",
+          "publisher": "Tennis Now"
+        }
+      ],
+      "image_url": "https://photoresources.wtatennis.com/wta/photo/2026/11/07/f93fa82d-a300-464d-8676-88c6ffa9016b/GettyImages-2303448447.jpg",
+      "image_search_title": "",
+      "image_source": "https://www.wtatennis.com/news/4606011/eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kong-final-against-liu",
+      "image_credit": "WTA Tennis",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_version": 2
+    },
+    {
+      "id": "en-9af89f1cc0",
+      "lang": "en",
+      "slug": "us-believes-nvidias-huang-had-romantic-relationship-with-all-9af89f1cc0",
+      "url": "en/posts/us-believes-nvidias-huang-had-romantic-relationship-with-all-9af89f1cc0.html",
+      "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+      "summary": "The Times of India: US intelligence suspects a Chinese businesswoman close to Nvidia’s CEO was spying for China. A new report say an alleged 'romance' may have been at the centre of the operation",
+      "source_summary": "The Times of India: US intelligence suspects a Chinese businesswoman close to Nvidia’s CEO was spying for China. A new report say an alleged 'romance' may have been at the centre of the operation",
+      "article_body": "The Times of India: “US intelligence suspects a Chinese businesswoman close to Nvidia’s CEO was spying for China. A new report say an alleged 'romance' may have been at the centre of the operation”",
+      "category": "trending",
+      "published_at": "2026-11-08T08:10:00+00:00",
+      "generated_at": "2026-11-08T08:51:56.707680+00:00",
+      "kind": "digest",
+      "keyword": "nvidia jensen huang",
+      "score": 89.61,
+      "sources": [
+        {
+          "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+          "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+          "publisher": "Financial Times"
+        },
+        {
+          "title": "Did China plant a spy close to the boss of the world's leading AI chipmaker?",
+          "url": "https://timesofindia.indiatimes.com/toi-plus/technology/did-china-plant-a-spy-close-to-the-boss-of-the-worlds-leading-ai-chipmaker/articleshow/135632609.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+          "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
+          "publisher": "Axios"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-135633206,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/78b81c135256eb51a655.png"
     }
   ]
 }
