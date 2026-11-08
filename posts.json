@@ -307,12 +307,12 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
       "image_path": "assets/news-images/334c971ff66cc392f76c.svg"
     },
     {
@@ -747,11 +747,11 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00"
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -869,12 +869,12 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
       "image_path": "assets/news-images/c14b5552739c1dcfc788.svg"
     },
     {
@@ -1018,7 +1018,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-07T16:16:41.600164+00:00",
+      "generated_at": "2026-11-08T16:37:12.432725+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1049,12 +1049,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1147,12 +1147,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3313,14 +3313,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3494,14 +3494,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4042,12 +4042,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4142,14 +4142,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T16:16:41.600164+00:00",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-07T16:20:11.420873+00:00",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -10689,7 +10689,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/4317784c33c918956228.jpg"
+      "image_path": "assets/news-images/4317784c33c918956228.jpg",
+      "summary_refresh_attempted_at": "2026-11-08T16:37:12.432725+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-5c77034522",
@@ -10767,6 +10769,45 @@
       "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/78b81c135256eb51a655.png"
+    },
+    {
+      "id": "en-a5ef178f59",
+      "lang": "en",
+      "slug": "india-a-include-badoni-for-rising-stars-asia-cup-after-patid-a5ef178f59",
+      "url": "en/posts/india-a-include-badoni-for-rising-stars-asia-cup-after-patid-a5ef178f59.html",
+      "title": "India A include Badoni for Rising Stars Asia Cup after Patidar opts out",
+      "summary": "BCCI: Accordingly, he has been withdrawn from the India A squad for the ACC Rising Stars Asia Cup. The Men’s Selection Committee has named Rinku Singh as vice-captain, while Ayush Badoni has been…",
+      "source_summary": "BCCI: Accordingly, he has been withdrawn from the India A squad for the ACC Rising Stars Asia Cup. The Men’s Selection Committee has named Rinku Singh as vice-captain, while Ayush Badoni has been added to the squad in Patidar’s place.\n\nThe Economic Times: Rinku Singh has been named vice-captain of India A for the ACC Rising Stars Asia Cup after Rajat Patidar withdrew from the squad while managing his existing injuries, the BCCI said in a statement on Sunday.The Men’s Selection Committee added Ayush Badoni to the 15-member…",
+      "article_body": "BCCI: “Accordingly, he has been withdrawn from the India A squad for the ACC Rising Stars Asia Cup. The Men’s Selection Committee has named Rinku Singh as vice-captain, while Ayush Badoni has been added to the squad in Patidar’s place.”\n\nThe Economic Times: “Rinku Singh has been named vice-captain of India A for the ACC Rising Stars Asia Cup after Rajat Patidar withdrew from the squad while managing his existing injuries, the BCCI said in a statement on Sunday.The Men’s Selection Committee added Ayush Badoni to the 15-member…”",
+      "category": "trending",
+      "published_at": "2026-11-08T16:10:00+00:00",
+      "generated_at": "2026-11-08T16:37:12.432725+00:00",
+      "kind": "digest",
+      "keyword": "patidar",
+      "score": 89.75,
+      "sources": [
+        {
+          "title": "India A include Badoni for Rising Stars Asia Cup after Patidar opts out",
+          "url": "https://www.cricinfo.com/story/india-a-include-ayush-badoni-for-rising-stars-asia-cup-after-rajat-patidar-opts-out-1561869",
+          "publisher": "Cricinfo"
+        },
+        {
+          "title": "India A squad for ACC Rising Stars Asia Cup – Update",
+          "url": "https://www.bcci.tv/news/article/india-a-squad-for-acc-rising-stars-asia-cup-update",
+          "publisher": "BCCI"
+        },
+        {
+          "title": "Rinku Singh named India A vice-captain for Rising Stars Asia Cup after Rajat Patidar withdraws",
+          "url": "https://economictimes.indiatimes.com/news/sports/cricket/rinku-singh-named-india-a-vice-captain-for-rising-stars-asia-cup-after-patidar-withdraws/articleshow/135653380.cms?from=mdr",
+          "publisher": "The Economic Times"
+        }
+      ],
+      "image_url": "https://www.bcci.tv/cms/images/gtykgr9m2ngt/1BMLqLT9qvQlXuh80phI9P/5d5cc2172e1445d45080c4b64e96f020/_J7A2387.JPG",
+      "image_search_title": "",
+      "image_source": "https://www.bcci.tv/news/article/india-a-squad-for-acc-rising-stars-asia-cup-update",
+      "image_credit": "BCCI",
+      "image_lookup_attempted_at": "2026-11-08T16:40:17.750189+00:00",
+      "image_lookup_version": 2
     }
   ]
 }
