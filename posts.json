@@ -259,11 +259,12 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/f3d4351f8ddabad8c343.svg"
     },
     {
@@ -446,12 +447,12 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/de4c8167d9189a9d1c6a.svg"
     },
     {
@@ -969,7 +970,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-08T08:51:56.707680+00:00",
+      "generated_at": "2026-11-09T09:34:50.723545+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -1000,12 +1001,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1196,12 +1197,12 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1617,12 +1618,12 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/fa3ab925bd6447660c9b.svg"
     },
     {
@@ -2794,12 +2795,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3180,14 +3181,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3787,14 +3788,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4194,14 +4195,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4282,14 +4283,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-08T08:51:56.707680+00:00",
+      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-08T08:55:49.888162+00:00",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -10974,6 +10975,82 @@
       "image_lookup_attempted_at": "2026-11-09T01:39:51.805965+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/eb8fb908487729703ae2.jpg"
+    },
+    {
+      "id": "en-e3f0071125",
+      "lang": "en",
+      "slug": "ireda-share-price-jumps-over-7-amid-robust-volumes-psu-stock-e3f0071125",
+      "url": "en/posts/ireda-share-price-jumps-over-7-amid-robust-volumes-psu-stock-e3f0071125.html",
+      "title": "IREDA Share Price Jumps Over 7% Amid Robust Volumes; PSU Stock Up 20% In Ten Sessions",
+      "summary": "CNBC TV18: Shares of Indian Renewable Energy Development Agency Ltd. are trading with gains of over 7% on Monday, November 9, extending their gains for the seventh straight trading session. The stock…",
+      "source_summary": "CNBC TV18: Shares of Indian Renewable Energy Development Agency Ltd. are trading with gains of over 7% on Monday, November 9, extending their gains for the seventh straight trading session. The stock has also gained in nine out of the last 10 trading sessions.During this move, the…\n\nLivemint: IREDA Share Price Today: इंडियन रीन्यूएबल एनर्जी डेवपलमेंट एजेंसी (IREDA) के शेयरों में सोमवार को तेजी देखने को मिली। दोपहर 12.05 बजे तक यह शेयर 8.12 अंक (7.29%) तक चढ़ गया था। तब तक निफ्टी ने 147.65 अंक (0.59%) की गिरावट देख ली थी। इरेडा…",
+      "article_body": "CNBC TV18: “Shares of Indian Renewable Energy Development Agency Ltd. are trading with gains of over 7% on Monday, November 9, extending their gains for the seventh straight trading session. The stock has also gained in nine out of the last 10 trading sessions.During this move, the…”\n\nLivemint: “IREDA Share Price Today: इंडियन रीन्यूएबल एनर्जी डेवपलमेंट एजेंसी (IREDA) के शेयरों में सोमवार को तेजी देखने को मिली। दोपहर 12.05 बजे तक यह शेयर 8.12 अंक (7.29%) तक चढ़ गया था। तब तक निफ्टी ने 147.65 अंक (0.59%) की गिरावट देख ली थी। इरेडा…”",
+      "category": "trending",
+      "published_at": "2026-11-09T09:10:00+00:00",
+      "generated_at": "2026-11-09T09:34:50.723545+00:00",
+      "kind": "digest",
+      "keyword": "ireda share price",
+      "score": 89.77,
+      "sources": [
+        {
+          "title": "IREDA Share Price Jumps Over 7% Amid Robust Volumes; PSU Stock Up 20% In Ten Sessions",
+          "url": "https://www.ndtvprofit.com/markets/ireda-share-price-jumps-over-7-amid-robust-volumes-psu-stock-up-20-in-ten-sessions-12302664",
+          "publisher": "NDTV Profit"
+        },
+        {
+          "title": "IREDA shares gain for the seventh straight day, have not closed above this level in nearly two years",
+          "url": "https://www.cnbctv18.com/market/ireda-share-price-key-levels-not-closed-above-an-important-mark-for-nearly-two-years-buy-sell-returns-20030286.htm",
+          "publisher": "CNBC TV18"
+        },
+        {
+          "title": "IREDA Stock Price Today: पीएसयू स्टॉक में खरीदारी से 7% चढ़ा शेयर, दूसरी तिमाही में मजबूत रहे थे नतीजे",
+          "url": "https://www.livemint.com/hindi/market/psu-stock-ireda-surge-7-pc-today-on-nse-bse-know-details-in-hindi-241794207386191.html",
+          "publisher": "Livemint"
+        }
+      ],
+      "image_url": "https://images.cnbctv18.com/uploads/2026/11/ireda-shares-near-a-key-resistance-level-1-2026-11-f3be106eacde144cbe7bfe454914dc36.jpg?im=FitAndFill%2Cwidth%3D1200%2Cheight%3D675",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/2f9ae9f162ee4b170f4d.jpg"
+    },
+    {
+      "id": "en-57ba00fa14",
+      "lang": "en",
+      "slug": "carlos-palacios-celebro-dos-titulos-en-menos-de-24-horas-con-57ba00fa14",
+      "url": "en/posts/carlos-palacios-celebro-dos-titulos-en-menos-de-24-horas-con-57ba00fa14.html",
+      "title": "Carlos Palacios celebró dos títulos en menos de 24 horas (con Boca Juniors y Colo Colo)",
+      "summary": "OneFootball: «Coquita con hielo» y medalla: Carlos Palacios no escondió su alegría por título con Boca y va por más\n\nFOX Deportes: Con un gol agónico en el minuto 93 Marcos Bolados le dio este…",
+      "source_summary": "OneFootball: «Coquita con hielo» y medalla: Carlos Palacios no escondió su alegría por título con Boca y va por más\n\nFOX Deportes: Con un gol agónico en el minuto 93 Marcos Bolados le dio este domingo a Colo Colo, donde juega el portero 'Vozinha', su título 35 de la liga chilena, tras vencer por 1-2 en su visita a Ñublense y consagrarse campeón con tres fechas de…",
+      "article_body": "OneFootball: “«Coquita con hielo» y medalla: Carlos Palacios no escondió su alegría por título con Boca y va por más”\n\nFOX Deportes: “Con un gol agónico en el minuto 93 Marcos Bolados le dio este domingo a Colo Colo, donde juega el portero 'Vozinha', su título 35 de la liga chilena, tras vencer por 1-2 en su visita a Ñublense y consagrarse campeón con tres fechas de…”",
+      "category": "trending",
+      "published_at": "2026-11-09T09:10:00+00:00",
+      "generated_at": "2026-11-09T09:34:50.723545+00:00",
+      "kind": "digest",
+      "keyword": "colo colo",
+      "score": 89.77,
+      "sources": [
+        {
+          "title": "Carlos Palacios celebró dos títulos en menos de 24 horas (con Boca Juniors y Colo Colo)",
+          "url": "https://onefootball.com/es/noticias/carlos-palacios-celebro-dos-titulos-en-menos-de-24-horas-con-boca-juniors-y-colo-colo-43749506",
+          "publisher": "OneFootball"
+        },
+        {
+          "title": "La sinceridad de Fernando Ortiz: \"Tuvimos un año muy complicado\"",
+          "url": "https://espndeportes.espn.com/futbol/chile/nota/_/id/17495902/fernando-ortiz-y-su-sinceridad-tras-el-titulo-de-colo-colo-en-la-liga-de-primera-2026",
+          "publisher": "ESPN Deportes"
+        },
+        {
+          "title": "Vozinha, campeón con Colo Colo",
+          "url": "https://www.foxdeportes.com/futbol/nota/vozinha-campeon-con-colo-colo",
+          "publisher": "FOX Deportes"
+        }
+      ],
+      "image_url": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fes%2F43749506%3Fdate=2026-11-09",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/161014c085c14a05fd5f.png"
     }
   ]
 }
