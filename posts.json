@@ -259,12 +259,11 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/f3d4351f8ddabad8c343.svg"
     },
     {
@@ -445,12 +444,11 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/de4c8167d9189a9d1c6a.svg"
     },
     {
@@ -966,7 +964,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-09T09:34:50.723545+00:00",
+      "generated_at": "2026-11-10T14:43:36.805064+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -997,12 +995,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1193,12 +1191,11 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1614,12 +1611,11 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/fa3ab925bd6447660c9b.svg"
     },
     {
@@ -2789,12 +2785,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3175,14 +3171,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3782,14 +3778,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4189,14 +4185,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4277,14 +4273,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T09:34:50.723545+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T14:43:36.805064+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T09:37:13.392727+00:00",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -7032,11 +7028,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
       "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
       "image_credit": "CNBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
+      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
     },
     {
       "id": "en-a130fd0cdc",
@@ -7847,11 +7844,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
       "image_source": "https://www.dimers.com/tennis/news/alexander-zverev-vs-alex-de-minaur-tennis-prediction-atp-vienna-open-2026-ac",
       "image_credit": "Dimers",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
+      "image_path": "assets/news-images/64cde5ec18360311d4d2.jpg"
     },
     {
       "id": "en-f85ae078e5",
@@ -9070,11 +9068,14 @@
           "publisher": "Bloomberg.com"
         }
       ],
-      "image_url": "",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
       "summary_refresh_version": 21,
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T06:15:47.327234+00:00"
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
+      "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+      "image_credit": "CNBC",
+      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
     },
     {
       "id": "en-c17af3ddcd",
@@ -11121,6 +11122,120 @@
       "image_search_title": "",
       "image_lookup_version": 2,
       "image_lookup_attempted_at": "2026-11-10T04:07:06.867892+00:00"
+    },
+    {
+      "id": "en-d3844ac0ab",
+      "lang": "en",
+      "slug": "kamal-haasan-s-sandiyar-title-row-resurfaces-after-23-years-d3844ac0ab",
+      "url": "en/posts/kamal-haasan-s-sandiyar-title-row-resurfaces-after-23-years-d3844ac0ab.html",
+      "title": "Kamal Haasan's 'Sandiyar' title row resurfaces after 23 years; Krishnasamy warns actor against using the",
+      "summary": "The Times of India: Kamal Haasan is facing opposition over the title of his upcoming film 'Sandiyar,' which was announced on his birthday, November 7. The actor and politician's latest project has…",
+      "source_summary": "The Times of India: Kamal Haasan is facing opposition over the title of his upcoming film 'Sandiyar,' which was announced on his birthday, November 7. The actor and politician's latest project has drawn attention even before production details are fully revealed, as the film's name is triggering a fresh…\n\nRediff: Kamal Haasan is set to star in Sandiyar, a new film directed by SU Arun Kumar, with its intriguing first-look poster already generating significant anticipation.Photograph: @RKFI/XKey PointsKamal Haasans new film has been announced, with S U Arun Kumar directing.The Sandiyar poster shows Kamal Haasan holding…",
+      "article_body": "The Times of India: “Kamal Haasan is facing opposition over the title of his upcoming film 'Sandiyar,' which was announced on his birthday, November 7. The actor and politician's latest project has drawn attention even before production details are fully revealed, as the film's name is triggering a fresh…”\n\nRediff: “Kamal Haasan is set to star in Sandiyar, a new film directed by SU Arun Kumar, with its intriguing first-look poster already generating significant anticipation.Photograph: @RKFI/XKey PointsKamal Haasans new film has been announced, with S U Arun Kumar directing.The Sandiyar poster shows Kamal Haasan holding…”",
+      "category": "trending",
+      "published_at": "2026-11-10T14:20:00+00:00",
+      "generated_at": "2026-11-10T14:43:36.805064+00:00",
+      "kind": "digest",
+      "keyword": "sandiyar movie kamal haasan",
+      "score": 89.78,
+      "sources": [
+        {
+          "title": "Kamal Haasan's 'Sandiyar' title row resurfaces after 23 years; Krishnasamy warns actor against using the",
+          "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/kamal-haasans-sandiyar-title-row-resurfaces-after-23-years-krishnasamy-warns-actor-against-using-the-title-he-will-have-to-leave-tamil-nadu/articleshow/135673418.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Kamal’s ‘Sandiyar’ Stirs Old Caste Row",
+          "url": "https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/kamals-sandiyar-stirs-old-caste-row-2002951",
+          "publisher": "Deccan Chronicle"
+        },
+        {
+          "title": "Is Kamal Haasan Playing A Vigilante?",
+          "url": "https://www.rediff.com/movies/report/is-kamal-haasan-playing-a-vigilante/20261107.htm",
+          "publisher": "Rediff"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-135673423,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/2ea7a487cbb1082f0503.jpg"
+    },
+    {
+      "id": "en-0d2891854a",
+      "lang": "en",
+      "slug": "kerala-lottery-sthree-sakthi-ss-545-result-today-10-11-2026-0d2891854a",
+      "url": "en/posts/kerala-lottery-sthree-sakthi-ss-545-result-today-10-11-2026-0d2891854a.html",
+      "title": "Kerala lottery Sthree Sakthi SS-545 result today 10/11/2026: ₹1 cr first prize for SV 182817 | Check complete list",
+      "summary": "Onmanorama: The Kerala State Lottery Department has announced the results of the Sthree Sakthi SS-545 lottery draw. The lucky draw was held at Gorky Bhavan, near Bakery Junction in…",
+      "source_summary": "Onmanorama: The Kerala State Lottery Department has announced the results of the Sthree Sakthi SS-545 lottery draw. The lucky draw was held at Gorky Bhavan, near Bakery Junction in Thiruvananthapuram, at 3 pm on Tuesday. The first prize is 1 crore, subject to a 30% tax…",
+      "article_body": "Onmanorama: “The Kerala State Lottery Department has announced the results of the Sthree Sakthi SS-545 lottery draw. The lucky draw was held at Gorky Bhavan, near Bakery Junction in Thiruvananthapuram, at 3 pm on Tuesday. The first prize is 1 crore, subject to a 30% tax…”",
+      "category": "trending",
+      "published_at": "2026-11-10T14:10:00+00:00",
+      "generated_at": "2026-11-10T14:43:36.805064+00:00",
+      "kind": "digest",
+      "keyword": "sthree sakthi kerala lottery results",
+      "score": 89.69,
+      "sources": [
+        {
+          "title": "Kerala lottery Sthree Sakthi SS-545 result today 10/11/2026: ₹1 cr first prize for SV 182817 | Check complete list",
+          "url": "https://www.onmanorama.com/news/kerala/2026/11/10/sthree-sakthi-ss-545-lottery-results-kerala-1-crore-first-prize-list-winners-live.html",
+          "publisher": "Onmanorama"
+        },
+        {
+          "title": "Kerala Lottery results Karunya KR-775 weekly lottery Saturday (November 7 2026) winner list and how to claim prizes",
+          "url": "https://www.theweek.in/kerala-lottery-results/lucky-draw/2026/11/07/kerala-lottery-result-karunya-kr-weekly-list-of-winners-claim-prizes-every-saturday-draw-rs-1-crore-first-prize-25-lakh-second-prize-10-lakh-third-prize.html",
+          "publisher": "The Week"
+        },
+        {
+          "title": "Kerala Lottery Result Today Live: Bhagyathara BT-79 Winning Numbers For November 9, 2026; First Prize Rs 1",
+          "url": "https://www.news18.com/india/kerala-lottery-result-today-bhagyathara-bt-79-november-9-live-10416980.html",
+          "publisher": "News18"
+        }
+      ],
+      "image_url": "https://img.onmanorama.com/content/dam/mm/en/kerala/top-news/images/2025/2/3/kerala-lottery-a.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/eccbc7ad42c9f7c491a7.jpg"
+    },
+    {
+      "id": "en-33b98c1514",
+      "lang": "en",
+      "slug": "atp-stockholm-best-bets-including-lorenzo-sonego-vs-quentin-33b98c1514",
+      "url": "en/posts/atp-stockholm-best-bets-including-lorenzo-sonego-vs-quentin-33b98c1514.html",
+      "title": "ATP Stockholm Best Bets Including Lorenzo Sonego Vs Quentin Halys",
+      "summary": "Last Word On Sports: This ATP Stockholm match has Quentin Halys installed as the sportsbooks’ favorite over Lorenzo Sonego even though Sonego is 4-1 in his last five matches and Halys is 2-3. Why is…",
+      "source_summary": "Last Word On Sports: This ATP Stockholm match has Quentin Halys installed as the sportsbooks’ favorite over Lorenzo Sonego even though Sonego is 4-1 in his last five matches and Halys is 2-3. Why is this the case? Simple: Sonego’s four wins in that batch of matches were all…\n\nSportyTrader: Looking to place a bet on Lorenzo Sonego vs Quentin Halys? For this Stockholm Open match, DraftKings will treat you to an exclusive offer: $200 in bonus bets , no promo code needed! Take advantage while you still can!",
+      "article_body": "Last Word On Sports: “This ATP Stockholm match has Quentin Halys installed as the sportsbooks’ favorite over Lorenzo Sonego even though Sonego is 4-1 in his last five matches and Halys is 2-3. Why is this the case? Simple: Sonego’s four wins in that batch of matches were all…”\n\nSportyTrader: “Looking to place a bet on Lorenzo Sonego vs Quentin Halys? For this Stockholm Open match, DraftKings will treat you to an exclusive offer: $200 in bonus bets , no promo code needed! Take advantage while you still can!”",
+      "category": "trending",
+      "published_at": "2026-11-10T14:10:00+00:00",
+      "generated_at": "2026-11-10T14:43:36.805064+00:00",
+      "kind": "digest",
+      "keyword": "quentin halys",
+      "score": 89.69,
+      "sources": [
+        {
+          "title": "ATP Stockholm Best Bets Including Lorenzo Sonego Vs Quentin Halys",
+          "url": "https://lastwordonsports.com/tennis/2026/11/09/atp-stockholm-best-bets-sonego-halys/",
+          "publisher": "Last Word On Sports"
+        },
+        {
+          "title": "Lorenzo Sonego vs Quentin Halys Prediction & Picks - Stockholm Open",
+          "url": "https://www.sportytrader.com/us/picks/sonego-l-ita-quentin-halys-386639/",
+          "publisher": "SportyTrader"
+        },
+        {
+          "title": "Washington State vs Northwest » Best Odds and Stats",
+          "url": "https://oddsscanner.com/basketball/washington-state-vs-northwest",
+          "publisher": "Odds Scanner"
+        }
+      ],
+      "image_url": "https://lastwordonsports.com/tennis/wp-content/uploads/sites/17/2023/04/USATSI_18829555_168392940_lowres-e1681774845554.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/b08b2fa412a69582ebef.jpg"
     }
   ]
 }
