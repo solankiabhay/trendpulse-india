@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -744,7 +744,7 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1
@@ -865,7 +865,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1013,7 +1013,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-09T20:38:27.359733+00:00",
+      "generated_at": "2026-11-10T21:45:55.854045+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1044,12 +1044,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1142,12 +1142,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3304,14 +3304,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3485,14 +3485,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4033,12 +4033,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4133,14 +4133,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-09T20:38:27.359733+00:00",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -5733,11 +5733,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/cqe9l1yej078t",
       "image_credit": "BBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-03T09:28:10.212916+00:00"
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-5a1c4e3daa",
@@ -6422,11 +6423,11 @@
       ],
       "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
+      "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://www.dimers.com/tennis/news/novak-djokovic-vs-jan-lennard-struff-tennis-prediction-atp-swiss-indoors-2026-ac",
       "image_credit": "Dimers",
-      "image_lookup_attempted_at": "2026-11-03T23:12:16.354407+00:00"
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00"
     },
     {
       "id": "en-8f05ac6694",
@@ -7028,12 +7029,11 @@
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
+      "image_url": "",
       "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
       "image_credit": "CNBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
-      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00"
     },
     {
       "id": "en-a130fd0cdc",
@@ -7844,12 +7844,11 @@
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
+      "image_url": "",
       "image_source": "https://www.dimers.com/tennis/news/alexander-zverev-vs-alex-de-minaur-tennis-prediction-atp-vienna-open-2026-ac",
       "image_credit": "Dimers",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
-      "image_path": "assets/news-images/64cde5ec18360311d4d2.jpg"
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00"
     },
     {
       "id": "en-f85ae078e5",
@@ -9068,14 +9067,13 @@
           "publisher": "Bloomberg.com"
         }
       ],
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
+      "image_url": "",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
       "summary_refresh_version": 21,
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
       "image_credit": "CNBC",
-      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00"
     },
     {
       "id": "en-c17af3ddcd",
@@ -11130,11 +11128,11 @@
       "url": "en/posts/kamal-haasan-s-sandiyar-title-row-resurfaces-after-23-years-d3844ac0ab.html",
       "title": "Kamal Haasan's 'Sandiyar' title row resurfaces after 23 years; Krishnasamy warns actor against using the",
       "summary": "The Times of India: Kamal Haasan is facing opposition over the title of his upcoming film 'Sandiyar,' which was announced on his birthday, November 7. The actor and politician's latest project has…",
-      "source_summary": "The Times of India: Kamal Haasan is facing opposition over the title of his upcoming film 'Sandiyar,' which was announced on his birthday, November 7. The actor and politician's latest project has drawn attention even before production details are fully revealed, as the film's name is triggering a fresh…\n\nRediff: Kamal Haasan is set to star in Sandiyar, a new film directed by SU Arun Kumar, with its intriguing first-look poster already generating significant anticipation.Photograph: @RKFI/XKey PointsKamal Haasans new film has been announced, with S U Arun Kumar directing.The Sandiyar poster shows Kamal Haasan holding…",
-      "article_body": "The Times of India: “Kamal Haasan is facing opposition over the title of his upcoming film 'Sandiyar,' which was announced on his birthday, November 7. The actor and politician's latest project has drawn attention even before production details are fully revealed, as the film's name is triggering a fresh…”\n\nRediff: “Kamal Haasan is set to star in Sandiyar, a new film directed by SU Arun Kumar, with its intriguing first-look poster already generating significant anticipation.Photograph: @RKFI/XKey PointsKamal Haasans new film has been announced, with S U Arun Kumar directing.The Sandiyar poster shows Kamal Haasan holding…”",
+      "source_summary": "The Times of India: Kamal Haasan is facing opposition over the title of his upcoming film 'Sandiyar,' which was announced on his birthday, November 7. The actor and politician's latest project has drawn attention even before production details are fully revealed, as the film's name is triggering a fresh…\n\nDeccan Chronicle: Kamal Haasan has revived the controversial title Sandiyar for his newly announced project with director S.U. Arun Kumar, sparking immediate widespread attention across Tamil cinema. Unveiled on the eve of the iconic actor’s 72nd birthday, the first-look poster showcases him in a fierce, raw look…\n\nRediff: Kamal Haasan is set to star in Sandiyar, a new film directed by SU Arun Kumar, with its intriguing first-look poster already generating significant anticipation.Photograph: @RKFI/XKey PointsKamal Haasans new film has been announced, with S U Arun Kumar directing.The Sandiyar poster shows Kamal Haasan holding…",
+      "article_body": "The Times of India: “Kamal Haasan is facing opposition over the title of his upcoming film 'Sandiyar,' which was announced on his birthday, November 7. The actor and politician's latest project has drawn attention even before production details are fully revealed, as the film's name is triggering a fresh…”\n\nDeccan Chronicle: “Kamal Haasan has revived the controversial title Sandiyar for his newly announced project with director S.U. Arun Kumar, sparking immediate widespread attention across Tamil cinema. Unveiled on the eve of the iconic actor’s 72nd birthday, the first-look poster showcases him in a fierce, raw look…”\n\nRediff: “Kamal Haasan is set to star in Sandiyar, a new film directed by SU Arun Kumar, with its intriguing first-look poster already generating significant anticipation.Photograph: @RKFI/XKey PointsKamal Haasans new film has been announced, with S U Arun Kumar directing.The Sandiyar poster shows Kamal Haasan holding…”",
       "category": "trending",
       "published_at": "2026-11-10T14:20:00+00:00",
-      "generated_at": "2026-11-10T14:43:36.805064+00:00",
+      "generated_at": "2026-11-10T21:45:55.854045+00:00",
       "kind": "digest",
       "keyword": "sandiyar movie kamal haasan",
       "score": 89.78,
@@ -11159,7 +11157,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/2ea7a487cbb1082f0503.jpg"
+      "image_path": "assets/news-images/2ea7a487cbb1082f0503.jpg",
+      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-0d2891854a",
@@ -11236,6 +11236,44 @@
       "image_lookup_attempted_at": "2026-11-10T14:46:16.710265+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/b08b2fa412a69582ebef.jpg"
+    },
+    {
+      "id": "en-36cfb129d6",
+      "lang": "en",
+      "slug": "a-countrys-president-led-to-a-banks-stunning-rise-and-its-fa-36cfb129d6",
+      "url": "en/posts/a-countrys-president-led-to-a-banks-stunning-rise-and-its-fa-36cfb129d6.html",
+      "title": "A Country’s President Led to a Bank’s Stunning Rise, and Its Fall",
+      "summary": "The Hindu: Asuncion, Paraguay Police in Paraguay raided the home of ex-president Santiago Pena as part of a probe into a banking crisis that triggered his dismissal from office and criminal charges…",
+      "source_summary": "The Hindu: Asuncion, Paraguay Police in Paraguay raided the home of ex-president Santiago Pena as part of a probe into a banking crisis that triggered his dismissal from office and criminal charges against him. Authorities last week intervened to seize Ueno Bank, a popular online lender that…\n\nThe Guardian: More than half of Paraguay’s population woke up on 3 November unable to access their bank accounts. It was a day after payday and Ueno - a bank that had expanded exponentially under Santiago Peña's government - found itself at the centre of a political…",
+      "article_body": "The Hindu: “Asuncion, Paraguay Police in Paraguay raided the home of ex-president Santiago Pena as part of a probe into a banking crisis that triggered his dismissal from office and criminal charges against him. Authorities last week intervened to seize Ueno Bank, a popular online lender that…”\n\nThe Guardian: “More than half of Paraguay’s population woke up on 3 November unable to access their bank accounts. It was a day after payday and Ueno - a bank that had expanded exponentially under Santiago Peña's government - found itself at the centre of a political…”",
+      "category": "trending",
+      "published_at": "2026-11-10T20:50:00+00:00",
+      "generated_at": "2026-11-10T21:45:55.854045+00:00",
+      "kind": "digest",
+      "keyword": "is",
+      "score": 89.48,
+      "sources": [
+        {
+          "title": "A Country’s President Led to a Bank’s Stunning Rise, and Its Fall",
+          "url": "https://www.nytimes.com/2026/11/09/world/americas/paraguay-bank-president-ueno.html",
+          "publisher": "The New York Times"
+        },
+        {
+          "title": "Police raid home of ex-President of Paraguay",
+          "url": "https://www.thehindu.com/news/international/police-raid-home-of-ex-president-of-paraguay/article71681272.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "How Paraguay's banking crisis ousted a president and left millions broke – explainer",
+          "url": "https://www.theguardian.com/world/video/2026/nov/10/how-paraguays-banking-crisis-ousted-a-president-and-left-millions-broke-explainer",
+          "publisher": "The Guardian"
+        }
+      ],
+      "image_url": "https://th-i.thgim.com/public/incoming/15hq70/article71681296.ece/alternates/LANDSCAPE_1200/AFP_D6V94VW.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/e870eebcbea9b752b1ea.jpg"
     }
   ]
 }
