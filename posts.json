@@ -307,11 +307,12 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
       "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
       "image_path": "assets/news-images/334c971ff66cc392f76c.svg"
     },
     {
@@ -784,10 +785,12 @@
       "summary_refresh_attempted_at": "2026-10-19T11:18:25.052626+00:00",
       "summary_refresh_version": 21,
       "article_body": "ThePrint: “Chandigarh, Oct 17 (PTI) AAP leaders, including Manish Sisodia, greeted Punjab Chief Minister Bhagwant Mann on his 53rd birthday on Saturday, saying his clear intentions strengthen people’s trust every day. “Heartiest birthday wishes to you, Bhagwant Mann Ji. Your leadership, rooted in the soil of…”\n\nAP7AM: “New Delhi, Oct 17 : Prime Minister Narendra Modi on Saturday extended birthday greetings to Punjab Chief Minister Bhagwant Mann and prayed for his long and healthy life.Prime Minister Narendra Modi took to social media 'X' and said, \"Birthday greetings to Punjab Chief Minister Shri…”",
-      "image_url": "",
+      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
       "image_source": "https://theprint.in/india/sisodia-among-aap-leaders-greet-bhagwant-mann-on-53rd-birthday/3074494/",
       "image_credit": "ThePrint",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_path": "assets/news-images/51cb01171c5d5012ef78.jpg"
     },
     {
       "id": "en-98e64a0885",
@@ -864,11 +867,12 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
       "image_kind": "generated-fallback",
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
       "image_path": "assets/news-images/c14b5552739c1dcfc788.svg"
     },
     {
@@ -1012,7 +1016,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-10T21:45:55.854045+00:00",
+      "generated_at": "2026-11-12T00:27:06.094263+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1043,12 +1047,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1141,12 +1145,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -1244,7 +1248,7 @@
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOS2puYlpaQ3FhSEJqTHQ1QUlsZkg1cDR5S2lETUlva1A5SjlqdFJEclR4WFhXM3JXdGJKcDBzdjZUak9FZGRtSHFzb3VMUm16OGw0WDQtWW53dThWTVJxb0FYQ29HTXY3RmJlWTlnYmFpSUo2R3RnVTVTMC1pS3hWWmd3QjFOWHZwc0xJcVZnMk5zc0xoTXN6cWl0NTI4M0RmTnhHU3MtN0YxdHAweXlKcHlSMXUzUWpUMTM2SlQzM0xRQ01kWHNUd1ZIbFlJM1RZUFhLV24wYmhOUQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "The Times of India",
-      "image_lookup_attempted_at": "2026-11-04T14:17:22.927418+00:00"
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00"
     },
     {
       "id": "hi-1a29d4ddf4",
@@ -1438,7 +1442,7 @@
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-04T14:17:22.927418+00:00"
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00"
     },
     {
       "id": "en-f875434402",
@@ -1567,7 +1571,7 @@
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-04T21:52:57.528610+00:00"
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00"
     },
     {
       "id": "hi-2ceba114d3",
@@ -3303,14 +3307,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3484,14 +3488,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4032,12 +4036,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4132,14 +4136,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00",
+      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -11410,11 +11414,11 @@
       "url": "en/posts/india-need-draw-against-maldives-to-qualify-for-saff-champio-92d03e16e7.html",
       "title": "India need draw against Maldives to qualify for SAFF Championships semifinal",
       "summary": "ThePrint: Stay updated with The Print: Preferred Source Google Discover Dhaka, Nov 10 (PTI) A draw is all it would take to make the semifinals, but defending champions India will eye a comprehensive…",
-      "source_summary": "ThePrint: Stay updated with The Print: Preferred Source Google Discover Dhaka, Nov 10 (PTI) A draw is all it would take to make the semifinals, but defending champions India will eye a comprehensive win when they take on Maldives in their second and final group match…\n\nSportstar: Welcome to Sportstar’s live coverage of the SAFF Championship 2026 match between India and the Maldives, being played in Bangladesh. India is the defending champion and the most successful team in the tournament, and is aiming to secure its 10th title.Match overview:Venue: National Stadium in…\n\nThe Times of India: Panaji: Naushad Moosa’s woes at the SAFF Championship are unending.The India coach had 17 players to choose from for the opener against Pakistan. But while he expected 10 new players to join and strengthen his hands in Dhaka after their club engagements in the Indian…",
-      "article_body": "ThePrint: “Stay updated with The Print: Preferred Source Google Discover Dhaka, Nov 10 (PTI) A draw is all it would take to make the semifinals, but defending champions India will eye a comprehensive win when they take on Maldives in their second and final group match…”\n\nSportstar: “Welcome to Sportstar’s live coverage of the SAFF Championship 2026 match between India and the Maldives, being played in Bangladesh. India is the defending champion and the most successful team in the tournament, and is aiming to secure its 10th title.Match overview:Venue: National Stadium in…”\n\nThe Times of India: “Panaji: Naushad Moosa’s woes at the SAFF Championship are unending.The India coach had 17 players to choose from for the opener against Pakistan. But while he expected 10 new players to join and strengthen his hands in Dhaka after their club engagements in the Indian…”",
+      "source_summary": "ThePrint: Stay updated with The Print: Preferred Source Google Discover Dhaka, Nov 10 (PTI) A draw is all it would take to make the semifinals, but defending champions India will eye a comprehensive win when they take on Maldives in their second and final group match…\n\nSportstar: Welcome to Sportstar’s highlights of the SAFF Championship 2026 match between India and the Maldives played in Bangladesh. India is the defending champion and the most successful team in the tournament, and is aiming to secure its 10th title.Match overview:Result: India 1 (Suhail Bhat 38’)…\n\nThe Times of India: Panaji: Naushad Moosa’s woes at the SAFF Championship are unending.The India coach had 17 players to choose from for the opener against Pakistan. But while he expected 10 new players to join and strengthen his hands in Dhaka after their club engagements in the Indian…",
+      "article_body": "ThePrint: “Stay updated with The Print: Preferred Source Google Discover Dhaka, Nov 10 (PTI) A draw is all it would take to make the semifinals, but defending champions India will eye a comprehensive win when they take on Maldives in their second and final group match…”\n\nSportstar: “Welcome to Sportstar’s highlights of the SAFF Championship 2026 match between India and the Maldives played in Bangladesh. India is the defending champion and the most successful team in the tournament, and is aiming to secure its 10th title.Match overview:Result: India 1 (Suhail Bhat 38’)…”\n\nThe Times of India: “Panaji: Naushad Moosa’s woes at the SAFF Championship are unending.The India coach had 17 players to choose from for the opener against Pakistan. But while he expected 10 new players to join and strengthen his hands in Dhaka after their club engagements in the Indian…”",
       "category": "trending",
       "published_at": "2026-11-11T08:40:00+00:00",
-      "generated_at": "2026-11-11T09:11:11.438549+00:00",
+      "generated_at": "2026-11-12T00:27:06.094263+00:00",
       "kind": "digest",
       "keyword": "india vs maldives",
       "score": 89.71,
@@ -11426,7 +11430,7 @@
         },
         {
           "title": "India vs Maldives LIVE SCORE, SAFF Championship — Suhail Bhat in starting lineup; Defending champion looks to continue winning run",
-          "url": "https://sportstar.thehindu.com/football/india-vs-maldives-live-score-saff-championship-2026-match-ind-v-mdv-goals-updates-highlights/article71688810.ece",
+          "url": "https://sportstar.thehindu.com/football/india-vs-maldives-live-score-updates-saff-championship-2026-highlights-ind-v-mdv-goals-streaming/article71688810.ece",
           "publisher": "Sportstar"
         },
         {
@@ -11435,10 +11439,12 @@
           "publisher": "The Times of India"
         }
       ],
-      "image_url": "",
+      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-11T09:15:02.420051+00:00"
+      "image_lookup_attempted_at": "2026-11-11T09:15:02.420051+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-2ad9fd0da1",
@@ -11515,7 +11521,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/12323095bd66dd8232f2.jpg"
+      "image_path": "assets/news-images/12323095bd66dd8232f2.jpg",
+      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-46feebbe4c",
