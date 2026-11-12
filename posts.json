@@ -259,7 +259,7 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -445,11 +445,12 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/de4c8167d9189a9d1c6a.svg"
     },
     {
@@ -966,7 +967,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-11T17:51:02.595533+00:00",
+      "generated_at": "2026-11-12T18:05:48.065669+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -997,12 +998,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1193,11 +1194,12 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1613,11 +1615,12 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/fa3ab925bd6447660c9b.svg"
     },
     {
@@ -2787,12 +2790,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3173,14 +3176,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3780,14 +3783,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4187,14 +4190,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4275,14 +4278,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-11T17:51:02.595533+00:00",
+      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -11634,6 +11637,121 @@
       "image_search_title": "",
       "image_lookup_version": 2,
       "image_lookup_attempted_at": "2026-11-12T09:42:24.489620+00:00"
+    },
+    {
+      "id": "en-f613a09d4b",
+      "lang": "en",
+      "slug": "bigg-boss-20-scout-faces-possible-red-card-eviction-f613a09d4b",
+      "url": "en/posts/bigg-boss-20-scout-faces-possible-red-card-eviction-f613a09d4b.html",
+      "title": "Bigg Boss 20: Scout Faces Possible Red Card Eviction",
+      "summary": "Deccan Chronicle: Scout is one of the strongest and most popular contestants in the current season of Bigg Boss 20. During a recent captaincy task, Scout and Yung DSA got into a physical clash. As…",
+      "source_summary": "Deccan Chronicle: Scout is one of the strongest and most popular contestants in the current season of Bigg Boss 20. During a recent captaincy task, Scout and Yung DSA got into a physical clash. As Scout was performing the task, Yung DSA repeatedly interrupted and provoked him…\n\nMissMalini: Bigg Boss 20: ScoutOP pushes Yung DSA during a captaincy task and faces four punishments, including season-long nomination and a captaincy ban.\n\nThe Siasat Daily: Mumbai: Just like every season, Bigg Boss 20 has witnessed its fair share of controversies, heated arguments and ugly fights. While the season has already seen a few contestants cross the line, including Nakul Dhull, who was kicked out of the show following a physical…",
+      "article_body": "Deccan Chronicle: “Scout is one of the strongest and most popular contestants in the current season of Bigg Boss 20. During a recent captaincy task, Scout and Yung DSA got into a physical clash. As Scout was performing the task, Yung DSA repeatedly interrupted and provoked him…”\n\nMissMalini: “Bigg Boss 20: ScoutOP pushes Yung DSA during a captaincy task and faces four punishments, including season-long nomination and a captaincy ban.”\n\nThe Siasat Daily: “Mumbai: Just like every season, Bigg Boss 20 has witnessed its fair share of controversies, heated arguments and ugly fights. While the season has already seen a few contestants cross the line, including Nakul Dhull, who was kicked out of the show following a physical…”",
+      "category": "trending",
+      "published_at": "2026-11-12T17:50:00+00:00",
+      "generated_at": "2026-11-12T18:05:48.065669+00:00",
+      "kind": "digest",
+      "keyword": "scout op",
+      "score": 89.85,
+      "sources": [
+        {
+          "title": "Bigg Boss 20: Scout Faces Possible Red Card Eviction",
+          "url": "https://www.deccanchronicle.com/entertainment/television/bigg-boss-20-scout-faces-possible-red-card-eviction-2003400",
+          "publisher": "Deccan Chronicle"
+        },
+        {
+          "title": "Bigg Boss 20: ScoutOP Pushes Yung DSA During Captaincy Task, Faces Four Strict Punishments",
+          "url": "https://www.missmalini.com/bigg-boss-20-scoutop-pushes-yung-dsa-during-captaincy-task-faces-four-strict-punishments",
+          "publisher": "MissMalini"
+        },
+        {
+          "title": "Ugly physical fight in Bigg Boss 20, top contestant kicked out?",
+          "url": "https://www.siasat.com/bigg-boss-20-scoutop-physical-fight-yung-dsa-punishments-eviction-3572946/",
+          "publisher": "The Siasat Daily"
+        }
+      ],
+      "image_url": "https://www.deccanchronicle.com/h-upload/2026/11/11/2111587-screenshot-2026-11-11-at-53455pm-1.jpg",
+      "image_search_title": "",
+      "image_source": "https://www.deccanchronicle.com/entertainment/television/bigg-boss-20-scout-faces-possible-red-card-eviction-2003400",
+      "image_credit": "Deccan Chronicle",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_version": 2
+    },
+    {
+      "id": "en-8934007617",
+      "lang": "en",
+      "slug": "the-world-cant-get-enough-anime-can-japan-cash-in-on-its-suc-8934007617",
+      "url": "en/posts/the-world-cant-get-enough-anime-can-japan-cash-in-on-its-suc-8934007617.html",
+      "title": "The World Can’t Get Enough Anime. Can Japan Cash In on Its Success?",
+      "summary": "The Film Stage: The next generation of filmmakers show deep promise; sometimes you just have to go very far to find them. The best things I saw at this year’s Tokyo International Film Festival were…",
+      "source_summary": "The Film Stage: The next generation of filmmakers show deep promise; sometimes you just have to go very far to find them. The best things I saw at this year’s Tokyo International Film Festival were all world premieres arriving in the last days of a year-long cinema cycle…",
+      "article_body": "The Film Stage: “The next generation of filmmakers show deep promise; sometimes you just have to go very far to find them. The best things I saw at this year’s Tokyo International Film Festival were all world premieres arriving in the last days of a year-long cinema cycle…”",
+      "category": "trending",
+      "published_at": "2026-11-12T17:40:00+00:00",
+      "generated_at": "2026-11-12T18:05:48.065669+00:00",
+      "kind": "digest",
+      "keyword": "charles de ketelaere",
+      "score": 89.76,
+      "sources": [
+        {
+          "title": "The World Can’t Get Enough Anime. Can Japan Cash In on Its Success?",
+          "url": "https://www.nytimes.com/2026/11/08/business/anime-japan-sony-demonslayer.html",
+          "publisher": "The New York Times"
+        },
+        {
+          "title": "The Best Films, Old and New, from the 39th Tokyo International Film Festival",
+          "url": "https://thefilmstage.com/the-best-films-old-and-new-from-the-39th-tokyo-international-film-festival/",
+          "publisher": "The Film Stage"
+        },
+        {
+          "title": "Turkiye v Belgium - UEFA Nations League",
+          "url": "https://www.reutersconnect.com/item/turkiye-v-belgium-uefa-nations-league/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwMUxDU0wx",
+          "publisher": "Reuters Connect"
+        }
+      ],
+      "image_url": "https://thefilmstage.com/wp-content/uploads/2026/11/tokyo-heaven-shinji-Somai.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/3cef4a337c734ca7db77.jpg"
+    },
+    {
+      "id": "en-a1b714c619",
+      "lang": "en",
+      "slug": "kevin-de-bruyne-set-for-shock-napoli-exit-as-european-giants-a1b714c619",
+      "url": "en/posts/kevin-de-bruyne-set-for-shock-napoli-exit-as-european-giants-a1b714c619.html",
+      "title": "Kevin De Bruyne set for SHOCK Napoli exit as European giants plot January swoop",
+      "summary": "Goal.com: Kevin De Bruyne could be heading for a sudden Napoli departure this winter amid mounting reports of dressing room tensions in Italy. PSV Eindhoven have already initiated contact with the…",
+      "source_summary": "Goal.com: Kevin De Bruyne could be heading for a sudden Napoli departure this winter amid mounting reports of dressing room tensions in Italy. PSV Eindhoven have already initiated contact with the Belgian midfielder as they explore a high-profile transfer for the upcoming January window.\n\nAOL.com: Everton could launch a shock bid for Napoli's 35-year-old former Manchester City midfielder and Belgium international Kevin de Bruyne. (Calciomercato - in Italian)",
+      "article_body": "Goal.com: “Kevin De Bruyne could be heading for a sudden Napoli departure this winter amid mounting reports of dressing room tensions in Italy. PSV Eindhoven have already initiated contact with the Belgian midfielder as they explore a high-profile transfer for the upcoming January window.”\n\nAOL.com: “Everton could launch a shock bid for Napoli's 35-year-old former Manchester City midfielder and Belgium international Kevin de Bruyne. (Calciomercato - in Italian)”",
+      "category": "trending",
+      "published_at": "2026-11-12T17:40:00+00:00",
+      "generated_at": "2026-11-12T18:05:48.065669+00:00",
+      "kind": "digest",
+      "keyword": "kevin de bruyne",
+      "score": 89.76,
+      "sources": [
+        {
+          "title": "Kevin De Bruyne set for SHOCK Napoli exit as European giants plot January swoop",
+          "url": "https://www.goal.com/en-in/news/psv-eindhoven-target-kevin-de-bruyne-napoli-exit/blt17da2889849dbd46",
+          "publisher": "Goal.com"
+        },
+        {
+          "title": "Five Kevin De Bruyne January transfer destinations as PSV and Galatasaray eye move",
+          "url": "https://www.transfermarkt.com/five-kevin-de-bruyne-january-transfer-destinations-as-psv-and-galatasaray-eye-move/view/news/490495",
+          "publisher": "Transfermarkt"
+        },
+        {
+          "title": "Gossip: Toffees could make surprise move for De Bruyne",
+          "url": "https://www.aol.com/articles/gossip-toffees-could-surprise-move-080941000.html",
+          "publisher": "AOL.com"
+        }
+      ],
+      "image_url": "https://assets.goal.com/images/v3/getty-2302438034/crop/MM5DCOJVGI5DCMBZHA5G433XMU5DCMZYHIZTCNI=/GettyImages-2302438034.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/431760c40ab63c75ed34.jpg"
     }
   ]
 }
