@@ -213,9 +213,10 @@
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSnZ3ZFl2VzluM1ppZ0t0ZkpLN2tYSXV6bTBsak9WbFd0cWZIYnpHWENSX25YcXNnMnU3cXJvaWZISGZNVHFtV25LY2xyamRMUmNYRTlIcGM5dnZTVG52Yk1yOG9fVzZ0b1hXRW1DYi1ubDdBOWdiZERlUVpGU0MzRlNRajdXemVtaldROTgwVGk5QWdENzQ4V1ppZTZYQlpNSG9CVS10bHY5dk9XdURHZklxQU10RzhJU3ZPbE51MW82bEZ0VHdtVm05UQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "image_credit": "Manorama Yearbook"
+      "image_credit": "Manorama Yearbook",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00"
     },
     {
       "id": "hi-bb90bbf6f7",
@@ -258,11 +259,12 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/f3d4351f8ddabad8c343.svg"
     },
     {
@@ -444,12 +446,12 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/de4c8167d9189a9d1c6a.svg"
     },
     {
@@ -966,7 +968,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-12T18:05:48.065669+00:00",
+      "generated_at": "2026-11-13T23:28:23.095650+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -997,12 +999,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1193,12 +1195,12 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1614,12 +1616,12 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/fa3ab925bd6447660c9b.svg"
     },
     {
@@ -2789,12 +2791,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3175,14 +3177,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3782,14 +3784,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4189,14 +4191,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4277,14 +4279,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T18:05:48.065669+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T23:28:23.095650+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -11917,6 +11919,44 @@
       "image_search_title": "",
       "image_lookup_version": 2,
       "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00"
+    },
+    {
+      "id": "en-97e65a25d8",
+      "lang": "en",
+      "slug": "how-to-watch-the-2026-wta-finals-and-atp-finals-even-for-fre-97e65a25d8",
+      "url": "en/posts/how-to-watch-the-2026-wta-finals-and-atp-finals-even-for-fre-97e65a25d8.html",
+      "title": "How to Watch the 2026 WTA Finals and ATP Finals (Even for Free)",
+      "summary": "PCMag Australia: The 2026 tennis season is coming to a close. Find out which singles and doubles players can be called the best as the WTA Finals conclude and the ATP Finals get started this…",
+      "source_summary": "PCMag Australia: The 2026 tennis season is coming to a close. Find out which singles and doubles players can be called the best as the WTA Finals conclude and the ATP Finals get started this weekend.\n\nThe Economic Times: Rewind the clock by a year.Elena Rybakina was the last player to qualify for the WTA Finals. She left Riyadh unbeaten, with the trophy and a straight-sets win over Aryna Sabalenka, then world No. 1. As this season’s finale begins in Indian Wells, Rybakina will…\n\nWTA Tennis: There is plenty of history between the friends and former doubles partners who have split their 10 meetings. The pair were drawn into the same group at last year's WTA Finals, where Dubai champion Pegula prevailed in three sets. But Cincinnati champion Gauff has won…",
+      "article_body": "PCMag Australia: “The 2026 tennis season is coming to a close. Find out which singles and doubles players can be called the best as the WTA Finals conclude and the ATP Finals get started this weekend.”\n\nThe Economic Times: “Rewind the clock by a year.Elena Rybakina was the last player to qualify for the WTA Finals. She left Riyadh unbeaten, with the trophy and a straight-sets win over Aryna Sabalenka, then world No. 1. As this season’s finale begins in Indian Wells, Rybakina will…”\n\nWTA Tennis: “There is plenty of history between the friends and former doubles partners who have split their 10 meetings. The pair were drawn into the same group at last year's WTA Finals, where Dubai champion Pegula prevailed in three sets. But Cincinnati champion Gauff has won…”",
+      "category": "trending",
+      "published_at": "2026-11-13T22:50:00+00:00",
+      "generated_at": "2026-11-13T23:28:23.095650+00:00",
+      "kind": "digest",
+      "keyword": "elina svitolina",
+      "score": 89.64,
+      "sources": [
+        {
+          "title": "How to Watch the 2026 WTA Finals and ATP Finals (Even for Free)",
+          "url": "https://au.pcmag.com/video-streaming-services/120715/how-to-watch-the-2026-wta-atp-finals-even-for-free-november-13-14-15",
+          "publisher": "PCMag Australia"
+        },
+        {
+          "title": "Tennis: World No. 1 and defending champion Elena Rybakina faces seven challengers at an intriguing WTA Fin",
+          "url": "https://economictimes.indiatimes.com/news/sports/tennis/tennis-world-no-1-and-defending-champion-elena-rybakina-faces-seven-challengers-at-an-intriguing-wta-finals/articleshow/135644615.cms?from=mdr",
+          "publisher": "The Economic Times"
+        },
+        {
+          "title": "WTA Finals Day 1 preview: Gauff, Pegula set for all-American battle at Indian Wells",
+          "url": "https://www.wtatennis.com/news/4606109/wta-finals-day-1-preview-gauff-pegula-set-for-all-american-battle-at-indian-wells",
+          "publisher": "WTA Tennis"
+        }
+      ],
+      "image_url": "https://sm.pcmag.com/t/pcmag_au/news/h/how-to-wat/how-to-watch-the-2026-wta-finals-and-atp-finals-even-for-fre_9mj2.1200.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/45fc1bad2a2fff750db8.jpg"
     }
   ]
 }

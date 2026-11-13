@@ -3261,507 +3261,512 @@
       ]
     },
     {
-      "id": "en-9018042c53",
-      "lang": "en",
-      "title": "Microsoft Outage LIVE: Microsoft apologises for outage, says it was not linked to cyber or AI",
-      "category": "business",
-      "published_at": "2026-11-13T17:02:44+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Microsoft Outage LIVE: Microsoft apologises for outage, says it was not linked to cyber or AI",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNLUtOZk5RTEpoOS1xNnZleDdiMWEzeTdSZEVGNEUxZkRkWW5HMHRCakUtRmxQd0Jxa01FZHBIX05jUm9uZWZKQm9tbFMzbXJJeWFXRzFkUzdTSHU2NlpvQTJNSHNjS1MyaFJqTnRBX05PaXpJY1dYOEVSdS1JakstdkMtejdQaXhYWjRPWjlyd0JVeVRJZE9rbTRheGN1dFlORDNFdHN5WUdlaGJSM2VRUVo0QkZQOG5HSFZrZUNJNWVtWEdSellWQWNueU90UmxEQWhxRzNRTk5RVDU5U3dGNG1GVE9MOEI3WmxR?oc=5",
-          "publisher": "The Hindu"
-        },
-        {
-          "title": "Microsoft says it is 'deeply sorry' for global outage after almost 24 hours of disruption",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84QWtITExuclF1V05VYXpiXzJmWk82VVhmVVk0dmJBWEN5WFRCR1NrUjVCR0VRRG9fNnI1ZkxfcXNsRW5TZ1h5Q3VHdjFlMDBGclZJSlBERDg?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "Microsoft 365 Outage Improves Into Friday—Governments, Airlines Report Disruptions",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObWVISDJ1NlJRckhTOHRNTWFMcFZkUlBFaWpJUThsenljZlpJdnliSDV4YkFXMDhFOFF0aDZzZ2xrS18wc3BWZFdIR2lncGhjSW55ZERhUURtLUdUZU1LV2xnWXJocXk2ajBSbHMtcjE2S2JFRkRXZlZYLXBQbWVHSjBMZG96Z0ltOTBZeXd5SnpId2U2UndTdXp5RjRSRG50emRER195TlNDNlVNaHRHa3BKNEtqVnctajlTUnYwZG8zaVBEWnJ1ODdXVHhvbGY5?oc=5",
-          "publisher": "Forbes"
-        },
-        {
-          "title": "Microsoft’s latest email outage turned into a full blown global cloud crisis",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVm5FMG02ZTRJVmliZHhfTXRMUk9zaUJVSHhMSDUxank4Wld1aHJ0ck80cFNqV29xTGJKcmgzV0NVWmJRczZlMjdab3N6b28wZEVEYUN3MVl3eWpiQ3FNVGE0V18wVTFabmM0NlFaUGZwR05GdW94ZEcwYXg2NmNwWFRRdFVFV0hCdzIzYklHc0hoRFY3ZkhmWTdtSGVvTkR6X0s2cXc4VUt4NGdFWHc?oc=5",
-          "publisher": "TechCrunch"
-        },
-        {
-          "title": "Microsoft outage updates: Outlook, Teams recover as disruptions continue",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcVNzX193VUhmZXd2eGJtZUFONW1QYzdlSUFMNFUzbS05Wm5HX213OTVJR3BvOFlUVV9QV2lBYTRSLWhKRHRiU3FXTjRiR29vY2N6eTJjT1Mwa2EtLWxCTHJrUnBIc1ZuZVhXUjZXSkIwazViQ1ptSkVnUEphc2xWUGpnemx2Z1BoVEJQSjJKRExCYy1uREhrMDhoU2ZUZGU1RTRtalliQXh1ZHVrWlZOQ1N5cVRCdG5jU1JJT04tT1HSAcYBQVVfeXFMTVVNeUhnM1RLazlWX004SWRGaGh2N1dfeTliQ3d2VGZiUmFlMzBKREV1X1FXTzBhWjVLbUpvbTZGT2ZscTFqX1dJblBkNDRnbXdBY1ZDdjFvTDVRQVBEUXNXc2hsTWpjRWRybWlTTHV5ekh4VDJIUDVKRDQ0cXotODN6WS01WjR2TllMZXBtQmtaNkRWU0FSN0tuLUVlS3hqYjNHZ1RPUXUyTVBNYS1WN0s3WjZFUC05UHQ4bVFQVHI1NlE4U2hn?oc=5",
-          "publisher": "Al Jazeera"
-        }
-      ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-8e87cfb50e",
+      "id": "hi-22f9e92402",
       "lang": "hi",
-      "title": "राजस्थान: जयपुर में हुई इस हत्या की क्यों हो रही चर्चा, मृतक विजय बाजिया कौन थे",
+      "title": "मध्य प्रदेश: मुंह में 'रसगुल्ला' फटने से युवक की मौत, क्या है पूरा मामला?",
       "category": "india",
-      "published_at": "2026-11-13T15:00:27+00:00",
-      "summary": "",
+      "published_at": "2026-11-13T17:52:09+00:00",
+      "summary": "BBC: मध्य प्रदेश: मुंह में 'रसगुल्ला' फटने से युवक की मौत, क्या है पूरा मामला?\n\nInshorts: एमपी में दोस्त ने खाने को दे दिया सुअरमार बम, मुंह में रखते ही धमाका; शख्स की हुई मौत | Tap to know more\n\nRatopati Hindi: भारत में मिठाई समझकर घरेलु बम खाने से युवक की मौत\n\nNavbharat Live: डिंडौरी में रसगुल्ला बताकर युवक को खिला दिया सुअर मार बम, मुंह में रखते ही हुआ धमाका, इलाज के दौरान मौत\n\nThePrint Hindi: मप्र : रसगुल्ले जैसे दिखने वाले बम को चबाने से व्यक्ति की मौत, दोस्त के खिलाफ मामला दर्ज",
       "sources": [
         {
-          "title": "राजस्थान: जयपुर में हुई इस हत्या की क्यों हो रही चर्चा, मृतक विजय बाजिया कौन थे",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNZEF5TUwxdFFYd3I5bXBTSlVaTGdaZmJ2cnR2bVc4eTE4dWhBQVlPZE5FUllORmVRY2VhOVdBOFFINnNJWXI3WmdHU3NEMHVyMEtObURDY3BPVnZY0gFiQVVfeXFMTnowZVdNUVFVUDJWMHpQanlZS205VldHU1dFRkdkU2pzSXF3OFRFOWdOVnRUTjBkTlpVQjlBZkxiTWdfTzBIQmVtRDZPUHVhVVVFeWxKVVpRQWEzTWNEU3lFNHc?oc=5",
+          "title": "मध्य प्रदेश: मुंह में 'रसगुल्ला' फटने से युवक की मौत, क्या है पूरा मामला?",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DbGJveEpIUkdDeXQxZ1V4QWVJd0h0akZ4cFYtSzRidHVUcmNISUFGdk5ZclJvZFYweEVZRXNOU3BCeW9UTFdlelBxWjAyMVZxRXlpTXlmNU1WWGRR0gFiQVVfeXFMTUhZeWxtT1UtNV9SS20xQkRYZXRzQ201OGgySm1aNk9sUU15c1J0a3JQYnVVWjRUMlJOX2lpU01MTGFFU1ktc0xRWHB5UDExUHdsdGt5dGNGR2pEUU9qTmtvVFE?oc=5",
           "publisher": "BBC"
         },
         {
-          "title": "6 साल की दुश्मनी, घंटों तक पीछा और सरेआम कत्ल... सड़क पर दौड़ा-दौड़ा कर हिस्ट्रीशीटर का मर्डर, 7007 गैंग का कनेक्शन",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbDRaaWpFSUZ3V0cxYS02ZnV6SmxCZW8yT3pNMUQtb3cyanBIbnhHVGJFZGpwc2lqMnNKT1FNakxYd2FIZElRUXdPRmZ5Zm9DTHAxNlh1b04xS3RFamlsRUZxQlJtNFJJZlJ2dmJ4LUh4a25PT0VJeDd0cmNXeVR0N2p3LVBRcWNBZk9iUThkMGJZZTU2SmUzZFhaQUhJaVE1X2c3d3dYckpjeXNGS0MybTdOMXE4Wlo4SnJVNl9nS0M4Qmc2c0ZwQkRvTm5yQjVXZmt6X28yONIB3AFBVV95cUxPdUVEZWFpUTF6WXJrbHNia0FxeVhrWmZiYWZGZUxHN2RSVTN6SGdteWNVMjVCREpHUnRRN1pIVWh6V0I1eGNKdVBxWVVLaHdiRkFuZWtpd1Qtdjd1ZDkzeHN1eVFqWU5JRzZJLXdCbV9lSXJkMkJCYWE1NFh0TVZSd0xsZy1fZEg4VzJ1bGpVdkEwdHlXNXR4OEl1UVlLczVySXc1NlF0VlpYeTFUTUtIR0c2cVdNWnNwdVh4dlJCX1luNmJTYUVOdmI0ZnROSDlweXNuNFB4dFVTSEVs?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "जयपुर में हिस्ट्रीशीटर विजय बाजिया की पीट-पीटकर हत्या, रास्ता रोककर बदमाशों ने किया हमला",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZENmeXk1ZzNraXVoUENaMU1Kdk91eU1CeFpnb2dFX043SVUwWUo1c05PeGlNRVIyQjZ5Z2VSRmVTaFZyMmxjbFBFcnMtbmdvV2ttUEcxdTJpWGtTOHY4dk54SjQwaEJiTDNCN3VKZENvbjduUW5uLVdjWGNoMjV0YlhNNFBXNzNubHY1NWJmQmxrSTdNaG1EeV9rNTNWTGJld2VlbzRMRGh5RVFYd2ZTQXU4bGdQa2VuOXVZSFpqVlAtNFhBWWUzZ210cXFIbmNUdmRsMHdWY2tyVlE4dmkxdE1feGlEMU1RYVBuQWh30gHzAUFVX3lxTE9LbGViVWdSd040SkxmNHRPUjBOZlIzeEVXcEhZbkpjS2E3QXVNOW0td0pna1dmYzVfRm9LWGNPMV9Ud0IzSEhFQVhSX1g1OFNxVlk1b0dpaV8xVEpfZnBHYUltRGNBcUJodmxzMlZXWU5LLVNDeHhiOUIwTE95SldkdUFzS3hzRE13anFTaExRbWc5U293UEVMT2xoTzlXREd0dmczR0lmVG1xQ3dxUng3YllNMGJEU0NKbGh4OUdEak45WmMzSmg5em9uNGxZRDBDVTRacm9WQ1F2SVlFN1FBNGNTU0xLT00zVFFtcHVLQWhkaw?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "गैंग्स ऑफ वासेपुर नहीं, ये जयपुर का करधनी है; धंधे से शुरू हुई अदावत की कहानी",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSEJWbWdURjNFTG0yYVRzeTBUampkaHI2QTh5ZkJyQ19wT1hfVFRFMk5VMWxNNnk2UjFDT1g2VnJhOFhFQ045ZFBEeTJCQ0NsRmxZQ0hFVDI1N1pjUEhpNWh5X0lHSC1QV1BXTGNHVlE4YUhmZkpNMVIxeVZXZXZOcDBuajJwX21UQndxVWhCQ3YxbkZVNmxPZHZVR0dRM0VzTGVkWktQdHRDOVhpYVNiSTBTaTA2UTh6QkkxbW83enEtU0wyX2p2T01ER0E0djhjMmk3OXFJUTZnUjMzLUVxZGpHM2Y?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "Jaipur History-Sheeter Murder case: विपक्ष ने सरकार को घेरा, जूली-खाचरियावास बोले- राजधानी में बेखौफ घूम रहे अपराधी",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTzE5NDR0anB3ZnA3bGdxMjlkRVJaSDJpbzJXcjVZbHJWN0Q0ZVhBYVc0eElJNHR4eXo3aGpKalEwTHAtMnREd1FpX2pZTm9WdllTdVd1R2pwdEk1RXFMOHZERjZqOERsdV9hcmtiZDN5b2lpU3ZFS3JjTVlwdGRucGxISHU5dnk2dkt3b1BvUlRUb2V3dDE4VllJQ0RLRUVUMGpLazBwaWxXOW41MTlEY2ZZTXRMMWw3WlA2N3ZTOXZuMGJwOVZCUElEbHB3ZDDSAdQBQVVfeXFMT3JPdVQycGw0ZzJrWjFIQzVtTHNlODI1ZU84N2xXLUZXazNfODVPMGNoR2w1bnFGbmRGM3F3YmRaa3NybkhYQU9QaXlDancwVC1KNTczRkc0bThHb0dTNWUzZU5iNDY4cVlxd05DZllqV3RQREd2Qm9WanVhT1ZHeVE0aHg5RmsyQUM4OEl1NndFbGJIX0YyVHVRcnZiUWdsOWhkODRCUzlra1ZLdjQyY3RRdHlwNHE1VzZJX2txM3NWY3lOU3dqLXZzRGtLT0gzWGdISGU?oc=5",
-          "publisher": "ETV Bharat"
-        }
-      ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-76b7fa06c9",
-      "lang": "en",
-      "title": "Astronomers trace mystery radio signals back to cosmic odd couple of white dwarf and sun-like star",
-      "category": "science",
-      "published_at": "2026-11-13T17:00:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Astronomers trace mystery radio signals back to cosmic odd couple of white dwarf and sun-like star",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVUxfc21OVTlJcGpFUHdzWGVtX1hVZ2s4QzdIX2NRYmNvODN6RTM1RnYwOWdQTmxyWTcwVmhfYW5sOFJSWTU0VlZBeVV6ZUVaUDFXTExlM2NZLWhEZS1RSzRMZlBoakV0REotWkJBTkF1UWtOWnN1UGhXTEtFekZkby1FUHg5eUwxSzk0TFQxdHdZX2lLd3RZempoUEp3T1RsaHMxdW1sX0h2NV9vQ2MtWTRTNExOaFpENno1YnlNc0hvaTAwWjhrOHlPemJpNHhBU2c?oc=5",
-          "publisher": "Space"
-        },
-        {
-          "title": "A long-period transient with a Sun-like companion",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WLW1zeEZjaFpnMVJoc3Y5NGFsMXNrcERVSFFoa1pvYUFXaXQwTnZaa1A1QVd3NURuSUdrQ0lGbkhuR1R1d0JnZFlUMVdvQUR0TFRERk13T2ptYmFHRDA0?oc=5",
-          "publisher": "Nature"
-        },
-        {
-          "title": "White Dwarf’s Radio Pulses Reveal Storms on Its Sun-Like Companion",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2NrM29fcTVrLUhReV9SOS1HQ2ZkTTZ3VHBSS25Kc0hneXNCVXFETnlIN1lSS0VsMVVSU2R1RlUwdDhWQ09PYkFrOE53bVJpYjNYTV9kZVltdURhZ2E3bGxNNDg3dkJDZEROWGFRZ2hONlktNjZ6RjVfREdYMjkwajZVN3NvekgtSlVmZmRXOWo0RGc?oc=5",
-          "publisher": "Sci.News"
-        },
-        {
-          "title": "Astronomers trace mysterious 8-minute radio signal to two-star system | Tap to know more",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRHpJMHdQd000TmZsYm1UUXVQVVdWSndkNlFNckhCNkxmcWlOblU0cTlhV0dfM19iVElaMnFJM3pjdjVEWW5zMlRIa1Ria3A3bXFEVmJ3YXNyUGNNdzBtOG9wS19OV3dmcUtqRVBtLTh2RVNhanZveU5hazdtTjhPb20zN2ZEallSZXBrWVpwR2xJMkRQMTZmdWxOb0JNR0500gGmAUFVX3lxTFA3RE1IYm1pM2NDSlpJb0o0R2doZlF4ZmNHNWpEWnNxQlV0R1hSb2FSekhqbi0yVFljWi1sbjNXTlFZQml6MzFpX0VOSHRFTVp3NzRwRHdqaDNsSWZwUU1sdDRlU1BuaW9vcUgyb1ZaRVVLeE5ybnRRekY1LUUyQ1pNTlNkU29nZGRfa3QwNUVXVWIwWU9OZVZaZ3A3TWMydkd1RWhEWlE?oc=5",
+          "title": "एमपी में दोस्त ने खाने को दे दिया सुअरमार बम, मुंह में रखते ही धमाका; शख्स की हुई मौत | Tap to know more",
+          "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxPQ1hLWUFia2lfb2FMeWlOOHUwSXJ1Q05XaklwOGpoOU5LZXN5OGdVcWp0MVRLa2lKYzFqUkpiM21iRG5SbFhNUjFqb1ljT2k5VllNb3A0TUlnanJSdkZNUlhiMnQ4RzJoUnhDTW4xQVp0TEkzN20tWnE0d0daSHZ2RU1scmtSY1NvQjNIbU8tbTl3bmx2NGVhSjJXZGx0SnM5MnVMNGZTNmJnLVhzc2p4OEFRLXZ2YnF4MW4zRlRjaHRJNmtUNXFORzF3Z3dHTVNjQmF2YzlzYTJFS0UzbXNoMHZ5QXdHUjVraXdUdEdzcUtac09rZi1RNlA3a0hSNjI0UWVFMEhodVdzalAtamVtR2lsNm0zT3VMT0htY2RhMDdjYmdEdDVJdWtjS0ZNc0tMU3RWWnhsMHcwUDcxSFFsVGNVeDg0Rk5kaHRsRVJyOGpSblgwMVpzaE9UOVFhQWtOSldwd2JYMEwwdGRKSUtzX1JrQ2pYNGVuRU1LWXhkUlJkdmd2TUZGNmZ0Nm1RaFdSTG1ZWW5kQjAxbjlxSlc3WTA2QUTSAaoDQVVfeXFMUHhfWUFzU1N4WG9BeTBxbkZLel9HYWttQ2JrOXpRcEc2MWNMMFJVaERKaEI2MzNuWkhLWGhtQ3hrY1FOSjZDcnNqNExwUXVmQW44RXZuSWhXelBCbGZINlptYUtFMEZIYlRGYUZTcGZxZ2dIM3RVWG9abFJTVHNmYkhIdzd2QUkya1Y0dEFaWll4TlFfRFd5a3NhQU1lZHNYenJXWUMzaGoyN0xaN050Y0VjVmo0SGJ2RnZIbTJ3aUJ6ckpUem9EWnkwTFNfMDRoY2pKSkdSNnN1NjV5TG9QbTREczl5NHhtMlRMcG85N2pidDRRSVRscGIySGVjWWtWLVNuXy1GZklob0tVYnZyb3Brd0JIZ1Zvei0ycWdWREZyUFprTWtpOVNVVmVZTEk1czRUZFhkU2o5WFN0UV9vWmstLVdYemQ5YWtLMFFVaVJXRHh4enhMckU5VEdxQ0lYcEktVjJOWTNhREppYWc3Y3ZIOXRzRGZJN2lOeWpIQ2FuZl9UdGE1dUNPQzlTeFRWLWhFX2ZDQUZNQWpHRG1rdWZYQzg2LTFIWnV3?oc=5",
           "publisher": "Inshorts"
         },
         {
-          "title": "Scientists Find Zombie Star That Sends a Signal Every 7.9 Minutes",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRmVwNzlVQ09hUjJQc01VMFVYYUw0V00zU3pUQS1VMDRHMHpfSDhZWUxaV0xWMzl0SEMxdDFUd1Y4ajkxczZfRllXdkExY3Y4NXpwbUlyNWc0MHZDYmY2UG9BMXlwcWlITkVOaVVmNWN0YVMtZkFWZEtYMXQ1VXF2b0s0NW1vZE1fNUJDenBVQ254alZIM3BRamNNeDUyc0ZfSVc1UVBDbkktUzllbFBYeA?oc=5",
-          "publisher": "ZME Science"
+          "title": "भारत में मिठाई समझकर घरेलु बम खाने से युवक की मौत",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcGJCTHktQ0Y0Q2t2RHdCdlI0ckNMZm1Gcm5ZUVRuaFBfNDhQRTJTbWdORTR1a2xBbmVITnBuSWxnSDVNQWR4anhTN2o1b2RieE1jcEs0Q0tzdV8tbGZpVXFhRVhoVmhpWUs1N3RMY3AtcUpKQXZJQzZ1dTlQTldBaWFKa19DdnlEazg1bEo4amFnbDdBT2gwcThiNTBTQQ?oc=5",
+          "publisher": "Ratopati Hindi"
+        },
+        {
+          "title": "डिंडौरी में रसगुल्ला बताकर युवक को खिला दिया सुअर मार बम, मुंह में रखते ही हुआ धमाका, इलाज के दौरान मौत",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUjc1eXp1RkVkd1FEMjYzRjB4WUgxeWlNUVNuV0VGbWp5UkliNHA3QzdFZ1hwejljeGRNTnVQUEplUHNtOFJwTTJwbHF6aXdwbFlPMnh1SzEyUE5jelduT0FRNDlqOTRTbHBiOXFzSFpBMDhMWHVqeWJTclhLLTc1eVlHMHRBcVl0ckI4X2ZxeXFUWnRUaVdnalFiS0o0YjVGNkFaUWcyREE2R3oy0gG6AUFVX3lxTE43SzRlVDBFWnYxQkxaaHlOZUV6UE9rUkRHcHFreGZyVmxVSG54YlFqaG5MS0dtWnhMVnU1aTRCT0lvTFNNOTdGSm5rc2pZYlY3bHcwbHN4TGgzdVZqdFpGbW04TkRnVzVzOXcwQW5fRHAtTllsVlNVSEJRcUNocGtYTUZnbTZBb2ZSbFR1WDNWVTg2UUFDVnNvQmlWakEzS0xLUUN6Zy10LXV4N1FmZDlTZHQ1cmdSZGE0UQ?oc=5",
+          "publisher": "Navbharat Live"
+        },
+        {
+          "title": "मप्र : रसगुल्ले जैसे दिखने वाले बम को चबाने से व्यक्ति की मौत, दोस्त के खिलाफ मामला दर्ज",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbDdQTG9rTkhoQWs0Sml0cEhQS3kyTmVfdkpMUlR0ZWtaWk5BeXZLc281V3lPRHhsaXFyS3BsdmtJd3VHT29iMHZkZ1N2N19wb3JJaFdScGdmWnpFQUU1NkhIR3E5WGdDckFfTG5QVGxlTzRJdl93TjhGODlwWmNoMU9SMnR2dnpwa0tjaF8zaHVqSWJKbDRqQ1dxZnJvdjEyVzRUZmt4Y3k5NENwNWZ3bmRjRUFrQ3ZlUWxKTFR30gHDAUFVX3lxTE9MVERwQlV4bTZWa01UMktnTzdMYkhpa0dwV0FoTjY1aUVWNlR3NV9kaHVHcWRjOW1lUjlFbGtqRlR5TlBZMm8wM1dEU3NFUmswb1p6bkdhUmtlSEFCUzdPU05kbE90dXVjMGtwc2NjMUtXdUF4eU1SUVNieUw1WmJBcDFuSlM1VEVnM3ZPaThzc3ZkVXNvRlY5SlBGcVdLT0pvSHNRTnpNd0ZzYnc2amdEbHEzWmVkMk44Sll6Z0NwV09ZSQ?oc=5",
+          "publisher": "ThePrint Hindi"
         }
       ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "hi-cceb796b51",
-      "lang": "hi",
-      "title": "PM मोदी ने बेंगलुरु मेट्रो में सफर किया: काउंटर से टिकट खरीदा, CM डीके शिवकुमार साथ रहे; ₹15,600 करोड़ के प...",
-      "category": "india",
-      "published_at": "2026-11-13T14:42:43+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "PM मोदी ने बेंगलुरु मेट्रो में सफर किया: काउंटर से टिकट खरीदा, CM डीके शिवकुमार साथ रहे; ₹15,600 करोड़ के प...",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPemU1Nmg4M0RBdkxhc2N3QmZkT1dtV09TaVhSYWJIcnVqalp5SFNJVTBqRndveWtTd1VCR1E4TzVEN2VXcnRGdGlmRXI3WVJpMzRoY2JNb2FmT2U2NThmOTczTl9XV3NBdGJXSWdoMjd6NFJHaHhGWF94ZlhYbnN1N3RjTkhuaUpOVGdwWWQ0QmFjZGplVXFVTE5tZVMzWEoyNElac1FjVU90enkycEFNanlWdTRfMTM1VVd3OTFuaVRwcnppcnfSAcsBQVVfeXFMUFJtdWtBSzNpZDExc05PZzgwZ3B0VFlJVHBMeklUQWoxWHlDUWRPR1JQTTVBcEFIY2hzV0VKRzlYMzVvWGVBTm52eUJEVW5peXFSYTdsY0dUSVJZMlN4ZkV4QjM0SHR4U3ZlX2FnbGRkaWtLWEF0Mm5JUHBSSVphdVBKMjR5UGVoMzFDV3N4YXJuZlBPS3h5bmhpSkFlbUpHQld6WmpRWGxYbmhlcURUb24wVXd3WlRvX3UxUDhDVWdzUkJFRURia3FnTTQ?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "प्रधानमंत्री श्री नरेन्द्र मोदी 13-14 नवंबर को कर्नाटक और गुजरात का दौरा करेंगे",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ3VwNUZkcUF2MGUtbE1RcUpuaXhjLWlvYWtPbk5oSmI0UVh3RlVQMFItaTNXMFZ0bkM4SnY5NmZjdTN0QzFvOEZabWMzNGRoNGlNQnRUSUZWLURRMkdwbWdSUWRRMThfTmVJdVFNSmFPTlVJRjJQU0VDVFVMOGF1NElVMWZaSENJNEFfYnNCQTZDQkRVb3JRXzhiRVpqS05OcmlYRWhBUXpKUEJlYkdGeGMzbEVhZw?oc=5",
-          "publisher": "NarendraModi.in"
-        },
-        {
-          "title": "A list of PM Modi’s Programmes in Karnataka on 13 November 2026.",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS0pDNlJ3TFhOVjFHYlhqOTM2NVV4bzFBWDZfcjRhUy1jTS1fdVpSWUZZZkFUSmVERV9zRkxCMjdyMU5GQjlTWlhHSjc3N3RTR2t4VTI4V3N4SEV5V3puOHAybHNtZzQ1YkpNZlE0OVUxcjVxQTJzdEZiVkJzUXF0ZWJaaVpOX0lR?oc=5",
-          "publisher": "Bharatiya Janata Party"
-        },
-        {
-          "title": "'राष्ट्र के निर्माण में सेवा और समर्पण का भाव जरूरी', कर्नाटक में प्रशांति कुटीरम के कार्यक्रम में बोले PM",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPeXNnaGRFTnctNlJuM3BlRWtNN2VVR3I1dk4zZDNiY1g4ZTFlV1NnV184NTBkbGRRS1RSdmVDdk44Q0UtZ2hBNE5ZWVBmUFp0aEtKR2ZsOE1XVk5KQl8wTHpiM1k4YUQyYUN3cWp1MGFsUlNCa2JuVktacGEtUTQ0RjQyQWY0TjEtSmdqa0Y1MWZNV0J1Ynp1Q28wVDllNkY3S3hlRUgzc1NtQ2x2NzdPUk4zYkNvcmVsZFJ1RHRSR3JZdnVKRVBTeWEteGc1WEZ3UExrZmtva1VESzV5blFQSjZqOXBwbEU?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "PM मोदी ने बेंगलुरु को दी पिंक लाइन की सौगात, CM डीके शिवकुमार ने साथ में की मेट्रो की सवारी",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZldoZU1YMG9WVkFUYlFhc3R5aEF5MXZQVkJMTjU4bUpIOWp3UVU2WGdQU3ZfLXJhX09jSm53b0g5U05SLWxwYjIzeHBoTmxqNTdaOGU5amFING1KN1BzZ0Zuc1RrWmZtaHoxNWNnb3JkUjFXdUJuTmV5MXBFTjEzUHI2SDFhZmpwRm9MeEQzWDVnWEFkZDNTX3FZVURWd0NIS3VLWjMxWktuT05sZzI4TFN3U08xYW4wdVZyMy1Rb08xVjg4bnFtMXZRMFdUVk9fX1NVRGJwSFZYMGJNS3FURVA3bmh6UVR2bDVJVWJmYlZ4TldCdGfSAfsBQVVfeXFMTmVfaGNLQkJ5S05nQ2lwdVVWTFdiNmdYTUNGQUExdElrZV9uRnF5czAtNWN1bjh5QzUxQjNoRERnbFdsdnpfREE1U3RfaDBGdkwtSEJBcU5xZXZucDd4WDVfS1JrdEo0ZUxVOWtBYm5kTHF0UDY2YnpEUUNGUnRMWEhSbUZHeU55djBRS2JhYjZNeG95N2RTTGZsMWZ4SkdLbGJuRXZ4RThwWkUxYmlNTWYzdFRabEhlUVBPNWdvODZrS2k1alByVnBFajZyUXFjdWVNVk5ETGR2MldlYWV6QmxyTU1hMUpXc2NKajFDTmM4Q0plZHkwSHIwSlE?oc=5",
-          "publisher": "AajTak"
-        }
-      ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-3796b77e4b",
+      "id": "en-f13f1af78f",
       "lang": "en",
-      "title": "Cristiano Ronaldo retires from Portugal, Lionel Messi becomes first back-to-back MLS golden boot winner",
-      "category": "trending",
-      "published_at": "2026-11-13T17:00:00+00:00",
+      "title": "Axiom Space Completes NASA Artemis Spacesuit CDR",
+      "category": "science",
+      "published_at": "2026-11-13T22:55:44+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "Cristiano Ronaldo retires from Portugal, Lionel Messi becomes first back-to-back MLS golden boot winner",
-          "url": "https://www.espn.in/espn/story/_/id/50432856/messi-ronaldo-latest-updates-goat-cristiano-retires-portugal-mls-golden-boot-winner",
-          "publisher": "ESPN India"
+          "title": "Axiom Space Completes NASA Artemis Spacesuit CDR",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWjNTUGp0QnNsYjZQVVA0aHZ1eFhFLVZDamE5c3ZKME5jN2lRN01wWlBuamY0TFlNRERXblRVYjU3R0NFZnU4d0o4SXdwaHpFNkgycmtMQUZ5ZkxCdzVyM3hCWDRpRFlOOWprUENlUUpReTBWOWZtUVlTaWpJZXZ3T1Z6LTh4bGF4d2JhYm9QT2JPVGNPY01aNXRvVGdCQQ?oc=5",
+          "publisher": "Aviation Week"
         },
         {
-          "title": "Kane, Mbappe, Haaland chase Ronaldo’s 146-goal record",
-          "url": "https://theshillongtimes.com/2026/11/12/kane-mbappe-haaland-chase-ronaldos-146-goal-record/",
-          "publisher": "The Shillong Times"
+          "title": "Axiom Space completes key review for lunar spacesuit",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQUthWFRmZE4tRF9BS3hKN1IxZlFTSEZRdzZEYlBSakxlRndlMmlOVnUwc2xpd1NPbXpVel8wQXl5QjlvOU9tOWNWd3VCeDI0SmxZTEhVdXZxRi1LY2xRR2dKUVlmNWcxbDJaaGQyOGZOQnBFZTNrYmlfMzF6OUVhdw?oc=5",
+          "publisher": "SpaceNews"
         },
         {
-          "title": "Ronaldo: prolific goal-scorer and a bona fide match-winner",
-          "url": "https://www.thehindu.com/sport/football/prolific-goal-scorer-and-a-bona-fide-match-winner/article71687281.ece",
-          "publisher": "The Hindu"
+          "title": "Houston, we have a wardrobe problem",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON0JPS3BhUkpXVl9sZE00QzVHOG03X2tJbnFSQlpWOUM5UmpfS0NON0gxQl9NWDRhaDIzUFhtdjZWeEZwMUdFTDBKOTBqUXJKaXN5bmkwY3ZnV0dTU1NONDZNWlFGOU80enFFbWRxRzRTSWRZczN5d3JGSk1IUFlFbjQ4aGg1dFpSaTdUX2dRaE4tczlSSUd6ekliYTBGTmZRZEp5Q2wzM19rR0k3Q0hRWXp2VkhnZw?oc=5",
+          "publisher": "The Washington Post"
+        },
+        {
+          "title": "NASA’s Artemis spacesuits may not be ready for the 2028 landing, report says",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUlhSdFd2VVFWOUVXYjBHbHYzNVpTS0QwdDNfd2wyZVRVMVFXYmpxSFF2MkROdE1lRHBuR2pNQkJMemZ0VDl0TkxXZDZXM2wwQ2xwajFOTTVCM3J3VmRqS1BnLUFVQUdpZU1Ld1hWZllMTHZiamowVUdUOE0wZEg0RlRzMk83Ul9LUGlzZWUwaVJhTlZNR3VmREJLRk1TeTB1ZUE?oc=5",
+          "publisher": "NeoTeo"
         }
       ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "hi-875800484a",
+      "id": "hi-fc00860d4c",
       "lang": "hi",
-      "title": "भगवंत मान के लाहौर न्योते पर विदेश मंत्रालय की दो-टूक, कहा- पाकिस्तान पर भारत का रुख सबको पता है",
-      "category": "india",
-      "published_at": "2026-11-13T14:30:11+00:00",
+      "title": "ईरान के खिलाफ फिर से जंग छेड़ने की तैयारी में नेतन्याहू? ट्रंप पर दबाव बनाने US",
+      "category": "world",
+      "published_at": "2026-11-13T15:50:45+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "भगवंत मान के लाहौर न्योते पर विदेश मंत्रालय की दो-टूक, कहा- पाकिस्तान पर भारत का रुख सबको पता है",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNa2EwLU9MdllUZXJmdlJzM19sTVpYM19CdXZTVWhxbW5QaFJIN1FTdzh6TUR6TjVuZG83dGJSUXlQVmNYQkNuVG9EaEdGMjJiRUs5UnUxRVJSZE9WUHFoRDgwZUs1YjlKanl3SWtLZXpDRGZUdDE5N1F3UWpxZTByVGhYQnpKM1Z1WS1VdEE5Rk4tcUtxZ1NVWTRjcHA2andKZGVHRHkwc3N1aEV1dnVCRGZyWjBzY3BpYkpOUTR0Uk0zQURMMXlSaTZ5LVpwY3VrQUlsc3p4bmxRbmdTaklKVGo1bl9RUktOLTdXU3hRdi16ZzZLV2FweHUzNjNGbEFZS0HSAYcCQVVfeXFMTVl4Q1ZGeVVDUDEzaXZWSFhOTG1ULTF4OVduMEdCMkxtQWZXcXhmNTMwTVNKVkJiMW40OC1aUVdhVmZfNlFyUkFmbUNMVDBSX3B5M0VTdU05NmFLRXBtbFAxTGg3RU1HVUxld3JyM3dWeXFFQnkzbzdHSmQ1ckhhaWYtUE5Xa1EwUF9nZnV6YWpEVHFWdEsya0ItYmNNTWFYeVgxRzd2c3JtSWdNRjdwY2RSTDIyZXc1alZJRlpkQkNPRDRyaTlOOURWdFVpOG15SENHeWFSVnkxOUFMR2s0SV9xR2swenNEYzdnUXF5YVVfQU0teFpyTVlhQTZkSXdXdVRKTTk5Ymc?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "पाकिस्तान से मिला CM भगवंत मान को निमंत्रण तो MEA बोला, हम उम्मीद करते हैं कि हर कोई...",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ1A2WEhZUjdXWW1MeXJFQlVjTjUweDFOM1Z2YzlUSzE2RFlKOUV5Tng0VjVNSzg0SjRGT1ZldThpVXNrVGk0VWpOcGVxSGR0alhmUV9ya1lVbGlHZy11ZHVVMjJqbWUzTGRpSmtvSkJUTTk0cUttdWNlaVdEbURlMDVyY182Y1gwcnMzYUN5THl5TXBDZlJBUS03TWFlN2dYUjd3TmYyOTVJT2x5ZE9Rakd30gG3AUFVX3lxTE5YSm03Y1RKX1FEd1duN2VhU082Nk5XMnBJUml4RWxQVTJKc1B3WTFfSl8xYkhHNzRiQXdFOGYxVnNaNkI0SGplbTZubDlaQlRmWVJ6LUk1WXlGRjVpZ0F0dFRDUlU2OW5PS3hYRlJPcGR0MlZ6c2ZidTZMbE1XeEVwWVlXYk5FU0duaVpUeHgxZzM2MHdJT052OEpBQUpzcjhzUUpFVkdWdjNBQzBIMFg4NEVEVDJMRQ?oc=5",
+          "title": "ईरान के खिलाफ फिर से जंग छेड़ने की तैयारी में नेतन्याहू? ट्रंप पर दबाव बनाने US",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMG1PX19DMjVCRHljRXFiZjJteHFpeUFfRUpKNlM3UGZwQXZ4ZW83WkxEZ1FiWFVkb3pNQVNxbGh6dENvS2UzaGlLb2lCTnJYUnlUTnlEUy1xNy1SZmw0OEVQRkJCME1HQVR3U3lwUUNTY2ZhNVhlUU45aDFZVWx3b05kUmZidjh3Y2JsZzRzTTdDVC1waWJwYkhZcFcxUlFKYmM2UTMzRDB2NnZOZkxPM2cxX05YRFl3UXkwYWxmOVFwN1p4ZEHSAcsBQVVfeXFMUFZmczNKNzJBSDJueTBlUnl1NkRlOTEyUXduUmFTVUI2NC1sSDhtdGR0ZlBIUWRELTZZcFEzbDYxcXlScFl6Y0dRZHFLV3czc0lXNjRxWXRzZTlFSFNoeFhXNGNfVlQwVEFjVjVkRjE3c1d0UWoxVl9WUE9ZUmlxQjVCSHpTRVpPdjFtRDJWVUkxdVpOYm91M0FKUEIwa09EOV9pOHZ5NVF6M2FmbjdFNkJNUm9xVG5MekpzaDhzWnhSa0Q1ZlNpYktWNDg?oc=5",
           "publisher": "ABP News"
         },
         {
-          "title": "भारत सरकार ने पाकिस्तान द्वारा पंजाब के CM भगवंत मान को आमंत्रित किए जाने पर दी प्रतिक्रिया | पहलगाम आतंकी हमले के बाद पाक को लेकर हमारा रुख क्या है...",
-          "url": "https://news.google.com/rss/articles/CBMirwVBVV95cUxOOU5FUGJfOGNtN2dxMGtEbExjQWtDMkM4VHlSejExaDdlSTZTREJBN29WbjBVcEFDcEVocVhiUHQwU29oeWRPSVJaeHhFRFQ4TnB0YkF0blBndnA1MWp3am1FUjJBMGNFSFc3cm43b1dubWZsOGpDYkoyUG1TMWlMNl9ETV9WNTZYSlg0SFlQN0dIVGM5dzVQM2ZUa2JOWmFRY2Qzc0RLN1AtMXRBOEhiYkxuUjdBNjBSZHZSNHV1VktMM0FqTFhiMS01R3BFREE2bm5LQjd5QjNvdHdicHc5UVBoLTRRdE9BV1Zrb3M2SGdoMnFYYmNxTS1MOElfMXVJZXRTNkd2NUcxSnJ2ZE84QkR5RHVYVFpUb1A0dGZVcFVpMjdzRi1XUlh3MXRFZ1RON3lob1FUOFZYYjBSdTZwbmk3NVNqNzMwTnY4OTRfZXFDQTZZQ0tpRlkxQTUyR0trUENqRkZsYjZPdEx6ZGpWQllIYlVocHQzcnI0Qm5pY25JS0tTRFB5bDVwTTRacFlMSUlVY0hXMm1iRHA3RFk5N1YzVU82blhfM2FuUVFFQXB0VmtOd0Q5Vm1MRm1SbmVWQUdoa0tOUzJ6Wmx5aEtpVTRRaFpSSi1qYXc3eTNLNHA1MkN3ZGY0VXE5YXhlY0QxUllIenBhVVFfX1VvRTZMalN4UzZvblMyRkRsam9OMkt0Q0tqWE55LUtVVEpBa1h3N0cwam1fd2FYTnRHRk1TcEI1QUV2VjZPNDE0TGRjSUlTMlhIaEkyVkltMHdyVzV5S2tYNTNnTjNDRks3RzdoeEVtbk9pNjdSQkQ1d3BUVWozR2JrTXhaUEVVT3YyQ2Ixc1dtREczd2lUWEdBdER6VTZUVWZxTnhMWkxKcGltby12UTZURHdydjdYSHZRTU3SAbQFQVVfeXFMTmlXZERpeVdDbEotMGNOenlRSmJ1Z1BIam9DRDFYZ0txeFhLeFVYQ29lQUR4aHJOcGZkdnlEcDdrcUlRQ2xRQmx2WlpRdUxoZ1U2Si0wZW9BSWVPcDZzSGpzX3ZpSTRwSHRuejRWRVFxVUZOTDgzNlZiMGVhWVJkS2FUOF9IaFhVLWc3TW1rb0s4MlM1aVdiZ2V5OVJua29KdzlTaHgwTVJoZ2xXbmE1b0tZTkpSdXNPd2l1cWJfQzJDTUg1VktPYUJLTVM1ZnlaM05Hdk5rY1dGX211LUFpNm5BY0dDS29nY2xiQ21vY1FmTUFtRTAtQUJtenozQ3p0T0pIcWVYVlNTVWl2bXZLLXpPNXhYV3ZSTVVRTENySUV4LVI3WEEtMzdaT2xxR0VzdWJDZ1hPVkZZd1NBczBES2VmVWpIaDJtaHZtZWxSVlgwajBDaXAxLWVKQ2NQTlpZOVNaTUdUTU5MT0FMMWp4WHptWWpzTkEwRExHUVA0OE1MSnlaMkR0a3BvYWFKb1VMSDFRLTZEdU9nZ1V6d0FZM1lXOUNYSVJYSHNKRmdrRXdhQW84VGJrSnFGTElRWk93N21vVWJibTRweXpEY0dTNHEwWWt1ZjRrd2dRMUFVRTJWNHNQbk5fRTRtbFFkSk1MWE9HUFR3SS1tb1BpVlV3NXpDYnRtUWItT3g3Q2I3WHRvWFVYQkJlZm05QmJ4VEhlbjBuMTliY1p0a3BaYnpfc1RXZzZnUkRuWXVORUxFQVlwX1NuVUNadTlEelB3bnlEb2dpNXh4UlVrUGM2WVQ3Xy03dEF3OGtQYmxzeXZHd05ibkNudzgzQWVVZFdlUHR6RzRJR09NeEoyNzBWYmx4dUVrR0NBeHJ3NnUtMUl4R0pGQWx4Vzh3MW04YkNQeEJpbEptN2Y?oc=5",
-          "publisher": "Inshorts"
-        },
-        {
-          "title": "पाकिस्तान का बड़ा बयान, कहा- 'पंजाब के मुख्यमंत्री भगवंत मान को यात्रा के लिए वीजा देने पर विचार करेंगे', ज",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQZHozVnJQNHBFaEpmdEJ4QXZmMGJZbFBjOUFMZVpiVkNSV3h3QXR1TjR5UW9pNWMwa3VtYkY3UFdsLW1ZZDN5MGQwNi1Cd0FmajBITGhGdjk2UkdrbVlXRlRmcmNHMkhjX1ZHLXpISmxPZndnZ3h5YjFfNkNDd1phOElDZTd4WXVaQ284Q0phUTdOSkFZRW9ZTnk4TVZwMDNKa2k2WVZFVkF3SUxrclg0aTR4cTZ0bHZIWDYwdTd3eGdUalpNNW5UeDRraUdYTHdndXNYdXpqZ01YOGpKSnp4WktTa3FLRnE2Vk1nUUkwdDF0S0dRM1hOQ1ZKbnhlOGJz?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "भगवंत मान को नहीं मिलेगी लाहौर जाने की अनुमति , National Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQMWgzSVU1a18xX0lpMjRCeXRSb2NmN1lMNE5USWFfSnhRa2w2THN2b2ZLbkhPX3I2ZVRYWk9YRGJsMnpRaWdNZGxScFJuOTBmU0hRUHVKUXZtOGg1UGtBNlU3YThEdHFJWnJaLWpFaXNVUkVsWC02NnpLdnpKc21xWTlQcmtzN2tFaHU2Wkw3MFdXbURHamt1T1dwcGhqbVhiNkRMRDBYOEJ6SUNMUnRvVlpyQWU4VkFMQk8tNUhGZWpQZndsaUwzcUktTmJkMUZxeGlza2ZuRmp1ak5JWWdaOEJoMjJZNE95dTBVRS1DVVNwd19hRFRVNVppUS1WdmNJckp0dmdmR1VHaHF2TnR0ZWtn?oc=5",
-          "publisher": "Hindustan"
-        }
-      ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-4a2f106607",
-      "lang": "en",
-      "title": "Shah Rukh Khan And Gauri Khan Twin In Black At Shahrukhz Launch In Dubai",
-      "category": "trending",
-      "published_at": "2026-11-13T17:00:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Shah Rukh Khan And Gauri Khan Twin In Black At Shahrukhz Launch In Dubai",
-          "url": "https://www.ndtv.com/lifestyle/shah-rukh-khan-and-gauri-khan-twin-in-black-at-shahrukhz-launch-in-dubai-12315447",
-          "publisher": "NDTV"
-        },
-        {
-          "title": "What SRK Wants Most In The World",
-          "url": "https://www.rediff.com/news/commentary/2026/nov/13/what-srk-wants-most-in-the-world/9524aa58eadd62782462128c2312ffa4",
-          "publisher": "Rediff"
-        },
-        {
-          "title": "Danube unveils premium waterfront project in Dubai Maritime City",
-          "url": "https://tradearabia.com/News/489669/Danube-unveils-premium-waterfront-project-in-Dubai-Maritime-City/LIFE",
-          "publisher": "TradeArabia"
-        }
-      ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-e069ebbd5c",
-      "lang": "hi",
-      "title": "'तनुश्री विवाद को बेवजह तूल दिया', बोले नाना पाटेकर के जिगरी दोस्त, याद कर निकले आंसू!",
-      "category": "entertainment",
-      "published_at": "2026-11-13T14:20:06+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "'तनुश्री विवाद को बेवजह तूल दिया', बोले नाना पाटेकर के जिगरी दोस्त, याद कर निकले आंसू!",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNcnZnd3lCdE9NX0M0ak1aRUprX2pqVHJBcDQtaHlocW5GQlhwMzc5T0EzV3BCNG1fWUg2NmZxZ3hXd05HYk5vTGg4MWNkZ1N3SlRCTFVoNVBsRC1pdFdvXzI0a3ZSeHc3T3FVeWdLQVhJc29OeFc5ell5Z1BTOUlJc3Bkank0eHZQUlBlSTV0SW5HRlY2RFZpRV9QaWtlc1h6VktKRW5NWjNCcFVZWWF1Y21OZEpnQVFYVFVWY1FCUzNKWTNucGlCYzBfc09TUGJ1MFZBY2h2bEVRa1dzYnFJWFFMejJHM2tmNzFtSHpOU0NFOUxjc1RmTEU3RzRMcjV30gGGAkFVX3lxTFBuUF91UlJ1RzZxRFpuYnVrUk1pbVp4N3h2MmJFX1lLUVA5c25wNDNfYVhsV1ZXTlR5eEhRVHI5c1p5ODFIOWo3RkRxZmlELWs4aVE2ZE40bUFJMF9yR1BFeF9Ub0R6Q0VRZU1LQzU5a0FlbU9lWm8zbHIzU1VSWWJhSnZJSEs3bHZxTi0yVGhHcjlRei0zU25tdG9TT3pxSEdvamhkZ2prTl9SVDJWMlBCeUZrUVEyYVhqMm9PQ0tGVndnenJ2UnZyeFpkQkxKeVdxWERieGxFRHliMVpLVUtvbXJQUUZjYzhFOFZzV3dXREZNaWxIN2tfMzFFeWxGVlMxMTVsSmc?oc=5",
+          "title": "चुनाव हारने के बाद भी ईरान से जंग चाहते हैं नेतन्याहू, IDF चीफ जमीर ने फिर खोले राज",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZEpITlFJaXNyclE5TTJVRlBXZ3Fya050djI1VjlPNWliQkVLbzlxWnRBRVBIS2NWTVQ0X1ByY2k5Z3VZR3NyeEJoVXJDb1QyMVZWbGY5alM5dGtjZlkxSDJHWkZ6UHFBRXN2U2NENzhFY3VLRktTQWJYZnpXNU9nXzhpMFh5LWhzc09hNFlpX2J4VkN6TEZGTllZUU5vTmdLb1RtbVRBS1Y5V210R19haUE1WTFScEhZZ0VlMldDVXlaQ19q0gHKAUFVX3lxTFBSQjM1b3R3LUdROVRWdXktQmx5U1BOWkRvRFhjQ2lfNTQ2S3B3aU1Dc0VEMkQ0ekNwR3hwZlhBYTA3T2xvVHJ0OFhXNkhIaVFUYlpqb3BSekU1TEYxeFhzVEUxN2I2UlllOHJNeFkzWms5QkhLOXpDeXFCY3VtdURnLVZxdVJpUjhGWGZiVWdUZHdLZHJ6Vnp6U0F1WHdLRlNSU3lCUS1UclpDdEhUMzh2b284Q2k1MEdzcjN5TVp5dXYzbmJCNW9RclE?oc=5",
           "publisher": "AajTak"
         },
         {
-          "title": "नाना पाटेकर को आखिरी बार नहीं देख पाए महेश मांजरेकर, निधन पर छलका दर्द, तनुश्री विवाद पर बोले- बहुत सहा",
-          "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNU1Y2bERVYWN6RlhpS2tzamFnODVPUklKbmx4ak5XSGJKR1pGWlNvWF9kMDVNaTMzTU1YS1dsNWhIcFN5Smp0ZkVVck1wUVFVY0llVS1lVHJ5OFZXbHBPOG05d1VkdnlCSFp5eTlhMVpPWFdFb0FQdl96cHh6eE16alFzbnM4NURyLXFmUXREMmVtd2pxMHJWOGR2QjBzN1lmaWdiVmxfQTNKUERFd1R1ZGd2dFNESnN0Z2NmdHZWcHFJdVhGUXdqNDlHYThwUURnY0Q4SUJpLWJqc0dVMEdrS3JYX050aTlHSjFGSnEzX2VDYkxRLVRfM1NOdEpUREdDaFUzQmpBVUpLWnFIY3ZSS1RoR1FBMWpFOW5FdlZRR1NVd04wNmh5OGZBNnhjQVFYcXFTV1pjUzR5VWph?oc=5",
+          "title": "ट्रंप-नेतन्याहू की फोन कॉल हुई लीक, चिल्लम-चिल्ली से मचा दिया ‘नर्क’, ईरान पर रास्ते अलग?",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUTFjVTBlNFlUang1SXU0SnVtWWcxbFQ4YUlNMjVEQ0s4NzI2VV9aYnl3TGVyNnppNU51MEMwMzN3QTVoR2dmMDQ0OHRBQ2VUSDhCMkFXUENmbEZIdWFrbElITHllVGJLX2lQRUxYcXZHTF9EWWM4NkRydFphLV9ncFJPMmJsRXZMS1ktQXk2aDlFdjQ5VTBBVDhwX1daN3pQekVMbThIWGFYZGdMRkViX1MyTkQ0T1J4RmVTcWlZRWxTdGROMV9kVDQxMDY1Z05YVmVaTEhXU0U4ajdEMy1DdXFWVUNNWmtjLXQwaHlLR3laT0RRTmRXdHF1MF9va0pDWDJPVzBUMA?oc=5",
           "publisher": "News18 Hindi"
         },
         {
-          "title": "महेश मांजरेकर: 'बिना किसी वजह के...', नाना पाटेकर के सपोर्ट में आए अभिनेता; तनुश्री के आरोपों पर रखी राय",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcUp5YndacjFhb2JsYXQzdXVUTTVrZFFkbWJyVGxGazhJWmRUcnhjeGRnbzE0MHpEdHN5ZWJuRWdiRGstX05TUjZZRG9iTlNyUE5UU09CRGZWR1RMb3lhampteENfdGtuQ2VNTEl3dGszUWtVb0pOU3RPanM4eE44bDRyZmYzdmpnV09kQTJJUENqYVhtVEtfS3pXWW9LWnlvdHRjQzlnQVdSTDAyTkhLc05sazRXSlpJcndZQWRPMW1HYjZFQm1rSmdXTUdjemcy0gHWAUFVX3lxTE5JRmJSUWVMMHRfUTRzMnMzdmVET1I3ZjFPT1BZODNCdWFtbmM1N0FLRVVieFFhVkhpbVhId3dXcmVCOVh4Y2Q3djlPRkNQaTI3OFhPWXVqQzJSVHhZTVlSZno4ajhKenVPOVFQNjhIUGdwVkhOSkR6c2pzRWZURVk3YXJ5Tm5UaGJvZzdKQ0tHQWJhZVFEazVtMjJnT2xVZC1HdHFDU1NrSFUyeF9MUWZpQnBFYnB3S200WnBYX2dSY2NueFlIRkNRdjdLWDdvVG5ibG1HZ1E?oc=5",
-          "publisher": "Amar Ujala"
+          "title": "ईरान पर दोबारा हमले को लेकर ट्रंप-नेतन्याहू में विवाद, दोनों एक-दूसरे पर चिल्लाए- रिपोर्ट | Tap to know more",
+          "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOMFlqUkVBR285MXNBV2hVYlNwckZqcVZjeVVyVnNqLXN6VTd0d3hnb1ZsOXBjSzhBYi1GM0thUVh6a2FtUTMtWXhLaHdkWmdCSXladE1YQWZtYkVfMTJhdzY2aGR2UGxlMFFISWFSWUN4WWg2amZyc1U3RWc1S3R3QkhnSjgxYWJMQWY0NXdYZVBPNTJmbDk5R3d3MXZrMlVrVEYwdnJtY0RPc3hvY3ZxeVJhdFB5Mm5pY3FnXzM0Qkg1cDVwazlqVHpNS19zX2dtTldTUThKNzdRMHlGT1ZIOEp6WGp2R1ROc0Z5dVlmdy16TmxPd1REOXJyQmplY2NWR1BJM2oxcExSYVEzd1pKV0Y1RVZLbDFmSVhybVlJWXlOSzQtTGdLQmtWTVJHQkFNN1pzeFRvX1N4YWJzZzVlLWRrSTZaZnFvTkUzVnJLNWtCdWRnNzJzTFpjODNWU3puLU41UlNUbUppS3ZuTFljekVlaWRrLWRKNjNMQ180emk1N0pOa3pUTHdKZTJHdDEzRzlPbnZaVlF1XzdqSlR2RnE5UkxiS3dFQnlV0gGwA0FVX3lxTE9HcWdFNTlKcmZZSjExRUtFb0p1aVJsOGxYelZYdFpDV2xtSGxmMTJrMGEyRTFGREJZM0lFcFljcHpIZUR4RG1xa3JEY3ZaZER6ajlUS3VuajZUb21INDkxYVJWRGUwT0I4TTBXcDZ3SlpKSzEwWjNzZzhYbnZHWE5QTmN2ZTVHY0Ezc1JNSkFRLXFXaEl0Q2ZSNXRod0hMSVZGbmVEMmdPZlJ4ZkhHVzV1aTFVdnJRcTU5YVZ6Uk5UU2w2TjRCb2xpUWRINnp6dGZQc0Q4MDFKUWF1WHpCS1VYNExpWUlYV1JmZ2FqekJENUlxcEJvVE1EMGJQQ2dBMVZ0M1pKTDFwbUlKTFVDdmluc0VrVnJ4QzZRSkVhM05uQzhhRHZDT2pPOTg1eEZEcEYzUDVGRkdJclR1bW1VUnloQVF0NjFMZkxFMkJtNzFqdUpueU84QTZsaEdUN2lZeTNnbFNXdG00NWdoX2piSXNOWFRSUEN2WFJsX2F1VUFpVlpSWF9sb2JhZU5lUzVmMllhQWx1OGxIamgxZ1M2NVNEV2gtdlBLZnNZYVh5Tmw1MQ?oc=5",
+          "publisher": "Inshorts"
         },
         {
-          "title": "'तनुश्री विवाद में नाना पाटेकर ने बहुत दुख झेला': महेश मांजरेकर बोले- मामले को बेवजह तूल दिया, सेट पर कुछ न...",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYlQzUkRXeVRLaGxwQ2hmMWNCa29xZko2dkxhNm5yM1FOYVB4VnMzTDNlMFJCb3VRVGIzSFlaVjkzdXBvWExYOG94QXF6elVGUzltbnVHeFRxVk5PUVJuOWktOGZzcFNvUUNTU1BzUVRzcDh6eTFvdTNiWFNaREZMZ1VmLU43MlI3MXg3RFc0d3d4MnBPTnppNmJEVk1XaENFVEJGV2NXMDBQT01iZmx1M3R4bFRZbVd5SWs0WUcyRW1IanB4VmpLOWtJREh2QdIB0wFBVV95cUxOOEdGNkp0MmxYUi1PbHh2M1VjMjRYcDQ5WU53TXBIRmpHSUtXMkE0OGNOZURtOVpZUG9zVWNrYTFLT1I1elBGelpXRFdoLUJnSkExYS1QQUF4Z1A2Y3Y0YXNCTEVfbkZUNnhFWk4ta3VvWUJpVlROUWZ3WnB3M3ZVQm5VbUcycThlSElDTzY1YVdHb3JYZ01rb3ByVkMwaFJHLXlfRGJ0SlBBTTljeUgzM0VOQWpiS2oyVVFVSnNpRXBwb19aM1NPbktVOVVELVhVS3pj?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "'नाना पाटेकर को बहुत कुछ सहना पड़ा', तनुश्री दत्ता विवाद पर महेश मांजरेकर ने रखी अपनी बात",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOVBabzMtMU0tWTJFMVpCNzdnNDB0OEQ5ajdXWGNQVGh1RFM5QlN3ZTFIOFo1eWxvVVVzUXNEcE9ka0VwakhobVBFZDBuYVVZb0pBa3BEczBLR1lzc2tqWGRRclNXNW1PUlF3OWJHMkNBRVVYU296NVJpNzU3RHQ4bTlfemphVmt3QmZ3TUZUVGM2cVpfME9zSzI3NGNXZ2U0M2JVcEtCTDlQMFHSAbgBQVVfeXFMT1g3YXlDM29maXlESFJQRzVBUTFYamxxMVl4STJQZ0lCR0JmTXpyRl9vTGQxRXZkZllxWnZyMmtkbi1LaTRrdXB1V0hDcUJRczdOMWExU1NYc3FSNTNzRWZIbFZTZlJ5S01rZTQ2aFF1M1E2cDA5eW1vdUNuMWRQMG51alNFTHJSX0h2elROT1hBX2kteGQ2VHQ3NjEyLWtQOW1vdlJwR3FwbVR5SzRTVDBTQmpNQk1FLQ?oc=5",
-          "publisher": "Navbharat Live"
+          "title": "मुस्लिम वर्ल्ड : आइजेनकोट ने कैसे खींची नकेल?..ईरान पर हमले के लिए हाथ-पैर मार रहे नेतन्याहू!",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeHhDUXFiTGl3aGUxUVVqYzhhNU1DdnpnNWpnX3NjM05fTzhkb0dEWXdWWDg1WndIa1h4R3lIcUFwMlN6V0NfY2JlcUpMOXJlWFppeUtfUHFtVnhrUVlUSWNqZE5aNUlEVnFLOFZsSWl3SW9oUXU3b29sQnZkeGZXTnJ6ei1HLWVIR0YybGk0UHVYSkViYkFHdDFqUm9QQkhqM2F5eHBiWVF4ZDQ3YkNCRmRVeGRFajAzVVFlYTBRekpLZ1R4?oc=5",
+          "publisher": "हिंदी सामना"
         }
       ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-0bbbbed64b",
-      "lang": "en",
-      "title": "COP31: El Niño could cause $11 trillion in global income losses, threaten food security, IFAD warns",
-      "category": "trending",
-      "published_at": "2026-11-13T17:00:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "COP31: El Niño could cause $11 trillion in global income losses, threaten food security, IFAD warns",
-          "url": "https://www.downtoearth.org.in/climate-change/cop31-el-ni%C3%B1o-could-cause-11-trillion-in-global-income-losses-threaten-food-security-ifad-warns",
-          "publisher": "Down To Earth"
-        },
-        {
-          "title": "Why Acting Before El Nino Strikes Could Cut Costs and Protect Vulnerable Household Livelihoods",
-          "url": "https://www.devdiscourse.com/article/science-environment/4004933-why-acting-before-el-nino-strikes-could-cut-costs-and-protect-vulnerable-household-livelihoods",
-          "publisher": "Devdiscourse"
-        },
-        {
-          "title": "El Nino Threatens Health, Too - Early Warnings Done Right Can Save Lives",
-          "url": "https://www.ndtv.com/health/living-healthy/el-nino-threatens-health-too-early-warnings-done-right-can-save-lives-12318646",
-          "publisher": "NDTV"
-        }
-      ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-4eebd929c7",
+      "id": "hi-d5fb955fca",
       "lang": "hi",
-      "title": "यूक्रेन में जंग खत्म करने पर बड़ा मंथन, अमेरिका-रूस के बाद बैठकों में अब यूरोप भी होगा शामिल",
-      "category": "world",
-      "published_at": "2026-11-13T13:55:25+00:00",
+      "title": "हनी ट्रैप: जब प्यार और रिश्ते बन जाते हैं जासूसी के हथियार",
+      "category": "business",
+      "published_at": "2026-11-13T15:42:09+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "यूक्रेन में जंग खत्म करने पर बड़ा मंथन, अमेरिका-रूस के बाद बैठकों में अब यूरोप भी होगा शामिल",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZl95anNzWWYtTG5WeVFWWS0zcC1qNnRZZXZNdG5xVFBFbnAyYUpvWU9RaFlIVFNPaTFIa3k1ZW9kYVp0bHpkZk9hTVBLY1AtYUpkaU1YRVJGRFNLQkhVbU83VjFQSUdnVGd1NE5BaURUbkt6WW11bHdpeUVqS1JFdnB2LWdWRWhZb0c2dFJLZXA3RC1BS2xRaXM4bmJ5MDFzOFk3RkVvMUpUa1FpRmNWSE5sdkZpbjZGQ21GWnpScGs5ODEwUUdacWlicDdCZ9IB0wFBVV95cUxPS2xPelV2OXowY1AwTzluMldsVE1CMVNTLWhhTjdiVXVxTUsyamFzbGdIRC1nWTJCSWVvbDZ1OW9yUVVrZlV2bm5HS0w2TG9lVjhxOG5NMjhkQnJDSmVoYUQ2ckRTVWxQZk9qZm1mMkFUcU5QWHNJX2ZhNE81Rjd0V2JSZUp6bERxdXAtOUFrdFl2UGJrVko4aVRDTUJfSjZ2VjdaOXozN09jS1VkcDNwUTh2a0trMXFMdTJTWUZqcTgzUHJldUdrandBeE5lc0txOVRJ?oc=5",
+          "title": "हनी ट्रैप: जब प्यार और रिश्ते बन जाते हैं जासूसी के हथियार",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wQjRNOG5LSmdDZ1ZqbGdUZVNob2Q5REdVeDBYd3dFOVFET0hNWWJHRnBKWmxvUzRXSnFVVkRSOXM3RlFqdmhNNGhYVU56QkQtTHg5Y1I0VmNjRndQ0gFiQVVfeXFMUGtueGxUOFdmaUFiUGhONG5YbW1jSUZfRGtmY2pJTC1KYjJEVzgxdEZXUHZEYkYtWGpMSGNpX2IteEtiT3AwUU1zdUQzOFFKcVhCRlBWXzFUdFFMS1VoRkM1TVE?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Nvidia New CEO: जेनसन हुआंग की जगह कौन बनेगा एनवीडिया का नया बॉस? 11 दिग्गजों की रेस में 3 भारतीय भी शामिल",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM2ZJcVYyakFzdzZORFIzdXVxS0sxWVZFVDYwanMyWGN4cE5mWFJKdm9EdVM0NW1jc0dDWjhnbG14dWNId1hLX0N0c2dxU0VMQjEtcmxFTURLdmFKM0FDNmV2RkhRMkRUT1lCbXEyYlBmR2k5bWNPRV9scXQwa2pRTEtCUWpDNFRveHhoLXctZlJMQkFzV2poMU9STXlFWjd6V2o2cGdJOXJRNU9YR0lCcS1rcEZyOE3SAcQBQVVfeXFMTTBJM2ZLa18ybzdUTFA2R291cF9VdUE3NHNtaUlwMjhsSEpkZjFmZGtUUXhGZVR6SlN2MkxMN2s2QzhQSGU2d3hBWE45WmNDeEx2THA2NGRyWWt4YnF1X1RZYVdJWDRneXc2QkpySW5jMmNGLWJBVnF4dU9jTDZZNy11TFpmTHNRMnV2MHZlM3ZNRnZiTGt4X2MxbngyMU9BalpTUC03alF2NHV5WHhPeTNCZGwzU3prb0d1QTNJbVBCOFlZbw?oc=5",
+          "publisher": "Navbharat Live"
+        },
+        {
+          "title": "Rajat Sharma's Blog | हुआंग की विदाई : क्या ये tech spy war की शुरुआत है?",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORXNaeFlsQWxqNzZTZ0ZiZm1jYnhSSnJIbmJROEtBTWN3R0F6aGdneG9rVm5kc2V2b0t5czliZG9HYk5sb3Y0dnBTM0lVdGNSYXgwbjluQjRzaHV6TV9MckhScnFQbFFqY05yaUdRTkwyeHBtZUlWY3NlckNpVG5hXzNTYUdYWUZpYUtkdFZoU3FQLTNrZnFTT2hmZm95V19taGlsVzNVV3liampIZldyMXhGb096aGNGeVpqc1dmNmctd2xtMkRV?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "मेरे लिए सम्मान की बात..., Nvidia के Jensen Huang की हायरिंग पर बोले Elon Musk",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZkZvb2xYWlAzTnpDRnVrM245RHhRZHZNVkhFWFN1ajlZYUlQaUtVY0NUVWxSaEtyM0lMVzZBXzdaZHVlZ21TVWxUaE9VYVpVZkN0RHFreldFa1hpVEFzeWdTcFhwempZa1VpNDJYNWJKUkRjeU5aWkhJNUJwV2RxbWhyV18zeno1ZFVZX2pOTm9GTjRPNmNmLVhFWVI3SXA0dm5BYTVoU2dTM0V5d0NVenBWRWJWT3NVQko3X2xKNm9Md3kzM0p1TUx6dEXSAdIBQVVfeXFMTUEzd2FLU2NsYTlfSlpGZDJLVTZmTmFoSXJnbHd0WklqaEcxckFkVFdxMGM3bEJIdllsMS1LMWJBd2tNSzJISzZmdE96a2loNnN5OTRmMU1zY3VodWc4YkpWNXNQei0ydEFZYkJfanlmS3RJa2tzNHdmYktQam5UWWoyWEw1OHNfdjJFTm5PeC1FdVlzcjhXU09Ud1oxSVd5N1lfRnVMSmFjVVd3enRmLUFOSWRPWGNxa1R4VlRCNUtRTHJCa2dVcVhwV3F6MUFLUlRB?oc=5",
           "publisher": "AajTak"
         },
         {
-          "title": "न बिजली, न पानी... रूसी हमलों से यूक्रेन का पावर ग्रिड ठप, कीव में 20 घंटे तक का ब्लैकआउट",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQakFxcEI3dHhuS1ZWYWN2cjlaaHJhNk1iOUZmX2gtazgzSTBOUWZTRFdtZ3otSXI0aGthTTczX2hoMDVQNUx1NzVtcWN1VGd1eHE3Y1FYUDAwRHNUakY2VV9rdE9TTDJJalBnaFBINVFLMThCOXg3UzE1WEU0eU04eFV6WkhWanR1Q212YXBzMnhrSnk5VGhUUkl2NXVHRF9lNFNkQUI1ejFSQXEwVWM5NnIxaHJlamxsUEZaNG9xU09ad0ZKa2YwdVBSaGlSdFNz?oc=5",
+          "title": "Nvidia, जासूसी विवाद और अफेयर: अमेरिका-चीन की कुंडली में छिपा है असली राज, भारत के लिए",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaU9JaVBDdjVUYVFBY3NOWVpDWmdVbWdEbU5veEpWSnJQN2JnMTl1LWNvS0xsNGFyelhCel9JaEg4anBCNC1FSUszM2dQdTVQQTJvMzh5d3VtbEtNWGxmYlktYnRjSEthcU1Wb1phSWlMNE84bXlFYzN0UVhaZnloN1RILWc0TGJPcURnaWFn0gGTAUFVX3lxTE12ZERHM3d0Zm5BN2ZDNXNQRXhIblppVUJJTU5UcE1xNE9kWlZBaUYwaVViLUR1SHZkakpyQVh0ZDdBZEtQd0gwZ1BjSUJZT0VOS2lHQ21EY1Naa25UWGloUmJPajlwVTF2V2Jfd2dmSG1JM1RQZUU1VnhyVEdBOXd0aUc4dnZDLVBOY2dXNkJPR3JROA?oc=5",
+          "publisher": "ABP News"
+        }
+      ],
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-15dc9ffcfa",
+      "lang": "en",
+      "title": "FAGE WTA Finals Day 6 preview: Sabalenka, Svitolina play for a semifinals berth",
+      "category": "trending",
+      "published_at": "2026-11-13T22:00:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "FAGE WTA Finals Day 6 preview: Sabalenka, Svitolina play for a semifinals berth",
+          "url": "https://www.wtatennis.com/news/4608276/fage-wta-finals-day-6-preview-aryna-sabalenka-elina-svitolina-play-for-a-semifinals-berth",
+          "publisher": "WTA Tennis"
+        },
+        {
+          "title": "Where to watch Aryna Sabalenka vs. Elina Svitolina WTA Finals tennis for free today",
+          "url": "https://www.mlive.com/tv/2026/11/where-to-watch-aryna-sabalenka-vs-elina-svitolina-wta-finals-tennis-for-free-today.html",
+          "publisher": "MLive.com"
+        },
+        {
+          "title": "Sabalenka vs. Svitolina Prediction at the Akron WTA Finals Guadalajara - Friday, November 13",
+          "url": "https://www.bleachernation.com/picks/2026/11/12/sabalenka-vs-svitolina-prediction-at-the-akron-wta-finals-guadalajara-friday-november-13/",
+          "publisher": "Bleacher Nation"
+        }
+      ],
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-0ac8f413a1",
+      "lang": "hi",
+      "title": "Most ducks ODI: कोहली ने कर ली सच‍िन के अनचाहे र‍िकॉर्ड की बराबरी, कोई नहीं चाहेगा ऐसा, रोहित भी पीछे नहीं",
+      "category": "sports",
+      "published_at": "2026-11-13T15:23:46+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Most ducks ODI: कोहली ने कर ली सच‍िन के अनचाहे र‍िकॉर्ड की बराबरी, कोई नहीं चाहेगा ऐसा, रोहित भी पीछे नहीं",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQWlY1TkJYNGhuUnRVSWJQSDBWQzhvY0lGUTV4Tm45c05zdVZYT3V4VWNQOUI0Z1ZMNDVYT042aW9Ib1NWdDBZVkgtTEZiZHBRRlhYMHRoUUg0dG43TW12M2dnRnh3a211STVlbHZZTlZxWlNLbU9oVXVkVy1nMmI3b1IzNEtVSGhFdkE3SVVlcDFMaEdkTmN4MFdnaFo1clRXYnNrM3RiYXNCRkxZYXNiLUtmNkY3N2dFcHlsMEcxOElGbHRQMWhwRTloaHZjY0NPamJCNzA2NjZ1MHFNMExlNWNVbmQ4aFgwTWlNZEMybU5EWkXSAfgBQVVfeXFMTlBSRl9QQTA1MS1Lc2pDa3dwdXlxaTY0M0VmOTg5QkEwQ01MQmJ3MHVnQ3lkMGFRdElXMW5sa2NEZXA4ZDFzTzhrSGdJb0tCcU1XNHFnU0xLd0N4bHc3VUdXeVk0WjhZTnh1X252LVJxbGYzeTc5d3F4d05naFBUenBtVFJuQnF1a2xuZGJibkN1VTZZTnZrR1Z1bjh0NVpDVFV0MElZVmFJSDRiRzRCU1BWYjUyUEZnQjBiNXVScmVxNl9ObjItU2dNZ1dSbnc4N2YzM1lKV0JUeDhEb3VCVDdmRGtRQmpSNHpBazEwS2R6ZXgwOHdtZUI?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "रोहित शर्मा बने इस शर्मनाक लिस्ट का हिस्सा, वनडे क्रिकेट में पहली बार गोल्डन डक पर हुए आउट",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOb1g4NWljc0l0NG1hWDQ3OFlwa2QzTngyQkxUaExJQmpnYUwyVDRnY1dMMDlWb0dHX3l4M09QSm5QM0RCQi0xSGZoRm00bmJIcS1tbVdqYmU4MzRuM3ZRNnlGQUhTczZDN1I5a0RBMWV4aDllTno5YWRTVmlLTWp1dlNiblZjc1Fua0VMdmU4U1JSZGozR0JnLTFFajNDZ1B1d3A3b2JBUlFubWtYQlRMeFhvSnJ2QlFtaG5YRmVnODZSWEdwQ09LUnpmTHZ1b1JOcDlqV09IM3EtS3N1cG9PRTA3RWtBb242SkpBUlNn?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "Watch: सुपरमैन बने रोहित शर्मा, हवा में उड़कर लिया जादुई कैच देखें वीडियो",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEZieWYxdjlkMUhFUEVHSUdEVlBVc2pOT0M5MkJjaHAwdktuM2xNcmlnSGk3NDltc29vRTN1eDFsNmlWRk9IMkdzT2ZOU0tGRE0xRFVxdXdHRlQ5LU1JQlMzU1hCN2RjdVh6QVVqQ0Q3YWMtUG1kQnlpd2ZmYUM4bnp3a1dlc2NVXzBUWjBxYUlLbEhmT255amM3Q3h1TUhDTk84M3hLcFdFMUZ5TXVqdWFkN2FkN2V4eGNKVXhDUdIBxAFBVV95cUxOZjdyeHVNUTQtLV9LOWo4UFpZMTN1MzRaTDN5WGllMFo2QkVnN3QwNWFHQWpWVm93WkRmY1o5alpzVS12M3Y0OW9pMlp5aWQ0TUVrVTdTTDRWTS1ydmxlTjRzOTNKYWJseWs1MGV1a1p6R1dienowWC1JMjBaeDF5QUpoWGllUnNTSnFpUm81OWVVWFFQWWdBR1NPT1B1U3VraTA1RmhJdjRaR3p5bzNNZGtyM2E3YVFXSTUwdEhvb08zSGFr?oc=5",
+          "publisher": "ABP News"
+        },
+        {
+          "title": "IND vs NZ: 39 साल के रोहित शर्मा ने दिखाई 'चीते' जैसी फुर्ती, हवा में डाइव लगाकर पकड़ा अद्भुत कैच - Video",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTHJfTDBjbjhPVXhiMGFHTzRJaHdGTEN0UUxqY2FCVFo5RGd6VkFLc2VvdDUtQ3FvaHlHZ0luN05xN2FYVnFsT1RfeTkyRkMyeHhCcTYwVk1DbE1tMWJlNzc2NHRQSVVFQURIZnQzcUtoTENaQmt3aDIzUkVEUlUwVEJpY0Nwa2hJV1NkdF9pbWpjUEhXUGVkV0ZSU2xXWmhaLVBiRnkxRzRqM3IxTlZUTHhNbzVUM1pZb2xDamNtekxRalZINUtQdHJBTy1ZdjVCcDBNVF9zTm85UVo0S2NB?oc=5",
           "publisher": "Jagran"
         },
         {
-          "title": "रूस-यूक्रेन की पीस टॉक शुरू होते ही फेल, यूक्रेन ने 9 रूसियों का बहाया खून",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMDBxV1NtbFRQVnFJblM2ejN6eVFWVnBRb3dNXzhMM0RLVE52SmNCQWhnRGVFbjlHN0t4RVdSUXNRVWpqb1F0TThtaFB3R1NXek1NODZ5RmJqRC1YY1kxa19DUS1taDFiUkczdlY2WmVBcjV3QzRnVkJCcDROLTlMM1Bvb2xydEFjQVo2M2xwa0I4UkZ6Q3RFRlN5R2htQjZrZ1hZQmlLVVg2bDBwVEdGTlZHLThmbkFvUWx0RFhGSXZER25OeFI1ODZuWWtPYkpfOExoQjJtQkl0Q2xtQWw4X0ttdnc4RjFGWTdPY0pZcjNZb2tSc244cnpGUzBUdw?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "पुतिन ने यूक्रेनी इलाके छोड़ने से किया इनकार | Tap to know more",
-          "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQMjFIWk5BTGZxMzM4c1Bmamdrd19NQ2VXUDNaeU5KMXQtbXc4MVF4dExSV1ViVGVaVWlFZk9EdU1xWTl6SXdQQzZCTTFDRHRNN0dlS2U0eWdtR0pWaWdjYUJwSmFuOVJfcXBrM2ZoV1Mwa0J5OXByZmlwQjJsTTBHbVZiODNpdEZ5a2lTeXRPRzRCeGhLbGJaTWtDeXh2ampmWkRRMUFqd01CSEp2dTR3ME5lVndEcjdLaFlTbWgzdGxMTnhhbFNOSm1BZDhsZFBnODR2RjBFVGprbW91cU85RkNKMlpuMllVSndkWkZkMk1qSmNoQ0xpRDAwbFlGT2N5N3dFa2JuQkJjVUZIN1ZESXp2MWxybHdjVEsyaEtQaEotb1ZkaEl3M2NUbnBBNWRWSmVSeE1DV0RTamNtMFQ2T3E2czdBUVY0RWlra21oSHZkdlFvdmlxQjZIOWg0VVhNSXR5YzRHd0RzN0NUeEtOLdIB9gJBVV95cUxNekx5aVpOcllFTGI4cDVVeTFfR1NZTEJTU05hQkJnMzZKaXIzeW1KVTJXMTVUckJsSF9zWWFyMXREOWlYT2FhaTAzdVhDSnVEX1lBTlZNYl9KYlFHVzlDbksyOTZmTjA3MThZTk96V2ZsVlgyZEFUR3lITmREOThtMzVDX2h6Q014SktRUXlsdTh0Z1laeTFENTR1ZGVzaDE3MllEMFI1MVZFVmRQZ3NZRnpORWNENkkwNTFhU0oxNUZzcy1KaU1MVjdPRHVNR2FvWi1xZmxVUWpKOFlVTFk2R2xybnRyTXNOSnRtZE5mVzQ5R0JCOHUzdUFIOWtfcjhSZ21QVWNsTXdXZTQ4Z1JidWNBQWhtWXZyMUpEeUdjcEJnRnhrcVdVemQ4b3ZIc2RFOTQtLWZ1dVMzM00xYWR1eXlJc2VVNXVPM1AweG9RcUtQQ3lrNGZjc1oyVnBvNzZKckpUby00dHVoUE1fSmNYVERQdFZaZw?oc=5",
-          "publisher": "Inshorts"
-        },
-        {
-          "title": "राष्ट्रपति पुतिन से बातचीत के लिए क्रेमलिन पहुंचे ट्रंप के विशेष दूत",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOclkyWGxEVmlsTzV3U3k2eHRyXzRpOFVlZHJBaUV1RFdKaWZyVkVwYmlKQWliTk02Q3g2MXphQ2M5bUVyRnNuUzQ1QUY5cjFuUzFDbzNzazBOaGw5c1ZibFdQRkdUNlJycTkyeTZrOWZyRllaVW00VkxkTWZ4OGxXczBBWGx2dkZJYzRsQ01BQkg1Szk0Si10LUFaa0RYUQ?oc=5",
-          "publisher": "DD News"
+          "title": "वनडे में सबसे ज्यादा बार शून्य पर आउट होने वाले भारतीय बल्लेबाज, कोहली-सचिन पहले स्थान पर",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYWxmTGI4UXdVVTVCLTNaYzNJcVhEdkdQdzk5UEpLRS1jbmlOalhWZzE2X09Uc1hzbURqVlJWY0xiUVNNN1RacTBfeXFxQTVtTmhCaldkYnYzT1YtZmJIa0g1Y05IVW5lVmk4UVFQYmlNcWctLVZXUjR4aWpmYUJQNmw0b2xSU250LW9QYmduMkVaWGxUX0huNUNZQkJ2TVY2UTFzdU0zSWdGTXJmWVZJNmFGaE1Td2lpejNrbTkyNEw?oc=5",
+          "publisher": "NewsBytes"
         }
       ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-9fcdfc4c26",
-      "lang": "en",
-      "title": "Euro-Zone Shows Solid Growth as ECB Weighs Another Rate Hike",
-      "category": "trending",
-      "published_at": "2026-11-13T16:50:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Euro-Zone Shows Solid Growth as ECB Weighs Another Rate Hike",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/euro-zone-shows-solid-growth-as-ecb-weighs-another-rate-hike",
-          "publisher": "Bloomberg.com"
-        },
-        {
-          "title": "Eurozone Q3 GDP unchanged in second estimate as uneven growth clouds the outlook",
-          "url": "https://investinglive.com/news/eurozone-q3-gdp-unchanged-in-second-estimate-as-uneven-growth-clouds-the-outlook/",
-          "publisher": "investingLive"
-        },
-        {
-          "title": "Eurostat: EU GDP up 0.5 per cent in the third quarter of 2026",
-          "url": "https://www.eunews.it/en/2026/11/13/european-economy-is-virtually-at-a-standstill-up-0-5-per-cent-in-the-third-quarter-and-the-trade-deficit-is-on-the-rise-again/",
-          "publisher": "Eunews"
-        }
-      ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-7e173e2b0e",
+      "id": "hi-87dc9a2106",
       "lang": "hi",
-      "title": "'बेटे को ऐसा देख तकलीफ में हूं', बिग बॉस में स्काउट की हालत देख टूटी मां, सलमान खान के कमेंट का किया जिक्र",
-      "category": "entertainment",
-      "published_at": "2026-11-13T13:29:45+00:00",
+      "title": "जापानी महिला मियामुरा छठ मनाने बिहार पहुंचीं, ठेकुआ बनाया; छठी मैया के गीत गा रहीं",
+      "category": "india",
+      "published_at": "2026-11-13T15:17:45+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "'बेटे को ऐसा देख तकलीफ में हूं', बिग बॉस में स्काउट की हालत देख टूटी मां, सलमान खान के कमेंट का किया जिक्र",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY3Fnc1hsWGZnRFVETlpRSDdHU2NjX0ZfLWtUNzRRU0ZqV0FDek1WM2c1UDlCemtDOTl3TUV6NHVoRDNkelJxU0laTGNYcDI2cmZHUWFZcGJieXpGWV9SdWRQTjFjQ3NrZDZjeWpZZGZhSm5vRWg0bnVxYV9vX1dkNDB5MTk1T0ZCV1J2WTEtU3lQaHk5a0hPSzlpdWR0RGczT1ZjVU5GVjcxMXdSQW5ZRlNyT0QzVnE1cHBjcnpIOUViYkVXSk5RR0VlUWo2QnZxc05mcDhES1NLM3RaSi1IYWEzMVVZYWo5Z3dZSjM4VVhEUTN1NmfSAfsBQVVfeXFMUEtwanBwNk5oX3hGZGRXRnZIRC1wUkFtVFNjRzh0QWpUNjdpUnBzQ1JxQ3ltSXhHQUJGbWljNEZQWFdUWFlFZzh4Ul82QV9TbmNZZUdfa2hJNHRPcEwtVXFLYjNfRmRnbmkzYmVFdGkxUlV5aWZUUjBnaWc2Zm1Qb1NXRjJjaXBFTXhkUndfdzlqWTlVdUNhUmc3UWd5UlBneHNHVnpCS1dxYlhUalBMNF8tOGVNUVhITmJRMFI1a1NLRlQtdmtJTERSY2o3WUg5OGxVVHhFOXM4NDJzdDNlYURwYzNYN0hoMWxRTVlmWTNIUHZDNnBfVUdHTnM?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "'कैरेक्टर ढीला..तेरी पैंट में नाड़ा नहीं', बहन लव पर स्काउट का अश्लील कमेंट, रिश्ते की तोड़ी मर्यादा, गुस्से में हुए गंजे",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQnZWYnlRVEFJdUhLMVFoYWxrd1FEZHBLb1lITzZDUWtqX0t0T2VzWFlFWTRRcFZjSGYzY3V5MmNRTXA5OTVIRklDVVpFLVZ4UkdMNzhpZ2FqQU5xSGprNEoyZnh0cDkwcEdGem9rZE84YUg0anpBQ0xyRHFCSG9ZaE40R0VucG1manIxQldLOXJxZEdhdUdaem1HeVdvSGxNdDhfamZGcjJNZ3ZVRGNNZ0Q1NmtWbHRzR1VhdHU5alZ2aFZvM1BsSVBYeUx4aFJ5SHY3WWpxV3hIUzMyTkZwUFVHWXZwR1B0NjZ0NHZzVXhBWmltVGsyZjYwMnRKQWlfb3FxM19JMHlrd9IBjwJBVV95cUxPVG9HanowcEN5YUF1Y1ZhbnJlbXo4a2xQeWhQYjhfTVZ0djBiWHdTOUFvTnZjRnc3R3FwMjhaRzFUVTI2Mzh4LVdSNHJMOUlZamRsOURLNkpTa2hodkpUOEN4OXQzYXQyZVNabkppaTFxNkoyQzJiS1V3OW13UGJPTWxzNjZXd0xiMjRvcXVKNzNWNkRXZVRfeUZ0SGVSS2xMWG95SzRCa1huVklHaU1ZRTdUMlRoMXlnTExBdER3M09hWXF0VFVhSlhDZXhNcHBOSzRtM2YyV2Y0ZU11SVdGRkxwM0RRY3cwME9SVHR4MlljT1B1amh6M0RKTmg4ZVhyaWhfWmJuNjJFU0dfd29F?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "लव से झगड़े के बाद टूटे स्काउट, खुद ही काट डाले बाल, स्मोकिंग रूम में रोते दिखे गेमर",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSDk4WWFPdC1ucTFXbHRxQWpiOGhVQ1IyLTVORmUyQUNheWItWWtFSjVFVnp1VEVfM2wwMU9YaHNrS2w2X1ZaWDlXbXFRVThXblYzS3VZYlF2UVFHT0dKd2ZWVmN0WFAybzBJaEhLU19fcHZlUnhRckg1Umk4M2FXMVp0dmtNcWJDWlh0TGhwc2FpSFp5cDFpbm4xa2NNY0pwdUMzd0k2SHZlSXZsdjk4eG1MMGlxbFl4WUphYWhzdzJ0bmwzZ08zZnNoeDh1T0NUb094Rk1VZ0N1bHo3dEhuNzBjMnY3TGlpYU5UVWs2OHQ?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "बिग बॉस 20: ‘तेरी वजह से लड़का पागल हो गया’, आम्रपाली ने किसे मारा ताना? स्काउट को दर्द में यंग ने दिया सहारा",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVmZTX3ZERDNnV1pGTk9MNHJCVUFZcnJqN291aWVVTGZqZlNZT0dWVTBrRWJGZVpFakxQOUtpbzZHU05EdkpKQVNXTm1nVHVNaTI1VUMyUlZJbWhkSVU2RFYwaENoaHE4ZVJQMnpzZ09sNkFQQktsT2JZdS10aUcwdGpvdEJtSGhPajFMaHNWd3ZEa1B4WVV3eWJqcXhnZi16aG5XTUxfbkh2dW1ZT3V1Rm1VODhsbGI5ZWQwOXF6QmI5TFNPRzRZZDYwZ0VmWGtHSzJoUXJfZHBSLTl4dVRQc0VqVlhtcHV2RWfSAe8BQVVfeXFMTXV4QVNRbE9NSVVTNEFqSEVTWnhlcjFaTXh3ODFTdnA0SHZXcFR4Z3gySlhuYkRIcEU4Z0hERTVvN2ZaM1Z6Vm1KZ0h5TEtndGhnWWVsVVdhSXRxNzkzZGdsemFRWUZkTWN1V3I0SjN5WndzdWhPdlEtQjJ3ZjJWTkFvZUJGOGoxVTVQaENRZzJrbFVrem1meFV1WGtmdkJ1cXRyTGxvV2ZmWUxMLUFiT2JlMzF4VEVuWTNsTm1XazMxZ3FFVTVRVU1LVDJBQWpCZUxxSlFjQ3ZRc1hfVGhfTG03ZXkwNGRXRjVSVE9zd1E?oc=5",
-          "publisher": "Amar Ujala"
-        },
-        {
-          "title": "Bigg Boss 20: युंग डीएसए और लव गिल से झगड़े के बाद स्काउटओपी ने मुंडवाया सिर, घरवालों को",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLUlwRERYSmdhajVoV2dIVnM0VENyVldxSHJZWjRwVXdvYm0ycFlUWUVQSlZ6M2VLWHhjMDFvNE5tc2hlWHBUeG9pR0p6Vnk4QWZBZUZSYUUtNFVaLTh3XzNQOTlNZjVWQmFlRHhjazV3eWRqRElnMjhTeVBFWjVFZnBWdk1fdWJzMkI2WGlXMTVWdkhUS0w1RWdHSTNTUEFja2g5MDFtSXQwWm00cFlZeldxeUo2by0wUTJvQUp6NDN4a0Z2LWtaUWt2eGN1N2JEUW5reTU1YWlHSWU2b1F6YkNYYkQ1Z9IB6wFBVV95cUxNLWhQS2p1aDZKcHhwWTlGc1ozakx5QlZYX1V6bVl4UnNhdzRsRldlQXBPRTVHZHFDZ2ZVcFRuQmVtQS1TemRzdHVIM0R2TTNIRzExQTctWU1jVzdGZ1h5R2diMmh0eEh3ekhoRjVuaDBPU0g0NFp5ZmJUZE0wRzBDeHpfNWxFUE4ydEFWRXlDYTdFUVdfc1JXS0Y1VzNLNTFFaXRtT1g4M1I3OHgzY3FsSXVXQWtPSF9fZFdqbmRVOVJHeU96QmZ1QlB5Qlh5bm02anU5NjBjaHUweWdYWnpXUkMzUVlraVdacUFj?oc=5",
-          "publisher": "ABP News"
-        }
-      ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-291859a164",
-      "lang": "hi",
-      "title": "Samsung Intelligent Eyewear: आंखों पर फैशन और टेक्नोलॉजी का कॉम्बो! Samsung ने उतारे नए AI Eyewear",
-      "category": "technology",
-      "published_at": "2026-11-13T13:23:12+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Samsung Intelligent Eyewear: आंखों पर फैशन और टेक्नोलॉजी का कॉम्बो! Samsung ने उतारे नए AI Eyewear",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPSjJpa2lnZ0RSQjdCMWFrcUdPM3BhMmREaGF0cEJjeDVWZFBiNjd2d0NkXzJLc21KbHRWYkhpX0xpVHNabXlaS0RtUjJVNWwtX2pJV21SSlgwQk9SMmNjMjhqSi1LMmZIUEg1dHN2WUVLd2RITWxfeGVBaEJCdmUxelIyOUxuOTlBYlpvd1dXbE1weHFVT2QtMWxTNkt2VFFsaFpvWmpnWVFxRGVEQzFOZHZ0S05hLWJPTWw4ZWdqaDg1ejJQb1NaQVJZOHBOd3k1aXY3ZTY5by02dGhuTHZwWE90c2hnNnZOWUNvSk5aSnBlc3BpOVdMSncyVVNydXVjckHSAYcCQVVfeXFMTW1WSkJqLXRBbTJpX2tJai1yNncweTA4Q003WTIxSDhkUXctYk5xdm5EbUN1cmlrQ2lGRGpudnIxS0hBUERKaktqT0tFQ1dIQUw1dGlENUQtY0dGMGQ3R1lHalRRejZHNWRheWFLYUhRNmdtNUVOeVRLQjNCQmo0cEtLb1VHMUhsYWV1dzlRSXE3bm5HOEc1dEFZYVBHeWd5eVB6MnlaQjRxYVI5elNQUFNHNEhDNlJzX1IzNkIzSHZuakhWd0l3RDluMUtVam13M0VTeGQ2SkpVQUlQYjFKczl6MnYwRUdCeHBULWI5cW1lbVB3SjI0Zk5JZDlHS05SMzhNU21WbVU?oc=5",
-          "publisher": "ABP News"
-        },
-        {
-          "title": "चश्मा या चलता-फिरता कंप्यूटर?: गूगल-सैमसंग के जेमिनी AI चश्मे लॉन्च, जानें कैमरा से अनुवाद तक क्या-क्या है खास",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSzFPaEpnUGthUlV4UGxhMGNSRExlc2t1NVc3aE9uMzVRRnEzSmRyTHN3UnBacmJ6NDV0TDZBb2o3Ry1Oei1OZkY1Q2p3ejFlV0QtQkcxQUdRTDJlUEpiREtEcFlRZ29IVTB3SmRFQjRYcGJDTlZHZG5xbVVPcGlzRmhweUxwQWQ4NV9UOVZ6dlF3dU42bU5heUNRazVCam50WnBLNVZ4UmtRbWlfcmVnaWlWSFZxc2VNb1ZUeGFBZU9OMVh0em1Ja2dIMkRCOE1Vbndr?oc=5",
-          "publisher": "Amar Ujala"
-        },
-        {
-          "title": "फोन निकालने की जरूरत खत्म! Samsung का AI चश्मा करेगा फोटो, कॉल और ट्रांसलेशन का काम, Gadgets Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT3ZFNl80a3d2ZUlrcVpWM2Y3OW42aV91WHZtWEpvMHl6VnpoSEVJRU9jLWhwMkw2b1QydHBidEhoTHJ4RnFDNWJJcmJCQU12MGxZLTJoYVlzcWlKamFTNmpBWEVsXzhDNmVmUjRUQVRKYWdjbHduX2ZYcUJ5ZjNsX3hUWFBRaHVIUUlhMllZU1hCbGZGVkQwa25ZcnA0cVp6RnBzdFJldW92MW5XMzlOdUUyMXN0bUxZU29xNGlmSVJCTHk0TmN4cQ?oc=5",
+          "title": "जापानी महिला मियामुरा छठ मनाने बिहार पहुंचीं, ठेकुआ बनाया; छठी मैया के गीत गा रहीं",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc2pjY2hld0hodl9SNGRpLUF2UmFDMFhvR3RGVXJqZVJaQXFwTjV5bWhsX2QycFpuUFNMM216ejJ5OHBqa1lvVmkxRGtqT2Z3MEJOR3otSWhlNENYWVJiaVU3Ti1GY3ZQMzlVdlBhWmZnYm9TOHppMlhIcEVEa3pSbWRoV2dsbGk1ZGplaEpKNWJJdWhvS1o2MktuYW5EeVFlNHkxVFhITUlmOFZwNnpGMTNNRi0ySzd0M3ViT0FzTG1IamU5cDhYNmFGdXhBNVpq0gHWAUFVX3lxTE9iUEo1WmQ4X2Y1dUNCV3VmVzhZQjJ5aTJ1YTdEODExN0hSTVYtNGx5WVh2eUg2ZkdqVGNKcTdMY2dKODQ2dXI5Qnk1U2pOYTZYQVV4cXdsSWg5ejhfcEtfUndHemVFMWQwc2ljclRPaXZiZllfcmZVYXMxbHRSc1gxcU1Nb09obDNtWXR3M0IyMHpPRFZrcnk0Mm5WZWoyaVk2NGhRcEY1Y0l2VEt2S01wRzNYbzFGWFh5R3dqNXhxVDF3QkRTQVc3UjFZZjhWSXNTeWRmSWc?oc=5",
           "publisher": "Hindustan"
         },
         {
-          "title": "Google ने लॉन्च किए Gemini-पावर्ड स्मार्टग्लासेस, दुरुपयोग से रोकने के लिए प्राइवेसी फीचर्स पर खास ध्यान",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQX2xkNDJJRXp1Um1KX0t5bHZxQlEyc0lFMnhmaTJnRW1kdWdUbXhqNXVEWmRLUGtWRVNBWDNFajFvTURwLXozTmdDLURQdFNsd01zNHcwek1WYjVmOGl5VTVfMURRb2NFbnZrVjVoYnQtaTNrbjZUOHVscmFxTm9DOHpPSlVnM0stRGQ3cG9NSnhaR0ZobTdCRy1nN0JOdUVjMlM2aUpwSEpFWHdRM1dUQVM4LVRSc0U2bFNlQzFpZUt1bXhmVjVlS25ycVpqU2VBRlgtdmNOZjZCM05OZUduWWFLdTF4UWd2cGtB0gHwAUFVX3lxTE9icU9xd2hBNWRnM01Yc2NlcnFQOXRGYjEyVWUwWG52SHRVQTFtSzR5MVFWZV9VZ2VUWll0RmtuOVhRVUx5b3FIWXBZcXplUFVJM2g2TWNHeG1zeWtJQm5qUkI5dTU0bmRIbUYtMTBQcUFmR3luYXE5VHNRQVgycUFnXzItalFtZ0pPZWJ0bmwyZS10M1U2R2NWUlc2QnV5a2xSdDFVYkVpRkRJNkdNQmhFNEtseUhKQmdyazY0R21OSlhZN3JyaWtOa2RCTDVUSWVvbkotSXZrN05KRkFSTFIyeHUtZ0xjSHBqOVFoVkVweg?oc=5",
-          "publisher": "ETV Bharat"
+          "title": "Chhath Puja: मुस्लिम देश में छठ पूजा कैसे मनाई जाती है? आधा भारत नहीं जानता",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWml3aGtwVEhTQkxTbllNMk9BbnA5OUdFUXZSekZFTHE4OS1TNjljYjczemtIcndMeGZzNlNGZGtPLThNWlQxMVV5bmlqamVIVEQwV0NfZ2tjZzB4UFhLQ2Z5N05sZ19WaWJRcjRIM0N0dy1RM01GSzlfQUNDLXNfcUZwZnV3Y3RuMDZLVUJQcw?oc=5",
+          "publisher": "Navbharat Live"
         },
         {
-          "title": "Samsung ने Warby Parker, Gentle Monster इंटेलिजेंट आईवियर किए लॉन्च, जानें कितनी है कीमत",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOHJNRl93LWJlSkE5Q2FUa2JvVGNEc2lsX0w5WjJockZUX1EtekFKTjcxcmpaR0RJMW5SMHlmb25RREZ2MmlJOTlJUm9OSzJnaDRSN01JVm5CYWRkZWFkUDZ5NEJwaExkM0NKWlp6MXpmeHpmbEJLall0R3Z3RUZPSTF5SVdjM2MtYVVxaWN1QktFZkVyVGNLdk50X0dWalZFSmZONFYtenFEREtGT2lWSnhZdG03ZkFjUmM3bDdwSEJVZFpjNEt6bjVTRdIB0wFBVV95cUxQUDJhZUZrQzRRRl96RzJJSGRPVkJzV3lkUlowRFE0NjVZUzRZZ1ZHX05taERjLTJiZzFQU3RRdnY5UW5lTzBuaktJSXExZzliOG80MjBtM3NMMThtNXd0c0U4WTFlNWhQNWpVaWN6a2dQSzk0QnQxaDRNSlNMaE9JcTl1QUFSRW5aMkxYckNPRXVxa0tUeGcyd0ZjaTQ5OUhtVHdoc3ZFdDdHdEU0S2gxekpTUVdaYlpMa0FaMnpXOGxMV3JtNTliTklZa3RkNUViMTJB?oc=5",
-          "publisher": "Gadgets 360 Hindi"
+          "title": "कैरेबियन और मॉरिशस में छठ पूजा: हमारी परंपरा जो समुद्र पार भी जीवित है",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2R1NqZ3lRT1laMkFLRVEtdTlSWWFEVUdkZVJjOThONU16c19GRFlZaVlwTEZ0emJMT2FoTG1ZOUc3MHdPV1NjQlJ5M3Z3TTFFVEhyald2LWwwUGV0VUltb0Z6dmJVN3VXSXR0TFZsU0dCdk0?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "ओमान के समुद्र तटों पर गूंज रहे छठ के गीत, सीतामढ़ी के राम कुमार शर्मा ने की थी शुरुआत",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdWNmTFJoYWhqZVpoV1A1RTU3TDNBd0g3UE5SZHVNb3MyX2hldFF0SXlyTWRmdWM5WmlibDRHYUl4NHhLNDEzRmtCd1A3VVdYMUdqQmp3OHl1UV95bzh3MzNQd1lxWmJNZVQ1Zkhfa1hLa1Znd0tKQ2Z5UmF0ZjEtZ19zUXlyb1JEcHlRNDNqX3IwdTFnOXVPUmZHbVU3cjZkODFZTXJZd1JzRjF3YlpTaVBTT0ltNkphT1NfRU9qeXZLbDNLQ1N6Y0hUR3RFelpOdk9BVHVETGxRbTlIM1B0dXhudGYwZ1JITVNIZ2NGQ0ZkZw?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "छठ मनाने जापान से बिहार के गांव पहुंचीं टीचर मियामुरा, नहाय-खाय के साथ शुरू की पूजा",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTlNSZWRrV0FDSzl1M04xRnZqSjJXRE85RG8xZHlCU3Y5NXhRYmNVZEg1c2RjNmdVcTRkLU1oSVRmeDVWY2dEUDMzc2JONnZlLVhsb2k1cW05NUl4Um9feFg5dEc2eWo4Ynd2UU9Fc29PeU1nREQwS1hkS0RPY0tBbmNfbEh0cFJ0d3hFYk1SOHRzUDc2dnA3bjlGRllOUjJ4VDZ6R2M1cXBRV0U?oc=5",
+          "publisher": "Jagran"
         }
       ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "hi-a3bebf5e6b",
-      "lang": "hi",
-      "title": "लद्दाख के केंद्र शासित प्रदेश बनने के बाद पहला बड़ा चुनाव विवादों में क्यों घिरा?",
-      "category": "india",
-      "published_at": "2026-11-13T13:17:09+00:00",
+      "id": "en-9dd326fa8e",
+      "lang": "en",
+      "title": "US Grounds All Departing Flights Due To Communication Breakdown",
+      "category": "world",
+      "published_at": "2026-11-13T21:53:12+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "लद्दाख के केंद्र शासित प्रदेश बनने के बाद पहला बड़ा चुनाव विवादों में क्यों घिरा?",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PWS1Zd2h5TFRncndmMFQ0RjFXTHZpdlc1N3JiR2hoOEV3N1NhNUpvUEl6d1BaM1FhSUMwQjY3MEU5MmhZQ1NBUHhRV21PUVBWZFQ1dnB5ZmdfSHct0gFiQVVfeXFMUGtOTHlFNHV5aGpYVmR6Vmg2UmVIM0sxTThwQl9PcGI4X1BaR1FXTmNoTnU3MGNReEI2S1c4ZjUyLTBsdDNOZ0w4SDY3VzhFN2c5c1FjMXFtSHdVeTRUbDlEeEE?oc=5",
+          "title": "US Grounds All Departing Flights Due To Communication Breakdown",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb0dDMUNzdTdmTS1IaWFKYXRJSW9nTmMta0dsaUtuN21INTZVXzkySXNjMEgyRHB1RlZBdWdiOHU0bE5XOG90TWdGTWwzdDNIZTR0U1U2U0hvQWRiOFpNNXU0V0dBR1RWWEZRQnhIa0NkcTgtQ2FlRmRrNWJCOHdnODlyajgyVEpJTVpZdjNpNk5ENDYtMUhPc2NwaTJGY3JacndEai0xTDh3ejhLYnE5NnRHbG5ncV9EbVdCSk5QMHZ1N1JFYWZtNmtuNURfMzAtTW81Wl81cGlxZ9IB4gFBVV95cUxQS2hkdWFsYkFlTjFkY01HMjhrQnVHVXp3eVpCeE9laXNCZnZ2Rm43RmNFUWxXLXd2U01lYW8xLWZHZnEzeXpMVjRmczJ3U1NjWDNkc3NLQmFaVS1ndDB1VVItT0xidDctcVpzSkhoeHd0cHhUcGE0ZVczUUIxUFp2cHJzN3dfcmx1YTBPTENaU1J0eG1sa05MNWEwMFlOTERvUWk0WVY5UkRUbURnMmNPVmhKejBJak1fQVg1OHJXTGJLNnlkeUNvcEVmQktpT3M2clh0WEtYYW54MHlQTTBNckFn?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "Flights grounded across US due to air traffic control 'communication issue'",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tR2VwaG1CVFU3Y3BwZ09SNzYwT3JOUmc2X0dSLW9HbzRJTDduNnRKN3BzalhmSDlkc1owcExCaGZTNTNJU0tHdldrelFHc0dqa0x2QmR3?oc=5",
           "publisher": "BBC"
         },
         {
-          "title": "‘मैं हाउस अरेस्ट हूं’, सोनम वांगचुक ने किया दावा, अभिजीत दीपके ने कर दिया बड़ा ऐलान",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVHY3V2VYQktwdmF2amVvRWpkUjY1WjYtOTNmcElFVktDcnlndjctcmdQZEdFaVJoWTk0RnpHMTF1ekloUi1lVGlRWjhtOVV1a1lGbk9MMG43dWdUYVNDRDJablRwUFpRa05uSE5zUU9KVXpJbXp6WEVkeWpXWVpvRG4weER3aVVvbGM2aGN3V0ZvLXprTk1XT05yOFB1eVdlSk4yeGpoYXJsUGU5MWo1NFFYNzh0bmhSaldlNm5mWTY4dnliY0h6WDFabELSAdIBQVVfeXFMUE1MNDVzRTZCQTA5U1ZwWTMxakpSeFFSRTdzLWtJUm1qZzVrTEJscU1wOVNtSWpiTkszZDhhSHM3TFRHemdJak1DTzljU3E1eG5nVDZSUVR4bllFc0s1bzYtRXRhbk9PdGZZMGJKczVxOXMwTTVnVHU3NklGd3JrWUw0bm84WklWZ0IzSXM3VjFRb2hvUGpWWURxTmNfaXpDMlBiT0tmR1FtNW5pWnNPaUd0UF92ODQtQUNrSmtPakhsWmdfX2NkbGJfbGlzVnNxVlRn?oc=5",
-          "publisher": "ABP News"
+          "title": "FAA orders third nationwide ground stop in its history",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZnFrR2RrLVZzd0U2am5TYTUwUXpabDAtQjhhOGMzVy1aR1RVVHpDNFBSUzVFZm5UU0YtNG5TdlpXMXZVMjhpR0tKano2OURtRG9VaV9ORlYwelZkMzVlLThzZlF0dHlXX1VUellZRzdXOFAzb3l6WnI1NkZXa3NfdG5fUFFwQ2pEZ0U4ZGlMU1FYSEdhNFU0R0ZzVmJocmJH?oc=5",
+          "publisher": "Ars Technica"
         },
         {
-          "title": "'मुझे घर में कैद किया', लेह में प्रोटेस्ट से पहले सोनम वांगचुक का वीडियो आया",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX3J5ZzlRMFRBZ1pkM3JrMW5keEhFeXlGcWFlS0h6QlhEU1ZsRG13MkpaSnN0V3JpeXVSd0dXUUR2cEYxeEJvTEpWWWhpRk1VcHUxQnNRRUIyZ01oNFNpZFRPeVJfUHVrbURMZEtGRm1kR0p1OFlGQmdZRDNOc05oRVVfLWNwVFdsY2RIeEcxMThCaHdocEhULVlONDJwNUQ0LUZxdElUSzRGWmpnTGlSatIBtgFBVV95cUxPREY5aklIRHRpNFhaSDU1NXg1a1JTeEtJQU9mMFpWNGc3QVZrWTljMXJja2pqRUpGQTZGcFZOY2p0a0t3bEJyd0NGeGJMMTlJcVZmZzk2SWtDSmhCNDBHUy1rU3c3aUdKV3JNNmxGLVN0OXk3a0hSU0VVQzdEdGZzM1FqcUFaYzJhTndORmIyaElYck54WE41MEZkSnFkb3kyYTNTek1DbWlXcVJubnFYTjR5em1DZw?oc=5",
-          "publisher": "The Lallantop"
+          "title": "Live updates: No timeline for resolving nationwide ground stop as flight cancellations climb",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81eUJ1SV9Pd0hzS1ZmVk1Ec1A1MndfTTZiaFE0VGh4Ym04VnJMcWVOSHpOVmJYOFowSGtCOVB6Z3pUZGZoQmlVTHlDSG5lMldwZTZMNWFuRk9KM3ZnWXRlRTBid1ZRMGczVGh0OWkxa21OZmpMcHc?oc=5",
+          "publisher": "CNN"
         },
         {
-          "title": "केंद्र से लद्दाख के चुनाव मई के बाद कराने का अनुरोध, National Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb2JlcFhaT09PWGdnUllxWDFUWmFqM1RsdkJTLWFMVno3cDJNdk9pREtkRklzbFFMX0laYURDVWw0TUJ0UEliSUJZbHd2QW8tQ0wyZ0VpWFkzOWhnaV9ZQWp0RDZaTEphdHNzRnd3T1VFUDhUOTVhRGhSdnJBdzI1T1NSdVdjSmp1a2FnYkM0Q0hFcFc3OFA3Z1lPYnRTS29PU0dEcFVhY3lHTjJzSmx6NHN3cWJ3MkxwNlpnQlAtN3d1dkswN0swbUhLWS1MS081eF9NemFoVThvMTZQS3c?oc=5",
+          "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hX3BIV3d1d296TGgtNGV2UlRDNExkUFdHUG9WNWM4c0Fhb3VmMENXVGxhVmR1LXozQXVJaHhUR3duZkhab0EyN2ZOMDJJaVJZdGdldEpqWlJweFJ2cmJJMnc5TkhoalRLbVZZdGFhRFpMWEEz0gF6QVVfeXFMTjBaaWpzaW1EUjJpU05IOEVQTlRHV1lJWXhlQVNhN09LNjhLcFNVM096MFVOWVRuSkRURTFGWW53SmtkZEJfSzV4ZXlJNkRndTlBa1FRdVlVZ195QzhmZThLV013dktfbDlzd0dGM0thaC1relMxbkx0anc?oc=5",
+          "publisher": "Al Jazeera"
+        }
+      ],
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-9dd326fa8e",
+      "lang": "en",
+      "title": "US Grounds All Departing Flights Due To Communication Breakdown",
+      "category": "business",
+      "published_at": "2026-11-13T21:53:12+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "US Grounds All Departing Flights Due To Communication Breakdown",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb0dDMUNzdTdmTS1IaWFKYXRJSW9nTmMta0dsaUtuN21INTZVXzkySXNjMEgyRHB1RlZBdWdiOHU0bE5XOG90TWdGTWwzdDNIZTR0U1U2U0hvQWRiOFpNNXU0V0dBR1RWWEZRQnhIa0NkcTgtQ2FlRmRrNWJCOHdnODlyajgyVEpJTVpZdjNpNk5ENDYtMUhPc2NwaTJGY3JacndEai0xTDh3ejhLYnE5NnRHbG5ncV9EbVdCSk5QMHZ1N1JFYWZtNmtuNURfMzAtTW81Wl81cGlxZ9IB4gFBVV95cUxQS2hkdWFsYkFlTjFkY01HMjhrQnVHVXp3eVpCeE9laXNCZnZ2Rm43RmNFUWxXLXd2U01lYW8xLWZHZnEzeXpMVjRmczJ3U1NjWDNkc3NLQmFaVS1ndDB1VVItT0xidDctcVpzSkhoeHd0cHhUcGE0ZVczUUIxUFp2cHJzN3dfcmx1YTBPTENaU1J0eG1sa05MNWEwMFlOTERvUWk0WVY5UkRUbURnMmNPVmhKejBJak1fQVg1OHJXTGJLNnlkeUNvcEVmQktpT3M2clh0WEtYYW54MHlQTTBNckFn?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "Flights grounded across US due to air traffic control 'communication issue'",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tR2VwaG1CVFU3Y3BwZ09SNzYwT3JOUmc2X0dSLW9HbzRJTDduNnRKN3BzalhmSDlkc1owcExCaGZTNTNJU0tHdldrelFHc0dqa0x2QmR3?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "FAA orders third nationwide ground stop in its history",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZnFrR2RrLVZzd0U2am5TYTUwUXpabDAtQjhhOGMzVy1aR1RVVHpDNFBSUzVFZm5UU0YtNG5TdlpXMXZVMjhpR0tKano2OURtRG9VaV9ORlYwelZkMzVlLThzZlF0dHlXX1VUellZRzdXOFAzb3l6WnI1NkZXa3NfdG5fUFFwQ2pEZ0U4ZGlMU1FYSEdhNFU0R0ZzVmJocmJH?oc=5",
+          "publisher": "Ars Technica"
+        },
+        {
+          "title": "Live updates: No timeline for resolving nationwide ground stop as flight cancellations climb",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81eUJ1SV9Pd0hzS1ZmVk1Ec1A1MndfTTZiaFE0VGh4Ym04VnJMcWVOSHpOVmJYOFowSGtCOVB6Z3pUZGZoQmlVTHlDSG5lMldwZTZMNWFuRk9KM3ZnWXRlRTBid1ZRMGczVGh0OWkxa21OZmpMcHc?oc=5",
+          "publisher": "CNN"
+        },
+        {
+          "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hX3BIV3d1d296TGgtNGV2UlRDNExkUFdHUG9WNWM4c0Fhb3VmMENXVGxhVmR1LXozQXVJaHhUR3duZkhab0EyN2ZOMDJJaVJZdGdldEpqWlJweFJ2cmJJMnc5TkhoalRLbVZZdGFhRFpMWEEz0gF6QVVfeXFMTjBaaWpzaW1EUjJpU05IOEVQTlRHV1lJWXhlQVNhN09LNjhLcFNVM096MFVOWVRuSkRURTFGWW53SmtkZEJfSzV4ZXlJNkRndTlBa1FRdVlVZ195QzhmZThLV013dktfbDlzd0dGM0thaC1relMxbkx0anc?oc=5",
+          "publisher": "Al Jazeera"
+        }
+      ],
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-94c9aab66c",
+      "lang": "hi",
+      "title": "मोबाइल रिचार्ज के लिए हर महीने देने होंगे ₹350? Airtel के फाउंडर ने क्यों कही ये बात",
+      "category": "business",
+      "published_at": "2026-11-13T14:58:47+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "मोबाइल रिचार्ज के लिए हर महीने देने होंगे ₹350? Airtel के फाउंडर ने क्यों कही ये बात",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRjlTcEtpa1Vnamlwa19SVm1mLWJPb0pldzJNWm1ZWmNPSThnYTYwbjJoRW9sanNwS29sVGtaUmJEMHpGVGVlVU85aFN5alYxNVFGdkdWajF2dUJqQk1BSmdwZVVtY1pzRDZUNngydE9zdlAxdHVoZnJya0QzT01CbmFKMDBUVkt1dWYxX2w1dGdvTmVZZkJUMUUyMXd4dW92UWVlanFOTDhfNHRFMC1nT2ZXVkNyUTRobGRZd2JwYUJUOTJudExkRmh3OUxnNVBXMml1Ry1hTGVIY0g3S3c00gHkAUFVX3lxTFBMV2Q3Q21lb3JoVVI3bzlNWmlRTkpxN1dwZDFnWjdwdWxibGtlSTVSOUQ4OE5UbDlCa2VqSWhuXzVwMTUwUGlrMXpRM0wyekM4cjhjQUxEamF3WmxYNmRKWDJTMTlwbW1hekl1ME5JM0I3NXozZ182N2I5SlFXZ0ZoQlRBSW5HMzdLSzRtMDNGVmRpNzVjd08tMmlJMVNUTmdFc25qN2dxcXl2ZTllVEdTMEVJbDc3UEhjcktiVmI4SEpRRFQ0V0JjZnphQUlwT2Y0bXVOeFhvcHZ5N1IybDZ6aU5WWQ?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "Airtel-Jio यूजर्स को लग सकता है महंगे रिचार्ज का झटका, सुनील मित्तल ने बताया मोबाइल प्लान का खर्च",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSHJoWGpDSGZhbV9HRnhxczJZS29mX0wwTTA1UkJ3MVJFbm5kUXp1X2NtaDVWUFZDZHgxSmRlWE0ta1pYeDZRLVoxQU5OSXc1aFBsa0JGZlBGYlFzako3RWN5N3c0enZfdFR6eTV2cVpCbWc5dGF1SExiVGxma0hZNVRacll6eGU3czVzcVN0U19fdW93MHdwV0Y1NGFoYmxkb0tYR1ZoTXpyUnFVbVFkb0wwSzNJaUla0gHGAUFVX3lxTE5mNXA4TmNGeEFnV0xHQ2VaMGVxd2x4eGlManF6andyYnVUT3NKS2t4dlRmNEFSZWRfR2ctLXdqa1N4NlJXX3JyYlB4T2EzMUF0QzVYYXhISV9ZNG5kOXdULWQzeXA5WnRTUndfUjZRZ1dhSWo2ekpfQ3VUaHdzX0IwbGF2d05TaVVSWGFxa1RZR1FoT2tvelhGTkdUT3Q1MzEzdWNHZ29NLTVrOEhuT25HODM4THhHUkdKQUlKUjJkUlUyOGhDdw?oc=5",
+          "publisher": "Navbharat Live"
+        },
+        {
+          "title": "भारत में सस्ते हैं रीचार्ज प्लान! Airtel चेयरमैन का बड़ा बयान, यूजर्स की बढ़ सकती है टेंशन, Gadgets Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQmpCeHJEYkR3WjNlYWxEQnFMRlA4OE5PQ0xBNEtfY0gxLWNGYi1RYjg1Rlo4bkdZMEZqWFo3S0ZTVDV0Vk1meUZsdTJwLTg3NlR4ckRjd2RBT2ZvSFNPUkV1SHd6RjFxN1ZkNjB0TThnNTR6aE1JcWszaENSZHBxZHRKMWpPZVRkMGt1dF9GMFZoVnF3R2NhS2tZSFdOY1B2NzlIY2laSkxzWHp3U01aRTMzWDJsUVltZjAteWJnZjVlWC12R1ZmNEZRT04wSFoxME9GRV9HN3RjSGZTZmtLcw?oc=5",
           "publisher": "Hindustan"
         },
         {
-          "title": "सोनम वांगचुक ने कहा कि उनके घर के चारों ओर दर्जनों हथियारबंद सुरक्षाकर्मी तैनात हैं.",
-          "url": "https://news.google.com/rss/articles/CBMimgdBVV95cUxPcGpEQkJ1Rkg0blBIVzlEOVhVa3BXZkJzWnhHeVZwT0M1dUVyVkhOZjBTYmVvZkJrYmprSl9tbFFaQW9ZTVF1aUxoVThXSjVaSGxjRDJUQTlZSVpscTRidllIYWhVVEEzaUZyd1pzNGJEWHY0My1uNjQ3ajVqd3hmTzBGeG5fNjllT1d3RUlWLUdYX3piOUJJSzBrN00tX1ZWQU4zVVNIcjcwdWxlQ190WWoycjZabGNPbGo0RWhNcFJtR1ptV3h0dDF1ZEpuTzk0V25qUF9IXzdzSHR2dHI4WjNINGpGd01JME94c0tLYUdpWUZNOFVnNC1veV96TXVSVEpFWER5YjREQy1iUmk5dGJmNXN6MXlDY1NVc3VLVGFlN2h1ZTVoeHh0enI3THJmWXZfQ2I0VmF3QkVGZE1TNm5yZTV6T0hqbmQxT19KSXhIeUk2WlpHR1lRRmxtNlh6TGU0ODdiVEh4aF9PQldRODU2b2lFN3g3Zm1ZdWFpcUk0UDhRWE1PTFBWLTdoTUpBcXJnTER3ZVE2b0J6VlVkZ3NsQS1aWGN0ZTIyTEpQTFEzM3VBWU8tVGxreFJkWkd3WVhJeGtYakJWN09uZDJpX0Rodl9leElEamFHVEtjTDlhWjRQRlJ3M2VRTWRrb09XaTZGNkh5OFJSQWctMjMwUmJPWS1ldkFIOWdvSDNxdk1vQ2tpdng5eHAxLWZhdTN4dENQUDVZS3MxMDlBZllXVXc2RXVNbV9UMEw2dXlqc2ttaU5SdzJIMm8zRWlROU9GenZjOG1JbERnOWFfTlBJWWFDNGxIalk0eUxwV1VDT2JDY08zTnpqZ0tGQVdQakQ1RlBlTnd1V1o0OTBFT293bVZrZVl6amJQc05xNXREYmdoTW91RU13TUk1OHdLX2Z4bGVCcDVVNXNYNUgxS2VHZUp0ZjNJcXJiYTVvbkNvNW9oNjFMZFNDR2x0bFJuV05xMVZObVVuX1NtZ29YWFkxbGhjSHpQd2ppcFo0TGtMU2xnTXQ3SlloU3dENFJPTFc2aTdYRWk2VE9teU9xRGd6UFVTQkZPdFgwWm80QzBGUVVETmUxZ1JnZjJVR1lVaElKMzV5MTByejFhQ0VETXE4N0JPbE5KVDUyX3hHcW53REZrYnU2dlE4WWhNZmJ3VW1CSlJyVlJnWHNWMmlKUDZReDJDcjZTT1lYdkh2UXh2cTZiTzI3MHNpOTVB?oc=5",
-          "publisher": "Facebook"
+          "title": "सुनील भारती मित्तल ने की वकालत, कम से कम 350 रुपए का हो मथंली रिचार्ज प्लान, कर दी पेप्सी, चिप्स से तुलना",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcWFzZnVsa2pVTHJOeEhwejJzY3lJUGd6Yk9mQ1NQMkhUZXRTUjI5YWkzR2NxWk1MSUhIZDBydmhiZW5HNDhQSGZnZkJXQjNjYnVoR1FkaUM3djBkbnhEdmNYMWdqV3VZNWRXTVd3UzZoS0NoRlA0MFEyUlhDVC1Rdy15NnZSY0ROYUYwMFpTamNrQm0zTGdHaTBISHlodWoxeHBzSk5CS2RFSmNrQUVldDN5RFN5MUI2dHF2UlZ1NkE3a1I2alZmU1Z0ZS1mSGd6Y0pZSGxGUWU5SjB6SGZkVExRSEPSAeoBQVVfeXFMTXJYdnZUbnRMakw3YTB4VUdncElwdlJsYUUtc0llRTFrdGRNY0dGLXZzLS1HRGZDU0s4VzFVN3c5QnBZbnRDeElKR3VXaUFLSUpHeFNaeEN5Qmw4aVlmZndmYVV2MWhtUEVzWGFMTGRqNHltY0tzNjJCUlZyYW5sUlZTbXZLZnBfRTRMcmROcmdKVDZ3YzdONGZqdkF3dl9obVdFSEhTQUxsUEU2VUlZb1d0Nkt3S3J2Z1N6Ti1Ra3AtM01RWjIybmNGMG83SnlvYWxZRTh4eDNDOVNwUmt5X2lVdmxWWDlNRWtR?oc=5",
+          "publisher": "Money9live"
+        },
+        {
+          "title": "मोबाइल रिचार्ज होगा महंगा? सुनील मित्तल ने क्यों कहा- रोज ₹10-12 खर्च करना महंगा नहीं",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNMEtJZklvcnZoTFllTDJYOGdMOGxETDhYd3BNcDIxME0yYXd3aDkwQVF5ZE5FQzR6YndtbzU2YzBQX1Riay1YU080LUVYdzgxTzRpYWZ2cFlJUnRhVXFDQndza2lhWnNpVk1PY0Ezc3JUY0pNY1gtQ29rWU8zSXhVV2gyVUxqdEtXYWRLX0d2ZWI5N01Mc2c5U25WMHVfdm54Z1BwY2ExdmJ0VjRhS3FQTHI4akNVUzlQZ3JKejJGS1B6d1lEUnRUMUFWRklUNTV0dUYxaV9HSFVyVF96LTJlRllHeVRxYjZoWGtFU0wtdC1ZOXBfdDBFclJfYTZPR2lvWWE5ZklHcWNYSnlObGfSAZMCQVVfeXFMT2JWckJkaHdsMTVlS1dJMVlEdTZNenVnanNGbVdhekU2Z1dLXzFDNERNR2JHWWtRck1wQkVhN09WZXBta3h4VHdSdU9mUDhqQzVKTEdHd3NlYkJxM2lnNGN6czlURG1reFdMX1BrQVFCbEVIQ1RYeTNUbldmRFBaYjNsYnZydHpXMXg1cVNVZWlwWVlCWHpfOF9OZHZSOEtyQVVnLVIxeG4yVXNZT1JsNGVjbHFBQUtHdFpLS25NSXV4VVc2V2FRNXBFSjFFd1pKVm9VRXlLTC1mekwyZFpOdzV2SEctNFRMUkpQSDdGOU5qekNsQzRna2NxQy1yLVlnN2ZlMFkzU1lDbklUVzlCTzctT0k?oc=5",
+          "publisher": "Business Standard"
         }
       ],
-      "queued_at": "2026-11-13T17:38:19.268609+00:00",
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-c6707ea339",
+      "lang": "en",
+      "title": "Flights grounded across US due to air traffic control 'communication issue'",
+      "category": "trending",
+      "published_at": "2026-11-13T21:30:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Flights grounded across US due to air traffic control 'communication issue'",
+          "url": "https://www.bbc.com/news/live/c6z9dwn12037t",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Live updates: No timeline for resolving nationwide ground stop as flight cancellations climb",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
+          "publisher": "CNN"
+        },
+        {
+          "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live",
+          "publisher": "Al Jazeera"
+        }
+      ],
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-de4efeedc7",
+      "lang": "hi",
+      "title": "Gold-Silver Rate Update: दिल्‍ली में सस्‍ता हुआ सोना, चांदी के दाम में 3500 रुपये की गिरावट",
+      "category": "business",
+      "published_at": "2026-11-13T14:56:52+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Gold-Silver Rate Update: दिल्‍ली में सस्‍ता हुआ सोना, चांदी के दाम में 3500 रुपये की गिरावट",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcjFVelVSYU9iNWlYZU52YXlSWGk2dXZIRURXcEVEWjVLaWJqbUIzWXpHYlQ2MnRhV1haaVBuTFpwVE1XSUh2aURIYWJuOXhPTGwwRDExcU1lWnU5aUxCeVBsc2tPMWdETDljVngzVmZGMlJ4SFpKOHpQelRZMHJPY1ZSZmtabkNuenhDNXdSY3R3MzZjdG9jU3pQVm5PLVp4ZHdXWkhBcFdsaGM2cWJnbFl4UUtmSUg0WDAtYjN0WmxFMlU20gHKAUFVX3lxTE9ieHVoRUFaRnd3TEpnejQwY05xdFNGQ1VOb21BTHp4c1NocDJsWWpoZ1lab09jR1pJdm1NLTkyb0VBWU9lcEJNOFVVeEFaa1M4dUNqV2NrY0VIcW5zSkpLTTZBU2tMR1JDajY5bXZqSzk0eEVVSUo5TUVYaFgzaU91M3N6NGpVSmJUclhxblZ3S0pjaVpfX0FVYkZOUXNFTTVqT1dOVVhRLTlPMjRpcG81NmtXc3JTUkJlam5Tbl9NbmluNmxLNmJSNHc?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "Gold Rate Today: सोने की कीमतों में गिरावट जारी, दिल्ली में ₹1.39 लाख के पार 24 कैरेट गोल्ड; चांदी भी सस्ती",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRVpuZUJCZ29uR29XVHZIaThrWFF3eVFGRVc0T2dBSFhSS3ZSdUl2M3l2WVpoeUdxNDFSQ1ZDN1ZwOGRQWkZuTnlkcjIwak12UXFncWZXZWZMZ3BEUVVIWE85aDI3QlVBNkx6cHpNSHJzdmRDWmVwT2thb0l3dmJEdjlfS01hSkNTOTM3MDBuN0k0czA5dEdSZ2d1RlTSAaoBQVVfeXFMUDBoQk1mSTRrT3VycXFZVjFBSnZNZFpZNHhVMW1nOU96aVJvQzBiSnRmdXM0cE14UklTQU9hejdYZWpraHFuOHg0R3RzdGhiYWlGRzlYQzMyeV9rdmtmanVOZktQN2N2VGUyd2o0LXFWblFWekRIMVJlaGw3ZlJoMXNOOG94ZE1wQWpWejVlSFNlYXJlUG5RTjRaQ1ZQbm5xRE1RRjNvbEd5Y2c?oc=5",
+          "publisher": "Navbharat Live"
+        },
+        {
+          "title": "लगातार तीसरे दिन गिरा गोल्ड, 2200 रुपए की बड़ी गिरावट, जानें आज सोना- चांदी का ताजा रेट",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOUNhSE8xTTBVdzBWN1l6aUxzVlpRMmRLdE1PNHl3dldPTWs1RDRWTXRCS3YxcHptbDRUajVTdHFrQ21SMDd6aVpkbHo1OUx2aUgwYl9rRjA2YUdoNDBkeEJNMnA3eUowRzczSVpDdXczMFdEdUJmTDBSRTRjcWpFbjFldzBsRkJtU0R4YnRyd29fenBMNWs3MFYxWlNuYldKVXl2SEhYNWttZnN4Wk9vRXJRaWxRM0liTmdSNFpnLW5MRWI3RUROd0p1ZzNuOXl1bDVtc2ctWnpCUdIB3wFBVV95cUxPeVdIMDNTNi05ZUx0SmppaHRENHU2S2JscGlmTi1vS1NWME9mZWRNU1Jsc3otcUdhMklXZWVnVEd5aDJaZkFEOXU0ZWF5UGQ5VDUyN1l5RXhoeWxOd3pTbkt4ei1WZDBBOWJDVkQxRk12U21QSTRuM2N0NmVMSW44Rmd1ekV3VzJTdmZsenNDVlJxLVBmczBtNWJ1eTJ1ejBkcjJnbThNNnRvS2d6UkVnOE1uNVZsbVNjd1Bodnk5cDV2VkVOR2JxV3ZNM0duOFBSYUM0RWQ5QVlLaTdCTDlR?oc=5",
+          "publisher": "ABP News"
+        },
+        {
+          "title": "Gold-Silver Rate:पटना-रांची में सस्ता हुआ सोना, चांदी की कीमतों में भी गिरावट; जानें ताजा रेट",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc2lpcF9kUk9QZWEzWGtyVWZ4bDdZYWJPRWpySHpzZTg1QkFkS3BwS0dpblliSXNrNlJJeXhzN3M2WmJTcnNXMDIxZ2doTnBWMHF1U0pDQmJrX1pKcU13OTJRTmlvZEhTb3lkNEJ6aVQxOTMxN1ZsOHE2dW5fRXFtc215b0U2X1RRNUZMNTBTQTE3WDRD?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "सोने-चांदी की कीमतों में बड़ी गिरावट, एक हफ्ते में ₹7500 टूटा गोल्ड; चेक करें 24k और 22k के नए रेट",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZzhFQzJhM1d3ZHFiQ3NLUU5BZkNhZTQxZ0pfUjNnRFpTckhSTVdzbXF4QkZCcFFFajliWWlpSGhaVlNpNkF1RVkyRXdTVWlUVXh1UTdzUmdNcHVvNmxXMzNrbWcxR216YnE1cGRud3p4UldCR24tR09jcldJWmY2ZEwzdlgweEZqNHJ5eGNkbVMtU0JsQzBJdWtKakJoQXYwWDhNT1pYbENueVpmX0g5UElWUk16R05rM3BIN3lrRFU3aTBSelBvWFh5Y2xEa0l2TmlaUHBSYVJpOFRub1Y5MngxNFdRaW9pRzYwS1ZMVkdkU3gteHRNUlBNNXNuTUU?oc=5",
+          "publisher": "India TV Hindi"
+        }
+      ],
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-2e119b7d03",
+      "lang": "en",
+      "title": "Muchova withdraws from WTA Finals; Shnaider replaces her vs. Andreeva",
+      "category": "trending",
+      "published_at": "2026-11-13T21:30:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Muchova withdraws from WTA Finals; Shnaider replaces her vs. Andreeva",
+          "url": "https://www.arabnews.com/tennis/muchova-withdraws-from-wta-finals-shnaider-replaces-her-vs-andreeva-3011712",
+          "publisher": "Arab News"
+        },
+        {
+          "title": "What Happens If Mirra Andreeva Wins or Loses Today vs. Krolina Muchova? WTA Finals Semis Qualification Scenarios Explained",
+          "url": "https://sports.yahoo.com/articles/happens-mirra-andreeva-wins-loses-192525959.html",
+          "publisher": "Yahoo Sports"
+        },
+        {
+          "title": "Andreeva routs Shnaider 6-2, 6-1, moves on to semifinals at season-ending WTA Finals",
+          "url": "https://www.foxsports.com/articles/tennis/andreeva-routs-shnaider-62-61-moves-on-to-semifinals-at-seasonending-wta-finals",
+          "publisher": "FOX Sports"
+        }
+      ],
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-25e136b8ca",
+      "lang": "en",
+      "title": "Today’s NYT Strands Hints, Spangram and Answers for Saturday, Nov. 14, #986",
+      "category": "technology",
+      "published_at": "2026-11-13T21:00:04+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Today’s NYT Strands Hints, Spangram and Answers for Saturday, Nov. 14, #986",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSXpmWXFtVm4xeWhBVEk5NldQRlIzSHFuVlBNTzlMTS05UUlzXzhpUGdQQjR4TkRsNS1UUGswQ2tVRTNyek1IeTJMR2hFNVNqSjhhYjBUc3BYbnlMQkh1YU1sRlVSSWdtX3ZpdFZkYmE5dDdoNUx4TUpUQlV4Zk8weUtwbmc2NHZpOWR3aDJjSzJsZG1rSXc?oc=5",
+          "publisher": "CNET"
+        },
+        {
+          "title": "Strands Sidekick No. 986",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5vLWEzQTdQVzNpZTFWU2RfcHNJdmJmNUZrZlRndUs1RzJfa3Y3ZEw0QUtucHp1NEg5V3FJZnNPLWotRWc4ajAxcV9KQzZtZ3kzanpVTC1lbXh3UVlSa2d4UG14NHdMMUk3WF9HMU5Vbjk5SjNSeFZNX0xHcw?oc=5",
+          "publisher": "The New York Times"
+        },
+        {
+          "title": "NYT Strands hints, answers for November 13, 2026",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jSTR0c1FzcHVMUE9mQTctMWY4cHo4d2J4NzJwZzRQakZTMGd3bkJXbGlTbHBtUEVja0VvRkxfOE5kcHZhRHVhbGU2bWM1ajlZSmwzMHRva01ldnhDVTFrTWZLb0R1NDFVTV91dlF3TFpUc21aRlJv?oc=5",
+          "publisher": "Mashable"
+        },
+        {
+          "title": "Today’s NYT Strands answers, clues, and hints on November 12 (puzzle #984)",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcFB4cXl2LUhfMUM5NHd1SzFtQzJaUm9kU2hIOG9OU05JcldLUjJSNFNqeGU1QkRfaVFPNmpZeF9TVzYyNlFGdDJZWU5HbzVTa1lwSzVSdzF0RHVNeE4zME5UdGcweVFsdlB3ZDFMSDBnTGd3N3g2YWZyNWtUWjVRQVlHXy0wWk53OWhhWVFjZDZQZnh3b0RXT0Q5a0hVYms?oc=5",
+          "publisher": "PC Guide"
+        },
+        {
+          "title": "NYT Strands hints and answers for Friday, November 13 (game #985)",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNzRBbkM4Q2RMVWwwQmpyc1RoQTVkM19pVjZpVm5TUEl5QW9WQVNrUVpvUWZyV2JzcEtLbkt0OTNTQlhGY19mNGVaV2FnZEdlZE5JYldvbHhfcV92S3o3UXgyVy12aElnWXBLclNXWERxNXAwOHpUZEd3OG9hcWNqQ1lhNl9aa3BvaUR6VE9FcTZVY0kwRmxsT1BmLThsOG8?oc=5",
+          "publisher": "TechRadar"
+        }
+      ],
+      "queued_at": "2026-11-13T23:28:23.095650+00:00",
       "reasons": [
         "insufficient_value"
       ]
