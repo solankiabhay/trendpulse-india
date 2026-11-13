@@ -307,12 +307,12 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
       "image_path": "assets/news-images/334c971ff66cc392f76c.svg"
     },
     {
@@ -746,11 +746,11 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-10T21:45:55.854045+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-11T09:15:02.420051+00:00"
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -867,12 +867,12 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
       "image_path": "assets/news-images/c14b5552739c1dcfc788.svg"
     },
     {
@@ -1016,7 +1016,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-12T00:27:06.094263+00:00",
+      "generated_at": "2026-11-13T01:00:34.398439+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1047,12 +1047,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1145,12 +1145,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -2330,11 +2330,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/ck1l3dj5d53vt",
       "image_credit": "BBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-05T21:03:59.078162+00:00"
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-0d46ff9912",
@@ -3309,14 +3310,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3490,14 +3491,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4038,12 +4039,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4138,14 +4139,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -10182,10 +10183,13 @@
           "publisher": "Squawka"
         }
       ],
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-05T21:03:59.078162+00:00"
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_source": "https://www.bbc.com/sport/football/live/c679py38w41yt",
+      "image_credit": "BBC",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-aac038e165",
@@ -11569,12 +11573,12 @@
       "slug": "q2-results-live-page-industries-profit-up-3-8-to-rs-202-cr-a-66f75b6e4c",
       "url": "en/posts/q2-results-live-page-industries-profit-up-3-8-to-rs-202-cr-a-66f75b6e4c.html",
       "title": "Q2 results LIVE: Page Industries' profit up 3.8% to Rs 202 cr, announces Rs 150 dividend",
-      "summary": "Moneycontrol.com: Man Industries Q2 results: Net Profit at Rs 82 cr. Alkem Laboratories Q2 results: Net profit down 11.8% YoY to Rs 675 cr. Q2 results today LIVE: Page Industries' profit up 3.8% YoY…",
-      "source_summary": "Moneycontrol.com: Man Industries Q2 results: Net Profit at Rs 82 cr. Alkem Laboratories Q2 results: Net profit down 11.8% YoY to Rs 675 cr. Q2 results today LIVE: Page Industries' profit up 3.8% YoY to Rs 202.5 cr, revenue rises 11.5%. Q2 results today LIVE: Page…\n\nCNBC TV18: Shares of Page Industries Ltd. fell as much as 12.5% on Thursday, November 12, in response to its September quarter results. The numbers was subdued on a year-on-year basis across parameters.Page Industries reported revenue growth of 11.5% during the September quarter to ₹1,439.6, compared to…\n\nUpstox: Q2 Results Live Updates: Page Industries reported a 4% increase in its net profit to ₹203 crore in Q2 FY27, compared to ₹194.76 crore a year back. Its revenue rose 11.53% to ₹1,440 crore. Q2 Results Live Updates: Page Industries' profit rises 4% to ₹203…",
-      "article_body": "Moneycontrol.com: “Man Industries Q2 results: Net Profit at Rs 82 cr. Alkem Laboratories Q2 results: Net profit down 11.8% YoY to Rs 675 cr. Q2 results today LIVE: Page Industries' profit up 3.8% YoY to Rs 202.5 cr, revenue rises 11.5%. Q2 results today LIVE: Page…”\n\nCNBC TV18: “Shares of Page Industries Ltd. fell as much as 12.5% on Thursday, November 12, in response to its September quarter results. The numbers was subdued on a year-on-year basis across parameters.Page Industries reported revenue growth of 11.5% during the September quarter to ₹1,439.6, compared to…”\n\nUpstox: “Q2 Results Live Updates: Page Industries reported a 4% increase in its net profit to ₹203 crore in Q2 FY27, compared to ₹194.76 crore a year back. Its revenue rose 11.53% to ₹1,440 crore. Q2 Results Live Updates: Page Industries' profit rises 4% to ₹203…”",
+      "summary": "Moneycontrol.com: IRCTC Q2 results LIVE: Net profit down 23% YoY to Rs 263 cr, revenue rises 16%. Manappuram Finance Q2 Results: Net profit up 223% YoY to Rs 701 cr, gold AUM rises 92.5% to Rs 60,640…",
+      "source_summary": "Moneycontrol.com: IRCTC Q2 results LIVE: Net profit down 23% YoY to Rs 263 cr, revenue rises 16%. Manappuram Finance Q2 Results: Net profit up 223% YoY to Rs 701 cr, gold AUM rises 92.5% to Rs 60,640 cr. Hitachi Energy Q2 Results: Profit up 20.8% to…\n\nCNBC TV18: Shares of Page Industries Ltd. fell as much as 12.5% on Thursday, November 12, in response to its September quarter results. The numbers was subdued on a year-on-year basis across parameters.Page Industries reported revenue growth of 11.5% during the September quarter to ₹1,439.6, compared to…\n\nUpstox: Q2 Results Live Updates: Page Industries' profit rises 4% to ₹203 crore, revenue rises 11.5% Q2 Results Live Updates: Page Industries reported a 4% increase in its net profit to ₹203 crore in Q2 FY27, compared to ₹194.76 crore a year back. Its revenue rose…",
+      "article_body": "Moneycontrol.com: “IRCTC Q2 results LIVE: Net profit down 23% YoY to Rs 263 cr, revenue rises 16%. Manappuram Finance Q2 Results: Net profit up 223% YoY to Rs 701 cr, gold AUM rises 92.5% to Rs 60,640 cr. Hitachi Energy Q2 Results: Profit up 20.8% to…”\n\nCNBC TV18: “Shares of Page Industries Ltd. fell as much as 12.5% on Thursday, November 12, in response to its September quarter results. The numbers was subdued on a year-on-year basis across parameters.Page Industries reported revenue growth of 11.5% during the September quarter to ₹1,439.6, compared to…”\n\nUpstox: “Q2 Results Live Updates: Page Industries' profit rises 4% to ₹203 crore, revenue rises 11.5% Q2 Results Live Updates: Page Industries reported a 4% increase in its net profit to ₹203 crore in Q2 FY27, compared to ₹194.76 crore a year back. Its revenue rose…”",
       "category": "trending",
       "published_at": "2026-11-12T09:20:00+00:00",
-      "generated_at": "2026-11-12T09:37:55.882610+00:00",
+      "generated_at": "2026-11-13T01:00:34.398439+00:00",
       "kind": "digest",
       "keyword": "page industries share price",
       "score": 89.83,
@@ -11599,7 +11603,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-12T09:42:24.489620+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/d58f3b2034f2bd10f167.jpg"
+      "image_path": "assets/news-images/d58f3b2034f2bd10f167.jpg",
+      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-f038d25474",
@@ -11752,6 +11758,44 @@
       "image_lookup_attempted_at": "2026-11-12T18:08:27.136125+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/431760c40ab63c75ed34.jpg"
+    },
+    {
+      "id": "en-ee75b8b17d",
+      "lang": "en",
+      "slug": "lebron-james-ruled-out-for-76ers-game-against-toronto-with-l-ee75b8b17d",
+      "url": "en/posts/lebron-james-ruled-out-for-76ers-game-against-toronto-with-l-ee75b8b17d.html",
+      "title": "LeBron James ruled out for 76ers game against Toronto with low back management",
+      "summary": "巴士的報: PHILADEPLHIA (AP) — Philadelphia 76ers star LeBron James will sit out Thursday night against Toronto because of low back/sciatica management.\n\nNBC10 Philadelphia: LeBron James has been ruled…",
+      "source_summary": "巴士的報: PHILADEPLHIA (AP) — Philadelphia 76ers star LeBron James will sit out Thursday night against Toronto because of low back/sciatica management.\n\nNBC10 Philadelphia: LeBron James has been ruled out because of low-back and sciatica management. Joel Embiid is questionable with right plantar fascia injury management. Toronto will be without Kawhi Leonard, Scottie Barnes and Nate Bittle.\n\nThe Big Lead: The Toronto Raptors travel to Philadelphia on Thursday night for an Eastern Conference showdown against a star-studded 76ers team featuring LeBron James, Joel Embiid, and Tyrese Maxey. Jan 12, 2026; Toronto, Ontario, CAN; Toronto Raptors guard AJ Lawson (0) drives to the net against Philadelphia…",
+      "article_body": "巴士的報: “PHILADEPLHIA (AP) — Philadelphia 76ers star LeBron James will sit out Thursday night against Toronto because of low back/sciatica management.”\n\nNBC10 Philadelphia: “LeBron James has been ruled out because of low-back and sciatica management. Joel Embiid is questionable with right plantar fascia injury management. Toronto will be without Kawhi Leonard, Scottie Barnes and Nate Bittle.”\n\nThe Big Lead: “The Toronto Raptors travel to Philadelphia on Thursday night for an Eastern Conference showdown against a star-studded 76ers team featuring LeBron James, Joel Embiid, and Tyrese Maxey. Jan 12, 2026; Toronto, Ontario, CAN; Toronto Raptors guard AJ Lawson (0) drives to the net against Philadelphia…”",
+      "category": "trending",
+      "published_at": "2026-11-13T00:40:00+00:00",
+      "generated_at": "2026-11-13T01:00:34.398439+00:00",
+      "kind": "digest",
+      "keyword": "76ers vs raptors",
+      "score": 89.81,
+      "sources": [
+        {
+          "title": "LeBron James ruled out for 76ers game against Toronto with low back management",
+          "url": "https://www.bastillepost.com/global/article/6355011-lebron-james-ruled-out-for-76ers-game-against-toronto-with-low-back-management",
+          "publisher": "巴士的報"
+        },
+        {
+          "title": "Four things to watch as Sixers look to respond against Raptors",
+          "url": "https://www.nbcphiladelphia.com/nba/philadelphia-76ers/sixers-raptors-things-to-watch-lebron-james-out/4496452/",
+          "publisher": "NBC10 Philadelphia"
+        },
+        {
+          "title": "How to watch Raptors vs 76ers: NBA, live stream, TV channel, start time",
+          "url": "https://www.thebiglead.com/how-to-watch-raptors-vs-76ers-nba-live-stream-tv-channel-start-time/",
+          "publisher": "The Big Lead"
+        }
+      ],
+      "image_url": "https://image.bastillepost.com/640x/wp-content/uploads/global/2026/11/943be7df0c9a2c1e6fd725107ff755e0_Celtics_76ers_Basketball_214_6_FB.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/039e6fa512419f6eb4d3.jpg"
     }
   ]
 }
