@@ -308,12 +308,12 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_path": "assets/news-images/334c971ff66cc392f76c.svg"
     },
     {
@@ -747,11 +747,11 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00"
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -868,12 +868,12 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_path": "assets/news-images/c14b5552739c1dcfc788.svg"
     },
     {
@@ -1017,7 +1017,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-13T01:00:34.398439+00:00",
+      "generated_at": "2026-11-14T05:56:49.643786+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1048,12 +1048,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1146,12 +1146,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3310,14 +3310,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3491,14 +3491,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4039,12 +4039,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4139,14 +4139,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T01:00:34.398439+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-13T01:03:05.592272+00:00",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -11915,10 +11915,12 @@
           "publisher": "Hyderabad Mail"
         }
       ],
-      "image_url": "",
+      "image_url": "https://www.thehindu.com/theme/images/og-image.png",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00"
+      "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-97e65a25d8",
@@ -11957,6 +11959,44 @@
       "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/45fc1bad2a2fff750db8.jpg"
+    },
+    {
+      "id": "en-1a87cf4289",
+      "lang": "en",
+      "slug": "jaydev-unadkat-is-the-most-sold-player-in-ipl-history-bought-1a87cf4289",
+      "url": "en/posts/jaydev-unadkat-is-the-most-sold-player-in-ipl-history-bought-1a87cf4289.html",
+      "title": "Jaydev Unadkat Is the Most Sold Player in IPL History, Bought 13 Times Across 15 Seasons",
+      "summary": "theopenpress.in: Jaydev Unadkat has been bought 13 times in IPL auctions, more than any other player in the history of the tournament. The left-arm pacer has been sold at 13 auctions across 15…",
+      "source_summary": "theopenpress.in: Jaydev Unadkat has been bought 13 times in IPL auctions, more than any other player in the history of the tournament. The left-arm pacer has been sold at 13 auctions across 15 seasons, a record that no one else comes close to matching.\n\nABP News: आईपीएल 2027 की ऑक्शन से पहले कई बड़े खिलाड़ियों की टीमें बदल गई हैं. ऋषभ पंत अब दिल्ली कैपिटल्स से खेलते दिखेंगे. वहीं हार्दिक पांड्या पंजाब किंग्स में आ गए हैं. कुलदीप यादव अब लखनऊ में चले गए हैं. वहीं अर्शदीप सिंह मुंबई इंडियंस में…\n\nNavbharat Times: जयदेव उनादकट ने आईपीएल में अपना सफर कोलकाता नाइट राइडर्स से शुरू किया था। 2011 की नीलामी में कोलकाता ने उन्हें करीब 1.13 करोड़ रुपये में खरीदा। 2013 में रॉयल चैलेंजर्स बेंगलुरु ने 2.79 करोड़ रुपये खर्च किए। 2014 और 2015 में दिल्ली डेयरडेविल्स ने…",
+      "article_body": "theopenpress.in: “Jaydev Unadkat has been bought 13 times in IPL auctions, more than any other player in the history of the tournament. The left-arm pacer has been sold at 13 auctions across 15 seasons, a record that no one else comes close to matching.”\n\nABP News: “आईपीएल 2027 की ऑक्शन से पहले कई बड़े खिलाड़ियों की टीमें बदल गई हैं. ऋषभ पंत अब दिल्ली कैपिटल्स से खेलते दिखेंगे. वहीं हार्दिक पांड्या पंजाब किंग्स में आ गए हैं. कुलदीप यादव अब लखनऊ में चले गए हैं. वहीं अर्शदीप सिंह मुंबई इंडियंस में…”\n\nNavbharat Times: “जयदेव उनादकट ने आईपीएल में अपना सफर कोलकाता नाइट राइडर्स से शुरू किया था। 2011 की नीलामी में कोलकाता ने उन्हें करीब 1.13 करोड़ रुपये में खरीदा। 2013 में रॉयल चैलेंजर्स बेंगलुरु ने 2.79 करोड़ रुपये खर्च किए। 2014 और 2015 में दिल्ली डेयरडेविल्स ने…”",
+      "category": "trending",
+      "published_at": "2026-11-14T05:40:00+00:00",
+      "generated_at": "2026-11-14T05:56:49.643786+00:00",
+      "kind": "digest",
+      "keyword": "jaydev unadkat",
+      "score": 89.84,
+      "sources": [
+        {
+          "title": "Jaydev Unadkat Is the Most Sold Player in IPL History, Bought 13 Times Across 15 Seasons",
+          "url": "https://theopenpress.in/article/jaydev-unadkat-most-sold-player-ipl-history-13-times-auction-record",
+          "publisher": "theopenpress.in"
+        },
+        {
+          "title": "पैट कमिंस समेत इन 4 खिलाड़ियों को रिलीज कर सकती है सनराइजर्स हैदराबाद, देखें लिस्ट",
+          "url": "https://www.abplive.com/sports/cricket/sunrisers-hyderabad-srh-may-release-these-4-players-including-pat-cummins-see-the-list-3213665",
+          "publisher": "ABP News"
+        },
+        {
+          "title": "आईपीएल इतिहास में सबसे ज्यादा बार बिकने वाले खिलाड़ी, 13 बार सोल्ड हुए हैं जयदेव उनादकट",
+          "url": "https://navbharattimes.indiatimes.com/sports/cricket/iplt20/news/ipl-2027-most-sold-players-in-ipl-history-jaydev-unadkat-on-top-sold-13-times/articleshow/135765024.cms",
+          "publisher": "Navbharat Times"
+        }
+      ],
+      "image_url": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/25/d0e1cb56159375a35abae701e137890b17771125409011364_original.jpg?impolicy=abp_cdn&imwidth=1200",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/68564e39381bab38b6b5.jpg"
     }
   ]
 }
