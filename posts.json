@@ -1962,7 +1962,7 @@
           "publisher": "BBC"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T09:24:03.666180+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
       "summary_refresh_version": 21,
       "article_body": "Sky Sports: “Welcome to The Radar , a Sky Sports column in which Nick Wright uses a blend of data and opinion to shed light on need-to-know Premier League stories. This week: 🔺Manzambi's big impact at Villa 🔺Janelt's excellent defensive work 🔺A glimmer of hope for Arbeloa?…”\n\nBBC: “MATCH REPORT: Champions League - Aston Villa 6-0 Fenerbahce”",
       "image_url": "https://e0.365dm.com/26/10/1600x900/skysports-johan-manzambi-aston-villa_7377563.png?20261015132726=",
@@ -2742,7 +2742,7 @@
           "publisher": "The Shillong Times"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T09:24:03.666180+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://im.rediff.com/1200-630/cricket/2026/oct/18priyansh-arya.jpg",
       "image_lookup_attempted_at": "2026-11-03T16:07:12.103775+00:00",
@@ -3709,12 +3709,12 @@
       "slug": "psg-nuno-mendes-vers-un-forfait-pour-le-choc-face-au-barca-755c07fc60",
       "url": "en/posts/psg-nuno-mendes-vers-un-forfait-pour-le-choc-face-au-barca-755c07fc60.html",
       "title": "PSG : Nuno Mendes vers un forfait pour le choc face au Barça",
-      "summary": "https://www.live-mercato.com/: Touché à une cheville face à Strasbourg, samedi, le milieu offensif du PSG participe ce lundi à la séance de veille de match face au FC Barcelone, en Ligue des…",
-      "source_summary": "https://www.live-mercato.com/: Touché à une cheville face à Strasbourg, samedi, le milieu offensif du PSG participe ce lundi à la séance de veille de match face au FC Barcelone, en Ligue des champions (mardi à 21 heures).\n\nMadeInFOOT: Les résultats des matches de la 3ème journée de la Ligue des Champions disputés ce mardi soir.",
-      "article_body": "https://www.live-mercato.com/: “Touché à une cheville face à Strasbourg, samedi, le milieu offensif du PSG participe ce lundi à la séance de veille de match face au FC Barcelone, en Ligue des champions (mardi à 21 heures).”\n\nMadeInFOOT: “Les résultats des matches de la 3ème journée de la Ligue des Champions disputés ce mardi soir.”",
+      "summary": "MadeInFOOT: Les résultats des matches de la 3ème journée de la Ligue des Champions disputés ce mardi soir.",
+      "source_summary": "MadeInFOOT: Les résultats des matches de la 3ème journée de la Ligue des Champions disputés ce mardi soir.",
+      "article_body": "MadeInFOOT: “Les résultats des matches de la 3ème journée de la Ligue des Champions disputés ce mardi soir.”",
       "category": "trending",
       "published_at": "2026-10-20T20:40:00+00:00",
-      "generated_at": "2026-10-20T21:24:24.066170+00:00",
+      "generated_at": "2026-11-14T13:22:01.134457+00:00",
       "kind": "digest",
       "keyword": "maghnes akliouche",
       "score": 89.59,
@@ -3735,7 +3735,7 @@
           "publisher": "MadeInFOOT"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-13T09:24:03.666180+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://medias.lequipe.fr/img-photo-jpg/maghnes-akliouche-avait-ete-victime-d-un-tacle-appuye-sur-sa-cheville-gauche-samedi-en-fin-de-match-a-strasbourg-p-lahalle-l-equipe/1500000002626885/195:72,1477:927-828-552-75/c293b.jpg",
       "image_lookup_attempted_at": "2026-11-03T09:53:36.698227+00:00",
@@ -8291,7 +8291,7 @@
         }
       ],
       "image_url": "https://th-i.thgim.com/public/news/national/yw6clx/article71650785.ece/alternates/LANDSCAPE_1200/IMG-20261031-WA0067.jpg",
-      "summary_refresh_attempted_at": "2026-11-13T09:24:03.666180+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/8ac1d3a83d57a810f0c8.jpg"
     },
@@ -8918,7 +8918,7 @@
         }
       ],
       "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2895/live/a97704b0-d660-11f1-a258-ffc7400bea96.jpg",
-      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/772b1c7518c2c7cd9b03.jpg"
     },
@@ -10937,7 +10937,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-08T21:59:36.377818+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/ef441d3c1600f98b02b7.png"
+      "image_path": "assets/news-images/ef441d3c1600f98b02b7.png",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-4425dbc3e1",
@@ -11843,7 +11845,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-4fe765e1e8",
@@ -11881,7 +11885,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/3951f0ecb0bba1f2ab4a.jpg"
+      "image_path": "assets/news-images/3951f0ecb0bba1f2ab4a.jpg",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-791f20bb0c",
@@ -11958,7 +11964,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/45fc1bad2a2fff750db8.jpg"
+      "image_path": "assets/news-images/45fc1bad2a2fff750db8.jpg",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-1a87cf4289",
@@ -11996,7 +12004,85 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-14T05:59:56.367498+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/68564e39381bab38b6b5.jpg"
+      "image_path": "assets/news-images/68564e39381bab38b6b5.jpg",
+      "summary_refresh_attempted_at": "2026-11-14T13:22:01.134457+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-1db9705be7",
+      "lang": "en",
+      "slug": "do-chelsea-go-into-this-weekend-s-top-of-the-table-wsl-clash-1db9705be7",
+      "url": "en/posts/do-chelsea-go-into-this-weekend-s-top-of-the-table-wsl-clash-1db9705be7.html",
+      "title": "Do Chelsea go into this weekend's top-of-the-table WSL clash with Manchester City as underdogs?",
+      "summary": "Sky Sports: To consider Chelsea as underdogs in domestic competition feels alien. To a club so endowed with silverware and success over such a long period, it's like a dirty word. Something reserved…",
+      "source_summary": "Sky Sports: To consider Chelsea as underdogs in domestic competition feels alien. To a club so endowed with silverware and success over such a long period, it's like a dirty word. Something reserved for opponents, not them. But reality bites hard. The Blues lost their title to…\n\nThe Guardian: At Stamford Bridge on Saturday, the remaining two unbeaten teams have the opportunity to inflict a first defeat. Neither side has looked infallible this season. City have kept just two clean sheets in their 13 games in all competitions, while Chelsea stuttered last weekend, with…\n\nGoal.com: As the two teams prepare to go head-to-head for the first time this season though, it is Chelsea who are the top-scorers in the WSL, even though they sit two points behind City at the top of the table. Some were not convinced by the…",
+      "article_body": "Sky Sports: “To consider Chelsea as underdogs in domestic competition feels alien. To a club so endowed with silverware and success over such a long period, it's like a dirty word. Something reserved for opponents, not them. But reality bites hard. The Blues lost their title to…”\n\nThe Guardian: “At Stamford Bridge on Saturday, the remaining two unbeaten teams have the opportunity to inflict a first defeat. Neither side has looked infallible this season. City have kept just two clean sheets in their 13 games in all competitions, while Chelsea stuttered last weekend, with…”\n\nGoal.com: “As the two teams prepare to go head-to-head for the first time this season though, it is Chelsea who are the top-scorers in the WSL, even though they sit two points behind City at the top of the table. Some were not convinced by the…”",
+      "category": "trending",
+      "published_at": "2026-11-14T13:00:00+00:00",
+      "generated_at": "2026-11-14T13:22:01.134457+00:00",
+      "kind": "digest",
+      "keyword": "chelsea vs man city",
+      "score": 89.8,
+      "sources": [
+        {
+          "title": "Do Chelsea go into this weekend's top-of-the-table WSL clash with Manchester City as underdogs?",
+          "url": "https://www.skysports.com/football/news/13611487/do-chelsea-go-into-this-weekends-top-of-the-table-wsl-clash-with-manchester-city-as-underdogs",
+          "publisher": "Sky Sports"
+        },
+        {
+          "title": "Why Chelsea and Manchester City’s WSL clash is not as season-defining as you think",
+          "url": "https://www.theguardian.com/football/2026/nov/13/why-chelsea-and-manchester-citys-wsl-clash-is-not-as-season-defining-as-you-think",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "How Chelsea bounced back from Khadija Shaw snub to build the WSL's most lethal attack",
+          "url": "https://www.goal.com/en-in/originals/chelsea-bounced-back-khadija-shaw-snub-build-wsl-most-lethal-attack/bltc735884b2552549f",
+          "publisher": "Goal.com"
+        }
+      ],
+      "image_url": "https://e0.365dm.com/26/11/1600x900/skysports-chelsea-women-wsl_7405065.jpg?20261112141816=",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-14T13:25:28.582256+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/8e5206180a09cb8800e6.jpg"
+    },
+    {
+      "id": "en-e83495f47c",
+      "lang": "en",
+      "slug": "bigg-boss-20-scout-op-s-mother-raises-concern-over-his-menta-e83495f47c",
+      "url": "en/posts/bigg-boss-20-scout-op-s-mother-raises-concern-over-his-menta-e83495f47c.html",
+      "title": "Bigg Boss 20: Scout OP's mother raises concern over his mental health after he shaves his head in latest",
+      "summary": "The Times of India: Scout OP’s mother has spoken out after the latest promotional clip of Bigg Boss 20 featuring her son sparked fresh discussions on social media. She shared an emotional voice note…",
+      "source_summary": "The Times of India: Scout OP’s mother has spoken out after the latest promotional clip of Bigg Boss 20 featuring her son sparked fresh discussions on social media. She shared an emotional voice note on Instagram, questioning the makers’ approach to editing and presenting his journey on the reality…\n\nMissMalini: Scout OP's mother has criticised Bigg Boss 20 promos for allegedly showing edited clips out of context. She also raised concerns about his mental health and urged viewers to watch full episodes.\n\nDeccan Chronicle: Popular contestant Scout Op needs no introduction. He has a huge fan following outside the house. Scout Op has always been trending on social media, whether for fights with other contestants or his bond with Love Gill.The latest news doing the rounds on social media…",
+      "article_body": "The Times of India: “Scout OP’s mother has spoken out after the latest promotional clip of Bigg Boss 20 featuring her son sparked fresh discussions on social media. She shared an emotional voice note on Instagram, questioning the makers’ approach to editing and presenting his journey on the reality…”\n\nMissMalini: “Scout OP's mother has criticised Bigg Boss 20 promos for allegedly showing edited clips out of context. She also raised concerns about his mental health and urged viewers to watch full episodes.”\n\nDeccan Chronicle: “Popular contestant Scout Op needs no introduction. He has a huge fan following outside the house. Scout Op has always been trending on social media, whether for fights with other contestants or his bond with Love Gill.The latest news doing the rounds on social media…”",
+      "category": "trending",
+      "published_at": "2026-11-14T13:00:00+00:00",
+      "generated_at": "2026-11-14T13:22:01.134457+00:00",
+      "kind": "digest",
+      "keyword": "bigg boss 20 today full episode",
+      "score": 89.8,
+      "sources": [
+        {
+          "title": "Bigg Boss 20: Scout OP's mother raises concern over his mental health after he shaves his head in latest",
+          "url": "https://timesofindia.indiatimes.com/tv/news/hindi/bigg-boss-20-scout-ops-mother-raises-concern-over-his-mental-health-after-he-shaves-his-head-in-latest-promo-asks-aakhir-ek-insaan-ko-kitna-mentally-push-kiya-jayega/articleshow/135799842.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Scout OP’s Mother Slams Bigg Boss 20 Promos, Says Edited Clips Are Creating A False Image Of Him",
+          "url": "https://www.missmalini.com/scout-ops-mother-slams-bigg-boss-20-promos-says-edited-clips-are-creating-a-false-image-of-him",
+          "publisher": "MissMalini"
+        },
+        {
+          "title": "BB20: Scout Op’s New Look Goes Viral",
+          "url": "https://www.deccanchronicle.com/entertainment/television/bb20-scout-ops-new-look-goes-viral-2003716",
+          "publisher": "Deccan Chronicle"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-135799897,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-14T13:25:28.582256+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/ceb7b677067db4e51ea9.jpg"
     }
   ]
 }
