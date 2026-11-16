@@ -6425,13 +6425,13 @@
           "publisher": "Last Word On Sports"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://www.dimers.com/tennis/news/novak-djokovic-vs-jan-lennard-struff-tennis-prediction-atp-swiss-indoors-2026-ac",
       "image_credit": "Dimers",
-      "image_lookup_attempted_at": "2026-11-10T21:48:26.624356+00:00"
+      "image_lookup_attempted_at": "2026-11-16T05:59:51.656032+00:00"
     },
     {
       "id": "en-8f05ac6694",
@@ -6547,7 +6547,7 @@
           "publisher": "Telegraph India"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
       "summary_refresh_version": 21,
       "image_url": "https://static.toiimg.com/thumb/msid-135299458,width-1280,height-720,resizemode-6,overlay-toiblogs,pt-32,x_pad-1045,y_pad-670/photo.jpg",
       "image_source": "https://timesofindia.indiatimes.com/toi-blogs/toi-newsletters/bharat-abroad/toi-bharat-abroad-us-midterms-red-blue-a-little-desi-too/articleshow/135299309.cms",
@@ -7885,14 +7885,13 @@
           "publisher": "SportyTrader"
         }
       ],
-      "image_url": "https://cdn.ciphersports.io/images/dimers-site/generic_meta.jpeg",
+      "image_url": "",
       "summary_refresh_attempted_at": "2026-11-03T23:08:51.604219+00:00",
       "summary_refresh_version": 21,
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-11T01:53:41.554930+00:00",
       "image_source": "https://www.dimers.com/tennis/news/tennis-atp-wta-best-bets-10-31-2026-ac",
       "image_credit": "Dimers",
-      "image_path": "assets/news-images/64cde5ec18360311d4d2.jpg"
+      "image_lookup_attempted_at": "2026-11-16T05:59:51.656032+00:00"
     },
     {
       "id": "en-221d81de57",
@@ -8970,11 +8969,11 @@
       "url": "en/posts/280-kmph-8-coaches-557-passengers-what-will-india-s-1st-bull-07c9d56953.html",
       "title": "280 kmph, 8 Coaches, 557 Passengers: What Will India's 1st Bullet Train Offer",
       "summary": "The Times of India: NEW DELHI: Railway minister Ashwini Vaishnaw on Sunday inspected the manufacturing of India's first bullet train at BEML's facility in Bengaluru and expressed satisfaction with…",
-      "source_summary": "The Times of India: NEW DELHI: Railway minister Ashwini Vaishnaw on Sunday inspected the manufacturing of India's first bullet train at BEML's facility in Bengaluru and expressed satisfaction with the progress, highlighting the emphasis on quality and international standards.Vaishnaw said all major components were being manufactured, integrated and tested…",
-      "article_body": "The Times of India: “NEW DELHI: Railway minister Ashwini Vaishnaw on Sunday inspected the manufacturing of India's first bullet train at BEML's facility in Bengaluru and expressed satisfaction with the progress, highlighting the emphasis on quality and international standards.Vaishnaw said all major components were being manufactured, integrated and tested…”",
+      "source_summary": "The Times of India: NEW DELHI: Railway minister Ashwini Vaishnaw on Sunday inspected the manufacturing of India's first bullet train at BEML's facility in Bengaluru and expressed satisfaction with the progress, highlighting the emphasis on quality and international standards.Vaishnaw said all major components were being manufactured, integrated and tested…\n\nThe Indian Express: B28 bullet train: Indian Railways' B28 bullet train is moving closer to introducing its first bullet train on the Mumbai-Ahmedabad High-Speed Rail (MAHSR) corridor. It is being manufactured indigenously at BEML's Aditya Plant in Bengaluru. With a maximum test speed of 280 kmph and an…",
+      "article_body": "The Times of India: “NEW DELHI: Railway minister Ashwini Vaishnaw on Sunday inspected the manufacturing of India's first bullet train at BEML's facility in Bengaluru and expressed satisfaction with the progress, highlighting the emphasis on quality and international standards.Vaishnaw said all major components were being manufactured, integrated and tested…”\n\nThe Indian Express: “B28 bullet train: Indian Railways' B28 bullet train is moving closer to introducing its first bullet train on the Mumbai-Ahmedabad High-Speed Rail (MAHSR) corridor. It is being manufactured indigenously at BEML's Aditya Plant in Bengaluru. With a maximum test speed of 280 kmph and an…”",
       "category": "trending",
       "published_at": "2026-11-02T01:10:00+00:00",
-      "generated_at": "2026-11-02T01:22:28.873461+00:00",
+      "generated_at": "2026-11-16T05:57:38.834793+00:00",
       "kind": "digest",
       "keyword": "high-speed rail",
       "score": 89.88,
@@ -8996,7 +8995,7 @@
         }
       ],
       "image_url": "https://static.toiimg.com/thumb/msid-135434602,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "summary_refresh_attempted_at": "2026-11-07T21:42:14.943644+00:00",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
       "summary_refresh_version": 21,
       "image_path": "assets/news-images/a4e62d2aaeca63a05bc2.jpg"
     },
@@ -12254,12 +12253,12 @@
       "slug": "zverev-meets-debutant-jodar-shelton-fils-clash-on-day-1-in-t-b9775a2859",
       "url": "en/posts/zverev-meets-debutant-jodar-shelton-fils-clash-on-day-1-in-t-b9775a2859.html",
       "title": "Zverev meets debutant Jodar, Shelton & Fils clash on Day 1 in Turin",
-      "summary": "The Guardian: Join Tom Bassam as the world No 1, Alexander Zverev, opens the ATP Finals in Turin against debutant Rafael Jódar\n\nVSiN: The ATP Finals and WTA Finals both wrap up their seasons this…",
-      "source_summary": "The Guardian: Join Tom Bassam as the world No 1, Alexander Zverev, opens the ATP Finals in Turin against debutant Rafael Jódar\n\nVSiN: The ATP Finals and WTA Finals both wrap up their seasons this month, and Sunday gives bettors a lot to work with. Below are my best bets for the ATP Finals matchups on November 15. I also dive into the WTA Finals championship match between…",
-      "article_body": "The Guardian: “Join Tom Bassam as the world No 1, Alexander Zverev, opens the ATP Finals in Turin against debutant Rafael Jódar”\n\nVSiN: “The ATP Finals and WTA Finals both wrap up their seasons this month, and Sunday gives bettors a lot to work with. Below are my best bets for the ATP Finals matchups on November 15. I also dive into the WTA Finals championship match between…”",
+      "summary": "The Guardian: World No 1 Alexander Zverev eased past debutant Rafael ⁠Jódar in straight sets to score an opening group win ⁠at the start ⁠of ​the ATP Finals in Turin.\n\nVSiN: The ATP Finals and WTA…",
+      "source_summary": "The Guardian: World No 1 Alexander Zverev eased past debutant Rafael ⁠Jódar in straight sets to score an opening group win ⁠at the start ⁠of ​the ATP Finals in Turin.\n\nVSiN: The ATP Finals and WTA Finals both wrap up their seasons this month, and Sunday gives bettors a lot to work with. Below are my best bets for the ATP Finals matchups on November 15. I also dive into the WTA Finals championship match between…",
+      "article_body": "The Guardian: “World No 1 Alexander Zverev eased past debutant Rafael ⁠Jódar in straight sets to score an opening group win ⁠at the start ⁠of ​the ATP Finals in Turin.”\n\nVSiN: “The ATP Finals and WTA Finals both wrap up their seasons this month, and Sunday gives bettors a lot to work with. Below are my best bets for the ATP Finals matchups on November 15. I also dive into the WTA Finals championship match between…”",
       "category": "trending",
       "published_at": "2026-11-15T13:30:00+00:00",
-      "generated_at": "2026-11-15T13:51:27.799349+00:00",
+      "generated_at": "2026-11-16T05:57:38.834793+00:00",
       "kind": "digest",
       "keyword": "alexander zverev",
       "score": 89.8,
@@ -12285,7 +12284,9 @@
       "image_source": "https://www.theguardian.com/sport/live/2026/nov/15/atp-finals-tennis-alexander-zverev-v-rafael-jodar-and-more-live",
       "image_credit": "The Guardian",
       "image_lookup_attempted_at": "2026-11-15T13:53:44.890752+00:00",
-      "image_lookup_version": 2
+      "image_lookup_version": 2,
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-cad74a9e42",
@@ -12323,7 +12324,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-15T13:53:44.890752+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/920d1ef56370bbf02624.jpg"
+      "image_path": "assets/news-images/920d1ef56370bbf02624.jpg",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-f8942abf62",
@@ -12361,7 +12364,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-15T19:43:48.909374+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/291cc38e2bc88a2ba379.png"
+      "image_path": "assets/news-images/291cc38e2bc88a2ba379.png",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-2ebc8f2bff",
@@ -12369,12 +12374,12 @@
       "slug": "spain-v-england-nations-league-live-2ebc8f2bff",
       "url": "en/posts/spain-v-england-nations-league-live-2ebc8f2bff.html",
       "title": "Spain v England: Nations League – live",
-      "summary": "The Guardian: So, where is the game? I actually think Spain’s XI gives England a good chance. I’d not be at all surprised if Anthony Gordon is under orders to get about Martin Zubimendi – the way…",
-      "source_summary": "The Guardian: So, where is the game? I actually think Spain’s XI gives England a good chance. I’d not be at all surprised if Anthony Gordon is under orders to get about Martin Zubimendi – the way Alex Ferguson once did with Park Ji-Sung and Andrea Pirlo…\n\nAl Jazeera: Team news , score and live text commentary as England and Spain vie for top spot in final Nations League group game.\n\nESPN India: De La Fuente claims Spanish players are undervalued compared to English players",
-      "article_body": "The Guardian: “So, where is the game? I actually think Spain’s XI gives England a good chance. I’d not be at all surprised if Anthony Gordon is under orders to get about Martin Zubimendi – the way Alex Ferguson once did with Park Ji-Sung and Andrea Pirlo…”\n\nAl Jazeera: “Team news , score and live text commentary as England and Spain vie for top spot in final Nations League group game.”\n\nESPN India: “De La Fuente claims Spanish players are undervalued compared to English players”",
+      "summary": "The Guardian: Righto, that’s it from us for now. England have ended Spain’s 43-game unbeaten run, the world and European champions beaten in their capital for the first time in 39 years – the oldies…",
+      "source_summary": "The Guardian: Righto, that’s it from us for now. England have ended Spain’s 43-game unbeaten run, the world and European champions beaten in their capital for the first time in 39 years – the oldies among us will recall Gary Lineker’s four-goal haul in white shirts, white…\n\nAl Jazeera: Relive the live text commentary as England stun Spain to take top spot in final Nations League group game.\n\nESPN India: De La Fuente claims Spanish players are undervalued compared to English players",
+      "article_body": "The Guardian: “Righto, that’s it from us for now. England have ended Spain’s 43-game unbeaten run, the world and European champions beaten in their capital for the first time in 39 years – the oldies among us will recall Gary Lineker’s four-goal haul in white shirts, white…”\n\nAl Jazeera: “Relive the live text commentary as England stun Spain to take top spot in final Nations League group game.”\n\nESPN India: “De La Fuente claims Spanish players are undervalued compared to English players”",
       "category": "trending",
       "published_at": "2026-11-15T19:00:00+00:00",
-      "generated_at": "2026-11-15T19:41:41.197847+00:00",
+      "generated_at": "2026-11-16T05:57:38.834793+00:00",
       "kind": "digest",
       "keyword": "spain national football team",
       "score": 89.61,
@@ -12402,7 +12407,9 @@
       "image_license": "CC BY-SA 4.0",
       "image_lookup_attempted_at": "2026-11-15T19:43:48.909374+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/039671e8805c7962ac33.jpg"
+      "image_path": "assets/news-images/039671e8805c7962ac33.jpg",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-e9940da335",
@@ -12443,7 +12450,9 @@
       "image_license": "Public domain",
       "image_lookup_attempted_at": "2026-11-15T19:43:48.909374+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/1f7d0bb84e17c51971d5.jpg"
+      "image_path": "assets/news-images/1f7d0bb84e17c51971d5.jpg",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-24cd389814",
@@ -12481,7 +12490,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-15T19:43:48.909374+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/a7c17588fc280a4a0241.jpg"
+      "image_path": "assets/news-images/a7c17588fc280a4a0241.jpg",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-4b3ed9b3c0",
@@ -12515,10 +12526,126 @@
           "publisher": "Cricinfo"
         }
       ],
-      "image_url": "",
+      "image_url": "https://static.cricbuzz.com/a/img/v1/i1/c582022/i.jpg?d=high&p=det",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00"
+      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-3899987edd",
+      "lang": "en",
+      "slug": "jay-shah-reappointed-as-icc-s-chair-for-a-second-term-3899987edd",
+      "url": "en/posts/jay-shah-reappointed-as-icc-s-chair-for-a-second-term-3899987edd.html",
+      "title": "Jay Shah reappointed as ICC's chair for a second term",
+      "summary": "Cricbuzz: Jay Shah has been re-elected unopposed as chair of the International Cricket Council (ICC) on Sunday. At the Board meeting, which concluded in Bali, ICC members cited the need for…",
+      "source_summary": "Cricbuzz: Jay Shah has been re-elected unopposed as chair of the International Cricket Council (ICC) on Sunday. At the Board meeting, which concluded in Bali, ICC members cited the need for continuity and stability in the organisation. Considering these factors, his name was proposed and approved…\n\nICC: The International Cricket Council (ICC) Board has announced the unopposed reappointment of Mr. Jay Shah for a second term as ICC Chair following a proposal by the ICC directors at the global governing body's Board meetings in Bali. The decision reflects the Board’s confidence in…\n\nThe Times of India: NEW DELHI: The International Cricket Council (ICC) Board has announced the unopposed reappointment of Jay Shah for a second term as ICC Chair.The decision was taken following a proposal by ICC Directors at the Board and Committee meetings in Bali.The reappointment reflects the Board's confidence…",
+      "article_body": "Cricbuzz: “Jay Shah has been re-elected unopposed as chair of the International Cricket Council (ICC) on Sunday. At the Board meeting, which concluded in Bali, ICC members cited the need for continuity and stability in the organisation. Considering these factors, his name was proposed and approved…”\n\nICC: “The International Cricket Council (ICC) Board has announced the unopposed reappointment of Mr. Jay Shah for a second term as ICC Chair following a proposal by the ICC directors at the global governing body's Board meetings in Bali. The decision reflects the Board’s confidence in…”\n\nThe Times of India: “NEW DELHI: The International Cricket Council (ICC) Board has announced the unopposed reappointment of Jay Shah for a second term as ICC Chair.The decision was taken following a proposal by ICC Directors at the Board and Committee meetings in Bali.The reappointment reflects the Board's confidence…”",
+      "category": "trending",
+      "published_at": "2026-11-16T05:30:00+00:00",
+      "generated_at": "2026-11-16T05:57:38.834793+00:00",
+      "kind": "digest",
+      "keyword": "jay shah",
+      "score": 89.74,
+      "sources": [
+        {
+          "title": "Jay Shah reappointed as ICC's chair for a second term",
+          "url": "https://www.cricbuzz.com/cricket-news/140924/jay-shah-reappointed-as-iccs-chair-for-a-second-term",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "ICC BOARD CONFIRMS JAY SHAH'S UNOPPOSED REAPPOINTMENT AS CHAIR FOR SECOND TERM",
+          "url": "https://www.icc-cricket.com/media-releases/icc-board-confirms-jay-shah-s-unopposed-reappointment-as-chair-for-second-term",
+          "publisher": "ICC"
+        },
+        {
+          "title": "Jay Shah reappointed unopposed as ICC chairman for second term",
+          "url": "https://timesofindia.indiatimes.com/sports/cricket/news/jay-shah-reappointed-unopposed-as-icc-chairman-for-second-term/articleshow/135873860.cms",
+          "publisher": "The Times of India"
+        }
+      ],
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1126887/jay-shah-has-been-elected-unopposed.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-16T05:59:51.656032+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/5cc9f4d5d303f7fe4905.jpg"
+    },
+    {
+      "id": "en-ae86196485",
+      "lang": "en",
+      "slug": "syed-mushtaq-ali-trophy-karnataka-look-to-iron-out-batting-f-ae86196485",
+      "url": "en/posts/syed-mushtaq-ali-trophy-karnataka-look-to-iron-out-batting-f-ae86196485.html",
+      "title": "Syed Mushtaq Ali Trophy: Karnataka look to iron out batting flaws",
+      "summary": "Deccan Herald: Bengaluru: A much more clinical middle-order batting performance will be one of Karnataka ’s main objectives when they face Uttar Pradesh in their second Elite Group A Syed Mushtaq Ali…",
+      "source_summary": "Deccan Herald: Bengaluru: A much more clinical middle-order batting performance will be one of Karnataka ’s main objectives when they face Uttar Pradesh in their second Elite Group A Syed Mushtaq Ali Trophy fixture at the Wankhede Stadium in Mumbai on Monday. . While the top-order batted…\n\nSportsdunia: Karnataka will face Uttar Pradesh in an Elite Group A clash of the Syed Mushtaq Ali Trophy (SMAT) 2026 on Monday, November 16. The match will take place at the Wankhede Stadium in Mumbai. The first ball is scheduled for 11:00 AM IST. Karnataka enter…\n\nSportstar: BENGALURU Senior players Mayank Agarwal and Shreyas Gopal have been left out of the Karnataka squad for the T20 Syed Mushtaq Ali Trophy, which will be held in Mumbai later this month. Shreyas led the state side in its last two victorious Ranji Trophy outings…",
+      "article_body": "Deccan Herald: “Bengaluru: A much more clinical middle-order batting performance will be one of Karnataka ’s main objectives when they face Uttar Pradesh in their second Elite Group A Syed Mushtaq Ali Trophy fixture at the Wankhede Stadium in Mumbai on Monday. . While the top-order batted…”\n\nSportsdunia: “Karnataka will face Uttar Pradesh in an Elite Group A clash of the Syed Mushtaq Ali Trophy (SMAT) 2026 on Monday, November 16. The match will take place at the Wankhede Stadium in Mumbai. The first ball is scheduled for 11:00 AM IST. Karnataka enter…”\n\nSportstar: “BENGALURU Senior players Mayank Agarwal and Shreyas Gopal have been left out of the Karnataka squad for the T20 Syed Mushtaq Ali Trophy, which will be held in Mumbai later this month. Shreyas led the state side in its last two victorious Ranji Trophy outings…”",
+      "category": "trending",
+      "published_at": "2026-11-16T05:30:00+00:00",
+      "generated_at": "2026-11-16T05:57:38.834793+00:00",
+      "kind": "digest",
+      "keyword": "up vs kar",
+      "score": 89.74,
+      "sources": [
+        {
+          "title": "Syed Mushtaq Ali Trophy: Karnataka look to iron out batting flaws",
+          "url": "https://www.deccanherald.com/sports/cricket/syed-mushtaq-ali-trophy-karnataka-look-to-iron-out-batting-flaws-4219467",
+          "publisher": "Deccan Herald"
+        },
+        {
+          "title": "Where to Watch Karnataka vs UP SMAT Match Live? Streaming Details Revealed",
+          "url": "https://www.sportsdunia.com/cricket-news/karnataka-vs-up-smat-live-streaming-elite-group-a-2026",
+          "publisher": "Sportsdunia"
+        },
+        {
+          "title": "Syed Mushtaq Ali Trophy 2026: Mayank, Shreyas left out of Karnataka squad; Manish Pandey returns",
+          "url": "https://sportstar.thehindu.com/cricket/domestic/syed-mushtaq-ali-trophy-karnataka-squad-mayank-shreyas-manish-pandey-returns/article71675324.ece",
+          "publisher": "Sportstar"
+        }
+      ],
+      "image_url": "https://media.assettype.com/deccanherald%2F2026-11-15%2Fjxyeqgz9%2Ffile837vsdnvunq16pkn0ot9.jpg?rect=0%2C45%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-16T05:59:51.656032+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/4f06c76c796111cb1460.jpg"
+    },
+    {
+      "id": "en-c0371670a5",
+      "lang": "en",
+      "slug": "microsoft-will-raise-cloud-prices-in-india-by-nearly-16-and-c0371670a5",
+      "url": "en/posts/microsoft-will-raise-cloud-prices-in-india-by-nearly-16-and-c0371670a5.html",
+      "title": "Microsoft will raise cloud prices in India by nearly 16% and cut them in China from January",
+      "summary": "MLQ.ai: Microsoft will raise commercial cloud prices billed in Indian rupees by 15.7% from Jan. 1, 2027, and on-premises software prices in rupees by up to 20%, according to a notice it posted to…",
+      "source_summary": "MLQ.ai: Microsoft will raise commercial cloud prices billed in Indian rupees by 15.7% from Jan. 1, 2027, and on-premises software prices in rupees by up to 20%, according to a notice it posted to partners on Nov. 11 [1] . Cloud prices in Chinese yuan will…\n\nMezha.net: Microsoft’s new prices for commercial cloud services take effect on January 1, 2027. Customers in India will pay 15.7 percent more for cloud services and up to 20 percent more for some on-premises offerings. Prices in New Zealand will rise by 10 percent. In China…\n\nSmall Business Trends: Microsoft’s announcement of upcoming changes to its commercial cloud pricing starting January 1, 2027, has significant implications for small business owners relying on Microsoft services. Beginning in the new year, price adjustments will occur in select currencies, including the Australian Dollar (AUD), Chinese Yuan (CNY)…",
+      "article_body": "MLQ.ai: “Microsoft will raise commercial cloud prices billed in Indian rupees by 15.7% from Jan. 1, 2027, and on-premises software prices in rupees by up to 20%, according to a notice it posted to partners on Nov. 11 [1] . Cloud prices in Chinese yuan will…”\n\nMezha.net: “Microsoft’s new prices for commercial cloud services take effect on January 1, 2027. Customers in India will pay 15.7 percent more for cloud services and up to 20 percent more for some on-premises offerings. Prices in New Zealand will rise by 10 percent. In China…”\n\nSmall Business Trends: “Microsoft’s announcement of upcoming changes to its commercial cloud pricing starting January 1, 2027, has significant implications for small business owners relying on Microsoft services. Beginning in the new year, price adjustments will occur in select currencies, including the Australian Dollar (AUD), Chinese Yuan (CNY)…”",
+      "category": "trending",
+      "published_at": "2026-11-16T05:30:00+00:00",
+      "generated_at": "2026-11-16T05:57:38.834793+00:00",
+      "kind": "digest",
+      "keyword": "cloud",
+      "score": 89.74,
+      "sources": [
+        {
+          "title": "Microsoft will raise cloud prices in India by nearly 16% and cut them in China from January",
+          "url": "https://mlq.ai/news/microsoft-will-raise-cloud-prices-in-india-by-nearly-16-and-cut-them-in-china-from-january/",
+          "publisher": "MLQ.ai"
+        },
+        {
+          "title": "Microsoft raises Indian cloud prices by 15.7%, cuts them in China by up to 8.5%",
+          "url": "https://mezha.net/eng/news/mezha-37e8deeac523bae59659c536_microsoft_raises_indian/",
+          "publisher": "Mezha.net"
+        },
+        {
+          "title": "Microsoft to Revise Cloud Pricing for Key Currencies Starting 2027",
+          "url": "https://smallbiztrends.com/microsoft-to-revise-cloud-pricing-for-key-currencies-starting-2027/",
+          "publisher": "Small Business Trends"
+        }
+      ],
+      "image_url": "https://mlq.ai/media/news_images/microsoft-will-raise-cloud-prices-in-india-by-nearly-16-and-cut-them-in-china-fr.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-16T05:59:51.656032+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/124bad0b5dac42614cc1.jpg"
     }
   ]
 }
