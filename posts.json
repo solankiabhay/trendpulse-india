@@ -307,12 +307,11 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 2,
+      "image_lookup_version": 1,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00",
       "image_path": "assets/news-images/334c971ff66cc392f76c.svg"
     },
     {
@@ -745,11 +744,10 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00"
+      "image_lookup_version": 1
     },
     {
       "id": "en-399a677b5e",
@@ -866,12 +864,11 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 2,
+      "image_lookup_version": 1,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00",
       "image_path": "assets/news-images/c14b5552739c1dcfc788.svg"
     },
     {
@@ -1015,7 +1012,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-16T15:34:44.885478+00:00",
+      "generated_at": "2026-11-17T20:45:55.328956+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1046,12 +1043,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1144,12 +1141,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3305,14 +3302,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3486,14 +3483,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4034,12 +4031,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4134,14 +4131,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-16T15:34:44.885478+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-16T15:38:36.808758+00:00",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -5940,7 +5937,7 @@
       "summary_refresh_version": 21,
       "image_source": "https://bfsi.economictimes.indiatimes.com/articles/bandhan-bank-q2-net-profit-surges-five-fold-to-rs-622-cr/135266878",
       "image_credit": "bfsi.economictimes.indiatimes.com",
-      "image_lookup_attempted_at": "2026-11-10T04:07:06.867892+00:00",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_lookup_version": 2
     },
     {
@@ -10850,13 +10847,12 @@
           "publisher": "Telegraph India"
         }
       ],
-      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1118291/hardik-pandya-is-set-to-leave-mi-to-join-pbks.jpg",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_source": "https://www.cricbuzz.com/cricket-news/140825/ipl-trade-hardik-pandya-mumbai-indians-arshdeep-singh-punjab-kings-trade-nears-completion-formalities-remain-cricbuzzcom",
       "image_credit": "Cricbuzz",
-      "image_path": "assets/news-images/339f9d3457402a65faae.jpg"
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00"
     },
     {
       "id": "en-f65cff1d15",
@@ -11130,13 +11126,12 @@
           "publisher": "AP7AM"
         }
       ],
-      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1118291/hardik-pandya-is-set-to-leave-mi-to-join-pbks.jpg",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "summary_refresh_attempted_at": "2026-11-11T01:50:26.955937+00:00",
       "summary_refresh_version": 21,
-      "image_path": "assets/news-images/339f9d3457402a65faae.jpg"
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00"
     },
     {
       "id": "en-d3844ac0ab",
@@ -12616,12 +12611,12 @@
       "slug": "microsoft-will-raise-cloud-prices-in-india-by-nearly-16-and-c0371670a5",
       "url": "en/posts/microsoft-will-raise-cloud-prices-in-india-by-nearly-16-and-c0371670a5.html",
       "title": "Microsoft will raise cloud prices in India by nearly 16% and cut them in China from January",
-      "summary": "MLQ.ai: Microsoft will raise commercial cloud prices billed in Indian rupees by 15.7% from Jan. 1, 2027, and on-premises software prices in rupees by up to 20%, according to a notice it posted to…",
-      "source_summary": "MLQ.ai: Microsoft will raise commercial cloud prices billed in Indian rupees by 15.7% from Jan. 1, 2027, and on-premises software prices in rupees by up to 20%, according to a notice it posted to partners on Nov. 11 [1] . Cloud prices in Chinese yuan will…\n\nMezha.net: Microsoft’s new prices for commercial cloud services take effect on January 1, 2027. Customers in India will pay 15.7 percent more for cloud services and up to 20 percent more for some on-premises offerings. Prices in New Zealand will rise by 10 percent. In China…\n\nSmall Business Trends: Microsoft’s announcement of upcoming changes to its commercial cloud pricing starting January 1, 2027, has significant implications for small business owners relying on Microsoft services. Beginning in the new year, price adjustments will occur in select currencies, including the Australian Dollar (AUD), Chinese Yuan (CNY)…",
-      "article_body": "MLQ.ai: “Microsoft will raise commercial cloud prices billed in Indian rupees by 15.7% from Jan. 1, 2027, and on-premises software prices in rupees by up to 20%, according to a notice it posted to partners on Nov. 11 [1] . Cloud prices in Chinese yuan will…”\n\nMezha.net: “Microsoft’s new prices for commercial cloud services take effect on January 1, 2027. Customers in India will pay 15.7 percent more for cloud services and up to 20 percent more for some on-premises offerings. Prices in New Zealand will rise by 10 percent. In China…”\n\nSmall Business Trends: “Microsoft’s announcement of upcoming changes to its commercial cloud pricing starting January 1, 2027, has significant implications for small business owners relying on Microsoft services. Beginning in the new year, price adjustments will occur in select currencies, including the Australian Dollar (AUD), Chinese Yuan (CNY)…”",
+      "summary": "Mezha.net: Microsoft’s new prices for commercial cloud services take effect on January 1, 2027. Customers in India will pay 15.7 percent more for cloud services and up to 20 percent more for some…",
+      "source_summary": "Mezha.net: Microsoft’s new prices for commercial cloud services take effect on January 1, 2027. Customers in India will pay 15.7 percent more for cloud services and up to 20 percent more for some on-premises offerings. Prices in New Zealand will rise by 10 percent. In China…\n\nSmall Business Trends: Microsoft’s announcement of upcoming changes to its commercial cloud pricing starting January 1, 2027, has significant implications for small business owners relying on Microsoft services. Beginning in the new year, price adjustments will occur in select currencies, including the Australian Dollar (AUD), Chinese Yuan (CNY)…",
+      "article_body": "Mezha.net: “Microsoft’s new prices for commercial cloud services take effect on January 1, 2027. Customers in India will pay 15.7 percent more for cloud services and up to 20 percent more for some on-premises offerings. Prices in New Zealand will rise by 10 percent. In China…”\n\nSmall Business Trends: “Microsoft’s announcement of upcoming changes to its commercial cloud pricing starting January 1, 2027, has significant implications for small business owners relying on Microsoft services. Beginning in the new year, price adjustments will occur in select currencies, including the Australian Dollar (AUD), Chinese Yuan (CNY)…”",
       "category": "trending",
       "published_at": "2026-11-16T05:30:00+00:00",
-      "generated_at": "2026-11-16T05:57:38.834793+00:00",
+      "generated_at": "2026-11-17T20:45:55.328956+00:00",
       "kind": "digest",
       "keyword": "cloud",
       "score": 89.74,
@@ -12646,7 +12641,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-16T05:59:51.656032+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/124bad0b5dac42614cc1.jpg"
+      "image_path": "assets/news-images/124bad0b5dac42614cc1.jpg",
+      "summary_refresh_attempted_at": "2026-11-17T20:45:55.328956+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-e691fd7862",
@@ -12799,6 +12796,120 @@
       "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/ded8b4c0a019d6516216.png"
+    },
+    {
+      "id": "en-101ef26aef",
+      "lang": "en",
+      "slug": "pedro-neto-opens-up-to-portuguese-media-about-where-he-likes-101ef26aef",
+      "url": "en/posts/pedro-neto-opens-up-to-portuguese-media-about-where-he-likes-101ef26aef.html",
+      "title": "Pedro Neto opens up to Portuguese media about where he likes to play most",
+      "summary": "OneFootball: Pedro Neto is doing really well under Xabi Alonso, and he’s been speaking in the Portuguese media about how it’s going.If you enjoy Talk Chelsea coverage…\n\nSi Phillips Talks Chelsea: I…",
+      "source_summary": "OneFootball: Pedro Neto is doing really well under Xabi Alonso, and he’s been speaking in the Portuguese media about how it’s going.If you enjoy Talk Chelsea coverage…\n\nSi Phillips Talks Chelsea: I think Pedro Neto has proven to be a good right wing-back option mostly. To me, it looks like he is one of the players really trusted by Xabi Alonso. He picks him every game, and even threw up up…\n\nThe Pride of London: Pedro Neto has made his preferred position clear to Xabi Alonso after explaining which position he feels most comfortable in. The Chelsea forward has featured o",
+      "article_body": "OneFootball: “Pedro Neto is doing really well under Xabi Alonso, and he’s been speaking in the Portuguese media about how it’s going.If you enjoy Talk Chelsea coverage…”\n\nSi Phillips Talks Chelsea: “I think Pedro Neto has proven to be a good right wing-back option mostly. To me, it looks like he is one of the players really trusted by Xabi Alonso. He picks him every game, and even threw up up…”\n\nThe Pride of London: “Pedro Neto has made his preferred position clear to Xabi Alonso after explaining which position he feels most comfortable in. The Chelsea forward has featured o”",
+      "category": "trending",
+      "published_at": "2026-11-17T20:30:00+00:00",
+      "generated_at": "2026-11-17T20:45:55.328956+00:00",
+      "kind": "digest",
+      "keyword": "pedro neto",
+      "score": 89.85,
+      "sources": [
+        {
+          "title": "Pedro Neto opens up to Portuguese media about where he likes to play most",
+          "url": "https://onefootball.com/en/news/pedro-neto-opens-up-to-portuguese-media-about-where-he-likes-to-play-most-43790030",
+          "publisher": "OneFootball"
+        },
+        {
+          "title": "Pedro Neto reveals his preferred position to play, and I fully agree",
+          "url": "https://sptc.news/p/pedro-neto-reveals-his-preferred",
+          "publisher": "Si Phillips Talks Chelsea"
+        },
+        {
+          "title": "Pedro Neto tells Xabi Alonso where he wants to play after Chelsea position debate",
+          "url": "https://theprideoflondon.com/pedro-neto-tells-xabi-alonso-where-he-wants-to-play-after-chelsea-position-debate",
+          "publisher": "The Pride of London"
+        }
+      ],
+      "image_url": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43790030%3Fdate=2026-11-17",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/27aee5b9ab124f83fa51.png"
+    },
+    {
+      "id": "en-0601ec47f7",
+      "lang": "en",
+      "slug": "manchester-united-and-mauricio-pochettino-have-a-bruno-ferna-0601ec47f7",
+      "url": "en/posts/manchester-united-and-mauricio-pochettino-have-a-bruno-ferna-0601ec47f7.html",
+      "title": "Manchester United and Mauricio Pochettino have a Bruno Fernandes predicament - The Athletic",
+      "summary": "The Sun: BRUNO FERNANDES will put all talk of a new contract on ice — until he works out if new Manchester United boss Mauricio Pochettino is the real deal. The Old Trafford captain feels…",
+      "source_summary": "The Sun: BRUNO FERNANDES will put all talk of a new contract on ice — until he works out if new Manchester United boss Mauricio Pochettino is the real deal. The Old Trafford captain feels…",
+      "article_body": "The Sun: “BRUNO FERNANDES will put all talk of a new contract on ice — until he works out if new Manchester United boss Mauricio Pochettino is the real deal. The Old Trafford captain feels…”",
+      "category": "trending",
+      "published_at": "2026-11-17T20:20:00+00:00",
+      "generated_at": "2026-11-17T20:45:55.328956+00:00",
+      "kind": "digest",
+      "keyword": "bruno fernandes",
+      "score": 89.76,
+      "sources": [
+        {
+          "title": "Manchester United and Mauricio Pochettino have a Bruno Fernandes predicament - The Athletic",
+          "url": "https://www.nytimes.com/athletic/7782321/2026/11/17/bruno-fernandes-manchester-united-future-pochettino/",
+          "publisher": "The New York Times"
+        },
+        {
+          "title": "Bruno Fernandes to SHELVE new Man Utd contract talks until Mauricio Pochettino proves himself to £300k-a-week star",
+          "url": "https://www.thesun.co.uk/sport/41025939/bruno-fenandes-man-utd-mauricio-pochettino/",
+          "publisher": "The Sun"
+        },
+        {
+          "title": "Bruno Fernandes rejects contract, Man United relaxed as talks continue - sources",
+          "url": "https://www.espn.in/football/story/_/id/50470480/bruno-fernandes-man-united-contract",
+          "publisher": "ESPN India"
+        }
+      ],
+      "image_url": "https://www.thesun.co.uk/wp-content/uploads/2026/11/GM_14-11_FERNANDES_OP_9147ee.jpg?quality=90&strip=all&w=1920&h=1080&crop=1",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/25b0194777dc87f0b6a5.jpg"
+    },
+    {
+      "id": "en-ac880cb447",
+      "lang": "en",
+      "slug": "portugal-boss-responds-to-criticism-from-ronaldo-s-mum-ac880cb447",
+      "url": "en/posts/portugal-boss-responds-to-criticism-from-ronaldo-s-mum-ac880cb447.html",
+      "title": "Portugal boss responds to criticism from Ronaldo's mum",
+      "summary": "BBC: Jorge Jesus responds to claims by Cristiano Ronaldo's mother, Dolores Aveiro, that her son had been \"deceived\" by the Portugal manager.\n\nAl Jazeera: Portugal coach Jorge Jesus believes he will…",
+      "source_summary": "BBC: Jorge Jesus responds to claims by Cristiano Ronaldo's mother, Dolores Aveiro, that her son had been \"deceived\" by the Portugal manager.\n\nAl Jazeera: Portugal coach Jorge Jesus believes he will still be responding to questions about Cristiano Ronaldo next year, after he was asked for his thoughts on scathing comments by the football great’s mother.\n\nRediff: Ronaldo's Mum Celebrates Portugal's 1-4 Loss",
+      "article_body": "BBC: “Jorge Jesus responds to claims by Cristiano Ronaldo's mother, Dolores Aveiro, that her son had been \"deceived\" by the Portugal manager.”\n\nAl Jazeera: “Portugal coach Jorge Jesus believes he will still be responding to questions about Cristiano Ronaldo next year, after he was asked for his thoughts on scathing comments by the football great’s mother.”\n\nRediff: “Ronaldo's Mum Celebrates Portugal's 1-4 Loss”",
+      "category": "trending",
+      "published_at": "2026-11-17T20:10:00+00:00",
+      "generated_at": "2026-11-17T20:45:55.328956+00:00",
+      "kind": "digest",
+      "keyword": "rasmus højlund",
+      "score": 89.67,
+      "sources": [
+        {
+          "title": "Portugal boss responds to criticism from Ronaldo's mum",
+          "url": "https://www.bbc.com/sport/football/articles/ck87984g3x1po",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Portugal coach Jorge Jesus responds to criticism from Ronaldo’s mother",
+          "url": "https://www.aljazeera.com/sports/2026/11/17/cristiano-ronaldo-mother-portugal-coach-jorge-jesus",
+          "publisher": "Al Jazeera"
+        },
+        {
+          "title": "Ronaldo's Mum Celebrates Portugal's 1-4 Loss",
+          "url": "https://www.rediff.com/sports/report/ronaldos-mum-celebrates-portugals-loss/20261117.htm",
+          "publisher": "Rediff"
+        }
+      ],
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6ca3/live/b14c4cf0-e1f9-11f1-ac6e-e9777cdcbb4f.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/2645fcff2427d3c07757.jpg"
     }
   ]
 }
