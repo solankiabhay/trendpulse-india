@@ -259,12 +259,11 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/f3d4351f8ddabad8c343.svg"
     },
     {
@@ -446,12 +445,11 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/de4c8167d9189a9d1c6a.svg"
     },
     {
@@ -968,7 +966,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-15T23:56:15.426262+00:00",
+      "generated_at": "2026-11-17T10:30:17.959901+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -999,12 +997,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1195,12 +1193,11 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1616,12 +1613,11 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/fa3ab925bd6447660c9b.svg"
     },
     {
@@ -2791,12 +2787,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3177,14 +3173,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3783,14 +3779,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4190,14 +4186,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4278,14 +4274,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-15T23:56:15.426262+00:00",
+      "summary_refresh_attempted_at": "2026-11-17T10:30:17.959901+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-15T23:59:20.268253+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -6551,7 +6547,7 @@
       "image_url": "https://static.toiimg.com/thumb/msid-135299458,width-1280,height-720,resizemode-6,overlay-toiblogs,pt-32,x_pad-1045,y_pad-670/photo.jpg",
       "image_source": "https://timesofindia.indiatimes.com/toi-blogs/toi-newsletters/bharat-abroad/toi-bharat-abroad-us-midterms-red-blue-a-little-desi-too/articleshow/135299309.cms",
       "image_credit": "The Times of India",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_lookup_version": 2
     },
     {
@@ -6591,7 +6587,7 @@
       "summary_refresh_version": 21,
       "image_source": "https://www.bcci.tv/news/article/india-and-india-a-squad-updates-for-new-zealand-tour",
       "image_credit": "BCCI",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_lookup_version": 2
     },
     {
@@ -7523,7 +7519,7 @@
       "summary_refresh_version": 21,
       "image_source": "https://www.theguardian.com/sport/2026/oct/27/pakistan-sri-lanka-one-day-international-odi-match-report-cricket",
       "image_credit": "The Guardian",
-      "image_lookup_attempted_at": "2026-11-09T20:41:31.494343+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_lookup_version": 2
     },
     {
@@ -10854,10 +10850,13 @@
           "publisher": "Telegraph India"
         }
       ],
-      "image_url": "",
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1118291/hardik-pandya-is-set-to-leave-mi-to-join-pbks.jpg",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-10T04:07:06.867892+00:00"
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
+      "image_source": "https://www.cricbuzz.com/cricket-news/140825/ipl-trade-hardik-pandya-mumbai-indians-arshdeep-singh-punjab-kings-trade-nears-completion-formalities-remain-cricbuzzcom",
+      "image_credit": "Cricbuzz",
+      "image_path": "assets/news-images/339f9d3457402a65faae.jpg"
     },
     {
       "id": "en-f65cff1d15",
@@ -11134,9 +11133,10 @@
       "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1118291/hardik-pandya-is-set-to-leave-mi-to-join-pbks.jpg",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-10T04:07:06.867892+00:00",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "summary_refresh_attempted_at": "2026-11-11T01:50:26.955937+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/339f9d3457402a65faae.jpg"
     },
     {
       "id": "en-d3844ac0ab",
@@ -12761,6 +12761,44 @@
       "image_lookup_attempted_at": "2026-11-17T00:12:08.899910+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/5e79b9eb9541e8a5be2a.jpg"
+    },
+    {
+      "id": "en-fc921c9225",
+      "lang": "en",
+      "slug": "why-fix-it-chopra-urges-rcb-to-keep-winning-squad-fc921c9225",
+      "url": "en/posts/why-fix-it-chopra-urges-rcb-to-keep-winning-squad-fc921c9225.html",
+      "title": "Why fix it? Chopra urges RCB to keep winning squad",
+      "summary": "The Avenue Mail: Why fix it? Chopra urges RCB to keep winning squad | Entertainment / Sports News | The Avenue Mail\n\nCricTracker: The Royal Challengers Bengaluru head into the IPL 2027 retention…",
+      "source_summary": "The Avenue Mail: Why fix it? Chopra urges RCB to keep winning squad | Entertainment / Sports News | The Avenue Mail\n\nCricTracker: The Royal Challengers Bengaluru head into the IPL 2027 retention window as back-to-back champions, having lifted the trophy in both 2025 and 2026. Their settled squad and consecutive title wins mean large-scale changes are unlikely before the mini-auction scheduled in Goa on December 16, 2026.…",
+      "article_body": "The Avenue Mail: “Why fix it? Chopra urges RCB to keep winning squad | Entertainment / Sports News | The Avenue Mail”\n\nCricTracker: “The Royal Challengers Bengaluru head into the IPL 2027 retention window as back-to-back champions, having lifted the trophy in both 2025 and 2026. Their settled squad and consecutive title wins mean large-scale changes are unlikely before the mini-auction scheduled in Goa on December 16, 2026.…”",
+      "category": "trending",
+      "published_at": "2026-11-17T10:10:00+00:00",
+      "generated_at": "2026-11-17T10:30:17.959901+00:00",
+      "kind": "digest",
+      "keyword": "rcb retained players 2027",
+      "score": 89.81,
+      "sources": [
+        {
+          "title": "Why fix it? Chopra urges RCB to keep winning squad",
+          "url": "https://avenuemail.in/aakash-chopra-backs-rcb-core-ipl-retention-deadline/",
+          "publisher": "The Avenue Mail"
+        },
+        {
+          "title": "‘Why fix something that ain’t broken?’ Chopra backs RCB’s core ahead of retention deadline",
+          "url": "https://www.thehawk.in/news/sports/cricket/why-fix-something-that-aint-broken-chopra-backs-rcbs-core-ahead-of-retention-deadline",
+          "publisher": "The Hawk"
+        },
+        {
+          "title": "3 RCB players who may not be retained ahead of IPL 2027 Auction",
+          "url": "https://www.crictracker.com/cricket-appeal/3-rcb-players-who-may-not-be-retained-ahead-of-ipl-2027-auction/",
+          "publisher": "CricTracker"
+        }
+      ],
+      "image_url": "https://avenuemail.in/wp-content/uploads/2026/11/20260601175F.png",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/ded8b4c0a019d6516216.png"
     }
   ]
 }
