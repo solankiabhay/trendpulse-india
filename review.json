@@ -2,162 +2,6 @@
   "version": 1,
   "items": [
     {
-      "id": "hi-4b36ea830c",
-      "lang": "hi",
-      "title": "चीनी व्लॉगर्स पर ढाका की झुग्गियों को दिल्ली का बताने का आरोप, भारत ने जताई कड़ी नाराज़गी",
-      "category": "india",
-      "published_at": "2026-11-10T18:43:32+00:00",
-      "summary": "BBC: चीनी व्लॉगर्स पर ढाका की झुग्गियों को दिल्ली का बताने का आरोप, भारत ने जताई कड़ी नाराज़गी\n\nDainik Bhaskar: चीनी व्लॉगर्स ने ढाका की झुग्गी – बस्ती को दिल्ली का बताया: भारत ने नाराजगी जताई, कहा – झूठी बातें फैलाने से क...\n\nAajTak: बांग्लादेश की गलियों में वीडियो बना रहे चीनी व्लॉगर, दिल्ली का बता दिखा रहे गंदगी\n\nJansatta: भारत विरोध अभियान पर विदेश मंत्रालय हुआ सख्त, बांग्लादेश से की कार्रवाई की मांग\n\nJagran: ढाका के गरीब इलाकों में घूम रहे चीनी नागरिक, दिल्ली में होने का किया दावा; रिपोर्ट में खुलासा",
-      "sources": [
-        {
-          "title": "चीनी व्लॉगर्स पर ढाका की झुग्गियों को दिल्ली का बताने का आरोप, भारत ने जताई कड़ी नाराज़गी",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51U0JsZDF5SjZ5RW1YOXB6MjJpXzFGdUdfSVNxT203cnVVZHNSMXhubV9USm1sUzFLWVRzWXA2TlpkU3c5YldWSEJCT29aeU1XNVBqTEo4NDhGUDFD0gFiQVVfeXFMTzBsejE3dVlZSlRIMmNQQVJOYkFRa1h0dXBLRnZ4cDhQZ1dkOVBlVm1rRGJkS2NyV2NkdThKZy1pSXhHY1FuOVFGTzRvZE41MENTM3JZZzVHS3h3U3Z3Z29FeEE?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "चीनी व्लॉगर्स ने ढाका की झुग्गी-बस्ती को दिल्ली का बताया: भारत ने नाराजगी जताई, कहा- झूठी बातें फैलाने से क...",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONzdSM1k3bW1rd3VBbHRZd1BrcFBEdWpXSTBKSEZ3Rk9qZnBkRmNsN2x1a21zdGtZLVcwai1TTFk1ZjFNa0FzMVREWU93RnVHRFR4Vm1lRmJMNjBzaW1GVi1HU18zZUlvckxEeHNKUWVkVGFTTV9LelRMTUp3UlNDeEozNGFDUWNweDFFcW4tMVJucHRlbk5PUFBzNXZEbEh2cTBxTVpvVlZnT2J5Z1UtSTdSTzZLek5QTTFZUlBpbFFTUdIBxwFBVV95cUxOTHZPZjBXRHM0N2Y0Y2NhNGhsWURZNUNNckFhMUJ2eVFCdjROcnd1eTB3Q0pIdVp2ZC1pM1ozdFlZSXBTcmhDTzNkQU5PT0ZJWXpmUUNVTTN0UDhLbzAta1ZqY18tX3ZIQ0dLUDRobmpKOHRXTHBYTFdlS1JoWHJ6NDFfQTNLd3NKTWlpdTVEd1BWNGJxRktPZktQbE9HcWZKYzhUWW1TNWUwVm9zczd6OVFjZklwWC1FazVQdDNQQ3ljbFh0VUpV?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "बांग्लादेश की गलियों में वीडियो बना रहे चीनी व्लॉगर, दिल्ली का बता दिखा रहे गंदगी",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcXc3cDBmeVc2S19md19xQXhuMjFsX3NPalFGRTI3MFJsUlBrSG5xLTBHLTZIdnBwajlIQk9QZTRHdG45c19tN0t4WEpkeXc2U090VkpWODA5bjNlZkM4NjRiaUF5ZnllaUFWcER4UFlLN0JsS0g3WUVTaHp3b0RSZnRZMWRydTRobmE5alJvYTdjZ0FwZjB6S3RCNUVBM3U4UlpESVU0bGJjY1c3cWZrREgwcXhFa2RPU3VGVmhrMkfSAcYBQVVfeXFMUEtaY09MTzZXQ2ZwZklOeEJjTjhhZlJBbWFNNncyTS1jNUt5STczdk9TN19fWEZHeVBtOS11c2wzd1JEYkdneFNCMGNZclhXazM2V3ZFeHVWX3JIYWFYWUs5TFdvRlltQmhsXzBlcG9FX1JEWlluYk9OQmZvamdJM2NJRVZhOVJrNDY3TjRkY2NDU0E5cjE1OEZadzFZLXNfY1RoMHBpSGdsYW1TUndrUndFQzFGc19YYVFXZ3FCMFl2MmZoMndn?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "भारत विरोध अभियान पर विदेश मंत्रालय हुआ सख्त, बांग्लादेश से की कार्रवाई की मांग",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNGhfMDlHaHZhSUxaUU9CbnlxenpEVzhEbmhBdHJrZHhLR21SOXc3N2pwaXlhTFk4ZXhJbUoySUE0T3VKQ3FhNE5ucUctYnlwUzY2dnFxYWFzSWlQcm8xeHlVLUQxOXJMWWg3VG4xZm1sQVNYZVg4dm90VE1ZMDcyREFQX0Q4Q2R6eWp1LVdZYjV0Sl9QLUFQeFFwalZWRHlleVJhaF9JRjJNZkRGcTlqYzVuSEZOZXptczBBUTRBaUN5OW9tRzJTWDV5YTdMSTRSY0E?oc=5",
-          "publisher": "Jansatta"
-        },
-        {
-          "title": "ढाका के गरीब इलाकों में घूम रहे चीनी नागरिक, दिल्ली में होने का किया दावा; रिपोर्ट में खुलासा",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdEdlY3pTU1EyQTdrTTVVc2hwSWhqSWVPUnlrdEYwYVJMWnNwNGhIWGNXNU5VdEVoZkVURkF3VExWQkxkYzJyMEJsaGJ0QXp6cG5FaUJDSkRBSlY2M0E3ZlMyTGc5Vi1EYzNhT1dFaU5vejBSWjhodWZnNWk2N1pxdWxDR0E2dWpFdzQ0OXhvWGRSeDdVTVR5cDBlX1NoZUl3SnMwNVpyc1JBV3QxY2Z0N1BoMlZXMThTRExTdXJNYTNsQk9yWmI0WGx6TnBuRDdCSUhVVDFjVGE4TWhxWjlZ?oc=5",
-          "publisher": "Jagran"
-        }
-      ],
-      "queued_at": "2026-11-10T21:45:55.854045+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-23fd790153",
-      "lang": "en",
-      "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
-      "category": "technology",
-      "published_at": "2026-11-10T21:05:11+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zbjFHQnhqMWZVaHBMRHNXaExMeVlPc3JSQU5xcmtDUEdQNm1DalNmalFRSmR1MGhQSjZYMFZiX2xCU3FHdUhUdzVGR3hlWjdULVhFTmR1OFI5b3dYVjhuMHRiQVpUbl9OS0lCdkJNYXA?oc=5",
-          "publisher": "The Record from Recorded Future News"
-        },
-        {
-          "title": "A new standard for vulnerability management in the AI era",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc3cydTdzRUVHUG1acjNkRVk5MExoQ3l4RTZMQ2ZQNU4tT3hPdjZNVFpoZmxIZGhxeXZvVWdySmhUREUyQkl4OUd5UVhIa2hpcW5fU3ZsdGtaUzhoQXpwLVRKWGViSzVCaU5aZDJGZDg1ZDFNWk5VbGRWemtYdE9sVnNMcDRUNEJGaGwyY29KV2FyWmNmY0tBTWRDdW82NUpOMWdORzNYV0FMQUk0RnhKVTlRUQ?oc=5",
-          "publisher": "Windows Blog"
-        },
-        {
-          "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUW5MOWdTMklESkxEYTVWSFV1enJ0ZF9JNGFSOG03UjQzelY4WVBrdWo5SGJZd1BrU0NweXVUcm1jWmExNFl6TmcyLXUxc3FpUlpsLU9UYmtJdE9RWjBmZXZoTXpzS08xNmI5Sjk5bm5rRTZZV2tINU5oaHVETkhVNEdZVlM5bXpzY0RfRFpleWNvQ1kxQ2V1SXQ2WHNScllpTjFMR0p2ZjhsaVpjVjYta3NHREIzS18zUVlPT3Zn?oc=5",
-          "publisher": "BleepingComputer"
-        },
-        {
-          "title": "Microsoft closes 1,413 vulnerabilities and accelerates patching with AI",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZUI1cXBBaWZYalRHaFM0bDBDeTFoNWhpam4zX1VWcWhYVTZLd3lPMzlvLV9keHpTYmhEM0FZVDZOeTdXQU5WNllmcXdoZWZ0MjlKQzQ0MGdja3gzbThKY0NuTXM0ekNGTXNWTk82WWJrS3dKVm4zQUlwM3ZZWlgtZzg4T0RReEVjVzhsUzVqM3BsSG1mU2hKaUdUSnhwXy1LMGFxTEVGQkc1dkFq?oc=5",
-          "publisher": "Foro3D"
-        },
-        {
-          "title": "Microsoft November 2026 Patch Tuesday: Windows Search, LDAP, and Schannel RCEs, and an Exploited Outlook Spoofing Flaw — Prepare Now",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ3FkX1E5ejkxLWtERE52TFZpNW1xaEFlWEkxWUdlSEdNNkh6VUlzdWF2UkZ2bHpONUNBdDhvNFFlbE02bjJMeVk1b3FpLUNWemR4ZXB4LUJmVnV4UVFqMEEyS2V4bmJSYldrTWJRSGlTZUhuVGdyMjM1M0pfUWRRQVJXZUFWV0ZpeUNYZ213OUNjSm01azRJZHhrZDVwUk5xQ2xzeQ?oc=5",
-          "publisher": "Rescana"
-        }
-      ],
-      "queued_at": "2026-11-10T21:45:55.854045+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-bce4fc85e8",
-      "lang": "hi",
-      "title": "Maatrubhumi Trailer रिलीज, फौजी वर्दी में सलमान खान बोले- एक बिहारी सौ पर भारी, फैंस ने कहा- भाई, सांसें थम गई",
-      "category": "entertainment",
-      "published_at": "2026-11-10T17:09:08+00:00",
-      "summary": "Navbharat Times: Maatrubhumi Trailer रिलीज, फौजी वर्दी में सलमान खान बोले – एक बिहारी सौ पर भारी, फैंस ने कहा – भाई, सांसें थम गई\n\nAajTak: Maatrubhumi Trailer Review: 'एक बिहारी 100 पर भारी', पहली बार जवान बने सलमान खान, मातृभूमि के ट्रेलर में छाए\n\nABP News: Maatrubhumi Trailer Out: मातृभूमि का जबरदस्त ट्रेलर रिलीज, सलमान का दमदार अंदाज, बलिदान और युद्ध\n\nNews18 Hindi: सलमान खान ने फैंस को दिया डबल सरप्राइज! 'मातृभूमि' की रिलीज डेट फाइनल, जानें कब रिलीज होगा ट्रेलर\n\nDainik Bhaskar: फिल्म बायोपिक नहीं, सिर्फ एक्शन की कहानी: सलमान ने कहा – ऐसा नहीं कि हमने फिल्म बनाई तो चीन भारत पर हमला कर ...",
-      "sources": [
-        {
-          "title": "Maatrubhumi Trailer रिलीज, फौजी वर्दी में सलमान खान बोले- एक बिहारी सौ पर भारी, फैंस ने कहा- भाई, सांसें थम गई",
-          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNV1BlSWptcmRjc2s2d0dZLVhTdkFyWGk0MWZuaTZOcjg4Nm1SZVpQX1NEcFlESi1KWTZIaXEtWHhDQ3ZXT2dMY1IzSWxEV2lrTTI5TXQwQWY5Y3YzMUsxSlp4eGg0ZUdXVTAwdXIyRnk5ckJFTGQzX0JEOXV5SndKOXpHUmpNMTB3QTg3ZjJoMlhJR2JvdUJzTWtjMk5yaUZnOERmRFh3TFFQRzJEVkctTTEtdXlSR1kzOVVqa0p0MzF4TWgtY1cxZENXRGIySXZzOUQwX0JQUE1nZ05wS29kSGJjQUh1OTlRWXNkTS10MXlUYWJKRDI5SnhuSVFvM3ZuWTdZZk1NcEFRS0VlUkl3eFZiMXRZVTZnM3pDa3o1VkNjOUlSb3lmY0EtVEotUVZLcnNDM0VR0gG7AkFVX3lxTE9Jb052ZThnb0FfTThmRExNRWFYa05jWFFwWU91MTN4RU5qQzVqOEFYdy1WdUtWRExFa3ZkdHU5NEZoaXIweTJfTjNUQ1d0UkJmX0F0YWVKOFYxbWdnUm1aSUFQc2psUU1Pd0xTVTlUMDlSQWtoZHpON3g5MG9zekZTc3JldU1tZzJuZFQ5cmVUMUwtNlZtMnVEeFhQT3NoMXBiOVpzeXFVTnZSbHdjc1ZWXzVHWDcxWjJqQTZqNGpiQWc0dlM2aTFGZUM3cm9WSmNqVFZyTVRfOVIxb0lGT2ViRFpaTU5ZNUdROXB6eUM4bGNzeXVZbjBtbGNla3FkNTJpUGpUbGt0S0hEelFaeUpGSXF6WkFnLUw1UzFHMUdpZ1pVc3BqWlBQUlJVcGlQX0pMbTZ5WEhfdmJVUQ?oc=5",
-          "publisher": "Navbharat Times"
-        },
-        {
-          "title": "Maatrubhumi Trailer Review: 'एक बिहारी 100 पर भारी', पहली बार जवान बने सलमान खान, मातृभूमि के ट्रेलर में छाए",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQU9RWjFreEljejhFWFRCMjFldmw0Zk9ZLVNyTU1RZEJXNUxVZExvWU1VMmVsOUlxQlFyOHdPdnJBQUlNbGFYNVdCSFp1bF81VEpHZW13Qlg4R21VbWhHcHl3RXNreERMRkNUVDUtaHN4akRTUmU0ZmxfaGRWbGVma1p2X2g1MFJjM2VNQjliYXZzQm9oWWVSZlBPMlgzRlp2TFp4WjI1aGxhaE9oSlZreUxrcG9nX0RjN2Y3QmdxcVl4ZXVmc3VkQWFxOTJUYkV2V1A1YXU3N21hbktSSVgwTl9WZ0V0bDA0aGIxMkhSVE1IY2YyNmRnNzVXckNqaEnSAYQCQVVfeXFMUHNYbVBXeldZUzcwS3RUeW96cm1yZWs5dlAtRTVRQ2pSU1pVd0pfcU5pXzF5Vkp6R2dQRFFLUjRMM3R1eHJVdmNuNUJxUGJnWE5STDlPQmJTSXAzQ0E0NG5SLXBCOVVPS21BX0JnZUdCNTFzMlY5TVdjNE15WFB1REhRT3hOWmprNTNCQlF6d3pLajRWUk13Nkkzd2IwdmFER1JsdjMyazJ1M19maDJ5U1VFV2lPMjF2WE1NcXdjMndrSk9GMnBNYkN1LUx3ZHk3bHotUHdqYk12ajJBYUljN3AweGlBUUNvWWQzaTJkbjNwV0NqeU9XRUZ6THdnQkNKbi1jWnc?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "Maatrubhumi Trailer Out: मातृभूमि का जबरदस्त ट्रेलर रिलीज, सलमान का दमदार अंदाज, बलिदान और युद्ध",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV1dmcm1VMm9aTWl4ZVY0MXpiM1FxMVdjUUM0bXh1dXRXOVJ6M0RpMGo4ZTNOZnB4cS1kZXJtemVwZzlnckZWS0RaeDQwenZUZTVMZU15Xy1vN3FIQlpMY0dRQVBRWXZZaXFOM0tlOFI3QWdTRVp3cHIyZG03UWRuTEFtWjE0TkExOThtRXJxY3liSGR2cGk4b1h0dGxUcndvRVhkZkZVbXJ5U1ZTamxzQzJGZzBaazhmMlHSAb8BQVVfeXFMTlpDVGhYYlBLeXFxWE9NUTA2dlpTYlpRLXlRZUJ0U09lYmhsOGRUX1k0NmxpY0ItQ1pQRE05bTVlWklGcXBIS01CQVdSaWxKUjJ6dzNhYWNLS196ZHJweDY1bU5JSHpnaWZRcTFZYUZWNXlpYXdQejhzbzdiRm1VVks5WW0zU1RWMjdDWXZGOW1rNk9JX0dZeTVjX2FzM0NIM1I3UEtnTDZfRlZRQUNVeEo5VDhKRjlBS0s2NlBnUmc?oc=5",
-          "publisher": "ABP News"
-        },
-        {
-          "title": "सलमान खान ने फैंस को दिया डबल सरप्राइज! 'मातृभूमि' की रिलीज डेट फाइनल, जानें कब रिलीज होगा ट्रेलर",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQampQYk14V3BhVXhSWXU1ZWlGdC1BY3p1WUsxVVgtN0ZXV1ZSNjI2X1JSZjB3MWJpazJVVTlNZU9hbjExZzZGcjdKMk5OQ2d6SlYzTmRXclpEZUxaQ0VxM1pKVU1xajNTaGRSOHFDc1UzbHp5alJwSGJ2V3hicTJDN3Q2YU1TcHhEeE9QVlU1UmRHVmNyUGRiSlF4OW50UEJWcXl4SlNlUktKRmw4YmVOX3lQN2JsMXVlYW0yLU9mZ3JHVk1QYVpTbFdabW91Z0VnTFZYTmJBYVpzeHZlaG1XVnVWZEh4andna2Robw?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "फिल्म बायोपिक नहीं, सिर्फ एक्शन की कहानी: सलमान ने कहा- ऐसा नहीं कि हमने फिल्म बनाई तो चीन भारत पर हमला कर ...",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT3dVTVhfWHVrQkJWamJobHFob0JtUHFjYWJDWHFYMFhCdkM2NFhzZVJJbWREcWpZN056cTZkc01GSXo3aXExdkk5YldfNEc5Nm5VSWlPbXBwQ1FKVXFnT1ctSXFRWHBTTUd4d3RNSWRtb2Y3OVYxZDZOV1lkTXdJcVF2aFg2WFJqSzdPOFdpZnBvdFBIWVJXU1VfRXJFanVlVmJYVVk1VEM5emFpRVhlREFrZm12TURUMnEyT0tZN3M0UUNiUm1uZThjZFRiUdIB0wFBVV95cUxNSFhtRHNFVW9TVHV5ZVRJQmdUVTc0SjRiSFAtVkRsSTNrVjZaX0MxX1pvWFBWdTFiZXhnQl9rZ1kyOUF2WXhCYVV2RnJkdjFCRHptcDA3ZXYtQWVhUkstN3lVdVFaaWFKbFNackRqTFlIZXYyR3pDWE1kTlp2RHlHbF91Smw5NHVDRDNFTDYxMUtkeDd6UFRGUzRtZnNQWEVhY3RDV0lEYVl3N281OHE2cEthd3kyMkR6Szh4dXEzV0VpVU43X2ZUbHJoaTJzajl1Umx3?oc=5",
-          "publisher": "Dainik Bhaskar"
-        }
-      ],
-      "queued_at": "2026-11-10T21:45:55.854045+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-4f67d92ed7",
-      "lang": "en",
-      "title": "Today’s NYT Strands Hints, Spangram and Answers for Wednesday, Nov. 11, #983",
-      "category": "technology",
-      "published_at": "2026-11-10T21:00:20+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Today’s NYT Strands Hints, Spangram and Answers for Wednesday, Nov. 11, #983",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTjNWR0lWdnVvcGJlalJQd1lFUHBLYUQ0MVo1MUZtR1NWZXFSczRsSldyNTBpUFFweF9wZFZDcDZzNHRNWmNWQTRkM05vanRIZjVFRFI0YzZqMUVIZU9iUm50MkszM2czR3FZRFY0MXkteHJDLV9aR3ZqQ0VPdzdoT3FHNzRYdnlOYUJ4YXB2bmRHUURkaFNxYlJMYWJqb1IyZjJTdzdWMA?oc=5",
-          "publisher": "CNET"
-        },
-        {
-          "title": "Today’s NYT Strands answers, clues, and hints on November 5 (puzzle #977)",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa0NWUEpOSnZkRnRNZGRiOUR1WTN4cWFCbmRsQW02UVVPY0kxcWR6T3BsSG91ZDV4dm5HQmp0Y1lMWHduaGI0MVhlVzhxa28zdkx6OEpQVUVQSnAtOGg4a1ZGOEtrbUpDTDg4UXlBVjU1NlVxWGJyWE9NTS1vLVJpbWFXU0ZJdGdpVU8teUZaS0gxU3daZWNDdkZFU2drUQ?oc=5",
-          "publisher": "PC Guide"
-        },
-        {
-          "title": "NYT Strands hints and answers for Tuesday, November 10 (game #982)",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSlhTUUE3blNmMk1YQlhQeDZoT0x3VThKZzBSNFh1SUJvcy1GdE5zX2lqU0lFcl9Ha0ktQmxYSmtVYVRjeW9lQWJwRWNSandVaXpqeGwxR3FQWUJKNDVGNzA4ZG9NS2VXNG00WW80QV96T2E0ME9aa0tzM3ZPWVZ6TEZMUkQtVlFIaGJCLTgtZEp4Qnotd3prQlppZVJxMGc?oc=5",
-          "publisher": "TechRadar"
-        },
-        {
-          "title": "NYT Strands Hints Today (Nov. 10, #982) Reveal an “Influentially Online” Theme",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdC14NGlKQVVzeXpkdWhJVG42ZnY2OVRQZHRSTVViazVnQUpIa2ExM2pKZWptRXJHR3VMdE96ZW5aT3lIZlgyNkJ1U1J6Rkx6eUY0SFh5Z3lpSnRicE53d1RGZlEtVGxMeDdlN0NQTkhzUEktNTJOQVd3QURCUnFSZFRVTm50OXo4NnZqUEVONmNKbldKNHo1MzNFay1zU0tndVBz0gGoAUFVX3lxTFBUVnprMHAxWjljM0hJZTVEOWdXX3ZjMGpmQ2NIWGpSMmYtZ2Z6cTMzMWZXQUZPZ3J5bjJGcktzNlZFeFlEemY5V0l1dm05MExmeHNSRGJaQjM2R0kxSU5ZSkl6Um5YdnNhQ09iNjRxMTJDRnh2d29HOVBZVzl0QVpYVkFvVHFTazZsRGttdGhPa0czQTBwcVZZejMzTFF0Mkt6VzhRWWFJTA?oc=5",
-          "publisher": "Gadget Bridge"
-        },
-        {
-          "title": "NYT Strands Answers Today: CONTENTCREATOR Spangram – November 10, 2026 (#982)",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yVkxFbjl0MFFnV19Tc3A2OUdRSTlPQkVZTGtJcnRvbnFQYWZSNm5wc0M1TGhYSXh2VU1udzhYQ1hYQl9nZzlZcnNtd2dRSkpkRE9hbUhILVhjd0ZLeXVTWldsQUc4c1VyMDZSdmZ6Uk1yZjhVM1o2R1VkNUJTNE0?oc=5",
-          "publisher": "The Eastern Herald"
-        }
-      ],
-      "queued_at": "2026-11-10T21:45:55.854045+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
       "id": "hi-d4d81e9c5d",
       "lang": "hi",
       "title": "रामायण में कुणाल कपूर के लुक का क्यों दीवाना हुआ थाईलैंड, दे डाला न्योता",
@@ -3295,439 +3139,644 @@
       ]
     },
     {
-      "id": "hi-ca91572319",
+      "id": "hi-4190c09c49",
       "lang": "hi",
-      "title": "IND vs PAK खिताबी मुकाबले में भारत का बजा डंका, पाकिस्तान को 2-1 से हराकर जीता SAFF चैंपियनशिप का खिताब",
-      "category": "sports",
-      "published_at": "2026-11-17T16:17:32+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "IND vs PAK खिताबी मुकाबले में भारत का बजा डंका, पाकिस्तान को 2-1 से हराकर जीता SAFF चैंपियनशिप का खिताब",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOLXNDaUlCSF9nRFFCaXQ2Mm5iT2FFYUUtLUR2cko1Qm5QQmV4RHowUFVKU2lOVGlDeTNaUmROVHFpRi1RS1JldEN0VTMzenMtOE1wXzlubXdhdHhNREhYdThnenpKUGNjYmVGdzhWekZka243MlF3SVdieUgwbi1JbWRGMVRzdXVsd3RmcjVlTFhjNFF6TldLdGxrOEtIVVc3eVhaQ0gyZmpDRUtYT0FDT0w4eHBhSEFCNWRjVkNtMl9EODI3M2JGTDE4WUdpejFNODRaOWdOSFlsdmRNbzRYalIzZmlVNTMxSl84Rnd6cnVIc1B2Vnc?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "सैफ चैंपियनशिप 2026: फ़ाइनल में भारत ने पाकिस्तान को 2-1 से हराया",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvQVBzbk45UW9vbjNWZ1k4cUxDTlIwN3pLSUc4ci1GZk15WjZKQlNSb1RsV2MyVnZycVl3bFBzTXNjelZZR1oxdk9TNVQ0bjJ1elVTazFaaw?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "SAFF Championship: भारत ने फाइनल में पाकिस्तान को 2-1 से हराया, 10वीं बार बना चैंपियन, लगातार तीसरी बार जीता खिताब",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORjV4aVdZbHpJZmJhOTZCYUt4X2VGVGtJVWs3R0J1UThIUWdreHdid0RnRnFUZ1pZX3FFUjR3bFJMQThDbHpzUzdNX3lmWU5QdnBXaDZWMkd3SzV0dHhDOF9LQ01CUW92aWlFNDZCNmo0RFdBWHpmaWNYQy1icmFVUUZwaGtaZFRPWW5Ccm5BNzZUR3gtSHVnZnh4X1ZUYkhsOTdvM2Nfb1JCVnRvU0ZubS1nblByV1RQbS1GMWtDM1BQUXkwM2pJazRn0gHPAUFVX3lxTE5SclhRMjJoeWI1aGRoVjBaY0FoQUIyRjJzTkttQVZxcEg5U0tGT25lNTkzMkFZU0VUd3lFN09EQW9IQUFMVDFfbnVDSjNWdWV1a0tXOXdjU0k5aDRpNmFmMWF2emd6SEZEbTctSHJuQXVQUHRCT3VFdzNCTjdOQWh4TU9LRTRYMURHU2FxdEJVYUN5bnk2QWZHRDNIRlFzMjNGZDB2NGFTT0pZeHpEMWVhXy1ydUQ5M3h6aHpoeUFwZVJtZkhsMzBDSV9iNVByUQ?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "भारत की 10वें खिताब नजर, सैफ फुटबॉल चैंपियनशिप में पाकिस्तान से खिताबी टक्कर कल",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTV92RWVWeGV5RU5jcnNMNHhEYkhadDF2cWVCS0xKNnd4RGY1UTRiQnU0akl0Y21Raml2TkpWSGFKbGptM3ktQlhYU3RDeE1WM19VaDU3V2pvQWRYSldIcHNiRnpqM09aNWR5MkxPZHZBUGNpZTJuOWx0YWRXZEdpQ3ZhTGFNY0ZS?oc=5",
-          "publisher": "NDTV India"
-        },
-        {
-          "title": "पाकिस्तान की मजबूत टीम से सतर्क भारत, फाइनल में कड़े मुकाबले की उम्मीद",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYkkzRkFoNm9tYU1xZlY3WGFOdTA1SUJQU09XQktjRUFVTm5nSlpEOTZzYVVjMzBPREh1WE9vV0pjcE9UMkVpbEQ1NE1yOVBNN3o2ckZ1SzNYdTlOSms4em8zVEJBR0JkdTJERUdBNERBcU9Za0FVOWNqZWdsdjhMVi1IeVBYYjl5dFVnTDRlRzcwdVpwZWNFZGtuUXVxcWNOODVfTFZGcjhNcXdyd1AtZTNFeU5yWllUUi02aC1EaUxGT29pNTZSNUItUQ?oc=5",
-          "publisher": "Awaz The Voice"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-996a9565d2",
-      "lang": "en",
-      "title": "What are the Nitto ATP Finals semi-final qualification scenarios?",
-      "category": "trending",
-      "published_at": "2026-11-17T19:50:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "What are the Nitto ATP Finals semi-final qualification scenarios?",
-          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-sf-qualification-scenarios-16-november",
-          "publisher": "ATP Tour"
-        },
-        {
-          "title": "Alexander Zverev v Ben Shelton: ATP Finals tennis group stage – live",
-          "url": "https://www.theguardian.com/sport/live/2026/nov/17/alexander-zverev-v-ben-shelton-atp-finals-tennis-group-stage-live",
-          "publisher": "The Guardian"
-        },
-        {
-          "title": "ATP Finals: Alexander Zverev beats Rafael Jodar for first win as world number one",
-          "url": "https://www.bbc.com/sport/tennis/articles/cm5y1grdy3w2o",
-          "publisher": "BBC"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-4698f4df8a",
-      "lang": "hi",
-      "title": "Miss Universe New Crown: 3150 हीरों से जड़ा मिस यूनिवर्स 2026 का क्राउन, 3 हीरों में छिपी है खास कहानी, कब होगा फिनाले",
-      "category": "world",
-      "published_at": "2026-11-17T16:16:02+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Miss Universe New Crown: 3150 हीरों से जड़ा मिस यूनिवर्स 2026 का क्राउन, 3 हीरों में छिपी है खास कहानी, कब होगा फिनाले",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTlpGYlNLMVMwTk1HZEhZX3VPd2U0amxlWlFQLWl6NTNTb3JZcHY3RURmMENwR1NyNlNLejBGbHF2OHBfRlJVbm5DaDZEV25JUUlQcHVaU0RFU1l0YWI1bktfZEY3RFAycEhadXpQektyMW43RGlyUUxUOExickpvRTFaYjdGa29xcVByTzJrZ3RZR1d2QTZ0ZnJEUGlHWGVoV0lHank5ZW1WcTZFV0hYOVU3MVFVWDEtSDNyZXFQMFdDS0lPbDhEMHJiZnBhY1h3MkJUX25ucm1vN1BWMm41amxrWkkyNXJYTkRrYW45NU9XR3l3Sk5ZX3AyMmNRdFItNGJn0gGIAkFVX3lxTE5KRUFmSW0wSjlCN1Q3YWtwNHpwRGNhM2lLS3VsamV0enEwdXpUSHpMa2lyeFNBd3BDZ1Fjakl1M1pOUzU2eGFCU1FLRzZyeEYyc2wtOWhkcTlUZ3N5cmw3aUFjXzBNNHVFMVo3WHRtYzdGRkU5dmljdnFZTWJmVnRNQk92Mk1JM0xtMG1tZENxQ3kzUFluSmtnMGk5eGgyRE9TSFJJZ3hUd1Y0R1kybVJMZTBzR0ZzNzhCZTBKVk9ham82Sms2UXo3VDU3SEh6SjM1d0JUZ1d0QVM5Zl83MnZtNkRsaVEyTlVIN2hGdThPc0k4enJyNVFta3VGT280S1lySWFZal9iWQ?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "Miss Universe 2026: ग्रैंड फिनाले से पहले बड़ा झटका, 15 देशों ने पीछे खींचे कदम; 6 एशियाई देशों पर लगा बैन",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYklJM09ndE9hc0EzUlhnODUyczEwYXhiWGh4dE5uOFNEQnhwM3VoelQzVGdwUEVqOU5faGdoaGVFSjZWeUZ2U29LWS1PcjB0OUhBOVVLUU5EaFozQzBtWHZURmxqXzVBeE1RYnJ4eTZnUGozbjc3d2dzOTJBVXBRLVoyZmFlemctX2hVMU1mSV95WFd4VlNLTXpXVXlWREVfd3N5UmZMWHlxcHRsYWNuWXRJTkxNN2lXNlEtT3JJb3k3NzhGd2xfb3BVc1FQQdIB2wFBVV95cUxNZDZwc3hyRlVpMURtWVFrTGVZT2Y1dzBLUEM2ZkozRHpGXzZWMW1ScjhMRnBsRk8yd0JqRFZGVFdOZzNFTEpkTkRfdDVndmJMWUhaWVJYMDVuendrV0FENEpPUTZtMnNoUjBGMUVwWkpVUEdPQm9mV0x1MFBrQVZfTFVsdFFXX2lQOF9HalBSWkpnZmJIT2NZdzNCN2VoYUIya2twZk1GU0ptZEFydXRQOHZ3a0s3cUdPRUh5TExYcHhuYVFjUnRmVGh3NGpsdmd0RDNyN2Z3Z0tNZ2c?oc=5",
-          "publisher": "Navbharat Live"
-        },
-        {
-          "title": "74वीं मिस यूनिवर्स प्रतियोगिता के अंतिम दौर में भाग लेने वाली प्रतियोगी। नॉनथाबुरी प्रांत, थाईलैंड में, 21 नवंबर, 2025। फोटो: एपी",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT0c2c1ZzMlRuakJHM282ckQxUW9yYVVOQ19ub3lucFlfUkZXNTllM1dGSFAtV1NHOVZ2dVYzQ2hkQzFOVWJGNzliOTVFUUpxVW44Q3liS1BxWnc3b3FMdFE2cFVESHYyWDdBT3diMWtaQlc1Rmdxd2dFd1VKY2h1RE44cFF3MzZtYjBsQTRaQ3pfSEVYblRzMlhhb29seEpNOVVEV2dFNXZmeFl6YTQtQ001TUY?oc=5",
-          "publisher": "Vietnam.vn"
-        },
-        {
-          "title": "दुनिया की खबरें: अमेरिकी वीजा पाबंदियों से 'मिस यूनिवर्स' पर असर और यूक्रेन ने रूस पर दागे 1,200 ड्रोन",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVkdUQlpsa1JTX05PNWg4UDI5Y0RNZkRwcHlNTVozYTFGODdLclBrTHVNQXg5YTJsZERERldJTnc2Z2t0d2lKbnRDbzNYZDJCelI0djRjaHJFNlQ3X285SXVSbGJFR1g0cWFHT3NvOEQwMWxfenRkc1VTb3JGU0Jrb2ZYR2xXcGNNZWMzTjlSUnJndGxiUFRmNjJTbGdnT0trUGdJMWpEdU1GY01FUV80bWtaSmpwU3hoektMUnRzSHdiczN5ajBHVWQtVVNUOTNWM3fSAd8BQVVfeXFMTWdHRWRHc2NrVDZPMWp3eUN6Rmk3UC1NUm83cWM5S2c2V1BVaTV5VXlmRDNEbHFvWHpNS2xiSHpDZ2REREw4STlvRUVyLWpZWE8wOVppT0ZrQ25NeUxqUmpDTHFnXzRkWDZlZkR4TFNhR0tBZTJwZkEzZG9IVmhaeUxmMWoxaGplMWRkc0FtdVBteTExWjY0eEdRMVZTekRCZ1FxdE1kVWxyMmpIa3NXNVFURTNaWUpuMzFuaDhsbDRIaGNTRElVTTFrVko5UXp2UTZTMlVoMWp1MV8zZXpOZw?oc=5",
-          "publisher": "Navjivan"
-        },
-        {
-          "title": "3,150 हीरों से बना नया ताज, जानें इसकी डिजाइन की खासियत; भारत की Kaziah Liz Mejo पर भी नजरें",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOM3Jsb1VubnBQREUwVjEzU1ViWGNjV2p2SUM2ZnBBbWNYS0J0dENPelJ5eDNwc1FIeGFha2Izdm1KZGliT1JKdGxoaDlxUEFjdXVBZWROV0dtek1peXZwTXo4bGNNWE5OQktFRzV1VDNUZjRNQ3hBa2FfemlhVlh2YzVVYVd0cHFQUEVZSF9ES3hyRUtpa2ZhZWhRVjVKckh0RWd3eVNkWGpvVWVzZHNlVmo0QUV2WE9mNDNHYVd6NEYxRkdyVGE4QTc1SQ?oc=5",
-          "publisher": "Jansatta"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-c4cfc89bfc",
-      "lang": "hi",
-      "title": "ट्रंप के शेनझेन दौरे से पहले चीन की अमेरिका को खरी-खरी, सेमीकंडक्टर चिप्स के निर्यात पर नए प्रतिबंधों की कड़ी आलोचना",
-      "category": "world",
-      "published_at": "2026-11-17T16:03:04+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "ट्रंप के शेनझेन दौरे से पहले चीन की अमेरिका को खरी-खरी, सेमीकंडक्टर चिप्स के निर्यात पर नए प्रतिबंधों की कड़ी आलोचना",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZkctLTBPR09uYUF5d2tZbmJKY281R3EyX1B4WGo4Y2JZamxtV2ZSU0Y0Z0pJcVhGSksxUU9YZWZ6Y25PTEJhV2psNlN2bE5lcFZZSzY2bFNOMVZhS1JiZVV3dDZ6Um8yQURiSC1DSHFtenZyWTBtemFYSFU3ZmVUM3hoN1JIY1kwNkdJdW1FZ0JsQmdDMllRbjdXQzhhZElqdHZlUGR5cFlEd0V4Y0VLSFVJT204NV9MdkVrb0Y3aVprWXROY294STdqVVBKSUdjTUNkckxOaUJVWDNtZlFfd1NWLTNudkNubnfSAe8BQVVfeXFMUHZNQ2lQbXNzalRWNTFZcy1ZZndRbG9zLUVoc1JnNDlDREZhcGlwZ09fbllqMVh3Yl9pbXNPQmFBU0JycjJSQ3Q2Smw3dWZ1SThYZGRmMGJhWWh2Z013RTdPR0NtRzNGamgtaTVsajYtQ2VPRmVIQ3NVakNsS250aW1mellVMjVCS0NSR3dZYmhQYmhfcTRYaUU0VU82SHFYUFZua2FVbHRUT003cXdkbnpnbHE2Tlpya20yd3Zmb1VaQ1pOZm1Gc0NQQlJDTEV5NWZyVlI2YVI3bHN5MVN5bVd1X1V6MElTaDdHSlB2aUE?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "जासूसी विवाद और मध्यावधि चुनाव में हार... ट्रंप की चिनफिंग से मुलाकात क्यों है अहम",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQall6SzZYSG5rMHlhR0tYM3JWQk1uX05DWmFhYWlJU1lTd0Uwby1kMHJEY2xlSTVYTmhQSDh4V1hPUXhLaDFueU5ld0dlUkp2M0JwSlJpUzdEYXdZX21zQ3pfNk8tc2RsQ1VpQllsclRNa0thWmZGSlhDN05RVlhHLUtYS1BwY1hSV3RfRlJvTU5Bb3VSSDc3TEdCRTNBaWRwUFRCZ05SWUFsRm9YVUtzNmd3Z2x5MGtmVkJ1UFFyTThkMHFWU1NEUTFwc3ZRWG55SjJYN19RLUFnRW1fRTVfa0Vacnd6VV9JWl9vamxB?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "NVIDIA विवाद के बीच US ने चीन की AI चिप्स तक पहुंच रोकने के लिए की सख्ती | महिला पर सिंगापुर की कंपनी Megaspeed के ज़रिए चीन...",
-          "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxOX2dqTS1zZThCWnZkVGFqYzJiYnRkd3M1SVpEdEpEWDZzQzRhZEFOWk5KYjJVdWhZVEdKcFNwWExNZE5oSDZLRzU5WE1VQnY4RmdkSWhxdnI2VHVubC12WnRzUmU2X2lEdnJMVGtfd0diTUxScXkzcWNkQWIyYWd6RnR0WUhNcHNpc0lwSGpZTnlLdVZDNU0xb21wY01YbmtrVlZiTXV6WjFKdjhUVjJBRDgzaWppcHhMQ3dkdzEtdTNqQm1adDZlWkVObzZ2c2s0WHpMc2c2QWF3c1Vxb1ppVHhUbC14d0RhcVpKb3NrWTlrWVZzSzhId0djUm42M2ItS2FqNDYwV1JHMTh4aGdnSW03QTZyUG9CNV9nNzVkQWppNW9yQjByaWJNQmVBWUdUWm9FRzNac0U2eU1ST09GX21nWFFyZnl4SnZyaGFoeUxrRlZXeU9HQ2F5VDd4TV8ySHlHWmFCODI4UFljWmo5cGpDc2lodGV4UXdJNG1idXdoWGZHYzZlaFk0LUlhU2oyZkw5UTlXejRsLTBGQmRnbGg2X1V3Yk9kRzJsZGNEWHZHX1hBZldaNGt1dzN0aGppeXJxeEtXVU53MGs5UDVORGxNdnhpbHloWFIwZ2Ewek3SAeYDQVVfeXFMT1ptMDBPeWRBQUUtbFMtWFNiS2JNTG1YcW5QWDlUTXIza0ptb3Z0Y0FRTUZ1U20yTHYzb185Rm9oYWhjYmRHSXlZVHZVM1N1VVRIXzMwenJjUjJoVFgxTjBldk43dnc3ZXBnSHR1ckFtQ2k1OHB6LUtJRFpOc3AyVnJQVkZ2enNWaXQxUlQtZDVVQ2hEQVJxRnoyMFVRejhJS2ZJWmN3ODJHSXhvYnhmc2FDNTJRNkVVd3FvVmFDN3N6b0JGaFVyb0ptY3c1bFkwazlGelRhQ1VXOW1sNFk5TnNTd3VhZGxfYmVtckV6N3kweHdSS3JhaHZNRDFEYmVZVWZXMHJiRFJRTTIxWktRUE9qVlBGeFFKSDdyMGZBbFl6a29SU2dMaF9CUVJuVVo2aHl2Um1KRk5zQS1DVlAyODZycF96S29mUzNTbHBUM05fWkhKZ0x0TjlYMXFCQTZVblkzR3hTUGlQTXlKdVZZV1dHWW5RZlBlOUFOdU1IdkNTZkc4bE5wT3hEYmVhVm1udVZtd2ltRkdKb1M1OVRkY0ZYWFU4MDJGNl9YMHNfbXlFbkRUY3VfeGEtRHoybVFpZ2VmdmVlREljZXdYbWRxQU13MFpUUGJaNnhPS0h3aHl1SC10NFdn?oc=5",
-          "publisher": "Inshorts"
-        },
-        {
-          "title": "क्यों एनवीडिया ने सिंगापुर की कंपनी मेगास्पीड को किया ब्लैकलिस्ट?",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbkpUUFlQYWxQdGljQXRmRWdfTXp5bVMxcGRQVW5HcGVOXzBZUmhSSng3QjdXNExUdU1vRGpNWUpHR1NJYjdpbVZIbzFDZEpEa1gwQ3M0ZGhQY09kN3VoWGZxSnRiMjAxOUtxdmhRU0NqVkNyRVdYU0FvQm9uOFRyR2hNaDZqZE5ScmNvZWNKQXdLV3dTUGtkaGYwdGpubkFzdWRwdGNVLTBHSkRnNGtWZm1xMmNITldUTXFsOERnanppZXV0MHp0M2dIWUlxZw?oc=5",
-          "publisher": "NewsBytes"
-        },
-        {
-          "title": "चीन ने 5 देशों को उन्नत सेमीकंडक्टर चिप के निर्यात पर अमरीका के नए प्रतिबंधों की आलोचना की",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNnBrcG1kVG1MT212QW5oNGtxZVM2dDYtbEZYUzZNeUFqdVRVN2hzQjVENjJXX29UT05UX0dWOTMxQjN0VHBwOFVMbTFxd0JueVVRNWk1bTI3V0ZDcmRfVEZpLWluM0RwdzROQlRYX0dteEJMTmVtNk9JMkhkNWVXU29GQ2xJR0VzTkhwLUUyVmI2Z3RZRmxIMkk2aGdlaDNCWFhpMTlSeU1yczMwT3RfNmp6bzJhQkhibktVQzNjQnJpMDdxSUR5aGZMb3hvdw?oc=5",
-          "publisher": "News On AIR"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-f19c925c01",
-      "lang": "en",
-      "title": "(Gratuito) Assistir Portugal x País de Gales Ao Vivo agora: veja onde assistir jogo 17 de novembro de 2026",
-      "category": "trending",
-      "published_at": "2026-11-17T19:50:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "(Gratuito) Assistir Portugal x País de Gales Ao Vivo agora: veja onde assistir jogo 17 de novembro de 2026",
-          "url": "https://vacunasaep.org/sites/all/libraries/fckeditor/editor/filemanager/browser/default/browser.html?Type=File&CONNECTOR=%2F%5C%2Fkeeplearningeveryday.xyz%2Ffc%2Fconnector.php%2F&GetFoldersAndFiles=video-gratuito-assistir-portugal-x-pais-de-gales-ao-o6xy5",
-          "publisher": "Comité Asesor de Vacunas de la AEP"
-        },
-        {
-          "title": "Liga Nações: Jesus lança Cancelo, António Silva, João Neves e Trincão no ‘onze’",
-          "url": "https://www.correiodamanhacanada.com/liga-nacoes-jesus-lanca-cancelo-antonio-silva-joao-neves-e-trincao-no-onze/",
-          "publisher": "Correio da Manhã Canadá"
-        },
-        {
-          "title": "Mateus Fernandes à SPORT TV",
-          "url": "https://www.sporttv.pt/noticias/878895/mateus-fernandes-a-sport-tv",
-          "publisher": "Sport TV"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-9f53a9b6fd",
-      "lang": "hi",
-      "title": "पुतिन का 'प्राइड', 30000 करोड़ में बना, जेलेंस्की की सेना ने उड़ा दिया, कहानी क्रीमिया ब्रिज की",
-      "category": "world",
-      "published_at": "2026-11-17T15:55:39+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "पुतिन का 'प्राइड', 30000 करोड़ में बना, जेलेंस्की की सेना ने उड़ा दिया, कहानी क्रीमिया ब्रिज की",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPekI3SThVbHphRXZZWTR5bi1oNnppZGxONG5wZHhUUERrcG54dlVhVFd4ekhGdFc0bUFoQTQyQVRQYkhtXzI4UEhSRGNHdmN5RlhlZG5sdkowaE15Q1loR0pqOXpidGxRQVhJalRYRVdqVFgtSThueTVneG12U3A3UXhXcm9SVGtxY09aQS1Rb1JQaWJaRjd5dWhVNm1UcHhvdzR0WGRUWk1LaHhjTGtaWU0zZkFGUQ?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "यूरोप के सबसे बड़े पुल पर यूक्रेन के हमले का वीडियो कैमरे में हुआ कैद | इस पुल पर 2022 में युद्ध शुरू होने के बाद यूक्रेन कई...",
-          "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxQdmprdzNydzN0V21BSTVTUlBjSE1pTlA0eUtsZXBZVEZPdUFIenpFWl9WRDhaUmlkVVdZYTRfbFRJTlQ5bXR1M1hUZ3ZJY2dyS210eUdYcVNPMGtXeG45Y1B6dzR2aGxuNnh2TlNDQkRTYV9KNU9UQUlYUndaa0hyQzlzTV9MRmFiOWpzd1JQY1JZTk95X0EwYjFsMWZhWGlteER6VmFMUXZaY1VXc2s0ZUJ3bHFYb0VDY2lLbExEa0N2VlhrMjBpWUYtSF9hdUQwaG1ZTzRWLV82alg4djBLZVhnZi1pdllsYWdmU0M0SFllYXRldG45U0xvV0lmUUxDTldiUUtaU3FyWHVyLUtUMDdWY0JNeng2SVRDTjVnOEt3cE5TUjVLV196TzhhenA1Ymx0cTRFMUYtUVJHcjN1R2Qta1QxUVNBNEV2Qml4RlhGWUN2LTNFazRVS2Ftd2NWYVd3anJLYmI5b0hBZm5qekFMY2Y4R255T2V2U2owakw4UF9SdVNpUWR6eTZTZlcwWlU3bC1nVXNYVEtRMmJpOThBSGhfR3lJenA4elVRS3dneGtfZENjaXdnMklqQUVCN3d5ZXkxVnkyUUlZYzQ2RmFSWENZTkRmWUJmSGhIQXh4U2JYM1hnZjhVRi1haDRiRmdTRllieGpsdkNOakVsX0JZMlB2R0NLUldybWEteDJKdjTSAZgEQVVfeXFMT2M2QVpUZ3FlZjdsaUhydzlJOXNyTldvR1Uxd2pCQTRGTkkwbmFzbC1mRGpuSGdhZmxSbktTVDZEeDdPRDlubVpwdWJZeWlmRXh3ZGtiSllZb0p3djJORnZTTWVRcUZOUkV0dnItQUgxY0c5bU83UjRobUd1V01pZG16VzY0TnBMUzJpcDJBT3dkOTBLZjlxazBpZzB1a0VCZkdOeTY4Ty10ZVhlcWczYTZ2SjdZZk9wS0pDUm1GbVRxUm5GWGdXb3ZVQkw5NzdreGhUeFRzWExLWGYtWGhzWXc1WjkxTXpLc3pNamFVaER5bFRVWU95NVUtV3hyRXlZRlJCRV9MY01VbVR2WkgxZUx6aXZwVXh5dEhiVE1MbDNuR2toVW5xajVlNlJrS2RQV252WmpUa3BXLWR3c1NWZGUxQ3JfR05RMFlnNTRfRVVXVlFKNmR6TXRjUnFCRHhNSWJfSXR4dGUzOXlFZkNHdnF2TDBJMm1UQVlXb2lXY3dHQlBMOFpOR3dZbkp2dERJc1JYUTF1OF9JRkd5V0VCSHRTSnBYWXdoN0NBZWF2Q0RlWkVsRDlOaVE2M3lRUzQ3dl9UQkRYWHQ5dTBDUG9USWpnRVF3c01XOHNVNTdTTGdIQlUtcjBOdzl1WmQxYmN5QXdlS1k2WklfNzVZZTZraHp6WGN2VkpqdVVXdzY1WnZZaFd6UndVLTU?oc=5",
-          "publisher": "Inshorts"
-        },
-        {
-          "title": "यूरो की कमजोरी और Black Sea व्यवधान से Euronext गेहूं की कीमतें बढ़ीं",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5PdHJWOF9CQWwybGpBVGNscHpXd3ZlLU9sX1lhNGp5QV9ZT1M0V0p0N0JienFveEt1ei13Mk44WXY3eW1EMXJGSkc0UmVwbWdsbl9kY1lRSVdsTEVSTjJyYjZzYmdHMGE2VjFCTTFjR3UzZVlE?oc=5",
-          "publisher": "Investing.com भारत"
-        },
-        {
-          "title": "कीव में भीषण दहशत फैली हुई है, कई महत्वपूर्ण पुलों पर हमले हुए हैं; क्रीमिया पर फिर से हमला हुआ है।",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNakJXdkJSdVNhZTJWQjVrY2FjSldoWHhrX0U4MDRxX1M0akJNV3dfQTIxUnVKRzMwckdiSGRuY25uWkF4NC1FRXEzTnJwSFd2YWcycWstUHFUc19DcS03RGozeHpoTG9kQlpXUzBlZ2MwNWFjb3Z1WHEyTzQ4OFRiVXhDdjNUSkpYSlZENWZwbzRSNWhuTFpGQ2xja1Bsdk5JNVZQSENxUmw?oc=5",
-          "publisher": "Vietnam.vn"
-        },
-        {
-          "title": "रूस ने यूक्रेन के 1,400 से अधिक ड्रोन गिराए, कीव ने क्रीमिया में महत्वपूर्ण पुल को निशाना बनाया",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeW93V3dwenhqSVRyRGc1NHBIZGRrSVVEQkl1Z1FQeXVETGtmeC1lOGkweUxwaVpfaS0yZExvLWNXV0xjX3VFT3B0YmhkNzZUc1M4LTV0MGNtZldhN1AwNXR6Snl5QTVGdG02MGRnb2FpLThIZjY3M1J6VkxEbUxoR2cxVm1TWTh4cGZmU1RXcThoaThMeHRzak8wSDBOdHE2bnVCcDhoN2lfbGZQdWpTSk9NRGhfWHYwWXZ5a0NCTERfY0c5RWtoS2lyUQ?oc=5",
-          "publisher": "Awaz The Voice"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-6fe409f116",
-      "lang": "hi",
-      "title": "HMD 2320 Flip 4G : अब फ्लिप फोन भी रखेगा आपकी लोकेशन का हिसाब, HMD ला रहा नया 4G फोन",
-      "category": "technology",
-      "published_at": "2026-11-17T15:43:24+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "HMD 2320 Flip 4G : अब फ्लिप फोन भी रखेगा आपकी लोकेशन का हिसाब, HMD ला रहा नया 4G फोन",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORS1sbGhqTzNweVgtTWRTT0htMUVWcU1vU3NNYWZvQlhwdG9QOFlja041Q1J2SUhSOHNnVmtEc3Z6bjQ5Z3JacHdmTE9SX1Z3NzNEeE8zMVZDQlIzaUl3cmYtaTl4Ynl2YVBNZDI3dkRnWVBLM0YyZXBjOENzZ1NPZk5DS05QYm9oWUJwU2ZMd2NQNl9oUmE5dVZOQS1zbHlrbUprQ0lzcVBqRnpXeGZqeFBrdHVKdFNN0gG-AUFVX3lxTFBWYWlyc29MdW9KeGRNVEFTOENPUUFBMkNJVzF6enFkRDhxSlZaS2R2YzZQY1phSUlWS1kyTEJEdTRXVEFkemFvLWg3TnBOQWtsTkhaTVlydmd0NUoxNGxUNktXVEk3R2dhem5pZFFaSlp6bWt3UWIyMXE1QnNhTEloOFBvT2VRV2dwT25FUDJfQnY1aHJNb05sQ19vTWJFNnB0YVhzNzZmaUQtN3YtYTBsZ1I2MmljakhmRnVCNWc?oc=5",
-          "publisher": "ABP News"
-        },
-        {
-          "title": "Nokia फोन बनाने वाली कंपनी का नया Flip फोन, 1450 mAh बैटरी और ड्यूल डिस्प्ले के साथ आएगा",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdHJxRk5sM3I4VHFvR3MzRTNWMngtcWRybEFtSWlUdm52Ulh3LXRxVG9LdG05TDZ2ekFZcGdRMG9DZXRxV1VSMHVaTE50M2haRkZtNDhJaTdlUHNyNkJBTVNtWXAxWm0wNE5IaGZyRUxZNG1HOVdZR1pfaTg0ZXQtaEJaWEczbWh0VWFKMllFTXgyZXg1NXQ1MVlyZWZRZUFHRzVNVHVSZ1Q1ZXIzXzVLQjlEWG85aTNjOWpQZVAwSkhwRVkxc0EwMklPU3d0QmVKTGJDakdUSVVJeTdkVTJyV3VB?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "GPS और SOS फीचर के साथ आ रहा यह बेसिक फोन, इसमें फ्लिप फोल्ड डिजाइन भी, Gadgets Hindi News",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbG9ERGhsajVEc2NZOFJNR0xINjBJMG1kVUJHajFCbzlVekU0cTc4V01rRWw2M3ZfanJIMzE3a1B0aWE4YkJVZW1LNjR1OElVWGc3dlMwc0otOUZWTG5NYW1iNUJObU9LSFUxTlVWRWpQYlk4d2xqeTFXQ1FsR3h0R051QnQxeXA1TExPSm1Na0IzU05TaFEydDMyRWk1UGxyLVJsX0hfcDFMbkRIclQtOUlnQVd6c0FFdjlmcmhYQnFJbFpZR21DM0JBSEdoMzFNWDVIeDR0ZTBfWEs1MElidQ?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "HMD 2320 Flip 4G lộ diện: điện thoại nắp gập hỗ trợ 4G LTE, GPS theo dõi và nút gọi khẩn cấp SOS",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZXNhenlTVUViaUhBTG5LSl80NlFSZVdkX3laZTljLWFTcTdwSnN3cEtxaHBqakdzOW01U1huYWRBUTlVWlhCSlE0YkdkMC1TZThScjRydTJ5Zk5mUV9iYm9QMm1zbUx6VHF1RGYyQ1p5clZXNml6b3BHUmdLVGpXVjlhQVMycGlTNV9aTWl5b2VhUkFna2VRLTRDOU9RZWVIc012Rm04WC05RElrNUVFYkRvSVY0WDREdG1FNw?oc=5",
-          "publisher": "Vietnam.vn"
-        },
-        {
-          "title": "HMD 2320 Flip 4G बजट फोन होगा लॉन्च, Unisoc चिप, 32GB स्टोरेज जैसे फीचर्स!",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaFRSVFhyTTd2bEk0dHF2Z3VhVFlTOXJtWE9nQ3hGUUNwVWViQUd5WGVES3k0ZHR5dEZvaGtrWmNxNDhpMm5aZUVFcEVBbmF3d2FxXy11Vl82UW9aR0lMWWVrTnhCWE40QjhSTWxiTDEwMlptbXNmeXNPbUN2amY5Q3RBT0pWblF4bmtlbFBOSGJvZDNOemNqUWx0NkxEaFIyMm1XWXJrS1d0bXpZZHRNdi1TM3c5Vkg1TmxobXNOcEYtaHpsMjE4Z0NyMm5OYkVHRFV4WWJPekxfT25TSEhJUVdR0gHqAUFVX3lxTE5ndER6SnljeTl4VWFkOFZqeHdUMmpiZXdzUndsTjVjck5lbXM5OWxYVjRtZGVIOGpteVE4blZ6RkZvQWlBaGlkUjUtNU8xOWtLQVl1UmNuc1JSMGFyWnl3dVNmWF8zSGg0c3RHa25qLUpvS3RQSk1vdlBLa2lGZ2tIU0JQWnV4S2xFcTdHYkZaNHlmSXAyUXdUaEZJel9zNE5ESkNySmo2bHd0cjZiQVNsNHdiZDZtY3NlSjdIUzNBNjBZSmZON3V6aG5UUFE0c2hqdWtQOTJnRTd6YWs5emtOWW0yVmJucVVmQQ?oc=5",
-          "publisher": "Gadgets 360 Hindi"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-95e91325c7",
-      "lang": "hi",
-      "title": "[LIVE] MP Police Constable Admit Card 2026: इंतजार खत्म! एमपी कांस्टेबल एडमिट कार्ड लिंक esb.mp.gov.in पर होगा एक्टिव, ऐसे डाउनलोड करें हॉल टिकट PDF",
+      "title": "बंगाल की खाड़ी में बन रहा साइक्लोन 'अक्वान' अब कहाँ पहुँचा और कितना ख़तरनाक है?",
       "category": "india",
-      "published_at": "2026-11-17T15:42:29+00:00",
-      "summary": "",
+      "published_at": "2026-11-18T03:01:53+00:00",
+      "summary": "BBC: बंगाल की खाड़ी में बन रहा साइक्लोन 'अक्वान' अब कहाँ पहुँचा और कितना ख़तरनाक है?\n\nAajTak: Cyclone Akvan Live: 145 KM की रफ्तार से आएगा साइक्लोन, आंध्र से ओडिशा तक असर, जानिए रूटमैप\n\nPrabhat Khabar: 18 नवंबर का मौसम: चक्रवात 'अकवान' से 3 राज्यों में भारी बारिश का अलर्ट, जानिए बिहार – झारखंड समेत देशभर का वेदर अपडेट\n\nJagran: बंगाल में सर्दी की राह में रोड़ा बने चक्रवात: अर्णब और मुरासु के बाद अब 'अकवान' का खतरा, नहीं गिर रहा पारा\n\nNews18 Hindi: LIVE: 'अकवान' तूफान के खतरे से हड़कंप! आंध्र प्रदेश में भारी तबाही की आशंका",
       "sources": [
         {
-          "title": "[LIVE] MP Police Constable Admit Card 2026: इंतजार खत्म! एमपी कांस्टेबल एडमिट कार्ड लिंक esb.mp.gov.in पर होगा एक्टिव, ऐसे डाउनलोड करें हॉल टिकट PDF",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOclB1VTR0VzNaQ29yNG5HaXBCZHc4ckdnUWJuaGU5QjJzamtfS3RRaG9QVWY3SmNhQUU0SUE1VENXamhIN3liNUtsb1dYY1B3b3NyWkpsdktIR0tIMjFydjVsVTl0SnFiOThBUUhMNkIxdDUyT2NuOTZYUmFuaEtZUXM5RE1KR0dqSldOUzZoYTlaSWVfNFVDNjk3UUhqWnZuaXVsdU1pV1N4NWk5VTB4WDkzdENXTGtFOVV2ZWIya1d2VUR5dXdOVXVNTmttNWxpaTZKcV96czVSWW9wYk5VYW9qWmxOMTlURjA3WUw3WTZuMHpxUWfSAfwBQVVfeXFMTmdTVlJQVElkNmFKeUpEZ0YwU2RUdlRQc0tuYURXSGJjUW9lbEdSUlprb2RJd0Faa3puS0Y0V2Nvem04MFpmOWdIeU8zc082eFZYUV8wam1pWm05aDVyYXRKb0RHVWxocGt0a1VoV2VzUWVBd1hCZHlBLUpOd0haZ21CUEMwY1lpazAtVEVjMHRtR3lBSHRqSEVybXFiYTJJNUZnOWwwM1M3TTY1UGxibXpnWXRBelRUZ0E1ZmxrOXFrbzlBX1JyUjlZWDAtV1NnQndiQzFZVXpMYVV1YXJDNXdyVlFKdGhfNll3NFkxUXJSNUlUanE5ajFQbkJP?oc=5",
-          "publisher": "Jagran Josh"
-        },
-        {
-          "title": "MP Constable Admit Card 2026: एमपी पुलिस कांस्टेबल एडमिट कार्ड Link जल्द, ऐसे करें डाउनलोड",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSGZrRnFWUE16NWFSVUo4UEZKQ0ZsbmNFa2VMN3R2LTZnRWNfejREMDJaSlBORExmUzZhLXNReUs2MUFJY0Iyb1ZWYkxrcUlPWUM2WDF0MXdsamFGRzJZZ3AxVE9ORU9qMVhxX2tycVlDbWpvZncyUDkxZlB6LW1ERU9OUjd4Wkx1QXJwRlc1SWpKQnA1Ylp2ZGhHazRoQl9VdTQwamh0TjMtUk9tZVVFazlsMjQ4MXhWZWlHMS1ibWlhNWRSRnpyc29zU2xwNnlVZkV2RFpfc9IB3gFBVV95cUxQUkxsVXFZaGxDUWhqY3JRdE11THpEdlQ2ZWxReTdTbGF0NDkxOHVXS28yRzJRa2tnZTR0SlVXQXpCQ0lGY3N5cTQ2YVpOUTQ4THlkLUgtRE5tVDBoOC1uQnByUG1tQW44S1hhYkx0Y3N2MEtrTW05NVE4bGN4SDl3NXRITHl6V1p3TFlIdS1wVk1xVVNoOGZSaXpDVmJ3NWprMGhzekRUYmVjOUJ2WHgya0syTF9sLTM4RVQ0RDk2ak9DM19QeF9ORE5nVGdacWhJRmVEWmVPbU1zalBnTmc?oc=5",
-          "publisher": "Jagran Josh"
-        },
-        {
-          "title": "एमपी पुलिस कांस्टेबल ड्राइवर भर्ती परीक्षा घोषित, एग्जाम 4 जनवरी से",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUGdLekdYeFZwRTlPOUUxUXBkRG8tWlg2N2RhZ1oxVm5hQkF4NTltQ0RGVGJCUzRnYW1JeWlOZElFNHNEZEdKSU92QUhZekF4MzBOcTZpOG9DWG1fWTlsZmM5eUhZRU15cTNOTnFXWVBwVVRvMTRiZ0dJcDZ1NnVEZzQ1WUpmaHI3RDkxNzdBaFNsdnE1ZjVpb0pheG1wWjRob2E1bHFPOHBXZU5iamc0QkpJSXd3bXJHNnFHaW9ITXJJVEZ1MDNtWldQNFo?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "एमपी पुलिस के सूबेदार और ASI के 655 पदों पर भर्ती का एडमिट कार्ड जारी | Tap to know more",
-          "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxPTVRTYjl1Tm9yUWdkMDl0b1U3ZTlCbkF1dXR4aGU2aFl2bUUtaTlrclRhUEw4UUgwYVZXeFFIbDlKYllIOVBPTFQ0MDRfTlk5bmN4WHBTM1lUQ0hralVfTnU5MzlXbk1nYU1BbWVXSTF4ZjFoS0FlcV9CcGRYc0hvVnZKa0liczB4WkNsT2tYbEtPQURKM0sxX1ptZVQyZkZ3RHJXeDE1bExzVmg4U1UxTGtZRWt2dk5lUWl0eEdlNG1LS2JYUTFOS2l4ZW1kVHdfMmhSUmY4UVYzcmxSU1U4cEhuMmVGWC12dkt1c0RMY2JtMU9tWFRJV1JJTTA0TUhwSDZTTnUxQmNjY3VOcndKNTJVcnpyeTVQdXN1M25aUmJZR3hZRFBCUDBtOURXMEcwekNGQnlieDk5bHNEUmRBeXM0UmszT3BtV21SckZBTy1fTlNaUTh2YThETHpOMW5WcG1acDMyaWFkMXBpZG10MkQ1OXR1anNuLVpjSjlLNDBhTnI1bDM40gGMA0FVX3lxTE5RT0NvcHlyTV9NdFBNUi03TmN3ZGk5QW9RR01ubDlqMWZJRGZObnhOWGVILV9FTXNGbzhaa3FJQ2NnQW02QWxvTkpxS1BHMEMwZUZGWUNiNUN1XzQzbG9Rb3VqRGhNdTZVTGREQ2RwN3JWcjNmUWtDQkw2d2VaUXJmdTREWElFdU05RUtaUF9yX0twSEdxSVpOSVNZZDNZWXhGYnczaUFqdVNyYXRPazJST3dpNW85ZmpPS0J1QWQ0aXlQWFZYZUQwNlFhdTNhV2hIMDRwcWY2OENTdzZxemFicVFEQXFsTUVnZVRIaFdUMkRvakRYWEthSU9ZX3lDLUs4LUtWTjhnY3I3bHJpNmV0a1E4Q1h1NTJfZGdwVmYwWjE0cjV1Z1FVeW1KaW8ybGpuNUluY0ZuNzFpWGRZWEN4elhic1ZSMFB0cl9tbzdrdm82bE1fNkM4aFJPMXNKcUFLT1pQTEltZHFyQ1NqbGJ6Ykh5M0xLWG9oSlJCemR2U0Q5UjhlMndXbVBZUQ?oc=5",
-          "publisher": "Inshorts"
-        },
-        {
-          "title": "Assam Police ASI Admit Card 2026: असम पुलिस ASI भर्ती का हॉल टिकट जारी, यहां से करें डाउनलोड",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFhHc1FmRHZqSWtnelBOR2dDU3NoR09GNWh0SnRlM3hNTzhoNWhRRkVqTktfZXZVQU5MQWxPdGp2NURHSDFiMnRwdjlkdE5tbmlNdjVUVkxQN2h1MGVfaVludnNIaS14eEdjN1hCSkZIOW1yckRRLU4zMGhNSFYxX2gtSEtqcXBnc2FPemZ6UHBsSGx1aHRSbFBNZnd5dWpCSkxiT2FKSHJvWGs0YUQzdExfTm5qbEtEWFdn?oc=5",
-          "publisher": "Prabhat Khabar"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-a638dd7302",
-      "lang": "en",
-      "title": "Portugal FA to change No. 7 jersey design as tribute to Cristiano Ronaldo",
-      "category": "trending",
-      "published_at": "2026-11-17T19:40:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Portugal FA to change No. 7 jersey design as tribute to Cristiano Ronaldo",
-          "url": "https://www.espn.in/football/story/_/id/50480173/portugal-cristiano-ronaldo-jersey",
-          "publisher": "ESPN India"
-        },
-        {
-          "title": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
-          "url": "https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend",
-          "publisher": "The Guardian"
-        },
-        {
-          "title": "Portugal immortalises Ronaldo with a new number 7",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/portugal-immortalises-ronaldo-with-a-new-number-7",
-          "publisher": "Al Jazeera"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-10e43dd113",
-      "lang": "hi",
-      "title": "'जेफ़्री एपस्टीन की हत्या हुई थी', फॉरेंसिक विशेषज्ञ ने ऑटोप्सी तस्वीरों के आधार पर किया दावा",
-      "category": "world",
-      "published_at": "2026-11-17T15:40:40+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "'जेफ़्री एपस्टीन की हत्या हुई थी', फॉरेंसिक विशेषज्ञ ने ऑटोप्सी तस्वीरों के आधार पर किया दावा",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBlT1VWYUdhQW9rZnBpbmpDeDQ4R0tfNnZjdDQtcjBfdjFtcmx3dzFkUUdOT2d0TFpseUxicmpZc2M3LU5VRURwaTZ6Z1JyenFLSFFnY3AxRlRFd0FX0gFiQVVfeXFMUG9UeDZQZDAxaG1JNjFmN1VBY1BUbjRBT1JxNmZKaUxWYTdfNDJwdUdvQXNab1RYX3d3aVl0bFZUTEM5RjFfUWx6cXp0TGY5aU5wdERoYnNieFNzUlZZM2pUbXc?oc=5",
+          "title": "बंगाल की खाड़ी में बन रहा साइक्लोन 'अक्वान' अब कहाँ पहुँचा और कितना ख़तरनाक है?",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96WEQwaWNIRDhBSEE0ODRfQ3JtTEltb3V3eHJzOS1sT0xnQ1lUTkdQOVhMS2pnaGJVZ1RrOXI2bXIyN3lkYkh2WGcyT1dDOG1WM29hY0RlZWd0Nldq0gFiQVVfeXFMTjNSVTRDMzFrNFhnbDJNc1lsbFJPYWY5MmZIWEE0Wk1nTEJsNzNVd01icHVrNWlpczQ2RDREMkl4dUFLNlBpTnFxdklDY3EzTEZrRi1BSzd6ZklsUy0tS3NVQlE?oc=5",
           "publisher": "BBC"
         },
         {
-          "title": "'सुसाइड नहीं, गला घोंटकर हत्या हुई थी', जेफरी एपस्टीन की मौत पर 7 साल बाद बड़ा दावा",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbHVRajIyNjZXTmNpZ1RIUnVBQkEwRkI3Mm81N0hfRGkzS2kxdWFxZm9oOTFXTlp1RjFCYWRoNm1BVUNlcXBjZFVFZ3RUcWxVN1h6bkw2bVY2MWFrZ3h1RVY3QklmV29GM2I3QkYtOVlvYk5zaHlRbWFERy1tekhEOG16VFhlVmd6aHFRWnoyMnZSTTZMRXdOMnFzUHZVVjBweU5MY3pHMGl4NmNEdWtBOUdFU3ZHU2hCTFF0b0hkQmM5YVZ6OHpUNkpkVEzSAdIBQVVfeXFMUHl6UzVpcjhIbV9FN0ZvN1dueTJBdnlzUHd2YWdGYUU5RVpMM2stSUxGNWM5c3RpdzBMakgtdGZfTmlENEtlY2dJMFItREZpR0FfNkRNRXRESDQySS1ZTGxFTUhlQjFoN05jcjhiNXMzaWNjbllSSG51Q1JrcXZlMnBHOFd4NjlWVDRsTVMyM3FVREFVaDFqeld2bHFPcU01eGxoTkNpdk1PcEUxa2wzRC1YR3V0VU5PQ0tvZFpSbXgyVlRMY0xzZ0tzd1JPZmFLZFln?oc=5",
+          "title": "Cyclone Akvan Live: 145 KM की रफ्तार से आएगा साइक्लोन, आंध्र से ओडिशा तक असर, जानिए रूटमैप",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMTRYVmI1eDNIMmdBcU1VUnlFWWhhNFg3YmN1RXdveE81V0tiRVhJTUJyQ0F6OHF3d2g3YWJlYkdneU9hOU90Q3ljMGhKYW5wUjIwRFBJbXhPbTlRQy0wR1lFbE5Lb2hmSlZ2RzJLRzI1ZEU3bnNZWk13UTdBNkI5MENHYmZoRGNGYWxmNjg2UFRIbjAwTkNUZGtiM0hBbEptNno2bVJBZC1lcE0wcWhzRy1fMzM1Y3pac1BualZSLWxxS3oyS000Q1l0UzBKVjRwVnJXUVYwQdIB3AFBVV95cUxOTGpLM0NjZ1p6RkNQY0I2ckFWWVRjNFVWTVVPUm1fWlRHcWhqY0VNR3V5TDNCUXM3Q2wzc2IyLTlQVDhuMm90TmxRTXMxUUVRNE82VkdJQm51anlPWGdhdXVlblJQYlFlUy1CWnlBREcyREdWbDBXcXRnb1FxQXNvYWN0bE1WbG9scTVZMTZNU2wzbldCeHhOckhpbzlGeDRJbmUxYjM1Q0lqZHVGeVlXUWVEUE1ETU0xVnRvcW1HMlBFbEZTdDJ6OS04UU16SnhCd3pKWHRiWkNfQ2Fl?oc=5",
           "publisher": "AajTak"
         },
         {
-          "title": "'आत्महत्या नहीं, गला घोंटा गया था': जेफ्री एपस्टीन की मौत पर उठे सवाल, फॉरेंसिक विशेषज्ञ के दावे में क्या?",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM1N0WlFNOTU1RmZQMDZnUlhIdS1fY1UyWENlN3BxWUdCWjBGWTlCbUhzUXVtTF9lSEN2SGRsaHd6c3NnZE94bERtcFN0dXBVSi14am9GcVpxV2JUVUdEQ25lbmJHWmU4SEc5bkNRWGRma2tzdWxoeUZFYVJuMk5PZFNKVHc1NEs4M0cwc1dRWmtYNzdpcnRDUzdpR0dsSXRVTmJ2YTdBbjFYYUd2QTNhZtIBtgFBVV95cUxPaGZMeG5LYXJGekZHdW50ai1zVUpvVDA5NkRyOGR4V0tLYlQ5WXEwZHlBbm1makpVb1oxdDl5Z0g1LWEtTm0wZGl6M04zWk93VERJRkNIdG45TE92clJQTFFSRmZja2g5cVBHTkFCUWNmMGZXQzRQM3kybG8tQ3lVa3Y3clRyQzFEQ2p5YzZUakMtY0FteERNcjh1Y05FcUF6dmhnc1pmVmo2VXBUM0xlenRpdG1kdw?oc=5",
+          "title": "18 नवंबर का मौसम: चक्रवात 'अकवान' से 3 राज्यों में भारी बारिश का अलर्ट, जानिए बिहार-झारखंड समेत देशभर का वेदर अपडेट",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSk8yRkxWZ3JRREluSTNGT0dRQWFzTUtxcXV5VW5wcDN5NUZnMDFfYlBzdV90ZVNHSWJQeS1qTjdwazBLdElHUWJQYUJLV2RhU24wNGQ5VFNUblFnaTllQnotUUFVVGx5S2JPREZqdnRDTHhYWk0tcmdVTkM3elhHVlVlSzRqTjBWeFlneEhwcEJCNWJSbDIxb1kzRk9SUXpSVXBCb3VtTTc0NzlqcWo2a0hkaGZKX1Jn?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "बंगाल में सर्दी की राह में रोड़ा बने चक्रवात: अर्णब और मुरासु के बाद अब 'अकवान' का खतरा, नहीं गिर रहा पारा",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ2pUbGM2dWRKVjl4QTQtcmdoeHJqMTdLRkxyeXVZMjZKSDVkYlN5RDJSZHVIS3ZuVHpVUXd2c0JQdEsyWWI2ZXpEM1cwWmNaYkRlUUlRZ0FsMjhyZEVKVnhMREEwN1dtdFMxd2F1SlJmbG1VdVVjYmNFR19pTWMxak92T19kQ25aamtLa0dob2g4bDh3YkY5b2dnZG9HVGZkRm0yQk11a2JYbGJPT0NBamx2VHk2X1Rr?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "LIVE: 'अकवान' तूफान के खतरे से हड़कंप! आंध्र प्रदेश में भारी तबाही की आशंका",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd1lNUVU5bzF6aVdhZ1hxTThqMnBaNC1uWWJFb0hYaGlDLTk5WmFLZUtsUU1lVGpJYXNfOVFFclp5ekRZRmU1UDhPRDFTVkEwbUpPT291a1ZoYkVmb2dRLTVQaEFRSEhZMWVVaUZjbFJNUXotX0Y4QjFNeVZuV29GaVF6OWMzbjJFMUNGLS0yODN6am9QYVVSVkU5TTk0dFlRdlFpd1BocU5UYWdqVU9yVWcxbVhsSzRoNk42Q2pSenp2bmdZcnN1WGtic1cyR0c5T25wODIzSUZIWWN6YndBR0NObzVfVnNvMnNEbDZXVjl6dw?oc=5",
+          "publisher": "News18 Hindi"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-8255bd0a5b",
+      "lang": "hi",
+      "title": "शहबाज-मुनीर की जोड़ी दुनिया के प्रभावशाली मुस्लिमों में नंबर-1: सऊदी, तुर्किये से रक्षा समझौता वजह बना; टॉप...",
+      "category": "world",
+      "published_at": "2026-11-18T02:58:06+00:00",
+      "summary": "Dainik Bhaskar: शहबाज – मुनीर की जोड़ी दुनिया के प्रभावशाली मुस्लिमों में नंबर – 1: सऊदी, तुर्किये से रक्षा समझौता वजह बना; टॉप...\n\nAajTak: The Muslim 500 List 2027: दुनिया के 500 प्रभावशाली मुस्लिमों की लिस्ट जारी, भारत के इन 22 लोगों का है नाम\n\nPrabhat Khabar: टॉप 50 प्रभावशाली मुस्लिम: भारत से महमूद मदनी 18वें नंबर पर\n\nThe Lallantop: आसिम मुनीर और शहबाज शरीफ 'Most Influential Muslims' में टॉप पर, एक डील का कमाल है\n\nInshorts: दुनिया के 50 सबसे प्रभावशाली मुसलमानों में केवल एक भारतीय शामिल | Tap to know more",
+      "sources": [
+        {
+          "title": "शहबाज-मुनीर की जोड़ी दुनिया के प्रभावशाली मुस्लिमों में नंबर-1: सऊदी, तुर्किये से रक्षा समझौता वजह बना; टॉप...",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNc3dFWkZvMVRWYkF4M0R3bTZkNGJjOVBTNU9BNVZwM3lfdVg4ZThxVkZGZWdnSFBqVlhRbjVXRnJfdkNEQ2VPZVczc1FoYUcyY0xDX0ZRdFQzcUoxS1dnVGNGQTlDQkIwVHZjTk13YS1pQzZ0bVh4RmxuWkh0eE41SlNsVm9uTndCUm9OSF9ibzY5VGRkNzZTR0FlTWVZSkhnOHY1R09FcHJqVUljVnZhRWhDYVlCeWtHN21MdWNwTjI4Z9IBxwFBVV95cUxNeFh4RVFCNWF1NHNLOFNLR2ZvTTc0TEhlM3dPLVVTZkdzbG1NS2RObFdhV1RHZG9oMEg0aDNVckZ1Y0NEVnVpNzRvVFRtZ3lkWFpodlN5Ym16UmhraDV4cUdHcDljMC1XN2VVZWxSZ096RHFzRjgxZXRVblhjVlQ5TGExTkZVWTNweFJlMmFQVVlFTEZad1VoZ2RyYW1oMVdLWlpocG53ck9uYzhWSXJNTmJXN3BPc3JtTFNhZENOOUtCSEc5RXVn?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "The Muslim 500 List 2027: दुनिया के 500 प्रभावशाली मुस्लिमों की लिस्ट जारी, भारत के इन 22 लोगों का है नाम",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUXFiQnBpa25CQmdHOElUXzJ6SFBMbjItRXhmeFlaMXRtMXl1b1B2aVZ5TU5WUGduVG16b1FZRmFXbFFJWjNUakRPVVEySXNKRE9EcHZxdlAwcFhfS0NObkZGLUNJb0dhUkltdkZkZ1ZucUZpQmhQNE5XM1RVd0pOSGk0TXZZU0xqLW9OLXRlVFFublduV1J4TGlrV2JUWlh4RGhpMWphSFR1d2UyOS1iVkFWTjc0YW53dTB0eGdCakhCLXk3VVJVa3lR0gHPAUFVX3lxTFB6N2NRTUdsbG5Tb0pCOExUX0U2Uzl2Y2FNcVE4NmtLS3RGaEZ1YzB6Zi1faGxKQ3BucVlsb21wUm15eXpBdjNTS3YyYWNubDBVY01JbFJ5TWxUb25OamRwekJiZ1hCbV8xd21LV3doNFBoS3ozUTF1SXdzUVJNbkRnT01oam0tYTljaUVvbHV4ZU9zamxfakdIWUN1RjBycl9mdC1SajZrS1NpMmYzX21pN1RRcDVFQTVDLWcwQnBiWUpXT2RXc2JqVTN6RVNKWQ?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "टॉप 50 प्रभावशाली मुस्लिम: भारत से महमूद मदनी 18वें नंबर पर",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLXhPRVZZdUxUb3RLR1ROU2NPMFRMM2RsNlJLRVJTbjVIenBjY2pkeEF6U25BZk9mT29SblFlaVQ0ZWJZNTZfaVE5QW41UGQwZWxvR2F4OXJkVFh0NlQ4RF82Qmdha2drMl9zc0xBUlp6VUQ0SHFVV3JoejYzU09vaVF6bmpPZndhQlpjTlhldmhLNVZCNTE0M3A0TGdBNUJsNHVDUlFmaw?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "आसिम मुनीर और शहबाज शरीफ 'Most Influential Muslims' में टॉप पर, एक डील का कमाल है",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOHZrUlc5UHNQZFpYV0haSk5SNXdpVlJrd1YxMEVEb1pqblV2ODZXUlp3T0ZsYk5KSGhXWEtlZGtPS3FCMFlBSFVYV0lYbmNJdl9qNFplMWx0eEQwMmR2OTY4ekFlYzRKR0lzcGQ3MXhoSHlyVWpVdFQ2UFhHNFZxVWU1Vk1sVWtJQU9rTVZZNWdHZ1FjWUFzTVpNaHBHcmx5RWd2bXh1NVVSbUpTS1Nvd2R4Z2hLVXo0b09mbUVYdTTSAcYBQVVfeXFMUHNER21xZUtxRHNPc3MxZ2ZibERRZjUtbWxQekxqbmcxVEhFZS1PS1Y2T1NfSkNXSUowaGE0Q2dCLTc4QVVIRlU1YWM2V3B0d1l6d3J6aHpoX3FFdVI3TTJrTkUzdFRnN0RFeElfc0FmOFd5SXh0R3U2UUdGZ09ESUJwSXFDNmdMUG9waDBGRnl6VUl0ZXJ6RTlBM01CXzJhdW1OT3AxSEt2TExsemY3dnI1RmFwR2w4RUxFRjVhS21xQm1FVThB?oc=5",
+          "publisher": "The Lallantop"
+        },
+        {
+          "title": "दुनिया के 50 सबसे प्रभावशाली मुसलमानों में केवल एक भारतीय शामिल | Tap to know more",
+          "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPMHBOa0VDYkNqeVdubkJ1QTkzeGZZRVVsOUVTMmR0eXpUd0lPNVlUU2RBeUtWVVdDREpsVUhnX09sZl9xYTRkUHA5bHlLV1lRX1RfMExmNDZjbkcxYXF4U1ZMS0tDbDd5UXRrQ0w5UEM2SEN0SmJyX0gxY1ZaZDFpaE52NFdEaHNiNkdjU3RGbHZuYzcxUGhWX0tOQjFrd3kzamNNbkdEREo2TjVqejhiS3JyVm1OekwtWjBSQUNyUW1TVWE5dW5yQWI3RHBrNHFYRVhmb1ZqaUNudFlrclRSQV9ydVFBUFZPV2JUT3FyeW44YXpUaHNxZzNGby1yYmRaZE5UTDVBTHhmRUFuUTA2bmpCS0hMdHpzZ3BJZGVsNU94LXJWVlJDYnJVS1RpVEs5SWgtcU40cWE0TXljd0IyNnZOc0UxXzFMblNvamo1elJtT0VycHhIakJB0gHfAkFVX3lxTE1VVVB4WFVGVU1FOWdLcDU0dUYxSmFaeEYtN3lkdXVuVTl0UGJRVzVxSkJWQ2tINFRJb0lLQV90U2hYblM4WTZJanpQME1nRUxDOGs1eFVPNGh3YUxQTkJoVnFnMkx6cVR0TTh6LUtOMnZtNlpmWDBXMWxsT0JUSjJ1MDlTMnhhZG5zdEJFdjdRamUwNFVYQWZwMTdwb29qR2hmeWtlQ2RGX1REa0NWX3VzaTFqT1pCYVBQOWVCMzlJQTluakF2cGtLTFdWWkhnSk5IWVJOQk9LcnhUcjhCWHVNTFd0SHlvWjNQSkRxVEFHQzhBaXVoVHRwUzV5aHZfZFRTX2RFa2VWY3FsLUF4NGZVYTA0SHdXT1RDOVhaYkJvREEtSTRzaGZPcGJsVmRqQWUxMFEzYWJZVEdhMGtZZ2ZIVEExUXFhcTlTOEoxZng4Z0VkdWpwQ0Y2dlVPTEUzMA?oc=5",
+          "publisher": "Inshorts"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-823f6cd155",
+      "lang": "hi",
+      "title": "जहीर खान के साले ने घुटनों पर बैठकर पत्नी पल्लवी को पहनाई अंगूठी, लगाया गले! शिमरी लहंगे में खूबसूरत लगीं सागरिका की भाभी; VIDEO",
+      "category": "sports",
+      "published_at": "2026-11-18T02:08:57+00:00",
+      "summary": "AajTak: जहीर खान के साले ने घुटनों पर बैठकर पत्नी पल्लवी को पहनाई अंगूठी, लगाया गले! शिमरी लहंगे में खूबसूरत लगीं सागरिका की भाभी; VIDEO\n\nInshorts: ऐक्ट्रेस सागरिका घाटगे के भाई की हुई शादी, बेटे को गोद में लिए दिखे पति ज़हीर खान | Tap to know more\n\nAmar Ujala: जयपुर में शाही शादी: जहीर खान के साले शिवजीत का पल्लवी से होगा विवाह, चौमूं में जुटेगा बॉलीवुड – क्रिकेट जगत\n\nAajTak: जहीर खान के साले की शादी में कुर्ता पहन छाए आशीष नेहरा – पार्थिव पटेल, साफा बांधकर पत्नियों संग दिए पोज, PHOTO\n\nIndia TV Hindi: साले की शाही शादी में जहीर खान बने रॉयल जीजा, पिंक साफे में लूटी महफिल, सागरिका ने उतारी भाई की आरती, नन्हे",
+      "sources": [
+        {
+          "title": "जहीर खान के साले ने घुटनों पर बैठकर पत्नी पल्लवी को पहनाई अंगूठी, लगाया गले! शिमरी लहंगे में खूबसूरत लगीं सागरिका की भाभी; VIDEO",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNdERPMHhOSVRxM3A0ekVJb0NXeFNJOEUwMUtDUzFOQy1OSHdTdU1hMXp3M3ZEVjV6bEo5cUpMSF9pYWp4aWVsYjFwSE5kMFVkejRfbWJwRU5zSXdndFhTWllwNS1oYTNvU0liLXBnUl9TbzZleG9wSzFWMlVuckljNUQxT0Y5Q3BkVDB4WHhoOHF3Z2ZzNW12elp6WllnSnJuc2pGZkJHVWxUbnJobDRaX1ZmZ1BfcmFzTVNmcm9GX01uSVEwRTZLYkU2MHI3cjNGT0RMam45eDNZZmIyX1Q4VlBRbmdIX3ppMFBNUGNwQjRnbjVuZ1dwWXNTcktxczYxemN0eThGczY5Vm9kWGVYVVZSSm4tYjJvRGfSAZ8CQVVfeXFMUDBuSVN2VHFtZ2tnMXNiU3BaS2ZpQXRoMWl0TVdpdEZBdFdiOUluMGVJb3c4dGtRTmJodl81bGtkTDBmNGcyOGxCOTQ4ZnVDTmU3cEVpYVVvbGFaRVo4YzF0dTdXVU9kTUlNN0g5NHVjVFdsdWVlYzBUZGxwTnB5XzdiclRQMG9NVUhMUEVDVk5SRmhUOHVlZ1FueVUxazVPUE5FRTE1eE9jamlUaHZKMjdtSWI0eHJwYWszeTc3TXUtandndkUzWG5nbEdjUTZhWS0zT0FUZGNBaEx6ZVFLRzdRR3YySURza1pEYkZxbUlnMmdqZ05oR1Q1T1V1dFpkUkY0NjJMbHRYUWROY2ItX1VpNk9ZXzFENXJzdnRmeFU?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "ऐक्ट्रेस सागरिका घाटगे के भाई की हुई शादी, बेटे को गोद में लिए दिखे पति ज़हीर खान | Tap to know more",
+          "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQRjZXUFpBYlk2RmpIU0xwY0FrSXRxRmVkc2F2OGU0bDRsS25QZzJHckExODI2bXhieHFUbmF5Y3psbW8xbnZWUjNuWXZLM1FlOENaNEdlTGlqVG9jVVF0X0tPTVkwcHJGU2hXakNOWGJGTUthaGdlaXM4QVF1b2pPSGp1MF9ENjQ4WXFVOEtXZlU1WnRaSmI3dzJ2SnZvQmp6RDN5akNPZldEN21rTEhRckdNVTlnV2pyNzM2SnJ2ZlEzSy11d1hBUXZvYW5rX21pRU5UdHFJcGtHU0dZUmdsdm50RUM3aHBNako1UGl3ZDZqSDFZSk9CeXFfdC13SWoyRTU0NkZxVE9hcFMxcWZqZGIzUjVqRUs4eDZ3TjhrdlE0NmFVTGc0UDJCMFFFSnRQOXF6eFd5RDRzXzhDUUJ0b2wtUnZXTHgxRkNkUGlGMWN5X0JXZ3VfQXppNnhvQ2IwTzdxSU5yLU0yWnpGajc1eGVsdXd6aXRVb1QtMFNJZDhVVUwwYmNnSlhxdWg5cnVnanJpZ0J6T0dWX21Lb1YtLXVvQllqbUZMRUN6VGJ6UlBRTnp4aEFiM1JEUlJSSW_SAcQDQVVfeXFMUDBaa24wMnpGMVJzdEpES255NUNVX3dSTVJMa2x0Ul8xcWdyNkVwLWlUaHBSWVp1cFZxdF81VXl5NkZ0SjVZa0hRV0g1T0EtS296WEtXZXhYVndkcWpMUzAtWXRldTlST1N6T0lPcmota09KdV9yLV9rS1otT2hyLVRqeXF3WXF5RUg2Q2FKaERSaVo2ZmV3OEg5aG5QQTBkSTgtZkp2SU94QkRhOExvVGJPaXE0UVY0WF9qaXNfN1h5d2EtdEVoVnBrU0FGX0ZiMTRXQjROMWNxS3N3cEZOMGRoaGVNbDM4T1ZVMXd1bEw5WkFTazZnOHRUT3JlQzFtLVVkUlJnUzZ0Z1UwVWl1YUpFUXNqU2R6bVlYdTh1anc0WXpTbkR6enlCM294U0dhNXNrS1BxS2ljNHRoSnZpZUtmSWdKOW5HN3dWc1lJRS1rc2tQZ3piemJKRUptdDZQNzJLOEtyQjhiZnRPRFcyRFg4Q2U2UXMzMUJPYXBQRW9mX2J4NTc4M3licnRLVVlGYXZ1RS1FSkRLZ1FtcjFxeEF1LVJEUzhMTnRqQ1VvWWxKekctUjV3YXlLUGRZS1A0bmN0amE?oc=5",
+          "publisher": "Inshorts"
+        },
+        {
+          "title": "जयपुर में शाही शादी: जहीर खान के साले शिवजीत का पल्लवी से होगा विवाह, चौमूं में जुटेगा बॉलीवुड-क्रिकेट जगत",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTXJNdVkzVXZfbTZhcVRSUWxjUndzMUZkd3JLeXJ3LW50dTBhVncwOU9sY1Rsd2VNbm1COG9ET25IcHVRS3VsQ1lsSWs1eGQ2RUhSWlRhQTM0VktfTTdKYXlnLWRXQnh4Q05ZaFo3aUhCVkE3dnlraEp0NXVfYUpobHJiVzVrYWMwUE1fMjRlUE01WVJ5VTd4UmtINnFjcGYxcE5xbndUMEE5WFhXSS1PRFdjSjY1WWtuSHhFS1NobEhNQ2tJckVGNHByaU5aQVd5WGZKbFg2WmlZakRVNE55MHlRRjVmQdIB6wFBVV95cUxQMTluX01YLTNPaWZjQTQzOFBYUXFtWThXZ21VUUhLMmhuenJqMGtUdzRpa0JuSXRrVGVNRXZnR0NIazFCUnZBN3JqNzgtQ09oTHZBOEFVa0FhazU2eF9qVUxNV3ZGZGd3RFNVb0lwd1Q4bnA5bWdHYklEUEhhb24wTkVzaUlERWtZalFidmwyMkVhOHZOVWszSmk1anVWUnVvVDUtaXJTUWY3bmNtMk1wWXhrVVlIeE0wSTBfTVZYcTJaTXRKc1JvbXh6Ny1GTVZFRjRfU3llX2VGaG1MNWZ0SmtiaG1RcDBKV1JN?oc=5",
           "publisher": "Amar Ujala"
         },
         {
-          "title": "फोरेंसिक विशेषज्ञ : जेफ़री एपस्टीन ने आत्महत्या नहीं की थी, बल्कि उनकी हत्या की गई थी।",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaW9rbHZ4VW90R2pFLW1hY3BzS3VHTy1UZmFHM2I4RGVJX3F0YmpJZlU0Z01JczEtQzY3dnNIV1J6RVVPYm9YWmFPbjBwTjNPNGE3RjQ1RW51UnlEamRzUG9tdFJocnNVTDhJUW5JRmhZc2VHUDlDa3kzSXZLWmEybkhRUUgtMGNLbVdEQnloZlc3aWFhX0pYb2hGN1ZxYzh6cFE?oc=5",
-          "publisher": "Shahernama"
+          "title": "जहीर खान के साले की शादी में कुर्ता पहन छाए आशीष नेहरा-पार्थिव पटेल, साफा बांधकर पत्नियों संग दिए पोज, PHOTO",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPYl9reGJZVERUZFhHUlR0TWxOZ1V5UU82X1NFYXRHLURWRkVPNE5vaGNMWDhQeGM5clpxSkFWbVV4UmxIb0hlemZESDJtM1VMUmkwc2ItUTZDZmw5eWdpbnFBcnBvXzJUcDdfNUdYUXlEaUcxcTVvZ2w5ekhzWV90bEpUUUsySUZmTXdwZVhSNGR1bFJiN2t1XzZrR3Vzb3EzdWpuMk9SR3hONXRtMHJEc0tuZ25ZalUzR0FGUXRYRXJPemE1Z3FfTE9BbWhQRE4tSHZoYVFtTW8xN3hoMzNCMFRnY0tlbjZveHBUZGg2Z1lNY0x6azRvLUNQSVhjTDBQNGRwbHFsUGtsY0YxdHhjTDlEWDNnNEHSAZwCQVVfeXFMTnBtcGZPaUlwRFZ0cFNVU0pxWHlNZHEzbHRLU2RaSktBcjB0RGJWaW9pbHVWS0xNYjY0b2hGZkR5RHJQaHZVLURPTDhsY252aDhreE1PbVhmbmsta3F0TkJNbkFlejF3b0xlVjFNRHV6WGs4R1pCZXVJSlIyVENFWERmSldLNU52cDY5b0EtUGp0amlBOEx0akEzUTZ5cnJYd3plR3JMQmsxUUU1UDI3d196dGpuZFI0V0l1QXJTSDNyLWhEN19VNjczNmFteDROcjkxS25oaEFTNWdpaDlzcnlhVzgzYW1zeDl2VUowNU9FWUhSYkdRbWwzZS0xY0d1ajlQVTEyTm9lMVVGNk11SUVIUGluVmlYM0dfeng?oc=5",
+          "publisher": "AajTak"
         },
         {
-          "title": "जेफरी एपस्टीन की मौत पर चौंकाने वाला खुलासा, 7 साल बाद दावा- सुसाइड नहीं गला घोंटकर हुई थी हत्या",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaUdibWN5Zk1lZnNYV0RVQm9hSDJwNWRCZTJJMHZ0NmFmMVp3cHBrSHJuZmVhRk9HanRnSFF5Y0JrRzdFNzBNNkNwZ2hRMnRqdS1iNTVNNlNxdVo3V1RPSHRqbXdORFZtSDBnR3JnblhmMWVIUEh2enBQTVFxdkY3anRMdmZzZVc4WHVQX2FYQk05ZUJwTUNVQUtTdWFTOFZDUmlXV3RuaWZZTUdkeEk0VHBzaDlCRzVKREFndm5JU25PZ1U2dnJlOWt30gHOAUFVX3lxTE95WXpvR0xCSFdNc2tPelh5c3dDR0RUbE9YMU0tWEJqRE9aZDZiNFlVWWExTkhXWkhyNk9tTnZZTXVDYXc4dTNUUGRrTXNzQkNVd0RLZERyYUduUnFmZmhoby02NFNrZ3ZySHZzT3AxeVU4Z1hYWW84dk9tXzN5aFRoN0tHM3UwejZvelR4dnAtTjVPbW1FUzNGTVdTNEUwazJrYVpoTXlCbmVKandxVHBJZjY0N2ZsQ3ZleXpqTXdQZE1CVWNlUDhWZmRqU0tR?oc=5",
-          "publisher": "News24 Hindi"
+          "title": "साले की शाही शादी में जहीर खान बने रॉयल जीजा, पिंक साफे में लूटी महफिल, सागरिका ने उतारी भाई की आरती, नन्हे",
+          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQdGlYZlRMTWtHc0RaeU4zVTBpZWdkQjVaV3pLZlhPbk0wd05pMmxFYlk4dkxEdVJ4blhzMDJuY1hGdlZnOV9rX3ZBWUdRR2lySUc0V3FERWJDTHEwWnJScV9Zd2h1NTdEd2MwdmEtNnFUTjJPVmRlUEpSRTNEYjcxam9NNnhIbW9SMUxzYjY4ei1PTFZOQVNxeUJYOGt3WDJSVU03T3RqMnpZc0Fta181U3RQMS1obENxVmhrT0czdlBwanJMamVRSGc2NWptTDQ1VzhPc0lfNDFZM1ZEbWZsNVZFcGVoUGIydW5JSkFSRFl6WTNLLVVDM00tLXBBS2FQSUoteUFHQnJFUDV4S083cHNxUGZGMUx3YmtmX3FjYm1NRUdzS2dwcHFPN3ZfZnBHN3fSAbcCQVVfeXFMT0dfZDFFZzVYN3RKbC1aUURTN1dFUEIta250WW9uWkxkOUxRWUpUaHMyN1pxQ3dLRm9vQWxlSVJOcWQ3WGNWLTIyOFdyNm9mSlBTTm9wWGRQM3p0cm85RmlsZHU1Ry1hWUUwdk40Q0U5VkV6dUNGeUMzY25HTVdyOE5IdlRaTnVEcmN4Tm43Um5idnFhTmcxcXJSQzE1Umt0OF9vUXlSNE45b1oySWJXYWxXRkxoMWVYcGVJRENla3VKa2FQYUtkdmJFRWJxeVFvT08yQmR0WWxZaDYxX0JRcFNRZS05TnF0RjF1eTBLekJMcUEzSVdvSDdNYzJRU182dEhoNGp4R1IzYlNxLUJrSUZlWUJieUxVRzJFTzJaZ0d2bGx5TzJsZXAxalcxaUo5SUpYcDNrd0k?oc=5",
+          "publisher": "India TV Hindi"
         }
       ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-0643d1b334",
-      "lang": "en",
-      "title": "Wall Street falters ahead of Nvidia earnings, Anthropic debut",
-      "category": "business",
-      "published_at": "2026-11-17T19:29:30+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Wall Street falters ahead of Nvidia earnings, Anthropic debut",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Stocks slide to kick off major week for Wall Street",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XNnJ2aVJmdnhfSDlwVHd6dU9kalV4cWo4dEN3NlViemFRTnNUeXZCMk1PSWh5NVhWSlVHWjVoMGJSWFp0eDB1eDlkbHdIbVp5VzdGdHdycUFDQmNLSllhNlRIcHY5bXJKRHJkNmxfX0o3WVdD?oc=5",
-          "publisher": "CNN"
-        },
-        {
-          "title": "More manic swings for Nvidia and other jittery AI stocks drag the US market lower",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRGhyRTdNckNzZ19VRTBDYU51akNCTGllamZOLXRQUDFob1cycU9JRkhEdlpCSE8zVkR3NDFtZHV2UmZ6MXZCaFdpSEN4N0Y2MEllWnpvLUxDQXJRVVVQSmlQX2dmSVU2U2VVejkzVjNZbk9Wem1nY0hEU0NVS3lBaGFPOWN2eTd1UGZISG1KeE1CdGM?oc=5",
-          "publisher": "AP News"
-        },
-        {
-          "title": "Stock Market News, November 16, 2026: Nasdaq Slides 2.5% as Nvidia Drama Continues",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdy10SlNMRlFPdjFwZnBNZEwybjZLOGwxdENoX2wxZWpLTlB0bXNvbFctREtRcThZUXcxRUV6ZXlYSVZjR0d1MVNEaHNvVDJfVXVvZEN6MFJMMUF0VnNTMHFTWmtIZzVKMWxCM1BMU3l6UEJUWWVnbzNvTG13TmhQUjNPZlJYQlU?oc=5",
-          "publisher": "WSJ"
-        },
-        {
-          "title": "Stocks Fall in Countdown to Nvidia’s Earnings Test: Markets Wrap",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSHFoREFNUWJRYTJxR0pTRnpHM2Q1NlhjQ1pjN0w3U1FWM09sclNuMlVNLWx4YXF0TURpOEdtSk9sc3BXTEpBakhLd21neWhod2pvZ1hRNVAtZWxNTlZmUXl4TXNJQ0MyTTFqa0tpRGVmOVpQZlRidlZzYkFLYnlNSXduLUtPSXo3QUJ0aVhlM0xWVFNh?oc=5",
-          "publisher": "Bloomberg.com"
-        }
-      ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-a608cfa722",
+      "id": "hi-cef0a73716",
       "lang": "hi",
-      "title": "11,000 mAh बैटरी के साथ लॉन्च हो सकता हैं Redmi का फोन, कम कीमत में मिलेगी दमदार टर्बो परफॉर्मेंस",
-      "category": "technology",
-      "published_at": "2026-11-17T15:30:00+00:00",
+      "title": "बहरीन में अमेरिकी रडार सिस्टम पर हमले से भड़का US, ईरान के मिसाइल बेस पर दागीं मिसाइलें",
+      "category": "world",
+      "published_at": "2026-11-18T01:44:35+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "11,000 mAh बैटरी के साथ लॉन्च हो सकता हैं Redmi का फोन, कम कीमत में मिलेगी दमदार टर्बो परफॉर्मेंस",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdjY0dnBqdUF2SUlFTnNtX1NTTngxWjh0ZzBMYUk4MDZYVm53VjRuZWdRWFhYaGFwYnFHczJPclRuM0dOY1VtellOcjNzY0xwX0lYRU1wNTN1WGxNb1hEWHlzT0lTUEZoeXdXTW51VWlWdmZYaEszQ2ZfQWdKODZnYVdwVmVubmpQVnpIcjE4RW10VFlkXzBhWFFwNjZrNjBLRVg0VldReDFLclppWWRoYWN1RXhTUk1iaWxLY1NGS0p4d2JUdDh3MEpmZVJtMXppMkZWSEV3?oc=5",
+          "title": "बहरीन में अमेरिकी रडार सिस्टम पर हमले से भड़का US, ईरान के मिसाइल बेस पर दागीं मिसाइलें",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVG5KNlg0WGJQREdJQkRfZi00Y3BuV0VzalV2WnhscUJtMTZjdV9iZ1BmM3ZQR2c5NUE0cTFJUy1zTWN2R1k2NV9NaHVRVU5HR3dLVUg4N1dlTXduYy1RZWNIZmx0Z0pucVdZcm4wQjVELXI2by1keHg5NzVfQ0NaaGQwWkdGdlBmdXNsZlBJTTBSbDNVNG9TNjQ0eUhoOE5FTUlWanllb3lUZzVCMmhVOTJJZklyQllUS0pFOEhtaWRjb2t3UENfbVpRMGVHdnJnajJhQnlJZmIyRS1s?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "ईरान बार-बार बनाता है बहरीन को निशाना, ये छोटा देश अमेरिका के लिए क्यों है अहम",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tM1VqR2RtbGVPVEVyMGNYVWNKNS1QQ0c3eV9ZZ3IwUVk0c2lhdkdPbGM4WlNpVHlxczJucFNoQmw4Zk16M2RIZ2FBbU4teEJyQ1F4ZEJzQ18wdWpt?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "वाशिंगटन पर ‘डर्टी बम’ हमले की तैयारी में ईरान, अमेरिकी खुफिया रिपोर्ट का दावा",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbG1WTXdWU0NGREdZSlVmdGlPSVFuUjNaVW1WVkY5MnVVZEJNWTFld1UwZkExT0NmNmFld0cwU3ppVzAzc3Nwd1RVaF9CZEFKdFZCNXhQX1VfOFMtOVYxMUJqckYxbFpGY1NfejFzTUc1NWpoMEc2X0pidUNkelJLTm9mRlBsNFd4b2laV2VRVFNvbzdmN1FNWWlEM3JwcEZjQ1JpWmpHcTB5S1BWZUw3dFhIQUcxSWU4bFpyQWowZEFmanVkdVVKUjZpWQ?oc=5",
           "publisher": "Jagran"
         },
         {
-          "title": "एक बार चार्ज करने पर कई दिन चलेगा फोन? Vivo के 12,000mAh बैटरी वाले डिवाइस की खूब चर्चा",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMElGTHVreFdHTEJRMU1neFJQTXlEX2tNd3owWDZDVGRRRm9mT0VXRThUanBoSWlsUmVrbW9pUXNwQmZVbHdMLW9SWjAyNUdYcmtLZGp1blU5U21nUzZYZlQwd2hCQnl5RC1wTEREd25aZzJ2Ykw1WURvd19JLThPYVg4ZUJreWxlUWRQSGF6dGw3anZiUFlPZXVlelpkb1VOQlpLQ0lXYUxPbmo2NWItZnJWbml5bnhUS2JxMjJoZDlvaVl6S1YwMm93VXNyREt3?oc=5",
+          "title": "अमेरिका का तीसरा जलदैत्य उतरा पश्चिम एशिया में, दहाड़ा ईरान- तलवार के दम पर कुछ नहीं होता",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRWNBckVfN1ZZWVZXcDE3bWtDeVVEdjcxZlJHMVlWRTBtdDQzeXY4TXE3WmlWMnAwVTQ3N0dTWDIyY3E5ZUJOU2l2SFBOUFk3MkpRTFVmckVqV1paMHNWTEpQNkdfWklzbmpqQzZqc2UyRFlPVi1LeVBfb09aMmprdlA4YzdtQlNWTmlsUzVSVWNUSHpNeF83UjRkN0VrTko2Yk5HSVFrVkNudFdnVlFUZ2dZX0RkSVhYOUVoS1JmUF9RRmhKaG13NFhSUmZlNFl1ZXE5UmlKODgzbDlNR0ZQUWlsRQ?oc=5",
           "publisher": "News18 Hindi"
         },
         {
-          "title": "Oppo A7 Ultra में मिलेगी 12000mAh की बैटरी, नई लीक में बड़ा खुलासा",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa2tpRXBid0xfdk51Vm1JMzZBSVIwWDBZNlRralBFbkxBbVlJOTBQS3RBWXhOSmhkYkVSeWo5Z1N5QWVab04yYmx2dkxMTElfcVNvQVlPTTNPb3p5SzdnS2syUzJuNTRDUl90UXM5OU9wWkY2eGVRbDBYU1lrYVBZdFdPeldhZGZwNC0wZjlBMmttT0diM3Bfdld1RF9rTDl2NVBmcFhjci1WWFdpWUw0b0JvTTNKOUZFMmt5NEZLbWk0U3fSAcgBQVVfeXFMTXFzM3VRb0s3UlFYWkFmeG16SFlvaTVwOFM5NnBjZGs0NlY5TGJsMnZFQjNYM2s3UGxuNTQxYllVYUt3dVlvUjVDcy1WbnBudERTWWFzc2RJcWI2NEVUMFJaVGE3dk5xN05RbU8zYmZ6VnVPNlZOSVhDcXJteWJsSm94OWpvTExXcjRJcEN2amRQXzA0bm1YV3dITkkwSVo1LTVCcDdTckRJNjd2MHRmZXhvZk9KcXMwd2JJMkdsZ1M5X2YyUUlrWmE?oc=5",
+          "title": "मिनाब में बच्चों की मौत भूला नहीं ईरान, US नेवी के 2 अफसरों को धमकाया- 'तुम्हें ढूंढ निकालेंगे'",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0pfNGo5LVgyT0EyTENGOWp3am43WS1HcnN4bFBzdTBYVF8xQmFzZzVvRXNQNk9DT0w2c3cwVFRSNGhSMHR2MzB6cVZVWXBra3ZzM2MzLTBRaWxVV1paLWVDOGNRcDFXT0RKLV9sM2ZSMTE1Qk54RVhLQ2pTbEpRcFFWcVlMN0NBbVJVcGlSS2xCZWVuMHJFWGk5QkpKTU1mcnJUWEZqaTlZS3pWMXfSAbMBQVVfeXFMTjNhTmZZQm5xenZSX21jZlJfWnBzcWRTSjJYZ2tNbHl4UnlZc0o2QmE4bGktUS1UX2dyc1Q3Nl9fMUJMM0FmaVAxWDd2M0F0NExleWNESkQ3dVFlS2IyRFlwc3NvSDZEdjBxQVZwTVVUdlJRN2RnLVZNQkVzZ0gyV0tNZzB2NC1odDUxUDF4UjJMbThxSlpIWXc5NWNnV2s5UGlmLV8tV01RSEc5b1N3NHlFQ28?oc=5",
+          "publisher": "The Lallantop"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-c3e4b4dc34",
+      "lang": "en",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "category": "trending",
+      "published_at": "2026-11-18T03:10:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "publisher": "OpenAI"
+        },
+        {
+          "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
+          "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available/",
+          "publisher": "The GitHub Blog"
+        },
+        {
+          "title": "OpenAI's GPT 6.2 Astra Challenges Anthropic on Price, But Not Every Benchmark",
+          "url": "https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark",
+          "publisher": "Decrypt"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-a56d007c05",
+      "lang": "hi",
+      "title": "अमेरिका में गहराया टेक्नोलॉजी संकट! अब Apple की सर्विस ठप, खुफिया एजेंसी के कम्यूनिकेशन नेटवर्क में भी आई खराबी",
+      "category": "world",
+      "published_at": "2026-11-18T01:22:21+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "अमेरिका में गहराया टेक्नोलॉजी संकट! अब Apple की सर्विस ठप, खुफिया एजेंसी के कम्यूनिकेशन नेटवर्क में भी आई खराबी",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ3huRTdWOUZRSWNoYm8wQWFwY2t3aTZHRWV5cmRrM21aTTZVd1BsOGpzZkhfVnhMMl9PREtOZjJBeEdIUHdZMzVBdGJ4cXRTZXBaUlVqSXhjZG1hTGN4dXBXNTRLQXFwY05jS2c2YkJ5NWR5TTJhbmZpNGt0QVVMcUZjcXk1OTBWTWxCX212aXJjUEZfNFRPd3VIVnVNX2lEWWtUeEh3ajlfRWlwck9lVjRoaXpWSlg1MC1URXFJQklZSHN2QlZv0gHMAUFVX3lxTE40YzBMM2pJalcxdExhNU41WEJ1R1B5dF84QW51WE5XcjBhbHFZYVBjdVFJZVpOSUxic05fNkFxNFBwTVpFcWdCdEZuUmZHc0ZnM0pmaDBBZWw2SHkxdWczSWZiemZmUDRMRW9MZDh1dVF5anRGUWZaeEZ4aVFqVDBqTkhrenpxWkxPYmFoWlloUjJaZnJPWlNNS2tEOW5FQTl2RnNtb0JVR2huSEVVdlJFQkFWZ2RXa1hRY1pUU01LS2RkcUIzZ1E5SE5qYw?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "दुनियाभर में Apple की सर्विस ठप, iPhone यूजर्स भी परेशान, काम नहीं कर रहे हैं iCloud, App Store और बहुत कुछ",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT0VhVFh0N0J0RTRRdTdwNFdDd3JYVVVSbjY3a0RSS1MzanpEV0VUZ2dqbm54TkZxNTlnUlV1YmE4RGVOT1dsZnltak5LdEpXWURkdUF1eFBrekN5MHlXeW85NEFIbUtYckRGSkM5R0p0Qi1vWUV6azB6NWV4N3RnSWJGdU1CckNSbGlDdHlta2ZKOElfZTI2bzk0Z3BEMUU0dlFyUlZzWG5ueXQtU0RtM19Vc0VUYlB6S0t5Z3djOEVTM2w5RFI3YV9aeGE?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "घंटों ठप रहने के बाद एपल और जीमेल की सेवाएं हुईं बहाल, अब धीरे-धीरे पटरी पर लौट रहा सिस्टम",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaFlqNWVnQXBENkZhV29nWndlcExGOXVmRDI5OWxnc2pkak9zSGdYZGFSU0UxQnNEREFuZHpMWUR2MkxUM2FtX082YkhpWk9sV3BYWFRVRy00YThoYzhxbWVWSWlBZ01EdzJFMVJ1WGp5MlREWWYyMmo4R3AtaXJudjhLZjJySWdpMU10UU40a3B3djdzNklPcU9UbW44cVdUaW5CblJ0ZGVLZmVDVU9lcUNDblhyWjhRQVZSeFU0ajFncGxnOVEw?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "Apple ठप हुआ, कई देशों में App Store, Apple Pay और Apple Support ने काम करना बंद किया",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVjJyS1EybXhjU2lSTFg3c2IxZUlJVnV4V0JCUUl4dWREZHU5OUxFVjZNUkE4TVJxZURxWEMxTmVLc2dUUjViYm53Q0x1ZTd0Tnl1YVpydDlMeEFBV0E3RHdRa3RVUHBCMnhZOG5hVWo5QXF6TzVyOUZ5VUJwWWFKSjZBRU5xNVZBR3hCN2tJQ0RSTmNHSnZZSlV6WU55eU5udVZUSVlfdnlLYWxPRXA2bjJuTlJXQdIBuwFBVV95cUxPOUNkSTk3YU8yS04wRkQza0hwMVR5QVVEQ2g1MEdMTE9WSkFIVl9rYnJzUDdnejZ3S0dna0JGV3MyTTR5WWlWTDVnMnhVLUQ5RjIxMXkydk5FNlF1emxkcGZIRUJCUWFmek9PalBxbndOd2pBN2hsM19OTzdORHd3bzk1U21YRWFuQXdLNlpMSm5uejdGMzZsTG9oTUlGSkN4NUFPbmtocmJxeGxoeDNMcHE3MWN4X3BQRnYw?oc=5",
+          "publisher": "The Lallantop"
+        },
+        {
+          "title": "अमेरिका की जासूसी एजेंसी पर सबसे बड़ा अटैक? खुफिया नेटवर्क पूरी तरह ठप",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdk1lTmFVeHZfMGNjLW5mY1hYaUFLcFBvX0gtRWJ5TnNZOUJoQmxwWUQzTURLX1kzVlFxQm5yaFNlU0FpZmpxaGFnYlhBVlJxZW5ENF9OVWVpUERmR0Y0M1Z1TXNBTVhINUx2bjk0S3QtdkxyMk5icGcxSFlzTVEzNEozLXdJY2tHeUtPeW1QYUhhYW52d2RySm9wT0tpMkdZSlc5Q29VVGF5ekhsS0dWbHNneWNnYi1HN3lZWVJJWnh6T3k5MUQ0WTdGWDNiaWU4UHoxbEk2d0pNdXdMWlY0NWhnWlpERW55TFE?oc=5",
+          "publisher": "News18 Hindi"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-fb8d681f06",
+      "lang": "en",
+      "title": "Gold (XAU/USD) Price Forecast: Bearish Pressure Builds Below Key Resistance",
+      "category": "business",
+      "published_at": "2026-11-18T02:59:53+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Gold (XAU/USD) Price Forecast: Bearish Pressure Builds Below Key Resistance",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjVFclpBTzNDQ2haQl9ENEV2SzRVeHUxM2FCYXJVdnVyTll2WHg4UHpuYnc2U2RJS0NqLUotRTRRZ1F2UUJHNlhXUE9Eai1ZYVU3U2FFM3B6aVJHQVZTcG9iZ0VuNGtUQXFIU3h6aGdrdHNaQkZqZHk5VWpBME9oRGYzdGFWa2NnaVN4Sk52dW9TN1FTU0VpM2pxdUVRUGN3cm5BOXV3WEVEbDQxdnh4WEFSSW1HUENWZklmdXk3NjFLU1E?oc=5",
+          "publisher": "FXEmpire"
+        },
+        {
+          "title": "Gold struggling for a bid",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XUUE5SHhDbl9HM2laLXA1VVdDbGhUSHZvNXpPZGM5dzJKZ0Zna2Y2TUxUeE9YVFloOXpfNl9naG82aURXbUZhVjNuRk95WnlIcVItMHdueVZjbUp5bHd2R1ktVHVlN0JMZE5kUFNGbE1RTm03T3hjYjhJcE8?oc=5",
+          "publisher": "FXStreet"
+        },
+        {
+          "title": "Daily Gold Trading Report - Tuesday, November 17, 2026",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTm5GSlVvMTlkUk9GMER2eUcxdzZLblp0LWNGY01FNWc2R29MaWh6UGhCLU9tWmEwVHJtcG5HSDBZMDlJTVBLai1EemRlNzFMbG43TWQ1SFpobGRQNF9HWFhFbHkyUzNBWkgxQUEtc2Ixc3hIaWJ2dHhrYVNTWUdfa203c2VFdjc1Zy1WZnNLemVod2ZjS0k1UndVUDBjd2pGQi1WOFd5MHBXXzA?oc=5",
+          "publisher": "Investorideas.com"
+        },
+        {
+          "title": "The Gold Correction: Square of 9, Cycle Dates and the Road Back to $4,000",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc3pHLV9GM3EtV1FNZkZUZWhvNmRuSjZkV1hHbGxFZUJHRVppWmh5NFBBam1xTUtZZFZWNVU3RmVmaWJkTm9ma0h2N2ZPbWVHYUQtTS12YS1QU21VZGVEVnN1eF9TVVNPYjhtMXliNFJjMnhCMXA4a3pMbG5sNGNDUUxxOGRGanoza3RicU5PdGpkTU04bEpjdjEyWlpieHNXdVhYNVhicVJjRUpndHVQVnlDUlQ?oc=5",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "Gold Price Today on November 17, 2026",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMm1INVR1ekhhdFl5NUVKVzAtbmtRSHkwSTkzQm1vWkNabEZEYUFUcUZfa0NyQkZBaGZQclJrcjFJck5od2xTaTl2X21Xcmp0SFhSX1c1d05GeV95bExvTUVROEstYTQwUk1aakN1QzJ6LVRlLVRkUHBwMUJxWEhfVEd2WHprQ0FPVGg4ZXZ0Y2FYeHd6Nk12T19RdHZTWHppUm81eXlzZUE1UUE?oc=5",
+          "publisher": "USA Today"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-145129e362",
+      "lang": "hi",
+      "title": "' इनके बैग में गांजा रखो और फंसा दो...', होटल में ठहरे कपल को ASP ने धमकाया- VIDEO",
+      "category": "india",
+      "published_at": "2026-11-18T01:19:46+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "' इनके बैग में गांजा रखो और फंसा दो...', होटल में ठहरे कपल को ASP ने धमकाया- VIDEO",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNNERfWFV2Vm0xdzRjVlhackROenZKQ2c2WlZ0alh0WlppcDg2NDdBbldSbUxfaGxDcHc3WFAycEJIOXVzeXcyYklvdUVQUjE2YUVvWXJKUWRvNkdoZFZCSGlBejNnelBNaV9OdkpEamJYOEdOc056em12cU9LdThQcEIzcHh5Ym1HM0lDeHhkR283M0lzd1lNUXNNLWNSRklleUxBS1pjWjRnOHp6N3J4UWJJMUpJMzlsZ2x6eGo0MjVjT05WTzgtcC1PdVlTam9OcHpvMUo4VVhNUmczeXp4TlNOS0tTd1NuMWZTeWptVlotd3ZqVldBNmtCa05aS3gxSWfSAYcCQVVfeXFMUFJvRW1VNllPblVMUFJuUlREaElmZjAtVEF6dWhyRldLMkswVU1tNFlxQ3RoY2w2empmVG5XREtzSy1FVV9ZeTB1cXl1blhGcmtnWG9abHAtOW9ydGJnaGlaM0FxX28xNFVTMENRb0x3US0yNGJvUXJxODRPM3dRQzUyR0tBd19PeFlsNXZraXZoM3RkTnNDUDhMWDVQX0tSREtnWFhLUk1GMG5ZT0JiQzBlUzRXLUJjcmItWWxKZFZ5Zzh5T25mVmwxUWRlcGFKSmxIb1dETWw1NWZYTnplcWVPcC1NdU9XRlFvVkk5VmJHVnpOSnExV1ozS25DeDkxZ0F4bkxmbUU?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "होटेल में कपल को गांजा केस में फंसाने की धमकी, वायरल हुआ वीडियो",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcW84NEJQZzN6MTZlWVgtME1zSXBNM0IwU3pWeHQ1bGV0d2xJNVhlVl9ueVc4cS1Sam9CNThZaHN4cV9TWC1qaVZMZWc1R0Q0ZTBjOTQ2R0Izb25GTTl4U0tGd280dkhDa1dBRWhxcWJSUHdSVktzcnNOZm1lWTdtOFdLQmpIUl9xaUhyTnlfZUdDbjduWG14ZmJfZFoyYU1jVFlZX005YUhVTzZ6UkdWTl84YkpIQmc4T3BxRUJpZ3gyUlZfUS1sMQ?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "ASP बोले-लड़के के बैग में गांजा रखो, कपल से बदसलूकी: होटल मालिक से 50 हजार की डिमांड; MP में पुलिस अफसरों क...",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUllyVXMtOEZlU2YzOHhpelh6aTdnRWg2cEowanM0SDZVRFJCOTloTGJfTFNJcFpRakFEMV8wcUxRdjMyR0ltQkltYUNuZEpDU3Z1ZG9acGpxMVB6UlptdGwzRF9zVF9GUm90dTVVWFlkdWNsU0Z0aWhMM2s2Z3NuZXdaTXVXc3BRWWJfc0JmYUVmX0hETTVoaUhQMEc5V1Mwc3RkLURvUXZYWVZsNmJDYXNvSDlvTjJKX09ISHdxVUTSAcYBQVVfeXFMTTVIZ2RoNldOSWF1ak9EMDY2ZEpCRTVEXzM3OTVETFlERTM4VUI2UC1vSGROU2FTSEpubmpXRUZocnlxbGNkMlJSYTlRUmJtck9TTnJGSXRaX09Fc0V4T3VjeXBTMFpLVzE4WVlKSVIxYVA2ZlQza0RvVWlncVQ2LVd1czVMblAwNVJRNjlucFZSbVZja0prV2U0eXFsT0gycXUzZGlKYzNtckUyUjEzU0FzWldXb1ZMd2lPYWZsNEU3bGNfQnBB?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "'गांजा रखकर फंसा देंगे', होटल में रेड के दौरान पुलिस ने कपल को धमकाया, वर्दी हुई शर्मसार",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM2RoZTIwc0FDY1BRdV9MMWowcGl0RmRiMlIwSWN3dkR6eGgtdzRBUkZIZVpPa0N1cXNZZGR2aXQyUUw3SmRnMmZYTUQwMGtfSk5sUUxEaFF3S1ZWWXZ4Ulg1d19ocGpzQmdSR1RjSDhnM180V0NhZnc5OTBDYk0zbGNiSkFTYzNrVWsxNmpWUmZvRm8zeGNMSUh0ZXhGS1luYXFkNzNZcWlqU2ppQy12Yjd2YWY4RzBJY19vUERHX1Vlbm9XWTA3elRWY2RiZGZxelFwQ0VBZUY?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "सिवनी में पुलिस पर गंभीर आरोप, कपल को गांजे के केस में फंसाने की दी धमकी, होटल संचालक ने किए रिश्वत के भी दावे",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV0tiM04xU2ctQVFZWWxFUkl5Yk5VVVZ1c2MydXZiUXBfcGQ0MkZsRUlCa3lkS2d5SlZZSTVkYWFIR0l1bWk3d2FabElMTVRueGdnVFRjYW84N1ZoZGZrUHU0V1B5ejA2M1dNQncxQXlKWlQ3a2xxVmFpOUM2OHl6cEIwNGpRbjRaUWNrZ3Vnd2FOLXhGZU50UndZOUNTdnpOek9TMmVQLVpZX0ZYSEtRZ0FIWUVRcHRXUEswd2xaT1ZxQdIBzwFBVV95cUxNQVBlU0FHWTliQ0J3dVU4NWhxckxZNnJUcEEyUEFybGJJUkhUUzl1Z1lVbTVscDM2YktvdDNCRFFmbWFNUFFETkJ5UERraE1BY1F6SzgxcWkyTTlmbFAwRlZJV25za2ZxbXlBZ3hIV2hSQXg0RkdaLU8tZzZuSzRqX0JwVVRaUFVFWkZXM3IzeHFqUWlhTmN1aV9JaERtTl9KNnRGbHVqRkM5WUxWNHFyMi1BV1RjMjNCdjNaTlJ5RmE4M09qb09Bbmk5TmtCdkk?oc=5",
+          "publisher": "Navbharat Live"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-6645f5000e",
+      "lang": "en",
+      "title": "Australia news - CA set up 'independent forum' into Sandpapergate but will not re-litigate the incident",
+      "category": "sports",
+      "published_at": "2026-11-18T03:00:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Australia news - CA set up 'independent forum' into Sandpapergate but will not re-litigate the incident",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnh0dnNZMVowTU1DVUUzTGVBdUZDZmdOV0NDZG5ZRkN2Q25kenFVQXJEQzFxUURrdTZsR3d5ZjNzQTFIVFVlVFVBaUdORkdHSm5EV0JnN2pDY0NsUXk0c1BVaC04STFPZjhNaHQzTXp1TFl3TVJnSjNfQWNtOU9LbVNkelBrTktKWXEwQzI5NUluaDVjSEEtNFE1QWxVcXZjY3dGLTdwTVRRRmktTTlZM1ZTME9nMTBjVWsxQnM3NFg?oc=5",
+          "publisher": "Cricinfo"
+        },
+        {
+          "title": "Cricket Australia press conference: CEO to speak to media amid ‘sandpapergate’ controversy – live",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNkRTVzFuTG8wTWM3SU9BRy1yLWVjWUg0b21aSFlvUE0yZ3FQNG1DVTNnU09fQWlQdkJhUVFGdEZKMDRhbFc0T3ZCTTdsdUJUQVh2WUliYXk2c1BjWU1tY1RBOTNWTUdVaWdWTHE1WFZlTnQxVkkzU1lMMjdKRHRpZG1yNklZTC13empHeWpjdnNibXRURDMzS1EtbjJuY3Z4aktvMWtRTFpubjlKNVJwYk1tUW9NRnpoY19KNFRvNlczN215WHNWNmVvUVdMdFBNZFB5b0VvQnE3VmRrcjZlSHNJeml5aWdl?oc=5",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "Khawaja: I made a promise to Warner in 2020",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnN2X1Q5ZExTakR0blpqV0VPbFo5QjFwSENPRW5ZMTY4YjdTM25JSjVPNFRQMTNVTGNoazhTQWxqckFNbXV2V192YlVZOW1PUHZBN1doazMxOV82VXJCeExBT0ExUy1TTUNkX0lrYkVTdU1UdDBHVkhjLWpXN2RKNS1kazlaQkxEZExJLW01RHM4Unl2TXFiNUZRN2c1aEpoenJueFZ0X2pOXzhROFYyeWFONA?oc=5",
+          "publisher": "ESPN India"
+        },
+        {
+          "title": "CA set up 'independent forum' into Sandpapergate but will not re-litigate the incident",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkpwZ3JzNGYzckJHMFlkSlFaeWRONHk4MkNpekRZRlh6b2F2QTg3cm02ekhCeXpuUHdpUFJ3N1p6b0JUR1pyZE9BTUVsQ21MNm5wNFMxSVVOa1ljME1MS1hWR0RMSE8zcUY2dkpJSEJJNldSeHhZWmRhdW5hZXpaUmpvZElDU1MtMThTcUdka1g5ZGp6cWpIZ0RUZGpmODRJZzJTZFhNOUJRYnhLMjNVaDRn?oc=5",
+          "publisher": "ESPN"
+        },
+        {
+          "title": "'There's a lot going on': Australia batter concerned about Usman Khawaja's well-being amid Sandpapergate controversy",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPMEJpcEtoOTdsVXlDRXRnR05rVWttakUyeUF4WGpqVE5vTWwwMzhQaFdIU010OVBsVkRwQ1VZc2hQYjhFOUNGWGt1WnMzSm9TLUI2cHZMaWZaY1JQRUlSUG9QcERsVWkyNTM2N2hXVFNNdUlOVXBQVjBKV3ZNYWhyUEdUR0N4VkF3R2tGbVRpR3hSLWxfQzZFRmJsTlNOdUx2STlYNGF5WnRzX3dCTmoxVW9SZW1HdHlMV1RhcUszLUtLSEdYQUFoLTR5ZFdyckdmTEgyNWxCc3BPb0F4RlNjbldtS2ZYWDZDcTJJSnZoQl9TdjlqTUM3dm9EcUhyenlfTml6NkZIMm1oWExBU3pyamJRMFZieGQwQk1ob3JB?oc=5",
+          "publisher": "The Times of India"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-3a9a75464c",
+      "lang": "hi",
+      "title": "सोनिया गांधी की किताब के लॉन्च पर राहुल गांधी ने निजी ज़िंदगी के बारे में क्या बताया, ज‍िसकी चर्चा हो रही है",
+      "category": "india",
+      "published_at": "2026-11-18T01:16:42+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "सोनिया गांधी की किताब के लॉन्च पर राहुल गांधी ने निजी ज़िंदगी के बारे में क्या बताया, ज‍िसकी चर्चा हो रही है",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wZlRjeHVoWGw2WTlXM3VtQy12OG9pNVV3ak5YOVJvTGtYWDJSZnJtRnplQ3JTNUtMdFRyTGFGRzdrU0hONmlTenlkemdWQWtNcXR0NmprUm5oZmIx?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "राहुल गांधी की शिव-पार्वती वाली दलील पर BJP ने कसा तंज, अलाउद्दीन खिलजी वाला पूछा सवाल",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdkd3anBHNHR0c183RkZkVDhkRGtUTjNRM3RUenNWTGdBVU85MzZmZ2hFSzFUZWMwRlc4M2lnU2FLZmZ6Wk9qaWpEamwzdnF0aHE2Y0NJbUQwdl9Pb3NnVEhQY2RRbkxOQUlwQXh0U1NnR1BwS3Fqa2h1dktkZEx6T29ucGU5V2RyUXRXN2FJTEhYa1JyZktZTDZlTWF3Mjc0RE5qM3RMQWlTMmx3ek1ONXFLa0UxYlRoQjhKUXR1ZWEwbmwyQTRNTXpnRjJoYlJxbzRvbHNiS0JVYTRScTJWRmFrSVc?oc=5",
           "publisher": "India TV Hindi"
         },
         {
-          "title": "Xiaomi Redmi K100 अपनी विशाल 10,000 mAh बैटरी के साथ सबसे अलग दिखता है।",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEFWXzRuQ1UzeEZNblpmUUh0ay11SjVPd2JVbGc5ZjcwV2xSVlVvMVVYX0twY2hLaU1GWkI5NVBaVFJaSF82bm9tQnlnUzIwemtCdzROMWxUaUdQM3M1bExvWWJIVFFwb0gxSTFoQVY3bTNibEZpQW5LUzBjcEFPa0YwQ1h6RkZNR0RrY0s5aDhjTGZkMGZmZnZfcjg?oc=5",
-          "publisher": "Vietnam.vn"
+          "title": "अब वो गर्लफ्रेंड कहां है? सवाल पर राहुल गांधी ने दिया जवाब, बोले- वह मेरी दोस्त है",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT3RYRlBwLUdpTGxxOTNRZ3MzQnNkN1MySkItaUEyWGJ5WFRNeGdVb1loQnNKR0hYVFFzOVBmZ3BwNEpmSlBiR3hrRFIyRzRSMmtIc0lfR2FERmthY1FldzVzLUlKeTJ2U2ZUOVJpa250ODZ6eGtmZHBjWGVXck0wWEZpWFF3WDdTQ0sxUVJmanZpXzMweGdaS2VHS0xPOGF6b3lIX1Jkem0xaGJKZGhFcXQ4MXhMQWNENkEtR2hSVzdVRlo5MnkyMlJSUdIB0AFBVV95cUxNTEdzU0NRNkF6VGV6aVNOcnVLajkzREZVNUZaZ1p1WS1QNkhIaVVhWlRvUzY0MHRPV21pZ3Jud3J1WHpVdzZELWVOWG1kQW1BU3RpSzhGWWRyaUp6X2diRU0ySzhSeHpyVTFXYW9PUmVpYlJjTm1TYm1Qel9NYklaTlhNNExBUXFMX3k4YkZyWjJTLXRVTjMyRGNFc1Bsd2VScVhpdUFCdVdrU0NkeV9EVVdwajZXcjJEUHd5TGVMeVUtbzBKSjQ2NEZDTjlpZnNC?oc=5",
+          "publisher": "AajTak"
         },
         {
-          "title": "Redmi K100 Ultra : 10,000mAh बैटरी वाला फोन लाने की तैयारी में Redmi, मिलेगा नया प्रोसेसर",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZGcxWXJ4TlFZbFF4TmdpQmNPd0ctMDl4WUN5VmFGeklTcWVlaXJSeXhvcndhMTJlQ3Z4aDBqdWRaZjI1RVZZNnl1X18zVEloUXk2NHBMNkdMLUpLRVBONUl4UlB4TE5VdEpPeVhSYjFhb3N2dlUzUkNPUkJwRFUxclZ4OS10bExkZ28zRkR3WHQwbjBZcUpSeFI0b0xoWUZHRW5WOUtKcjc2a1VUUkhaRFF5UXFPem1HRUdOTVlIY0Q5TTFid2RXVHI0TW5jaENmbHpodUQzSXItUEx0R0FwOXBRb1ctdkN50gHuAUFVX3lxTFA3NjdXRy1wUzdWZHVZb1dHZW5WV3hXeXc0T3VkTnJjS0dETmZyWEkxV19kdjI1dVlpQ2Z4NjFpMDVOenJiNzVJczZJX2VnR2M1eWZIUHBJR2l4bFdqNkF1OEJGa084MDJfcGVPVEVBNWhKbktSNlNUanc3NktuQXdvMTJNTHgxWmVaZnEzSy16aXlCUVppa1E1anlzcHBXaTBWYmsxcEJhYllIQlBSd185SUMtUWJwWkpBUnB1WkVZdEhQYjhZS1o3S2RTVkNDUGh6bEtLZTd6dmo5Rjk1MGU5X1h4Nm14ODVWWVVIeUE?oc=5",
+          "title": "'वे नफरत के जाल में फंसे हैं', माता-पिता के रिश्ते पर टिप्पणी विवाद के बाद राहुल गांधी का बीजेपी पर पलटवार",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQnJlc3Y2OXdHemJfU0xCM2NhM08zMFJudTdNR1A3VFdDeVZFZDE4ZWZLdC1nQmRiZWY3SGxaWmhEVkZ3X1QyLWtDNFZlTDFiMFp5NlRTMUszSzFwN29TdE1GMDFQeEVBMG9TNm9jMjFiQWxQTzRubkp4Y1BFb2d3UlR4MEdKZWs4VnlKVmdESmExSDhzZVNlRllOTEwyTE8xSVFQMk12RjAycFE?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "सोनिया गांधी पर हिमंत का तंज, बोले- सॉरी मैडम, राहुल ने खास दिन पर भी...",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0hzOHU2MVU4TVpFbUJLNDgxZ295WUZmU2dMX0NpMVQ5aVRiNi1Uc3BfZG5GYnc4aEN1NXdRTHM4TFhTMnhYZVNjM2VVZjNKWFhUQXY1bnVGMWJTaWg3dXpkWWdQampiZWVGYzJOOVNYTzBSbTJ4NWpIdUdGVmZxZ21Pc3BjcGk0MFN4SFBsUDNnMWs3VGtDQnlSeWhadXNwWHpxVlZ3SFZ5b0xCX1BDdHRn0gG3AUFVX3lxTFBYOUlBZl9NVFpITklvWHgwUjBqc0k1cVh3ekQzNFhXR0F3SUZaMWdMbFd3eDZiNjBEV1M1LURjMkJkanBhak1pajdXUlI4alFmQ0RxMU96SjVqaDFDbVdSZE1SY0l4WWVCWkJ4SXpfaDdZNnkweF9WNk9mVnM3Q0pDSlpfY0NmTzVZczF1UzZmSTk5dFFueVIyNWlrd3FaYS1HOVdRSWthS19tTWIyY2F6SkdVQnY4OA?oc=5",
           "publisher": "ABP News"
         }
       ],
-      "queued_at": "2026-11-17T20:45:55.328956+00:00",
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-710e998c16",
+      "lang": "hi",
+      "title": "एनवीडिया में जेनसन हुआंग की वापसी पर कंपनी ने साफ किया रुख़",
+      "category": "world",
+      "published_at": "2026-11-18T01:12:57+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "एनवीडिया में जेनसन हुआंग की वापसी पर कंपनी ने साफ किया रुख़",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxS1hBellDR2RLNzhDbkdZYUVMdUtYcmpmTzdqNm5qa29SMFB5SEZrYmhnZk5IVTVMOEh6RnE4Mmd0OFlTZkIyZE00QjdpOThIS3pCazZvWQ?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "मिडिल ईस्ट में फिर भड़की जंग, कुवैत-बहरीन पर ईरान ने किया ड्रोन हमला, US ने केशम आइलैंड पर की बमबारी",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVk42ZUF6SDB2T3RscVgtOHV5eHQ3a00za0JXaE53SDdjMjU2MGpCUkliTTgwQU9FWnpvTFNMV3lEOGFlRHY0ejJqV2JKYlExbll0UEE5WDY1RVU1RFFJXzEtb2h1TnR2Z0huMGxGNlhyZWpsc1JUenRIZFRmX0dJWUNzTjZHdE5lNjU1M0VjRkZBdmZJaF9SUnAwZ2FKYWxiR2hwVmFJTHVWcmI2aG5zSnFRNHVNOERF?oc=5",
+          "publisher": "Bharat24live"
+        },
+        {
+          "title": "लेबनान के वित्त मंत्री ने पुनर्निर्माण के लिए 250 मिलियन अमेरिकी डॉलर की वित्तीय सहायता की घोषणा की",
+          "url": "https://news.google.com/rss/articles/CBMitgVBVV95cUxON3hCNmtHY1U1WDEwVzJHQzZnVzJvNW1ERW5PTFBONmlGalB0eEc2RVYzZllFUk53R1BfNnNvdjF0MDItT1BMZXFmY3BOZHZETC03NDR0Sjd4Ql96S1c2Ym8wS0xBNU5wT05OXzhLbGJSSUhRdnZFbnhnTTJKRnFrYXIzdU42akwyY3RCUWxQSnhWWFpjM1NIU3lMcTQxU3lUOE5hczBCWTR1Y2poTmZUQlpwempUR1ZmS2psSGVGQ2lFY2ZYR3JtM09CdllFOTlCTDF5eUJCWFAxVDFENDhpdDFpYnRrSkFlNnViaF8wSDdXSGpNbmRXdU5fQUl5VUVkakZ6UW1kSFlMNTNiRDV4blJxeXAwNzNiTHVGTmZxN1U5R0dWdTZObnFvdGVNVkl4UFExQzRrcmhBRG9WLTgzVEp4UEE5bnhpYVUyTXdSRHdwTWtxZlNHOXh0Z2R2QkRXWTdwRkFNVS16b0szYjBEZk44aTFtZENFNV90YnFpWW5KTTJwSUYyOXBRZTNKcjQteC12SVZiX2djZFZDZUc3NVZ1MXhjby12RUVTbndEQUZFVEdISnZweGduZ3NfWXNTbkd3T3NjbEQxOEx6YzRPRVVic3BnWmh4WXpzV3c2RXVvQTZQRlg4aUdaWWYwQ3REdTNVTnJQNllDSFNzRkJDblFpdWhQcndodGxPYmFucFAzRzU2aV92eUpyblpqbk4yMjNwVWc4dmgzRnNVMmVyd21aSUxmZExBMU1PLXFBRW5nRURIT2tvZEpjdDVQZzJPaDg5T2NKXzJDTkIzaW1hWGFYSThHVC0tcXZGdXpKT1NSTzl5dnk3SHctUmt1NmZRc0o2ME1xWjBoOC1iNUhrVV9KWm9NMV9hVmFxQTltc0otNHVJU0tSdWREZjVZcTd0VzRjUXRR?oc=5",
+          "publisher": "Qatar news agency"
+        },
+        {
+          "title": "कुवैत के हवाई सुरक्षा तंत्र ने ड्रोन खतरों का जवाब दिया, क्षेत्रीय तनाव के बीच अलर्ट",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUXJZNDV2NmJIQWxmd2JhZ2lBb19iOGdaZk44OUZ2YUZPUVNOZ0VEQ0FOb05ybFI4ZWZBZWEwdmVMUHl3cTlCUWJKTkVKbWJmelUzdHc2bEpFNFBPUGswNlBlb2FZR0RsUTBaaDVSU1FCdjZqbTJtMEtSN3RtNDFVWGEwc0NZYXh4LUZYVU9wZjY5Y0N4TGVoQkNhTzlSX29hQkIwUUphRkxHbXfSAbABQVVfeXFMUHFpUFk3dFdzS2pwbVU1YjVpbS1ES09NaUNsVW9JODZKZEZWS243QVZ5c3FSX2w5OEZHOXY2MFdMZHVtbldpa2dUdEZWRkZ3dkN6U1I3Tmh4NDR0ekxkU2N3V3JucDFrUTlXZk9LdEVUeDF0dTY4bDRWN2tZU2pKYWpQY0lVUFdNNXJxVnBDeV9LZGZRQkVBbzBVa25QbjQ5TUtzaFZheEZxQ28wa0lKbjU?oc=5",
+          "publisher": "Lokmat News Hindi"
+        },
+        {
+          "title": "बहरीन पर ईरानी हवाई हमलों की सऊदी अरब ने की निंदा, अंतरराष्ट्रीय कानून का उल्लंघन बताया",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQckFRa1JBS0o0UVZYbnlqWkdoNGNEbVVqSXVLS25uNjRSdXB2blpKMjdWaUh6SHNadzZZUzR5eHhFc3lFM1E4SW5PQUdFd0o5cUxUQVBLVjRDMkl4Ylo0UFZIbWY5cl9pUWRCNjA2Smk0NS1MMXZRS3EyU3UzUGdyQWltV1MwR3BaWUJ5dzRCOXp0VFhpY18zX0djekpSbDhRcTlQc28xNl9XSVJTY1RRekRrVEhJRWdrZUh0S3RSTFZWbnYwdUhMRndJeXd5WjY2MTdrZDZreGVvX0pWeXd5Y2hZZHRNcGs?oc=5",
+          "publisher": "IANS LIVE"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-02ba9a9b85",
+      "lang": "hi",
+      "title": "जम्मू-कश्मीर: कुलगाम में फिर मुठभेड़, लश्कर कमांडर लतीफ भट्ट के छिपे होने की आशंका; सुरक्षाबलों का बड़ा ऑपरेशन",
+      "category": "india",
+      "published_at": "2026-11-18T00:21:19+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "जम्मू-कश्मीर: कुलगाम में फिर मुठभेड़, लश्कर कमांडर लतीफ भट्ट के छिपे होने की आशंका; सुरक्षाबलों का बड़ा ऑपरेशन",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYnk2Q182WGdFQ0Z4c3hMcEhVTnFKZlpEWmZZaVgtdmx3TzBXSlB3V2Q1Umpra0FzeUJXSm51UDBKUkpnb0N3c2ZsdExvM09TSDU0OVBaMV8yS3ZsQkF0NmQtY3paeVI4SU5jLVVWbU1QdTZ0X0xHMXFRMDg0dUJ2eVNpbVRtR01MM2p1VFJfWmFJZXA3SkgzRlVXbGJTTlBqOTUzZnFDWGtpUV9Ec2Y1d3FMbXd5M052Wmtyd1VrLXFYYmZ2RkN1WlJlMngxNFdHVkc4TjlsdlF4VWtCbmcw0gHkAUFVX3lxTE81RlU3NWJfRGN1aWMwR1J2b2xqbFR5STJYbzNraFpjRkZnLTVhQy1aSnJHdU4wMWppSGlhcGhsZk1uY3dfSk10dG1OS3dvbC1CNVY1WjdrcmtKWC0wN0hEeTJUMkZhQ3JfTTBDdDR5Y05reWY2SXpJWVgyYWNfUDZ2ZHlWUEp5akZnWkJKM1M1WjBHcS1KemtGeXgwVWNFeHNGY0c3bkRiUnl2Y3BMSGxCbG9IMm5qa2NEWm9EM3dNc1BkQjJZaUEwWlRDc0hSOXRqX3dTZC1tZ0F5QThXcl9WZl9tbA?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "'जिंदा रहना है तो सरेंडर कर दो', मस्जिद में छिपे लतीफ भट को अल्टीमेटम, कुलगाम हमले का मास्टरमाइंड फिर घिरा",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWUJ4SXBzcHpOQXVEeWY1WVhPLW5WLU1JZ19Ma2M4dUlVbjB1a2hxbjBWeUpLd0REQ3RsMWhJcEZxeUlrRnNJQllKTGVTMlJvakJ3Z3h1Z040dTg5MGh2d29XeUFEUXRuOG5ZcFdlYjVaYTlUVk9zNUtLQmpvdTdobllRNVk5amZuQUF3bXczZjhWNHp0MGstcm56aEtWYWhFeXh5NjFhLUlmZ003b0ZCNHFhXzA0UnA2WFFLX0k0N2t0ejUzVXBmY2JOcVl2b0HSAdQBQVVfeXFMT0tXSXFZbmc1QjA2bjhaYjJmcGJmWGJQcUVYZ0lwelJVdTJ1MURZNFl1NU1TRXkxdHFqSFNteGp2Y3FWR1ZfR2lveFRqb2FjalYtbzJxTVFHOFJvZkVEdTEwYmtmaFE4dkxhSmNQNFd6Y3RwS1JsRVVKWmJseFJmNktNNnppSFppRHBJUllhaV9PSEs5TTl4WXRZTDc4VDNjbTJQN2JybEpRQ2MwLXpxUzR2anNadmVMR2RScWRaZ2t4SC1NTkdlZXk4U1FMUmZmOExCLVk?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "जम्मू-कश्मीर के कुलगाम में सुरक्षाबलों की आतंकवादियों से मुठभेड़, लश्कर कमांडर के फंसे होने की आशंका",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY215eGt4QmRqdHVuYUFCVFRzUnQ3U2dKTUlneWVWaEtvSnlZeDF5LVVlemYzOV9MNGdtU29idEVHbEh4YnAyTzNHTEctcVZoSjBZUTg3YVF5SU0xWUt1czJvMFV0V0F1ck14Ui1VUGRoSmpBUVk1UDNqVjU2WF9WWkE3N01ycDZCMjU0dWZxSVFJZlJ1bWphbXk0TkVvRDhmZF9EQjZ0TzFhanN1YUFfV2dhQWVGNlln?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "कुलगाम में लतीफ भट के खिलाफ बड़ा ऑपरेशन, सुरक्षाबलों के जाल में फंसा लश्कर कमांडर",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVGpnVWtiOHBab1dsa0dXRlF1OXpqT0hrYXdGZUxMVTExNF9DZ25WbFo5S3RTdk9Sd0otSC1HSmVFNWNZZklIb0paQ1RXb0RsM2UzTFJrV28xWGNEOFQ5bllwNmxjSHNhS2FHUGF2MFhrbUhYMExJQ1R1MVVFYzE1NGxWaktycXFaN2ZLLVdtQklUcEVXRFF1TkJIbDlMcXhmbUlxRFBRdlJ2RmJ0RkVDMmRLcGNTb0hHdVlkVWR2OW9HNGxfa1BiYkJpRGJ3STRXUlZzZk4wdTFuaXJBMUtlWE5YRVVpMXhoS3RN?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "महबूबा मुफ्ती ने कुलगाम का जिक्र कर केंद्र सरकार को घेरा, बोलीं- आम आदमी को...",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbUxhOGxUTTVFRDhhYl92Ry02YlV6c3UtLXpMSEhEaUh0N0RuTUF4RFhNSXp0SmU5Umx1UGJ6SXc1cFVZX1RXeVIwVjZmcUFWY21sWW1OUWp6Z0tDSXRkX2NZQzhMNk1jNlE5dzFqXy01ZjFhcFdhbmpJYkFRYXI0enZ0VnlPX2xrYU5fVzVtOUJMYWtNTUlmQmsyLUh5MkMxX1M1SDh5ZU5uT0l1S0RUMkVHVnJFUXFuT2lNcV9zakwwdjhlWTYyamo0Z3RPaFg5Z2ViUWRlRXNuTVZVR0wzbE5kVWViclc3YUZyTjdpWkFHZVll0gH6AUFVX3lxTE9KNDNNTDJKbzlZMWg3MHhhZ1FpZHdEbW9oLUJlcXV0clhWYi1XNU9wdDdlbEY2NU16U1dSWEZTTF9Wdng3aXNoX3hka2dLWW9mZ1hFM1R5cVMyOHh6ZHV3bWhxZXlzYzhSUlhMNzBLa0VOaDFtVUw3RmJ5Q0dReHNPT1ZqWmdSZmlNcVUwZjFHQ3NTUFduWEs5YVlwanNZbjVDc3ZxQkVScnlDem9LY2pXTE4zRzNFa2t3UWlHbFNEUGVtWURsRXFMcWhsS3NrdkVmOW5uSDljTkZzMm80RFp0T3hIT2pZanA0Z3hLR3dYNDgtWXlaZTVEVHc?oc=5",
+          "publisher": "ABP News"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-9cfe01ad2d",
+      "lang": "en",
+      "title": "“Ramayana”, India’s biggest film, turns a Hindu god into a star",
+      "category": "trending",
+      "published_at": "2026-11-18T03:00:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "“Ramayana”, India’s biggest film, turns a Hindu god into a star",
+          "url": "https://www.economist.com/culture/2026/11/12/ramayana-indias-biggest-film-turns-a-hindu-god-into-a-star",
+          "publisher": "The Economist"
+        },
+        {
+          "title": "‘Ramayana’ box office collection Day 13: Ranbir Kapoor and Yash starrer nears Rs 1,500 crore worldwide de",
+          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/ramayana-box-office-collection-day-13-ranbir-kapoor-and-yash-starrer-nears-rs-1500-crore-worldwide-despite-second-tuesday-dip/articleshow/135943827.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "‘Ramayana: Part 1’: Decoding the film’s massive budget and box-office performance",
+          "url": "https://www.thehindu.com/entertainment/movies/ramayana-box-office-ramayana-part-1-yash-ranbir-kapoor-ramayana-sita-ramayana-budget-namit-malhotra/article71707320.ece",
+          "publisher": "The Hindu"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-613bdcff46",
+      "lang": "hi",
+      "title": "17 नवंबर को सूर्यास्त के बाद क्यों आसमान की ओर फ्लैशलाइट जला रहे थे कुछ लोग?",
+      "category": "science",
+      "published_at": "2026-11-17T23:45:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "17 नवंबर को सूर्यास्त के बाद क्यों आसमान की ओर फ्लैशलाइट जला रहे थे कुछ लोग?",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOXBpWnEwbzl5R3MzeE5IcFBXNGJzdnRVX3A4ME1BZ2VtNnhNeVk0bjRZcDQ5eUFjVzVWT1I5ZWVCM2dlQ0IzUE9QejU1SGVkQnczTmlMdXRFSzFYV1Rsb20xaGFvaUItdUYtMkh0NWI1NklxOFNhZ291VEN6RUplZUIyYmVqLWV0S2R3QXhTbVZpd3N2Rk1FV1NTbWxmT0ZnRF9fa2Q2V0VBdS1CU0pYSA?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "49 साल पहले छोड़ा गया Voyager 1 रचेगा इतिहास, इंसान की बनाई कोई चीज आज तक इतनी दूर नहीं पहुंची",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbUpmWkZLZEhJNi12bTNLWTN2MDVaTlItRFJLMXQzbDV0dGhBZXk3ai1yUm9MQXF2SFJ2UkxwVTh4MkJfVGROLU03bGJ3M0d2Zl92SGl2VHJYUC1va21XaVV0SzhrZDhLX3BGWWtMRGtDQmpibnd3SFpjNEdHcTNyRURTUlhsODZZLXRkd0I5WFFZZjlBaTF6d1hUOWszUHZWbkx5UnFvbW1jbWZSMDhUZk5sa0tEeUtqeDlxcW01Y1NwRlZvRGNsdGpSZGdQSkU?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "नए सफर पर निकलेगा 50 साल पुराना वॉयजर-1, धरती से 1 प्रकाश दिन होगा दूर... आखिर क्या होता है ये?",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORzh3OEQ0Q2ZRSElyX1FEZXhUTEduLU9pNFpOd2hPQTZ1dXJBTTRXeTRoZHJzR2dqODluRDV5MkpWd2YzZlAwSS0yamZlaWJTT2g0UTBFc3ZyVEhGdWIzcVptUkdDXzJsaGZjTEZxU1dYdjlSTEZ0QVRBdFdJWktNWkVzOXRHOEhJVnJ0MkxUMnM0YmJFNDQ1RVVhaTdFWmZtZHl1eVJZZFlVTHFfTnFYc0hOdkdPQURTMmtN?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "नासा का अंतरिक्ष यान वॉयेजर-1 ने बनाया नया रिकॉर्ड",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcnhFdHkyeVBMWURtOTZQUC1sbEZGcWZjQWluZXNfcUVSLW1HdUlWYTFsSjRlWkpuUF9SdG4wRWh5Q2dxcGxfb2ExNmZmbWVidmRsdFVqSUp4UUhjenRUTWdHU3lmaWlKd0Flc1RyR0RyWXZzNEN4S2ZxdGtrWS1XMnd3?oc=5",
+          "publisher": "News On AIR"
+        },
+        {
+          "title": "वॉयजर 1 अंतरिक्ष यान के लिए एक नया मील का पत्थर: पृथ्वी से एक प्रकाश-दिन की दूरी।",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSGNRWkNDRzhvZDJuVHZzaXRqWFZQOXNzOVFzZUFuNzNCMUpPbEVpTVY1VlpqRnpiUkc2UnlYU0Q2N1VYYy15bFEyVEZ4ZHpuT2JFS3RaQ2k3RnpiWGwzRktwSzF6a2M0dURocm1kWVIxaXJLTjByN2thcm5IV2VuQ2JXd3h0b3ZtdC1sS3IxVkNRajFFZlNr?oc=5",
+          "publisher": "Vietnam.vn"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-db84cb3151",
+      "lang": "en",
+      "title": "Understanding epilepsy and seizures: Q&A with epileptologist",
+      "category": "health",
+      "published_at": "2026-11-18T02:40:01+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Understanding epilepsy and seizures: Q&A with epileptologist",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV3BFdC1oT2dtbHJKemt0ZkhpeUZoUUZxOVBBY1pUMFN1Yk4yWXhUZ0owdmRHTFAtVEtMQ3kxVzhqeXlKOHZGYThvbWVJb1BBLVRvLTlwcDl0djZmTjhXak9tWGJWMzNaeGg0bWRIY01IdFlsUGN3SVRUbmpMZWJ3MHFSUGlCZw?oc=5",
+          "publisher": "Medical Xpress"
+        },
+        {
+          "title": "National Epilepsy Day 2026, Date, Causes, Symptoms and Treatment",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8yT0FfR0Y4QWxwbldIQ0padHlrbFhLSzFEckNtTmtaT0ZfVW5zZS1adXg1NmhMYUR4SENIWUxWQzExMElHUVVQUnRsYjdJRVl2RnlTdEptOE1PME0zLVpwZGZkc1RGc2hxOFpZM3hXckU1emJ3anBNamd3?oc=5",
+          "publisher": "Vajiram & Ravi"
+        },
+        {
+          "title": "National Epilepsy Day: Why seizures are not always dramatic, what causes epilepsy and how timely diagnosis, treatment and awareness can help people living with the neurological condition",
+          "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOYm5tNFRHeEdDNWk3VEtkSFZYYkRvT1Z1eVpXaHlzYkQxS2ZZc0tGNFU2SmdYTkJ1R1BmQjdLR2VhZVU2QVdwZFJuSDV4TTNXdVZJQUJMa0xUN2QxU2Y0OTd4OVFiTnNlbWFqRUl3dm8xV1R0cGt4Z3RPd0F5RTFYWEw3Q1hvejN3LXN6dkNqbFhzUTdZX0c0TEN2OW4tTTB1Mm9oZDJ3R2EwcEhYTjl6WkRlX0RnYTZEc2pOcUpvV3lxRnM1andXZlhXVlBHUW90cEJsb1AzMWU1Smh1UUdFc2hmaExnVDd1N1AzZERzZzR3cWszUFNaZzlkV0V3anZqdm1FT1IzT2QzSGU1UlVOQ1BzV3p5anNndUtnS3hRdERvVkhxdmQzYUFkY0E5NlM3bDBrUTBBZ3MxcFk2dWl1U2NYUC1HcVhkX2ltY2F6elRIeFh1LXFCY19ITXlaTUlJT0FvdHVaNGxoSDZ6?oc=5",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Epilepsy in children: Why schools must fight stigma and support young students",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVlHNWhnSTFMVDFPaGVxdmlhMDYyclpBbEllSjVmbE0wbmRpdkpEZ0ZiNVFYeWM3WEtsTjlocVRjeDZjbWMzNl9KYURONmJTTW1IbW52cmg3V0tTVlc1aGE1cGdKLWNBQWlRSUdJLUxKTS1fOXdSdldSUjZNS18ya0F4M0RWUkhGN19uaWxiQkNKdEpxRVFkZThGZVFyVm9Jb1l3eXhn?oc=5",
+          "publisher": "THE WEEK"
+        },
+        {
+          "title": "Medicover doctors highlight importance of epilepsy awareness",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDRmeEQwbmd0SXlfWHZlVGRYVlQxMGxFQmRJTWo5MC1nd2I0d0pKUWtVTTRxd25XN1VVN0VnZ2hlRE04Q3RKeEIzc3FaU0tya3cyZlRYdU9YME53M3E4ejY2MzlUaEpuV2xTYTRrSDdsdENBNEViLVF5aEw1bkZZdHRYSUxJYXFES0tUb2Rwa1l5eW9GWmpJVTNqT1hYbGpCUS1PclVWSUJnd2hSTU5N?oc=5",
+          "publisher": "https://www.metroindia.net/"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-556354e2d6",
+      "lang": "hi",
+      "title": "राहुल अमेरिका में बोले- भारत आर्थिक संकट की कगार पर: बेरोजगारी और एजुकेशन सिस्टम भी बड़ी समस्या; युवा अपना ...",
+      "category": "india",
+      "published_at": "2026-11-17T22:24:11+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "राहुल अमेरिका में बोले- भारत आर्थिक संकट की कगार पर: बेरोजगारी और एजुकेशन सिस्टम भी बड़ी समस्या; युवा अपना ...",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQZTY4X1MzZ1NiUjVfYU5WdWlSUG1NNkhrdzZCcVVaZGpmaVRRNlpRcnR0R3VJenpqYVJmZTdCeE5aSEtzeE92R2I2cjc0eUYwSUhsRGZDa3NLQ3dhVmJ5ZXJnUFpRV0Uwc3pkRXpvaHZNYXFnVlFmaVM5aEZkSFF2OGJTT3M2SW5oMktfYTlvOUZPbUliQ190QjdSMy1td2RLUWN1SW9yaEZRMi0xTWxkQ0xvdVVHeE9rYmVZMzdadWZTWFNVMHFfZWZBZFdnNkswNW1lUlowdFRSOUQ1YjNDM25VRkx4clUtT0JzN19xYVd3ellwdEVTdGhsNnA1cUHSAYQCQVVfeXFMUC0zT0VybXVsT3FOTUptSDBOZE1jXzd3bUgyVkx1ZVotaEFTbWN5YnU5U1J1aDQ2YzhqSUtYUHBGN3ZmZ2ozbDJGQUtYNGc3TmpkVkFjU05mVldkS0sybG5IR3A4RzJkU0dXSmwwcjl4SXN0YVJUbHZUOGpDWnk2ZUlRbjYtRll0ZGhORm1TT2JFak10Y2R4LWowRGhrNEw4UE42bTVrZ2M1dGxpX1JQd1MtT1NqaHMtRFZYbS1ZUDUyR3JaSENsMF84RkVzS0lJYkJLTmo4WFJyVVd0Qy1sNFJldy1ueVNLaGM3TGljOUJkMjM0em5sTF9wMDZaQ2FpTVJRRHc?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "'आर्थिक तबाही के कगार पर खड़ा भारत', अमेरिका की कोलंबिया यूनिवर्सिटी में बोले राहुल गांधी",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOTHVwenRlZkxMb2gzdkUwTUFrdmh3V193bkFwQm5hODVRczRYWmZnT21QNzRzSGc1aFRPUnFvNTczZWVhNEJqYmNyc1M3Q3dKRnJ2SjNlc09iZzA5RFB0M1FGUzdnazBMT3JtOUxIRldLQzNZSXRwa3V2UzBPNmRPRGFrNGlycHpmdkVQc3IxcUFrVVkyeURlWmp3aFBpNTBKazNpYXh2cl9QbFZOdWR0dmRuVUlTeGxEMmoxcmE1MkpMM25JZFhEajJ4dzlKWTF2bU8xaUtoUVNSVzNfc1RHNVl3bjh5QnNzbVgyRHd2Q3dPV0NZ?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "कोलंबिया यूनिवर्सिटी में राहुल गांधी के बयानों पर BJP ने बोला हमला, लगाए देश विरोधी बयानों के आरोप | Tap to know more",
+          "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxOWFE3dTVuNk1Ob19oZHpVWGVaQ0RkSl9tM1E3MzVZdmwtSENwT1VIeVNKWFlWXzMzQ3pnRmM4V3dab1ctaFJqbHV3a3lvdmZXa202YjhLaHVrMnBYb1Zwc2RXbmhzQVp1UXVaTUdacGN5Sk9UYkRMMGZLUFlIbVlfcElmRWxyYnhvOUZHUXotZFBLVlBpc0pjTFRSdzRwVmR6U2VrZTVGSWdoZnBXRFBBWUphaG44QzlyaUZ3Q3Y1amE0MnJOcGdnV2FmV2dmRU4yOWpaTGEtR3k5a0REUzk4eXFpUDRYdXlBMlZRMGVSUnpDZElrS0IxZXVwTnFpQnJpWldhdG5LemZNbEpRb0dyQzdtekNDVUtzRDlaX0ZxazM5eTA4RDdodm9ZWldrYjlaX3l0cVdvZVd0LVhlRno1a0NYMWVDVER2cDJ4QnhRXzVCUzhxX281SU8teVplNUdWb1JDTWVHd01OdWNhYlJJTUlGSTdMQlZlaW55cmxrRzAtRjAtLTdKZmNTT1RJaUxnd0lPQWNJTlA1clhnMUHSAaMDQVVfeXFMT1RsZTJzbEU2Ukl3R3B4RHEyb1hEZlBqUmp0RUtsd0xyZ2ZXTzRMYjRtUUlfclFxZmJURjdRT0p5WlBKLTZkbWoxTzNyRzZuV0xVaklQYml2b1VTRWNMNGFfcEUzTGZJRTJURlgxWG1pSmR2ZG90NUtwaHlaY3BYcHFOTU1zU08zOG9SZ2ppYzlidGpzRXdlQlE3YXQzdDdrRVpOcm1TNHFlbXhZNDVqS1AybHZVTzRlbW1KcDFSbDJCdG5FaTlXODNqUUdEUElMaVAzSHF4bmt6Z1ozd2VGOEh1Zm9WdFpoMm1iZ3dwZl80SHE1RWFjelpNTHpSbS11bG0zZmVLUHBQUGFWdkMxNXowcEV0bmRlYWswZE9TWHlraG9DaUdfd0lXN0plTDA1eFVPNVVPUV9FR1ZrRTJVdHdZUWZUWFBkdWtPaFM1VG5UMFlzRFhkVVVQM2x1WnFXNmlJSE9JWFhiOHpDMHk4QVNULXk3bjFySEZnUFRXUVdjbHRuSVJKeUNKcVVaS1B6WE5ZRjhjUkNXZzBDSG1lQmpaaE0?oc=5",
+          "publisher": "Inshorts"
+        },
+        {
+          "title": "Rahul Gandhi Kundli: 16 नवंबर से 1 दिसंबर तक राहुल गांधी चलेंगे बड़ा दांव! क्या बढ़ेंगी मोदी",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcGZqWUU5cWdTM3FDdkpqT21kNm0yTUxKS0N3bk55VVlSM0gyM1Y2cERlVnVyRThJRkZVN3lFdERKNmZ6SHpnRkh4ak9sYlQwUkpxUDhQcXBpUXc3THB3czRZdHNTenhlZWpOOF90ckR3U0VVWnFJZVdYR2hHU0FyVTdpcXhQMW1JZXQ0RVo0SlRCTWhVV2NldThB0gGfAUFVX3lxTE9EcGhSN2RzZUpFODB1b1plVUFyLWRoTUVHSjQ0X3Y1Q1dWclFsaXpWZFRNUDlfRVZOclU1aWlLZnZ6SDRDdU94QXdIWjdUSEdEOVV2R044WlpudTBYNk5oOGFTcmZrWXl5VFdlMDh5aWg3ZG1EZlcwSGRrYjdlWi1tUlhfRmlHV1FLWnd5UGdwZGtlV3ZEeU5paTZYWUN2NA?oc=5",
+          "publisher": "ABP News"
+        },
+        {
+          "title": "अमेरिका प्रवास में न्यूयॉर्क और शिकागो में छात्...",
+          "url": "https://news.google.com/rss/articles/CBMi2AdBVV95cUxPRjgySE4wb2tZYzgxZk9hOC01ck1jb2VsdExVZHhWWUJnTi1sWjNrMmY4TC11RERPQTZuemVhTDh1RjFjNkhyMmRJTXd6YnZaaGptY05leHhuaHhBT1loSmk3eTg2UEI2dV9uaTlDUG4tbW16MGpZRlU5Nm5waC16U0RDTHJHNkFrNmJBMzlRckhCaExTcHFQUVhsYmlBbTB4aHN4dUVwZi1WOGRZMUF6bzJGSEloQVNuc21BMTJid3BYTUFOTDdwa3JGVUk0a1l2LWlMaE1fYk11SHQxSmN3M1pWLTBjMDdfV3hQMHA4azVTci10aW5GamJ2SHJkREJWMnREbXg1ZkZHTXNjNV9EVHVWMVBETnlhXzFWR2VSSkh1Q1ZWRXUtLVY1NzBmY1dvOElHb2o2ZTV4MWl5NnJLR3p2WVpFWE1ieWJPdGM0MDFYY2ZCWXpxUFY1TVRuMHUzZzFxU3JfTGViSF9lMDAwZ1o1ZlFnQ1l0NXNlWWw0UlpzTUFRNlQydEpiU0Z0ZElwNGwyRXlxWGpjeE1HekpCakdycW1xVHBJV21zaHZyU2RfZld6cnBJMHk2cGdwZWFmdmp1dGp3aGZVMjVLeGJKdnNJWkQ2WVdBbjJUVTljV2YzcmZhRS02UzVVdEU4amVSM09iUmt5RTA3Z2FrRk56SkFwa1RlbWFCMURKeTdpcjVSYnJvdnBRZ21Rb1V3VS16Z09BNWdISmJ5SlJ1eFNZOTFlbzU5Z0xReDZrMk5weW9qaWxhZHpoTFgzdzhzQ2k3SlQ0UjU0RkJLamtQSlJzYzg1ZXdSLUpIRTVJTkpDVUJpeU9qSTlYamVGNzBWTF8wN1FxVVlTVnRIRm5OeFNxeXBwbmJmTzZsMS1YcE9xbmUxamxaaDd5eXl0c2xhR0djSk9WQWgtTkNXSG1sb2tITkRfdXowVXFVNW03TnJuWFhBajd4aEZncDk1WFpOSWQ2MWNFUFBNcVd2MEZLZVZLODJ3NmcyTnVDU1dRTE44MU5FZ2dyQW5aaDJ3a2ljcVJ3WFpDWDVJdzZERGp1NU9hVXBHRUZrRXlwTFpVa3N2NE45dGJOdmdtMXZKbDZBa1FlX0t2SUZHeWNsdzliR0ZhektuRy1OTzBnaUlKWVZyb2dGV1JnZlpjWHdVVFNqYTNJOVNya25ZS3BBWXVVRDh6S2tOSmpub3pxcW80QjM2SnZ4UTZYZ2FFYU9PWWVreTl3Zk5LcUNmSkN4ajh1X1o2cWVoZEozTzJtWjhSX2RYQlJVMTdYR083QzJubEFaRENuYXk4ODh5LTg?oc=5",
+          "publisher": "UNI Varta"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-6d62104027",
+      "lang": "en",
+      "title": "Brain-computer interfaces restore communication for people with paralysis",
+      "category": "health",
+      "published_at": "2026-11-18T02:31:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Brain-computer interfaces restore communication for people with paralysis",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSVZyX3BXTW10VmJQYWpubFZhelVOcjREYTgzVE9mcFBUdU5Nb2NUMjdyZWFnTXhLOXRrdlFzeXFrXzc1YmEzbWxjaVNHa1VsOHVDVXJRU3oweGpYOGNqWjRQdVpNa0pVTkFaSXZXTDJveUVpSkNZeUFFbE51cFVZVkIwSHpVTTVHYWNaeVpsOGhsb2RHWUV3RDRkRHFmSXp1eWEydXB5ZkxlbTJwZWJuQ3F4X2o1eEZxU2VRak9R?oc=5",
+          "publisher": "News-Medical"
+        },
+        {
+          "title": "Brain-computer interfaces: A new voice for people with paralysis",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbW1DSGdoRUFyMm9kRjVWUjdQVU9lMzBLVnVUOUU5YWNRZHB2YTE1SG91SWx1b0tZYUVUMWZ6SGhtQkpsYjVKbTNtUndUcnBZMFdmX1NpNVNSd3g0aFlrUjFadjVPWHpvN1RxZ0VzcHRMS3ZjdWVIMDNDYWowaHAxalh2RU40T3UzSnNv?oc=5",
+          "publisher": "Medical Xpress"
+        },
+        {
+          "title": "Brain implant lets ALS patients speak more naturally, and one even sings a scale",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWlVqdXZQVF9kV3RHM2s5UEcxNktySExRQnc0Ny1mS0F6bFVQN1p2QlI0SDlJeTBYcHRRUzFTSlBaUUlSVnpkcWtzYWxWdVZoUDd2cXVWUDB4RHJPbS1mYW9DRG52bGJHNUxzTG9NMjdXQ0hsTVZzT3ZLSlZ0VXlLRHNCRGk4ZHVnV1l0NnVkYkdXLU5f?oc=5",
+          "publisher": "Yahoo"
+        },
+        {
+          "title": "What Is a Brain Computer Interface? Getting Familiar with Futuristic Brain Studies",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMmNGd0FKelphLVBKc28xdmVjNE1EcjdaTmQtejBpcWNqZUxmenk0amxhR0JfTWtkTEZiazl2QWRya0dpVWV5c1hVZER3c1VVYnh0OUJfMGp3YnhXcFpIV0JIM2pJV3FQTlVVVi1iZ25PazN1SlN5Z3NMbHM2ak1xVjdsR2ExRWNiaWlpVVgyUjZJU0FTZU5OeTZyWjFPbE54OWU4bTlwTnRSR3lzVkE?oc=5",
+          "publisher": "Technowize"
+        },
+        {
+          "title": "Montreal woman with ALS hears her own voice again thanks to AI app",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQLUtET0E2aTVxb0QxYURzajdqeEV6SVJJSHR6SjBlcDFTRlpJbXRfVFFrNTVqalJOTlRkRlZ6c1VxN0xWMjZYb0tsT1NjalI3eGt1eDdnOFFDbkdKUkFGeXZwbFlBSDBvdnZDOUNJMzUzTlRrd3B6S0lYLWhRSHFSMmxHLTB1ZmJhQ1FuRnUwZ1ZiREszNF9xcEo4enEwRE8zYlk0cnUydEVKTXh4VjdzRklRMGljVE40OGVSZzdaRGd4UDZxUktfcHZXQzA4TG5CNHhDaXdzNWxsb0VRRzZrVVVURQ?oc=5",
+          "publisher": "Toronto Star"
+        }
+      ],
+      "queued_at": "2026-11-18T03:34:28.539701+00:00",
       "reasons": [
         "insufficient_value"
       ]
