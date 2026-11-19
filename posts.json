@@ -3257,7 +3257,7 @@
       "image_url": "https://static.toiimg.com/thumb/msid-135041456,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "image_source": "https://timesofindia.indiatimes.com/business/india-business/bank-holiday-this-week-when-and-where-will-banks-remain-shut-from-october-19-to-25-check-state-wise-list/articleshow/135041412.cms",
       "image_credit": "The Times of India",
-      "image_lookup_attempted_at": "2026-11-11T01:53:41.554930+00:00",
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
       "image_lookup_version": 2
     },
     {
@@ -3651,7 +3651,7 @@
       "image_url": "https://emtstatic.com/2026/10/Captura-de-pantalla-2026-10-19-a-las-11.37.12.png",
       "image_source": "https://www.elmundotoday.com/2026/10/el-real-madrid-y-el-barcelona-ya-estan-preparados-para-robarse-mutuamente-en-el-clasico/",
       "image_credit": "El Mundo Today",
-      "image_lookup_attempted_at": "2026-11-11T01:53:41.554930+00:00",
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
       "image_lookup_version": 2
     },
     {
@@ -4602,11 +4602,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-26T23:40:03.891607+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/ck1wvl8w944yt",
       "image_credit": "BBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-11T01:53:41.554930+00:00"
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-0f429f0345",
@@ -5044,7 +5045,7 @@
       "image_url": "https://www.vmcdn.ca/f/files/localprofile/images/news/screen-shot-2026-10-27-at-104144-am.png;w=1200;h=800;mode=crop",
       "image_source": "https://www.localprofile.com/lifestyle/top-tennis-stars-will-return-to-frisco-for-2027-dallas-open-12945182",
       "image_credit": "Local Profile",
-      "image_lookup_attempted_at": "2026-11-11T01:53:41.554930+00:00",
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
       "image_lookup_version": 2
     },
     {
@@ -5325,11 +5326,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-28T01:04:51.831074+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/ck3r57d482xqt",
       "image_credit": "BBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-11T01:53:41.554930+00:00"
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-ab39d32f18",
@@ -5730,11 +5732,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-29T12:32:13.212917+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/cqe9l1yej078t",
       "image_credit": "BBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-11T01:53:41.554930+00:00"
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-5a1c4e3daa",
@@ -6056,7 +6059,7 @@
       "summary_refresh_version": 21,
       "image_source": "https://economictimes.indiatimes.com/news/company/corporate-trends/vedanta-cuts-debt-by-rs-4624-crore-in-september-quarter-as-net-profit-jumps-151/articleshow/135278530.cms?from=mdr",
       "image_credit": "The Economic Times",
-      "image_lookup_attempted_at": "2026-11-10T04:07:06.867892+00:00",
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
       "image_lookup_version": 2
     },
     {
@@ -7025,12 +7028,11 @@
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
+      "image_url": "",
       "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
       "image_credit": "CNBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
-      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00"
     },
     {
       "id": "en-a130fd0cdc",
@@ -9066,14 +9068,13 @@
           "publisher": "Bloomberg.com"
         }
       ],
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
+      "image_url": "",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
       "summary_refresh_version": 21,
       "image_lookup_version": 2,
       "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
       "image_credit": "CNBC",
-      "image_lookup_attempted_at": "2026-11-18T03:37:25.823038+00:00",
-      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00"
     },
     {
       "id": "en-c17af3ddcd",
@@ -12613,7 +12614,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-16T05:59:51.656032+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/4f06c76c796111cb1460.jpg"
+      "image_path": "assets/news-images/4f06c76c796111cb1460.jpg",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-c0371670a5",
@@ -12769,7 +12772,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-17T00:12:08.899910+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/5e79b9eb9541e8a5be2a.jpg"
+      "image_path": "assets/news-images/5e79b9eb9541e8a5be2a.jpg",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-fc921c9225",
@@ -12845,7 +12850,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/27aee5b9ab124f83fa51.png"
+      "image_path": "assets/news-images/27aee5b9ab124f83fa51.png",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-0601ec47f7",
@@ -12967,12 +12974,12 @@
       "slug": "jj-gabriel-confirms-man-united-exit-as-real-madrid-transfer-61031dd220",
       "url": "en/posts/jj-gabriel-confirms-man-united-exit-as-real-madrid-transfer-61031dd220.html",
       "title": "JJ Gabriel confirms Man United exit as Real Madrid transfer nears",
-      "summary": "BBC: TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.\n\nSky Sports: JJ Gabriel has announced he…",
-      "source_summary": "BBC: TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.\n\nSky Sports: JJ Gabriel has announced he is leaving Manchester United as he looks forward to his \"next chapter\" at Real Madrid. Sky Sports News revealed earlier this month that Real have reached an agreement to sign the 16-year-old prodigy from United. One source has told Sky…",
-      "article_body": "BBC: “TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.”\n\nSky Sports: “JJ Gabriel has announced he is leaving Manchester United as he looks forward to his \"next chapter\" at Real Madrid. Sky Sports News revealed earlier this month that Real have reached an agreement to sign the 16-year-old prodigy from United. One source has told Sky…”",
+      "summary": "ESPN India: - Man United's JJ Gabriel amid Real Madrid move talk: 'Dream to win a Ballon d'Or' - Wayne Rooney reveals he contemplated suicide at height of Man United career\n\nBBC: TeenagerJJ Gabriel…",
+      "source_summary": "ESPN India: - Man United's JJ Gabriel amid Real Madrid move talk: 'Dream to win a Ballon d'Or' - Wayne Rooney reveals he contemplated suicide at height of Man United career\n\nBBC: TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.\n\nSky Sports: JJ Gabriel has announced he is leaving Manchester United as he looks forward to his \"next chapter\" at Real Madrid. Sky Sports News revealed earlier this month that Real have reached an agreement to sign the 16-year-old prodigy from United . One source has told…",
+      "article_body": "ESPN India: “- Man United's JJ Gabriel amid Real Madrid move talk: 'Dream to win a Ballon d'Or' - Wayne Rooney reveals he contemplated suicide at height of Man United career”\n\nBBC: “TeenagerJJ Gabriel posts a farewell message saying Manchester United will always be part of his story, as he prepares for a likely move to Real Madrid.”\n\nSky Sports: “JJ Gabriel has announced he is leaving Manchester United as he looks forward to his \"next chapter\" at Real Madrid. Sky Sports News revealed earlier this month that Real have reached an agreement to sign the 16-year-old prodigy from United . One source has told…”",
       "category": "trending",
       "published_at": "2026-11-18T03:20:00+00:00",
-      "generated_at": "2026-11-18T03:34:28.539701+00:00",
+      "generated_at": "2026-11-19T03:07:13.524940+00:00",
       "kind": "digest",
       "keyword": "jj gabriel man utd",
       "score": 89.87,
@@ -12997,7 +13004,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-18T03:37:25.823038+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/a8eb442bfda01c02df00.jpg"
+      "image_path": "assets/news-images/a8eb442bfda01c02df00.jpg",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-1a71acc5e2",
@@ -13035,7 +13044,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-18T03:37:25.823038+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/a89b081d8b7d619009aa.png"
+      "image_path": "assets/news-images/a89b081d8b7d619009aa.png",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-a03953c6f1",
@@ -13073,7 +13084,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-18T03:37:25.823038+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/45530eb821717cff2ee0.jpg"
+      "image_path": "assets/news-images/45530eb821717cff2ee0.jpg",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-3ad5bcde93",
@@ -13111,7 +13124,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-18T12:58:20.146738+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/c75be98cf26b10e97034.jpg"
+      "image_path": "assets/news-images/c75be98cf26b10e97034.jpg",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-2cbb54317e",
@@ -13149,7 +13164,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-18T12:58:20.146738+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/7c5f22b96b752b032315.jpg"
+      "image_path": "assets/news-images/7c5f22b96b752b032315.jpg",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-9dbcca0b66",
@@ -13187,7 +13204,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-18T12:58:20.146738+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/079c8599609ad91b9946.png"
+      "image_path": "assets/news-images/079c8599609ad91b9946.png",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-af8d7b7337",
@@ -13263,7 +13282,123 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/fcac3bda4459fb9a9476.jpg"
+      "image_path": "assets/news-images/fcac3bda4459fb9a9476.jpg",
+      "summary_refresh_attempted_at": "2026-11-19T03:07:13.524940+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-5fb49d165f",
+      "lang": "en",
+      "slug": "anthropic-ipo-raises-over-81-billion-in-largest-offering-on-5fb49d165f",
+      "url": "en/posts/anthropic-ipo-raises-over-81-billion-in-largest-offering-on-5fb49d165f.html",
+      "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+      "summary": "CNBC: The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release . That brings the amount raised to $81.3 billion, surpassing…",
+      "source_summary": "CNBC: The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release . That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June. Elon Musk's company raised $75 billion initially…\n\nBBC: Depending on how strong that demand is, Anthropic could even exceed the early market valuation of Elon Musk's SpaceX, which was the world's most highly valued stock debut when it went public with a value of $2.2tn in June.",
+      "article_body": "CNBC: “The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release . That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June. Elon Musk's company raised $75 billion initially…”\n\nBBC: “Depending on how strong that demand is, Anthropic could even exceed the early market valuation of Elon Musk's SpaceX, which was the world's most highly valued stock debut when it went public with a value of $2.2tn in June.”",
+      "category": "trending",
+      "published_at": "2026-11-19T02:50:00+00:00",
+      "generated_at": "2026-11-19T03:07:13.524940+00:00",
+      "kind": "digest",
+      "keyword": "mt5",
+      "score": 89.84,
+      "sources": [
+        {
+          "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "Claude-maker Anthropic poised for $1.4tn IPO",
+          "url": "https://www.bbc.com/news/articles/c6742m39xgzxo",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Asian Stocks Set to Fall Ahead of Anthropic Debut: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/stock-market-today-dow-s-p-live-updates",
+          "publisher": "Bloomberg"
+        }
+      ],
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108554572-1795033463943-108554572-1795033101955-gettyimages-2305196401-ANTHROPIC_IPO.jpg?v=1795033477&w=1920&h=1080",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/135fa02730e792a75acc.jpg"
+    },
+    {
+      "id": "en-d309f3b844",
+      "lang": "en",
+      "slug": "kevin-durant-scores-21-to-help-rockets-overpower-pacers-119-d309f3b844",
+      "url": "en/posts/kevin-durant-scores-21-to-help-rockets-overpower-pacers-119-d309f3b844.html",
+      "title": "Kevin Durant scores 21 to help Rockets overpower Pacers 119-104 despite losing Sengun to injury",
+      "summary": "Sports Illustrated: Kevin Durant and the Houston Rockets have cooled off after a 5-0 start to the season, winning just six of their last 10 games. They were blown out on Monday on the second night of…",
+      "source_summary": "Sports Illustrated: Kevin Durant and the Houston Rockets have cooled off after a 5-0 start to the season, winning just six of their last 10 games. They were blown out on Monday on the second night of a back-to-back against the Miami Heat, but they’re favored on…\n\nYahoo Sports: Rockets: Fred VanVleet, Tari Eason/Amen Thompson, Jabari Smith Jr., Kevin Durant, Alperen Sengun",
+      "article_body": "Sports Illustrated: “Kevin Durant and the Houston Rockets have cooled off after a 5-0 start to the season, winning just six of their last 10 games. They were blown out on Monday on the second night of a back-to-back against the Miami Heat, but they’re favored on…”\n\nYahoo Sports: “Rockets: Fred VanVleet, Tari Eason/Amen Thompson, Jabari Smith Jr., Kevin Durant, Alperen Sengun”",
+      "category": "trending",
+      "published_at": "2026-11-19T02:50:00+00:00",
+      "generated_at": "2026-11-19T03:07:13.524940+00:00",
+      "kind": "digest",
+      "keyword": "pacers vs rockets",
+      "score": 89.84,
+      "sources": [
+        {
+          "title": "Kevin Durant scores 21 to help Rockets overpower Pacers 119-104 despite losing Sengun to injury",
+          "url": "https://www.washingtonpost.com/sports/nba/2026/11/18/rockets-pacers-score/9bddfd12-e3c2-11f1-a99e-b3e3805c6b8b_story.html",
+          "publisher": "The Washington Post"
+        },
+        {
+          "title": "Rockets vs. Pacers Prediction, Odds and Best NBA Prop Bets for Wednesday, Nov. 18",
+          "url": "https://www.si.com/betting/rockets-vs-pacers-prediction-odds-and-best-nba-prop-bets-for-wednesday-nov-18-2026",
+          "publisher": "Sports Illustrated"
+        },
+        {
+          "title": "Rockets look to get back to winning in Indiana",
+          "url": "https://sports.yahoo.com/articles/rockets-look-back-winning-indiana-230000571.html",
+          "publisher": "Yahoo Sports"
+        }
+      ],
+      "image_url": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_5310,h_2986/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01m7qjk6vwwa7qtmsnt5.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/b97430c2fa94f5a510e2.jpg"
+    },
+    {
+      "id": "en-4a76a61af3",
+      "lang": "en",
+      "slug": "how-three-emergency-centers-helped-lakers-survive-the-hornet-4a76a61af3",
+      "url": "en/posts/how-three-emergency-centers-helped-lakers-survive-the-hornet-4a76a61af3.html",
+      "title": "How three emergency centers helped Lakers survive the Hornets without Walker Kessler",
+      "summary": "Los Angeles Times: One had fallen out of the rotation. Another was playing out of position. The last one hasn’tlearned the entire playbook yet. The Lakers’ trio of emergency centers helped the team…",
+      "source_summary": "Los Angeles Times: One had fallen out of the rotation. Another was playing out of position. The last one hasn’tlearned the entire playbook yet. The Lakers’ trio of emergency centers helped the team eke out a 118-114 overtime win against the Charlotte Hornets on Tuesday as starter Walker…\n\nHITC: The Hornets are not the most physical team in the paint, so the Lakers may like their chances of getting through this one without Kessler.\n\nFantasyPros: Walker Kessler (leg) is off of the injury report for Wednesday night’s contest between the Los Angeles Lakers and Utah Jazz according to Dave McMenamin. ( Dave McMenamin on Twitter )",
+      "article_body": "Los Angeles Times: “One had fallen out of the rotation. Another was playing out of position. The last one hasn’tlearned the entire playbook yet. The Lakers’ trio of emergency centers helped the team eke out a 118-114 overtime win against the Charlotte Hornets on Tuesday as starter Walker…”\n\nHITC: “The Hornets are not the most physical team in the paint, so the Lakers may like their chances of getting through this one without Kessler.”\n\nFantasyPros: “Walker Kessler (leg) is off of the injury report for Wednesday night’s contest between the Los Angeles Lakers and Utah Jazz according to Dave McMenamin. ( Dave McMenamin on Twitter )”",
+      "category": "trending",
+      "published_at": "2026-11-19T02:40:00+00:00",
+      "generated_at": "2026-11-19T03:07:13.524940+00:00",
+      "kind": "digest",
+      "keyword": "lakers vs jazz",
+      "score": 89.75,
+      "sources": [
+        {
+          "title": "How three emergency centers helped Lakers survive the Hornets without Walker Kessler",
+          "url": "https://www.latimes.com/sports/lakers/story/2026-11-18/los-angeles-lakers-charlotte-hornets-kevon-looney",
+          "publisher": "Los Angeles Times"
+        },
+        {
+          "title": "‘Honestly, they don’t have anybody’ – Derek Fisher reveals his biggest fear for the LA Lakers this season",
+          "url": "https://www.hitc.com/honestly-they-dont-have-anybody-derek-fisher-reveals-his-biggest-fear-for-the-la-lakers-this-season/",
+          "publisher": "HITC"
+        },
+        {
+          "title": "Walker Kessler (leg) off injury report Wednesday",
+          "url": "https://www.fantasypros.com/nba/news/621048/walker-kessler-leg-off-injury-report-wednesday.php",
+          "publisher": "FantasyPros"
+        }
+      ],
+      "image_url": "https://ca-times.brightspotcdn.com/dims4/default/c985c4e/2147483647/strip/true/crop/3738x1962+0+265/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb0%2Fa4%2F66d58d1047f79d6af4049f5d0b2c%2F1578574-sp-nba-lakers-hornets-28-gmf.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/59abaa94b13fcca4487a.jpg"
     }
   ]
 }
