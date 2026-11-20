@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -744,7 +744,7 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1
@@ -864,7 +864,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1012,7 +1012,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-18T21:48:13.329689+00:00",
+      "generated_at": "2026-11-20T06:51:46.400059+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1043,12 +1043,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1098,7 +1098,7 @@
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZkloQ09YQnVsaWx4ZzJ6VXI0S2xlYnBpWVczcjFjSEhuRGhKSUEzb21NSHNFa3R5V0VieWJjMlJGNVdKaFg1T25aT2w0eWhQRDRHazdUa0RoN0s3dC1odmFvVjZxUVo0UEVGUlJETzJsbXowQWZuYjBmbU1fV3VMMjhzQTFVdE5RR2paa3JJOWE4RWVwSUlyWDZPelVYQVBhNUZFSUhuR0lJS1YxaDQxR1B2YmFHN0ROTFFBM2ZkT29TbG84WWRRaGxMeDNQLTFlMWRyV3k3OEppSnBhWVNXQ1VaWGMwZVYxaFRfcmNaeVJiRUpGY1HSAfwBQVVfeXFMTXBKdk5Bd3Fody01N0RFVlg0UzA2NkNIWDNIS2tuenJoSDhoa2w2R3oyUWhOcTVQOEItd2p1WTVMeTd1cE9DZ2J1QVVrc2Z6cVhQS2JLanFiMnJkRU1DWFhyS1AwX1JmejJlbUttd3ZMcDdwVk1CakNaMmxsdmo0MjRnZlRyZUlWMHNEcXROMmhXWDlxV0FnQUM0bWt6MTQwOTFIbVNacV81TXMxajdXZDBhMFhBbGZBX2VQYkVoRjV5LVhrM0RwdWVxbFlTS1BlVHRNb2lHVE4zNU5XU0o2Q1dzYWxNaTBhLVlUOVNLR0M4SzQtdWdVdUVTNm9o?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "The Hindu",
-      "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00"
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00"
     },
     {
       "id": "hi-df909e12d6",
@@ -1141,12 +1141,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -1958,11 +1958,12 @@
       "summary_refresh_attempted_at": "2026-11-15T13:51:27.799349+00:00",
       "summary_refresh_version": 21,
       "article_body": "ESPN India: “Newcastle head coach Matthias Jaissle says he is uninterested in dwelling on what might have been when highly-rated Aston Villa midfielder Johan Manzambi visits St James' Park this weekend.”\n\nSky Sports: “Welcome to The Radar , a Sky Sports column in which Nick Wright uses a blend of data and opinion to shed light on need-to-know Premier League stories. This week: 🔺Manzambi's big impact at Villa 🔺Janelt's excellent defensive work 🔺A glimmer of hope for Arbeloa?…”\n\nBBC: “MATCH REPORT: Champions League - Aston Villa 6-0 Fenerbahce”",
-      "image_url": "https://e0.365dm.com/26/10/1600x900/skysports-johan-manzambi-aston-villa_7377563.png?20261015132726=",
-      "image_source": "https://www.skysports.com/football/news/13599489/johan-manzambi-proving-one-of-best-value-signings-of-summer-transfer-window-for-aston-villa-the-radar",
-      "image_credit": "Sky Sports",
-      "image_lookup_attempted_at": "2026-11-11T09:15:02.420051+00:00",
-      "image_lookup_version": 2
+      "image_url": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1016%2Fr1731510_1296x729_16-9.jpg",
+      "image_source": "https://www.espn.in/football/story/_/id/50194834/johan-manzambi-haunt-newcastle-matthias-jaissle-wont-distracted",
+      "image_credit": "ESPN India",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/c16865b943557bfaaddc.jpg"
     },
     {
       "id": "en-e0bbbe0cde",
@@ -2124,7 +2125,7 @@
       "image_url": "https://i.guim.co.uk/img/media/dcd99cd763dfd629de102dae0a87823144c4a08a/277_23_2125_1701/master/2125.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40%3A21%2Coffset-x50%2Coffset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b73d25cc809a05a485c3ccb67a920c57",
       "image_source": "https://www.theguardian.com/sport/2026/oct/18/brook-jacks-england-tri-series-cricket",
       "image_credit": "The Guardian",
-      "image_lookup_attempted_at": "2026-11-11T09:15:02.420051+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_lookup_version": 2
     },
     {
@@ -2287,7 +2288,7 @@
       "image_url": "https://assets.goal.com/images/v3/imago-sport-1084573326/crop/MM5DKMBQGE5DEOBRGM5G433XMU5DAORSGYZA====/imago-image.jpeg",
       "image_source": "https://www.goal.com/en-in/news/michel-makes-major-changes-to-ajax-s-line-up-in-groningen/blt7474350f636ed4e8",
       "image_credit": "Goal.com",
-      "image_lookup_attempted_at": "2026-11-11T09:15:02.420051+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_lookup_version": 2
     },
     {
@@ -2607,7 +2608,7 @@
       "image_url": "https://etimg.etb2bimg.com/thumb/msid-134984218,imgsize-35174,width-1200,height=627,overlay-etelectronics,resizemode-75/news/components-hardware/cyient-dlms-normalised-pat-grows-by-26-to-15-82-crore-in-q2fy27.jpg",
       "image_source": "https://electronics.economictimes.indiatimes.com/news/components-hardware/cyient-dlms-normalised-pat-grows-by-26-to-15-82-crore-in-q2fy27/134984218",
       "image_credit": "electronics.economictimes.indiatimes.com",
-      "image_lookup_attempted_at": "2026-11-11T01:53:41.554930+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_lookup_version": 2
     },
     {
@@ -3302,14 +3303,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3483,14 +3484,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4031,12 +4032,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4131,14 +4132,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-18T21:48:13.329689+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -13399,7 +13400,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/59abaa94b13fcca4487a.jpg"
+      "image_path": "assets/news-images/59abaa94b13fcca4487a.jpg",
+      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-4273da00e0",
@@ -13476,6 +13479,44 @@
       "image_lookup_attempted_at": "2026-11-19T22:08:04.461512+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/3d9c7c3df13217904346.jpg"
+    },
+    {
+      "id": "en-d114ee2c1c",
+      "lang": "en",
+      "slug": "mp-high-court-pulls-up-state-for-citing-fake-ai-generated-ju-d114ee2c1c",
+      "url": "en/posts/mp-high-court-pulls-up-state-for-citing-fake-ai-generated-ju-d114ee2c1c.html",
+      "title": "MP High Court Pulls Up State For Citing Fake, AI-Generated Judgment; Says AG Office Expected To Ensure...",
+      "summary": "Live Law: The Madhya Pradesh High Court has strongly criticised the State against blindly relying on Artificial Intelligence tools to draft court pleadings and found that the Supreme Court judgment…",
+      "source_summary": "Live Law: The Madhya Pradesh High Court has strongly criticised the State against blindly relying on Artificial Intelligence tools to draft court pleadings and found that the Supreme Court judgment on which the State was relying heavily was fabricated. [2026 LiveLaw (MP) 466]Describing the practice as \"reckless\"…\n\nThe Times of India: BHOPAL: Madhya Pradesh high court slammed state govt counsels for citing a fictitious Supreme Court judgment to buttress their argument in a case pertaining to a cop's dismissal, observing that this was clearly a result of blind reliance on artificial intelligence (AI).\"It is glaringly apparent…\n\nVerdictum: The Madhya Pradesh High Court cautioned the State against filing pleadings drafted with Artificial Intelligence tools without verifying the cited authorities, after the State's return relied on a non-existent Supreme Court judgment paired with an unrelated citation. The Court said that inserting fictitious case law…",
+      "article_body": "Live Law: “The Madhya Pradesh High Court has strongly criticised the State against blindly relying on Artificial Intelligence tools to draft court pleadings and found that the Supreme Court judgment on which the State was relying heavily was fabricated. [2026 LiveLaw (MP) 466]Describing the practice as \"reckless\"…”\n\nThe Times of India: “BHOPAL: Madhya Pradesh high court slammed state govt counsels for citing a fictitious Supreme Court judgment to buttress their argument in a case pertaining to a cop's dismissal, observing that this was clearly a result of blind reliance on artificial intelligence (AI).\"It is glaringly apparent…”\n\nVerdictum: “The Madhya Pradesh High Court cautioned the State against filing pleadings drafted with Artificial Intelligence tools without verifying the cited authorities, after the State's return relied on a non-existent Supreme Court judgment paired with an unrelated citation. The Court said that inserting fictitious case law…”",
+      "category": "trending",
+      "published_at": "2026-11-20T06:30:00+00:00",
+      "generated_at": "2026-11-20T06:51:46.400059+00:00",
+      "kind": "digest",
+      "keyword": "न्यायालय",
+      "score": 89.8,
+      "sources": [
+        {
+          "title": "MP High Court Pulls Up State For Citing Fake, AI-Generated Judgment; Says AG Office Expected To Ensure...",
+          "url": "https://www.livelaw.in/high-court/madhya-pradesh-high-court/madhya-pradesh-high-court-slams-state-for-use-of-ai-tools-to-draft-pleadings-notes-fabricated-case-559092",
+          "publisher": "Live Law"
+        },
+        {
+          "title": "MP govt lawyers use AI to draft defence in cop's dismissal case, cite non-existent Supreme Court judgment",
+          "url": "https://timesofindia.indiatimes.com/city/bhopal/mp-govt-lawyers-use-ai-to-draft-defence-in-cops-dismissal-case-cite-non-existent-supreme-court-judgment-high-court-raps-them-for-blindly-relying-on-ai/articleshow/136010362.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Unverified AI-Drafted Pleadings With Fictitious Case Law Border On Misleading Court: Madhya Pradesh High...",
+          "url": "https://www.verdictum.in/madhya-pradesh-high-court/piyush-mani-tiwari-v-state-of-madhya-pradesh-and-others-2026mphc-jbp91141-1626095",
+          "publisher": "Verdictum"
+        }
+      ],
+      "image_url": "https://www.livelaw.in/h-upload/2021/06/03/394448-artificial-intelligence.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/f5236fe865e916e211a5.jpg"
     }
   ]
 }
