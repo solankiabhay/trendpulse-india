@@ -3022,212 +3022,606 @@
       ]
     },
     {
-      "id": "hi-70eeb31a6e",
+      "id": "hi-6c7029854e",
       "lang": "hi",
-      "title": "गूगल प्ले बेस्ट ऐप्स व गेम्स 2026 का ऐलान, एडोब प्रीमियर व Arknights: Endfield ने जीते बड़े अवॉर्ड | Tap to know more | Inshorts",
-      "category": "technology",
-      "published_at": "2026-11-19T12:05:48+00:00",
-      "summary": "Inshorts: गूगल प्ले बेस्ट ऐप्स व गेम्स 2026 का ऐलान, एडोब प्रीमियर व Arknights: Endfield ने जीते बड़े अवॉर्ड | Tap to know more | Inshorts\n\nJagran: Google Play Best of 2026 विनर्स का एलान: भारत में ये बना बेस्ट App और Arknights: Endfield को मिला बेस्ट गेम का अवॉर्ड\n\nABP News: Google Play Awards 2026 India : भारत के टॉप ऐप्स और गेम्स का ऐलान, Google ने खोले 2026 के विनर्स\n\nHindustan: ये हैं साल 2026 के सबसे पसंदीदा Apps और गेम्स, Google ने जारी की पूरी लिस्ट, Adobe का यह ऐप बना साल का बेस्ट ऐप\n\nAmar Ujala: बेस्ट एंड्रॉयड एप्स 2026: गूगल ने जारी की बेस्ट एप और गेम्स की लिस्ट, यहां देखें विनर्स की पूरी लिस्ट",
-      "sources": [
-        {
-          "title": "गूगल प्ले बेस्ट ऐप्स व गेम्स 2026 का ऐलान, एडोब प्रीमियर व Arknights: Endfield ने जीते बड़े अवॉर्ड | Tap to know more | Inshorts",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUFBvVmF3b2t2WUpQOVlaX19paHFHMVVKS3pQNnRVaWRqWGFjaHpUSkdHbGk1OGtFTjNNQ01CUnVRYU5USlRucHhkT0hxZTRoUlp2VzlacjlhcVVTeDNKbFI2cGFGSzZOcERxczZ4aEtXRWRZcnVmZ2VXYmtKRUc1SUk4N1RSMlpGc0pZMU5GWmpyenpPWnZvSmg4UlBvTUxzLWY5NnhSVDhEVE1xM29SVmV3OURoM05OOElac2JTYU15U251VEdaQTVSRVk5eG85cGRXbzVKVGdBRzM5UEY5anNn0gHnAUFVX3lxTE9rVFNZMmxuTExuQlpEN2NvOHhmT0pYQU9ycGdBcHlXdGNqYWtKckZBNDZvM194Znl6S1gzZTlSSWJIallkV3VZYjNhcnZXcXhUZVFIYkFUUTktQkx6SDBOQUt5MDRVSzZTSWlnbTE3WThlUklJWmdKSWVPdGlWR1Z3M1NmZW9QUVNFMjdvQ1U0cnFuN2pLa0Y2MVJ2QlRXYjFRUUFYcVdHYU5yQkpmemZHdkszdkZ3WkpsSXFzd25hVUVzVkZmUG5mWTJZQVZDNmU4ekNPOXVVeDh3MHhqUHlEZmtWU0JLQQ?oc=5",
-          "publisher": "Inshorts"
-        },
-        {
-          "title": "Google Play Best of 2026 विनर्स का एलान: भारत में ये बना बेस्ट App और Arknights: Endfield को मिला बेस्ट गेम का अवॉर्ड",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZXdSLWd5YUwyV3lsdFFEVW5xT0ZDdTJCcFZBYVJuRF9YcWJIeDZfV1p3MU5QNzdNRHUyWGZ3NXpVZlNmRFBXMmo0S01nbmpFOWVwbGZMQzk4dXI5dzNjQ0Rxbk1nc0R6dnN5UnV0ZlBLeVFzMnZiY1NLa3VQWjhYMDZtV0JNMmFmYnFRNGtwclh3MnNFZTB6VTJSSE5ZOFBiMlNrWEd2NkhSSFY3TTJlQ0d6djhHX0RHRTRr?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "Google Play Awards 2026 India : भारत के टॉप ऐप्स और गेम्स का ऐलान, Google ने खोले 2026 के विनर्स",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVkFBeG1JTmNIZFZhM3FlZmxoaElDS2FRdlpNVHhTY2tXckZrR1UtYS1TTG9OR3RGZUFBcmNoMVd3S1NSQlBNeEdlLWJ6ZG52Si14R0sxSUJmbVg5VWdrQ3licW8wN3lLeEk0TENBUE5tSkNNZDV1NWJ4M2J4eXVsdzR0MEpDenhFVDFHMWVWM3FOd2RoZHFkV1R2S01fSDRiM3BxOEt0dE9DYU03Z3dKbG1uMkdSSUF6VTRMdFdFaURqZXRMa2YzbGVTc0k2MnhIZjJqNmpQcznSAd4BQVVfeXFMTzU1Zjk3TzlybDZrX0F4YVlMTWVaX2hGZ3VhcTR5SmE3X2Q1QXNnTXNSeVp3UnRDSEhyR1dLOUpKWkpPajd3WTh3UnNjZWxHVV9OVDUzNlBqdHRtY0Zubk4wdHlWSWFfZXlOcEtHclFQNmFxcVkxc2tyVkJENmF0YjNDdFhra2ZOLVAzckFndGNJTmpjMDZCaXhEQUtEQWlRTkUyLUk3RVd3R215cVRMUjY5bDBJVmcwbDhDSnJ4NjItWVhJTVhJREVBWkloSXNmUU9kWGl6WkR4bmJtNkZn?oc=5",
-          "publisher": "ABP News"
-        },
-        {
-          "title": "ये हैं साल 2026 के सबसे पसंदीदा Apps और गेम्स, Google ने जारी की पूरी लिस्ट, Adobe का यह ऐप बना साल का बेस्ट ऐप",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNa2QxYzNFRVVCeFlnblAySVRMczY2Nk9GX2JxLVNaZ3Ftak1IOXNHYzJDQzg1M1JnOWRmS2VlQ3dXLXNoNnJBd2paeGtGOXpsbjlHV1J3b2VqSzNoamU5eENyYVNueFJ5LTMwXzhCYmYtbWxJNEhlYUVYbEY4SkdENmE4azNjam1VNEloZGZzUjJkeXlSdjAwWG9ob1RxY1oxbDdtbTBueDNNQTdSenY4V3FDeXNvUy13clVNWWVTbkx6ZlBiblZ6NHQ3SXZUalFpQ1d0T2IwOGxPSlNOcm1KWUt3dXlVWlVZMDBDMFZ6elFHb3NYT21NUGZGcENrekF5?oc=5",
-          "publisher": "Hindustan"
-        },
-        {
-          "title": "बेस्ट एंड्रॉयड एप्स 2026: गूगल ने जारी की बेस्ट एप और गेम्स की लिस्ट, यहां देखें विनर्स की पूरी लिस्ट",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPclNwV21xZGRwdW1MZUdBLWo0Qjg4ZGp1eFA1X0k0TEtYdV9fMjFjMVV6ZGVRZ3lHTk5vaVdoVkRCUzFxdFVFTC1iM1pMZ2F4RXB3eG1yMG5xYVhGZm93ZEdmcUt2THNUQVNIOEktaTltOEplaUJOaS1fZGdKVnFOZ1VVXzRBb3liMFVUQXktLUg1aVFTcndpZll0N2tDZmtmY05jZTlfV1FJOV9iWjFTalFORWF4OUVQUVUzSWU4ZHd1YzRsX01PM283Y3pGbF9EMzVHQ0lMSThUMHRDZXc?oc=5",
-          "publisher": "Amar Ujala"
-        }
-      ],
-      "queued_at": "2026-11-19T12:46:04.621856+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-a47e382887",
-      "lang": "hi",
-      "title": "युजवेंद्र चहल ने रचा इतिहास, टी20 क्रिकेट में 400 विकेट लेने वाले पहले भारतीय बने",
-      "category": "sports",
-      "published_at": "2026-11-19T18:59:20+00:00",
-      "summary": "DD News: युजवेंद्र चहल ने रचा इतिहास, टी20 क्रिकेट में 400 विकेट लेने वाले पहले भारतीय बने\n\nNavbharat Live: युजवेंद्र चहल ने रचा इतिहास, टी – 20 में 400 विकेट लेने वाले पहले भारतीय बने; देखें टॉप – 5 गेंदबाजों की लिस्ट\n\nAajTak: युजवेंद्र चहल ने टी20 क्रिकेट में मचाया तहलका, ऐसा करने वाले पहले भारतीय गेंदबाज बने\n\nIndia TV Hindi: युजवेंद्र चहल ने टी20 क्रिकेट में रचा नया इतिहास, 400 विकेट लेने वाले बने पहले भारतीय\n\nJansatta: युजवेंद्र चहल ने 3 विकेट लेकर टी20 में पूरे किए 400 विकेट; निशांत सिंधू का ऑलराउंड प्रदर्शन, हरियाणा को मिली जीत",
-      "sources": [
-        {
-          "title": "युजवेंद्र चहल ने रचा इतिहास, टी20 क्रिकेट में 400 विकेट लेने वाले पहले भारतीय बने",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT2loN1Z1LWZnbl9rYTVsbkJKTXZSUHhGMlBFWmctX3Rvdnd3ajlGZ0Z6RU5NMXNxNkw5a1M3bDc1S3NrVjV6RGZocU4xZkpHZEY1QVk0VHlnVUZLQW5fNzE2eGh6WkxhMFppN2xDaDVZYnMzR18wTDF4MksxaW51dmN4RFcwQUNwbE9zZG5jWFlGVU9TNmFlNWRrQjV0SWNtUE5mc09KUXFiS3ZRWnVhUDNlLWlwV3EzdFlCcg?oc=5",
-          "publisher": "DD News"
-        },
-        {
-          "title": "युजवेंद्र चहल ने रचा इतिहास, टी-20 में 400 विकेट लेने वाले पहले भारतीय बने; देखें टॉप-5 गेंदबाजों की लिस्ट",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcnNkUFJCaXNVOG1SdjVWc0gwbmNXeFdOamxkMzhKT0x0bEVvRGZ4Y0F3S3VKaXNWRkRfQUJPck9qb0J5dFctVnI2bHZBQ093Z29RU0tRZ2pjaThuaGF2cHdrX1VoeUlhR1FpeGxDRmZScEwxMUhYcGhPelk5Z0ZsUHRFNTNkZVZhbElHNWQzTGs4Z3VGN3A1WWJ6dEkxRmlJd05zWGVPTGxHdmFvYV9KcnNpYWdaZnBnZXfSAccBQVVfeXFMUGpyV3NWZnlZWlhSRGRqX1ZmUmFhS0ZYZnk4U0d6a29ibldVVllHSHY1eWhvMEs3R3hLWVJqZjB6cU94QlgzOHpfcW1NcU13anN3VkUyTnZWUmZIZ3BLX0U1clZ1cy1uaTZNNVI1eVhJaGo1LUdPU3V1azhERTJRQVFSTm1vU1c2Um5HTllRU2tSRnVfdEVpVmZMVV9HNDNsQTlzWkFvZXFYTFo3LUY0dngzZ3lpV0NnR05zd0NTYXI2N2tRZVZnQQ?oc=5",
-          "publisher": "Navbharat Live"
-        },
-        {
-          "title": "युजवेंद्र चहल ने टी20 क्रिकेट में मचाया तहलका, ऐसा करने वाले पहले भारतीय गेंदबाज बने",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRzVYbDAwaVdfY0s0VkxZNXhaYXZBYWt3T3ZJR2h0THNpUlhuSGxtY0pEclRZQWtoWmswVmtRVDg0ZmUzc3E1LUNXeC1iNTZpMWRvSVJuUllEY2xFb3BQNlo3cHhheFpFRjl1d3FOZUdlOGZoYWpfbmZpcGdaN21zX1pJQl8wQWJVVDNmbnpvM3FoSTU5a25kUzdxUjhkV2J6SGZPWkp3QldLNkV6TFJJTkM0WjVfRktZSEhwaU5ZX1ZUQ21xVFB0YmM1NG5GSHRLZ0prdmdEWVlESWQwZkJXYnpnRkY5cmhKRkdwQjU1VENGc3JDSWhMUNIB_gFBVV95cUxPVWxHMDFwNDdaSUR0Ny1NN3R5Qmx2MGZkUXdpWTdLYkJNa0J0RWpTWndScmYyMGJubDdWbmVqSWhCMXRqRDZETUFBUDdQU2xGQXBwbDhkNFNSWGstUkRDLTZYRjRtX0duMERtTXdtd1V1Zl9tOEg1WnJPaHZUeUlkM3pROVY0ZFRIVGhMdXl6VWwwVXpZalNLSXA5bm1xVjlSM3RUYk5DSGxxa25iUjJlZnA4WXdBeDNLYWlDT0lid014VEtBbzJJck5WVFZFM2tfOW1TZmJBUUFybjBSV0NYNjRUT1QtLVFwZHpVTzlGeW52eV94dHk3QUE4aXZEZw?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "युजवेंद्र चहल ने टी20 क्रिकेट में रचा नया इतिहास, 400 विकेट लेने वाले बने पहले भारतीय",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMmZrWWVEQlFpRDBVMEcyMG5hQlgxZGhMM2UyUTNYbEcwZHY2bGtVS25Qa2E1dU9LY1cwakZIUG5zbHJ1bDdOaEpaM19OMkxISFg4OTNjc2R6dFRPSG5rMlFNTExURTVkTDE2aWpvVmtMN2FWd2xSdnEwOFpyVEJBdWlLUWRQMDl4ZEZBUGZkdTJGNVVOQkRZTllFdVUtQ3FYUHkzZ0ZqTmlvZ3JCc1JxUFR1aWEtVVVxcm5iM2ZmRmVlXzctUURKaWMwWmRJam9lRXFsZ1I3WkRQd3d2U2xaMEdQNkVQazZ4TUZV?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "युजवेंद्र चहल ने 3 विकेट लेकर टी20 में पूरे किए 400 विकेट; निशांत सिंधू का ऑलराउंड प्रदर्शन, हरियाणा को मिली जीत",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSTFKN0FVQ3lGdDJVMWxadndaOUFHY3FOMlRBNEI3OTZTc3Y3UWNkVGJJS013enNXc3dJbUM4Y201MElPblpWRnhEZm42X21BZGV2WUdKV3IycEpxTjRXTEMwV3g0UnNfekR1Z05JdG9zWU1obHg0aTJPdkFHMTI2Ty0wVnpqUFpaNVNKWVl4ZDlFakc2RmpkWnVtUHZFXzJxNUdXaFpMY3I2YXA0SnUxSkZ4S1pWMHNDQXJpX1c3eWpwUXJRMXpxOFVCMkc4X3E1bkdIMnl6SkROY2ExTjF2VUpmOExvTW5WTVlkZklMTG5McUY4aXZIMGZWN095OFpHNDE5LXNB?oc=5",
-          "publisher": "Jansatta"
-        }
-      ],
-      "queued_at": "2026-11-19T22:05:41.725029+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-b0bed79bb9",
-      "lang": "hi",
-      "title": "राहुल गांधी की बात पर भारतीय संस्कृति में स्त्री, आलिंगन और देह की आत्मीयता पर छिड़ी बहस",
+      "title": "275 पंचायत समितियों में कांग्रेस और 63 में भाजपा जीती: जोधपुर में कहीं भी BJP को बहुमत नहीं; पत्नी-बेटों को...",
       "category": "india",
-      "published_at": "2026-11-19T17:56:48+00:00",
-      "summary": "BBC: राहुल गांधी की बात पर भारतीय संस्कृति में स्त्री, आलिंगन और देह की आत्मीयता पर छिड़ी बहस\n\nAajTak: सोनिया गांधी को ट्रोल करने वालों पर भड़कीं सोनाक्षी सिन्हा, बोलीं – बच्चों को अंदाजा भी नहीं है...\n\nIndia TV Hindi: राहुल गांधी ने पहली बार किया अपनी गर्लफ्रेंड का जिक्र, सोनिया गांधी की किताब के लॉन्च इवेंट में सुनाया किस्\n\nABP News: शिव – पार्वती को नहीं देखा राहुल गांधी की आलोचना करने वालों पर भड़कीं सुप्रिया\n\nPrabhat Khabar: राहुल गांधी की शिव भक्ति के पीछे क्या है राजनीतिक रणनीति? समझिए",
+      "published_at": "2026-11-20T16:46:26+00:00",
+      "summary": "Dainik Bhaskar: 275 पंचायत समितियों में कांग्रेस और 63 में भाजपा जीती: जोधपुर में कहीं भी BJP को बहुमत नहीं; पत्नी – बेटों को...\n\nETV Bharat: जोधपुर में 14 पंचायत समितियों में कांग्रेस को बहुमत, जैसलमेर में भी दबदबा, सिरोही में भाजपा का मजबूत किला ढहा,\n\nNews18 Hindi: Rajasthan Zila Parishad Result 2026: जोधपुर में कांग्रेस का दबदबा, 43 में 32 सीटों पर कब्जा, BJP का क्या हाल?\n\nJansatta: ओसियां पंचायत समिति चुनाव परिणाम २०२६ : सभी वार्ड के नतीजों के अपडेट | Osiyan Panchayat Samiti Result 2026\n\nNavbharat Times: Jodhpur Zila Parishad Election Result Winners: जोधपुर में जानिए कौन हारा, कौन जीता, जिला प्रमुख की कुर्सी किसे मिलेगी",
       "sources": [
         {
-          "title": "राहुल गांधी की बात पर भारतीय संस्कृति में स्त्री, आलिंगन और देह की आत्मीयता पर छिड़ी बहस",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uanctdGRrU0VsOHZBdW9UQWRGWm1JekZMbFRuUjRZTGZzb1ZFYkFHdnBxaGR6MTkxejJtRXFYU0RZdklvSzU2cTc0eXlubWFQakRiRTZOQmdDMlhl0gFiQVVfeXFMUDlkeXRzRlJ6TzM5a2prMmp5cDY4OGNUUWNqYVF5ZG9xdkdjZThtQTdJSWRLMzJfajlJZll5OTdCVG91ckpleEp3ZUlQXzQyMGpxS3VneHBiaGVyYzNPckJic2c?oc=5",
-          "publisher": "BBC"
+          "title": "275 पंचायत समितियों में कांग्रेस और 63 में भाजपा जीती: जोधपुर में कहीं भी BJP को बहुमत नहीं; पत्नी-बेटों को...",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVDliRk1NMG9sd2J1TmxBb3VreGdva1RSZk1QT3dQLXhjSmNrWHNjeUlpNEJYM182YndHZnZWUHBJOVB6UUZfa2tpQ3JqdUsxQXFwcXMzTTJnSGRHRjNjMEoxUDd0VFF5SXl0ZWxhSHNDNWwzam1aeld3Q0FhTzVqUWg0U0g2WjVvelY5bjlYS3FZVU9SUHU4dF9GWWRCbmw3ODdRVmtRVG14d1pIM1hfX19wcXAySTJxaUNCbk43VExWa0xzTHZndNIBzgFBVV95cUxPdnRLMnVMNkpLdkk0N0F2ODJaaHV1Y0UzaW1aa1k1RFNsMmgxd0hTbnRSMVkyV0RvQTZnM3RBM0FNaWlQRDJlRXVYRThxakh3SUx5bWZ1SUNPMFNHampIWHJlNktiQVpDdHFZUnUxZGhPOEdEaXhIdzI1SUtnc1A5dUVaQTNEbWIxVGNRWEZWbFRzSWRxZzBMcE9kbHhtanVJcjdpODl0QVBqenE5OVJWRVAzWVl3YzRwUTI1STFCRG5pX1RlcTNJV3hmTDR6dw?oc=5",
+          "publisher": "Dainik Bhaskar"
         },
         {
-          "title": "सोनिया गांधी को ट्रोल करने वालों पर भड़कीं सोनाक्षी सिन्हा, बोलीं- बच्चों को अंदाजा भी नहीं है...",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOcXAyQmpWSjRBR0FFYjZqVFlYb3JQU1cwLUlvUmZKaS1lSGt4OFh4ZkhhS1hFbHFLTy1wdlZ1bEY3c1NsMTBsWHdCODFEbTJaM3JzTnN0T21jYjdJNFpEaFA3RllZUFlOTkR1YzNUTkpNdkFPbWhqVGdXdG1NUEFOZTJqcTA3NmE5RzFpTUpDbjNPVG9vWXR5R3R4MU0xbVA5VVFlMTRGSlFQYjZsM3JaZU9vSTI0RVdsUDd5SlRjOEpoZE1jdUpISGc1VVRVNV83Mm9FSTFEdzE4X0ZQY1lkVXJKcXI0RmU4STV1dEVGRm9qM2tBMHhzR0FwOHRseHdJdlVGWUxPanVDNzJY0gGSAkFVX3lxTFA1Sm1oY2UzTy04cGI2WnNMb1NlR0N2dG1LR2VmcFRqWmhoYVhFbjBZQncycjR5VE1hZGhwU0QyNlI5Z0NuX0YtZ1ZJdE9rQ3RtdVhsYm1Jb1ZXckpZdlZwV3M3MjJYMExyTEN3VXU0N1BMcFFuY3B5Vy1nakdZaTJILWpXTkJ0Z0k3ZmF0a2FLaG14ZUdiQXlxdkFlTnNId2VqQXNVU3U3RGFYRnk1Uk0xaDZhakxfdlktTHhEVldwcUI2SmVEa2JIODRteUpHZnh3SUNPYlRpbXp2Rk9SeGU4WnRHMXVSa3lVS0lvYmtsVHJNUzhzTGd4SnFqT1VweDBaOWFSQTNMNHVENzJTdEtWNGc?oc=5",
-          "publisher": "AajTak"
+          "title": "जोधपुर में 14 पंचायत समितियों में कांग्रेस को बहुमत, जैसलमेर में भी दबदबा, सिरोही में भाजपा का मजबूत किला ढहा,",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNlhnRldFeG84b1BfS3dnVElFOEFmQzBfLW1Fdm1CSldKZDFMLTIyWEt0ekRlczA4ZWkzOHN5RV9WN0hwNXdCQzhZcERVNDA5dWhSWWY0RkRxcHF6RXRDa28yNmUyMjc4UjV1ZUNFV0dabE5kdnhodHJlNkdSVXlHRGEwMW5hNko0U09xckFGQWxTX0tSVS1YbU83Z0lfeXZ3OTV3WkFfRDl4WEFPckpFaHhzaTdXQ05wd0k3ekZISHhYYjdhNmNsYlJBQ3JFeUHSAdQBQVVfeXFMT0JrY2xIYnp3X1pJeVlZUnQ2RDd6NGVsQlRhQlkyQU9kancwMGhEV0FvbndQSUtPeldhZFJiSXpVYU45ZEVOcVlfS0hjR0ppOHd3TnB4YmtOUFBxWkNsZElPZzcwY0dSbVA2YnlwVDEyZTItZEViNHBYTzAtZE5pU0c0N1BCZ2hNRDIyakNaMDBzRkt6ckZaSjE3T1hQSk5Ub1p6TTdLcGF6bUN6dWV3by1SR1FVTjJDS19PMEJ4aWpUQmRGcVlWUUVJWENIWmNaVWJhY0U?oc=5",
+          "publisher": "ETV Bharat"
         },
         {
-          "title": "राहुल गांधी ने पहली बार किया अपनी गर्लफ्रेंड का जिक्र, सोनिया गांधी की किताब के लॉन्च इवेंट में सुनाया किस्",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOX1RBeGxjZl8ycXpPWmlISURYY2hYLVppSGNPWTQzMEtwUGVHUVNWMXNaRWUtbUZUVTJoaXF4cnVkODktdHBESGQyMGJBMXR0UlBma2F4Z1VMUDFzaEg3VkxLLVF1QVNIbFp5THNtT1N5Z2FoS1JHcDVSZ0hMVHotVFRYNW1sUnJFVVRZTUlRX0pNTldXUHJMRXVvdGI4bHpCQ0t4WjUwV2I0Y3lQbkIzc0JuYkdTdGY1QkxxM01pLXZWZk9LMEZVcWMyUmY4cTFSbHl3R29nVHlOd1hFbU9OemtXSnVoWVhpWHpHYWdRUjlGZmdEdkdqRzlTa3BmcGhJUHA5MzdOQlNpOGc4cmFV?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "शिव-पार्वती को नहीं देखा राहुल गांधी की आलोचना करने वालों पर भड़कीं सुप्रिया",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWW9DTHNjT1hkM1lfMFozWUxGeFJ3SWV3SVU1TFRMMzBEaEdtZHBsNDh6SDNuS1RJdHRYTk81c0VEUmVGdDdHbFpIa1JWdGxEbnNpbERqN3B5ZmVJaEZDRFk2VzBzMGYtc0dFX1dIOWVzR252aDQ4akdCWU5TSWR0M3E0NWhDeU5QRkNTODUwc0thTWRIZU9QbVlqdTREN2h5N28tbWVUV0lNMTk0ZkNIcnl5OFdkZXPSAbwBQVVfeXFMUDVZQW9XMnNseUJXYWdoWFFGcEV4Y082SW56VGVhaGI5dGNaOXZkbE1BREREWHdwaGlNbTR3MWY2WEh1WnR3SUVzdDA4eW13TVhTX0hVSlpSZ0h5d3dTQ2JMYjRkRU16aS1zSGQ2dDRnOGZtX1JwNnMyOUMzSW1SakptR2tSYndVa2djeklDaGp2YkhwLTVLY2FLYksxNU9UZkt1MXhCdVVObTZUbTN4N1ZnalAzOWxDUjVILTc?oc=5",
-          "publisher": "ABP News"
-        },
-        {
-          "title": "राहुल गांधी की शिव भक्ति के पीछे क्या है राजनीतिक रणनीति? समझिए",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2dWMjVtSm5pM2JxNFpHZEdnbEthQng0SXBETXhMdHNuRHpRMVhNUEdaQjVRMXdtdzFJWUxjdDdTUE4zVzU3WE1aeE5jaTRFVHNQOTduaHJjdEYxa0pXYVV2cW5kcFN3X2pJRkNJcnNPRkltcXRxTHI3WVZ5c2NqUVNyOENRMXF3ZFJ1RGg2X0hudHQ3WUpFNWxkU1pvb0NRWGJrU0x6S1BCeTZkN3JtcGdCWQ?oc=5",
-          "publisher": "Prabhat Khabar"
-        }
-      ],
-      "queued_at": "2026-11-19T22:05:41.725029+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-88099e2215",
-      "lang": "hi",
-      "title": "55 इंच का TCL Smart TV ₹35 हजार सस्ता, 4K QLED डिस्प्ले के साथ Amazon पर मिल रही धांसू डील!",
-      "category": "technology",
-      "published_at": "2026-11-20T06:25:41+00:00",
-      "summary": "AajTak: 55 इंच का TCL Smart TV ₹35 हजार सस्ता, 4K QLED डिस्प्ले के साथ Amazon पर मिल रही धांसू डील!\n\nPrabhat Khabar: ₹10,000 से कम में Infinix Smart TV खरीदें!\n\nNews18 Hindi: दिवाली सेल खत्म, लेकिन बंपर छूट जारी है, ₹18,350 तक सस्ता मिल रहा है 65 इंच Smart TV\n\nHindustan: थिएटर जाने की छुट्टी! Amazon की इस धमाकेदार डील में बेहद सस्ते मिल रहे हैं 65 इंच के ब्रांडेड Smart TV\n\nAajTak: ₹9 हजार की रेंज में मिल रहा 32 इंच का TV, Croma पर धांसू डील!",
-      "sources": [
-        {
-          "title": "55 इंच का TCL Smart TV ₹35 हजार सस्ता, 4K QLED डिस्प्ले के साथ Amazon पर मिल रही धांसू डील!",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNnRSWnZjTVVWN0lZNUh5S2tScE55TUZJVTJIb0NLWS1IeU41U080YVF2MFVGeGJXYTZHTGdHZzFXbGVINXhjczZ4eVI3R1dmYlp0SnJMWkdqQXp0U3pPWVEzaE9nWVlDUlJTXzB6cXpreTEtel84RFFEZURNdFdIUG44bzhpVmN5Z3BUMGIyakl2bFUyQjV6a3lkZHNVWlFzTHFDRXpfUi00UWVmWlpwdE4wVHoyVXdZNi00YW5n0gHDAUFVX3lxTE8tSnJxYjA0dFBiemdJdjVXRW9GNFgxZnp2RmNhWFQ1TnhNeXlzVTV4dm9GODRnbjRWSjEzcFVHQU1LTmdxQUVGMXZhWGZBT0I3dE9qNDFaRUMwWUJFYUcwRlBrT3phU191Y1RCQnliQVVPZnppcnRXTjcyXzlfQWt1enBRSzQ4UFR6dFN4M2hCUTFCemxyYWFBWUlNS2thcW1XRTE3Z09rTTJhUTBOcUVNU3Z1ei0ydVF0OXFoZklfWDBzQQ?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "₹10,000 से कम में Infinix Smart TV खरीदें!",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdndDU05jM29FUE1IMnpaYWN5WFJKekVubm5vZEl4QXBhaUVlUDRyb2lMbVFwek9mdzNoR0ZUMHp3Ym1RRU5FUlAxNGEwcnhMVktvQ1R1M3k4TG9WZk5hdDVubS1oTmJ2aU9DT0ZWWEo3aUpGQ3piOFV6WmFkcVRHT2dhQkJsTmJDNG91NVhlWXFNWWM0TWc?oc=5",
-          "publisher": "Prabhat Khabar"
-        },
-        {
-          "title": "दिवाली सेल खत्म, लेकिन बंपर छूट जारी है, ₹18,350 तक सस्ता मिल रहा है 65 इंच Smart TV",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdl9WNG9OYS0xLW1iSkpqUENhVXBUakNEeFNjMXY1NEROSml2NHRpdl8zWG1uQVFOUUhaZGpZN2NzVkJPYUF1cUM2WURjZ0JfTHZpZjdYbC0wY29OQ0FvQU5BZjd1S1RrZDBkb2tDUEoyN2JCU3B2Q194NUJZOVFMeU9teldvdHB5YXhYQnZKek02UWN1S2ptVkYtX1I1bW5rOGp3ZHBZcUxzT2ZSZjRsT0VwZ2VHdFNwaUlkR3pOTXlXVlh6UmZyalQ4TC1QRk5ZcnNKRC0tUGJjLUp5QldBTktfd0NjZw?oc=5",
+          "title": "Rajasthan Zila Parishad Result 2026: जोधपुर में कांग्रेस का दबदबा, 43 में 32 सीटों पर कब्जा, BJP का क्या हाल?",
+          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOYU1Na3Z5a1o5UlZpcFZ5MXdJcWpsX3NDaGN4NXZjOVZjU0UwZmt6MWNTdTVMVUIzQWhiVDFnWHkwMlA5cDZmQlZhY3JCdW0zemtuNFNhRzd3U1l2ejI1c2E3WU1ORFBoNnJINzZJV1A4SDJ6d0Uya2QwVW5iemdFWGJESjB5WjlYOUQ2WmxVQ256a0NxbVNYcEp0WE1TajJGU3RTQ1NTMk1nTmRkSFk0Y3ZGaG9EalFya0stdnZyVlgwZmJtUXhOVW1ZeGVmTTFKVHc4RF9tNHNTcERpRi10bGphcHVlS1JQRHl2c3dRSVgxcUprTGs2ZFc4YUtuVzZEc0ZmRGY4Sk9NY2JOSEhIZW5ocTNQalJoRmRITnlYN2JZa05mYkE5ZU81V2xtaXI2SFU0NXpEbENpVkdkRXc?oc=5",
           "publisher": "News18 Hindi"
         },
         {
-          "title": "थिएटर जाने की छुट्टी! Amazon की इस धमाकेदार डील में बेहद सस्ते मिल रहे हैं 65 इंच के ब्रांडेड Smart TV",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRkc5eVFuUlRiWTI5WWVVR2MtN2NOeHNwNlowLUdDOUppUFhLRlFvWU5zUnNPWDV1YkMzUkN1Z1RGQVM1SDBXc0hMaGhuclo3TkxabFlHRWZSdXp0QlJRYmJWSEM3WjNpcTlFS1FMZVNzOTd6aFNvNHVSU0JNTlQwaXZPamkwZDZqTldtTG1rMzVZWFR3TkxQakxFUERzbDlPWVl1cjlYd0ZPNFd4N1hV?oc=5",
-          "publisher": "Hindustan"
+          "title": "ओसियां पंचायत समिति चुनाव परिणाम २०२६ : सभी वार्ड के नतीजों के अपडेट | Osiyan Panchayat Samiti Result 2026",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZVpwLS1nR2NqU0dWSHJNN1hwaHVMelJnSHlvaDRhRDhsMm5iM0pzLXZhZTRsemFXMkZmMjFiWjB3Y3o1ZU9DOGlqN1pOQlRPUVhaUF85ZTFBMWloQU1yQ2d0RVQwbC1vY3hfd3VtRE95WFBpQzU3dmdkRkdKQXZNOFdVRlVDZ21FRXRqMVB3dDFZN3IzNTRtSU9oMmJzXzVTT2pMTERia0kwWVcxTGFOaWJiZm9Hdw?oc=5",
+          "publisher": "Jansatta"
         },
         {
-          "title": "₹9 हजार की रेंज में मिल रहा 32 इंच का TV, Croma पर धांसू डील!",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVDRXYmhYMW9Gc3Zja3hWYS1GaTJ3SkFZWHJnVmsxd01OSHpjLU93NU9nUEZoTWxKOW1nTjIzMjdGUjdtamh2b0hEblJiQnpROGhEUXRHX0MyTXd2ZWRWQm5UR2MwRGVEbkNTMDZmRUFxY0JRSnNQLWNwUjZpZUcwRnpHaXc4UlhJa3g3YmU5bVNKYkxXa0hpUDctMF8xbFBlNkVPekJTNi1CUm_SAasBQVVfeXFMTlQ0V2JoWDFvRnN2Y2t4VmEtRmkyd0pBWVhyZ1ZrMXdNTkh6Yy1PdzVPZ1BGaE1sSjltZ04yMzI3RlI3bWpodm9IRG5SYkJ6UThoRFF0R19DMk13dmVkVkJuVEdjMERlRG5DUzA2ZkVBcWNCUUpzUC1jcFI2aWVHMEZ6R2l3OFJYSWt4N2JlOW1TSmJMV2tIaVA3LTBfMWxQZTZFT3pCUzYtQlJv?oc=5",
-          "publisher": "AajTak"
+          "title": "Jodhpur Zila Parishad Election Result Winners: जोधपुर में जानिए कौन हारा, कौन जीता, जिला प्रमुख की कुर्सी किसे मिलेगी",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORWhYaVdadVdsMFVvOThIYnhhQno2Qm1mempkamJidVRiMDQ0OVRCeUNndDBCQlMxNktjNmhzU0FEY1FsRnZqU2xLSlcxVUJWSERqT2RRd1hYcS1WUWRvdU5Fbmh2cFM2d2pEdzdYYkpaNlpaZnhvUWE5YmtzV1pKMUFEd2ItY09zRjJ2WmV4Y21IUW1jZUhDdWZXSnMxQS0xeEE2YUI5TFpyUF9KT1J6eS1MbnlwaGpxVUxSQ3BLMXFOVlZPcXdtTk1wMF9jT0lCLXBuY2dLQlh6ZVlEeXc0d3NDSldBNzFCQ2hJ?oc=5",
+          "publisher": "Navbharat Times"
         }
       ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-0622c76962",
+      "id": "en-cdd6f5419c",
       "lang": "en",
-      "title": "Cyclone 'Akvan' LIVE: Odisha's coastal districts witness rough sea and strong winds as landfall begins",
-      "category": "india",
-      "published_at": "2026-11-20T06:36:14+00:00",
+      "title": "Some allergies may start with cells running short of energy, not immune system misfires",
+      "category": "health",
+      "published_at": "2026-11-20T16:40:04+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "Cyclone 'Akvan' LIVE: Odisha's coastal districts witness rough sea and strong winds as landfall begins",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWnhZQnhQcXJ2UW5qODE1TFFnajkwS1pybjZtaW1tcUlJSDlBMkVzbUdtdU9Jd3JpbHpuX0ZsbURESnRiTFVGVTFmX3lBWHctaDVGVXg0TnlKYkY4WHoxS083MEM1QkdyU1ZjeDJ5d3U4TG5JeEtmUWdQUFlJQUVRRHJtcnNtQnF1MGhRRXpJRW9Nc204MjZZUUNjaXNrWnUyeU1DMzdIUERrNG1KdVRKaE1pYzVqdTNrZ1ZZZXBwUlJxc3ZSTHB3MHhic3hsUUNqTldKLXF0d3VheHc?oc=5",
-          "publisher": "The Hindu"
+          "title": "Some allergies may start with cells running short of energy, not immune system misfires",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNDlYM1ZXNy1EMl9ibC1WdUZEUnhJVm43YW1ONHJhcV95LThndTBsMkFCeUhFd0U1eUxHN0NUcmx0T2l2c0VBMzkzMmtrRHFzRG1JaVY5LXJvT1M4aUhrNVFIQWh2bGdfMERkOVdOTjFUTlMxZWFNeHFFby1adk1GZmVhWmExQQ?oc=5",
+          "publisher": "Medical Xpress"
         },
         {
-          "title": "Cyclone Akvan Weakens Before Landfall, Odisha, Andhra, Bengal See Heavy Rain",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdWxnRTlnemFVcUNvTm9VU09QaS1Da2pocFFpa0w1RUYtQm9RUjZQd0VBVHQtZWxObzhKOUFkal9MdEU5NDhyaUprMnBmZzJQVU9UN3E0SVNFX2xpMmhoWURsTXplQjAwTlFNN1g5eFpYQlBUNjJGUmhGTUotOUhkc2FJT1JBd1NFN2tIUUUyV0VKX0ZhR2NvVzlSNUxld2dwTVBUMVdPSVhWWTMzWTg3QWhqWVB1RXZGckE4dXNvS3pjYkdfT0E?oc=5",
-          "publisher": "NDTV"
+          "title": "Dust, pollen, changing temperatures trigger seasonal allergies",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaTFNOU1vNVlFUEZGZkFLZ3liSHJBMHk1Z3I1Q2x0Zjk5eGFhNUlLOXg3dzNnQloxRmZraHFpTkNmZDVOVGhWYjN2R2hQNUNONDZfQ09sY1V0N21TTWxfS1FQekMtamRjS1FkRTFqaG5sdzg0N2d0SGItaG1ibU1QamRjSS1iX3NReHNXU0ZVam1oRTNPWFlqRWZoQl82MzRIdXBnczhnMlFqaGE0VUNB?oc=5",
+          "publisher": "The Hitavada"
         },
         {
-          "title": "Cyclone Akvan: Light rain in parts of Jharkhand; primary classes suspended in some districts",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONTFWczFNaXhUcWRBQWV1REFQaWRuZ2kxNEZqd0QwVmNaWnZ0QnZxNHkzUkIzZ0Y0SEk5aDJ1NzFueHE2Yk5xaGVFY2pyekp5UXUydDNmREZPX2hpSG1DeDJYODdfZThEdmRZNFZmOW0xYmQ3U2hJV2lzOE12Y2tudW9ucEdBcjhuZThCS2ZRYkVqajBQVVJ5TUNMb0xXYUE5WWFCWVBuV29EWGc3a0xyd1hBMzBNc1BGZGZIWjN3SDJzb3ZfNVFrR2pVTGVtc254bmNHejczRmdmM3YyMjJzVU5FVkU4d21heFlrUW9jR2HSAfcBQVVfeXFMTWpCUUZJUHg4SHIzb2x2RWQ3V2pRUzNKX0h6N1VUQTBxSkFDSndqQnJSVDN3WGphQm9YRmJKaUlabFNXcll3Ym5ySE9wV2xfU2JvZV8ta1NPaE91dkg3T2cwN3BJNzlyT0hFRTAxdThnLUxHRklRQmVhZ1paVThrUUpRT1pDeWVMX1FVVGwzVEc1RnNKeGM2UlplbU95QklKMG9SLS11SW90ZWlrcm1hWC13N0IxVHlsRkp1RVo2SGhrMVZPZkYwbVRubW9CaTRJX0YzMFpVQ0czQzlXc2llc2tub3h4U0JuYXVDQngzYjNBbWJZMFZTbw?oc=5",
-          "publisher": "The Hindu"
+          "title": "Study Reveals Hidden Cellular Cause Of Certain Allergies?",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4ejBVT09sV2trY2plQ3dJWExBQ0ZiR2ZWVEFiSVE0eDA2OGpxU0lFOTJuRE1PNTMwNFhaN2w1LUhEQnV4SFhzQ3JYZWtHR2ExSW5LN0M0T0R5Z29CZ3ZrZEM0UW0?oc=5",
+          "publisher": "StudyFinds"
         },
         {
-          "title": "Paddy, potato farms face threat from Akvan-induced rain in south Bengal",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdzVkVjVyOHlqN2J5bmxjN3NWN0VjRGpKZHhIVk5Rc3VZNXRMQl8xRWo1N05sbWtOVTd6Vnp4Z0RaQXh3ZVhXSzRPYy1EcUw5c2lZYWd6cmgtZ3VGdk45UGE0X2JwUDFNMnZDLWxrSkJRcEU4eE1kMHg4UjZ2YTZNeVY1M050ZGZnVi1WbFZBTXc2Zllyc0VZYjdxQ3VIdGlaT1ZTUGcyMUpiMkZoa0NQMmFvWG8tcmFuSEhpVGZ0c1hod0ZHTXRROTV30gHPAUFVX3lxTE00QS1PbzFTeHFKODJhSUJRMkQzZGU4eXRIMFhEWGcyUHpVRWhzckNYVGlNVWIxQTJEbzFQUy16VkstUUJYdDhZSk92VlBqZzBMUXZVcGtDSUNMd1htSzlwOXUxNjMyNkozVm84VHdrYjNLRmxUdk5ieVE2ZmxjdWQ4VzJFWjJwMVloVWZxQnZmNmRnWU5EanhwZlNpaWJMRXpsaTRxRF82ZGo3cmJfSnNCY244eElwdzdEX3V5OEpteEp5RlhDdlMtOGZHTm5GWQ?oc=5",
-          "publisher": "Telegraph India"
+          "title": "Study connects modern environmental triggers to cellular energy collapse in allergies",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVVBES3VuOG1jTDhwSzhOZmhUUExCQmpGd3RNcHZtVUxSMGdGMUFNNVdQem8yMzlyMW54LXlTMzd0TkdkZ0VvS1RjeV9za2l6RFBjdkdyWUw2VXV0eHFXS2ZmNUpMd01mUjdtMXM4MUcwUXFVMU5OUDRlbDdLQVl0WU1lVmd5RXhpRkxlTlRZUkZCYzktQXZPekdCSWdvV2FTdHpUZVBHWld6bzF0U3V6MU9BRHJoQlhCdndnb1gySXdtWm53SllZbkU2WVRKUQ?oc=5",
+          "publisher": "News-Medical"
         },
         {
-          "title": "Cyclone Akvan to make landfall on Nov 20 along Andhra-Odisha coast",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSnFSOU1DQW5ZLWNZSFIxQzlRbUNieW9aczRVYkNOQWZWYkNsZUdBRHZlb3pYMlQ2dzRIMk5fc1VzbHN1MmF6Q3p6aC1YM0NJamRwUEIzOW1XOHFuSjBzVW05NGV3UnVBYjhMVG9hb1NZeXludjNjWXhiYkpkSFdnTGMzX3JLVzFrR3A4V3JDdDBGajNvNTVBNVRkZEcxMy1FeUxqcWk1MkhRUVZfU2NWOA?oc=5",
-          "publisher": "The News Minute"
+          "title": "Scientists propose hypothesis on barrier cells’ role in allergies — News-Medical",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMk8teFJEVjFCWkE5V2hwWmFGeEFtUll3OXJjazh6QmpXNEVhQXZpaVhYVjMtQ3lwTThsaTZjeVRlX3hULUhZMzU3OGo0ZkRRV3BJSkYtcUxnWS1ra2xPOG9VVnRrYUhXM0wyemstS1hjNW1HTkJXZVlIbkJUZGlvRDNJeW12UnpjMW01VXRrZkd6V0xEdXozOUExbU54Tmkzclp1cGRfMUZlQWdQNGVjN2J3?oc=5",
+          "publisher": "UA.NEWS"
         }
       ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "hi-6ec0853e70",
+      "id": "hi-d6f2988ab0",
       "lang": "hi",
-      "title": "चीन में शी और पुतिन के साथ शिखर सम्मेलन से ट्रंप को क्या हासिल हुआ?",
-      "category": "world",
-      "published_at": "2026-11-20T06:01:56+00:00",
-      "summary": "BBC: चीन में शी और पुतिन के साथ शिखर सम्मेलन से ट्रंप को क्या हासिल हुआ?\n\nIndia TV Hindi: दुनिया ने देखा तीन महाशक्तियों का मिलन, ट्रंप, पुतिन और जिनपिंग ने क्या क्या वादा किया, जानें\n\nAajTak: ट्रंप से बातचीत के बाद बदले जिनपिंग के तेवर, बोले – अमेरिका के साथ रिश्ते सही दिशा में\n\nThePrint Hindi: शेनझेन में पहली बार एक मेज पर ट्रंप, शी और पुतिन, तीनों ने बातचीत जारी रखने पर दिया जोर\n\nNavbharat Live: जिनपिंग के भाषण पर सो गए डोनाल्ड ट्रंप, सोशल मीडिया पर जमकर वायरल हुआ VIDEO",
+      "title": "बालेन शाह के भारत दौरे को कैसे देख रहे हैं एक्सपर्ट्स",
+      "category": "india",
+      "published_at": "2026-11-20T16:32:51+00:00",
+      "summary": "BBC: बालेन शाह के भारत दौरे को कैसे देख रहे हैं एक्सपर्ट्स\n\nBBC: नेपाल के प्रधानमंत्री बालेन शाह का दो दिन का भारत दौरा, मोदी से करेंगे मुलाक़ात\n\nAajTak: कल से नेपाल के नए प्रधानमंत्री बालेन्द्र शाह का पहला भारत दौरा, मोदी – मुर्मु से होगी मुलाकात\n\nIndia TV Hindi: इसी हफ्ते भारत दौरे पर आएंगे नेपाल के PM बालेंद्र शाह, PM मोदी के साथ अहम बैठक, जानें पूरा कार्यक्रम\n\nNews18 Hindi: रोटी – बेटी के रिश्तों को नई मजबूती देने भारत आ रहे नेपाल के PM बालेंद्र शाह, सुलझेगा लिपुलेख और कालापानी विवाद?",
       "sources": [
         {
-          "title": "चीन में शी और पुतिन के साथ शिखर सम्मेलन से ट्रंप को क्या हासिल हुआ?",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiZVlxUk4zd0NtRkhCTlg2VlkyM1JqV2hUSXZJdUhCbW9STHZ1QjRQQjItMDdCTlA0a0I5bmc1MkhrUjdPWEdzckhTN1Nmcjg0aWtFdnJHV2JpdEZo0gFiQVVfeXFMTnpmU3JKdy1DelltekloNWEyblJSb3RiUWd5dmNheFp1WnJzZXZFRGpkQWV4RDdGZ1JUVEtKRkZjWUMyTzNaRXRvdXlPT0Utc01HNXR4LWo1WHprTDBUVnB2NVE?oc=5",
+          "title": "बालेन शाह के भारत दौरे को कैसे देख रहे हैं एक्सपर्ट्स",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1idTk5YU1WbFBEenlub2xZRTh6Y0QyZzBDcVg4TF9XLTg0U1BOdGo2VlFUOVg1N25SRlZFRG51MkRyTFBDN1dOYVdGN19LUDgwZGZoM09FXzdHLVQ40gFiQVVfeXFMTXpiU1l4Uk00ckFKMzJrbU5IVkhxZ2Q2TzNrX0YxZWhURm5ZUlRBaHBuRUoxZ2YteTVjMjhzakFTUHh6QVZFa21rQkhxbm5zUnRYVUFhNlpIV1BaOUlrOHFLR2c?oc=5",
           "publisher": "BBC"
+        },
+        {
+          "title": "नेपाल के प्रधानमंत्री बालेन शाह का दो दिन का भारत दौरा, मोदी से करेंगे मुलाक़ात",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UUjZBbG42cGZOVC1hSG4zT2tKQnBQXzIyb244bld2QlUzSTRoTmJJeENaQTZZMXNab3ZnVE1Oc2MzbzcwdTcwN1JMY01LR3gyeWczRzBSbw?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "कल से नेपाल के नए प्रधानमंत्री बालेन्द्र शाह का पहला भारत दौरा, मोदी-मुर्मु से होगी मुलाकात",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMWlGWURRRjF0ZkQ5QnJ0Z2t1Vms2NWZnU3lVMjE3bVZydG1Oc2NfYWdxQnFPeXFYeUlvV0RkTlpxQlZBWDVQdEx0dEFQWndZYmpqTGkwZzhaQlA4UmNVNUI5VHktQmt3RTVCOHRmeTRBQmZqbHNvM2RNTVJJNkE4bEplT0E0bVVMbkRWS242SS0yeV9yZXNpTGJmMVpSQ3U1V0NTT3lGZG92ckE1MWZYOTN6MERFTVM4cmpRYy1Rb3pwNXVIb1hNZHQ3RktKSGlkNHBDSGRUbkJnSllFZzFB0gHkAUFVX3lxTE9pbzhZTjFtd0lCWkJZY0tJRDMxbFA2OW9FSlhJX21PQ09fcklNTVZwSThjMlBhcExHRl9fRGtuZE9iOG5YbTBhSFVSVHFsT0t2ZXZUeHFiY0tXRFdjWjhTQWVtczhZUUlmZXRDaXR3QzRVRW82eHBHM0JHYVc4RzEtbEQzTEdJSUR1bmxIbzlLTmpyQXh4c3pmeTJOWnp4YzdXVXp1YU9sY3FKY29ldi0tOHJvMG9YNERDMXVWVk1YYXhBa0d1R1hvdldndmV1a1V1SnExQUVGM25NV3ZxblNMWlpZTw?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "इसी हफ्ते भारत दौरे पर आएंगे नेपाल के PM बालेंद्र शाह, PM मोदी के साथ अहम बैठक, जानें पूरा कार्यक्रम",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYUtQWTBMUEVXNHVBOUhUbVBEQkh2dmRwdkFRVDd3UHFqRGJ1OGstN0czZTBWM2sxM1pOTWJJQmgtYjNkbTVJZnFyUjN1dURuVkxvWjJqSVJYdUQ4VEdtbW80a3BQNFVaNkd5TjVHckFkYlBoVlB3cmZQbUl4TU40Z1ZBT2N1aGJ1SGJGVXViTWE3aElKaVV1NzFIUnBqLVM4dVktME1PYnJabmtoSksyR2FBWnpvUlJfSTRicDBWcDZUaEx4V1d2WEtvWXduWF9fNTV5UHpPMA?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "रोटी-बेटी के रिश्तों को नई मजबूती देने भारत आ रहे नेपाल के PM बालेंद्र शाह, सुलझेगा लिपुलेख और कालापानी विवाद?",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcFVpLUtpeVYyTWFVYm5xVHp0RENaVFZvSjg5M1cyLXA4WWhCdzRseGdXdEFhT3lPdGxCSUZnU3lwQzNrbldsM0JrVHZ5VUc1UFI2LUlTM0Y2QV8zNnBaOElaNU8yenhnSGZ2TE94MEFzblNSY3dzTGQ1ZTRNYmZ4RlNka1JUUFBWdldkcVlleUYwUGpKX0ZfM01CZGRtYTVZX0VNSy1WR0FEV1R5TkRZTmRNUzN1Ym1CQkpXSHRUd3Z5a2x4QkFjZjlFeWhiNXFRQlZSRVRsVQ?oc=5",
+          "publisher": "News18 Hindi"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-eb8df340e6",
+      "lang": "hi",
+      "title": "'बेबुनियाद मुकदमे', अजीत डोभाल को जारी US कोर्ट के समन को भारत ने किया खारिज",
+      "category": "india",
+      "published_at": "2026-11-20T15:56:00+00:00",
+      "summary": "Jagran: 'बेबुनियाद मुकदमे', अजीत डोभाल को जारी US कोर्ट के समन को भारत ने किया खारिज\n\nPrabhat Khabar: NSA अजीत डोभाल को अमेरिकी कोर्ट से समन, MEA का करारा जवाब\n\nNDTV India: 'ऐसे बेबुनियाद मामले हम खारिज करते हैं', अजित डोभाल को अमेरिकी कोर्ट के समन पर बोला भारत\n\nSatya Hindi: Satya Hindi News बुलेटिन । 19 नवंबर, सुबह 9 बजे तक की ख़बरें\n\nHinduPost: क्या साझेदार ऐसे होते हैं? पन्नू को डोभाल पर कानूनी वार",
+      "sources": [
+        {
+          "title": "'बेबुनियाद मुकदमे', अजीत डोभाल को जारी US कोर्ट के समन को भारत ने किया खारिज",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM2dNeWkwRlhKMUdSdVl3OTg4MUNmQXBwa1Z6TEc3ZUhjOGxldjN3RVZGRllmSkVBSS1YLVpRYzVycHJTQThvNlFZeG1SZm5qTDdIa1NIemFyS2JzM05ZSWxTVjZWSWdQWVBUM3I1RXRvTEhOa3M0SUs3bkQyREp3UjFPZXhGb1VDQXZnSW42b2lMTERZU0Q3X3c0RW9IcUZpR2t3T2pyQmlwdWRaRmNsSkllT19DWWlNYXFnZGxFWQ?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "NSA अजीत डोभाल को अमेरिकी कोर्ट से समन, MEA का करारा जवाब",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOblpFcVh3WTJrM1BiU0FaZ253UE45SlNteXNtclJMaFRkaHNGRG9RaEd0REhpdm1xSmx1aDJfYzVVTGd2OWZYUnI4a21vSW1JRFF2YjVmcy1RX0x2WWd1MEhjR2NjS1VPamFqUzBQRlkyUWRfbm53YnQtbG5MVVl4cmk5OEwtSjk1eUo1MGtBMzB3amNlUWUySERn?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "'ऐसे बेबुनियाद मामले हम खारिज करते हैं', अजित डोभाल को अमेरिकी कोर्ट के समन पर बोला भारत",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZm5BNG5tek8zT1cxajhONWhlSmd2NXE5YU16aHQ4NDdRUjBzMTFuTFZqQ2htTE04ck5OM3JQUHJTMzJUV1N0LUdDcGdnMHYwcEU4RjU2YXZYQXZoVmtTMzJjTDFfTEpZX3BWLTMwRFhtY29MZnU4ZWxYOUZWdU9lSGJmcy1SczJWTkllUHpreGN6TG9pc3lEVW1DTDJ4eFk2Z1ow?oc=5",
+          "publisher": "NDTV India"
+        },
+        {
+          "title": "Satya Hindi News बुलेटिन । 19 नवंबर, सुबह 9 बजे तक की ख़बरें",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdi01MWRjWVRKZFR5NDZIT0xHX0s2eGREeHpnR21ZRmZuNzlfN3pfaHlSUklWWm9sNVBydW5JNWQ2bkR1bFBsZ0hTSjN6UGdPWDMyOTNGalRJWm9BTXBBSjNtOEJybmg2OHF4amR4YUs4R0VvUFl4YVpCTVV2UGxUaDVyWDV2SEIwWkhrc2JSNTh3SkdmSDM0c1YzVGNxOEpnbmJZbmhwZEZyTUJ2akHSAbMBQVVfeXFMUFRBNXkwSFI0QkFmQmExQWFmeTdoYjhKWGR5YzEzQ0FKaGhOYkxINkxhdlJjaVFHODFnOWxOYmstQ09wZUdFYmhWWTZ6Y0xhNUdiUDZ2NE9HU2NSQWRjbXRnbnpKS2ZlM0NmVWVlb2NYTVpzSkhRY28zU3hfVXRlRmEyaVQ3anBsdjdJTkpNVFBadDhUZFpPeHFqdUZDYmlIZUh5aXVRSUpNV1hoRXBnM1lpRzA?oc=5",
+          "publisher": "Satya Hindi"
+        },
+        {
+          "title": "क्या साझेदार ऐसे होते हैं? पन्नू को डोभाल पर कानूनी वार",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNXzlQQVR1UE8wUVFwYU1mOVZYMGlObFU4eUdiRF9aRWdPajF6R1NlOGd1dlQ4N3JHNXNfYmtFMGRyZU1mRmZkOE12NElqc01uQWlwUXM3OE0xN0ZCSV9UV2NUdjA3d1RyNTY5QWthUVFIVlQ3V3dPeVZDV1ktanIxSGlQZnNQVUZ6bEJ3amFLbTU?oc=5",
+          "publisher": "HinduPost"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-1363551f5a",
+      "lang": "hi",
+      "title": "सलमान से बचाने के लिए मुझे रखा था, ऐश्वर्या के पूर्व बॉडीगार्ड का बड़ा खुलासा,",
+      "category": "entertainment",
+      "published_at": "2026-11-20T15:54:37+00:00",
+      "summary": "ABP News: सलमान से बचाने के लिए मुझे रखा था, ऐश्वर्या के पूर्व बॉडीगार्ड का बड़ा खुलासा,\n\nPrabhat Khabar: सलमान से बचने के लिए ऐश्वर्या ने रखी थी सिक्योरिटी, सालों बाद एक्स बॉडीगार्ड ने खोली पोल\n\nAmar Ujala: Salman – Aishwarya: सलमान से बचने के लिए ऐश्वर्या ने रखा था बॉडीगार्ड? दो दिन में नौकरी छोड़कर भागा, बना अभिनेता\n\nHindustan: ऐश्वर्या राय की सुरक्षा को लेकर बॉडीगार्ड का बड़ा खुलासा, कहा – ‘उन्हें बचाना मेरी जिम्मेदारी थी’, Bollywood Hindi News",
+      "sources": [
+        {
+          "title": "सलमान से बचाने के लिए मुझे रखा था, ऐश्वर्या के पूर्व बॉडीगार्ड का बड़ा खुलासा,",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWGFKQTJvSHJPVmFqZ1BoNVdINnA4V2V2VER1TzNHS05lTmhnX0hSbW1nbS04V3UtWTQyYWxDMWtBbTA3dDR0NnVCU1pmTXJoY0xkM0YyXzA4TDUyQ1pVMWs0OGJNVVlYd0h0NVJFaVFEYVlGRWJTTW4tT0hKRDgxdDhRMk9lS3IzMmlla3lRQndpN011Qmc3V2ttYmdLR3RLdHB1X3JMUkZqaTBnVFg0Z2l0VHlMVFN2aDJzcUVrVmtaOVJGeWZBdk1GSkdKTmd0cXQ5UnhNQkRONEd5Qmlyd05IONIB6AFBVV95cUxQNWEzUnZ4R3M1TnVrTjBVMXY4aUxuYVRLelZXemZVLUp6b1AtZUczaVVRZ1Y5bkNGRFM2MFZndUNOWW9VSkxYY0t2cjdiemlKclR3MnNFUkZ4cllZaTdCMW5iMjF4RmxMeVdWdEZkZmV4SGY3TmI2UHB0bTZKdmxqRll6N1JsZTJwaUJLSTFKbVcxR2dOOElycUdtWldOMHA0NllLSGdlTmFCT1RGUGJhd2lnTFBmNk8wU2x3dmxZQUZlWlJVQzJBOE5RZGRXcVNQalVoYzJpT1hKVzkybWRLZmRyMXBfdTFB?oc=5",
+          "publisher": "ABP News"
+        },
+        {
+          "title": "सलमान से बचने के लिए ऐश्वर्या ने रखी थी सिक्योरिटी, सालों बाद एक्स बॉडीगार्ड ने खोली पोल",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ3RuMy15SDZCb1ktV3NsYUNoTTR3YVNpN1JGTFRjTkRNUy1HY1lFRXhRdEo2WUNlTkg2M1dEM1FmYlc3bXV2UVVOY1hfUHdOMGVFVEYwRHdDVXdWT0NwVmFYc1V1NzZIRnBtb3ItTTdTaHlMd3R1clF4MzFxMzE1eDJfYURyUDdjNUU2MXRkWXE3c0hTdFUyZFNsdHI3TF9jMFE?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "Salman-Aishwarya: सलमान से बचने के लिए ऐश्वर्या ने रखा था बॉडीगार्ड? दो दिन में नौकरी छोड़कर भागा, बना अभिनेता",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNlpjYnh1QWdTTG5hVjRKLWFSTjllS2VJVlQ1RW5NUVpZMjduWjJyTGhnY1RVWUZfdDJkVWZxeEUzeTUzQUtlY2tXMXNlODl6SWtlaGkwV3BqUGo0TU1KdEJDbzM3OUpocFZWcUp6VnpEXzNNUU9jTDJPdjFRX1VyR3hiTExoQXpyU0Z0OG9QOURObGlGeW5VZVFXdExuNjMyNFBtUUVaTjNKMEJxVXh6OHJHeURIdUxJaVRsOWFfXzVZR1UwN0ZfbWtvZk11ZXUzLXpJTGlzSGtzS2RhVG5GSdIB5gFBVV95cUxQSTJfeUlfYVlqZzhGbXdTbnlQay04ZDlMT0lqa0tIRXl3WXFxaGN6MnlrZXlrME55NGtwdHpiRzVmMmtRZEVmR1BFSE95cTNvdnkxclBHbmQ2SXBWejd6ZjgzWThPZS0yaFBZVXVfX0twSzVsY0kyY3NrcEl6Z2x2djhxLTVuNElRTzNaQjRNbmR5dE5Ka0habUZrUXZpUzJ2SWFtOVg3WDNTcEU3ck1jRjNiQTQ1V2RMd3hjcXFndURIZE5LbHQyaTFQSDZKVV9OYUNaaTJSMGlveXJZb20weW5HQ0pjUQ?oc=5",
+          "publisher": "Amar Ujala"
+        },
+        {
+          "title": "ऐश्वर्या राय की सुरक्षा को लेकर बॉडीगार्ड का बड़ा खुलासा, कहा- ‘उन्हें बचाना मेरी जिम्मेदारी थी’, Bollywood Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOM0twLW1iaWFxenh6RU1EUUZBVkxxTGx6U1Y4OEhmcTNNX0lTRWZPSWtXczVSVFJDOUQ3VmhnMjZqR0VWeVBwRk1KWUdNUEFaNEM0eERHTzNqVzNxcGp6em05UjEwQnI2RWs4eTd4RE5ibDVBejVZX05KMTVLZEFsRnAwcHc3bURBdWJDYVhSeWJtM25RNjhaeWl4aFZpOVZuSnVxQjZ4MW5sZG1PbW1SandXLUY1T0J3OXNibmpNZ2FpM2lfemhTMGw4eVdSSS1WTk04ZG55SmMtak1FWldMT1B3U3EzbGpydjFqUVFzQW1hT1R1MTVzMTJsTFBUVWM?oc=5",
+          "publisher": "Hindustan"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-5604eab969",
+      "lang": "hi",
+      "title": "अनन्या बिड़ला कौन हैं? बिज़नेस से बॉलीवुड तक जिनकी है चर्चा",
+      "category": "entertainment",
+      "published_at": "2026-11-20T15:34:14+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "अनन्या बिड़ला कौन हैं? बिज़नेस से बॉलीवुड तक जिनकी है चर्चा",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82WUVpXzlJNUVMZks3Z1BQZUpDRTByMDJIbktNNThHc0NRb0FteWo1anZPMTBqNDFKemQ2Qjd6eVdYeldhQVRGOUNMM3cwdTRDWGppc3F5bHNNa21v0gFiQVVfeXFMTnE0LXpnV21hb2FCQ3JJME90dHdybm1UUGRySThOWTFwTmVWRVI4aFRieTJJRzRTc2Y0UmJHOFNWaWo2VTdIVDFyOTZMMWhLOGVkY2lJMVBMTU9HcDkwTWRnX1E?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "कौन हैं अनन्या बिड़ला? अरबपति पिता की बेटी, सिंगिंग में आजमाई किस्मत, अब रणवीर सिंह की फिल्म पर लगा रहीं पैसा",
+          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPWUx3NlQ4N1FzSXdGYVZ6RnBKNm4xVTZGd09hbzJZOVVKR0JxUzY4LVBuUTc2SVBSbEVMOFN2N2taNVNxaFBvY0tnZHVydzlIRG1nc3V1dU1wcmlCRnl2MTdwRzF6aVBSYXNBQU9JSHNOaGpPdDFVcUJqN1AzaFlhWTdlZXgzWHNBNVlCakxkRjRfeE03RERLd0FMYktaV0ZhT0Uxc2VIU1pZc0YxbEpJUTBRS2k1X1NhdUxpTGZiMnoxXzk4VzQ0NW5uMGlaY3NyNU1MMWh6UWVhOVRnT3RORV9xeGQtcUREUVNIZzV6b0VuWjRzd242SkhPa1QtdEkzS3hwMV8waFd6S1g1clM5SmdMVVJyVjlNcHlNeDN0VDg3RDNsX3BqeGZPS2E4c0l2QnJj?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "कॉफी विद करण 9: 'धुरंधर' के बाद रणवीर का दिखेगा नया अवतार, प्रोड्यूसर अनन्या बिरला ने बताया कैसी होगी 'प्रलय'",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPR21ZUm1zZG9WV0hiZlJyTmhkN1ZUM2R6c3NIdjVzUGh6R0k4YVBXWUpoN0pFWlFmYXoyRWhKdy1yUGk3emFGNTJwY0JfVkljZjdUS2tkdklYV3NnS1dHcHMwdVpKbzQ2VC1WWDBwUV9DWnJTdm44M2Nkem1jSW9SbWNrNkFzcmtYT3NwR3R2MGJZZ3dMZ3ltQ19uOUZ6M2lYSHdPWTZNUFQ3VXVwYmZ5TnZqLUpvdW9pRG55OFlKUUJmWEFYZ3h4QU5Ra3BKVEHSAdQBQVVfeXFMTzVBREEtSHhaWlJIbTREdW1FQkRvRlNkNC1qazlQaHlFMEswLVFRRU0yc2VXNVFpTFptamdQaVJKTVVhSTJURGFSN203c1YyUWgwb3U0a0wzUzRNYjR1YW5MbWFjdk44QTJrTlJIek9aVU9uRGpnb2hzUjl6VGJtNGE2ODFzdHFsSTVwQkdpZldESDFaR1hFZDRmbVNiZ0hQM1NQV01Yb042aGR6dkdfazNRUndvZzNseW1oNXRKRDJqaVFVYlVDUndPMlRpWHlERDNIdnI?oc=5",
+          "publisher": "Amar Ujala"
+        },
+        {
+          "title": "Pralay: 'प्रलय' के सेट से लीक हुईं रणवीर सिंह की फोटोज, एक्टर का रफ-एंड-टफ फर्स्ट लुक आया सामने",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVkJQcWtEUEF6MVpuem1FSUNaS090Y0p0QWNPRTR4aU1iNWtETWstMmNWT2xaOVZscEVWcG1Mb293N0h0SjlRWGliZDJNNkZqX1paMmlHYTNYaXZBZVkxTEJhVnhIZ2hHdDI5OEtYM01zbHFMd19CaUJjR1J0SjVHb292ZUp2aGN5YTFRZ19ENzFaQjd5Z1A4Qm92Y2xSN2k0eXZMMDdvVHc5ZWI3cFBEcjNZSUVQSk5pNmhwR0VkRkJBUdIBxwFBVV95cUxPMGRTeXdtQUVGd0NOQ3JIYy1xcDlRMFJkVHg5N0NMTG9HTjB1dzRfSUJlWWduSURtZWU5MndEemJrSGxYT1JtV0ZVOFQyV3NPdWMwdThmVms1czhWN0dFR1BPRFIwZE1XSWdFcFRqYTRic0tRQ3pCbjh4MEE4RTB2OEJyYl92SFVYVDZrTTZfM2QzYkZEazhYdjlIUGh0SFI1M3JDSFdiTDRCVk1QbVRmb2Z4UnZoX0VBWk9KbDVlM0RYLTNYU0I4?oc=5",
+          "publisher": "Moneycontrol Hindi"
+        },
+        {
+          "title": "'लंबे बाल, घनी दाढ़ी और रफ-टफ लुक'; 'प्रलय' के सेट से लीक हुईं रणवीर सिंह की तस्वीरें | फिल्म में कल्याणी प्रियदर्शन भी नजर आएंगी",
+          "url": "https://news.google.com/rss/articles/CBMi5wRBVV95cUxPcUphYm9GaEw0Z0UtdWZDdWozUjd6ZGM1anJGaW5GME5sd2NSTm5jQkZWamxway04OUlFa1RyUGNDNm9mRFdENWpCdlpYRnFzWXBuMmczZ0hkV1cwbEtPMGJielRVWENYRGJUUUoyX1lJOXl4VC1QN2tBSmdDRmdINl9VUWlfWmNzcDlqUXc5WkN5ZTdpTGw5ejBjcEpYa2NNMFhwY0s5cmxaYXBhREYxOWdVUnRONm5Qc3llX1ZYT2JYaFRhVVVacmFJQS1tck5yLUZSMTNFYURMZEpFOUNtdDBqS3ktbWlrZ0tNd1VCX3h5RWthMmFYOGo3Z25IbXhPXy1YX2drazlKVDZlNDFXZFB1eERXOG5hU0NMUTk1ejhmcDBqYjVXa2dLR0U3dDBqZGxmNko4djFkeV9WbzBXc05kQXc1MHZlTlozZ2kwOTVMNzhUNU9PbDdpbWF5dGNaM2NGdVpzZFZYU1pIekFsMFE0S25aOWFDalBBWkFwclFxX2ExZkozYWxUUlIwRksxUWJ5U0pseERZYk1XNF9vbmdyQzhyVklzNmZkeDNwbUl1N1pVc3BtMy1LZExtdmNqNUFKUFlCbFF2SXlYVVdtbzhFTUdyRnphWnNOMUVSMkhwUDZmRFByVGgtdnFra185U0w2WUZ4NmpIYkFkWEpVd2lISkNZZXRlcFB6RG90M1hQS19PVUdhMEZoLUU4SGVHOXM2TVJKUG5yaDJSYlRHTnNWd3JyZ3d4X0RaeEdJY1l1MGZEM3ZUOUloUVBsNjVXX1VaX0lCbExmRGhWY1hKaWhYUkZNYzDSAewEQVVfeXFMTzhWbG50M3pyUGU0VW05M2pEUFJvMTk0eUV4TGFicnJwQjlSVXZ3ZWtfeENBa1R2NmRiSlBTZWxHSUJqWDNLSjh1OHBYQlJ0cDJ6X1ZzMV9Da253bXYyM1pQTWZYLUptdzBzam03Qzl1WmRKRk04X3FDQ2VjZHJURTJxYUdPamdWMU5oVkxXalc3a3ZNVWYzM1lzazJSaENaZENKREYyMzF3aXB2RVFtc1ltYjA1STlNRWFEY3NNU3NEenNaeUZSRmVjdUkxaHd6eGF5RDBxOTd6b0xQdE5OQXRBU0NLODRnaFJ6WUd0RXlWZ1VlazhOamNqNjNPR2sxUkx4MmY4RTI1amNNQW0wbXdGLWFYeWlOay11Z05HaEpVZjdhS3hZZWs1QVRmdFRoTkViV1BpQ0d0bzFRdlY4bGRhUUZlRTJ5RnFLcGo1eVhNaDdIQ20xbEtrcVNJUzFCcHhsUVNLWVpCRi1Jejc2cDlIcmQ4ZFlOQTNMWUtNMGpaVm1waDU2UEdIVFB5SExUR2lja3d0Vjl6QzFuSnlzTGpZY09QSXFtMkVpWmdPTUQ0LUM0QVJ1b3p6MFA4V2tIbkstMld6Mkk0NEY5OFFOekVFTV9OOVN4Z3lnOHdXY3piUXJOSVB0bTN3bVRoUkxxczhlMUE0VmRtSVpNeUR1dHFmakl2WDhJR0U5YUt6U2VOaUxHNGdMRGUycElfRHUwR19vN2hMbVF0d2kxSmtxUE1PbXBPNXU4VkJ1NVlyMXhUQldsazVta3hrUXFhT1hUc3BWN1N1YWdBbjRvVUFOWXhuczV5UlIxeG81dGc?oc=5",
+          "publisher": "Inshorts"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-bf6948f3b0",
+      "lang": "en",
+      "title": "Africa’s $101bn Crypto Market: Why Cross-Border Supplier Payments Remain Difficult",
+      "category": "trending",
+      "published_at": "2026-11-20T16:20:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "Africa’s $101bn Crypto Market: Why Cross-Border Supplier Payments Remain Difficult",
+          "url": "https://techeconomy.ng/africa-101bn-crypto-market-stablecoins-cross-border-payments",
+          "publisher": "Techeconomy"
+        },
+        {
+          "title": "How Breet Business API is unlocking new payment opportunities for African businesses through cryptocurrency and stablecoins",
+          "url": "https://africa.businessinsider.com/local/how-breet-business-api-is-unlocking-new-payment-opportunities-for-african-businesses/vbnlxk7",
+          "publisher": "Business Insider Africa"
+        },
+        {
+          "title": "Bitcoin and digital innovation: what opportunities for Senegal and Africa?",
+          "url": "https://www.socialnetlink.org/2026/11/19/dakar-bitcoin-days-2026-en/",
+          "publisher": "socialnetlink.org"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-0de6abf4b7",
+      "lang": "hi",
+      "title": "अनंत सिंह ने दामाद को पटना में दी डिफेंडर की चाबी, तिलक से पहले निभाई भूमिहार समाज की परंपरा",
+      "category": "india",
+      "published_at": "2026-11-20T15:13:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "अनंत सिंह ने दामाद को पटना में दी डिफेंडर की चाबी, तिलक से पहले निभाई भूमिहार समाज की परंपरा",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVUpSdGJSMGpOUGEzR0prM05RTU5EVXJST24wT3lHN05KU09aeHlXbGd2SHJhZl9kcnltcWtwT3B5REtZRVM3ZzNMZUw2VGItbHZNSWhWUk5kVEZwaVlqZ3RxSUZTdkZnWUFsR3pzcGFYRjFHTlhHSlRNYmJBNjVYTWY5TWtxRVgwSDdoMGE5ZldNYm5CdEJnaFhXb2pMR3QtcEpySkRUMzNyRnVKOVVXV0xVZlM2dHFqM3o4cU93czNDcDJLZHRF?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "बेटी की शादी में चार लाख मेहमानों के आने का दावा करने वाले अनंत सिंह के पास कितनी संपत्ति है?",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HLUdUUVY5RUtfYTI5bkxLMXRCc1Z5Z3EyX0Z3aTdzZ0tZaGJyTGIyQWMzXzlIN1JfdUtBR0NNTmcwR09FOHBOd2ozZURrNlJHQUxPU3V1RnRFXzgz?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Anant Singh Daughter Tilak: शेरवानी में दामाद और सूट-बूट में अनंत सिंह, खूब धूमधाम से चढ़ाया बेटी शिवांगी का तिलक, सामने आई पहली PHOTO",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUGZQX1Z3eDFNaUtUUWdjUTFrdHMxcW9CRVU3TTVjemdteUVjQWlhU1BBNllxSUNBaEQwNW16WGV4WmVORDk3emNZNnhfYTlSaUkxeWs2eFVUZk5iTVNndHU2T0Z6WG1pRUdoNmhVa1RuRkdvZWZoTHdNamRvSlJ5Ml8zQkdib3Y1anU5Wm9sUVQ2cjkwWlpmMzQ4Z0w2a05GaWZrUW1VeDlYWXppWUs5ZzBSNlhENlEwMXYxbi12LWpzR0pKSGw2YWs3VVZKUnZ0em96X21ScGhGSVhUbFpWaUd2S3Vja0tDeEhRRFJHakpETFBhUE5MRjRKSkVjbDQ3aHJZNG9idnNQY2xjZDJqb3ZKdWs3Qi13dWtZ0gGgAkFVX3lxTE0yQ3RzWEM2SG0zMlVQMVg0Ri03QTdkVzA0b2JaRm9wV0ZPa2QyWTVaTXdpMlg1amR6LWF5cjdGZU9VS3R2NHJ4ZS1iMFowZGg0ZXllM2k1b19kMGRoeTlRamw2SFR6WWNLZWNxR0xReHlIWDRnaUttSHl0aXZVdmpGc19yWlpfWUs4bXVoSmJ2MnhleDFnTHptRXZXTXlNZXVhMXpDVDg5cDJmM3h6MnBZUjN4UTNOclRTZml5R1B1dERPekJvV2RmV09Rb2FxMmh4eHUzaEdFanBuZFozUmotZWR0Y1l3UHBIWjhiQ2tDVjV4S085Z1lBbkJfSzZweXYyUU50ZV9idDdYcXgzQnZhTWRYNEpyR2NpejBjZDV5OA?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "जयपुर से मंडप, मऊ के कारीगर और बंगाल की लाइट, अनंत सिंह की बेटी की शादी के भव्य स्टेज को बनाने में जुटे 500",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQOWE2MjR5dnFjTHNvMnppZEhDRFNkRUlxeTgyaG14c3ZjMDRFTzRfSWRrd1phQ0s5bVlTZlYxTzd0V1lJdU5rSHJQTFQ5ZHFNMklwWDI0R2RaOUFTVzdwNG12SVlfVldSUEZVeVBXN1Q1TEtMaTdVaDRkLVhqU01GZkkzMnJKRUluMjA0aDgxejJCdE5zcC1XdXJyYllHZ3YtOHd2YkdKa2Y3bUZROGIzOXlfTVkza2NIOERDZWlVbWgxRUI0NUwyaUJNZHpGZTlfYTU5MzZxTVhOaTZkU0cwQzFBa3cxYjJWTVV5WkFPdW5pTG0zNGZZdmNtMHFtUEptYjJSWmp4TWXSAY4CQVVfeXFMT1RlVUdoelZpaDFKQzV6S0Jlc2psS3dCUW9rNGJWMzFPZXotdHJYelZlVDZoQ0E1eGJwOUhTcHkxVFNYOGxJZHVvUWJZek13V2FNT09mMV9QcFZRVzVPem9fNUc3UE8wazc2dm1Ea0NkS2hCeU5WQnJud3FIdnFnaXp0Z2FOcy1wOHpQc3pucXFpLTBMaFo5M0p6ZlRiaU1STjhRY3B5YlhCc3RvZHlTOWZBS0xzS1lheEllQ29MYndCS3U5eFBnZ1pJRzZmMHExTklHMHpCRkdZbm1IQkt3MS1TMkZhc1RDQllxb1hOUzQ3MlpiY0FzLWNLMDZJd2s3di1SMkNjV0FfOUJneE53?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "अनंत सिंह को बाहुबली नहीं आम इंसान मानती हैं समधन आशा सिंह, मिलने का इंतजार",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOd2Zla3ZFWjJyOHcwd21fYzBkR1FLZlpVVVg1QmRhOFZYelZHU29YQmxYclh5NnpyLURkbjM1cUtQSThrYnd5NS1SVDFsYVh0TXF3T3dIdUNrYUtreVVXMzRacTN2QXU3d1FtODVndGhGX2I3OVVleUZ3eUF4UnpqbmI4UmJ0NmFSaG9ENXlfYkhUM3VmbXhEaUdQOHFfWmRUZDRiWTU4amhiSVFZUTVzeEh1VW1lRnZ5SEYzSUFzcnN4YTlqMUlBWm1MQWxhZ2p4S05XS0tLZlh3ZkREWDRkaWlQS1BlMV9ZNUZQS0lyaGNNS2xXTkE?oc=5",
+          "publisher": "News18 Hindi"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-fd0f50c5b2",
+      "lang": "en",
+      "title": "As measles surges in countries where it was under control, children are paying the price",
+      "category": "health",
+      "published_at": "2026-11-20T16:19:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "As measles surges in countries where it was under control, children are paying the price",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZTkyb3I1ZTAzem8ySm9IZ3VMaGVIM2RHZTlIaXFJYThHOHdpVnpLZThqeDd1STBBdk4xOV83Y0M1eFdlN0JNendZX3lBZGNuV25NOW9CbG1waEhsVlpzLVFXN0lmWFM1dm5yRGhHaVVhUTdKR2tlUVVna0VoSEhYYjhVMHVKLXpwWGdaekEyV0pTV2k4YldtaUdHZHRKVWxsQVE?oc=5",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "US Loses Measles Elimination Status: What It Will Take To Regain It",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUjRyZGN5RzhET0FVcnFaTGVURzFDQWV2UVVTNDBoTFpFeUdPVmIxMnFYc0JQN2Y0UTB5YVpteHExTXhsT244Ql9LZEItdWowVHJvcVphT3NfTVFIN3ItX25QSXNZV283YnlHemNpM2xNcEZwd1Y4SDdoNmEzNFFDZjJQUTFBNV9iVTA0WWp3TzRWZXNOejRqOU5hWkFLWEFKUEhKZmdR?oc=5",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "PAHO urges countries to step up efforts to stop measles outbreaks and move towards elimination in the Americas",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZEdGZ3lDalUxZnFVT1FYR3ZXSUp4Uk51b2x5QlJkNHdBVDB3RlBOcElEX0ZpdzdvU0Z6dTVueXdCRG1NdDRGTHdVV0xNdUhsajFaQmdYMUFHS1BBcjVRNTZDUExGYkxJR3Jkc2pwb1g3OVpGc05QaUhxMEJJZ2xjZk8zXzJZenRIWlV5bV9jRVZJRTRQOU9LMlFDYmMyYUJXNjRWY2s4VjBXMWx1YXNwMTRrdw?oc=5",
+          "publisher": "Pan American Health Organization (PAHO)"
+        },
+        {
+          "title": "The return of measles in America",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa1A1QXRfd2hJT2VVTGVCMDlNQWgwSm9vMkpGMWdqUEwwbjlVd3p4ZVhzYW9kckYwZUhnNG13dFJGd3JuVmx6bzhhNF9KcmVaMEdyeU1Ca0M1RTQ4S2RwWURpZ3I0SDNUekUwYlJfMVVhZ2lZcnFNYk1MYnZsZ2RoMG5lLVVndHhJUDUw?oc=5",
+          "publisher": "The Economist"
+        },
+        {
+          "title": "How Can Communities Close Measles Vaccination Gaps? Addressing Access, Trust, and Missed MMR Doses",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS0ptUWVtYW10VzhEcE5mUmJXMFo4OTRFN2JhdlZIT3RhT3hBaWNzOEw0UWdkeDJkOGxtTkptbnhjWVFoMFN4NTZ4UlVQbEg5MnlQVlZaUjhzcDVNTlE2N2hmNWotaldJd1ZZODRhUzNoSndTNEd1dE5wUllnMXp3RDhoaXV3MHd4MlRHM1VlaWI4Z29OZ19FN1NRazhXZE4wenVtd1BXTVlJYXZBX29iLVpuUDM5ZkZPSDB0d1UxNWlQSEhHV1BXMUNiVjlHdWM?oc=5",
+          "publisher": "Infection Control Today"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-bb8bb2358c",
+      "lang": "hi",
+      "title": "बजाज ने लॉन्च की नई Pulsar RS200... इतने रुपये है कीमत",
+      "category": "business",
+      "published_at": "2026-11-20T15:08:48+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "बजाज ने लॉन्च की नई Pulsar RS200... इतने रुपये है कीमत",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTnllb1A0ZWlZcTB5d1BKYml4a0ctN3lYQzdXUkhhV0Y0Tk02WnZiZUVfRG1NMHk2bDZjb2llaGVNYmIzQnZIZTltbnk5b3VFaWlDb1lzQXlfRUsyTzBIcHBYcS1YODFqSnEwQ1BfdVlpT2kxRWFNcUNSWDZ3N08wMTB3WW1wR0dxOGRTT1ZkWEU0TWJ0QmRTUHJJNmF1YWZtbjFNU1RDREJFUEtOOUJvVndIYlAtTjl5VGJsN0VMdGRMTnVGbUJITUxB0gHPAUFVX3lxTE4xZ3lMSy1mMjBNQS1pT0FKcVBGVEM0aWwza2pxRDFuaUVyZWtmbUprbGVqMU84UUVvWDFqcnFncGQweG1qM2gyUEs4c0U1VDNockVsWEZZUEJiTncxZE0wLTF0aDVTbzlvN1ZuTXJhd1U5bFg3TGJNVmJ2ZXlCZFRWazNMcUJrWVNGMmtNUkFiMkJQRUdaR0IxWDBuUmRfN0hMNnZoSHRUVXhzZmw1UkxxYmN5QjBuS0c2SkV4SGFYNXlJU2I5ejJFbm1Bd2oySQ?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "2026 बजाज पल्सर RS200 हुई लॉन्च, क़ीमत 1.98 लाख रुपए",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRkpPQjAyY1JSUnBFd0U5Zzl4VkJDY0U0ODZmZUdETGpmUDY3MXRLT0xRYmE4Y09SUDZBTWJRY3YzQldVMjNvSEhaM1hrbFNxb2hoWXpKQldfa1VocmQ0YXRINWV6cHhZMWtYLV9qQ2Q0T1I5UzNFQmsyY0FHY0pxSmNOMGlfN2x5?oc=5",
+          "publisher": "BikeWale"
+        },
+        {
+          "title": "Bajaj Dominar 400 को मिलने वाला है बड़ा अपडेट, 5-इंच TFT डिस्प्ले और TPMS के साथ जल्द हो सकती है लॉन्च",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd29STjJmc1puQjBHQWd6c0g3YnZuX2VCVjVkcUdmcGNDX3RjQkhPSHdhRm9GYm1BbGZERmtGcTNCY3VVcFpYTWw3LWVRTXVrLUItSTZQNjdNamdfNXp0WFVSQXVOT1dRaUo5aTI3N0FMYVNzX2FCcDkwVDhqVHpLMmsyMzBfV0FQdUVmaHhaUTVVd1NWeWEyam1PRnFqRVdMTzNWMFVuaGRUakJTcjNJY1phcnV0R0NxTURMVWhpTQ?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "बजाज पल्सर NS125 TFT कंसोल के साथ टेस्टिंग के दौरान दिखी",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcDZqMHA2VVZHSUxrNzBxZTdtV3B1SWlBR0dXWThORTBIQ3ZfU3lRZDFDd21iTDBick9NWUg3ZFFJRVBadFJWSVJtai1NenJTb09DTThBVGF2LVhRZmlLNkJSVGFFM1lydUhSdEppZ1QxSzZhRU5qaEZZdVAzdXFDSzR1SzZVSnN4RTlsQlZn?oc=5",
+          "publisher": "BikeWale"
+        },
+        {
+          "title": "199.5cc इंजन, क्विकशिफ्टर और 5 इंच का TFT डिस्प्ले, Bajaj लवर के लिए मार्केट में लॉन्च हुई धांसू बाइक",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa2FuMHJvdF9lMVJGbFJROXVKT2YxazI4NDY0LW9EM1loM2sxeUJiNUxsWi1IOWpfT2M2Z1RCeDAtb2VwbjVMVW40WjRDVWVCTm1qZnhMakV1RXp2ZnFFbi1ZeGZLOGpESUw1bk0zLXlQNlVnSldVc3dmRWJKdUFwQVZYTUREcmVZRkludXNSNEg5eVY0MkdLT3NXOWZkdWxXTmRqbUJTVkhERkFm?oc=5",
+          "publisher": "Prabhat Khabar"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-18e7ffe5e7",
+      "lang": "en",
+      "title": "IFL 2026-27: Gokulam Kerala thrashes Mohammedan SC to cement lead in Indian Football League",
+      "category": "trending",
+      "published_at": "2026-11-20T16:10:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "IFL 2026-27: Gokulam Kerala thrashes Mohammedan SC to cement lead in Indian Football League",
+          "url": "https://sportstar.thehindu.com/football/indian-football/ifl-2026-27-gokulam-kerala-beats-mohammedan-sporting-indian-football-league-gkfc-vs-mdsc-highlights/article71725493.ece",
+          "publisher": "Sportstar"
+        },
+        {
+          "title": "Malabarians Maintain Perfect Record In Indian Football League",
+          "url": "https://www.rediff.com/sports/report/gokulam-kerala-extend-winning-run-top-ifl-standings/20261120.htm",
+          "publisher": "Rediff"
+        },
+        {
+          "title": "Mohammedan vs Gokulam (Men's) — Live score, I-League",
+          "url": "https://www.indiasportshub.com/scores/6adbb654a19bb1936a68caaa",
+          "publisher": "IndiaSportsHub"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-a61ef04ffb",
+      "lang": "hi",
+      "title": "GTA 6: लूसिया की एंट्री क्यों ख़ास है, गेमिंग की दुनिया में महिला किरदारों की कितनी जगह?",
+      "category": "india",
+      "published_at": "2026-11-20T15:06:59+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "GTA 6: लूसिया की एंट्री क्यों ख़ास है, गेमिंग की दुनिया में महिला किरदारों की कितनी जगह?",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqd19Md2lDbmE0bVFLZ0VjN203SkdVamtYWnd3RXhxRVlqcXpYNEh5ZXZ6Z0VTNGIyQ2NaQmtkNXFJZ2p3c2xORTQzZ3BRWnBnT1BkSVhXeWYxVHJo0gFiQVVfeXFMUG9LbXlBUE5xLUVlelNYX1ljS0JaSmhxNW9SS3NRcTZ0UG1rMFdhSjQyWUVaWFNnbjF1OHR2S3ZjZ3RMWWpxV2xmeUR0UVZDLWpTSXZQV1RNX2N4T3ZIYW9yZEE?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "GTA 6: सांसद राघव चड्ढा पर भी चढ़ा जीटीए 6 का क्रेज",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbHJ1NjAwNkkxS2x3VEVRRkVMVXEwV2U2SXJTQVZYSkMxNktENWZHZVpULXNxekxLUVVyMWlheXI0YjRhR203NkJXLUl0UlZ1anNjOGVzQWw0ZlNkMlF1WmFELWtzUkRNSnVnZ2F2VkRNeWtNSXRfSzZGc2NNc0tLMnF3a2tvcS0wc2NGNVhqU3hKZmlYbks3Ti1USWxGZ2hQLUh3LXVhdjUwRFJvQWtOckN1V1JWeGpDdFNKTlJjSno?oc=5",
+          "publisher": "Prabhat Khabar"
+        },
+        {
+          "title": "GTA 6: बुर्ज खलीफा जितना बजट और 13 साल का लगा वक्त, दुनिया का सबसे महंगा गेम कैसे करेगा कमाई?",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWHVrdXhqUTFQcGpjLWpYVkZhWklKcVRaeGlHREdqYmJrMzBWOTFLNGs2dG1ZajVPRkxrd1FuR2VNVVNkT0NvRGRya3RDSV9QWmtibGR1LXNTS1VFZzhoOE5KcnNPU3IwWF9QNERLNEltZ3R4WU55ZDdEWEdrUFBHQ0FfQVRtWjlINnRKQy1yc1FiQ0JXSE5Pa2FKWWlUMkFXNmdLQXpuSzhsaEhab2Raa3VSc1ZGcUJKR0FzelNaRTdJdUR2RXJ4bFVFT2Fodw?oc=5",
+          "publisher": "Jagran"
+        },
+        {
+          "title": "'सारा पैसा बर्बाद..' GTA 6 की तैयारी में लाखों खर्च किया, लॉन्च से एक दिन पहले हो गया कांड; रिएक्शन वायरल",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZzlIUHR0N3ktRC1WcjA2cFgtVUpDSThjV3RIWm1JX0F5NU1kb3ByRjFNUHNNZC1NbWs5cUMtWlI0eEVMSi1PLXRtUVdaVms0S1NEYjZnbXdYODZwaVJxanpfM2RNSXJFSmV2cFpzQm5XVVRrZzI1eFhCVmkwV1hNZENiaTJoMkVpQkVZRVUyMGVqamc0WlNNdGdvZXp4V3RSaXFsamYzalY1OFNqRXA3TFJpWXZVcjdKd2NQaEdEQkpUdHFKYmNqNHdlZWhubmtROF9HTTJLQQ?oc=5",
+          "publisher": "India TV Hindi"
+        },
+        {
+          "title": "GTA 6 खेलने के लिए घर लाएं ये स्‍मार्ट टीवी, कीमत 70 हजार रुपये से कम",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdDRnTlVwcGtrZHduS1Y2clc2a1FyMFJrWUlmaElNMDNrRmlEYXc3TkNkREFPWHczOEhLWHRxbnEyLWF1eDhaQURUbFNYYlUycVVkbEZLR0tuVExTdVJYZFpaN3o5V0hnSzU2WWs5WkZZT19UNkp0Y2M5RTljMEs1MEctbE9HWFJDUFJhV1IwbW45d1IzMDU4UTJJVF9MTDFkZlZocjBWX2ZfZkdJZURSUW8wNllvdFcyVnQxZDdlQlN5THpUMEVOSDRPRlhyNXRyVm94Q2dYNUM?oc=5",
+          "publisher": "News18 Hindi"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-ade08d30d6",
+      "lang": "en",
+      "title": "BJP targets Rahul Gandhi over Telangana CM’s ‘$30-trillion India by 2047’ remark",
+      "category": "trending",
+      "published_at": "2026-11-20T16:10:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "BJP targets Rahul Gandhi over Telangana CM’s ‘$30-trillion India by 2047’ remark",
+          "url": "https://www.thehindu.com/news/national/bjp-targets-rahul-gandhi-over-telangana-cms-30-trillion-india-by-2047-remark/article71724939.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "\"Paid To Defame India\": BJP On Rahul Gandhi's \"Compromised PM\" Post",
+          "url": "https://www.ndtv.com/india-news/paid-to-defame-india-bjp-on-rahul-gandhis-compromised-pm-post-pm-mod-trump-xi-putin-meeting-12352856",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "Political dispute erupts over statements on India's global role and US diplomacy - India Today",
+          "url": "https://www.indiatoday.in/india/video/political-dispute-over-remarks-on-indias-foreign-policy-in-the-united-states-ytvd-3043193-2026-11-20",
+          "publisher": "India Today"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-27d6e16cc6",
+      "lang": "hi",
+      "title": "अजमेर जिला परिषद-भाजपा को बहुमत, कांग्रेस 12 पर सिमटी: RLP के खाते में 2 सीटें, पूर्व जिला प्रमुख पलाड़ा हा...",
+      "category": "india",
+      "published_at": "2026-11-20T14:20:37+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "अजमेर जिला परिषद-भाजपा को बहुमत, कांग्रेस 12 पर सिमटी: RLP के खाते में 2 सीटें, पूर्व जिला प्रमुख पलाड़ा हा...",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRlpVY3JwUHpITEdWMVFud1l0dC1aOTAtMjBKeGNONTJjRTFHajlIVDZ3cS1LTnlGcXQ0RklhVDBGQmI2VVdfN1ZEcm5veUEyWVJrZDgxZ1cyY3V5eVdWS3A1VHFZRS13S08yQm1RTERfbmZMRDBrN08wZTBBdG1qbjFsTi1yUG1SSERxaU11MFVqZDVwRE1ia1E4MC1FOG1PQUdfYzdVQU53UmswLThTN01pQ2pxcGVzYVlSa0FRcFRraW5lQzNZV3U4UdIB0AFBVV95cUxQc05NSTVUdE9SNGlITUJoZjN5eHplbV9odDZwYTR2djRGbVdPSzlZMkhMb3FxUGtjV1AzczhzMDk3cGJWS3lkRTFFSWhOc3JPTlhGMmhUR1Fha2RFTnk0M1N2c3llN2kxSlVQS2psa0pOTkQ1YkV1TTM5Qm1uTENwWUVTTXBZZmdWTzJuTElyUTNtMkNDT1lfV2M4SkFfN1JBcEtJUFZNRGd0WWdoNWRaUnF2RDB6N192VnBzOVhscmQteTRjaEVlb1ZMckhzUy1z?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "अजमेर में BJP की सत्ता वापसी, 33 में 19 सीटें जीतीं, कांग्रेस और RLP का ये रहा हाल",
+          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPQjJTeDdpRnR5dy1ydFRPdF9IT2tqVnpUeXI4NlpXWmcwZ2lGY19wV1N6NXRfcTJ1dkRXU0xSSE9ZdFVvOGVNRG1qV0hvZFU0NDJYbWkyNGlzVzFJRVJoQ3BONUlhczRzQ0RXaGtCem91NzNPZVBCaGdzdWlNSkVOX1NneGxTeFliX0FISXJnOGtwTTJWZ19idXpFTFpkQzVtaHVaSVdMOVB2dl9Oa0NoR2RXZzhQcWtuNHZZT0lEOTkwQjY1T2ttU0Q0RFllNGdqZ1Blc2xVb1EzcXhwcXlTTXlnWGtuWlluNWNrSURzUHZxaVlNR1BtT3h2R1hLaENMT0xONWF1WVdWLUVXVTJncGhNMnRrdHYyWklnUkptTzIwMGhrS1djZm5Sdzg1RnVMdVE?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "राजस्थान: 2020 में निर्दलीय जीतने वालीं सुशील कंवर पलाड़ा बीजेपी के टिकट पर हारीं जिला परिषद चुनाव, रह चुकी हैं विधायक",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMVI5TXBmbWdPZ1Q2YURGYVhSUVJTMGZOUXJPSGZ6dVN5WTVnZ20zampuSHNaRUl1Z2JNNlJNYWlwLUU3N3IwdURES1RwRjlaNXQ5bTlKNzdReUdXQ294NkFsU1k4ODFvQTJmcW40QnJJM2p6UU1QYVA1NVVSdkJIdG1kQ2xQZWxpQ0JMOUMtQnZhNHJjekhySHVWR0ZUTXhuMkY3NE9fbTNES29BdF93VG5NMGFTRDk5SXJDaktwVVFyRUtyM0lWRWVLczBIRXFOWFlVMlJEYmRQT2pUZnlUUWdXbjlHTWhFYjJKM2xVTWVfUWFGdmtJanhRd3JkTnJVQ0E?oc=5",
+          "publisher": "Jansatta"
+        },
+        {
+          "title": "Ajmer Ward Wise Winners List: अजमेर जिला परिषद में BJP ने लहराया परचम, कांग्रेस के खाते में 12 सीटें, देखें पूरी ल‍िस्‍ट",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPcTRLTmlyVG03Rk0tWk9qWmppWV92d0U3QXljUUFYSFB5ck41d2VrMXctdU1tTl84UmUtLXhjZmRHYTRySDRodkFPYTl2eTBIN0hqTTNJVW9qckh5QzBMWVMwRFBiOEJwWDVjTVNxQmVaOUZTQzNzdTFEbk1kUTlOZUtxRjFwTFhqYU5tYzNxeGdWekY4dHJjWUZYVklZTmVDSmQ0UVhIbDVqc0lzNlAxRFp0NkRNTVAxUlltWWdMZ3B5RjFvWm12UlhRRWpobGRncTZzMzlISlcwMkswb3pWMXBRZjhFM1F6VGs5Nnk5OEV2dWo3bnI1OTB2clJfa3M?oc=5",
+          "publisher": "Navbharat Times"
+        },
+        {
+          "title": "अजमेर में पूर्व विधायक और 2 बार की जिला प्रमुख हारीं, 33 वार्ड में से 19 भाजपा, 12 कांग्रेस और 2 आरएलपी ने जीते",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbjF3dlNsR3JTU2lUdFA2d0VJRHFtMHdxZjg3TE9UdW9TTEdtZk9GaTJVWkJ1MVdxcWo1am5YMjQzMzQ0UjZvSm4yeXZRNEdYVFN4LUJYS2xjRnR0S0JDRmpSUVhUR001NERyVDA1UFRKUXgxTWZibnlORTR1eWpkYkdEQnRqeHMtSXlHcm5MTFZja21HbXAzdDZxYm1tMzZmajdvRTgxQzJSZGtUYk1WWm1UQ0IwUzBzX0p2NEZfMzgtYTd4V3Z4RDZfY2E1UdIB0wFBVV95cUxOakRIQVR3M3AwXzZSVGpCa3pjQkMzTmY4YWI5MnVCT2JJUEFveEdIZ2NseHhFeXZ0QU5zb1pIaWVnNjFFdFlWekU1T0tlOTJjaFIyVExrWDFnYlUwbk5aVzhCYUozeFduTmNQbkUzRnlXRU9kOTJKbzJ1aHZMeHNKaHAxb2Fma2VWdzFFRUJxbXZfZUN0bk5CZ0JsODV2YVhpTmp3WkVnN3ZCWmFNbmthcFlQRkNneDBtV1JnLWkweUtTbDZsbGVTTFRvT2NmTUNEekp3?oc=5",
+          "publisher": "ETV Bharat"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-d6e3d7c43b",
+      "lang": "hi",
+      "title": "SCO समिट में मोदी बोले- दुनिया में युद्ध-अशांति पर चर्चा: हम भारत में सिविलाइजेशन डायलॉग कर रहे; मीटिंग में...",
+      "category": "india",
+      "published_at": "2026-11-20T14:19:28+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "SCO समिट में मोदी बोले- दुनिया में युद्ध-अशांति पर चर्चा: हम भारत में सिविलाइजेशन डायलॉग कर रहे; मीटिंग में...",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVnBQbFc4NG53MU5uODdXQ3d3VHdreW5SNS0yZWk1SEw1cklKNnF3b3NQS1NUb0xWZnFPcTIxUWZjd1NadUtqVlhDNEJOeGRsOEU1M2VJOGJKd09LMGUyQTcxZjh0TFQ5Vmh5aDRLVk95T3B1QkhpblFvQnE0anBHR2dWSENLSVNBcENHNUU2Ynp3S244TlpWODdsRzJ2dFVwQllENlJyTzZudGZLazhiN2ROVGJsSE9QVXBENFU1M0tBdw?oc=5",
+          "publisher": "Dainik Bhaskar"
+        },
+        {
+          "title": "दिल्ली में पहले शंघाई सहयोग संगठन (SCO) सभ्यता संवाद मंच के उद्घाटन के अवसर पर प्रधानमंत्री के संबोधन का मूल पाठ",
+          "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxONmNDZ2d4LVk2N0ZuWDd0YkZ1ZEpKTDlQN015ZGQyTHhwc1RmME9kdG56b0tjTkt5RlY0dnRva0dYMGplcG9HZ0dXNkYwX055NHNrZXV0YnpFaWctNXJFaElVajQ4d2RpZDhlMTJ5dmtrU3RhNjNzMGRMMXZxbDJPWkh2S0pXcjlOaVNWVUc4UW5lRTZxbmtNVlF4Y0hST3gtRmh3LUxQUVBzZUpiVEh4SkNiZDlKUFA0MVVuNWpJVlZIVmpqRnZhUU90MXE4Y0EzUnB1b2tBRWZ5YzN3ZFo4UkY3ZnU5ODVjS2pxZUJxdWt5VHVLeFZrMFgtNURKRFlWRnpsMDltNFRnbXE2SnlHUHh6bVVpOThiSEZfUEI1ejFiZmRlbjJ0U1pzdjBYV3ZZNzZRY0YwUDdVTEF5eEVyNEY1NC1RdnpPVmxmWlhnbl9VSnh0azN0bjhwazEyLU56UjBrU1RMYUFyVWpXMmc?oc=5",
+          "publisher": "PM India"
+        },
+        {
+          "title": "पाकिस्तान के मंत्री को भारत क्यों आने दिया? MEA ने बताया",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSmctVVVDUGxOUGZnaWwzQzRXTXNaRnZBN0c3dEVJaUFUdElQejIyNjFjMERqcGVvSW5tZTM4MUpTWHh2RjJqZmtLSVJTUHY2emY5VEpJbkQwekdwdXNLbFROYnA0UTVvd0hPRk1BU0pzbkVIeG95MmR0dFZpaDM3LXZwTmNFNXJncmJQOUNrU2pRZUlELXF3ajFGVS1IejFLNkdYVEJfWXJYSkpzWXI3a2lJWFlMTTNRQW9uZE03Tk1nU0dCNmhKWVN0WjlxZ1BWb0FfdGpucHpxZEZM0gHoAUFVX3lxTE1GSk1uVlh4NEJKcGZlbTNUcmRuZ2ZJZnh3S19uZWFRSFJiMDl4TXV1NGZ3ZTc0VEg5NTdlVlFOSUJ5N2Y4MmhHZ2lqRzRiSlRfSklLRXJwcVNWZ0VHc1hPNHNSV2tlSGhYbkd3Q0g2TURWU0RnZzJzQUV0UmJ3T0hOcDNGZ3BsSG5IWnNJdGdjVmpXamNhUHh4SjdSWVNiSFJ2djRDekREbmNvLTAtcjAyRFVPemg0bDN5MHYwNUFGTWhhWFZqcEdqakktWldvWWZEUmVnSGJ6cTQ3MGpzSnBfcEpnbHFlVWI?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "हाथ काटने की धमकी देने वाले को बिरयानी-खीर, PAK मंत्री के भारत दौरे पर भड़कीं सुप्रिया",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaFdUMFlvbW1fREtyYnZoNkhYZHB4SjM4RXpCMWVOV1N1bnlKYzVNdFNQeEtUME1aREhraGR0UEZ0bEttaHZISlBaWnZYVzZjdDhnOUpMa1dDZFVfZTY5V2JHeGtfUUpueGtMMkhrVDZxMzl2c1ZRVDVoLWVoYXFJWlpxT1JBVk9wa3J1MUpVRUVRU2hiMS0tbm0weWVJZTZ4R1VjdkpmODFTUjZJTlp4dmRZMzZhUFp3aUxtTUdIZjlVTWZQTkHSAcsBQVVfeXFMTmlRMUZoTy10YzFyTDFvUW5CN2RYVWp3aGRYMnF2VVk0S3FHaEd1NktKeDhUUG1IYjIzWXBIS1JsRTNfNHRvSlJCeFBGQ2JjanNHX21mZC15V0VXOGFhbE41Zmx5OUprT0NtVkViakxXUEVSY3BOZ212N2stWFMyNWoyakg4UzVJbk92TXBtRTVqQU9xeUtBbWJ0VnFiT0h2Z29QQW02dDFkWUxvNkdvS1RlVHM5bW95V2hUeGJsQ2hRZC02N3RmYkpyYkk?oc=5",
+          "publisher": "ABP News"
+        },
+        {
+          "title": "ताजमहल जाने की इजाजत, निजामुद्दीन दरगाह पर रोक! ऑपरेशन सिंदूर के बाद भारत आए पाकिस्तानी मंत्री को लेकर बड़ा फैसला",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQM092aWNTdFFtR3pxbm1NQzh6WERpVzM3TGk0MVd4SUpVUWk4UElzTzJMUHVfUmZ3SDh3b01CNmRBNGVmanNHMUd4MTlQcjE4QVB6U3VhcU9aM3F4U2cycGtTSlg2MXF5OHFzME9FNzF5V2hESU9GZFY5eExsVkQwZ1FlQUxUc1VHVVd0OTU4QmZCMXFVb0xUWVYxVU05eklzR0xjZGhoSjltd0hoQ1p0a0JRYzQ3SjdETUFLOWNrakdELThNREhWNXhLWF9yMTBqeS1wUXZtV2d3SzlacDBmM04tWl9aUHZtT2hHcTB6b1k4cHZ0cUE?oc=5",
+          "publisher": "Navbharat Times"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "en-8347f3e434",
+      "lang": "en",
+      "title": "With schedule conflict averted, SA players happy to be part of ILT20",
+      "category": "trending",
+      "published_at": "2026-11-20T15:50:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "With schedule conflict averted, SA players happy to be part of ILT20",
+          "url": "https://www.cricbuzz.com/cricket-news/140987/with-schedule-conflict-averted-sa-players-happy-to-be-part-of-ilt20-cricbuzzcom",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "1xBat becomes Premier Partner of International League T20 2026",
+          "url": "https://m.thewire.in/article/ptiprnews/1xbat-becomes-premier-partner-of-international-league-t20-2026",
+          "publisher": "TheWire.in"
+        },
+        {
+          "title": "ILT20 Tips matches 1 and 2: Omarzai to amaze with ball at 11/2",
+          "url": "https://betting.betfair.com/cricket/international-league-t20/ilt20-tips-matches-1-and-2-omarzai-to-amaze-with-ball-at-11-2-201126-194.html",
+          "publisher": "Betfair"
+        }
+      ],
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
+      "reasons": [
+        "insufficient_value"
+      ]
+    },
+    {
+      "id": "hi-b3863f26b1",
+      "lang": "hi",
+      "title": "शी जिनपिंग ने एपीईसी समिट में क्या रूसी राष्ट्रपति पुतिन की उपेक्षा की?",
+      "category": "world",
+      "published_at": "2026-11-20T14:15:00+00:00",
+      "summary": "",
+      "sources": [
+        {
+          "title": "शी जिनपिंग ने एपीईसी समिट में क्या रूसी राष्ट्रपति पुतिन की उपेक्षा की?",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Fb0JPMU1RQmtURWl2WlBJQVN2MzljNFVnRDlDSFl2d25sRlJ3WEUwMDhFajlqWjBrVlNfcmg5WHR3dHUyRVU2Z2V5VEFSV3ZUTXdWZ3Jsam4wMFJB0gFiQVVfeXFMTmlabTFISXR3R0s5b1VFZDJXZnh3Uk50R3R6bE5ZeGdMR0F6MXJ4ZjA1WDV0bC1hQXJMNFQ1NWh5R3d1UWxjTTltT3R0bGdvR2tyS192MUlGWVo4dWZUeGZ3NGc?oc=5",
+          "publisher": "BBC"
+        },
+        {
+          "title": "भारत को जल्द मिलेगा वीटो पॉवर? अमेरिका, रूस और चीन UN में सुधार के लिए तैयार",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYlQ3bmRfZGx2RjhFc0lIZ0I2V0FQR2lQVUdSd1Q1dUl1WFJ0eUlZcWRLUTN6VXppUU0xN3JURFZTRDJxUjlzdlpjcHk5TU9qMEVnbXB4SnUyMXZvcTIwSHBzc0hvNW81Vk9uWk9wOVB1YkpUSzFpcm0xcHBpYlBScFcxWURhUDIyQm1laGt5cmFzQ2Y3NXBn0gGkAUFVX3lxTE1DTFZ2NmpDVU12N3pic0hZMldTZ29xRUJHTzg0UVhwdEtVQTlmWUlvZFdWbV81dDJQNktvTDhRLXFmUG9Kak5QMk1HTFVUMlpjb0tkSV91UXUzQW9kNHZLdFhoUWU1M0Y3enc1SzMzbmhjWWZyWnBSTmozTGducHVfdVhGb1g4VnBRb0Frd0t6MzZNQTZzeFl1ZlkwalhwdGR3dVpx?oc=5",
+          "publisher": "Navbharat Live"
+        },
+        {
+          "title": "Russia-US-China Meeting: रूस-अमेरिका और चीन मिलकर क्या दुनिया पर कब्जा कर सकते हैं, तीनों के पास",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNaDdiUTZoNHNQcVgwcHFSbFlsYWZYMWpCYUxQU2dlQW9ORHlJMHdXTW1MUUNiQS1nMnROTEU2QnFyT19SWElTcWQwbFNXRVRLUEU1RTA5Tm9JYWVncXk4ZWttbkM3Ui1DLUhZR1l1UmFkQnA0cmRVNlNEQUNnVEQxbnZkQ3ByUWVOMk1mS0k4WDl6aEdfeTNvbzZzVzg4bHJTTk1BbXpQSThJalktRGRjZDlNSHZaVFVwcGZvN0pvTFdJd0xxejQza01JTHlrWGpKYVRMbjhWWkpzQS1Ycm9FTjdvLXNweGlHZ2NiT01n0gHzAUFVX3lxTE9uUUhZOThNLWJjZmVKM0RYck5RZ3ZpQ0t1VVhDbUV3MTNieEV0Y0FVS3A3UG01VjI4VURnQkJtVDU0T1FFUjA1eUdHc1Y2cW1sRE11d21CUl91Z1JUMDF0aXBNd2N4Q3o1cG44WXN5c29MRHlpVzJCcU0zdFhfYWQwME5Kajg1VndwQ08wZEtHMjZ1RnJseEtIWXRWajZHZjVZT1B3Z0J2NVVzR01fbkJpZU8zWUZTSUktMElUVDktdTdnNGRWQWNsMkRuMDFhYXhrVjhkcXhFQlhRUGEwdExvQW1hMndrakJBTGpiRUxjZ0NHQQ?oc=5",
+          "publisher": "ABP News"
         },
         {
           "title": "दुनिया ने देखा तीन महाशक्तियों का मिलन, ट्रंप, पुतिन और जिनपिंग ने क्या क्या वादा किया, जानें",
@@ -3235,543 +3629,129 @@
           "publisher": "India TV Hindi"
         },
         {
-          "title": "ट्रंप से बातचीत के बाद बदले जिनपिंग के तेवर, बोले- अमेरिका के साथ रिश्ते सही दिशा में",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPc0dadVliLWtzOGx2emlJOUhTVEppNExWSmZfWmNmYTBqQ1ZfcDV0SlA5TVdXZE5tM2JsNHctMUVmXzRLUXlUclRfSXhyMUlCM3FNY0x2Rmg2dWdQa3paOTQ2dC1YN2ZxaTh5N1BHMy1pT0ZRa3Fxc2lFVnVmUWdwV2FHbHRrRFpqdHRfUVBBRkIyaWNCaFlLUWo5bVZFWHMxNEphTjMtLTZEemlnSTdWMllUV2l5eGRDZjFfMjZCU3l2NVV4dUFJTnpqVVV1VWNvWVNLZEN4NNIB3AFBVV95cUxQRU5YdFh0MWVud2UyRXFPSmtURGFudTBCOXdJNWdKSmdMT2w0Y29ZV0NsV2MyVm83eWZpeXh1anRMZXhXX3pWc2dub2paOHk1NmFwckQyZmhyb0hTSld6d1pYX0I4Uzc2X0tSQ1NHTVFjWkxQZHNhWS1VRlFyOWNaaXdzend2bDBVYVlkejROVDk0cjNnSGtXX2NPZlFNaThBUFRwZ1pHeGlSTHo2Z0VpYUl0X2h4WFlPTlkwYmRXRnlVN2Y1VHZOaHVNYjhlbmN3ZGIzeHpHdWZRSF85?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "शेनझेन में पहली बार एक मेज पर ट्रंप, शी और पुतिन, तीनों ने बातचीत जारी रखने पर दिया जोर",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOandZaVpCbXh0UlpkN2hlSkJ6Mm1hdmRtd2s1SzE2bjByODhGdEMwWXlJZVRDRkZCMHRBTkRaMG5sU3VPdlRXTHBYLUNHenBubnhVaEhrSUhpcHF5THUzVi15dXEyTFlEX0E0WWtEYnRXM2ZkdlJhbWEyNVpvMTRiSWNLVDF4ZFBaUWt2U2E5b0VteW9mYXRFb1VLeWRZcGNGNUF2QlFQcWwxRmlCMWhwQ3ZB0gG3AUFVX3lxTFBCWTFlTV9oaDBuUzJ5cFg5THVRaFZuVnFJQmtlaUx4WW1DYzdJRk1TTTNycURaVTNFVFp0emVKUE96bHlwLTg1bk5GY3RJTzFuUm16U1p0am5xQWttMWxnRjJPbnVXZW9RLVJnWDJobGlDbEZfckpPRmZhVVVkc1VQeHJaY1kyTzZMMDJzVmdkQ2xBQjZ3Q3ZTUDZQQnh3aE5PWV8zQ29aYnZibGFZeE11RFRvVEJxYw?oc=5",
-          "publisher": "ThePrint Hindi"
-        },
-        {
-          "title": "जिनपिंग के भाषण पर सो गए डोनाल्ड ट्रंप, सोशल मीडिया पर जमकर वायरल हुआ VIDEO",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUXlsQzdETDdzY2tKNjNHM2xCWXB3SnhINmtWcERmT2VOTFhFWnFRZnVSYnlGTjFuUkpGdkVhb040WTg5WWlIb1ZXRzBqN2diaDY1a29TUEQzUDRBZDJVMTVlR2Y0U1ZpTG52UWhRS0U2WXR3N0QybDM0V1paNDhqUGprMUgxTUhiVFhCVnFmdEd4YXlfb2xCYUNsT3hfTldRUjZ5V2J0UGtyNmVuVHZpQUJGaTg2NnBqOGU2SjJLdkV6QWdHdW00MGpUeHMtalBU0gHeAUFVX3lxTE1yRWk2Y3RpMjdlTlVJM1JmTVA5cTZRUkZfMDlhRzJVaVlZdUwxdWtCYjZUanR5ZjgyRGNZay1tVmd1UWpHNzBhTTJZeG9FUUktYk52TzB2SFBzYjRxc0hXNWVJSXY4MXBpTHJKRDF4cnBOOUJoVndGTHBtMVd6czFpTkdnYklzd1hZSXlsNGtuZUJObXBGN1JuaFRBTnB3a0hZUXFseFZvZm9DaVRrZ3ZIbGp6eExRR2pxZmo1UVk2RFd2Mm9lZUxkb05BdTFHd0hEYnI5UVdSX3g5dVFoQQ?oc=5",
-          "publisher": "Navbharat Live"
+          "title": "APEC शिखर सम्मेलन के दौरान सोते दिखे ट्रंप | ट्रंप बूढ़े हो चुके हैं: वीडियो पर एक यूज़र",
+          "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOSlIzUnFDdE43RzhTSUZCR2lIdHk5MU5zZTdvNlpiWDFmSV8wbU5MM0ZjbmxJUTdsRUVGemJKR1BIMnVlTUFCckpscVhrd2thakVuMm5ka2ZuRmZrQTFxN3FGX191VXp1amY3Y1NsT2dWR2NoZ24xa29WZjZRbzRFN0FyQkZmRVB6cklNYlRMYTlvWkpYU21UWFp1b25PN09CZWhoRTMweUxrVGpKam9qWW92OG50Ykd6RDdUODlTc25aT01aNUFxbXFVRHVhUmtYenA4eVpjRnJPclE0SF9FUDlYRmZjRW4tQUR4WjJPNkI4RjMzUm5DMTRJamJFelcyYUc5TVd1S1JFb2dXYlFwcHpsVmdsbUxrald2bkVyRkEtM242LWd5WUJDWWdLNXRYY29fSmlpYW55VDJ1LUU3aXZETUxuVkVDUmtuZ2VTelFMS0N6N0FYddIB3gJBVV95cUxNbmp5UjZCN2t5TDQ3ekFZX3BiMjBpNjhJRjZha2lBV21zY2xNY0JuUDhaSmV1Wm82SGhmS1hhNGFUQzNldUV2QTMzRmZORUdlbkQ2MWhxZkwxZ09NeWxrMjZLc29FWmhjbXRtdm1mWGdWM25JWkdSdHhhN0cwSTBEM25WWTRJN1hBdTJNX3VCcGRNdmczTVFzVkhEVlowM2lLWEY1ZVk0WG9NeXRzWnJyUmRBRlJuRUY3a29WdWF5YUtqeUZIdWxaWlJuenV1OEh1dFpudnVXeHJwUldDM3JNUGlpNVB2a3FqZWo1U21VSVFwMlh5UC0yWWFxdVlVUUZKUXFUcVJkLTJ0S08zcWxKRWhyVDhnaWRicXg3V25LVmtKd0RzeHRlTmhoY0RqR0R5N0Mta19MQ1Q4OTdvZ3ZSc1d4MFY0MUljVUFfUGlfQmZUcy1MWldyUXlweW5iQQ?oc=5",
+          "publisher": "Inshorts"
         }
       ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-ddd55a3469",
-      "lang": "en",
-      "title": "Nepal vs Bangladesh in England, 2027 schedule, live scores and results",
-      "category": "sports",
-      "published_at": "2026-11-20T06:36:14+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Nepal vs Bangladesh in England, 2027 schedule, live scores and results",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWm9TWE9UOUNiLTVlVlhvUmNzeGx3djFrZ2NuMlBCWUZINzBiYjBRYmN6YmxIb3BxQmk3c211X1RrcHd1VFhHQkZ4TDVXMmEwQkJrZXpkMWFCNTVVaGdYRm9wYnJrVDlTR1l0eHN4OFJwTml6R1B4SzdKZEZQT0ZhbGhIUXczWTY0WVJHZlVjZFZFa28?oc=5",
-          "publisher": "Cricbuzz"
-        },
-        {
-          "title": "Nepal to play Bangladesh at Lord's in June 2027",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVFVZW5VenFiNzVPUUR0YnBlOGltQlZBRF9uMmtsMlFXajh1WHRFczdHLUY0aHFXZW94M0dKRDhYeFYxT3cwQ2N1RGFFUWRtWHNMclRESFcxQTY5SVhmei1TTXhKMkxZcV8wYXkyWXRFZnBJYUdUV09VT2Z1STd2bmxDM3F0eS1KSUNjeWhrLXh3RmZQUV9KWXI1MGlyOXRSUnVkQUpB?oc=5",
-          "publisher": "Cricbuzz"
-        },
-        {
-          "title": "Lord's to host one-off T20I between Nepal and Bangladesh in June 2027",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeF9wSWdIaDdzSV93MnhlNG9vSHJtekk4MkhrTVZGLWViODhyNjNET2x1dVZTMEtnWjlVV2x3TkpkeVpKMTZRQmtjaUluYS1zSG5tM2JsOGZxSngwQnE0RzR6MHZiT2p4b1ZlUUlnRjJvQXVmZ2tmSkFyaUxmbFFFRmxsWU5HaG9oQ0lGSFZDRVctaDA4emxidVlFQUM5Vm1raUlMaVdaenY5ZEHSAbwBQVVfeXFMTWFTR2FSSHVUMnI2aW44My12ZnZNNnhxckN2VEctbG1ncS1handNZWlVazZoMHNlMm9jbWllalAtMmhVWGw4Q25yb2RHdEM5MnpfWTNMV0xqVGp3OXhvRlRKdVFsR2REOGpDVUpheHdjaXNQWURFRWdRUU95M3owemFSN2JoejJuVWZYQzljVzM2LVBWUWQ5WE93TE1VNEFlRUsxRWlpVjM2dU1UYUhwWElQb0MwMjNqNExQSVo?oc=5",
-          "publisher": "Cricinfo"
-        },
-        {
-          "title": "Nepal set to play at Lord's in 2027",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1zVUVvTTFzUFdyV21JVjBPTnY3UG5DNkhZbnFjODREX1FaOWNOdDVidGxWRDB1elBlTjYwQ0hza0FIdmtEZDRMdTFGT21QelZneTlXM2wxNDc1S0V2Ql9vOGhrLXJVXzNzZDVuNDNQN3ozN2FWNndr?oc=5",
-          "publisher": "ICC"
-        },
-        {
-          "title": "MCC to host Nepal and Bangladesh in a men’s T20 International at Lord’s as part of a Nepalese tour to England",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ2xTeUlhdmhWX3ZhUjgwazg1ZnhoU1poa194YzFid1V3Tmtxd2h3SVdkbEFKSkRPeHhGTmJ0dHpoWXM2M2VhT3BKWmZoeVA2ZDBudlJTTFZqVW1jbVh0M041cE1tYzNyanJNUzNWZ1NiSWJCajJjdjVjakpRU2NpbVd0Yw?oc=5",
-          "publisher": "Lord's Cricket"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-0ed9998c99",
+      "id": "hi-872550d1b8",
       "lang": "hi",
-      "title": "iPhone 18, iPhone Air 2 का इंतजार जल्द होगा खत्म, सामने आई लॉन्च टाइमलाइन",
-      "category": "technology",
-      "published_at": "2026-11-20T05:51:25+00:00",
-      "summary": "India TV Hindi: iPhone 18, iPhone Air 2 का इंतजार जल्द होगा खत्म, सामने आई लॉन्च टाइमलाइन\n\nAajTak: iPhone 18 और iPhone Air 2 जल्द दस्तक देने वाले हैं, डिटेल्स लीक\n\nABP News: iPhone 18 Launch Delay : iPhone 18 के कैमरे ने बढ़ाई Apple की मुश्किल, लॉन्च में देरी की ये है वजह\n\nJagran: Apple के तीन नए iPhone जल्द होंगे लॉन्च, मिलेगी 120Hz डिस्प्ले, A20 चिप और बेहतर कैमरा\n\nLetem světem Applem: अगले साल की शुरुआत में तीन नए आईफोन लॉन्च होंगे।",
+      "title": "Bollywood Security: 'मुंबई में गैंगस्टर का आतंक खत्म करो', बॉलीवुड ने एकजुट होकर लगाई गुहार",
+      "category": "entertainment",
+      "published_at": "2026-11-20T13:52:40+00:00",
+      "summary": "",
       "sources": [
         {
-          "title": "iPhone 18, iPhone Air 2 का इंतजार जल्द होगा खत्म, सामने आई लॉन्च टाइमलाइन",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMU9ocmNqaXUwdE54V2hnZDRiRGVGMGdzcGlBNHNkUHJtU0ZlZHhNM0FBaXJ2cWxhald2Nmc5bnd4c1Z1cDBUTWw4LVhLcXowRXptU2ljNktsYktwcVZHTTRiRWpzUkVTQ1J4a01LNUZnd1FMcWFtejRQdFpna3dxLVp0ZGhPT285VHBWcTN2SURaRUo1Y3JzVWJhNWdHVzNnTklQMnVMTWJlU2NFS3B6blBvUGFBV1doME8ybw?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "iPhone 18 और iPhone Air 2 जल्द दस्तक देने वाले हैं, डिटेल्स लीक",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX0ttSjQ2LXVLcExLZTFTeTdvYWxVc3M0S3RuOGkwQmh1azhCZC1TNWtldXRrbm9EUkRkbDVwMGRDejM5R2pWREFqdHdQbEVkeEt0OVNkNTlSeFJOYlQ1UlB6VVdjSUlwSjJlTzFodTFFY0hUSnNzQ19jWGNkTGJXSTJSQ3NEaDFWU3hkeFg4cjZPb05tWDJ4WS1sVnFaTGdQTFBXMTRkdVh4aG4yclVra1JQOE5QczdFUUJqUl8xU1lYaVRzMm5udEFlQndLRURKVlJ0UzhR0gHbAUFVX3lxTFBoc3ZZQXZJN3BVMVh1SlAyYWJzeFo1OHlCZkZHcExkc1RXZHZtLUFGQzY1MnhkTlB6dEMySUF1NlV1MTREMDAtQUVDbHR6S0ptU1BoZTZXUVMwNXJrQmlwdVMzTU9TaEItdzZLQWZKYWlDaUJzOU1GSUstOHFaTTJuQW05TTlKamJxUzM0WWd0ZUVPQ0hiQy03NW0tZTRoR2JFYTl0SDR0SGQxQ2tUVjNOVVBDdmdTcVZQRktNVkhYSXFJVkptS2hhTGxfSW81Z3JncXBuS3lHWUk5OA?oc=5",
+          "title": "Bollywood Security: 'मुंबई में गैंगस्टर का आतंक खत्म करो', बॉलीवुड ने एकजुट होकर लगाई गुहार",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPNzJMcm94LVcwdy03aEdIQnJYYnY2aVd0aW9JUUFFWW9OdThIZlVWLXpOVVdWak8yaldzd3lETExrLVA4MGdIekFGcnFvRmlsV0J4RmZKZG1qeEtDOUU5WmJWWDZVYlNnUVI1NEZPTTc3RmN4ajVUbllQUTNaZUtzQklQWmhtOGRVZHYtSjEyMWswbmxsbHdxX3k3QVZ4UXhDdnRQejkyVzUyYmMxc3Y5QXlQeGpvYVBobWplaTRic29jNmJfYVVYSVI0VHVMYUhYdEhOQ3V5UjFwRzQ1b1JyQWpRVkhXRWsxQkxnNEFvRE1XeEt6RU9PX3V0QUtyMHN1SVVCcHhDMkhLelVXOWs2Y1FHN2ZZOFNmNEJ3R3ZUdldfY1NHbHktX0ZjeEzSAbICQVVfeXFMTjVwOF96ZlZ2dTFjckNSR2JqeklNVDhUel9famNOaGRDLU02WFh3R0xUWUctaHZIV0pzVm1ZZWFNT3BOdXZRT0dkQzFBYUlwdDhCcTBrNUZvVTV4dm9FaGRCQ04tS0toNXAwd3hHLXN6QnBhUE0xRzVycGRJdUROcWlWeXI3MzdzUmQ1Q1UxdnBuOXlxX3g4NnBneVV1eTVjZDZQTDhqZEpYUkJqSDBpQTJTY3MzcGhsMWRJZ2tqcTdWQ2dUX0s0c2VtTUhuSWhLNVUwekRrVkNqQ2xPOXVVMmlZbDhvQWp3SW5DXzRueFloVEM5R1BHWE1UbnJjQ3JQcHpZNVNRaktmakVsMml5LVI3NllZcEhIYjlVbzlrSmRIb3RiV0twZndOQUZxcnU3ejVB?oc=5",
           "publisher": "AajTak"
         },
         {
-          "title": "iPhone 18 Launch Delay : iPhone 18 के कैमरे ने बढ़ाई Apple की मुश्किल, लॉन्च में देरी की ये है वजह",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOamk0MmFpNGpaTWU0dHJCNDd3RC10dWJaYUszVlEyQ0YyaXVaS0IzQ3UtY3lFVXVjbS1BdngxNmNJRnN2NzRwYnJpNWlSdjQ3WHBsbVpTd3FCVUNCYUVlckVkTTFMUVl2UDhVRTZBWkp5aVdjb25fZWJ6ZF8xOE9JZklLMnBRR3FDd19oa2lpZVNUZ1cya0MxcndSeXMyT05icC1BZFBRR0pxbnJBejdJYtIBtgFBVV95cUxOMWJrMXNmNU5mM19BVFZ5ald4TDNNZ3A4d3ByZVNaNWZhRE1qZlBWX2FJRk5EMEhxYUpmYVdzN2Q5Y2lmMFNkVnhMcmRNMnZBUjR6dHhjQVJQb3IyQWZWMjltN0JSNlZqZ2JKZi1HeFppSUtVTTFGcXlWazlaalVrR0pmYm5RN2d3TkJxY2dkaHNFUkJwcjFZR2lseXppNENoN2dlUTVJcjJqd1F1MkQzRTRDSm15dw?oc=5",
+          "title": "सलमान खान से अमिताभ बच्चन तक... बॉलीवुड पर माफिया का साया!",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNjlyUkFXeHNvWVRKVmVxbXJyQjVESE91dUF1YWJCY1czcnp1SkhaSkJtd0Y2TDlKSno1a0ZuNVlmUE10THZWdm43X3dhcmREd0VIUGpjaFBxb2tmdTBmWnVjOERnYlRUWUU5SDJoR2owblhPMnBSNEZQRWdGV3llSllZZG4ybkV5V2EyLWRiemVjQVM2aXd5el9wOGJXd19VTVNENTh3SEhCVXl4MkdHLU1aM3RBZHBINFB3M0p3aUtXQkp6R2JhRVFOcHNqdlh3clIzTUxUZUJKZzJfdzhEXzZvZ9IB6AFBVV95cUxOYlNrWTB5NTd3elhYcU9JRHB2MGx3LS1RWWRzUUYwVkhWMmtEQVRiVzl5T1ItRzhNSDhwV1ZJa3B0TWJEcldycnZ0WFMtNHJzOTdreGF2UnAwZF84Y3JtUjAwTEUtWGNuYXhENVVabmw5WHZFVTMwNHA1Nm83dHlETlN1VGJVWkRNMFVWdDdCTmg5MmYtVDVjUEgyOXhsMDVfYWZOenRHaS1VRHBTRngwaWJrcTNMZVZiV3hjYXRfZEhEVEZ6OXpKMmFRNGh0aUM5aE5YV2ljXzhSOUFuOGhiWUtPM21Tclly?oc=5",
+          "publisher": "AajTak"
+        },
+        {
+          "title": "अक्षय, रणवीर से सैफ तक बॉलीवुड में पसरा खौफ, फेडरेशन ने गृह-मंत्रालय से मांगी सुरक्षा",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOTzRULWFka1dUWk1OSF93MUJBZjl1ZFJDNENUZ0Y1elZySThPZWJmSDFqczRkSGVoTDJlU2JXNmNOQWxaSFJCTk9hbkxYM0hITExKTTFqZ1dKdTVLSDdIUkpVUlBzU3FLNy0wN0E0SnpMV0VKUXhsTzdsQ2xGWVJQSFlmUDE4WV9mcElsREhZVGlobUJzNmIwRnB5TVBJR21aYXV5UzZ1bUFUTC1GVkFDN1VvTFhxTkVSdUFoakhrWm1QUWd2OWZINnhZTnJ5eWdZMVlqeTgzRFFUOVhKVmxZZGFKMGtDeTJPcm1DZFVqNTlldjNZazlMVnRDUlZVNFgwTnJablhFeE5pcEFQVlAzSGVWbFp0ekE?oc=5",
+          "publisher": "News18 Hindi"
+        },
+        {
+          "title": "धमकियों और गोलीबारी से दहला बॉलीवुड, आयुष्मान खुराना-टाइगर श्रॉफ के लिए X श्रेणी सुरक्षा पर विचार",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRVhGaWlGZGwyazY5UndnMV9UbmlCNFlYQjN1Z1ZBaTFpbU5SekdlRWN0dEgzRVRzRnNqLWtWZmlkVnM3Z2ZGOWtpU2hWak5yODZWSU13SFlaRlRkZTdGS1MyMmpwT244RVZ0aGdTckU4VTRZWEFRTktIdTB0TnBQejJDZzdXVFhKMDFYTHkyeUxwSnFWY2VKb1A1SGdQMllPcEM0NHdBQUN5WVo0WW1wT2tQeXB6MTZUbUgtSVFPVU80OWxrMm1zemZQRXlkdXkzNHA5dVRsTFN1bmVoYWZ3ZnhfVlpQZw?oc=5",
+          "publisher": "NewsBytes"
+        },
+        {
+          "title": "फिल्मी सितारों का जानी दुश्मन!",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMTdkZTJVY2lLMUpYUzRXaE5HTm9XcGc4a2cxbVVVaDFXbkphN01iTFU0Z3lKNk1nbWs4RTVQTmFPUHNndEg4N0ZMamFoOUJlQUlUX1NZeHhURkN3YUtMY1NvUm1CamZnbWZHNmI3UWlKS3FORU9GWDJuM0p4MkhxcnR30gGHAUFVX3lxTE9NbXQyNGV5Q2pZSXZPUjRYWnotTEJMYUZScnVLUnlkM2JIZ1B2bVdpbnhXVFYzU250NHh1cE9wYXptd3g1WTlQNHM1SXhnQzFQREpzVkNsZHZGV3hLQmxqN0pYbTdEMWZ1RnFOeWE3Vmo2TXN4RVBFQWM4Tjdoanp5bFlnZlloNA?oc=5",
           "publisher": "ABP News"
-        },
-        {
-          "title": "Apple के तीन नए iPhone जल्द होंगे लॉन्च, मिलेगी 120Hz डिस्प्ले, A20 चिप और बेहतर कैमरा",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUHktMWVUMThYa2lnejFMWlpvVGl5YWtzcDFUaDN4bHZnUkpBMGluTUxGNkxYWUZacFpaU2ZZQkhTMS11M1RZTEFHQ2VlS2Npd2V5dFlvb3hjWkY5bkFhVjRSNFhxRHFLWG9MdDNCczkxNVJQOThpX1RJQ1pBcDJBTWdSRmRxZEllejBLbG81Xzc3b00tQi1tQmJFMTM5T3QxejE2Ukk3QVdvY0NQSVhfcUFydFZMZHB3RmZZNTUxd2hsRzlNLTVZLUthVFh0Q2ZEaFh6cnoyUms2RUxzZmhxazBHdzUwTDUyTVpFYUln?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "अगले साल की शुरुआत में तीन नए आईफोन लॉन्च होंगे।",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYzJFZFVteGlzd1ZwMTVhd3JPcjlrVkNfaXRRSkNidWU3UWFrQjhuN2F3eERuSUFTUy1HdkdBbXEwODJqT09qRXgybWstTVBSbE9nOXNPWGFKcW9XOFlJYm1vbk1EZUdvcC0xUDVmMzV5NFhVS1VqWGdQaS1OSlhiUURhU1hFSUFGOWNBaTRVMGY0WWU0d0NFOVBBWVluT3p6Snc?oc=5",
-          "publisher": "Letem světem Applem"
         }
       ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "en-c964a9c5c9",
+      "id": "en-57a017ade1",
       "lang": "en",
-      "title": "Udaipur Rajasthan Panchayat Election Results 2026 LIVE: Udaipur Zila Parishad, Panchayat Samiti, Sarpanch election result vote counting update",
-      "category": "india",
-      "published_at": "2026-11-20T06:35:41+00:00",
+      "title": "Leaked Dummy Units Show Apple's iPhone Air 2 Gaining a Second Rear Camera",
+      "category": "technology",
+      "published_at": "2026-11-20T15:25:00+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "Udaipur Rajasthan Panchayat Election Results 2026 LIVE: Udaipur Zila Parishad, Panchayat Samiti, Sarpanch election result vote counting update",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS1I5ZFhuTHhFcVFuYWd2Mi1KTTUwdkoyNl9YQjFBN1d4bkItUE1aRWdNd2xLal8wYVFaNGtfNUg3LU0wVTBuTm1WRkJuNFFXMDRqbnA4VHM5XzhLOGFaNG5hdHRnX1lDcWZaMFlhY0VUQm5MR0xKUWZOOVZxdzc5VW5MYXFZSHJNdmM4ekNzaE82aUlnMUNOUzdHaHp6M0dMRnE1WlRfSEFRZUR4aGF5U05UdmI2cExGNEpzaHdIR0JhNFMwRVlfOEVEdGVZOEdqekI4dUNmZU41MGlMQ1hsSGRWdWw1LUl3UFHSAfABQVVfeXFMT0FaLXhia290cHFpTDlROU5GQWVQc2dvRnFOWER2bjZ1OTVKSXkzazg3SDBUMUM2d3dKekZ6dTlVa2F2UFhUNzZDanByMnBjNWhIS2IxaW5KV284VG5sUXRUM1NWa2JCSk9xZUFqbzFoOVRSY3ZOak9HbElNNnJOZnBIMHZGRTUyaEVUbkF4b2E1dm52RDhGbnBrR05jOXY3cGRhdzA3bU5uNTVSRDFjYV9JQUJDRHlPTzc4eEdEUlE0Yy1jTEJjM0ZLMXE5dHB3d1BuYlpzSS1KVWR2UklxUzBmT2N3M0FOUnBIMnNiNkVw?oc=5",
-          "publisher": "The Indian Express"
+          "title": "Leaked Dummy Units Show Apple's iPhone Air 2 Gaining a Second Rear Camera",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pSzlzbWkxSjVhOHBwTWJvWExMTzR0RlQ2N0lQVldKQ3djX2JpbDNwb1dMVUNRZVR1VGN0SF9kamVXNnFjV2tpbk83U2tEUzRxaFltVEQ0a0dLcW5ibDM1VjlCaHhzbTI1V2U3ejFQMW9OOXlzY1E?oc=5",
+          "publisher": "BigGo Finance"
         },
         {
-          "title": "Rajasthan Panchayat State Election Commission Results 2026 LIVE Updates: BJP takes early lead as counting of votes for Zilla Parishad, Panchayat Samiti gets underway",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVVl4akt6NmpUcUVEa0Etdk1pV1Z6WlFkZUEtT0YxMnJPNVFiVWYtTVhsLU1HR2VnODItM0JSN1JsSDhUOUhucEFDQWhDZDZCb2tnUzgwTWUtQkFJcXZMd0I0TzhNampLd2VXdzFuMkd4czliWktKZmZNQVdsd3BBRER2LUVYWUtzSXRzZ0thNlpCeXpRNXZEV2hVd0EzQVpnLWJrTWdKb1VfemJnZlFPajR6aTNGMm5INEI2SmFRVmRtS3RRM2Z5Ty1fNG9ZNkRQQjBIUFBKN3BBalUwNXZSbg?oc=5",
-          "publisher": "The Indian Express"
+          "title": "Apple iPhone 18 Release Date: Production Milestone Suggests March Launch Timeline",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQWhKRTdjdlVVbDRHajREbnRBWlB3WDBmbThuSXlJVmF3VEptX3FlM1Z0NGh0VlpId2RDb19RQ0NkZEQtUnpmUmRzN0FWSkpIaGFoaGc1dGI4V3doSl9pTlV2MXNYZ0RwaDBHbGZqelhsVHM1cno1S1lvaV9RejRUQm9rZWVUVWROTXZtaUVrcGVfZFBBZFBXa1JHc0g4WDdHMUgxLVJELVJ6Vk9ZcUh5SDAtWU9sb3BRM3hFcENFS1JodWVwU0pSbkpjdXR5Zw?oc=5",
+          "publisher": "Forbes"
         },
         {
-          "title": "Rajasthan Panchayat Election Result Live: Congress leads in panchayat samiti polls, BJP ahead in zilla parishad",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQc2R6dHJGU0RJMnk0QWtZZG9EMjctdkE2eEUxeXVkV3AyYlF1Tmx2ZmJlSTRKeEZOQVdVSW5PekM0dVJFRF8tZmxWeXdVRzcwTjFCTWIxbFBNZHJ1Q0dOMUpCZzhFRF81dUFlMzkyYmRqX1c3YzZIZ1U1LVR1Tk9iRTlhRk1haFQtY2plWkVzQUx4SFQ1ZW9xSk5tLTh3a2ZXSWV6OUIyUjcxUWoyTnRHcXJtNUc1b2lkeHdSMU9RbGwtVV9ONjlhNnBocTlvOXJpMnRsREJ2VFZvZHNRa3VhSnpiX3lIN1Z4WUhfLWNnMS05ZXJKSkF1YnRoMA?oc=5",
-          "publisher": "India Today"
+          "title": "Here's when iPhone 18 and iPhone Air 2 display production will reportedly start - GSMArena.com news",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTdVOFNORXhMT25aZFBCYTB5cVlSTFFqSW9mYl9pMjZlYzFDT2l2WTVEbjRPZV81WXdKQjlPdmJJd3pnUE9FREhub2pZLWJOczkzVDRvandBZ0IzMUZBQnhHTmU0dWtmcHQ0a2o4bG4yRXFBZVJHRzlMNnd6RmRleUdoWXpoemRQbk9tWFZWZTM5alBZcGxhbDVzY3ZYajlYT25PNklkWlBIMU16VVBaN2lja25JNW1HMEHSAbYBQVVfeXFMUHJfMkFud05YQTFGSHR1bDZvVjVLYnBCWDY5ajVzRXFKckh0OWVhVzFJem9Fb21DY1JBcjljZDh4MGdrRWs1d1lORnVmNXdPVy1XNk9kWG9QejZhdFBoRlR2SkNrZ1lsQm9BeDRTcldXdmhHeWFmOFlhd1pGbFVuUEdkTkVRMEhfNTBna2lyOGZPQjdmREtLMTNoTWhoUWlVbHlocy1Zbk9iWlRNbTFmWnRJcE9Hd3c?oc=5",
+          "publisher": "GSMArena.com"
         },
         {
-          "title": "Counting for panchayat polls in 37 dists today",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdlh3WG9NSkE5bHFMVnpReFNTRG5vNy0tcHlZZnJ1V3paQ1FzZ2tiZTlqZTY0RVZjaHhITG1oQ0JMY0lOWnE4aXZpdmRKU2EyYlg3RlVZQVVaVksxMWM0eEN3S19mSV93MXItMGhXUVJ4dmwxSFM5aEQ0Y2lYNDIyUVUyWTI0dVpOeFlEbGFfRzQxUWJES1FiWWZ3aHpwSWV5a1EwRlFQbGpReUtaRFhuSjQ3b1FJd09abWNRaQ?oc=5",
-          "publisher": "The Times of India"
+          "title": "Apple likely to launch iPhone 18, iPhone Air 2 in March 2027",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRlJVeVpfbDl1OHRuRURrQVZkS2IyWm1ZZXNYQ1Zabk93eTN2M1JfdzlsSVBfNXBYaFFidEE4dzF6WU5vNW1zcHJkNkdycHZNZXBVZW1nWVNzSExEdzdhNlY4ZDR0dWFsZlRMeXZHNHZ0dXc1a2VzYjdZUE44cXk1WVEzTF9CUTBreldwZEw1dFVSYnlCckt6T2tucVZpUVBIN1hYTkw3QjBWMVHSAbgBQVVfeXFMUEFtclMwU2RQTjJ1UTd0M2ktVDdjVUtCTzRkMjZPOHV5UWlpWFpzWXpBQ21NYmJ3SGIzQWFxMy1LMmJiWGNsWFVnLUh2VkJULWczUzJqNHMtMHk0Y1RzR1J6S1I4eEZWN3dwT19qYjZ2Y3Rnc1NVZmQyWi1lbWJyR21SQWRrSzNjdjR5X0p6YUlwalJuX3FVV2ZLZTc3cWVOQ2RUWEdJVG01UGdYN2YyMkcwRzU0ZVFjcw?oc=5",
+          "publisher": "Deccan Herald"
         },
         {
-          "title": "Vote Counting Underway In Rajasthan Rural Body Elections",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVDFEMmh6RHpxLWNkUjh3NGZIbm5HTUFieUFSTy0xajRxU0JRX2twaElUU0hZT0k1R3ZxYkU3YzVDaS1Ob201Z0poV005bW92c2Jlb3dPZ0tIYWp6VDM2OWVqbmp6YVE0VDZySjVOVE5sSWYta3FKUHRlemJma2didW5TNVJnb2FDN3NTVk4wWGMtcHdGamxfclZUZXVQOUNNLTZmUmVB0gGrAUFVX3lxTE9xMDBKdUNaM1g0SzdLRm51eTFWWWc3Yk8zMmV4QmprakxmUWRyakNCOEpNcVZ6Y0hsSjRkaUI5cHRSZjhsU3ZURHVqZUZMVE84VWh5RFQ1ZnRVcnlvV1plRDN1TEJycW9nTUlBRUFRejBUWjFRZVQyLXN4Qzgyem5fcXhHQkc2Vnl3SEIwOF82dVdBWTdUcnZwQmRRMnkwVEV3ZG5MRDBLQm55bw?oc=5",
+          "title": "iPhone Air 2 Dummy Models Show Dual Rear Cameras, iPhone 18 Design",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNENjbWFyVVdCUGhySmJ6YXhpaVF6ZTRxbXZWV1N5WkpDQ3FYQ1NTeUFzN3lrYklydzE1MUlxVWpIeUtZdjBadjFjMUVJdWM2SHlGUU1TZTR0RTlubG5NaGpZSTc2ckJKTnhXSXluX2k5VzlOYy1lQ3ZoY1pBSjZMVm16bGNXQjZEQ0lwNHc2Sk1OV2lwVXVMTkFSS1g0a0ZlSFNIbGlEQjRRVjNTLXhPTmZnQW5IWlnSAbwBQVVfeXFMTy0tQjg0Rm1xb20wNV9tUzViSFFjWXVBbTk1OFJFMXl0bzlwd0kwQ19iSmFZUF9aUXRXSkFpbUUza3ZXcHRIRWZfN3doaEcySVF3aV9ERlVQdjR5YUpSVkRnRVJKVjFaY3BMTTVObTlaeVFXRF9WbFlYNGhFTF8zc3FkUE1wd3BVYUl4YmJoblJZbmdERHBPWGdsSFlZUllxRk1rTS1XM3JpeU85c2g3UFlyanM1ZkZMTE9RUEw?oc=5",
           "publisher": "Deccan Chronicle"
         }
       ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
       "reasons": [
         "insufficient_value"
       ]
     },
     {
-      "id": "hi-872f3d87f9",
+      "id": "hi-1adbaa8e91",
       "lang": "hi",
-      "title": "सेंसर बोर्ड से पास हुई 'हे कन्नम्मा', मेकर्स बोले- फिल्म को बड़े पर्दे पर देखने के लिए तैयार हो जाइए",
-      "category": "entertainment",
-      "published_at": "2026-11-20T05:32:10+00:00",
-      "summary": "दैनिक भास्कर हिन्दी: सेंसर बोर्ड से पास हुई 'हे कन्नम्मा', मेकर्स बोले – फिल्म को बड़े पर्दे पर देखने के लिए तैयार हो जाइए\n\nAmar Ujala: धनश्री वर्मा: तेलुगु फिल्म से अभिनय में कदम रखने जा रहीं डांसर, दिखाई की पहली झलक; साझा किया काम करने का अनुभव\n\nLokmat News Hindi: यशवंत अभिनीत 'हे कन्नम्मा' को CBFC से हरी झंडी, 27 नवंबर को होगी रिलीज\n\nABP News: तेलुगु फिल्म हे कन्नम्मा से एक्टिंग डेब्यू करने जा रहीं धनश्री वर्मा, रिलीज हुआ टीजर\n\nPrabhat Khabar: चहल से तलाक के बाद अब फिल्मों में दिखेगा धनश्री का जलवा, साउथ मूवी में बनीं लीड एक्ट्रेस, टीजर रिलीज",
-      "sources": [
-        {
-          "title": "सेंसर बोर्ड से पास हुई 'हे कन्नम्मा', मेकर्स बोले- फिल्म को बड़े पर्दे पर देखने के लिए तैयार हो जाइए",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPU19rUEFkZ001T2pjcm9NSERrN3B3WE9zUFZ3VVdxOTQtYVpzWjIzTzIyeS1YWkhwMUk3elFqYWhxbjVfb2VfMFhyb29aMmNyLVZwR0p4cmFPRzJUdG5Gc2tLYVVFakZyZExXWmlKWXpxQ3VicjZYaEdtb0pkM3NHN29vam1sdlFMUnVBVlhwU00tdnpuQVdKN3JaVGc3S0Z5M1Q3RmhNV0UwY0J3ZGlUVGt2emJ2Q2pZX3I2NnVLUWMzU3J2RnpZM1djX2hCdEVNSlU4UnRR?oc=5",
-          "publisher": "दैनिक भास्कर हिन्दी"
-        },
-        {
-          "title": "धनश्री वर्मा: तेलुगु फिल्म से अभिनय में कदम रखने जा रहीं डांसर, दिखाई की पहली झलक; साझा किया काम करने का अनुभव",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaWJzdlNocURfaFBFMUNKVzlvOGtQNm1yU2tudTNMM0p6S09BNDFHQWlQdUVVS3BTa2J5dXJWNmw1ZUZNRTN2NDBxZEg0WlF4RFVCNXdBRHppaDRXTGhIbXRNOUd1SUp6UFFGcGFEdHZ3dzhFV2hwck1yQnpqdmJrWnM4UFNBaHpKa0w4TWtSdWlXYTRWNnRETXB6ekZPRDh1NVBHR3I0VGdsLTZKcFJVSlAwMC1aUXdMS2JJOVFrTjRVaWFxelZGa3VEclJ2MXpYa3pHOWptMWZPN0gwcTNsNnczSHJfc3RLUXfSAe8BQVVfeXFMT1JCSkdnWnhFLWpxdlFibS0xSXNGVWFMU0QtdUVMRHltMFdzTlowc3NlSUhqakVMREV4SmMwaW1BWDY1TVk1MElYWnpGOW1HVmZmSlZHNWdhQUJTcVdobzllZWViM05JVVpLcUlmUHZJeFVpNl83RWJWZjdTNTFISTRqV0dTNnY5SXpwSGdzWmJJMEVDbDhuTXZmZ0ZNSk42b2wtdUJ3MmtQUzVEQUhVWFJURkY3QW1WUXVlYjFfU3I1YmJlZ2FEVEhiczU5SDJUelY0MENuZ2JmanFkS0t2cUU5WXdYQ1cxdC1YZ0dwUjQ?oc=5",
-          "publisher": "Amar Ujala"
-        },
-        {
-          "title": "यशवंत अभिनीत 'हे कन्नम्मा' को CBFC से हरी झंडी, 27 नवंबर को होगी रिलीज",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFlBTUN1T3ZaRmQzUklNMzd5VFJOd2Q1dlR2ejhSaUlmTHVRNmtiMUNyM2VMUkhZZS1vQXQ3NmQyTVljaUFBQWZFSF9wU1YwLXFQdkUxOUV5ZFRFSDlFSkhlQjhDUDlKd00xQl9UcnJGWW0xR3lyU3hiWWRfLUtKNERDaTBQbExTNi1laWdRVHVENTZ0bFdOMm5uR3hrUHlicUVrSnJ1TEZPN296Ykw5RFMyTkgzWjB5VlHSAb8BQVVfeXFMUFJRY1phd1F0RllYOWtoNGhodi1VeDI5Zmw2UGhhQzhWTGJCdHRJQTUtczNXejdfTDU3U2loQTB4eWpfWFI5eEJiNVpuSHBzZkp5YzJiT0o2Z2gtdG9HSGZRY2syQlplOTZwNlhQLWFfVFlCdUkzckkzeTZQNXNzRGJMNGJOLUlpXzNqNHRGR0VoSXpmdFlHRFBmTFBaZGpjc3FFaXVpNHo4S1I0a2FGN2NZamVOeWVsck1oQ3lBMWs?oc=5",
-          "publisher": "Lokmat News Hindi"
-        },
-        {
-          "title": "तेलुगु फिल्म हे कन्नम्मा से एक्टिंग डेब्यू करने जा रहीं धनश्री वर्मा, रिलीज हुआ टीजर",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNkRDMTJlMjF2QWNuTUxOcXM3bEQ3bjRISk0tVTdqRWE5c3VjZktNbmxoME5GOGZsMkN4Ylg4MFhvRm8wMGg2SjBvdUZ5dVRUNUdkN085aXVjUDM4bU1pV19XU0VkMmFJSmVwRXB2QmxaTGdzNEpmdzE5MlVfa3VGb2ZLbjBTU29TMGNCdjc0cXBOTGZjZ0JvaW91TWpjWGJHY3A2MEdTQk5FNmF5WTd3N3N3TDNfOWxsNXNValRuSHhITjhhaERvak9HdnUwd9IB0wFBVV95cUxQSE9pTTEtYWFhVG4ySU9BTzh0c2NOMVZYY05hWmNrUV9RckEwUHRiTzVydXdhQ01zNGpzZllfRTFXR3BTa19sUHU5NGJTUDJWbm82OXREYlF1MEIwT1BuLTM5TVdNSndMTF9mZ0taeXlRY3ZnWnRFUnZOOWJiU3RpOWJxa25sQXQ1ai05SVo2YWZTTmczWTZ4bDRiZXZBMjBZRnNvb1pfeWkxSHJnY2ZTek1tdGVkNElEeWw2NE5URlIwRTFfcGlrQ3FKMVhzbDZSUFRr?oc=5",
-          "publisher": "ABP News"
-        },
-        {
-          "title": "चहल से तलाक के बाद अब फिल्मों में दिखेगा धनश्री का जलवा, साउथ मूवी में बनीं लीड एक्ट्रेस, टीजर रिलीज",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaXRrTktjSGJHbklybVhZaHBKV0ViR3RTZUtmT2J2OXBUeDB4TlZtaVhzYTZLRXZrNHJjQWUzZUVvN2JyUWw3SVBmVE50TE84cndQOEZRNk5MVHNJUWpvS3FScGRMS3VtaC1hUGJwalNYNHZ3dWNDVXkxby1ESzlJcHlQVmdoR215cWw1S19hQzNtR1hyelVLZ0JNdEpYaFdnMEZjNDVuQl9MMHF6b2Q0WURWQlE?oc=5",
-          "publisher": "Prabhat Khabar"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-36966ae2c9",
-      "lang": "en",
-      "title": "Ashton Kutcher to become billionaire when Anthropic goes public",
-      "category": "trending",
-      "published_at": "2026-11-20T06:20:00+00:00",
-      "summary": "Yahoo Finance: Actor and investor Ashton Kutcher has a good reason to be excited about Anthropic's blockbuster IPO on Thursday.",
-      "sources": [
-        {
-          "title": "Ashton Kutcher to become billionaire when Anthropic goes public",
-          "url": "https://www.thetimes.com/us/american-politics/article/ashton-kutcher-billionaire-anthropic-ipo-5mg275l59",
-          "publisher": "The Times"
-        },
-        {
-          "title": "VC Firm Run by Madonna’s Manager Has $7 Billion Anthropic Stake",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-15/vc-firm-run-by-madonna-s-manager-has-7-billion-anthropic-stake",
-          "publisher": "Bloomberg.com"
-        },
-        {
-          "title": "'Kind of cool': Early Anthropic investor and actor Ashton Kutcher celebrates IPO",
-          "url": "https://finance.yahoo.com/markets/article/kind-of-cool-early-anthropic-investor-and-actor-ashton-kutcher-celebrates-ipo-200123416.html",
-          "publisher": "Yahoo Finance"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-018c3d34d6",
-      "lang": "hi",
-      "title": "कावेरी जल विवाद में तमिलनाडु को सुप्रीम कोर्ट से झटका, 11 TMC अतिरिक्त पानी की मांग खारिज",
+      "title": "नागौर जिला परिषद में RLP 19 वार्डों में जीती: कांग्रेस को 11 और भाजपा को 7 सीटें मिली",
       "category": "india",
-      "published_at": "2026-11-20T05:25:18+00:00",
+      "published_at": "2026-11-20T13:36:19+00:00",
       "summary": "",
       "sources": [
         {
-          "title": "कावेरी जल विवाद में तमिलनाडु को सुप्रीम कोर्ट से झटका, 11 TMC अतिरिक्त पानी की मांग खारिज",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQll1cENzVjllSlZPWDFUdGZGOXhzZmhiRFZobUYwWFloR3BWMVY3aDlZSjhuNFZnNDJyZS1SMFR2ekc4Y3lZTnhlSWtHaDZ3UkljQlNhdTdFWC1pOVc3akFWYjFzazdwbkZPUi1uM2pQanlUeTBUeENTVzY1NnludUw5TDRZVzJXUmtOdjhGamF3T2g1VnRMbmNzWHpSQU9OaEhMT3NZa0tRbkxEZlpBRnhTUm1mSTQtTS1QbFRFdUZPSXhzS3NoRGhVM3dtdHp4MVZJZU9XQTViUGUtRHhxc2N1WHFoMUlpbnc?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "कावेरी जल विवाद में तमिलनाडु सरकार को SC से झटका, कर्नाटक को पानी छोड़ने का निर्देश देने से इनकार",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObzlBV3FOYVBVUlktWjR5MFRNTkdaNXpuYzd3M2pWQ2xCelMzXy1LTlUtak54cDhmRWhzWmJubWpBclZTQ1VSMXlEZGFLNktrX2k1aGlvXy1MM0dNU1VwUy1qZWpRbEdPUmtwNVJXMUI1QnJkN1BEbGdBaVFDNUZxbC1EUHZjbW44S1FncWhPM3pYRDEtZ0tDV0JYUnIxSDF0SG9MalNUa3B5cWVaUC1aQ3ZWanlvcjJiVVlIcV9fRzRpbmdOS21YWEY2X1ljdWlyZlhScHNhSkxIZEwzZVhxSw?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "Cauvery Water Dispute: थलपति विजय सरकार को सुप्रीम कोर्ट से बड़ा झटका, कर्नाटक से ज्यादा पानी छोड़ने वाली तमिलनाडु की याचिका खारिज",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR1puMjFZLTlkSDJwWHNvTFFUd1RwMEtPVHhuaU1TcGxPNWdKcS0xT3ZGZWxSaDNEOGVXaGlJLXBCZGdPczQwakhBeE0zRXE2TXBRUGVaZVhqU0ZBZU5XT1c1Q1FtQ0tpSjBoZ05XQ1lmWjBjTGpFY25naGFMZ3dUSmlWTlU0WVZ1M3lJTzI0OWVMQ2pfblpEQTVXUDRVd2ViaV81bG1IZlN2bldsbTJ5blBkNFB5M0prYkNPeXpWaGZNd1FaalM5clg4Z0laSUNRclNOWkNVQWQzNXU5R24wTklsN0JlZw?oc=5",
-          "publisher": "Navbharat Times"
-        },
-        {
-          "title": "कावेरी जल बंटवारे पर कानूनी जंग: कर्नाटक से पानी मांग रहा था तमिलनाडु, सुप्रीम कोर्ट ने नहीं दिया दखल",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTUQtay1KTjVpdjlpYjdXWkRtd2dzME5XMEU2dFd6dnFmS1FxbWVrME5IMGZOcmdxdTRGWGZod3lJMjVvWW53NTNhZVpvcVV1SUlJTVJMdjBtQzdJTXFmcHlaUWZGejZhYVIzNV9QaFhicWRQNTVoTGllcUlLa29VSkk1NlBXU2ZuOTJ1VWdsLUdsdzl2RVRoUldGeDBUMDR0bmpzeXAxMHk4NHhVRG9aNE93LXM3ajEySnBFZDdDV05vbFlyNVZzSEhNZ0t0Mm9zSnBGN1hsTm8?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "सुप्रीम कोर्ट अपडेट: कावेरी जल विवाद में सर्वोच्च न्यायालय का फैसला, तमिलनाडु सरकार की दो याचिकाएं कीं खारिज",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNHlYZWZoUHU2cHU3aGR5M3Z1MEloNWVMbGZiQUNoVHktdUphcjZTeUdBSVRLTzdEVllyQkx6eHI2WVV1VVF2TDZFRGYydFU1b3E3cUpsVjVMZGJManFqS1pBajltUkQ5T01BUHFqanRTOEJtcXN3b0lOVTd1M0puYUdGNXcta2RrNUhHMWhzNkhqRWJWaVZSUGVEUmxtdjFwSWFRdWRuZFhMM25RSFlrVndzTGR4dXVvSTlQcFVMR291d1Q2UjdiTXRYRFhfMXFCMWk1UlUyY2tHNF8yenVkSi15NTkxY2ZDZEZFTlVB0gHzAUFVX3lxTFBZQmE1WVR3NnNKZTlrVndsWURrU0NyUlJkZzM4Q3pCcVRnbXVoNUczWHJTd1ZyN3Uxbm9zSWZCakd0ZEdycnl4U3E3b0dkY2ZJcGxNQlFNVlFTd1Bqa1BMS3ZhY0l0eENDRGY1MW9NYjVabFZDaHlQTmhpZ25qWG5DU1pHdUhaWTZtelBNNEhTQkZtd3JDWWt3SW9MQ0FEUnNrcWVkU3h5Umd3T0N3RVdYdzV6aERGbGE0NjA5OVFySU9qNS1TVkpybFp6SzIzT3lTdHNFNnQwM05iNlRMRnFuU0xHR0k1eXo2TjBxb3E5c2hybw?oc=5",
-          "publisher": "Amar Ujala"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-92aeb4cf42",
-      "lang": "hi",
-      "title": "एपेक: चीन में दुनिया के अहम नेताओं का जमावड़ा लेकिन भारत को आवेदन के बाद भी क्यों नहीं मिली सदस्यता",
-      "category": "world",
-      "published_at": "2026-11-20T05:22:51+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "एपेक: चीन में दुनिया के अहम नेताओं का जमावड़ा लेकिन भारत को आवेदन के बाद भी क्यों नहीं मिली सदस्यता",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NUW9HMTZzclVRNGhWWHlIS1ZZMnBTZHVFMXd5U2tSNEIwTDZXVTdnSTJteE5GeVhVY3c4NERESFF2ZlpGRjM1MW5JaGNuVlFiTDBwcGdSb1NfV19i0gFiQVVfeXFMTWNIaDJsQVZtbHhsX29vUWRNWHRZcmhFdXllNHE3NmtIcU5lVVM1RVBId3p1R1FJaHhfR0dOMHlhZGxqekN6ZGlyV2xfcEpjTnNDeDhTSnRhRFE0VzBJc2VJb0E?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "एशिया-प्रशांत आर्थिक सहयोगः एपेक के द्वार भारत के लिए क्यों नहीं खुलते?",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQalJJMmNhMy04TFhhT3RXUl9TaG5xckt5MkVGZzVPM2dsdG9QNDhjUk5qTkQ5emtwV0hPSlp1dThlX2pZMFN0ZzhfTjUwcVVTUWxEQUtmRkk2SHNrNnUxOXpQRlNpMWh0cnMzNzh3YkJxTTFKeVhFcHhYa3dhM3lVd095WEdpMFVrYVRRM3VybzZ0aUdDY0xzVFBsckctMm85Z0UycTd2R1EzVFRWSWp4Yy02d2JWTkZzSGJzQUYtZlFWVjdDc1AwNGRVVQ?oc=5",
-          "publisher": "Lokmat News Hindi"
-        },
-        {
-          "title": "33वें एपेक शिखर सम्मेलन में महासचिव और राष्ट्रपति तो लाम द्वारा दिए गए भाषण का पूरा पाठ।",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOFpxR0FsdU1CQkgtV3dIVFNJT092Z1BCNVlVd3pzX2ZkQTdSdXNrby1XdDVwVGFjTFE0WHlHVS11N2hvWGRVZF9vWWhNUXpMLVluLXR5Yy16cHAtYWd4UmNTOVNvNlBpdG4zNURibHRZNmJFTXJuckpyc0tuZVhQTlhKLWM2ajZGcDBTZ0J3c1BDeHpMWUwxRVAyMTlYQ1pJU2xuMkFwd1dfWkV5cGJDSU5aWEZFNDRVVUE?oc=5",
-          "publisher": "Vietnam.vn"
-        },
-        {
-          "title": "चीन के शेनझेन में APEC शिखर सम्मेलन शुरू | Tap to know more",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNaEx2WFRWNUw0TTZsSVhCUnRJcjB4VV9EcmVlOFpVS1FqVlFmQmxTM2RQUmpRcVNtQUYydzJIVVBkTTEwR2lxWU5tWHN6Tl9hcHAtVjktdURtLWozRUwxSEhhN21CSXR0bEtHbVJ5bzEzcjFjLW1wVkNjTkxwSGVwbWdIMWw3STNTaHhXVE05YVNhSkZieHZhVkY3a0dSd0hVZjZzcVRTS1RTbkZyZXJaMkxpak0xeEFpRktnQW15d2w2R1hacWc0RmtDUnQwTmtma1pJNUh0MEp5VjluSGlYd1oxZ0kwRXFJWGl3enh5MGNUa2F6OS0tYm1TLTFCQy00SVE2clpJVmtTTDhfT0Nwcy1rUWZmXzc5MWdBbWpWUjdFM0lDLXEzZVVvdTJfUU5OQ3lXemVtN2dHaGpVOFB3a3l0NktzQXlYYXhr0gHQAkFVX3lxTE1XS2dxZExfNUtiQVlFUTJjRUt0SWktcG1DRTZ1U0dZSmpBOHdCd0pnX2tLRnhsMlZXT25MeURVR04xeURTb0U3QVJObUNMeXZZY2ZZTlkzX1hpSndoTWNROEdYZHlRV1NjblBYb0FGUUlPRWQtbnkwczg2dk9Sa3VlM2FaN0V0anZIWUZJRGpDeWZuQTVfVUdBNkh4Z2JUNVFzZXBwUzIwSUNiNEVpRUtSeGJoWVpnaDZWWm5lVjZuaE15TnFXcTNMMm9QTWc3LTdIUXBKanFZLXdvMXQ4NWRxTy0xb0JVNVliTUNNX0tlWncxYk9yczQ3Q1JOVGxkbkg5bC1ZWWFQRGFZWFB6SUhBa2VDaW84QTlWUDVvRHZ2UFdyNUM1RF9IVTFBRTVsOEdnYnZtRVZ5RWhFcDJEcFkxM0FPdC1SSXV3b3JkeE5qXw?oc=5",
-          "publisher": "Inshorts"
-        },
-        {
-          "title": "चीन ने एपेक 2026 की मेजबानी के दौरान हासिल किए 75 अहम परिणाम",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UTlpodlRrX3B6ZklRUE53WlZFeURZMmdac2FVbG5MSDFJSEotNlNxSGZxVUtJSk5yUEhyclFoS29LQTliX0hrcGxfcEJYNXNOT2xEdHpIbFR1R1dDN180cDVB?oc=5",
-          "publisher": "CRI hindi"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-783b7dde64",
-      "lang": "hi",
-      "title": "अमेरिका में राहुल गांधी के बयानों पर विवाद, विदेश में बोलने से उन्हें क्या फ़ायदा होता है?",
-      "category": "india",
-      "published_at": "2026-11-20T05:19:25+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "अमेरिका में राहुल गांधी के बयानों पर विवाद, विदेश में बोलने से उन्हें क्या फ़ायदा होता है?",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1RnhHNUlSdmxUb0drQUUxaWU0YlgzRnplQ3dfUEpOMkJmVFowdTRvUXNRSlFNZWRzS3l6TThocTRoRjZ6SWNUNVM3S2FhSlpLTnc3TG9KeXpFcHVN0gFiQVVfeXFMUGhlTUhTamRQcTg3cVVCUVlyaU1IdGV4WTZIUHpBMWc1ZWlQc1BfUm5fS0dzYUxhRmhSOG81LWRlekwzRFdORmt0TFFKNHhjMEJHelBmN1hsNlpzVkNDRmpFVHc?oc=5",
-          "publisher": "BBC"
-        },
-        {
-          "title": "'हमारे लोगों की हत्या हो और हम बातचीत करें, ये नामुमकिन', पाकिस्तानी छात्र के सवाल पर बोले राहुल गांधी",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbkZPSTYzSTNDQzV6UHlCMmx5STdxMmYzSm9YM0JQX05ycHItRnJZNHpWQS1mLXlrbVBXc2ZjMFFJTGZZT25KQk9fSUZRUWJpQXg0MnhMeXNBeXJ3N2Z3bmxnQzUyTzFJcGVuTkF0WkwzY2tHZy1mUHdxY0Y1c1dpc1lScERWVGY3bWxFT2dDaWgzSl9YYTMtQS02RloyZGJ4cGFvbjdlZm1ySV9XN2tSZ2FnM0gxcTUtbGlrVWdSVERIRmVvOS1VVXJ4Z1lWbkhYMmpKUEM1OW9mT0RCdHBLWl81X1RmZWNfd29rZ05nWWNHemtTclc4?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "Press Release : Hon'ble Union Minister & Senior BJP Leader Shri Kiren Rijiju's scathing attack on Rahul Gandhi.",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVlVyc2Q3TkM3dnBfX2JDQ0RPZEdJVEdaYjIwR29NUmRrcHozaC0xdEk4Wmkza1JhUkk1NTE3RXpNb2xvWVN4VUkyTmtEVUVIck40LWNxdUVaRlBpeUk4YlJCY21zSUZxYl9MUFROc2lEaXc3X1hEVXota2lvbWtQUTE1YlNvQjlqWjFNcTVwR1pELWw0U0d1YjVzT2F1c2tva2RaVmw1MW56V2JBSEljX0tvWkctN1phY3c1QUlLY3ZXUm5BWGcwT05FQmEzYWZBYVZiNA?oc=5",
-          "publisher": "Bharatiya Janata Party"
-        },
-        {
-          "title": "'पाकिस्तान जब तक भारत में आतंकवाद फैलाता रहेगा, तब तक बातचीत संभव नहीं', अमेरिका में राहुल गांधी ने दिया जव",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVXNzdGNrOWlVb2h1NWtaV0lndUd5c3oxUXlXODh3aGNub250T0k4d20zZ3NyQkF0RnRFb2FOTEhpT3RlSzVmdDZHX2RBY3NfRGhXVVUxQlpwOGxGTFB1YzM3eFZvNF9IUVNHMFo3RHpUSVBmNFlkay1kek41RmpIWno0TGVwaTRYNFhDMHZPZ29rd0dKcEFtdUI5Z2xTYmUxRE9mclNKcGdCWWdjQXRkLXlLaHJXUkpOcTN3OHdYSQ?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "राहुल गांधी का बड़ा बयान, बोले- आर्थिक संकट की कगार पर भारत; बेरोजगारी और शिक्षा व्यवस्था पर उठाए सवाल",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkxfdlNuN3BXLWRIR2wwdTJLVkdfYzNxZTZZaHVvem5zMWtyQUctZEZmTGxBR0E4eHZmSTJEMmVaRU9mYl9fcUU0WnhVeG0tc0UyNFlUMTEwLV9lbmdTRHhzRGhXQW1XQlJTZE9KRnFFVmwxTkE2eThKWEtRMnZQNUJ1X3M2aVY3X2Y5Qlp3OFZ5Rmo0Sk56d0ljSS0xQVRXckplN01NS19NUTRVcHRocElR0gG_AUFVX3lxTE9NdFpGcnZ5aGtHdDJHMk8zdDhiVnJnUzlPUEVmVy1LWEhuck9kU1R3Nlk2aXM2MkZSdFN3aEtJUTdSbmVIblZfbVcxczJPeHE4amp4ci00MnA3cmhXSHhfMWZILUJab3JKeS1OYzJKNko3ZjN2Q1lLSTI3N1VXUFZYVk5KVHY2SzZqamJZb05BV2ZabnF0RVpFeGUtR3dWdTlJcVI1TWEyTzFHS2c2enVhbW5LY1Z6dEQwVVoxTm9J?oc=5",
-          "publisher": "Navbharat Live"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-e889562556",
-      "lang": "en",
-      "title": "Badminton - Hong Kong Open 2026: Loh Kean Yew digs deep for opening-round win over Chi Yu-jen",
-      "category": "trending",
-      "published_at": "2026-11-20T06:00:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Badminton - Hong Kong Open 2026: Loh Kean Yew digs deep for opening-round win over Chi Yu-jen",
-          "url": "https://www.olympics.com/en/news/badminton-loh-kean-yew-wins-hong-kong-open-2026-first-round",
-          "publisher": "Olympics"
-        },
-        {
-          "title": "Lakshya Sen vs Loh Kean Yew LIVE streaming info: Where to watch Hong Kong Open 2026 quarterfinal match?",
-          "url": "https://sportstar.thehindu.com/badminton/lakshya-sen-vs-loh-kean-yew-live-streaming-info-where-to-watch-hong-kong-open-2026-quarterfinal/article71721417.ece",
-          "publisher": "Sportstar"
-        },
-        {
-          "title": "Lakshya Sen vs Loh Kean Yew: Indian Shuttler Faces Stern Test in Hong Kong Open Quarter-Final",
-          "url": "https://www.indiasportshub.com/articles/lakshya-sen-vs-loh-kean-yew-indian-shuttler-faces-stern-test-in-hong-kong-open-quarter-final",
-          "publisher": "IndiaSportsHub"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-6f7b0f166c",
-      "lang": "en",
-      "title": "Oldest known rocks in Asia discovered",
-      "category": "science",
-      "published_at": "2026-11-20T05:51:59+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Oldest known rocks in Asia discovered",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ocVZLc2gzcEdIb1hjSW8xLUM1SU5QR0lyS0pEWHF4UTUyUjFOR0d0bWk0X0hpb3I2WWZJYVlnckhJemJOM2F4RGVteHpWUWpxRTBPandES0NPWGM4T3djWW9FZ1lmR3ZJRjE3Z2NubWZ1OXEtZUJneUl6eUJyUQ?oc=5",
-          "publisher": "China Daily"
-        },
-        {
-          "title": "Something Fundamental Changed on Earth 2.5 Billion Years Ago. Scientists Think They've Found What",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPa19nSXhsT2xOSjg2aTZlYlBSSFRfNFA1d1RSdEJKTXVwTk9zQi1CMnV1NUhQWXFsOVA5Q2dRbUdNZVp6QVQ3VHAwTE9YbnhHS0kxOFU4dkVtZUx1M3MzdWhmcFBwd3V6NkNjekpOV2ozaXlfNGpLdlFCal8xdlNRaVpzRzAtRmtaSmFOd01SUU1QeUhHU2Y2SmpXWWo5anBKLXhfS1NxRzZsRlZUMDkwQXg5T3pjZlhEb2JJOEtGYjJMTmg2c1NkQ0RDMjdzczYycDZ0SmhRT3pVMUpi?oc=5",
-          "publisher": "ZME Science"
-        },
-        {
-          "title": "Some of the oldest rocks ever discovered shed light on Earth's early history",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DVGdrbWdUU0tPQ3ZKUUItUWpYcHNzaDhjeGMwTzVENmQyYWFoUkdxci1YSVpWYkFmb0M3dUN4czF3eVJQOFpCQ1RwNWxpSzZtUmV3VVNZcjd2WDRCV0g1YlY1SXBTVnE5RTFYSHBR?oc=5",
-          "publisher": "Phys.org"
-        },
-        {
-          "title": "Earth’s early crust left a fingerprint in rocks for a billion years, then it vanished",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY29IWFhQNlllTUpZNFRVcmRaT0lXRDVEbDF3LUJuWV9MTUZ5NXZZbUhJOVJEckxNQ0dOSnVlWTAxRF84WGNoX2lUT2pTRGdSN1luM3o0OHpvc0pBRVdJbjVkQXRGZHZxVkNMT3RuZnEteHpYWXJsbUlBUTZnZEpjYnF1eVIyLS1kQTM2RVRBQWRXanNYZzlmZlZvbzN4SjRtbWI5MnNKN2ZDSUhldkNnemFUSEpQNU0zMlM3Qw?oc=5",
-          "publisher": "Earth.com"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-8c817cc1c7",
-      "lang": "hi",
-      "title": "चूरू में पंचायतीराज चुनाव की मतगणना जारी: जिला परिषद-पंचायत समिति सदस्य की हो रही गिनती, राठौड़ के बेटा-बहू ...",
-      "category": "india",
-      "published_at": "2026-11-20T05:05:21+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "चूरू में पंचायतीराज चुनाव की मतगणना जारी: जिला परिषद-पंचायत समिति सदस्य की हो रही गिनती, राठौड़ के बेटा-बहू ...",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZjUzSmtSX2lFUDluMERYZGxnR2RlRE82TnRzd3ZvWTZ1MTdVWWVsckxvLVowc2xfdEZfNDFuNTR2ajQ2U3lJcFhJZ3pnOHRrZV93YlpCQURmRk4wZi1HSlVqZ0VWcE5wU2RucEVfTzhTYlVydDQ2ZTRZZS1iQXMtSjhrNXlMVG9CMmxYWmRsOVkybG00elhQQ0MxdXpNVVVtQTlKWnFOV1Jmb29ZSkc1bEotZ09LNkM0bTFMQVkzONIBxAFBVV95cUxOYmdxQ0xHbVA0U1FRY19yYWRWRC0tcTluQkJiRFRrRkZiOTBCQ3pZUHRDV0I2dHFWUGZDaHBhTU5lZVFHSEIyQ1JVVUlESmNFTTY3YlF6NXh6YVJzYUQzdXlJLVlPMUNjQ1VqNVQzLVA5ZUZHdE1TZ3dzeVFRSmFFaTRxWFA0YldWaDdlOXpVZmNBeWxjT1UzZnlIVmdlRld5S1VCSnlSZjduWHdicmFYdWNhSnB1VEVuMVZpdWgzTFBsX1c3?oc=5",
+          "title": "नागौर जिला परिषद में RLP 19 वार्डों में जीती: कांग्रेस को 11 और भाजपा को 7 सीटें मिली",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdXJ4eHJkTkdIcGhUc05UbmVjTk03Y3RNbGJ5MzN4Y0ltSWlPREJjUVgwQmZlX0toR0NYcTNmWmNSZXVKcFk1TlBjWWpoZWYtY3dvWHVFZTNxeEg5aDZmOFU5aUJJZldERG92cW8xTTlINldNQ1ZVV3NOQ0otTGM3Q1psU3FOeWpJQjAzUmk5NGZkTlpjOTkxcFJaZDdTTld6LVc1aWdWSzJkX2ktcXRMalZYN3ZjS2EwQkt3Ym1mT19YYzDSAcgBQVVfeXFMT3dpNXAtZmtDc0N2UmNyRE1mUzVWRlNia3dYbDEtM1VwaWk4Ui00bzJBYlY2V2lJak9xVGlGbXByQmlqdFBhQkNaZGd5Ujc0eTV2RzRkaW1yb09uTlZESGpOcFN1Tm13LXYxNk44MUVyb0tyb3Z3Vk0tU05vT29iekJRVk5iY3I2cnFXcFZ5S014Z0xEX2xpMFZQcEpCT2d1RF9nUzdMdk1rSzZ6bEh6eGQ4T3o4TndqV0gwaDJuLWlyXzJvcGtiZEY?oc=5",
           "publisher": "Dainik Bhaskar"
         },
         {
-          "title": "बीकानेर, चूरू, श्रीगंगानगर, हनुमानगढ़ समेत पूरे संभाग का रिजल्ट जानें",
-          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPdDhIdjFQOGgwOEotWjRkWm1lNzM2RG5yXzlJWk1YY3lHVjBxMmFQRGZJUmpVLV8yc1dkRE0wRGpnNmJ3Rm82U0VWc1BVa1UwOWJWWGJMdEJRR05PbEZveTR1ZzY4bWlnUDBiMmJJUkNXdzJtNnRnZEJvS0d4SVJVdGNWZktXN0xQbjJvMXVUaFhJd3JReGUyQTFZNER1dFJHZmZTUER6SU9EUEZ3Z1NDTmNzdUFwNzN2ZGM4dG82MWJjdjNhZGlIZHREYWlPc2hVV2Vzcjd6cXNRNHh3dy1xek9MRXhTUHlxS19aQmdWYXVJQ3Q1MzFxWkNHclQ5a2VLT1dsZF9ETmh0bnZkc2JkaVRyU181QWY3ZUVBTDdrbEdhWm1Pb3VXRk95NGR0dnA2SlQwdmpzdw?oc=5",
+          "title": "नागौर में हनुमान बेनीवाल की RLP को साफ बहुमत, अन्य जिलों में भी दिखी ताकत",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNM3pPb29fS2x4Z2RTa2I3anRNNU96TVdOaTJlbDJZVU5lM1JkTTJwNTh6UGsxenVvZ2U5YVU4WTZxWTlHWVRPZld1LXZKOS1SQnV1cVVZaTNHSUhWVGQ0N2FWejhaV0FFRTBzNmFSOUdISnhLMjRvc2ltV25ydEpwcmdNWDVPTTNNZmlFaloxSlFmSmFHaGk0NEpMV3RRLVl2b2VneWhTb3poQUduMUhiTDZEZzlKRFZTSTY2NjVuNXJsN1pySzZlcmJB?oc=5",
           "publisher": "News18 Hindi"
         },
         {
-          "title": "झुंझुनूं जिला परिषद में कांग्रेस बहुमत की ओर, भाजपा पिछड़ी: कई वार्डों में कांटे की टक्कर; जानिए- कहां से कौ...",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLUp6TnlUeTRBX3Z1ODJ3OEhyLWc0ZG9mcndOSWgtUTB2QVFsZjBfOGlNMXoxc2U4bTNQbzM2c3lSZUNCMUpBX2t5cGkwMTN5RVY5Sm0zV3puLTFzaFJYRzUwcl8yRHR6YVlRUHVCMkdzUjktRk84OGtqbnlKMG9BamRfa05aVG04VnVIMDJILVc4NTlpMHNBbUZUMHU1YmE1b2RlMTV1ZVVKT2dXS3pVZmp1cE9DY1M0MnBockpGTkJTYm5QZzVZQXpxNm10eUtSaVpRY9IB2gFBVV95cUxOcnpKX3NuQzRuMENCV09kQktYdFJjRFhlTG5Sd2ZNZG12UG5ueUhLdXYyT1hxVW1zV0hDalNxaTVwNFg5VkVoOEZZaDNRclBVVlFwWUZoZmM3SThTWktleVdJcFFXQWFscXpqcVVzdWg0eno1M0hVRzZfYVJsOTRfMzZ5dmpMTGh5b1FKWDhnclktT29Cdkk1MWlGYmVoOVJSbFU5Z0NkNHcwZ1RMT090MVlfS1Q3X0xMdEZwU3E1emVkNlNxcVRKTl9hcDNpTGdobHlkcGRiSVBoZw?oc=5",
+          "title": "राजस्थान की जिला परिषदों में क्षेत्रीय दलों ने दिखाया दमखम, कांग्रेस-BJP को दी पटकनी, Jaipur Hindi News",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxObjJRT1NZZkJzTWNsN18weGpXSjhiZjZDbkxaak5vdHByajRRVmI3Z2pEY1R2bjFqODJGQm4zU0ZvcEdUUUlxZjBySWZNVzgtS3BkcTloTmFHZWFnOHRydEZkTVJkVUJiSDJZajIteE5TLUd1YTZqYVNNalQ2bVJMZnRtODdCdkdQaldzSW5xRHpfeTA5N19Gc1lObnQ1M3gwYnZrSjVfbkxENmplX3h4Y1hVWXJWdnNrdHJLeE1WdnlYZktFMTZSMUgtbm5PVE12ZWM2TVBnOFg1SHZCc3VBcGJzWjcwcnliRnRrTG0yaVhfMFZSRUFHbkdZTGp1MEwtQmVhZW1ibGpfeDA2Ymc?oc=5",
+          "publisher": "Hindustan"
+        },
+        {
+          "title": "मेड़तासिटी और मेड़तारोड में किसी पार्टी को नहीं मिला बहुमत: मेड़तारोड में आरएलपी ने जीती 8 सीट, मेड़तासिटी...",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN3p1dDJaanNNWVBicDBKY3MtZmNVTERPMmx1VE9LSTVRZXZxUUM2QXRkU2xwY1RSZm83VzlLTXlySFhmdldreEZnN2xXcWdOVTFYYW5ReGNvektSMS0zOXpxOFdUdmhrajhwMWs4S1k0eS00bjhpVHdtcEZPbFlJRVJzOTEzR2hPbjJ4Wmt5STdFWThYcVItWTY0QlNod2R4M0dYdFI0c3cwM3JVNWVTcG42M3ZCazlnRV9sODVrSzFMaEJaUjdsR0lIbms5RDBCWEHSAdcBQVVfeXFMTk5Wc3N4X191TjkxaHJzQWh5dWlMMm01REZKQ0UwZ0hCUVhfV29DemQ4Y2VwU0s1Z3ZQT2dTS040a0tKc2FlYUEtUHhyb2ZhT3UyVkdDNWtXOU9GT1BJekdzRV9nZVctbWpGWmhEZndqYzZOVlNGTWZ1RGdITkNRRmgzM0dmdGhoendNa0ZGa0llMVE4X3Y0bVc4aTFtNmRNdnY2YnIzdG1RYkdQc3FxZEJEaHpmUnREMlg5a3MyWVJlN3FSU1kwUTkxTk8tX2Q2ZW5Cc1pWMlU?oc=5",
           "publisher": "Dainik Bhaskar"
         },
         {
-          "title": "धौलपुर जिला परिषद चुनाव परिणाम २०२६ : वार्ड-वाइज नतीजे | Dholpur Zila Parishad Result 2026",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQczZXYnJiRlBvbnNESmJ0Ujg3Z0tVbUcwNm0zTkEyVEJRNEVGTTlFNE1pNnpVQl9hNzBCeF9WaVMtUkdnMjdJMGxwMWhGYTlDOW95U0RmeUE2WDJYZ3d1X19SZzhBNFZfc2ROODBEazE3ME54UnVSekNpdGl4RW1sT1lQdFVUcVZCQzRIa1dKUHgxenBNdzVGRS1Ea2Z4LVNYQUFYRUViM28tVEx5UVlWZ1J1MTM?oc=5",
+          "title": "जायल पंचायत समिति चुनाव परिणाम २०२६ : सभी वार्ड के नतीजों के अपडेट | Jayal Panchayat Samiti Result 2026",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa2otUzZ6RGdVT3Y4RFo5Y1BxX2FVOWxQS0UzM1hZMDdYNnoxdEh1LTRTUk9fNlNmcGxERWIxV3AzRlR5X1pxZ0x1dzdaNzFRN05pcDFFSWJBTld6cC1yZWJzNmY2S0ZOTmZ4N0Mxa1Bya2FkVkNKd2dKX2UwR3pZeGhOeFU0SElYZmNrY24telVYdDhwNk9Udm5QSWMyM01vU2docUhEQVFQZW9uX2hGSENQbw?oc=5",
           "publisher": "Jansatta"
-        },
-        {
-          "title": "IAS टीना डाबी ने तैयार किया फुलप्रूफ एक्शन प्लान, टोंक की 8 पंचायत समितियों की कौनसे कमरे में खुलेगी किस्मत?",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaEI3dS10Zm1tM09CNlNuTDVxdEtLRUVpVkNxVkhSMEprYkp2bTVoTHQ0MTBTX2VqT3pWb0lpYzdOM2ZCcEl6eDRtTTd6djRfM25DSHNEY2Y4ek5rWnZUMEZ4emNUeV9qaXVfaTFHSkJwTVE3aHBOay1kQzJOT1VJTFRaM0t2TXpySld3WjBucVZtbnN0LU4wQjBCSWUzdHZ5djZuaGVpNnE3bmxieTY1NllFN2dGSlR3djh5eEZhX0xFN2ExX3ItLVhuaVE0RWV2WFVlZmE5cjQ3YzRmOWY4Uk1oaWJtSGdIU29xM3pLb25KREk5dVBz?oc=5",
-          "publisher": "Navbharat Times"
         }
       ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-6a3c50d45d",
-      "lang": "hi",
-      "title": "आईएएस अधिकारी के परिवार ने जयपुर में खरीदे 64 विला, 24 की कीमत 11-11 लाख रुपये; ACB का खुलासा",
-      "category": "india",
-      "published_at": "2026-11-20T04:24:00+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "आईएएस अधिकारी के परिवार ने जयपुर में खरीदे 64 विला, 24 की कीमत 11-11 लाख रुपये; ACB का खुलासा",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNV8zN09LMWpicWJnY2kzNk40T2RwbkJ2WWk1UUNHZF96NDZvSnBJU2c2QzViUWFXaERweHNjdUpXMndkY1N6QjFXRk1FOGlaN0pDZmprT2tNSTEwMWZ5QkVSQVhoNTZta2FsQVBVbUpOWFpzUFpPOThMbzU3bDdNbjVqaDE1TF9RdVBBenB0OVFnaTZTYUdQRl84aVhXSkFPWEI4WDB0eWV5MVJmQmtGMVdwUDgxcERORWVKUTFNX2tSWmhCUXpqM3F6eVZ5bTJBMm5oejdEaFpoMENpMGpuS2lpaHU?oc=5",
-          "publisher": "Jagran"
-        },
-        {
-          "title": "राजस्थान: IAS शिखर अग्रवाल पर ACB का शिकंजा, परिवार को सस्ते में दिलाए करोड़ों के विला!",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTDRRQ1c2VkpjaEFHTzN4OHNyTzRxeEpTNnhybE5hTWRzTERSSFZuNVVMMjI2WU1LSlUtcGpwcGl2M3Y4bWxoalMxWTFURU5hdGk0YzI3d05IeWtBQkdaZUc0cHNzaUJJTUlPRVh4RXdoczNNd2VOU293TVZFN3Qtb0Z0WFNyM0ttUExsUHdxX0FWMldVNmJ5aWdNYm9iRzFvb2dfSUM1SFJvcmFTdU5wZmVJcjlUejRURzY5V0FwT0E2YUtaLWdSZkZkNVljd9IB0wFBVV95cUxPZTh3eFpHT2ZqUVphZTVTN2pGVmxQanE4OC0zQWx2NHVvRnVGcm5XUFJwME90UE1kOFFvak1sYXZQVl9YRlBfSFk4cnhCenFybmY5TVFXdnc4eWpaRS1VNkxQVUQxdmJRTlRNeHJWXzA4RHFLZnFsMUVlNHFza29BUWNUcFY4d0FuVVN6ZXJ5dS1oQzRTemhPRzI0dlpWOU1YOUt0OUw4SnFOSjZBNDQ2X2dieUVHbmVmYTBidy1CY3pCODJXc2tUSFU1UXk1TldIOTVR?oc=5",
-          "publisher": "ABP News"
-        },
-        {
-          "title": "IIT कानपुर से पढ़ाई, कई जिलों में रहे कलेक्टर, अब 64 विला के मामले में फंसे IAS कौन हैं?",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZ3E1YkZURjZ2bFlBaXNYdjRTbXd6T19vX05hZXJtRTdReGxKVFc2ZDdSLTUwVEpTckJMdXBvVnFCX1NEeGgzQWJwMV93RGRUNDN5ZjFkZWRlTU1LTlRXVDNKNDR1c0pJU3IzUFV6d1k0amNTRWEtd0xHS2h6NGRJMWNKZU5VYUJSbHgxUmhvbURnaXpnZUJxa3UtdXlOQ2NlT2l0V0Zwc0s3dGxaOWZNVVRWWGlIbzE0eGFmM2JmQ1RDYTAxWDZySWd3Q3MzdlA5ZzJna2VtT3lpYmVpeDJtd3RfdTRzUkZ3R1VSMHRKSlpDRlpqU0hLNVpydw?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "शिखर को राहत नहीं: राजस्थान हाई कोर्ट ने कहा- गिरफ्तारी का डर तो अग्रिम जमानत याचिका लगाएं",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTVpVay1Yc3dScXhacTNjWVBfRnQ5OEFNbFItSU45TjF6LURSUzlseEhwTGV2UkV5OUlwSU02dU55QVk5U3I5b3YtLVF5R09sMV9zMDVYYUxCaXZhUE1lQWV2WmFwNWVkZXFJMDhIdmJjV0hvR3ZNa090UXpoUURkcVhod3k2cjBPU01taTlJUDRfaHRlU1ZtZnVDYXFNbW5BcjE3eVJBa1dybk4zUlpTWl8yRnV3OTJ1OWxwWlhDUkdDREMxSDhQaXY2N0YzSXoxdjJIMTl3dDlYSVnSAeABQVVfeXFMT3RyZmZaWHpmWnpTbG5BdXBuZlkyN1RLbFR1X1hrVzVreUotVnEzdElNVnpUbVBGUm4zSVBiSkZLUTdidkVVWkZMbGZ2MTY1WHN1UTZwTTNmN3NNbko3TngtUVViRGk4djhqUHdINm9Cck5NdzZJNjFjcjZrQmFQN2tHcDNtVVVJejlvcGRMTC1fbi1SWlgxYTNoX1RvMTlxZ2RwWm5Vcjh4U1FZOEZ5eG1rRWtZRTVqT0ZsR20tc0dDS0pXaWZZZ1BiRWpxaWVoLXZ6ZUNYbVJTQk5lVTM0TzY?oc=5",
-          "publisher": "Dainik Bhaskar"
-        },
-        {
-          "title": "IAS अधिकारी शिखर अग्रवाल के खिलाफ ACB जांच की मंजूरी को चुनौती, राजस्थान हाईकोर्ट ने राज्य सरकार से मांगा जवाब",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQ2xLWkc0VW9Mb011LXQwRTloYWd2RFYwOF9sRDdxR3RGdGRLRzRBNDhyd1l2T3FNT0VFdjhfZXRFRktLWlpEWkZmU3d2WjVqdVNwMTFuMUloVFZjWTQwX3pqWTk5NHRESzF2VGVmOE1VS0ZvMVREOGpBMC1ITFRxeA?oc=5",
-          "publisher": "Law Trend"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "hi-8127a6e3bf",
-      "lang": "hi",
-      "title": "राजस्थान पंचायत चुनाव 2026 नतीजे LIVE: शुरुआती रुझानों में BJP ने बनाई बढ़त, कांग्रेस पीछे",
-      "category": "india",
-      "published_at": "2026-11-20T03:52:24+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "राजस्थान पंचायत चुनाव 2026 नतीजे LIVE: शुरुआती रुझानों में BJP ने बनाई बढ़त, कांग्रेस पीछे",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQLVVONzJFMVBZVmt4U29zazJPOU9TdXNlVjV2MkpqYWVRMk9YSkxycVphY3E4RTJWbmdMS1BvWWFwdnR5WW9OVm5kNlVKZjVhT1RNaF9sZG1zOWxGMlpMNG8wVVhaaUo4azZGM3FKV2RsUTRaeFRWeDd2Y244eTJPRXE2ejBpQ3lpXzdGemQ1dV9fS3NzV1FFVHhPakJIVzVtZlVoaDlhUWVoTlNXbXpSeE5ib0d4bXc4djRYQmJoODBHTW1xQUJPajltYjREVHRYYlgwZGZCQURNb1k5?oc=5",
-          "publisher": "India TV Hindi"
-        },
-        {
-          "title": "राजस्थान पंचायत चुनाव नतीजे Live: पंचायत समिति की 16 सीटों पर कांग्रेस आगे, पिछड़ी बीजेपी",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeWhlcy1VNVpiZEJkdTQ2ODVfc3FKSWhXc3RMRUNwTkVGOWtEQlljalNkU1Y1dW42dDlSRS1NTDRaUEx3RUY4bklWby1XV1BqMjFSWEtET2c2RjJYdkp3a2FmQWwyQXhndDU1RDdDeThUVFMwQWNUUmM5UjRuM0w1a2Z0R3RUVHJpVUpwM3lJc1BVbkhKdEc2U2s2OF9TRVp6MlVRMDlqS1RDQzlaQWlTRERvZVRrNG44aVZ2UUhaTk95ZTBQc194NUVGOXhsZXJmNXfSAdcBQVVfeXFMTlZwR3V4QUhBOV9oTm9kTlBiR3FTRVU5cG1PUHpvUGxCTEwxd0tiVDAydlFQVGxlWkYtN0xrSk5UQ2I5UEhYTmlTWGZ5enA4TjFUT3I0dlJ6M2p3NjlORjYxWTBCV1FyMnd5M1loWW41czdwSmZHS3RYTlVJVUNVRmF5TW9xZXkxT1h3VDRaajRmNXVRUzdpeGkxM3pYNXQ5UFFvRVM5b0dUandrSFdtZnItQ1NPbzZlSEJPZjVfdEN3S3lEMGUtVUU4bWpLUkFCaUhNYXh3VXc?oc=5",
-          "publisher": "AajTak"
-        },
-        {
-          "title": "Rajasthan Panchayat Election Results : जिला परिषद और पंचायत समितियां की काउंटिंग जारी, पूर्व मंत्री प्रभुलाल सैनी के बेटे मनीष ने जीता चुनाव",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQ2U5ZkozVXlienhfbEU4RXF2QVNSS0dGaVFUVG5MdkM1VkdnMW5XQlZKcDE5cGlEZi05VHVnNm5xZHBtb3ZQeHNDbFNKSk1wN0tETVlodnZ0dEJxOERiOGhUeHFzZHBiQ1VvT3dDbXNFQmhacVNoalVFYXQyRVFhVGp0cFhwbk04TkRLV2FhcXlDaUdTRGE1VHNqWUV2SF9CaHRGREdSUG9PUWR6WE8wV2syX1M2T0xERlYzZ0JQdzFpdFhhaUx4ZDY2S2RwOG9wVFIwRExycWFtVlBYOENseEExWGhQLU04WjhJNk1RZXF5VlliRXhZ0gH8AUFVX3lxTE0tQ2gtQVpOeThBUEJSNHhlWlVGU1JlSnZLRGhrMHVJYllBTGRyTmFDQ1lGT2lrTlJDb2ZBaENscGtUelVjN01xMWJkWjhiaG04RjdHUXdRcjJHUW0zeVU2QTdXclFETWR0ZTRUV0liZ0o5ZTJpNEsxRGVWcXN2X3A0ejV2LUxTMXF0cHFBZlUxYzNXTWljbnp6eXIyMU9VNVZia2FERU5NdGNiU2tUcmtEVFVXV2hGVloyV3NJcU9FS3ZGUWl2T2lsQTZjYUFaeWIwczdnMFdVNjFYOGl2VUJUQUt3YUExbDhHVkdySlNHd3NBNHNfeUZGRGlUeA?oc=5",
-          "publisher": "ETV Bharat"
-        },
-        {
-          "title": "LIVE: अजमेर में सुशील कंवर पलाड़ा हारी, कांग्रेस की लक्ष्मी कंवर ने हराया",
-          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPQjJTeDdpRnR5dy1ydFRPdF9IT2tqVnpUeXI4NlpXWmcwZ2lGY19wV1N6NXRfcTJ1dkRXU0xSSE9ZdFVvOGVNRG1qV0hvZFU0NDJYbWkyNGlzVzFJRVJoQ3BONUlhczRzQ0RXaGtCem91NzNPZVBCaGdzdWlNSkVOX1NneGxTeFliX0FISXJnOGtwTTJWZ19idXpFTFpkQzVtaHVaSVdMOVB2dl9Oa0NoR2RXZzhQcWtuNHZZT0lEOTkwQjY1T2ttU0Q0RFllNGdqZ1Blc2xVb1EzcXhwcXlTTXlnWGtuWlluNWNrSURzUHZxaVlNR1BtT3h2R1hLaENMT0xONWF1WVdWLUVXVTJncGhNMnRrdHYyWklnUkptTzIwMGhrS1djZm5Sdzg1RnVMdVE?oc=5",
-          "publisher": "News18 Hindi"
-        },
-        {
-          "title": "Explained: राजस्थान पंचायत चुनाव के नतीजे क्यों अहम? गांव की राजनीति से विधानसभा चुनाव",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNT19vZTNsQkpTdzRUaTFqNVlZZElnUGxvWDl4ZXBQcHVQUjJvelc0SXRmVUhVUzAyVUF1OVRZNlR6Y3RYcm1YUkE2UjByY0dQcE1HVDRTMEgzaWlPNDB5QmxMamtMR19DeEtNbDdDT3F2eV9EdkN5bEFubEFaQXJ5TFZPRnJ6R1BjMU5pNHE0U2JDZlFGc3VYdzlhZU5uLUwtY3oxVGQ2TXJWMFBKeTZlaDVqbkZVM0VxNlo4dXVsS1l2Vmp3dlhtLVhLOXd6VVdQNG9MYlh3OHBOM251a2k5N05DSU9LTnlJdE1aLVhEdjPSAfYBQVVfeXFMTlZCLWk2YllIT0lGMUFhLUh1a185a2tKZXp6UHhRMWxUdXlJeUFpd1dvc2gwYWRxZ1Rjd3l2Rkx0cTdPUkU4RG5uWGg1VjBIU0lOc1RrUmYySXllX1oybk1MdU5Kc0syMUg0Qk9tTjdhZ0IyYUhrcFdVZ251ZmRsdVJGUWtLRkRSTDAxS1RBUEFzdG1rSnB4dFRVS0c1Z3Vva3htSWdkVWJrb1lIdkt1a2FoZV9CTEhNTFZKLTk2Q1lDUm9NVndXRWt5a290Ri1Ka0N1TlNuQVhzd1hJVV9JVFBTay1oX3FMLVZVWGZydWcweGpYdTl3?oc=5",
-          "publisher": "ABP News"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
-      "reasons": [
-        "insufficient_value"
-      ]
-    },
-    {
-      "id": "en-94b86c7847",
-      "lang": "en",
-      "title": "Indian-Origin Woman's Deportation Prompts New Legislation In US",
-      "category": "world",
-      "published_at": "2026-11-20T05:46:28+00:00",
-      "summary": "",
-      "sources": [
-        {
-          "title": "Indian-Origin Woman's Deportation Prompts New Legislation In US",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZW5UdV9DaHoxOFlzNHIxek0zUHdkbmxoSHVPcHZwWFlPbmZCTno4akV6R3RmTFZBa1JDTnFQQjlYTkh2S0p1a3VKMmszaWZ6aG9pTU5PZkVTY0FUMDRSd0JsWlFreW02bWdxaXZCUnFHSXRKak4yd3p0VkJrb2l3X3g5Wk5BWHFlbkNKeG1pWHhydWtzWE5OdWlTbjYtMmtNSUJ3QUZrVFhVNk1rNDM3cVJXQUFoZ9IBvgFBVV95cUxOanZyLUo2LVJwX0pzLXl6dkFxc19GNWQxZF9tem9RdFIxQkIyaDNrWFc4YlktYXM3dUIwNktLNHFraDhpc0YzQlh1NW1jVHFIa3dMLUZSWTRPRUFiZlc1MFRLNGs0aW9NeEZKbFg1VkJzekdYemFNT01fRUJ2NjV5TENGLXpLaGxYYnc0ZE9XVmNDUFJ6a0ZsVkI1TjFuTUc5dGZJLUFYUzFDQnZJaUR1My1mbDJ0bGkyUzROcWdn?oc=5",
-          "publisher": "NDTV"
-        },
-        {
-          "title": "House Democrats float bill to give some illegal migrants green cards and halt deportations",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdHE4U1lfUnRya2RiZmxXb0tndk1JeWQyUDR3TlJkYmZvNDVsX1pIdzBVYkZNWXotZVBwTG56ZDhrMVZlQ1ZRNm9xT3JPOTF3ejBvM2pnWUc3RzkycVl5YVpvRjY4dWFvU3ZzeDlJa1VXbnk2Z1pCQ19Qb1p0YS03b2EwZ0ljSnhGNlVPV2dSUTZDQ1BWODZ3R0xlMGNUR0JkaEs3VA?oc=5",
-          "publisher": "New York Post"
-        },
-        {
-          "title": "Protect Our Neighbors Act Introduced: Green Card Path for Old Orders",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQanM5VXZKNWw5MlVYMHBLbW9ZRnBVclhDQWNLWlIxWFRXcGJUV1l0UTdJN3pBWkZUdFNUWm84VUx6OGMtUlN2X3RNTDlZdWhVc1dxYkdxVmU0LW5mT1YyV2xEVENZY1JiMmlQbmxPejlzaWZRNWZYSHhfc2pWS1hOZUh6cUhFWTdqQ2c?oc=5",
-          "publisher": "immigration-analytics.com"
-        },
-        {
-          "title": "GARAMENDI AND SIMON INTRODUCE LEGISLATION TO PROTECT OUR LONG-TERM IMMIGRANT NEIGHBORS",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORmVmOWMzcmJtamVlTEFveWNreFd4XzJfQ0hEeVpVd0hkSmlpZ2oyV29pbmtRcUJBUjd6ZEdNN1hJNThnN25rYVBITW41OFdGZjZXZ21sUTFCalZyM3hicTV2cjVPMkRleGp0bEZwVmxncGlORWpTOXRjZkFKd0ZsdEMwYklWblEzRWxyN25IblZjWmlsMjREcWFCTmpONTJXdGVYd1VtRGZaNXp4aVBfZlAyN1U3enozaHlmNVRIeWxpem53?oc=5",
-          "publisher": "House.gov"
-        },
-        {
-          "title": "Already ordered deported? New US bill could give immigrants a second chance at green cards",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdDE3d3hkLXRlSmNlQ1RSNDQ2Z2xNNjdHc0NwSkpWeExMenI1U0diRDd2eTdTZmNIalN0VzN5c2NXZF9ja2E0VURUNDE4andWelVtRGhSZXNYbG9zclc1dVZxTjhXalZVbDQ1YzVyUUVaeEtMOGNfZmFMdUxWeTVTRkUzby1UdVpOZ1psM09QYW5kVHN4cDFuYzF2TFlOUndHb0hqMzZvbEhxNFBoQUdSMUVpaS1US01JLUcwTTJFbkI5YlhNUlRBQzZ4ZDdQV2dSVHRRTlZ0NU0?oc=5",
-          "publisher": "The American Bazaar"
-        }
-      ],
-      "queued_at": "2026-11-20T06:51:46.400059+00:00",
+      "queued_at": "2026-11-20T16:54:21.457165+00:00",
       "reasons": [
         "insufficient_value"
       ]
