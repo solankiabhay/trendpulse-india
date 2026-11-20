@@ -259,7 +259,7 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -444,7 +444,7 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -963,7 +963,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-19T22:05:41.725029+00:00",
+      "generated_at": "2026-11-20T23:55:50.405489+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -994,12 +994,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-19T22:08:04.461512+00:00",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1190,7 +1190,7 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -1610,7 +1610,7 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -2325,12 +2325,10 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+      "image_url": "",
       "image_source": "https://www.bbc.com/sport/football/live/ck1l3dj5d53vt",
       "image_credit": "BBC",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-20T16:57:04.674870+00:00",
-      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+      "image_lookup_version": 1
     },
     {
       "id": "en-0d46ff9912",
@@ -2786,12 +2784,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-19T22:08:04.461512+00:00",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3172,14 +3170,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-19T22:08:04.461512+00:00",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3778,14 +3776,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-19T22:08:04.461512+00:00",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4185,14 +4183,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-19T22:08:04.461512+00:00",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4273,14 +4271,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-19T22:05:41.725029+00:00",
+      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-19T22:08:04.461512+00:00",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -4604,12 +4602,11 @@
       ],
       "summary_refresh_attempted_at": "2026-10-26T23:40:03.891607+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+      "image_url": "",
       "image_source": "https://www.bbc.com/sport/football/live/ck1wvl8w944yt",
       "image_credit": "BBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-19T22:08:04.461512+00:00",
-      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00"
     },
     {
       "id": "en-0f429f0345",
@@ -4924,11 +4921,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-28T01:04:51.831074+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://www.thehindu.com/theme/images/og-image.png",
       "image_source": "https://www.thehindu.com/news/national/uttar-pradesh/eci-suspends-six-up-officials-for-dereliction-of-duty-polling-booth-lapses-in-council-polls/article71627941.ece",
       "image_credit": "The Hindu",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00"
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_path": "assets/news-images/b7f16baf839d75de0481.png"
     },
     {
       "id": "en-03c1f9b91d",
@@ -10177,13 +10175,12 @@
           "publisher": "Squawka"
         }
       ],
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
       "image_source": "https://www.bbc.com/sport/football/live/c679py38w41yt",
       "image_credit": "BBC",
-      "image_lookup_attempted_at": "2026-11-20T16:57:04.674870+00:00",
-      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00"
     },
     {
       "id": "en-aac038e165",
@@ -11932,9 +11929,10 @@
       "image_url": "https://www.thehindu.com/theme/images/og-image.png",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
-      "summary_refresh_version": 21
+      "summary_refresh_version": 21,
+      "image_path": "assets/news-images/b7f16baf839d75de0481.png"
     },
     {
       "id": "en-97e65a25d8",
@@ -13672,6 +13670,83 @@
       "image_lookup_attempted_at": "2026-11-20T16:57:04.674870+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/24e6c960d8eba275b379.jpg"
+    },
+    {
+      "id": "en-3469b3e9d2",
+      "lang": "en",
+      "slug": "all-you-need-to-know-for-the-australia-v-england-t20is-3469b3e9d2",
+      "url": "en/posts/all-you-need-to-know-for-the-australia-v-england-t20is-3469b3e9d2.html",
+      "title": "All you need to know for the Australia v England T20Is",
+      "summary": "cricket.com.au: Australia's fast-bowling trio of Pat Cummins, Mitchell Starc and Josh Hazlewood have all been rested for England's white-ball tour - something that was planned long before the 2018…",
+      "source_summary": "cricket.com.au: Australia's fast-bowling trio of Pat Cummins, Mitchell Starc and Josh Hazlewood have all been rested for England's white-ball tour - something that was planned long before the 2018 sandpaper saga was reignited - while Nathan Ellis continues to recover from a side strain suffered against…\n\nCricbuzz: Watch the all new Match Forecast video ahead of the 1st T20I between Australia and England",
+      "article_body": "cricket.com.au: “Australia's fast-bowling trio of Pat Cummins, Mitchell Starc and Josh Hazlewood have all been rested for England's white-ball tour - something that was planned long before the 2018 sandpaper saga was reignited - while Nathan Ellis continues to recover from a side strain suffered against…”\n\nCricbuzz: “Watch the all new Match Forecast video ahead of the 1st T20I between Australia and England”",
+      "category": "trending",
+      "published_at": "2026-11-20T23:20:00+00:00",
+      "generated_at": "2026-11-20T23:55:50.405489+00:00",
+      "kind": "digest",
+      "keyword": "sam harper",
+      "score": 89.67,
+      "sources": [
+        {
+          "title": "All you need to know for the Australia v England T20Is",
+          "url": "https://www.cricket.com.au/news/4611669/australia-v-england-t20-series-guide-preview-team-squad-news-broadcast-details-tickets-harper-debut-brook-rew-marsh-david",
+          "publisher": "cricket.com.au"
+        },
+        {
+          "title": "Match Forecast: Australia vs England, 1st T20I",
+          "url": "https://www.cricbuzz.com/cricket-videos/220437/match-forecast-australia-vs-england-1st-t20i",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "Harper's Australia debut a much-needed good story",
+          "url": "https://www.cricinfo.com/story/sam-harper-s-australia-debut-a-much-needed-good-story-1563295",
+          "publisher": "Cricinfo"
+        }
+      ],
+      "image_url": "https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2026/11/20/de688b50-838d-425a-a4ea-a042316d4db0/t20guide.jpg",
+      "image_search_title": "",
+      "image_source": "https://www.cricket.com.au/news/4611669/australia-v-england-t20-series-guide-preview-team-squad-news-broadcast-details-tickets-harper-debut-brook-rew-marsh-david",
+      "image_credit": "cricket.com.au",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_lookup_version": 2
+    },
+    {
+      "id": "en-66f3211887",
+      "lang": "en",
+      "slug": "jaiswal-rahul-lead-india-s-strong-reply-dinesh-karthik-revie-66f3211887",
+      "url": "en/posts/jaiswal-rahul-lead-india-s-strong-reply-dinesh-karthik-revie-66f3211887.html",
+      "title": "Jaiswal & Rahul lead India's strong reply | Dinesh Karthik reviews Day 2",
+      "summary": "Cricbuzz: Jaiswal and Rahul stitched together a century opening stand to put India in a strong position. Dinesh Karthik & Manish Batavia discuss, on Cricbuzz Chatter\n\nThe Hindu: Uc0Mf5Cu IND vs NZ…",
+      "source_summary": "Cricbuzz: Jaiswal and Rahul stitched together a century opening stand to put India in a strong position. Dinesh Karthik & Manish Batavia discuss, on Cricbuzz Chatter\n\nThe Hindu: Uc0Mf5Cu IND vs NZ: Jaiswal-Rahul show put India in strong Position IND vs NZ: Jaiswal-Rahul show put India in strong Position The Hindu 143 9:16",
+      "article_body": "Cricbuzz: “Jaiswal and Rahul stitched together a century opening stand to put India in a strong position. Dinesh Karthik & Manish Batavia discuss, on Cricbuzz Chatter”\n\nThe Hindu: “Uc0Mf5Cu IND vs NZ: Jaiswal-Rahul show put India in strong Position IND vs NZ: Jaiswal-Rahul show put India in strong Position The Hindu 143 9:16”",
+      "category": "trending",
+      "published_at": "2026-11-20T23:10:00+00:00",
+      "generated_at": "2026-11-20T23:55:50.405489+00:00",
+      "kind": "digest",
+      "keyword": "kl rahul",
+      "score": 89.58,
+      "sources": [
+        {
+          "title": "Jaiswal & Rahul lead India's strong reply | Dinesh Karthik reviews Day 2",
+          "url": "https://www.cricbuzz.com/cricket-videos/220356/jaiswal-rahul-lead-indias-strong-reply-dinesh-karthik-reviews-day-2",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "IND vs NZ: Jaiswal-Rahul show put India in strong Position",
+          "url": "https://www.thehindu.com/videos/shorts/ind-vs-nz-jaiswal-rahul-show-put-india-in-strong-position/article71724672.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Nicholls braces for tougher tests against Bumrah after century in Wellington",
+          "url": "https://www.telegraphindia.com/sports/cricket/henry-nicholls-braces-for-tougher-tests-against-jasprit-bumrah-after-century-in-wellington-prnt/cid/2190375",
+          "publisher": "Telegraph India"
+        }
+      ],
+      "image_url": "https://static.cricbuzz.com/a/img/v1/1200x630/i1/c1130157/jaiswal-rahul-lead-indias-strong-reply-dinesh-karthik-reviews-day-2.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/2e5fe73e7262fc6e4f3c.jpg"
     }
   ]
 }
