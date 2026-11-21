@@ -746,8 +746,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
-      "image_lookup_version": 1
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_lookup_version": 2,
+      "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQm5UYVdfU1A1SkNsQ3V3d3VkREkzYXlVOVJVd0lEMF9GLVVjeEhKcndlNUNPNDdoUFJhRzVvTFNRSkN0NHp5UmRKbTJuNENqMGd2UTBJMnBRcExzTTVoaFNHd2dGREZ3Tnk1eENaSHdXY2p1OGQtcHJhWVB4SFRRenI3Um1iSi0tWFpWR3hRNlpUTjVvWDFyNTdpT1U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "Mashable",
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "en-399a677b5e",
@@ -783,11 +787,12 @@
       "summary_refresh_attempted_at": "2026-10-19T11:18:25.052626+00:00",
       "summary_refresh_version": 21,
       "article_body": "ThePrint: “Chandigarh, Oct 17 (PTI) AAP leaders, including Manish Sisodia, greeted Punjab Chief Minister Bhagwant Mann on his 53rd birthday on Saturday, saying his clear intentions strengthen people’s trust every day. “Heartiest birthday wishes to you, Bhagwant Mann Ji. Your leadership, rooted in the soil of…”\n\nAP7AM: “New Delhi, Oct 17 : Prime Minister Narendra Modi on Saturday extended birthday greetings to Punjab Chief Minister Bhagwant Mann and prayed for his long and healthy life.Prime Minister Narendra Modi took to social media 'X' and said, \"Birthday greetings to Punjab Chief Minister Shri…”",
-      "image_url": "",
+      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
       "image_source": "https://theprint.in/india/sisodia-among-aap-leaders-greet-bhagwant-mann-on-53rd-birthday/3074494/",
       "image_credit": "ThePrint",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T09:42:24.489620+00:00"
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_path": "assets/news-images/51cb01171c5d5012ef78.jpg"
     },
     {
       "id": "en-98e64a0885",
@@ -1240,11 +1245,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOS2puYlpaQ3FhSEJqTHQ1QUlsZkg1cDR5S2lETUlva1A5SjlqdFJEclR4WFhXM3JXdGJKcDBzdjZUak9FZGRtSHFzb3VMUm16OGw0WDQtWW53dThWTVJxb0FYQ29HTXY3RmJlWTlnYmFpSUo2R3RnVTVTMC1pS3hWWmd3QjFOWHZwc0xJcVZnMk5zc0xoTXN6cWl0NTI4M0RmTnhHU3MtN0YxdHAweXlKcHlSMXUzUWpUMTM2SlQzM0xRQ01kWHNUd1ZIbFlJM1RZUFhLV24wYmhOUQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "The Times of India",
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00"
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "hi-1a29d4ddf4",
@@ -1338,11 +1344,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNc0hwazQ2dmxQVzhRd1Z3cXF2UVJLUi1DaFFUd2VBTFZQWDV6VGxpOXMxcXBsNWdiX0o4NTdHT0puRHNFV25wZ21tVGQzUHdzcmhFa2VFR0xyTEpXVllHNDdMcmtHWlQtSGNXbmNEOE90RU5OVU5xVzlLRmRnWkJpSEVmM01DemxuT1N1Vmd1UzRuaERSdkgtaWgtVUhyd0JXWVNFeGgzWnNGWTdIV2x2czRnUV9xaW0xNUpJTFlfcThmVEx0cnQ5eXZDbEVONnktdHZRSzNGMDRnYVBxNndtbE83TVp6MWk2ZVd3SGcxWGE5WkEyR0NUM1VuZkRpMzA3V1NUTHFONENKUS04Tk84aNIBlgJBVV95cUxQVFNGelYxUEJ1U0x1cnJVSkxvS3VLZzZCbGhuRFFYZjhKXy05ZlJEMEp0XzRFS2ZRdnFrM0tRY2JzSThSb3NzOHNMNl9mckNUNFJJYU1oM1l5NktXekdERkF2UXBlb3lZOHBYTkFKbEUzYWtlTDN4VUttU3QwZ3Y0SmE4dWZFT0c4ZldtNDVHQy1kcXVIbGc3UFV1ZnRmb2pkRUktYUVzeWhDcG1faGttTjVJd0pmTXVpc2Jxd0lTTndxcl9Yb2J5cHZFLU4td251S29hVUNjREpZMDAwVC1MOGFZS1A5cUxFb2lSakdMMzVRS1ByY1Q5UlBLMUJOZXJnSldxN1hkNkV2WVdISTFhVm9ldVBndw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Hindustan Times",
-      "image_lookup_attempted_at": "2026-11-11T17:53:42.365126+00:00"
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "hi-b06490673d",
@@ -1436,9 +1443,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00"
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_source": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRDNXN25vSzcwbDFuTUQyZXJ2Q05Bby1Pc19ESHYyaFFyZWMwYUU1QlltZnNDTmNtSUhwQUxWczZOZUdNakhaQUxVSjRYeHNEMFJKeDMydlFYV1AyOE5INmtpeldCQXRpSWZRYkFfUWpLcmxPVHgwd1h3b25kUWowOVlWSmdldG92Wi1EZjI0ZFRNbWtyTkpheThleHlJVGZCWUJRRVYyalhQQ0xILU9pVldiLUt4Z1hHQkNkMWpFMXRMMEJhamJ2MUVxYjNCdkNmYlp5WXJFNW5JdHpSQWdzR2lNQVdYWXfSAewBQVVfeXFMTkJ2ekVwUkZGUFFHTUxpdy1IVDBZay00ZEJ0UVZDb01qd3FZNmNzVXFscG9uZEV0bXhmRjRhamFKWXIwLWVLM0NIb0N5dGhJczMwZWJIUTh1Z3V1TkFGVVNUdEpnbmE0TTlzejRDeWRWT1J5SHB3Q2dPcXpuM1o5SVNTNWZLeVd4UGNMWktqT2h6dWpGaElMOVE1Y3A5X3A4dXFIekZmOUlhZVhNSFNWWXM4eE8teWN5LURSZTZSZW4yUHZLYmxwcjBaUjFvUkxJVjFNNDljNVRNTEVhY3hwVGM1NG9OSFRWVkI2VEI?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "Moneycontrol.com",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "en-f875434402",
@@ -1565,9 +1575,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T00:30:23.193621+00:00"
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_source": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdWJmdU55WDY5a2hqVzZSSWpZZ3ZsVGZ1Qk9sTWQ2RFg5SElSMUVDTERTT0V6LXF3YVdyZHJIWlNSdzNtLS1uaS16LS1KRUFFbjV4a1VJakIyQmtqa1JKTHpOT0MxMWxuWTJDWlZ1dVlQWVpGNGRCN3dLcG9nQk1ScE9Tc1d4Mk9yVnJxRkx1SjlMTkFhUFN5b05JbE50NmFXNzJNYmRZdFJqLUUtVWdDY3ZsekRfZHMwdjQyMkxOZkxaVlJLZzZ3dFVMSnNReFZXaUFhTw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "The Times of India",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "hi-2ceba114d3",
@@ -1701,9 +1714,12 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-12T09:42:24.489620+00:00"
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_source": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUkk0R1RjRjJlOW5Kc1FIRDFkek42VUd3SjdxWU80eENabS1xbHNVYVpCaWl2SU5KelFIM2VSeFRBU2ZfZnVKWmJBMmVVck9GQmNLeEc5aGtKWlFVQVFENC1QU3laWENmOUNGVXRWdjJORFQwZDBLdjFfbFhnc1hBN1RaZFpRcFZ3Rkp5bWRDN0NfWUJzZmk2UThVOVIzcDA0ekw3VkRudU5OZ2RsX3hPTWg0YTAxTG43LXJZS1pkNNIBxwFBVV95cUxNZ1Yxd3hyUU11QkV3d0FBXzNpdGdWU2ZGRzJGajh1QVVRLTBKU2JMTWh3WDNQQlhhMmtoZkFGZTJXVGxFMENDM3drVGwxaW1zZTViNEh5dHFBNFB0UlVwa2EzZ1h2ZUlPV2pjQ1J5Ql9oNERBZzZnMHFCLUNYV2lPdzBpTkpvRl9mMTl4MmQwalNGVTBzTjRrOVJkT2JPNGF0YUZjRHVFQ1cwVG8zZ2xWbXZtTWt0ckZWUjJTNFpVaHBHRVZLRXNr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "image_credit": "NDTV",
+      "image_path": "assets/news-images/f3be8e361f793954368f.png"
     },
     {
       "id": "hi-027e63035d",
@@ -2325,10 +2341,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
       "image_source": "https://www.bbc.com/sport/football/live/ck1l3dj5d53vt",
       "image_credit": "BBC",
-      "image_lookup_version": 1
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
     },
     {
       "id": "en-0d46ff9912",
@@ -4921,12 +4939,11 @@
       ],
       "summary_refresh_attempted_at": "2026-10-28T01:04:51.831074+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://www.thehindu.com/theme/images/og-image.png",
+      "image_url": "",
       "image_source": "https://www.thehindu.com/news/national/uttar-pradesh/eci-suspends-six-up-officials-for-dereliction-of-duty-polling-booth-lapses-in-council-polls/article71627941.ece",
       "image_credit": "The Hindu",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
-      "image_path": "assets/news-images/b7f16baf839d75de0481.png"
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00"
     },
     {
       "id": "en-03c1f9b91d",
@@ -11926,13 +11943,12 @@
           "publisher": "Hyderabad Mail"
         }
       ],
-      "image_url": "https://www.thehindu.com/theme/images/og-image.png",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
-      "image_path": "assets/news-images/b7f16baf839d75de0481.png"
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00"
     },
     {
       "id": "en-97e65a25d8",
@@ -12814,7 +12830,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/ded8b4c0a019d6516216.png"
+      "image_path": "assets/news-images/ded8b4c0a019d6516216.png",
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-101ef26aef",
@@ -12930,7 +12948,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/2645fcff2427d3c07757.jpg"
+      "image_path": "assets/news-images/2645fcff2427d3c07757.jpg",
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-90507e513d",
@@ -13295,11 +13315,11 @@
       "url": "en/posts/anthropic-ipo-raises-over-81-billion-in-largest-offering-on-5fb49d165f.html",
       "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
       "summary": "CNBC: The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release . That brings the amount raised to $81.3 billion, surpassing…",
-      "source_summary": "CNBC: The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release . That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June. Elon Musk's company raised $75 billion initially…\n\nBBC: Depending on how strong that demand is, Anthropic could even exceed the early market valuation of Elon Musk's SpaceX, which was the world's most highly valued stock debut when it went public with a value of $2.2tn in June.",
-      "article_body": "CNBC: “The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release . That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June. Elon Musk's company raised $75 billion initially…”\n\nBBC: “Depending on how strong that demand is, Anthropic could even exceed the early market valuation of Elon Musk's SpaceX, which was the world's most highly valued stock debut when it went public with a value of $2.2tn in June.”",
+      "source_summary": "CNBC: The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release . That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June. Elon Musk's company raised $75 billion initially…\n\nBBC: Anthropic, the company behind AI chatbot Claude, has raised a record $81bn (£62bn) in a stock market debut that will make it one of the most valuable companies in the world.",
+      "article_body": "CNBC: “The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release . That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June. Elon Musk's company raised $75 billion initially…”\n\nBBC: “Anthropic, the company behind AI chatbot Claude, has raised a record $81bn (£62bn) in a stock market debut that will make it one of the most valuable companies in the world.”",
       "category": "trending",
       "published_at": "2026-11-19T02:50:00+00:00",
-      "generated_at": "2026-11-19T03:07:13.524940+00:00",
+      "generated_at": "2026-11-21T06:45:42.836573+00:00",
       "kind": "digest",
       "keyword": "mt5",
       "score": 89.84,
@@ -13324,7 +13344,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/135fa02730e792a75acc.jpg"
+      "image_path": "assets/news-images/135fa02730e792a75acc.jpg",
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-d309f3b844",
@@ -13440,7 +13462,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-19T12:49:12.403301+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/cf933f0363e84247e615.jpg"
+      "image_path": "assets/news-images/cf933f0363e84247e615.jpg",
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-19753558e0",
@@ -13516,7 +13540,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/f5236fe865e916e211a5.jpg"
+      "image_path": "assets/news-images/f5236fe865e916e211a5.jpg",
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-b71f026a58",
@@ -13524,12 +13550,12 @@
       "slug": "bitcoin-selloff-crypto-is-failing-the-digital-gold-test-agai-b71f026a58",
       "url": "en/posts/bitcoin-selloff-crypto-is-failing-the-digital-gold-test-agai-b71f026a58.html",
       "title": "Bitcoin selloff: Crypto is failing the 'digital gold' test again as it sinks with stocks",
-      "summary": "CNBC: But the market itself may be the biggest factor. Investors are currently in sell everything mode, including tech stocks and gold — the Dow Jones Industrial Average and S&P 500 were both within…",
-      "source_summary": "CNBC: But the market itself may be the biggest factor. Investors are currently in sell everything mode, including tech stocks and gold — the Dow Jones Industrial Average and S&P 500 were both within two percentage points of correction territory on Friday, according to CNBC data.…\n\nThePrint: For Indian investors, Bitcoin is best approached as a high risk addition to a diversified portfolio, not as a replacement for stocks or essential savings. Beginners should invest only an amount they can afford to lose, avoid leverage, and consider entering gradually instead of trying…",
-      "article_body": "CNBC: “But the market itself may be the biggest factor. Investors are currently in sell everything mode, including tech stocks and gold — the Dow Jones Industrial Average and S&P 500 were both within two percentage points of correction territory on Friday, according to CNBC data.…”\n\nThePrint: “For Indian investors, Bitcoin is best approached as a high risk addition to a diversified portfolio, not as a replacement for stocks or essential savings. Beginners should invest only an amount they can afford to lose, avoid leverage, and consider entering gradually instead of trying…”",
+      "summary": "CNBC: But the market itself may be the biggest factor. Investors are currently in sell everything mode, including tech stocks and gold — the Dow Jones Industrial Average and S&P 500 tumbled into…",
+      "source_summary": "CNBC: But the market itself may be the biggest factor. Investors are currently in sell everything mode, including tech stocks and gold — the Dow Jones Industrial Average and S&P 500 tumbled into correction territory on Friday, according to CNBC data. Bitcoin's recent price action has…\n\nThePrint: For Indian investors, Bitcoin is best approached as a high risk addition to a diversified portfolio, not as a replacement for stocks or essential savings. Beginners should invest only an amount they can afford to lose, avoid leverage, and consider entering gradually instead of trying…",
+      "article_body": "CNBC: “But the market itself may be the biggest factor. Investors are currently in sell everything mode, including tech stocks and gold — the Dow Jones Industrial Average and S&P 500 tumbled into correction territory on Friday, according to CNBC data. Bitcoin's recent price action has…”\n\nThePrint: “For Indian investors, Bitcoin is best approached as a high risk addition to a diversified portfolio, not as a replacement for stocks or essential savings. Beginners should invest only an amount they can afford to lose, avoid leverage, and consider entering gradually instead of trying…”",
       "category": "trending",
       "published_at": "2026-11-20T16:40:00+00:00",
-      "generated_at": "2026-11-20T16:54:21.457165+00:00",
+      "generated_at": "2026-11-21T06:45:42.836573+00:00",
       "kind": "digest",
       "keyword": "bitcoin",
       "score": 89.87,
@@ -13554,7 +13580,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-20T16:57:04.674870+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/316fbfbd8b801a0bf09f.jpg"
+      "image_path": "assets/news-images/316fbfbd8b801a0bf09f.jpg",
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-4671cf2571",
@@ -13593,7 +13621,9 @@
       "image_source": "https://www.theguardian.com/sport/blog/2026/nov/20/steve-smith-silence-sandpapergate-cricket-legacy-warner-cummins-khawaja-bancroft-ntwnfb",
       "image_credit": "The Guardian",
       "image_lookup_attempted_at": "2026-11-20T16:57:04.674870+00:00",
-      "image_lookup_version": 2
+      "image_lookup_version": 2,
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-548af5be35",
@@ -13631,7 +13661,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-20T16:57:04.674870+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/b6e0b1c8ecaced799cd2.jpg"
+      "image_path": "assets/news-images/b6e0b1c8ecaced799cd2.jpg",
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-916b52e0dd",
@@ -13669,7 +13701,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-20T16:57:04.674870+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/24e6c960d8eba275b379.jpg"
+      "image_path": "assets/news-images/24e6c960d8eba275b379.jpg",
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-3469b3e9d2",
@@ -13708,7 +13742,9 @@
       "image_source": "https://www.cricket.com.au/news/4611669/australia-v-england-t20-series-guide-preview-team-squad-news-broadcast-details-tickets-harper-debut-brook-rew-marsh-david",
       "image_credit": "cricket.com.au",
       "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
-      "image_lookup_version": 2
+      "image_lookup_version": 2,
+      "summary_refresh_attempted_at": "2026-11-21T06:45:42.836573+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-66f3211887",
@@ -13747,6 +13783,82 @@
       "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/2e5fe73e7262fc6e4f3c.jpg"
+    },
+    {
+      "id": "en-6f5b24517e",
+      "lang": "en",
+      "slug": "virgo-horoscope-today-november-21-2026-6f5b24517e",
+      "url": "en/posts/virgo-horoscope-today-november-21-2026-6f5b24517e.html",
+      "title": "Virgo Horoscope Today: November 21, 2026",
+      "summary": "News18: Virgo Horoscope Today, November 20: Ganesha says today will bring pleasant results for you. To get rid of the problems faced in the field of education, students today will need suggestions…",
+      "source_summary": "News18: Virgo Horoscope Today, November 20: Ganesha says today will bring pleasant results for you. To get rid of the problems faced in the field of education, students today will need suggestions from their teachers or seniors. Some changes can be seen in people living a…",
+      "article_body": "News18: “Virgo Horoscope Today, November 20: Ganesha says today will bring pleasant results for you. To get rid of the problems faced in the field of education, students today will need suggestions from their teachers or seniors. Some changes can be seen in people living a…”",
+      "category": "trending",
+      "published_at": "2026-11-21T06:20:00+00:00",
+      "generated_at": "2026-11-21T06:45:42.836573+00:00",
+      "kind": "digest",
+      "keyword": "virgo horoscope today",
+      "score": 89.76,
+      "sources": [
+        {
+          "title": "Virgo Horoscope Today: November 21, 2026",
+          "url": "https://www.vogue.in/content/virgo-horoscope-today-november-21-2026",
+          "publisher": "Vogue India"
+        },
+        {
+          "title": "Virgo Shani Horoscope Today, 20 November 2026: Tulsi Vivah Begins, and Shani Puts a Shared Account Under",
+          "url": "https://timesofindia.indiatimes.com/astrology/horoscope/virgo-shani-horoscope-today-20-november-2026-tulsi-vivah-begins-and-shani-puts-a-shared-account-under-review/articleshow/135916355.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Virgo Horoscope Today, November 20",
+          "url": "https://www.news18.com/astrology/horoscope/virgo-horoscope-today-november-20-ws-l-10432986.html",
+          "publisher": "News18"
+        }
+      ],
+      "image_url": "https://images.news18.com/ibnlive/uploads/2026/10/Virgo-2026-10-e865b96d63e8790ba09199a660906c29-1200x675.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/ade442336a3598e0c943.jpg"
+    },
+    {
+      "id": "en-2ac0ec3fb2",
+      "lang": "en",
+      "slug": "2nd-phase-census-2027-population-enumeration-training-held-i-2ac0ec3fb2",
+      "url": "en/posts/2nd-phase-census-2027-population-enumeration-training-held-i-2ac0ec3fb2.html",
+      "title": "2nd phase census 2027 population enumeration training held in Meluri",
+      "summary": "Nagaland Post: DIMAPUR: The second batch of the second phase of Population Enumeration training for Supervisors and Enumerators from Phokhungri, Lephori Circle and Phor commenced at the DB’s Court…",
+      "source_summary": "Nagaland Post: DIMAPUR: The second batch of the second phase of Population Enumeration training for Supervisors and Enumerators from Phokhungri, Lephori Circle and Phor commenced at the DB’s Court, Deputy Commissioner’s office Meluri, on Thursday. The three-day training programme will continue until November 21. According to a…\n\nThe Times of India: Gorakhpur: Chief minister Yogi Adityanath on Thursday completed the online self-enumeration process under the second phase of Census 2027 in UP and appealed to people to participate in the exercise before the Nov 30 deadline.Yogi filled out the online self-enumeration form at his residence in…\n\nThe Goan: The Canacona Municipal Council (CMC) organised an awareness session at the municipal hall to familiarise citizens with the census self-enumeration process and to encourage their active participation.",
+      "article_body": "Nagaland Post: “DIMAPUR: The second batch of the second phase of Population Enumeration training for Supervisors and Enumerators from Phokhungri, Lephori Circle and Phor commenced at the DB’s Court, Deputy Commissioner’s office Meluri, on Thursday. The three-day training programme will continue until November 21. According to a…”\n\nThe Times of India: “Gorakhpur: Chief minister Yogi Adityanath on Thursday completed the online self-enumeration process under the second phase of Census 2027 in UP and appealed to people to participate in the exercise before the Nov 30 deadline.Yogi filled out the online self-enumeration form at his residence in…”\n\nThe Goan: “The Canacona Municipal Council (CMC) organised an awareness session at the municipal hall to familiarise citizens with the census self-enumeration process and to encourage their active participation.”",
+      "category": "trending",
+      "published_at": "2026-11-21T06:20:00+00:00",
+      "generated_at": "2026-11-21T06:45:42.836573+00:00",
+      "kind": "digest",
+      "keyword": "self enumeration",
+      "score": 89.76,
+      "sources": [
+        {
+          "title": "2nd phase census 2027 population enumeration training held in Meluri",
+          "url": "https://nagalandpost.com/2nd-phase-census-2027-population-enumeration-training-held-in-meluri/",
+          "publisher": "Nagaland Post"
+        },
+        {
+          "title": "CM appeals to all to enumerate for Census 2027",
+          "url": "https://timesofindia.indiatimes.com/city/varanasi/cm-appeals-to-all-to-enumerate-for-census-2027/articleshow/136002995.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Census self-enumeration process awareness session in Canacona",
+          "url": "https://www.thegoan.net/goa-news/census-selfenumeration-process-awareness-session-in-canacona/157348.html",
+          "publisher": "The Goan"
+        }
+      ],
+      "image_url": "https://nagalandpost.com/wp-content/uploads/2026/11/EAC-Meluri-Zuchibemo-Ezung-addressing-participants-during-the-second-phase-of-Population-Enumeration-training.-DIPR.webp",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/4559fb4f90bffff1f8b5.webp"
     }
   ]
 }
