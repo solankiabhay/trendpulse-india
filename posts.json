@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -744,14 +744,12 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "image_lookup_version": 2,
+      "image_url": "",
+      "image_lookup_version": 1,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQm5UYVdfU1A1SkNsQ3V3d3VkREkzYXlVOVJVd0lEMF9GLVVjeEhKcndlNUNPNDdoUFJhRzVvTFNRSkN0NHp5UmRKbTJuNENqMGd2UTBJMnBRcExzTTVoaFNHd2dGREZ3Tnk1eENaSHdXY2p1OGQtcHJhWVB4SFRRenI3Um1iSi0tWFpWR3hRNlpUTjVvWDFyNTdpT1U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "image_credit": "Mashable",
-      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
-      "image_path": "assets/news-images/f3be8e361f793954368f.png"
+      "image_credit": "Mashable"
     },
     {
       "id": "en-399a677b5e",
@@ -787,12 +785,10 @@
       "summary_refresh_attempted_at": "2026-10-19T11:18:25.052626+00:00",
       "summary_refresh_version": 21,
       "article_body": "ThePrint: “Chandigarh, Oct 17 (PTI) AAP leaders, including Manish Sisodia, greeted Punjab Chief Minister Bhagwant Mann on his 53rd birthday on Saturday, saying his clear intentions strengthen people’s trust every day. “Heartiest birthday wishes to you, Bhagwant Mann Ji. Your leadership, rooted in the soil of…”\n\nAP7AM: “New Delhi, Oct 17 : Prime Minister Narendra Modi on Saturday extended birthday greetings to Punjab Chief Minister Bhagwant Mann and prayed for his long and healthy life.Prime Minister Narendra Modi took to social media 'X' and said, \"Birthday greetings to Punjab Chief Minister Shri…”",
-      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
+      "image_url": "",
       "image_source": "https://theprint.in/india/sisodia-among-aap-leaders-greet-bhagwant-mann-on-53rd-birthday/3074494/",
       "image_credit": "ThePrint",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
-      "image_path": "assets/news-images/51cb01171c5d5012ef78.jpg"
+      "image_lookup_version": 1
     },
     {
       "id": "en-98e64a0885",
@@ -869,7 +865,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1017,7 +1013,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-20T06:51:46.400059+00:00",
+      "generated_at": "2026-11-21T16:03:40.137152+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1048,12 +1044,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1146,12 +1142,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -1245,12 +1241,11 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOS2puYlpaQ3FhSEJqTHQ1QUlsZkg1cDR5S2lETUlva1A5SjlqdFJEclR4WFhXM3JXdGJKcDBzdjZUak9FZGRtSHFzb3VMUm16OGw0WDQtWW53dThWTVJxb0FYQ29HTXY3RmJlWTlnYmFpSUo2R3RnVTVTMC1pS3hWWmd3QjFOWHZwc0xJcVZnMk5zc0xoTXN6cWl0NTI4M0RmTnhHU3MtN0YxdHAweXlKcHlSMXUzUWpUMTM2SlQzM0xRQ01kWHNUd1ZIbFlJM1RZUFhLV24wYmhOUQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "The Times of India",
-      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
-      "image_path": "assets/news-images/f3be8e361f793954368f.png"
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00"
     },
     {
       "id": "hi-1a29d4ddf4",
@@ -1344,12 +1339,11 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNc0hwazQ2dmxQVzhRd1Z3cXF2UVJLUi1DaFFUd2VBTFZQWDV6VGxpOXMxcXBsNWdiX0o4NTdHT0puRHNFV25wZ21tVGQzUHdzcmhFa2VFR0xyTEpXVllHNDdMcmtHWlQtSGNXbmNEOE90RU5OVU5xVzlLRmRnWkJpSEVmM01DemxuT1N1Vmd1UzRuaERSdkgtaWgtVUhyd0JXWVNFeGgzWnNGWTdIV2x2czRnUV9xaW0xNUpJTFlfcThmVEx0cnQ5eXZDbEVONnktdHZRSzNGMDRnYVBxNndtbE83TVp6MWk2ZVd3SGcxWGE5WkEyR0NUM1VuZkRpMzA3V1NUTHFONENKUS04Tk84aNIBlgJBVV95cUxQVFNGelYxUEJ1U0x1cnJVSkxvS3VLZzZCbGhuRFFYZjhKXy05ZlJEMEp0XzRFS2ZRdnFrM0tRY2JzSThSb3NzOHNMNl9mckNUNFJJYU1oM1l5NktXekdERkF2UXBlb3lZOHBYTkFKbEUzYWtlTDN4VUttU3QwZ3Y0SmE4dWZFT0c4ZldtNDVHQy1kcXVIbGc3UFV1ZnRmb2pkRUktYUVzeWhDcG1faGttTjVJd0pmTXVpc2Jxd0lTTndxcl9Yb2J5cHZFLU4td251S29hVUNjREpZMDAwVC1MOGFZS1A5cUxFb2lSakdMMzVRS1ByY1Q5UlBLMUJOZXJnSldxN1hkNkV2WVdISTFhVm9ldVBndw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Hindustan Times",
-      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
-      "image_path": "assets/news-images/f3be8e361f793954368f.png"
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00"
     },
     {
       "id": "hi-b06490673d",
@@ -1443,12 +1437,11 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T11:02:56.649442+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
       "image_source": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRDNXN25vSzcwbDFuTUQyZXJ2Q05Bby1Pc19ESHYyaFFyZWMwYUU1QlltZnNDTmNtSUhwQUxWczZOZUdNakhaQUxVSjRYeHNEMFJKeDMydlFYV1AyOE5INmtpeldCQXRpSWZRYkFfUWpLcmxPVHgwd1h3b25kUWowOVlWSmdldG92Wi1EZjI0ZFRNbWtyTkpheThleHlJVGZCWUJRRVYyalhQQ0xILU9pVldiLUt4Z1hHQkNkMWpFMXRMMEJhamJ2MUVxYjNCdkNmYlp5WXJFNW5JdHpSQWdzR2lNQVdYWXfSAewBQVVfeXFMTkJ2ekVwUkZGUFFHTUxpdy1IVDBZay00ZEJ0UVZDb01qd3FZNmNzVXFscG9uZEV0bXhmRjRhamFKWXIwLWVLM0NIb0N5dGhJczMwZWJIUTh1Z3V1TkFGVVNUdEpnbmE0TTlzejRDeWRWT1J5SHB3Q2dPcXpuM1o5SVNTNWZLeVd4UGNMWktqT2h6dWpGaElMOVE1Y3A5X3A4dXFIekZmOUlhZVhNSFNWWXM4eE8teWN5LURSZTZSZW4yUHZLYmxwcjBaUjFvUkxJVjFNNDljNVRNTEVhY3hwVGM1NG9OSFRWVkI2VEI?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Moneycontrol.com",
-      "image_path": "assets/news-images/f3be8e361f793954368f.png"
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00"
     },
     {
       "id": "en-f875434402",
@@ -1575,12 +1568,11 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
       "image_source": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdWJmdU55WDY5a2hqVzZSSWpZZ3ZsVGZ1Qk9sTWQ2RFg5SElSMUVDTERTT0V6LXF3YVdyZHJIWlNSdzNtLS1uaS16LS1KRUFFbjV4a1VJakIyQmtqa1JKTHpOT0MxMWxuWTJDWlZ1dVlQWVpGNGRCN3dLcG9nQk1ScE9Tc1d4Mk9yVnJxRkx1SjlMTkFhUFN5b05JbE50NmFXNzJNYmRZdFJqLUUtVWdDY3ZsekRfZHMwdjQyMkxOZkxaVlJLZzZ3dFVMSnNReFZXaUFhTw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "The Times of India",
-      "image_path": "assets/news-images/f3be8e361f793954368f.png"
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00"
     },
     {
       "id": "hi-2ceba114d3",
@@ -1714,12 +1706,10 @@
       ],
       "summary_refresh_attempted_at": "2026-11-02T10:57:49.874128+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
+      "image_url": "",
+      "image_lookup_version": 1,
       "image_source": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUkk0R1RjRjJlOW5Kc1FIRDFkek42VUd3SjdxWU80eENabS1xbHNVYVpCaWl2SU5KelFIM2VSeFRBU2ZfZnVKWmJBMmVVck9GQmNLeEc5aGtKWlFVQVFENC1QU3laWENmOUNGVXRWdjJORFQwZDBLdjFfbFhnc1hBN1RaZFpRcFZ3Rkp5bWRDN0NfWUJzZmk2UThVOVIzcDA0ekw3VkRudU5OZ2RsX3hPTWg0YTAxTG43LXJZS1pkNNIBxwFBVV95cUxNZ1Yxd3hyUU11QkV3d0FBXzNpdGdWU2ZGRzJGajh1QVVRLTBKU2JMTWh3WDNQQlhhMmtoZkFGZTJXVGxFMENDM3drVGwxaW1zZTViNEh5dHFBNFB0UlVwa2EzZ1h2ZUlPV2pjQ1J5Ql9oNERBZzZnMHFCLUNYV2lPdzBpTkpvRl9mMTl4MmQwalNGVTBzTjRrOVJkT2JPNGF0YUZjRHVFQ1cwVG8zZ2xWbXZtTWt0ckZWUjJTNFpVaHBHRVZLRXNr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "image_credit": "NDTV",
-      "image_path": "assets/news-images/f3be8e361f793954368f.png"
+      "image_credit": "NDTV"
     },
     {
       "id": "hi-027e63035d",
@@ -3320,14 +3310,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3501,14 +3491,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4049,12 +4039,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4149,14 +4139,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T06:51:46.400059+00:00",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T06:53:56.491299+00:00",
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -11460,15 +11450,14 @@
           "publisher": "The Times of India"
         }
       ],
-      "image_url": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
       "summary_refresh_attempted_at": "2026-11-12T00:27:06.094263+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-19T12:49:12.403301+00:00",
       "image_source": "https://theprint.in/sport/india-need-draw-against-maldives-to-qualify-for-saff-championships-semifinal/3095165/",
       "image_credit": "ThePrint",
-      "image_path": "assets/news-images/51cb01171c5d5012ef78.jpg"
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00"
     },
     {
       "id": "en-2ad9fd0da1",
@@ -13858,7 +13847,47 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/4559fb4f90bffff1f8b5.webp"
+      "image_path": "assets/news-images/4559fb4f90bffff1f8b5.webp",
+      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_version": 21
+    },
+    {
+      "id": "en-40a3f4b02a",
+      "lang": "en",
+      "slug": "ufc-signs-two-fighters-for-late-notice-undercard-matchup-for-40a3f4b02a",
+      "url": "en/posts/ufc-signs-two-fighters-for-late-notice-undercard-matchup-for-40a3f4b02a.html",
+      "title": "UFC signs two fighters for late-notice undercard matchup for UFC Qatar",
+      "summary": "MMA Fighting: UFC Qatar just added an all-new fight. On Tuesday, MMA Fighting confirmed that the prospects John Mitchell and Shoaib Yousaf had signed with the promotion and will make their debuts…",
+      "source_summary": "MMA Fighting: UFC Qatar just added an all-new fight. On Tuesday, MMA Fighting confirmed that the prospects John Mitchell and Shoaib Yousaf had signed with the promotion and will make their debuts this Saturday in a lightweight fight at UFC Qatar. The fight was first reported by…\n\nCork Beo: It's been a wild sporting journey for Cork's John Mitchell- going from competing in the world rowing championships to squaring up against top fighters from across the planet. But now, all of his hard work has paid off, and he has earned his spot in…\n\nClutchPoints: UFC Doha: Prochazka vs. Stirling kicks off the prelims with a late-notice lightweight showdown between Irish UFC debutant John Mitchell and English newcomer Shoaib Yousaf. Check out our UFC Doha odds series for our Mitchell-Yousaf prediction and pick. John Mitchell (11-3) gets his long-awaited UFC…",
+      "article_body": "MMA Fighting: “UFC Qatar just added an all-new fight. On Tuesday, MMA Fighting confirmed that the prospects John Mitchell and Shoaib Yousaf had signed with the promotion and will make their debuts this Saturday in a lightweight fight at UFC Qatar. The fight was first reported by…”\n\nCork Beo: “It's been a wild sporting journey for Cork's John Mitchell- going from competing in the world rowing championships to squaring up against top fighters from across the planet. But now, all of his hard work has paid off, and he has earned his spot in…”\n\nClutchPoints: “UFC Doha: Prochazka vs. Stirling kicks off the prelims with a late-notice lightweight showdown between Irish UFC debutant John Mitchell and English newcomer Shoaib Yousaf. Check out our UFC Doha odds series for our Mitchell-Yousaf prediction and pick. John Mitchell (11-3) gets his long-awaited UFC…”",
+      "category": "trending",
+      "published_at": "2026-11-21T15:30:00+00:00",
+      "generated_at": "2026-11-21T16:03:40.137152+00:00",
+      "kind": "digest",
+      "keyword": "shoaib yousaf",
+      "score": 89.69,
+      "sources": [
+        {
+          "title": "UFC signs two fighters for late-notice undercard matchup for UFC Qatar",
+          "url": "https://www.mmafighting.com/ufc/522129/ufc-signs-two-fighters-for-late-notice-undercard-matchup-for-ufc-qatar",
+          "publisher": "MMA Fighting"
+        },
+        {
+          "title": "'I used to be a city bar bouncer - now I'm the first Cork man in the UFC'",
+          "url": "https://www.corkbeo.ie/news/local-news/i-used-city-bar-bouncer-34931679",
+          "publisher": "Cork Beo"
+        },
+        {
+          "title": "John Mitchell vs. Shoaib Yousaf prediction, odds, pick for UFC Doha",
+          "url": "https://clutchpoints.com/betting/john-mitchell-vs-shoaib-yousaf-prediction-odds-pick-for-ufc-doha",
+          "publisher": "ClutchPoints"
+        }
+      ],
+      "image_url": "https://platform.mmafighting.com/wp-content/uploads/sites/109/2026/11/gettyimages-2305050393.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/2f070e90c2e38b00fe5f.jpg"
     }
   ]
 }
