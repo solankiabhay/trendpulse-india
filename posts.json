@@ -167,7 +167,7 @@
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTzI3TE10X2tkTlRhbTBGM0FNVUZ2Q2wtTVduS3hFSmhGcHZIYmZGX0czZ0g1LUZoeWhUclRqcURkejdvR1c1ZzZUQzlOeUROUEhmSEFoV05tYnRKUHdaaFQwZk1ZQ2ZGdmZhSThoTmlTQkxjaFB1QmtDUTBEZG5BQzFORlFtV0NmRTkteThLOFk0NlA0WGhHTlJETkxvV2lTdlotRHd0NHY3TkJ0anNNdEY0QUtDZS12OXRHN0xMTQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Cricbuzz",
-      "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00"
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00"
     },
     {
       "id": "en-1e451fee0f",
@@ -216,7 +216,7 @@
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSnZ3ZFl2VzluM1ppZ0t0ZkpLN2tYSXV6bTBsak9WbFd0cWZIYnpHWENSX25YcXNnMnU3cXJvaWZISGZNVHFtV25LY2xyamRMUmNYRTlIcGM5dnZTVG52Yk1yOG9fVzZ0b1hXRW1DYi1ubDdBOWdiZERlUVpGU0MzRlNRajdXemVtaldROTgwVGk5QWdENzQ4V1ppZTZYQlpNSG9CVS10bHY5dk9XdURHZklxQU10RzhJU3ZPbE51MW82bEZ0VHdtVm05UQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Manorama Yearbook",
-      "image_lookup_attempted_at": "2026-11-13T23:31:48.645507+00:00"
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00"
     },
     {
       "id": "hi-bb90bbf6f7",
@@ -259,7 +259,7 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -444,7 +444,7 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -539,7 +539,7 @@
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlZUMDdhOFJ6MzRPUk5aOWFlemVJQ0VJTXFRRFltejZibTRxZzg5amFrSEdFOGMtaGtmYUU3bDhaQzhlRURNQXFDcUsyR21mRkwtbldrTEtMUkViaE1HYXFSUVBGYTN0bG5sdWZuMlVuaTUtdm5rUjZDa1Vmb1dQQ05NRjdfbGt1X2xFTV9BR040a2dhd2VqMTFNWUdKVWdyODBsSlN3ZnNlZ0Y5eG5rdUQ2aHFLOFVrNFpmMjAzRWsxTEJZd1E?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "News On AIR",
-      "image_lookup_attempted_at": "2026-11-13T17:41:38.350539+00:00"
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00"
     },
     {
       "id": "en-13e8ca6feb",
@@ -967,7 +967,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-20T23:55:50.405489+00:00",
+      "generated_at": "2026-11-22T06:14:29.482754+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -998,12 +998,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1194,11 +1194,12 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1618,7 +1619,7 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -2796,12 +2797,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3182,14 +3183,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3788,14 +3789,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4195,14 +4196,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4283,14 +4284,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-20T23:55:50.405489+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T06:14:29.482754+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-20T23:58:10.111831+00:00",
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -14006,6 +14007,82 @@
       "image_lookup_attempted_at": "2026-11-21T23:03:47.012020+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/15c7c1003d5e50fcb465.jpg"
+    },
+    {
+      "id": "en-9478e038a7",
+      "lang": "en",
+      "slug": "vikalp-tiwari-another-teenage-sensation-primed-for-the-step-9478e038a7",
+      "url": "en/posts/vikalp-tiwari-another-teenage-sensation-primed-for-the-step-9478e038a7.html",
+      "title": "Vikalp Tiwari: Another teenage sensation primed for the step up",
+      "summary": "Cricbuzz: September 2026 was a whirlwind month for Vikalp Tiwari. He was first at the Lucknow Super Giants trials, where he was tasked with taking down their bowlers in a simulation. He then went…",
+      "source_summary": "Cricbuzz: September 2026 was a whirlwind month for Vikalp Tiwari. He was first at the Lucknow Super Giants trials, where he was tasked with taking down their bowlers in a simulation. He then went through a similar exercise at Mumbai Indians before being summoned by LSG…\n\nInshorts: Vikalp Tiwari, who became the youngest cricketer to captain a team on his T20 debut and became the youngest captain to score T20 hundred in his third match for Chhattisgarh, was born on September 24, 2009, in Rajnandgaon, Chhattisgarh. He's a lefthanded batter and leftarm…",
+      "article_body": "Cricbuzz: “September 2026 was a whirlwind month for Vikalp Tiwari. He was first at the Lucknow Super Giants trials, where he was tasked with taking down their bowlers in a simulation. He then went through a similar exercise at Mumbai Indians before being summoned by LSG…”\n\nInshorts: “Vikalp Tiwari, who became the youngest cricketer to captain a team on his T20 debut and became the youngest captain to score T20 hundred in his third match for Chhattisgarh, was born on September 24, 2009, in Rajnandgaon, Chhattisgarh. He's a lefthanded batter and leftarm…”",
+      "category": "trending",
+      "published_at": "2026-11-22T05:50:00+00:00",
+      "generated_at": "2026-11-22T06:14:29.482754+00:00",
+      "kind": "digest",
+      "keyword": "vikalp tiwari",
+      "score": 89.77,
+      "sources": [
+        {
+          "title": "Vikalp Tiwari: Another teenage sensation primed for the step up",
+          "url": "https://www.cricbuzz.com/cricket-news/140968/vikalp-tiwari-another-teenage-sensation-primed-for-the-step-up-cricbuzzcom",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "Syed Mushtaq Ali Trophy - Vikalp Tiwari - the 17-year-old captain who is already thinking several moves ahead",
+          "url": "https://www.cricinfo.com/story/syed-mushtaq-ali-trophy-vikalp-tiwari-the-17-year-old-captain-who-is-already-thinking-several-moves-ahead-1563250",
+          "publisher": "Cricinfo"
+        },
+        {
+          "title": "Who is 17-year-old Vikalp Tiwari, who set 2 world records in his first 3 T20 matches? | He dropped out of school in Class 12 | Inshorts",
+          "url": "https://inshorts.com/en/news/who-is-17-year-old-vikalp-tiwari--who-set-2-world-records-in-his-first-3-t20-matches--1795263737926",
+          "publisher": "Inshorts"
+        }
+      ],
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1129223/vikalp-has-already-trialled-with-mi-lsg-and-rr.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/13ca436461fde7e7f14b.png"
+    },
+    {
+      "id": "en-268d780612",
+      "lang": "en",
+      "slug": "f1-live-las-vegas-grand-prix-2026-times-results-radio-268d780612",
+      "url": "en/posts/f1-live-las-vegas-grand-prix-2026-times-results-radio-268d780612.html",
+      "title": "F1 LIVE: Las Vegas Grand Prix 2026 times, results & radio",
+      "summary": "BBC: Follow live text updates and listen to BBC Radio 5 Live commentary of the Las Vegas Grand Prix.\n\nThe Guardian: ‘Very happy to end on the podium’: Piastri ‘They say Las Vegas is the entertainment…",
+      "source_summary": "BBC: Follow live text updates and listen to BBC Radio 5 Live commentary of the Las Vegas Grand Prix.\n\nThe Guardian: ‘Very happy to end on the podium’: Piastri ‘They say Las Vegas is the entertainment capital of the world...’ says Oscar Piastri, and it certainly was tonight. The Australian looks pretty stoked (as much as he can for a man who has a deadpan face…\n\nFormula 1: Toto Wolff reflected on the impact of the slipstream during Las Vegas Grand Prix Qualifying, with Mercedes believing George Russell was ideally positioned for pole.",
+      "article_body": "BBC: “Follow live text updates and listen to BBC Radio 5 Live commentary of the Las Vegas Grand Prix.”\n\nThe Guardian: “‘Very happy to end on the podium’: Piastri ‘They say Las Vegas is the entertainment capital of the world...’ says Oscar Piastri, and it certainly was tonight. The Australian looks pretty stoked (as much as he can for a man who has a deadpan face…”\n\nFormula 1: “Toto Wolff reflected on the impact of the slipstream during Las Vegas Grand Prix Qualifying, with Mercedes believing George Russell was ideally positioned for pole.”",
+      "category": "trending",
+      "published_at": "2026-11-22T05:50:00+00:00",
+      "generated_at": "2026-11-22T06:14:29.482754+00:00",
+      "kind": "digest",
+      "keyword": "max verstappen",
+      "score": 89.77,
+      "sources": [
+        {
+          "title": "F1 LIVE: Las Vegas Grand Prix 2026 times, results & radio",
+          "url": "https://www.bbc.com/sport/formula1/live/c62ke5vgxxnt",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Las Vegas Grand Prix: Formula One 2026 race updates – live",
+          "url": "https://www.theguardian.com/sport/live/2026/nov/22/las-vegas-grand-prix-formula-one-2026-race-updates-live",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "‘I have no idea how these lap times came together’ – Wolff reflects on slipstream impact in Las Vegas Qualifying",
+          "url": "https://www.formula1.com/en/latest/article/i-have-no-idea-how-these-lap-times-came-together-wolff-reflects-on-slipstream-impact-in-las-vegas-qualifying.5hGMtgEZODMntPSadcUJbO",
+          "publisher": "Formula 1"
+        }
+      ],
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0733/live/410e2880-e638-11f1-bcaa-b74b42067918.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/eb99c1b593348ab9a21b.jpg"
     }
   ]
 }
