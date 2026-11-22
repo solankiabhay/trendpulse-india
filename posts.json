@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -744,13 +744,13 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQm5UYVdfU1A1SkNsQ3V3d3VkREkzYXlVOVJVd0lEMF9GLVVjeEhKcndlNUNPNDdoUFJhRzVvTFNRSkN0NHp5UmRKbTJuNENqMGd2UTBJMnBRcExzTTVoaFNHd2dGREZ3Tnk1eENaSHdXY2p1OGQtcHJhWVB4SFRRenI3Um1iSi0tWFpWR3hRNlpUTjVvWDFyNTdpT1U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Mashable",
-      "image_lookup_attempted_at": "2026-11-21T23:03:47.012020+00:00"
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -868,7 +868,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1016,7 +1016,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-21T16:03:40.137152+00:00",
+      "generated_at": "2026-11-22T16:09:58.255588+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1047,12 +1047,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1145,12 +1145,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3315,14 +3315,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3496,14 +3496,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4044,12 +4044,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4144,14 +4144,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-21T16:03:40.137152+00:00",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -10747,7 +10747,7 @@
       "image_search_title": "",
       "image_source": "https://www.wtatennis.com/news/4606011/eala-tops-sakkari-in-rain-impacted-semifinal-to-set-hong-kong-final-against-liu",
       "image_credit": "WTA Tennis",
-      "image_lookup_attempted_at": "2026-11-15T13:53:44.890752+00:00",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
       "image_lookup_version": 2,
       "summary_refresh_attempted_at": "2026-11-08T21:56:54.359255+00:00",
       "summary_refresh_version": 21
@@ -12296,11 +12296,11 @@
           "publisher": "VSiN"
         }
       ],
-      "image_url": "https://i.guim.co.uk/img/media/6a5fb0b0e3659039ac9314882a52501737f70ffe/147_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40%3A21%2Coffset-x50%2Coffset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=b3489c7fca0df5f3127fe4ab9eb41582",
+      "image_url": "https://i.guim.co.uk/img/media/5ec1b574b75522a8e3e4236e9fb5374ef0b4e70f/512_0_3520_2816/master/3520.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40%3A21%2Coffset-x50%2Coffset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=cd1bc808bd6734251bb6f415e2dc6973",
       "image_search_title": "",
       "image_source": "https://www.theguardian.com/sport/live/2026/nov/15/atp-finals-tennis-alexander-zverev-v-rafael-jodar-and-more-live",
       "image_credit": "The Guardian",
-      "image_lookup_attempted_at": "2026-11-15T13:53:44.890752+00:00",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
       "image_lookup_version": 2,
       "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
       "summary_refresh_version": 21
@@ -13892,7 +13892,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-21T16:06:09.747549+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/2f070e90c2e38b00fe5f.jpg"
+      "image_path": "assets/news-images/2f070e90c2e38b00fe5f.jpg",
+      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-f67317ded3",
@@ -14083,6 +14085,120 @@
       "image_lookup_attempted_at": "2026-11-22T06:17:35.989110+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/eb99c1b593348ab9a21b.jpg"
+    },
+    {
+      "id": "en-09544a9930",
+      "lang": "en",
+      "slug": "thomas-reis-bu-sebepten-oturu-zor-bir-mac-olacak-09544a9930",
+      "url": "en/posts/thomas-reis-bu-sebepten-oturu-zor-bir-mac-olacak-09544a9930.html",
+      "title": "Thomas Reis Bu sebepten ötürü zor bir maç olacak",
+      "summary": "beinsports.com.tr: THOMAS REİS BU SEBEPTEN ÖTÜRÜ ZOR BİR MAÇ OLACAK\n\nCanlı Gaste: Süper Lig 'ndeki 22 Kasım 2026 tarihinde TSİ 19:00 de oynanan Trabzonspor - Eyüpspor karşılaşması maç detay…",
+      "source_summary": "beinsports.com.tr: THOMAS REİS BU SEBEPTEN ÖTÜRÜ ZOR BİR MAÇ OLACAK\n\nCanlı Gaste: Süper Lig 'ndeki 22 Kasım 2026 tarihinde TSİ 19:00 de oynanan Trabzonspor - Eyüpspor karşılaşması maç detay sayfasında ülkeleri temsil eden takımları kadrosu, dizilişi, kafa kafaya (H2H) bilgilerini, en son puan durumlarını canlı anlatım ve canlı skor bilgilerine ulaşın! Trabzonspor - Eyüpspor canlı maç ve…\n\n61SAAT: Trabzonspor taraftarlarının hayali gerçek oldu! Trabzonspor-Eyüpspor maçı öncesinde Düzköy'ün Çayırbağı Mahallesi'nden Papara Park'a gelen taraftarlar, 61saat'e özel açıklamalarda bulundu. Maçı özellikle Güney Kale Arkası tribününden izlemek isteyen taraftarlar, isteklerini geri çevirmeyen Trabzonspor Kulübü Başkanı Ertuğrul Doğan'a teşekkür etti. Taraftarlar, karşılaşmaya ilişkin skor ve golcü tahminlerini…",
+      "article_body": "beinsports.com.tr: “THOMAS REİS BU SEBEPTEN ÖTÜRÜ ZOR BİR MAÇ OLACAK”\n\nCanlı Gaste: “Süper Lig 'ndeki 22 Kasım 2026 tarihinde TSİ 19:00 de oynanan Trabzonspor - Eyüpspor karşılaşması maç detay sayfasında ülkeleri temsil eden takımları kadrosu, dizilişi, kafa kafaya (H2H) bilgilerini, en son puan durumlarını canlı anlatım ve canlı skor bilgilerine ulaşın! Trabzonspor - Eyüpspor canlı maç ve…”\n\n61SAAT: “Trabzonspor taraftarlarının hayali gerçek oldu! Trabzonspor-Eyüpspor maçı öncesinde Düzköy'ün Çayırbağı Mahallesi'nden Papara Park'a gelen taraftarlar, 61saat'e özel açıklamalarda bulundu. Maçı özellikle Güney Kale Arkası tribününden izlemek isteyen taraftarlar, isteklerini geri çevirmeyen Trabzonspor Kulübü Başkanı Ertuğrul Doğan'a teşekkür etti. Taraftarlar, karşılaşmaya ilişkin skor ve golcü tahminlerini…”",
+      "category": "trending",
+      "published_at": "2026-11-22T15:50:00+00:00",
+      "generated_at": "2026-11-22T16:09:58.255588+00:00",
+      "kind": "digest",
+      "keyword": "trabzonspor vs eyüpspor",
+      "score": 89.82,
+      "sources": [
+        {
+          "title": "Thomas Reis Bu sebepten ötürü zor bir maç olacak",
+          "url": "https://beinsports.com.tr/haber/thomas-reis-bu-sebepten-oturu-zor-bir-mac-olacak",
+          "publisher": "beinsports.com.tr"
+        },
+        {
+          "title": "CANLI | Trabzonspor - Eyüpspor maçı kadro, diziliş, H2H canlı anlatım ve canlı skor - 22 Kasım 2026",
+          "url": "https://www.canligaste.com/canli-trabzonspor-eyupspor-maci-kadro-dizilis-h2h-canli-anlatim-ve-canli-skor-22-kasim-2026/954772/",
+          "publisher": "Canlı Gaste"
+        },
+        {
+          "title": "Trabzonspor taraftarlarının isteği gerçek oldu! Başkan Doğan'a teşekkür ettiler",
+          "url": "https://www.61saat.com/trabzonspor-taraftarlarinin-istegi-gercek-oldu-baskan-dogana-tesekkur-ettiler",
+          "publisher": "61SAAT"
+        }
+      ],
+      "image_url": "https://media05.ligtv.com.tr/img/news/2026/11/22/thomas-reis-bu-sebepten-oturu-zor-bir-mac-olacak/100_100/reis(22).jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/0bf12daffea89938b23f.jpg"
+    },
+    {
+      "id": "en-4af2278a51",
+      "lang": "en",
+      "slug": "uttar-pradesh-vs-jharkhand-at-mumbai-syed-mushtaq-ali-trophy-4af2278a51",
+      "url": "en/posts/uttar-pradesh-vs-jharkhand-at-mumbai-syed-mushtaq-ali-trophy-4af2278a51.html",
+      "title": "Uttar Pradesh vs Jharkhand at Mumbai, Syed Mushtaq Ali Trophy Elite, 22 Nov 2026",
+      "summary": "BCCI: UP vs Jhark: Uttar Pradesh vs Jharkhand, Match 65 (Syed Mushtaq Ali Trophy Elite 2026/27) at Wankhede Stadium, Mumbai on 22 November 2026. Live scores, commentary, scorecard, stats and match…",
+      "source_summary": "BCCI: UP vs Jhark: Uttar Pradesh vs Jharkhand, Match 65 (Syed Mushtaq Ali Trophy Elite 2026/27) at Wankhede Stadium, Mumbai on 22 November 2026. Live scores, commentary, scorecard, stats and match details. Follow it on the official BCCI Match Centre.\n\nTheTopBookies: Cricket prediction for Uttar Pradesh (UTP) vs Jharkhand (JKD), Syed Mushtaq Ali Trophy, 2026, t20, 16:30 IST 22 Nov 2026.",
+      "article_body": "BCCI: “UP vs Jhark: Uttar Pradesh vs Jharkhand, Match 65 (Syed Mushtaq Ali Trophy Elite 2026/27) at Wankhede Stadium, Mumbai on 22 November 2026. Live scores, commentary, scorecard, stats and match details. Follow it on the official BCCI Match Centre.”\n\nTheTopBookies: “Cricket prediction for Uttar Pradesh (UTP) vs Jharkhand (JKD), Syed Mushtaq Ali Trophy, 2026, t20, 16:30 IST 22 Nov 2026.”",
+      "category": "trending",
+      "published_at": "2026-11-22T15:40:00+00:00",
+      "generated_at": "2026-11-22T16:09:58.255588+00:00",
+      "kind": "digest",
+      "keyword": "uttar pradesh vs jharkhand",
+      "score": 89.72,
+      "sources": [
+        {
+          "title": "Uttar Pradesh vs Jharkhand at Mumbai, Syed Mushtaq Ali Trophy Elite, 22 Nov 2026",
+          "url": "https://www.bcci.tv/matches/5e779815-fd94-4429-9101-881307116294/uttar-pradesh-vs-jharkhand/commentary",
+          "publisher": "BCCI"
+        },
+        {
+          "title": "JHA:169/8 (20.0) | Live Cricket Score | UP vs JHA | smat 2026 | Cricket Scoreboard",
+          "url": "https://sports.ndtv.com/cricket/up-vs-jha-scorecard-live-cricket-score-syed-mushtaq-ali-trophy-2026-match-93-upja11222026273294",
+          "publisher": "NDTV Sports"
+        },
+        {
+          "title": "Uttar Pradesh vs Jharkhand, free match prediction 22 November 2026",
+          "url": "https://www.thetopbookies.com/betting-tips/cricket/utp-vs-jkd-22-Nov-2026",
+          "publisher": "TheTopBookies"
+        }
+      ],
+      "image_url": "https://www.bcci.tv/matches/5e779815-fd94-4429-9101-881307116294/uttar-pradesh-vs-jharkhand/opengraph-image",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/402ff5a47410cf6d6f63.png"
+    },
+    {
+      "id": "en-046a2a7dbb",
+      "lang": "en",
+      "slug": "hyderabad-police-step-up-security-after-email-warns-of-possi-046a2a7dbb",
+      "url": "en/posts/hyderabad-police-step-up-security-after-email-warns-of-possi-046a2a7dbb.html",
+      "title": "Hyderabad police step up security after email warns of possible bomb attacks",
+      "summary": "Telangana Today: Hyderabad: The Hyderabad police have heightened security at public places following an email warning of terror attacks similar to the 26/11 Mumbai attacks, allegedly linked to the…",
+      "source_summary": "Telangana Today: Hyderabad: The Hyderabad police have heightened security at public places following an email warning of terror attacks similar to the 26/11 Mumbai attacks, allegedly linked to the Pakistan-based terrorist outfit Lashkar-e-Taiba (LeT). According to an advisory issued by a Special Branch official, the email threatened…\n\nThe New Indian Express: HYDERABAD: Telangana police are on high alert after a terror threat email warned of a repeat of the 26/11 Mumbai terror attacks in Hyderabad and threatened to kill at least 300 people.An email titled “Lashkar-E-Taiba” was received by authorities, with the sender claiming affiliation with…",
+      "article_body": "Telangana Today: “Hyderabad: The Hyderabad police have heightened security at public places following an email warning of terror attacks similar to the 26/11 Mumbai attacks, allegedly linked to the Pakistan-based terrorist outfit Lashkar-e-Taiba (LeT). According to an advisory issued by a Special Branch official, the email threatened…”\n\nThe New Indian Express: “HYDERABAD: Telangana police are on high alert after a terror threat email warned of a repeat of the 26/11 Mumbai terror attacks in Hyderabad and threatened to kill at least 300 people.An email titled “Lashkar-E-Taiba” was received by authorities, with the sender claiming affiliation with…”",
+      "category": "trending",
+      "published_at": "2026-11-22T15:30:00+00:00",
+      "generated_at": "2026-11-22T16:09:58.255588+00:00",
+      "kind": "digest",
+      "keyword": "hyderabad",
+      "score": 89.63,
+      "sources": [
+        {
+          "title": "Hyderabad police step up security after email warns of possible bomb attacks",
+          "url": "https://www.telegraphindia.com/india/hyderabad-police-step-up-security-after-email-warns-of-possible-bomb-attacks/cid/2190756",
+          "publisher": "Telegraph India"
+        },
+        {
+          "title": "Hyderabad police heighten security after email warns of terror attack",
+          "url": "https://telanganatoday.com/hyderabad-police-heighten-security-after-email-warns-of-terror-attack-7a7258ca",
+          "publisher": "Telangana Today"
+        },
+        {
+          "title": "Hyderabad on alert as alleged LeT email warns of 26/11 repeat, threatens to kill 300 people",
+          "url": "https://www.newindianexpress.com/states/telangana/2026/Nov/22/hyderabad-on-alert-as-alleged-let-email-warns-of-2611-repeat-threatens-to-kill-300-people",
+          "publisher": "The New Indian Express"
+        }
+      ],
+      "image_url": "https://media.telanganatoday.com/wp-content/uploads/2026/11/terror-alert-7a7258ca-893058bf.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/e8e0ee62c38dd2f964b6.jpg"
     }
   ]
 }
