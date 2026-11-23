@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -745,13 +745,12 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 2,
+      "image_lookup_version": 1,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQm5UYVdfU1A1SkNsQ3V3d3VkREkzYXlVOVJVd0lEMF9GLVVjeEhKcndlNUNPNDdoUFJhRzVvTFNRSkN0NHp5UmRKbTJuNENqMGd2UTBJMnBRcExzTTVoaFNHd2dGREZ3Tnk1eENaSHdXY2p1OGQtcHJhWVB4SFRRenI3Um1iSi0tWFpWR3hRNlpUTjVvWDFyNTdpT1U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "image_credit": "Mashable",
-      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00"
+      "image_credit": "Mashable"
     },
     {
       "id": "en-399a677b5e",
@@ -869,7 +868,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1017,7 +1016,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-22T16:09:58.255588+00:00",
+      "generated_at": "2026-11-23T20:03:47.310058+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1048,12 +1047,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1146,12 +1145,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3229,12 +3228,10 @@
       ],
       "summary_refresh_attempted_at": "2026-10-20T11:10:43.546367+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://static.cricbuzz.com/a/img/v1/i1/c582022/i.jpg?d=high&p=det",
+      "image_url": "",
       "image_source": "https://www.cricbuzz.com/cricket-match-squads/167967/adsw-vs-prsw-6th-match-t20-spring-challenge-2026",
       "image_credit": "Cricbuzz",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
-      "image_path": "assets/news-images/ae74fd623b60b9aa1524.jpg"
+      "image_lookup_version": 1
     },
     {
       "id": "en-a58aab4ae1",
@@ -3318,14 +3315,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3499,14 +3496,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4047,12 +4044,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4147,14 +4144,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-22T16:09:58.255588+00:00",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-22T16:12:30.619498+00:00",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -12548,13 +12545,12 @@
           "publisher": "Cricinfo"
         }
       ],
-      "image_url": "https://static.cricbuzz.com/a/img/v1/i1/c582022/i.jpg?d=high&p=det",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
       "summary_refresh_attempted_at": "2026-11-16T05:57:38.834793+00:00",
       "summary_refresh_version": 21,
-      "image_path": "assets/news-images/ae74fd623b60b9aa1524.jpg"
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00"
     },
     {
       "id": "en-3899987edd",
@@ -14242,7 +14238,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/a8bef5c7cab4f1419f4f.jpg"
+      "image_path": "assets/news-images/a8bef5c7cab4f1419f4f.jpg",
+      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-f557d1bcff",
@@ -14281,6 +14279,198 @@
       "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/8f20d52b0d4131b3c6a8.jpg"
+    },
+    {
+      "id": "en-83c37fd320",
+      "lang": "en",
+      "slug": "black-coach-tentatively-settles-discrimination-retaliation-s-83c37fd320",
+      "url": "en/posts/black-coach-tentatively-settles-discrimination-retaliation-s-83c37fd320.html",
+      "title": "Black coach tentatively settles discrimination/retaliation suit vs. Covina Valley Unified",
+      "summary": "San Gabriel Valley Tribune: LOS ANGELES — A Black former Covina High School football coach and athletic director tentatively settled his discrimination and retaliation suit against the Covina-Valley…",
+      "source_summary": "San Gabriel Valley Tribune: LOS ANGELES — A Black former Covina High School football coach and athletic director tentatively settled his discrimination and retaliation suit against the Covina-Valley Unified School District.\n\nPacific Legal Foundation: But the company, which has been in the Deleo family for three generations, was thrown a curveball in 2017 that has placed its future in jeopardy. Since then, they have found themselves on an uneven playing field, defending their business against a federal lawsuit brought…",
+      "article_body": "San Gabriel Valley Tribune: “LOS ANGELES — A Black former Covina High School football coach and athletic director tentatively settled his discrimination and retaliation suit against the Covina-Valley Unified School District.”\n\nPacific Legal Foundation: “But the company, which has been in the Deleo family for three generations, was thrown a curveball in 2017 that has placed its future in jeopardy. Since then, they have found themselves on an uneven playing field, defending their business against a federal lawsuit brought…”",
+      "category": "trending",
+      "published_at": "2026-11-23T19:50:00+00:00",
+      "generated_at": "2026-11-23T20:03:47.310058+00:00",
+      "kind": "digest",
+      "keyword": "suits",
+      "score": 89.87,
+      "sources": [
+        {
+          "title": "Black coach tentatively settles discrimination/retaliation suit vs. Covina Valley Unified",
+          "url": "https://www.sgvtribune.com/2026/11/23/black-coach-tentatively-settles-discrimination-retaliation-suit-vs-covina-valley-unified/",
+          "publisher": "San Gabriel Valley Tribune"
+        },
+        {
+          "title": "Uneven playing field : A family business fights back against unconstitutional citizen suits",
+          "url": "https://pacificlegal.org/uneven-playing-field-a-family-business-fights-back-against-unconstitutional-citizen-suits/",
+          "publisher": "Pacific Legal Foundation"
+        },
+        {
+          "title": "As He Leaves Office, Ken Paxton Drops Suits Against Political Opponents",
+          "url": "https://www.nytimes.com/2026/11/20/us/texas-ken-paxton-drops-lawsuits.html",
+          "publisher": "The New York Times"
+        }
+      ],
+      "image_url": "https://www.sgvtribune.com/wp-content/uploads/2026/06/court-gavel.jpg?w=600&h=391",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/6666ac88e3d12273c4b3.jpg"
+    },
+    {
+      "id": "en-718c6cc47d",
+      "lang": "en",
+      "slug": "the-king-s-gambit-gukesh-aims-to-win-it-all-over-again-in-wo-718c6cc47d",
+      "url": "en/posts/the-king-s-gambit-gukesh-aims-to-win-it-all-over-again-in-wo-718c6cc47d.html",
+      "title": "The King's Gambit: Gukesh aims to 'win it all over again' in World Championship test against Sindarov",
+      "summary": "The Guardian: India’s Gukesh Dommaraju is defending his world chess championship against fast-rising Uzbek grandmaster Javokhir Sindarov in the youngest world title match in chess history. The…",
+      "source_summary": "The Guardian: India’s Gukesh Dommaraju is defending his world chess championship against fast-rising Uzbek grandmaster Javokhir Sindarov in the youngest world title match in chess history. The best-of-14-games contest is set to take place from 24 November to 12 December at the Fondation Martin Bodmer in Cologny…\n\nChessBase India: The Salesforce FIDE World Chess Championship 2026 starts on 24th November in Geneva. It is D Gukesh vs. Javokhir Sindarov, the youngest World Championship match in history, as both players are 20! Before the first game, both players sat down with the media at a…",
+      "article_body": "The Guardian: “India’s Gukesh Dommaraju is defending his world chess championship against fast-rising Uzbek grandmaster Javokhir Sindarov in the youngest world title match in chess history. The best-of-14-games contest is set to take place from 24 November to 12 December at the Fondation Martin Bodmer in Cologny…”\n\nChessBase India: “The Salesforce FIDE World Chess Championship 2026 starts on 24th November in Geneva. It is D Gukesh vs. Javokhir Sindarov, the youngest World Championship match in history, as both players are 20! Before the first game, both players sat down with the media at a…”",
+      "category": "trending",
+      "published_at": "2026-11-23T19:50:00+00:00",
+      "generated_at": "2026-11-23T20:03:47.310058+00:00",
+      "kind": "digest",
+      "keyword": "gukesh vs sindarov",
+      "score": 89.87,
+      "sources": [
+        {
+          "title": "The King's Gambit: Gukesh aims to 'win it all over again' in World Championship test against Sindarov",
+          "url": "https://www.espn.in/chess/story/_/id/50571265/gukesh-dommaraju-javokhir-sindarov-world-chess-championship-2026-preview-kings-gambit-win-again-toughest-test",
+          "publisher": "ESPN India"
+        },
+        {
+          "title": "‘I can’t play games just for fun’: meet Javokhir Sindarov, the 20-year-old happy warrior moving for chess’s biggest prize",
+          "url": "https://www.theguardian.com/sport/2026/nov/23/javokhir-sindarov-gukesh-world-chess-championship-profile",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "Gukesh vs Sindarov: Everything said at the World Championship 2026 press conference",
+          "url": "https://chessbase.in/news/salesforce-fide-world-chess-championship-2026-press-conference",
+          "publisher": "ChessBase India"
+        }
+      ],
+      "image_url": "https://i.guim.co.uk/img/media/c0a329f88cb7b24289a0cf308a8b7cff23379fd2/836_0_4164_3333/master/4164.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40%3A21%2Coffset-x50%2Coffset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5541361c8ed422c2d9b2d8c4a6741c36",
+      "image_search_title": "",
+      "image_source": "https://www.theguardian.com/sport/2026/nov/23/javokhir-sindarov-gukesh-world-chess-championship-profile",
+      "image_credit": "The Guardian",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_version": 2
+    },
+    {
+      "id": "en-8c2355a714",
+      "lang": "en",
+      "slug": "levante-vs-elche-predictions-this-evening-8pm-ko-relegation-8c2355a714",
+      "url": "en/posts/levante-vs-elche-predictions-this-evening-8pm-ko-relegation-8c2355a714.html",
+      "title": "Levante vs Elche predictions this evening (8pm KO): Relegation rivals set for a stalemate",
+      "summary": "Tu Futbolero: Elche arrive with two absences: M. Aguado, due to an ankle injury, and A. Boayar, due to injury. Levante have no reported absences.\n\nDemokratis.co.id: Levante hosts Elche on November 23…",
+      "source_summary": "Tu Futbolero: Elche arrive with two absences: M. Aguado, due to an ankle injury, and A. Boayar, due to injury. Levante have no reported absences.\n\nDemokratis.co.id: Levante hosts Elche on November 23 in a key LaLiga clash, with both teams fighting to escape the relegation zone.",
+      "article_body": "Tu Futbolero: “Elche arrive with two absences: M. Aguado, due to an ankle injury, and A. Boayar, due to injury. Levante have no reported absences.”\n\nDemokratis.co.id: “Levante hosts Elche on November 23 in a key LaLiga clash, with both teams fighting to escape the relegation zone.”",
+      "category": "trending",
+      "published_at": "2026-11-23T19:40:00+00:00",
+      "generated_at": "2026-11-23T20:03:47.310058+00:00",
+      "kind": "digest",
+      "keyword": "levante vs elche",
+      "score": 89.78,
+      "sources": [
+        {
+          "title": "Levante vs Elche predictions this evening (8pm KO): Relegation rivals set for a stalemate",
+          "url": "https://www.squawka.com/en/news/previews/levante-vs-elche-predictions-this-evening-23-11-2026/",
+          "publisher": "Squawka"
+        },
+        {
+          "title": "Levante-Elche preview: Elche arrive with two injury absences",
+          "url": "https://www.tufutbolero.com/en/news/levante-elche-preview-elche-arrive-with-two-injury-absences-fcf0d2",
+          "publisher": "Tu Futbolero"
+        },
+        {
+          "title": "Levante Hosts Elche in Crucial LaLiga Relegation Clash",
+          "url": "https://demokratis.co.id/en/levante-elche-laliga-relegation-clash",
+          "publisher": "Demokratis.co.id"
+        }
+      ],
+      "image_url": "https://fgardvhadxboozplbwbr.supabase.co/storage/v1/object/public/cabeceras/v4/levante-elche-previa-el-elche-llega-con-dos-bajas-por-lesion-fcf0d2/en.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/d2fdcaea69faa9526fd2.jpg"
+    },
+    {
+      "id": "en-862c04ed17",
+      "lang": "en",
+      "slug": "latest-ott-releases-this-week-november-23-november-29-drishy-862c04ed17",
+      "url": "en/posts/latest-ott-releases-this-week-november-23-november-29-drishy-862c04ed17.html",
+      "title": "Latest Ott Releases This Week (November 23-November 29): Drishyam 3, Hanuman Ansh, Spider-Man: Brand New Day & More To Stream Online",
+      "summary": "Rediff.com: Discover the latest streaming sensations this week, from Christopher Nolans epic The Odyssey to a unique Cinderella retelling in Steps across major OTT platforms.Key PointsChristopher…",
+      "source_summary": "Rediff.com: Discover the latest streaming sensations this week, from Christopher Nolans epic The Odyssey to a unique Cinderella retelling in Steps across major OTT platforms.Key PointsChristopher Nolans The Odyssey, an adaptation of Homers epic poem, is now available to rent on Apple TV, Amazon Prime Video…",
+      "article_body": "Rediff.com: “Discover the latest streaming sensations this week, from Christopher Nolans epic The Odyssey to a unique Cinderella retelling in Steps across major OTT platforms.Key PointsChristopher Nolans The Odyssey, an adaptation of Homers epic poem, is now available to rent on Apple TV, Amazon Prime Video…”",
+      "category": "trending",
+      "published_at": "2026-11-23T19:40:00+00:00",
+      "generated_at": "2026-11-23T20:03:47.310058+00:00",
+      "kind": "digest",
+      "keyword": "new ott release movies",
+      "score": 89.78,
+      "sources": [
+        {
+          "title": "Latest Ott Releases This Week (November 23-November 29): Drishyam 3, Hanuman Ansh, Spider-Man: Brand New Day & More To Stream Online",
+          "url": "https://www.imdb.com/news/ni66124241/?ref_=int_nwr_1",
+          "publisher": "IMDb"
+        },
+        {
+          "title": "New OTT releases (November 23-November 29): 12 new movies & shows arriving on Netflix, SonyLIV, ZEE5 & more",
+          "url": "https://www.gqindia.com/content/new-ott-releases-november-23-november-29-12-new-movies-and-shows-arriving-on-netflix-sonyliv-zee5-and-more",
+          "publisher": "GQ India"
+        },
+        {
+          "title": "OTT Releases This Week: Dhindora 2, The Odyssey, Madden",
+          "url": "https://www.rediff.com/movies/report/ott-this-week-the-odyssey-madden-anbil-avan/20261120.htm",
+          "publisher": "Rediff.com"
+        }
+      ],
+      "image_url": "https://im.rediff.com/1200-630/movies/2026/nov/20movie1.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/05a93d1b206219812bf3.jpg"
+    },
+    {
+      "id": "en-2fe647e5a7",
+      "lang": "en",
+      "slug": "kartik-purnima-guru-nanak-jayanti-november-24-or-25-know-the-2fe647e5a7",
+      "url": "en/posts/kartik-purnima-guru-nanak-jayanti-november-24-or-25-know-the-2fe647e5a7.html",
+      "title": "Kartik Purnima & Guru Nanak Jayanti: November 24 or 25? Know the Correct Date, Shubh Muhurat and Puja Rit",
+      "summary": "The Times of India: Many households are unsure this year whether to observe Kartik Purnima on Tuesday or Wednesday. The answer is clear. Both festivals Kartik Purnima and Guru Nanak Jayanti will fall…",
+      "source_summary": "The Times of India: Many households are unsure this year whether to observe Kartik Purnima on Tuesday or Wednesday. The answer is clear. Both festivals Kartik Purnima and Guru Nanak Jayanti will fall on Tuesday November 24, 2026. The Purnima tithi starts at 11:42 PM IST on Monday, November…\n\nKashmir News Service: Srinagar, Nov 23 (KNS): Member of Parliament Shammi Oberoi extended greetings to people on the occasion of Sri Guru Nanak Dev Ji’s Parkash Purab, calling forâ€¦\n\nNewsband: Nagar Kirtan draws thousands ahead of Guru Nanak’s 557th birth anniversary",
+      "article_body": "The Times of India: “Many households are unsure this year whether to observe Kartik Purnima on Tuesday or Wednesday. The answer is clear. Both festivals Kartik Purnima and Guru Nanak Jayanti will fall on Tuesday November 24, 2026. The Purnima tithi starts at 11:42 PM IST on Monday, November…”\n\nKashmir News Service: “Srinagar, Nov 23 (KNS): Member of Parliament Shammi Oberoi extended greetings to people on the occasion of Sri Guru Nanak Dev Ji’s Parkash Purab, calling forâ€¦”\n\nNewsband: “Nagar Kirtan draws thousands ahead of Guru Nanak’s 557th birth anniversary”",
+      "category": "trending",
+      "published_at": "2026-11-23T19:40:00+00:00",
+      "generated_at": "2026-11-23T20:03:47.310058+00:00",
+      "kind": "digest",
+      "keyword": "happy guru nanak jayanti",
+      "score": 89.78,
+      "sources": [
+        {
+          "title": "Kartik Purnima & Guru Nanak Jayanti: November 24 or 25? Know the Correct Date, Shubh Muhurat and Puja Rit",
+          "url": "https://timesofindia.indiatimes.com/religion/festivals/kartik-purnima-guru-nanak-jayanti-november-24-or-25-know-the-correct-date-shubh-muhurat-and-puja-rituals/articleshow/136076976.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "MP Shammi Oberoi Extends Greetings on Guru Nanak Dev Ji’s Parkash Purab",
+          "url": "https://www.knskashmir.com/mp-shammi-oberoi-extends-greetings-on-guru-nanak-dev-ji-s-parkash-purab-209405",
+          "publisher": "Kashmir News Service"
+        },
+        {
+          "title": "Nagar Kirtan draws thousands ahead of Guru Nanak’s 557th birth anniversary",
+          "url": "https://www.newsband.in/article_detail/nagar-kirtan-draws-thousands-ahead-of-guru-nanaks-557th-birth-anniversary",
+          "publisher": "Newsband"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-136076976,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_search_title": "",
+      "image_source": "https://timesofindia.indiatimes.com/religion/festivals/kartik-purnima-guru-nanak-jayanti-november-24-or-25-know-the-correct-date-shubh-muhurat-and-puja-rituals/articleshow/136076976.cms",
+      "image_credit": "The Times of India",
+      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_version": 2
     }
   ]
 }
