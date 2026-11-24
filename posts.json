@@ -259,7 +259,7 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -444,7 +444,7 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -747,9 +747,10 @@
       "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQm5UYVdfU1A1SkNsQ3V3d3VkREkzYXlVOVJVd0lEMF9GLVVjeEhKcndlNUNPNDdoUFJhRzVvTFNRSkN0NHp5UmRKbTJuNENqMGd2UTBJMnBRcExzTTVoaFNHd2dGREZ3Tnk1eENaSHdXY2p1OGQtcHJhWVB4SFRRenI3Um1iSi0tWFpWR3hRNlpUTjVvWDFyNTdpT1U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "image_credit": "Mashable"
+      "image_credit": "Mashable",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -966,7 +967,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-23T07:06:24.507197+00:00",
+      "generated_at": "2026-11-24T17:26:13.959458+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -997,12 +998,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1193,11 +1194,12 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1617,7 +1619,7 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -2795,12 +2797,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3181,14 +3183,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3788,14 +3790,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4195,14 +4197,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4283,14 +4285,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T07:06:24.507197+00:00",
+      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -6557,7 +6559,7 @@
       "image_url": "https://static.toiimg.com/thumb/msid-135299458,width-1280,height-720,resizemode-6,overlay-toiblogs,pt-32,x_pad-1045,y_pad-670/photo.jpg",
       "image_source": "https://timesofindia.indiatimes.com/toi-blogs/toi-newsletters/bharat-abroad/toi-bharat-abroad-us-midterms-red-blue-a-little-desi-too/articleshow/135299309.cms",
       "image_credit": "The Times of India",
-      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_lookup_version": 2
     },
     {
@@ -6597,7 +6599,7 @@
       "summary_refresh_version": 21,
       "image_source": "https://www.bcci.tv/news/article/india-and-india-a-squad-updates-for-new-zealand-tour",
       "image_credit": "BCCI",
-      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_lookup_version": 2
     },
     {
@@ -7529,7 +7531,7 @@
       "summary_refresh_version": 21,
       "image_source": "https://www.theguardian.com/sport/2026/oct/27/pakistan-sri-lanka-one-day-international-odi-match-report-cricket",
       "image_credit": "The Guardian",
-      "image_lookup_attempted_at": "2026-11-17T10:32:31.937538+00:00",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_lookup_version": 2
     },
     {
@@ -14546,6 +14548,44 @@
       "image_lookup_attempted_at": "2026-11-24T05:57:10.028625+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/879b00e0e10a8fb20837.jpg"
+    },
+    {
+      "id": "en-186ed8962e",
+      "lang": "en",
+      "slug": "dealing-with-you-was-horrendous-former-nsw-coach-anthony-stu-186ed8962e",
+      "url": "en/posts/dealing-with-you-was-horrendous-former-nsw-coach-anthony-stu-186ed8962e.html",
+      "title": "'Dealing with you was horrendous': Former NSW coach Anthony Stuart hits back at Usman Khawaja amid Sandpa",
+      "summary": "The Times of India: Former New South Wales coach Anthony Stuart has responded strongly to criticism from retired Australia batter Usman Khawaja in his autobiography. Stuart took to social media to…",
+      "source_summary": "The Times of India: Former New South Wales coach Anthony Stuart has responded strongly to criticism from retired Australia batter Usman Khawaja in his autobiography. Stuart took to social media to share his side of the story and recalled several incidents from Khawaja's time with the NSW team.Khawaja had…\n\nNine.com.au: Former New South Wales Sheffield Shield captain Steve O’Keefe has provided his perspective on the rift between previous coach Anthony Stuart and Usman Khawaja , after the latter wrote about him in his book.\n\nRediff.com: Former Australian fast bowler Anthony Stuart has launched a scathing public attack on Test opener Usman Khawaja, labelling him horrendous to deal with and refuting claims made in Khawajas memoir regarding their past interactions and coaching dynamics at New South Wales.IMAGE: Anthony Stuart recalled a…",
+      "article_body": "The Times of India: “Former New South Wales coach Anthony Stuart has responded strongly to criticism from retired Australia batter Usman Khawaja in his autobiography. Stuart took to social media to share his side of the story and recalled several incidents from Khawaja's time with the NSW team.Khawaja had…”\n\nNine.com.au: “Former New South Wales Sheffield Shield captain Steve O’Keefe has provided his perspective on the rift between previous coach Anthony Stuart and Usman Khawaja , after the latter wrote about him in his book.”\n\nRediff.com: “Former Australian fast bowler Anthony Stuart has launched a scathing public attack on Test opener Usman Khawaja, labelling him horrendous to deal with and refuting claims made in Khawajas memoir regarding their past interactions and coaching dynamics at New South Wales.IMAGE: Anthony Stuart recalled a…”",
+      "category": "trending",
+      "published_at": "2026-11-24T17:10:00+00:00",
+      "generated_at": "2026-11-24T17:26:13.959458+00:00",
+      "kind": "digest",
+      "keyword": "anthony stuart cricket",
+      "score": 89.85,
+      "sources": [
+        {
+          "title": "'Dealing with you was horrendous': Former NSW coach Anthony Stuart hits back at Usman Khawaja amid Sandpa",
+          "url": "https://timesofindia.indiatimes.com/sports/cricket/news/dealing-with-you-was-horrendous-former-nsw-coach-anthony-stuart-hits-back-at-usman-khawaja-amid-sandpapergate-controversy/articleshow/136123482.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "‘He refused’: Former captain backs fuming coach’s Khawaja spray",
+          "url": "https://www.nine.com.au/sport/cricket/usman-khawaja-darren-lehmann-gold-clash-t20-game-comments-separated-anthem-first-public-appearance-since-sandpapergate-20261122-p61gbg.html",
+          "publisher": "Nine.com.au"
+        },
+        {
+          "title": "Former NSW Coach Anthony Stuart Launches Scathing Attack On Usman Khawaja",
+          "url": "https://www.rediff.com/cricket/report/former-coach-anthony-stuart-launches-scathing-attack-on-usman-khawaja/20261123.htm",
+          "publisher": "Rediff.com"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-136124034,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/0a6320ec9ac1814f862c.jpg"
     }
   ]
 }
