@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -744,13 +744,12 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 2,
+      "image_lookup_version": 1,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQm5UYVdfU1A1SkNsQ3V3d3VkREkzYXlVOVJVd0lEMF9GLVVjeEhKcndlNUNPNDdoUFJhRzVvTFNRSkN0NHp5UmRKbTJuNENqMGd2UTBJMnBRcExzTTVoaFNHd2dGREZ3Tnk1eENaSHdXY2p1OGQtcHJhWVB4SFRRenI3Um1iSi0tWFpWR3hRNlpUTjVvWDFyNTdpT1U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "image_credit": "Mashable",
-      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00"
+      "image_credit": "Mashable"
     },
     {
       "id": "en-399a677b5e",
@@ -868,7 +867,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1016,7 +1015,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-23T20:03:47.310058+00:00",
+      "generated_at": "2026-11-25T02:12:05.271447+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1047,12 +1046,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1145,12 +1144,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3316,14 +3315,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3497,14 +3496,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4045,12 +4044,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4145,14 +4144,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-23T20:03:47.310058+00:00",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-23T20:06:37.994344+00:00",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -5951,7 +5950,7 @@
       "summary_refresh_version": 21,
       "image_source": "https://bfsi.economictimes.indiatimes.com/articles/bandhan-bank-q2-net-profit-surges-five-fold-to-rs-622-cr/135266878",
       "image_credit": "bfsi.economictimes.indiatimes.com",
-      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
       "image_lookup_version": 2
     },
     {
@@ -10866,12 +10865,13 @@
           "publisher": "Telegraph India"
         }
       ],
-      "image_url": "",
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1118291/hardik-pandya-is-set-to-leave-mi-to-join-pbks.jpg",
       "image_search_title": "",
       "image_lookup_version": 2,
       "image_source": "https://www.cricbuzz.com/cricket-news/140825/ipl-trade-hardik-pandya-mumbai-indians-arshdeep-singh-punjab-kings-trade-nears-completion-formalities-remain-cricbuzzcom",
       "image_credit": "Cricbuzz",
-      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00"
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_path": "assets/news-images/339f9d3457402a65faae.jpg"
     },
     {
       "id": "en-f65cff1d15",
@@ -11145,12 +11145,15 @@
           "publisher": "AP7AM"
         }
       ],
-      "image_url": "",
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1118291/hardik-pandya-is-set-to-leave-mi-to-join-pbks.jpg",
       "image_search_title": "",
       "image_lookup_version": 2,
       "summary_refresh_attempted_at": "2026-11-11T01:50:26.955937+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-17T20:48:29.107473+00:00"
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_source": "https://www.cricbuzz.com/cricket-news/140825/ipl-trade-hardik-pandya-mumbai-indians-arshdeep-singh-punjab-kings-trade-nears-completion-formalities-remain-cricbuzzcom",
+      "image_credit": "Cricbuzz",
+      "image_path": "assets/news-images/339f9d3457402a65faae.jpg"
     },
     {
       "id": "en-d3844ac0ab",
@@ -14547,7 +14550,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-24T05:57:10.028625+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/879b00e0e10a8fb20837.jpg"
+      "image_path": "assets/news-images/879b00e0e10a8fb20837.jpg",
+      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-186ed8962e",
@@ -14586,6 +14591,120 @@
       "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/0a6320ec9ac1814f862c.jpg"
+    },
+    {
+      "id": "en-c343c4cfd2",
+      "lang": "en",
+      "slug": "ramayana-crosses-rs-1000-crore-at-domestic-box-office-earns-c343c4cfd2",
+      "url": "en/posts/ramayana-crosses-rs-1000-crore-at-domestic-box-office-earns-c343c4cfd2.html",
+      "title": "‘Ramayana’ crosses Rs 1000 crore at domestic box office, earns over Rs 1600 crore globally",
+      "summary": "The Hindu: Ramayana, featuring Ranbir Kapoor, Sai Pallavi and Yash, has earnerned over Rs 1000 crore at the domestic box office with its global collection standing at Rs 1651 crore. ‘Ramayana: Part…",
+      "source_summary": "The Hindu: Ramayana, featuring Ranbir Kapoor, Sai Pallavi and Yash, has earnerned over Rs 1000 crore at the domestic box office with its global collection standing at Rs 1651 crore. ‘Ramayana: Part 1’ movie review: Ranbir Kapoor and Yash excel as Ravana outshines Rama on screen storyline…\n\nThe Times of India: 'Ramayana Par 1' directed by Nitesh Tiwari, starring Ranbir Kapoor as Lord Ram, Yash as Ravana released on November 5 worldwide and since then, it has been doing exceptionally well at the box office. While it is on a record breaking spree, the film has…",
+      "article_body": "The Hindu: “Ramayana, featuring Ranbir Kapoor, Sai Pallavi and Yash, has earnerned over Rs 1000 crore at the domestic box office with its global collection standing at Rs 1651 crore. ‘Ramayana: Part 1’ movie review: Ranbir Kapoor and Yash excel as Ravana outshines Rama on screen storyline…”\n\nThe Times of India: “'Ramayana Par 1' directed by Nitesh Tiwari, starring Ranbir Kapoor as Lord Ram, Yash as Ravana released on November 5 worldwide and since then, it has been doing exceptionally well at the box office. While it is on a record breaking spree, the film has…”",
+      "category": "trending",
+      "published_at": "2026-11-25T01:50:00+00:00",
+      "generated_at": "2026-11-25T02:12:05.271447+00:00",
+      "kind": "digest",
+      "keyword": "ranbir kapoor",
+      "score": 89.8,
+      "sources": [
+        {
+          "title": "‘Ramayana’ crosses Rs 1000 crore at domestic box office, earns over Rs 1600 crore globally",
+          "url": "https://www.thehindu.com/entertainment/movies/ramayana-crosses-rs-1000-crore-at-domestic-box-office-earns-over-rs-1600-crore-globally-ranbir-kapoor-yash-namit-malhotra/article71733415.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "‘Ramayana’ emerges highest-grossing Indian film in overseas markets excluding China",
+          "url": "https://www.telegraphindia.com/entertainment/ramayana-emerges-highest-grossing-indian-film-in-overseas-markets-excluding-china/cid/2190987",
+          "publisher": "Telegraph India"
+        },
+        {
+          "title": "'Ramayana' box office collection day 20: The Ranbir Kapoor, Yash, Sai Pallavi film inches towards Rs 1000",
+          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/ramayana-box-office-collection-day-20-live-the-ranbir-kapoor-yash-sai-pallavi-film-inches-towards-rs-1000-crore-net-in-india/articleshow/136125498.cms",
+          "publisher": "The Times of India"
+        }
+      ],
+      "image_url": "https://th-i.thgim.com/public/entertainment/movies/215chy/article71733443.ece/alternates/LANDSCAPE_1200/The%20poster%20of%20%E2%80%98Ramayana%E2%80%99%20",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/76463e5637e7fc10fbad.jpg"
+    },
+    {
+      "id": "en-f1cbf22abd",
+      "lang": "en",
+      "slug": "celtics-have-bigger-issues-but-can-strengthen-grasp-on-nba-c-f1cbf22abd",
+      "url": "en/posts/celtics-have-bigger-issues-but-can-strengthen-grasp-on-nba-c-f1cbf22abd.html",
+      "title": "Celtics have bigger issues, but can strengthen grasp on NBA Cup bid in DC",
+      "summary": "NBC Sports Boston: The Boston Celtics wrap up what’s been a thus-far winless four-game road trip on Tuesday night in the nation’s capital. And while the NBA Cup is not likely front of mind for the…",
+      "source_summary": "NBC Sports Boston: The Boston Celtics wrap up what’s been a thus-far winless four-game road trip on Tuesday night in the nation’s capital. And while the NBA Cup is not likely front of mind for the team — and simply righting the ship amid a four-game losing streak…\n\nFOX Sports: This page may contain affiliate links to legal sports betting partners. If you sign up or place a wager, FOX Sports may be compensated. Read more about Sports Betting on FOX Sports. Tuesday's NBA Cup schedule brings three group-stage matchups to the court, with several…\n\nYahoo Sports: AJ Dybantsa is done pretending. The rookie forward from Brockton, Mass., is set to play against the Boston Celtics on Tuesday night, and he has made it clear he will not cheer for them. NESN reported that Dybantsa was once a die-hard fan of the…",
+      "article_body": "NBC Sports Boston: “The Boston Celtics wrap up what’s been a thus-far winless four-game road trip on Tuesday night in the nation’s capital. And while the NBA Cup is not likely front of mind for the team — and simply righting the ship amid a four-game losing streak…”\n\nFOX Sports: “This page may contain affiliate links to legal sports betting partners. If you sign up or place a wager, FOX Sports may be compensated. Read more about Sports Betting on FOX Sports. Tuesday's NBA Cup schedule brings three group-stage matchups to the court, with several…”\n\nYahoo Sports: “AJ Dybantsa is done pretending. The rookie forward from Brockton, Mass., is set to play against the Boston Celtics on Tuesday night, and he has made it clear he will not cheer for them. NESN reported that Dybantsa was once a die-hard fan of the…”",
+      "category": "trending",
+      "published_at": "2026-11-25T01:40:00+00:00",
+      "generated_at": "2026-11-25T02:12:05.271447+00:00",
+      "kind": "digest",
+      "keyword": "wizards vs celtics",
+      "score": 89.7,
+      "sources": [
+        {
+          "title": "Celtics have bigger issues, but can strengthen grasp on NBA Cup bid in DC",
+          "url": "https://www.nbcsportsboston.com/nba/boston-celtics/celtics-nba-cup-group-standings-schedule/815558/",
+          "publisher": "NBC Sports Boston"
+        },
+        {
+          "title": "Polymarket Promo Code FOX: Claim a $25 Bonus When Trading on the NBA Cup Tonight",
+          "url": "https://www.foxsports.com/stories/betting/polymarket-promo-code-fox-claim-25-bonus-when-trading-nba-cup-tonight",
+          "publisher": "FOX Sports"
+        },
+        {
+          "title": "AJ Dybantsa Turns His Back On Celtics For Wizards",
+          "url": "https://sports.yahoo.com/nba/articles/aj-dybantsa-turns-back-celtics-212418883.html",
+          "publisher": "Yahoo Sports"
+        }
+      ],
+      "image_url": "https://media.nbcsportsboston.com/2026/10/Jayson-Tatum_1786c0.jpg?quality=85&strip=all&resize=1200%2C675",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/ed0c56380d00c01c7697.jpg"
+    },
+    {
+      "id": "en-94c6ef2163",
+      "lang": "en",
+      "slug": "rizwan-saim-shan-masood-left-out-as-pcb-hands-format-wise-co-94c6ef2163",
+      "url": "en/posts/rizwan-saim-shan-masood-left-out-as-pcb-hands-format-wise-co-94c6ef2163.html",
+      "title": "Rizwan, Saim, Shan Masood left out as PCB hands format-wise contracts to 38",
+      "summary": "Cricbuzz: Rizwan is one of 13 players from last year's list who do not feature this time. Saim Ayub and Hasan Ali, both in Category B last year, also miss out, as does Shan Masood. Abdullah Shafique…",
+      "source_summary": "Cricbuzz: Rizwan is one of 13 players from last year's list who do not feature this time. Saim Ayub and Hasan Ali, both in Category B last year, also miss out, as does Shan Masood. Abdullah Shafique, Mohammad Haris, Mohammad Nawaz, Noman Ali, Hussain Talat, Khurram…\n\nICC: [Babar Azam]( and Salman Ali Agha are the only players in the men's Test and ODI category of the men's central contracts announced by the Pakistan Cricket Board (PCB). The contracts are due to run midway till 2027, and have the most number of players…",
+      "article_body": "Cricbuzz: “Rizwan is one of 13 players from last year's list who do not feature this time. Saim Ayub and Hasan Ali, both in Category B last year, also miss out, as does Shan Masood. Abdullah Shafique, Mohammad Haris, Mohammad Nawaz, Noman Ali, Hussain Talat, Khurram…”\n\nICC: “[Babar Azam]( and Salman Ali Agha are the only players in the men's Test and ODI category of the men's central contracts announced by the Pakistan Cricket Board (PCB). The contracts are due to run midway till 2027, and have the most number of players…”",
+      "category": "trending",
+      "published_at": "2026-11-25T01:40:00+00:00",
+      "generated_at": "2026-11-25T02:12:05.271447+00:00",
+      "kind": "digest",
+      "keyword": "mike hesson",
+      "score": 89.7,
+      "sources": [
+        {
+          "title": "Rizwan, Saim, Shan Masood left out as PCB hands format-wise contracts to 38",
+          "url": "https://www.cricbuzz.com/cricket-news/141000/38-cricketers-included-in-pcbs-revamped-central-contracts-structure-cricbuzzcom",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "PCB announces central contracts for 38 men's cricketers | Press Release",
+          "url": "https://www.pcb.com.pk/press-release-detail/pcb-announces-central-contracts-for-38-men-s-cricketers.html",
+          "publisher": "Pakistan Cricket Board (PCB)"
+        },
+        {
+          "title": "Pakistan announce new men's central contracts list",
+          "url": "https://www.icc-cricket.com/news/pakistan-announce-new-men-s-central-contracts-list",
+          "publisher": "ICC"
+        }
+      ],
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1131173/wicketkeeper-mohammad-rizwan-is-the-most-noteworthy-omission-from-the-list.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/5c6949dfd453ff4fb4d2.jpg"
     }
   ]
 }
