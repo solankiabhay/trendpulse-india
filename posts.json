@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -744,13 +744,12 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 2,
+      "image_lookup_version": 1,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQm5UYVdfU1A1SkNsQ3V3d3VkREkzYXlVOVJVd0lEMF9GLVVjeEhKcndlNUNPNDdoUFJhRzVvTFNRSkN0NHp5UmRKbTJuNENqMGd2UTBJMnBRcExzTTVoaFNHd2dGREZ3Tnk1eENaSHdXY2p1OGQtcHJhWVB4SFRRenI3Um1iSi0tWFpWR3hRNlpUTjVvWDFyNTdpT1U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "image_credit": "Mashable",
-      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00"
+      "image_credit": "Mashable"
     },
     {
       "id": "en-399a677b5e",
@@ -868,7 +867,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1016,7 +1015,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-25T02:12:05.271447+00:00",
+      "generated_at": "2026-11-26T10:43:30.429659+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1047,12 +1046,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1145,12 +1144,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3314,14 +3313,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3495,14 +3494,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4043,12 +4042,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4143,14 +4142,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -5056,7 +5055,7 @@
       "image_url": "https://www.vmcdn.ca/f/files/localprofile/images/news/screen-shot-2026-10-27-at-104144-am.png;w=1200;h=800;mode=crop",
       "image_source": "https://www.localprofile.com/lifestyle/top-tennis-stars-will-return-to-frisco-for-2027-dallas-open-12945182",
       "image_credit": "Local Profile",
-      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_lookup_version": 2
     },
     {
@@ -6068,7 +6067,7 @@
       "summary_refresh_version": 21,
       "image_source": "https://economictimes.indiatimes.com/news/company/corporate-trends/vedanta-cuts-debt-by-rs-4624-crore-in-september-quarter-as-net-profit-jumps-151/articleshow/135278530.cms?from=mdr",
       "image_credit": "The Economic Times",
-      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_lookup_version": 2
     },
     {
@@ -7038,11 +7037,12 @@
       ],
       "summary_refresh_attempted_at": "2026-10-31T11:54:23.031872+00:00",
       "summary_refresh_version": 21,
-      "image_url": "",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
       "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
       "image_credit": "CNBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00"
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
     },
     {
       "id": "en-a130fd0cdc",
@@ -9079,13 +9079,14 @@
           "publisher": "Bloomberg.com"
         }
       ],
-      "image_url": "",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108314730-1793388863500-108314730-17803334992026-06-01t150042z_1743563887_rc21llar1k89_rtrmadp_0_usa-stocks.jpeg?v=1793388877&w=1920&h=1080",
       "summary_refresh_attempted_at": "2026-11-02T09:41:07.383329+00:00",
       "summary_refresh_version": 21,
       "image_lookup_version": 2,
       "image_source": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
       "image_credit": "CNBC",
-      "image_lookup_attempted_at": "2026-11-19T03:09:32.651214+00:00"
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_path": "assets/news-images/8f1b66843ef7f764016a.jpg"
     },
     {
       "id": "en-c17af3ddcd",
@@ -14663,7 +14664,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-25T02:15:17.167806+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/ed0c56380d00c01c7697.jpg"
+      "image_path": "assets/news-images/ed0c56380d00c01c7697.jpg",
+      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-94c6ef2163",
@@ -14854,6 +14857,82 @@
       "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/b59402d961f470b1d115.jpg"
+    },
+    {
+      "id": "en-eff7ff3c1f",
+      "lang": "en",
+      "slug": "slw-vs-irew-final-icc-women-s-emerging-nations-trophy-2026-c-eff7ff3c1f",
+      "url": "en/posts/slw-vs-irew-final-icc-women-s-emerging-nations-trophy-2026-c-eff7ff3c1f.html",
+      "title": "SLW vs IREW, Final, ICC Women's Emerging Nations Trophy, 2026 - Commentary",
+      "summary": "Cricbuzz: Follow SLW 99/4 (12.4) vs IREW 96 (Kavisha Dilhari 16(10) Imesha Dulani 44(25)) | Sri Lanka Women vs Ireland Women, Final, ICC Women's Emerging Nations Trophy, 2026 live with live scores…",
+      "source_summary": "Cricbuzz: Follow SLW 99/4 (12.4) vs IREW 96 (Kavisha Dilhari 16(10) Imesha Dulani 44(25)) | Sri Lanka Women vs Ireland Women, Final, ICC Women's Emerging Nations Trophy, 2026 live with live scores, ball-by-ball commentary, highlights, videos, news, and more on Cricbuzz in USA & Canada.\n\nICC: Joyous Sri Lanka skipper Harshitha Samarawickrama has praised her entire squad for her side's successful title-winning run at the *ICC Women's Emerging Nations Trophy* tournament in the UAE. Sri Lanka made it a perfect eight-from-eight when they *cruised past Ireland by six wickets in the…\n\nBBC: Ireland Women suffer a disappointing defeat in the final of the Emerging Nations Trophy as they fall to a six-wicket loss against Sri Lanka in Ajman.",
+      "article_body": "Cricbuzz: “Follow SLW 99/4 (12.4) vs IREW 96 (Kavisha Dilhari 16(10) Imesha Dulani 44(25)) | Sri Lanka Women vs Ireland Women, Final, ICC Women's Emerging Nations Trophy, 2026 live with live scores, ball-by-ball commentary, highlights, videos, news, and more on Cricbuzz in USA & Canada.”\n\nICC: “Joyous Sri Lanka skipper Harshitha Samarawickrama has praised her entire squad for her side's successful title-winning run at the *ICC Women's Emerging Nations Trophy* tournament in the UAE. Sri Lanka made it a perfect eight-from-eight when they *cruised past Ireland by six wickets in the…”\n\nBBC: “Ireland Women suffer a disappointing defeat in the final of the Emerging Nations Trophy as they fall to a six-wicket loss against Sri Lanka in Ajman.”",
+      "category": "trending",
+      "published_at": "2026-11-26T10:30:00+00:00",
+      "generated_at": "2026-11-26T10:43:30.429659+00:00",
+      "kind": "digest",
+      "keyword": "emerging asia cup 2026",
+      "score": 89.87,
+      "sources": [
+        {
+          "title": "SLW vs IREW, Final, ICC Women's Emerging Nations Trophy, 2026 - Commentary",
+          "url": "https://www.cricbuzz.com/live-cricket-scores/177610/vs-sri-lanka-women-2026-11-25-karwan-cricket-ground",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "Sri Lanka captain hails complete team effort after UAE success",
+          "url": "https://www.icc-cricket.com/tournaments/icc-women-s-emerging-nations-trophy-2026/news/sri-lanka-captain-hails-complete-team-effort-after-uae-success",
+          "publisher": "ICC"
+        },
+        {
+          "title": "ICC Women's Emerging Nations Trophy: Sri Lanka beat Ireland in final",
+          "url": "https://www.bbc.com/sport/cricket/articles/cqkg73z3ep98o",
+          "publisher": "BBC"
+        }
+      ],
+      "image_url": "https://static.cricbuzz.com/a/img/v1/i1/c860589/willow.jpg?d=high&p=det",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/d6717c604f6c4dcad3a8.png"
+    },
+    {
+      "id": "en-ddf4e24951",
+      "lang": "en",
+      "slug": "aaradhya-bachchan-glows-in-a-gown-alongside-mom-aishwarya-at-ddf4e24951",
+      "url": "en/posts/aaradhya-bachchan-glows-in-a-gown-alongside-mom-aishwarya-at-ddf4e24951.html",
+      "title": "Aaradhya Bachchan glows in a gown alongside mom Aishwarya at family gathering",
+      "summary": "The Times of India: Aaradhya Bachchan marked her 15th birthday with an intimate celebration surrounded by family and a few close friends.While her parents, Aishwarya Rai Bachchan and Abhishek…",
+      "source_summary": "The Times of India: Aaradhya Bachchan marked her 15th birthday with an intimate celebration surrounded by family and a few close friends.While her parents, Aishwarya Rai Bachchan and Abhishek Bachchan, did not share pictures from the occasion, an unseen photograph from the birthday bash has now turned up online…",
+      "article_body": "The Times of India: “Aaradhya Bachchan marked her 15th birthday with an intimate celebration surrounded by family and a few close friends.While her parents, Aishwarya Rai Bachchan and Abhishek Bachchan, did not share pictures from the occasion, an unseen photograph from the birthday bash has now turned up online…”",
+      "category": "trending",
+      "published_at": "2026-11-26T10:30:00+00:00",
+      "generated_at": "2026-11-26T10:43:30.429659+00:00",
+      "kind": "digest",
+      "keyword": "aishwarya rai",
+      "score": 89.87,
+      "sources": [
+        {
+          "title": "Aaradhya Bachchan glows in a gown alongside mom Aishwarya at family gathering",
+          "url": "https://www.telegraphindia.com/entertainment/aaradhya-bachchan-glows-in-a-gown-alongside-mom-aishwarya-at-family-gathering/cid/2191395",
+          "publisher": "Telegraph India"
+        },
+        {
+          "title": "Aaradhya Bachchan channels mom Aishwarya Rai Bachchan’s beauty queen charm in a tiara at 15th birthday ce",
+          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/aaradhya-bachchan-channels-mom-aishwarya-rai-bachchans-beauty-queen-charm-in-a-tiara-at-15th-birthday-celebration-pic/articleshow/136172808.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Aishwarya Rai poses with Aaradhya at party, Shweta-Abhishek Bachchan’s rare pic with Jaya",
+          "url": "https://indianexpress.com/article/entertainment/bollywood/aishwarya-rai-aaradhya-birthday-party-shweta-abhishek-bachchan-rare-photo-jaya-bachchan-10979013/",
+          "publisher": "The Indian Express"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-136172813,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/7bc4bea1a23277758ad2.jpg"
     }
   ]
 }
