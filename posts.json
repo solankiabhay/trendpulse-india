@@ -259,7 +259,7 @@
           "publisher": "Jagran"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -444,7 +444,7 @@
           "publisher": "Dainik Bhaskar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -747,9 +747,10 @@
       "summary_refresh_attempted_at": "2026-11-25T02:12:05.271447+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
-      "image_lookup_version": 1,
+      "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQm5UYVdfU1A1SkNsQ3V3d3VkREkzYXlVOVJVd0lEMF9GLVVjeEhKcndlNUNPNDdoUFJhRzVvTFNRSkN0NHp5UmRKbTJuNENqMGd2UTBJMnBRcExzTTVoaFNHd2dGREZ3Tnk1eENaSHdXY2p1OGQtcHJhWVB4SFRRenI3Um1iSi0tWFpWR3hRNlpUTjVvWDFyNTdpT1U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "image_credit": "Mashable"
+      "image_credit": "Mashable",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00"
     },
     {
       "id": "en-399a677b5e",
@@ -966,7 +967,7 @@
       "source_summary": "Dainik Bhaskar: टेस्ला ने उड़ने वाली कार दिखाई, VIDEO: हवा में पलटी और फिर जमीन पर लैंड हुई; 1 सेकेंड से भी कम में 97kmph…\n\nAajTak: Tesla Roadster: भारत में शुरू हुई 'Flying Car' की बुकिंग, जानें प्राइस और प्रोसेस की डिटेल\n\nCarDekho: टेस्ला रोडस्टर ईवी शोकेस: हवा में उड़ सकती है, बैक क्लिप भी लगा सकती है, भारत में बुकिंग हुई शुरू!\n\nIndia TV Hindi: टेस्ला की 'फ्लाइंग कार' ने हवा में मारी गुलाटी, एक्सपर्ट ने कहा – 'गाड़ियां रॉकेट के जैसे नहीं उड़ सकतीं'\n\nCarWale: टेस्ला रोडस्टर क्या है और ये कैसे उड़ सकता है?",
       "category": "business",
       "published_at": "2026-10-17T10:28:00+00:00",
-      "generated_at": "2026-11-24T17:26:13.959458+00:00",
+      "generated_at": "2026-11-26T00:09:28.395758+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.83,
@@ -997,12 +998,12 @@
           "publisher": "CarWale"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_path": "assets/news-images/3964bf956946cae2a0bd.svg"
     },
     {
@@ -1193,12 +1194,11 @@
           "publisher": "News18 Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
+      "image_lookup_version": 1,
       "image_path": "assets/news-images/8a4314c85573154654a9.svg"
     },
     {
@@ -1618,7 +1618,7 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
@@ -2335,12 +2335,11 @@
       ],
       "summary_refresh_attempted_at": "2026-10-19T11:11:07.894879+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+      "image_url": "",
       "image_source": "https://www.bbc.com/sport/football/live/ck1l3dj5d53vt",
       "image_credit": "BBC",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-21T06:49:53.571970+00:00",
-      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00"
     },
     {
       "id": "en-0d46ff9912",
@@ -2796,12 +2795,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_kind": "generated-fallback",
       "image_url": "",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_path": "assets/news-images/5d7df3ee2aebbef08c5d.svg"
     },
     {
@@ -3182,14 +3181,14 @@
           "publisher": "Pasquale Pillitteri"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVFZpODNPNlJELXdWaVE0NG1WZXpwYWRNU3JvSVIyRWhwLTBVcDBRamhsblVYVXFuM2ZFR2QyMHBiSzNkRXpNejZHY29GUWswU1Zjd25NTnpndlZUMEYwY2FYRmc1R29lMFhILU1ZSWI1a0xJUjFMdVRhdmVQRWlpMS1pN0o1azJTUXZ5U2trOFlyb3VFUy11WTk0U21kNnQwZ20zQXdMb2xLNUVRcnRxcEJRMzItTHh1RllldEo4SlZlTV92TU5ibF9LbzJTa18wVFgtVWFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_path": "assets/news-images/9ecf226c2d74a316a3b0.svg"
     },
     {
@@ -3789,14 +3788,14 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yeWlndjcwRHZxM2w1VFpiQmJacHdMdjhROTY2dldZRGtrNzJEMTJFb2ZhZml2Y1hSQmxVRVBqRjBGMmtONldFQlQ3ZXJSdERjNG1WZjZIWXJQVmNKQUxEZ0R0R3BpdU5MNEkzcDlhSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Investing.com भारत",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_path": "assets/news-images/583f2f7ecd0652bd78a9.svg"
     },
     {
@@ -4196,14 +4195,14 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4VEN5aHk5dG5LOHh2NXhUQk9zRnkzWFZLWjVRRVQtMDFKOEpNTlhjalVEdlAxODFmdUtHYlZKbmR3bEZucG1Zdl9xRjVEcjg2U1FWRVpRUE8ycnpx0gFiQVVfeXFMTUJvZXdSZm8xdkVRakZtWjdmQ1FJOVAyZERjeWpXNFh4WTBLYml5MWVOMmlOUVpONm82UlRiVUtfemp1OFp4SC1pYjEtczlPSVdvX1dsaFFGenItWlhkWWdMbFE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "BBC",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_path": "assets/news-images/be288a2b658d45677b0a.svg"
     },
     {
@@ -4284,14 +4283,14 @@
           "publisher": "Prabhat Khabar"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-24T17:26:13.959458+00:00",
+      "summary_refresh_attempted_at": "2026-11-26T00:09:28.395758+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFBWd3ZzUWMtZUpQSjgzaDg3dlVYTW0zSTBDTm8wWjdHbU1Qc3Y3SmNNSV9pNXI1X1BKU3c4bnM2cGF0RDFBMmQxYnhPQTdnd19MYU1wMUNWRnlXTVRteXk3NGM3b0NtS3M0WDItcWRzSW0wUzROQ2QtYlZicGF5b0RZVTVmY0p6dHV1XzVzWEFNY1dwUFRhR3VuRS1kLWNmYXoySktVUUZiTWRlQWd0WGFVenMyNHpoOTN6QTcxZVVWVThLcDlnelk3bXh6N0ZwNWR1SVV4UTfSAd4BQVVfeXFMTS14ZV9JdU94RDdBaHo5UFRqY2F3c1poaGlvck5ia185QVVxX0ZjaEt0VE14dTBIeGdZcDFjRWtlVFdSUElrRlhpSEN1VkdoUk5sOERXaHFwWmlIanJkeXRXN0N4RUhXTnIyd2w0UW9adUl2cUNqZ0U2aWZqeUUyMEVGM2pMblgxLUJDT3lfUXdKMjlkSzhWVTltVXpnUmdUN1lVTUJBYWRyQ0NJSlZvU1MtRjZEUDIyVkNjamI3VGtZM3N1dEQ4SWtQYzBxQ2dxdVg4VG5QekthSXdpUkt3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Navbharat Times",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-24T17:29:20.654127+00:00",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_path": "assets/news-images/41e8ca559627c6255168.svg"
     },
     {
@@ -6029,7 +6028,7 @@
       "image_url": "https://img.etimg.com/thumb/msid-135288522,width-1200,height-900,imgsize-2654389,overlay-etmarkets/articleshow.jpg",
       "image_source": "https://economictimes.indiatimes.com/markets/ipos/fpos/bombay-coated-special-steels-ipo-opens-today-gmp-at-11-should-you-subscribe/articleshow/135288487.cms?from=mdr",
       "image_credit": "The Economic Times",
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_lookup_version": 2
     },
     {
@@ -10664,15 +10663,14 @@
           "publisher": "Chicago Fire"
         }
       ],
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
       "summary_refresh_attempted_at": "2026-11-08T21:56:54.359255+00:00",
       "summary_refresh_version": 21,
       "image_source": "https://www.bbc.com/sport/football/live/cw203jemke86t",
       "image_credit": "BBC",
-      "image_lookup_attempted_at": "2026-11-25T14:10:18.014431+00:00",
-      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00"
     },
     {
       "id": "en-1c357f0c69",
@@ -11505,7 +11503,7 @@
       "image_search_title": "",
       "image_source": "https://timesofindia.indiatimes.com/astrology/numerology-tarot/numerology-lucky-number-colour-11th-november-mirror-date-11-11-carries-mercurys-number-5messages-from-siblings-and-old-friends-matter-today/articleshow/135700759.cms",
       "image_credit": "The Times of India",
-      "image_lookup_attempted_at": "2026-11-18T21:51:14.167497+00:00",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
       "image_lookup_version": 2,
       "summary_refresh_attempted_at": "2026-11-13T09:24:03.666180+00:00",
       "summary_refresh_version": 21
@@ -14818,6 +14816,44 @@
       "image_lookup_attempted_at": "2026-11-25T14:10:18.014431+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/2ff2b79d18bb190ea9cf.jpg"
+    },
+    {
+      "id": "en-4e98189146",
+      "lang": "en",
+      "slug": "kajols-sister-calls-sai-pallavi-miscast-as-sita-praises-ranb-4e98189146",
+      "url": "en/posts/kajols-sister-calls-sai-pallavi-miscast-as-sita-praises-ranb-4e98189146.html",
+      "title": "Kajol’s sister calls Sai Pallavi miscast as Sita, praises Ranbir Kapoor, Yash in ‘Ramayana’",
+      "summary": "The Times of India: Tanishaa S Mukerji has reacted to 'Ramayana Part One' on social media. She praised Yash for the strength and physical presence he brought to Raavana but said the portrayal could…",
+      "source_summary": "The Times of India: Tanishaa S Mukerji has reacted to 'Ramayana Part One' on social media. She praised Yash for the strength and physical presence he brought to Raavana but said the portrayal could have shown more depth and many more shades.Tanishaa S Mukerji's take on Yash as RaavanaPosting…\n\nAdgully: Actress Shivya Pathania, who has portrayed some of television’s most revered mythological characters, recently expressed admiration for Sai Pallavi’s portrayal of Sita Maa in the upcoming film Ramayana. Having essayed the role of Sita in Ram Siya Ke Luv Kush and Radha Rani in RadhaKrishn…",
+      "article_body": "The Times of India: “Tanishaa S Mukerji has reacted to 'Ramayana Part One' on social media. She praised Yash for the strength and physical presence he brought to Raavana but said the portrayal could have shown more depth and many more shades.Tanishaa S Mukerji's take on Yash as RaavanaPosting…”\n\nAdgully: “Actress Shivya Pathania, who has portrayed some of television’s most revered mythological characters, recently expressed admiration for Sai Pallavi’s portrayal of Sita Maa in the upcoming film Ramayana. Having essayed the role of Sita in Ram Siya Ke Luv Kush and Radha Rani in RadhaKrishn…”",
+      "category": "trending",
+      "published_at": "2026-11-25T23:50:00+00:00",
+      "generated_at": "2026-11-26T00:09:28.395758+00:00",
+      "kind": "digest",
+      "keyword": "tanishaa",
+      "score": 89.82,
+      "sources": [
+        {
+          "title": "Kajol’s sister calls Sai Pallavi miscast as Sita, praises Ranbir Kapoor, Yash in ‘Ramayana’",
+          "url": "https://www.telegraphindia.com/entertainment/kajols-sister-calls-sai-pallavi-miscast-as-sita-praises-ranbir-kapoor-yash-in-ramayana/cid/2191161",
+          "publisher": "Telegraph India"
+        },
+        {
+          "title": "Tanishaa Mukerji says Yash's Ravana in 'Ramayana' left her 'bit dissatisfied', but adds he 'really matche",
+          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/tanishaa-mukerji-says-yashs-ravana-in-ramayana-left-her-bit-dissatisfied-but-adds-he-really-matched-ranbir-ravan-didnt-need-to-be-just-anger-and-arrogance/articleshow/136170371.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Shivya Pathania praises Sai Pallavi’s Hindi and Screen Presence as Sita Maa in Ramayana",
+          "url": "https://www.adgully.com/post/24018/shivya-pathania-praises-sai-pallavis-hindi-and-screen-presence-as-sita-maa-in-ramayana",
+          "publisher": "Adgully"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-136170566,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-26T00:12:18.388270+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/b59402d961f470b1d115.jpg"
     }
   ]
 }
