@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -744,7 +744,7 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -867,7 +867,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1015,7 +1015,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-26T10:43:30.429659+00:00",
+      "generated_at": "2026-11-27T16:30:29.984672+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1046,12 +1046,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1144,12 +1144,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3313,14 +3313,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3494,14 +3494,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4042,12 +4042,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4142,14 +4142,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-26T10:43:30.429659+00:00",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -7729,12 +7729,11 @@
       ],
       "summary_refresh_attempted_at": "2026-10-31T21:12:28.145768+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://static.cricbuzz.com/a/img/v1/i1/c860589/willow.jpg?d=high&p=det",
+      "image_url": "",
       "image_source": "https://m.cricbuzz.com/live-cricket-scores/170751/eng-vs-sl-6th-match-pakistan-odi-tri-series-2026",
       "image_credit": "Cricbuzz",
       "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-27T04:07:03.206322+00:00",
-      "image_path": "assets/news-images/d6717c604f6c4dcad3a8.png"
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00"
     },
     {
       "id": "en-0387652641",
@@ -11660,15 +11659,14 @@
           "publisher": "CricTracker"
         }
       ],
-      "image_url": "https://static.cricbuzz.com/a/img/v1/i1/c860589/willow.jpg?d=high&p=det",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
       "summary_refresh_attempted_at": "2026-11-13T09:24:03.666180+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-27T04:07:03.206322+00:00",
       "image_source": "https://www.cricbuzz.com/live-cricket-scores/177401/nedw-vs-thaiw-4th-match-group-b-icc-womens-emerging-nations-trophy-2026",
       "image_credit": "Cricbuzz",
-      "image_path": "assets/news-images/d6717c604f6c4dcad3a8.png"
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00"
     },
     {
       "id": "en-f613a09d4b",
@@ -14253,11 +14251,11 @@
       "url": "en/posts/ai-godfather-says-dario-amodei-has-medieval-mindset-left-ope-f557d1bcff.html",
       "title": "AI godfather says Dario Amodei has medieval mindset, left OpenAI when things went out of control",
       "summary": "India Today: Dario Amodei’s AI startup, Anthropic, went public last week. The company, which was formed just five years ago, is now worth over $1.5 trillion. At the same time, Amodei is raising…",
-      "source_summary": "India Today: Dario Amodei’s AI startup, Anthropic, went public last week. The company, which was formed just five years ago, is now worth over $1.5 trillion. At the same time, Amodei is raising concerns over open weight models and the risks they may have. Now, AI godfather…\n\nThe 420.in: A sharp dispute over who should control artificial intelligence has erupted between two prominent technology figures after AI researcher Yann LeCun described Anthropic chief executive Dario Amodei’s approach to AI governance as “medieval.” LeCun alleged that Amodei seeks to keep advanced AI technology concentrated in…\n\ntheopenpress.in: The sharpest divide in artificial intelligence has burst into the open, with AI pioneer Yann LeCun accusing Anthropic CEO Dario Amodei of a medieval mindset over the future of open weight AI models. LeCun, often called an AI godfather, said Amodei has spent years hyping…",
-      "article_body": "India Today: “Dario Amodei’s AI startup, Anthropic, went public last week. The company, which was formed just five years ago, is now worth over $1.5 trillion. At the same time, Amodei is raising concerns over open weight models and the risks they may have. Now, AI godfather…”\n\nThe 420.in: “A sharp dispute over who should control artificial intelligence has erupted between two prominent technology figures after AI researcher Yann LeCun described Anthropic chief executive Dario Amodei’s approach to AI governance as “medieval.” LeCun alleged that Amodei seeks to keep advanced AI technology concentrated in…”\n\ntheopenpress.in: “The sharpest divide in artificial intelligence has burst into the open, with AI pioneer Yann LeCun accusing Anthropic CEO Dario Amodei of a medieval mindset over the future of open weight AI models. LeCun, often called an AI godfather, said Amodei has spent years hyping…”",
+      "source_summary": "India Today: Dario Amodei’s AI startup, Anthropic, went public last week. The company, which was formed just five years ago, is now worth over $1.5 trillion. At the same time, Amodei is raising concerns over open weight models and the risks they may have. Now, AI godfather…\n\ntheopenpress.in: The sharpest divide in artificial intelligence has burst into the open, with AI pioneer Yann LeCun accusing Anthropic CEO Dario Amodei of a medieval mindset over the future of open weight AI models. LeCun, often called an AI godfather, said Amodei has spent years hyping…",
+      "article_body": "India Today: “Dario Amodei’s AI startup, Anthropic, went public last week. The company, which was formed just five years ago, is now worth over $1.5 trillion. At the same time, Amodei is raising concerns over open weight models and the risks they may have. Now, AI godfather…”\n\ntheopenpress.in: “The sharpest divide in artificial intelligence has burst into the open, with AI pioneer Yann LeCun accusing Anthropic CEO Dario Amodei of a medieval mindset over the future of open weight AI models. LeCun, often called an AI godfather, said Amodei has spent years hyping…”",
       "category": "trending",
       "published_at": "2026-11-23T06:50:00+00:00",
-      "generated_at": "2026-11-23T07:06:24.507197+00:00",
+      "generated_at": "2026-11-27T16:30:29.984672+00:00",
       "kind": "digest",
       "keyword": "dario amodei",
       "score": 89.85,
@@ -14282,7 +14280,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-23T07:09:46.250713+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/8f20d52b0d4131b3c6a8.jpg"
+      "image_path": "assets/news-images/8f20d52b0d4131b3c6a8.jpg",
+      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-83c37fd320",
@@ -14892,11 +14892,10 @@
           "publisher": "BBC"
         }
       ],
-      "image_url": "https://static.cricbuzz.com/a/img/v1/i1/c860589/willow.jpg?d=high&p=det",
+      "image_url": "",
       "image_search_title": "",
-      "image_lookup_attempted_at": "2026-11-26T10:46:52.640522+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/d6717c604f6c4dcad3a8.png"
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00"
     },
     {
       "id": "en-ddf4e24951",
@@ -15011,6 +15010,120 @@
       "image_lookup_attempted_at": "2026-11-27T04:07:03.206322+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/f0e8eed95c57918fac6e.jpg"
+    },
+    {
+      "id": "en-89c120b922",
+      "lang": "en",
+      "slug": "from-the-oval-to-the-outside-siraj-s-test-career-at-a-crossr-89c120b922",
+      "url": "en/posts/from-the-oval-to-the-outside-siraj-s-test-career-at-a-crossr-89c120b922.html",
+      "title": "From The Oval to the outside: Siraj's Test career at a crossroads",
+      "summary": "Cricbuzz: The bigger challenge for Siraj now is to win his way back into the playing XI. India's next Test assignment is at home against Australia, and it's unlikely we'll see him there unless he…",
+      "source_summary": "Cricbuzz: The bigger challenge for Siraj now is to win his way back into the playing XI. India's next Test assignment is at home against Australia, and it's unlikely we'll see him there unless he finds a way to convince Gill and the team management that…\n\nRediff.com: You shouldnt pick him in the squad in the first place if you want to do this.IMAGE: Mohammed Siraj waits on the sidelines during Day 1 of the second and final Test against New Zealand in Christchurch on Friday. Photograph: BCCIKey PointsMohammed Siraj was dropped…",
+      "article_body": "Cricbuzz: “The bigger challenge for Siraj now is to win his way back into the playing XI. India's next Test assignment is at home against Australia, and it's unlikely we'll see him there unless he finds a way to convince Gill and the team management that…”\n\nRediff.com: “You shouldnt pick him in the squad in the first place if you want to do this.IMAGE: Mohammed Siraj waits on the sidelines during Day 1 of the second and final Test against New Zealand in Christchurch on Friday. Photograph: BCCIKey PointsMohammed Siraj was dropped…”",
+      "category": "trending",
+      "published_at": "2026-11-27T16:10:00+00:00",
+      "generated_at": "2026-11-27T16:30:29.984672+00:00",
+      "kind": "digest",
+      "keyword": "siraj cricketer",
+      "score": 89.81,
+      "sources": [
+        {
+          "title": "From The Oval to the outside: Siraj's Test career at a crossroads",
+          "url": "https://www.cricbuzz.com/cricket-news/141075/from-the-oval-to-the-outside-mohammed-sirajs-test-career-at-a-crossroads-india-vs-new-zealand-2026-cricbuzzcom",
+          "publisher": "Cricbuzz"
+        },
+        {
+          "title": "Gavaskar rues Jadeja’s omission as New Zealand reach 246/5 on day one of Christchurch Test",
+          "url": "https://www.telegraphindia.com/sports/cricket/gavaskar-rues-jadejas-omission-as-new-zealand-reach-246-5-on-day-one-of-christchurch-test/cid/2191530",
+          "publisher": "Telegraph India"
+        },
+        {
+          "title": "Was Mohammed Siraj Crying?",
+          "url": "https://www.rediff.com/cricket/report/india-vs-nz-2nd-test-was-mohammed-siraj-crying/20261127.htm",
+          "publisher": "Rediff.com"
+        }
+      ],
+      "image_url": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1134885/siraj-was-down-on-pace-and-rhythm-in-sri-lanka.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/cca934bcb69f25335985.jpg"
+    },
+    {
+      "id": "en-34cf5fd444",
+      "lang": "en",
+      "slug": "ffws-global-finals-2026-grand-finals-schedule-qualified-team-34cf5fd444",
+      "url": "en/posts/ffws-global-finals-2026-grand-finals-schedule-qualified-team-34cf5fd444.html",
+      "title": "FFWS Global Finals 2026 Grand Finals: Schedule, Qualified Teams, and How to Watch Live",
+      "summary": "Sportsdunia: After three weeks of gruelling action, the dust finally settles as fans are about to get their Free Fire Esports global champion. The Free Fire World Series Global Finals 2026 Grand…",
+      "source_summary": "Sportsdunia: After three weeks of gruelling action, the dust finally settles as fans are about to get their Free Fire Esports global champion. The Free Fire World Series Global Finals 2026 Grand Finals go underway this Saturday at the BITEC LIVE in Bangkok, Thailand. Eight teams…\n\nTuoi Tre News | The News Gateway to Vietnam: Vietnamese team P Esports made a strong impression in Bangkok, Thailand, topping the standings on the opening day of the second stage of the knockout round at the Free Fire World Series (FFWS) Global Finals 2026.",
+      "article_body": "Sportsdunia: “After three weeks of gruelling action, the dust finally settles as fans are about to get their Free Fire Esports global champion. The Free Fire World Series Global Finals 2026 Grand Finals go underway this Saturday at the BITEC LIVE in Bangkok, Thailand. Eight teams…”\n\nTuoi Tre News | The News Gateway to Vietnam: “Vietnamese team P Esports made a strong impression in Bangkok, Thailand, topping the standings on the opening day of the second stage of the knockout round at the Free Fire World Series (FFWS) Global Finals 2026.”",
+      "category": "trending",
+      "published_at": "2026-11-27T16:10:00+00:00",
+      "generated_at": "2026-11-27T16:30:29.984672+00:00",
+      "kind": "digest",
+      "keyword": "ffws",
+      "score": 89.81,
+      "sources": [
+        {
+          "title": "FFWS Global Finals 2026 Grand Finals: Schedule, Qualified Teams, and How to Watch Live",
+          "url": "https://www.sportsdunia.com/esports/free-fire-ffws-2026-grand-finals-teams-schedule-and-how-to-watch",
+          "publisher": "Sportsdunia"
+        },
+        {
+          "title": "Free Fire esports watch time record hits 17.6M",
+          "url": "https://escharts.com/news/ffws-global-finals-2026-new-free-fire-esports-watch-time-record",
+          "publisher": "Esports Charts"
+        },
+        {
+          "title": "Vietnam defeat Thailand to secure place in Esports world championship finals",
+          "url": "https://news.tuoitre.vn/vietnam-defeat-thailand-to-secure-place-in-esports-world-championship-finals-103261121134324744.htm",
+          "publisher": "Tuoi Tre News | The News Gateway to Vietnam"
+        }
+      ],
+      "image_url": "https://sdprodstorage.blob.core.windows.net/sd-cms-prod/cms-post/Free%20Fire%20World%20Series%202026%20Global%20Finals%20Grand%20Finals-1795759214319.webp",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/139b5698360a1147a3b4.webp"
+    },
+    {
+      "id": "en-57fbc4c6d9",
+      "lang": "en",
+      "slug": "naidu-in-delhi-for-nda-meeting-after-union-cabinet-clears-de-57fbc4c6d9",
+      "url": "en/posts/naidu-in-delhi-for-nda-meeting-after-union-cabinet-clears-de-57fbc4c6d9.html",
+      "title": "Naidu in Delhi for NDA meeting after Union Cabinet clears delimitation Bill with 50% rise in seats for all States",
+      "summary": "The Hindu: VIJAYAWADA Andhra Pradesh Chief Minister N. Chandrababu Naidu left for New Delhi on Friday (November 27, 2026) to attend a meeting of National Democratic Alliance (NDA) leaders convened by…",
+      "source_summary": "The Hindu: VIJAYAWADA Andhra Pradesh Chief Minister N. Chandrababu Naidu left for New Delhi on Friday (November 27, 2026) to attend a meeting of National Democratic Alliance (NDA) leaders convened by Prime Minister Narendra Modi, ahead of a special sitting of Parliament. Mr. Naidu flew to the…\n\nDeccan Chronicle: Amaravati: Andhra Pradesh Chief Minister N. Chandrababu Naidu and Deputy Chief Minister Pawan Kalyan will leave for Delhi shortly. Chandrababu Naidu is visiting Delhi at the invitation of Prime Minister Narendra Modi. Pawan Kalyan will accompany the Chief Minister on the visit. The visit assumes…\n\nTelugu360: Watch LIVE : Chandrababu Gets Call from PMO | What’s the Big Move? on Telugu360.",
+      "article_body": "The Hindu: “VIJAYAWADA Andhra Pradesh Chief Minister N. Chandrababu Naidu left for New Delhi on Friday (November 27, 2026) to attend a meeting of National Democratic Alliance (NDA) leaders convened by Prime Minister Narendra Modi, ahead of a special sitting of Parliament. Mr. Naidu flew to the…”\n\nDeccan Chronicle: “Amaravati: Andhra Pradesh Chief Minister N. Chandrababu Naidu and Deputy Chief Minister Pawan Kalyan will leave for Delhi shortly. Chandrababu Naidu is visiting Delhi at the invitation of Prime Minister Narendra Modi. Pawan Kalyan will accompany the Chief Minister on the visit. The visit assumes…”\n\nTelugu360: “Watch LIVE : Chandrababu Gets Call from PMO | What’s the Big Move? on Telugu360.”",
+      "category": "trending",
+      "published_at": "2026-11-27T16:00:00+00:00",
+      "generated_at": "2026-11-27T16:30:29.984672+00:00",
+      "kind": "digest",
+      "keyword": "nda",
+      "score": 89.72,
+      "sources": [
+        {
+          "title": "Naidu in Delhi for NDA meeting after Union Cabinet clears delimitation Bill with 50% rise in seats for all States",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/naidu-in-delhi-for-nda-meeting-after-union-cabinet-clears-delimitation-bill-with-50-rise-in-seats-for-all-states/article71750067.ece",
+          "publisher": "The Hindu"
+        },
+        {
+          "title": "Chandrababu Naidu, Pawan Kalyan to Attend NDA Leaders’ Meeting in Delhi",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/chandrababu-naidu-pawan-kalyan-to-attend-nda-leaders-meeting-in-delhi-2008458",
+          "publisher": "Deccan Chronicle"
+        },
+        {
+          "title": "Video : LIVE : Chandrababu Gets Call from PMO | What's the Big Move?",
+          "url": "https://www.telugu360.com/video-live-chandrababu-gets-call-from-pmo-whats-the-big-move/",
+          "publisher": "Telugu360"
+        }
+      ],
+      "image_url": "https://th-i.thgim.com/public/incoming/wjdzi9/article71745075.ece/alternates/LANDSCAPE_1200/Cyclone-Akvan-tGEIGQBD9L.3.jpg.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/d5a77395330112f6730c.jpg"
     }
   ]
 }
