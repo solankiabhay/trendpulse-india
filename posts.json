@@ -307,7 +307,7 @@
           "publisher": "ThePrint Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -744,7 +744,7 @@
           "publisher": "TheGamer"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -867,7 +867,7 @@
           "publisher": "ABP News"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 1,
@@ -1015,7 +1015,7 @@
       "source_summary": "BBC: नेहा बोरा हिरासत से आईं बाहर, बताया अपना अनुभव\n\nIndia TV Hindi: CJP Protest LIVE: गिरफ्तारी के बाद जेल भेजे जाएंगे अभिजीत दिपके? कोर्ट में होगी पेशी, बढ़ाई गई सुरक्षा\n\nHindustan: अभिजीत दीपके जाएंगे जेल या मिलेगी जमानत? दिल्ली पुलिस ने कोर्ट में किया पेश, Ncr Hindi News\n\nDainik Bhaskar: अभिजीत दीपके गिरफ्तार, आज कोर्ट में पेशी होगी: CJP की लीगल टीम मंदिर मार्ग पुलिस स्टेशन पहुंची; सुबह नेहा…\n\nAajTak: Neha Bora Detained: 'नेहा बोरा को प्राइवेट कार में ले गई पुलिस', विशाल ददलानी के पोस्ट से मचा हड़कंप",
       "category": "india",
       "published_at": "2026-10-17T10:19:26+00:00",
-      "generated_at": "2026-11-27T16:30:29.984672+00:00",
+      "generated_at": "2026-11-28T19:52:34.013346+00:00",
       "kind": "digest",
       "keyword": null,
       "score": 79.75,
@@ -1046,12 +1046,12 @@
           "publisher": "AajTak"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
       "image_path": "assets/news-images/fd88d691e8c33788ff89.svg"
     },
     {
@@ -1144,12 +1144,12 @@
           "publisher": "India TV Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
       "image_path": "assets/news-images/58b15c50880a2cfceb26.svg"
     },
     {
@@ -3313,14 +3313,14 @@
           "publisher": "Vietnam.vn"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmlYeEdGSnBoZDNCOUpWMVNsVHdxSktOZzU1aXVDb1F3RG03bE96Mk5DT2VUVjhCM214SkxlSmZBTVJQb3c0NUJxVWo0cXZLSHJfc0QwU2t3dHN1bHM5dDFqRWpJUXAxNU05TDRZeHZMY1ZTZmNLd3pGWTJubFA5NUJFU0ZodHNoX1ZwVDRVYmd0UkRvNU5yc2trZkViZXdoc0lZalB2Z3hLcmVGUHdWTmdORjA0UUV1MXg4a9IBwgFBVV95cUxQdENfN1czU01OQ3ZWb0pWS3ViUzlLV2paVjNEV0FmVHVhVVpyOE5NcUI5WkpNVGMyeVV4M29IVmpodEFRMGhOMDhMQzBqM0pOckRFOFZpbGtQazNnSXdqVHNwMDVxWUI3QThycVR3enpueDVMMFE2LURWM1ZtYnNjQXRjenBpN0JTWUlZclpGX0IwTkpHNE9xZEtDZTRJMkc3dlR3VC1WN3ZoNlBjb3BhaEJOQ3FXUnNYcVBsblpRT2xRdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Dainik Bhaskar",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
       "image_path": "assets/news-images/6432cd71b6a6520158d7.svg"
     },
     {
@@ -3494,14 +3494,14 @@
           "publisher": "Amar Ujala"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUVNVTFBRUFrb2lkWTJyZXpDR0ZJU2RmOU9YWFhqOHFxaERLUW0wUThfQ0hRVDdFWVBJdjNIVGF1a2g2Q19LZkp3ZmlGYXdXNXdfaGdXTGxhUUxjbFh3WGxYNVNHU2VHR3NCckQxbVdIN2gyajg1VUhvQkg2VzJFMkhHaF9OVEFyVm5BVVZuREtUTExDZm9EVk9LdjDSAaIBQVVfeXFMT2FJV3NlMlVXLVJYRjZwZk85dDFscEduNHYzRUNvVDc1SENOVGViZXhZblphZWIxVVNsTmg0T3lpU2F0NkZpRzRpZjRtWElOT0ZhbmlJUDFQdktWRmlKY3ZaQm0xSXZ2YUY1cElRRDVFdjNzX0pqczdLMXU2Vi12dWlBTHM1ZXlmdk90enFvc1RacjNKcWgxRG8tNUxlTlhYbmFn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "ABP News",
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
       "image_path": "assets/news-images/abb20a3f493588e1258b.svg"
     },
     {
@@ -4042,12 +4042,12 @@
           "publisher": "Jansatta"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
       "image_path": "assets/news-images/4c491fe72bd4a03a745f.svg"
     },
     {
@@ -4142,14 +4142,14 @@
           "publisher": "Digit Hindi"
         }
       ],
-      "summary_refresh_attempted_at": "2026-11-27T16:30:29.984672+00:00",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
       "summary_refresh_version": 21,
       "image_url": "",
       "image_source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOck9wdXpQaTJxWjg5VnhSTVBPV3V3Y1BHRUpRNXF6MWh5blNDd0JKSDlwZTFKNmgxRkQ4ZEtMRHloYXdmdjlodFhXZlZXWi0zY1RuSnNlVmQ3QTdMdHhOTVVsMWZCRkhXc1MwMlZjWWVUMWVXcVpEWi0yeE51LVlGc2dQYkstLU5STFdiMFEzcDlPUVJJT19pdnZLQ0oyTzBPZXU5YUVUamVLTDJpTFhCU0EyNjg5RVRmUExFdkt4RnJSVTFBaURjS0V1ZEc5aWJKMGRR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
       "image_credit": "Jagran",
       "image_lookup_version": 2,
       "image_kind": "generated-fallback",
-      "image_lookup_attempted_at": "2026-11-27T16:32:45.041491+00:00",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
       "image_path": "assets/news-images/7a6257bf8c30324d9216.svg"
     },
     {
@@ -4613,12 +4613,10 @@
       ],
       "summary_refresh_attempted_at": "2026-10-26T23:40:03.891607+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+      "image_url": "",
       "image_source": "https://www.bbc.com/sport/football/live/ck1wvl8w944yt",
       "image_credit": "BBC",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-28T10:09:16.701293+00:00",
-      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+      "image_lookup_version": 1
     },
     {
       "id": "en-0f429f0345",
@@ -4933,12 +4931,10 @@
       ],
       "summary_refresh_attempted_at": "2026-10-28T01:04:51.831074+00:00",
       "summary_refresh_version": 21,
-      "image_url": "https://www.thehindu.com/theme/images/og-image.png",
+      "image_url": "",
       "image_source": "https://www.thehindu.com/news/national/uttar-pradesh/eci-suspends-six-up-officials-for-dereliction-of-duty-polling-booth-lapses-in-council-polls/article71627941.ece",
       "image_credit": "The Hindu",
-      "image_lookup_version": 2,
-      "image_lookup_attempted_at": "2026-11-28T10:09:16.701293+00:00",
-      "image_path": "assets/news-images/b7f16baf839d75de0481.png"
+      "image_lookup_version": 1
     },
     {
       "id": "en-03c1f9b91d",
@@ -10189,13 +10185,11 @@
           "publisher": "Squawka"
         }
       ],
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg",
+      "image_url": "",
       "image_search_title": "",
-      "image_lookup_version": 2,
+      "image_lookup_version": 1,
       "image_source": "https://www.bbc.com/sport/football/live/c679py38w41yt",
-      "image_credit": "BBC",
-      "image_lookup_attempted_at": "2026-11-28T01:23:29.384756+00:00",
-      "image_path": "assets/news-images/70d02c23030e0beae27a.jpg"
+      "image_credit": "BBC"
     },
     {
       "id": "en-aac038e165",
@@ -11944,15 +11938,14 @@
           "publisher": "Hyderabad Mail"
         }
       ],
-      "image_url": "https://www.thehindu.com/theme/images/og-image.png",
+      "image_url": "",
       "image_search_title": "",
       "image_lookup_version": 2,
       "summary_refresh_attempted_at": "2026-11-14T05:56:49.643786+00:00",
       "summary_refresh_version": 21,
-      "image_lookup_attempted_at": "2026-11-28T10:09:16.701293+00:00",
       "image_source": "https://www.thehindu.com/news/national/telangana/police-bust-interstate-vape-supply-network-in-hyderabad-man-arrested/article71694589.ece",
       "image_credit": "The Hindu",
-      "image_path": "assets/news-images/b7f16baf839d75de0481.png"
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00"
     },
     {
       "id": "en-97e65a25d8",
@@ -14977,7 +14970,9 @@
       "image_search_title": "",
       "image_lookup_attempted_at": "2026-11-26T21:22:47.345448+00:00",
       "image_lookup_version": 2,
-      "image_path": "assets/news-images/592e5ec0da3e2ec5b9f8.webp"
+      "image_path": "assets/news-images/592e5ec0da3e2ec5b9f8.webp",
+      "summary_refresh_attempted_at": "2026-11-28T19:52:34.013346+00:00",
+      "summary_refresh_version": 21
     },
     {
       "id": "en-2eadef81c7",
@@ -15320,6 +15315,197 @@
       "image_lookup_attempted_at": "2026-11-28T10:09:16.701293+00:00",
       "image_lookup_version": 2,
       "image_path": "assets/news-images/f4357c25952b831d51b3.jpg"
+    },
+    {
+      "id": "en-098f0e92fd",
+      "lang": "en",
+      "slug": "live-kan-go-ahead-eagles-met-weijenberg-in-de-basis-voor-stu-098f0e92fd",
+      "url": "en/posts/live-kan-go-ahead-eagles-met-weijenberg-in-de-basis-voor-stu-098f0e92fd.html",
+      "title": "LIVE | Kan Go Ahead Eagles met Weijenberg in de basis voor stunt zorgen bij PSV?",
+      "summary": "NOS: PSV-trainer Peter Bosz heeft voor het thuisduel met Go Ahead Eagles drie wijzigingen aangebracht in zijn basisopstelling ten opzichte van het verloren Champions League-duel met Real Madrid…",
+      "source_summary": "NOS: PSV-trainer Peter Bosz heeft voor het thuisduel met Go Ahead Eagles drie wijzigingen aangebracht in zijn basisopstelling ten opzichte van het verloren Champions League-duel met Real Madrid (5-1). Ricardo Pepi, Yarek Gasiorowski en Esmir Bajraktarevic starten in plaats van Guus Til (bank), Armando Obsipo (bank)…",
+      "article_body": "NOS: “PSV-trainer Peter Bosz heeft voor het thuisduel met Go Ahead Eagles drie wijzigingen aangebracht in zijn basisopstelling ten opzichte van het verloren Champions League-duel met Real Madrid (5-1). Ricardo Pepi, Yarek Gasiorowski en Esmir Bajraktarevic starten in plaats van Guus Til (bank), Armando Obsipo (bank)…”",
+      "category": "trending",
+      "published_at": "2026-11-28T19:30:00+00:00",
+      "generated_at": "2026-11-28T19:52:34.013346+00:00",
+      "kind": "digest",
+      "keyword": "eredivisie",
+      "score": 89.79,
+      "sources": [
+        {
+          "title": "LIVE | Kan Go Ahead Eagles met Weijenberg in de basis voor stunt zorgen bij PSV?",
+          "url": "https://myprivacy.dpgmedia.nl/consent?siteKey=Dl16ymCePojG0NiW&callbackUrl=https%3A%2F%2Fwww.destentor.nl%2Fprivacy-gate%2Faccept-tcf2%3FredirectUri%3D%252Fga-eagles%252Flive-kan-go-ahead-eagles-met-weijenberg-in-de-basis-voor-stunt-zorgen-bij-psv~a4d68e05%252F&isLoggedIn=false",
+          "publisher": "de Stentor"
+        },
+        {
+          "title": "PSV wint uiteindelijk ruim van Go Ahead• Kovar redt keer op keer voor PSV",
+          "url": "https://nos.nl/liveblog/2641380-cambuur-ontvangt-sparta-psv-boekt-geflatteerde-zege-op-go-ahead",
+          "publisher": "NOS"
+        },
+        {
+          "title": "LIVE | Kostic en Van Bommel schieten met scherp bij PSV, bijrol voor trainer Bosz bij tweede goal",
+          "url": "https://myprivacy.dpgmedia.nl/consent?siteKey=mcv8h7juKXm7kdOx&callbackUrl=https%3A%2F%2Fwww.ed.nl%2Fprivacy-gate%2Faccept-tcf2%3FredirectUri%3D%252Fpsv%252Flive-kostic-en-van-bommel-schieten-met-scherp-bij-psv-bijrol-voor-trainer-bosz-bij-tweede-goal~a4386dd2%252F&isLoggedIn=false",
+          "publisher": "ed.nl"
+        }
+      ],
+      "image_url": "https://images.cdn.nos.nl/5/3/V/6/U/X/a93PpNHjSRg2ACPSDq1CepPeLvbmcCvURgy4ToQ/3x370x3536x1989-1024x576.webp",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/034142b7b87457261b7d.webp"
+    },
+    {
+      "id": "en-c3d8952d1e",
+      "lang": "en",
+      "slug": "i-can-t-help-her-achieve-what-s-not-in-her-destiny-sudesh-be-c3d8952d1e",
+      "url": "en/posts/i-can-t-help-her-achieve-what-s-not-in-her-destiny-sudesh-be-c3d8952d1e.html",
+      "title": "'I Can't Help Her Achieve What's Not In Her Destiny': Sudesh Berry On Daughter-In-Law's Claim Of Receiving No Career Support",
+      "summary": "The Times of India: Shambhavi Sharma has revisited one of the most shocking moments from her stint on Roadies 5.0. Nearly two decades after Ashutosh Kaushik slapped her during a task on the reality…",
+      "source_summary": "The Times of India: Shambhavi Sharma has revisited one of the most shocking moments from her stint on Roadies 5.0. Nearly two decades after Ashutosh Kaushik slapped her during a task on the reality show, the actress says she has still not been able to forget the incident. In…\n\nThe Indian Express: Shambhavi Sharma, who first appeared on MTV Roadies 5.0 and later returned to the franchise with Roadies Rebirth, recently revisited one of the most controversial moments from the reality show's history. She recalled how fellow contestant Ashutosh Kaushik slapped her during a task on the…",
+      "article_body": "The Times of India: “Shambhavi Sharma has revisited one of the most shocking moments from her stint on Roadies 5.0. Nearly two decades after Ashutosh Kaushik slapped her during a task on the reality show, the actress says she has still not been able to forget the incident. In…”\n\nThe Indian Express: “Shambhavi Sharma, who first appeared on MTV Roadies 5.0 and later returned to the franchise with Roadies Rebirth, recently revisited one of the most controversial moments from the reality show's history. She recalled how fellow contestant Ashutosh Kaushik slapped her during a task on the…”",
+      "category": "trending",
+      "published_at": "2026-11-28T19:30:00+00:00",
+      "generated_at": "2026-11-28T19:52:34.013346+00:00",
+      "kind": "digest",
+      "keyword": "roadies",
+      "score": 89.79,
+      "sources": [
+        {
+          "title": "'I Can't Help Her Achieve What's Not In Her Destiny': Sudesh Berry On Daughter-In-Law's Claim Of Receiving No Career Support",
+          "url": "https://www.ndtv.com/entertainment/i-cant-help-her-achieve-whats-not-in-her-destiny-sudesh-berry-on-daughter-in-laws-claim-of-receiving-no-career-support-12383347",
+          "publisher": "NDTV"
+        },
+        {
+          "title": "Shambhavi Sharma recalls Ashutosh Kaushik slapping her on Roadies 5.0, says he never apologised; says, ‘I",
+          "url": "https://timesofindia.indiatimes.com/tv/news/hindi/shambhavi-sharma-recalls-ashutosh-kaushik-slapping-her-on-roadies-5-0-says-he-never-apologised-says-i-can-still-feel-the-sensation/articleshow/136215028.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Shambhavi Sharma recalls Roadies slap incident with Ashutosh: ‘He felt hitting a woman was cool’",
+          "url": "https://indianexpress.com/article/entertainment/television/shambhavi-sharma-roadies-5-slap-ashutosh-never-apologised-10979800/",
+          "publisher": "The Indian Express"
+        }
+      ],
+      "image_url": "https://static.toiimg.com/thumb/msid-136215042,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/1a5b4401f3d9fe6706e8.jpg"
+    },
+    {
+      "id": "en-1637d8356c",
+      "lang": "en",
+      "slug": "shah-rukh-khan-recalls-awkward-moment-romancing-much-younger-1637d8356c",
+      "url": "en/posts/shah-rukh-khan-recalls-awkward-moment-romancing-much-younger-1637d8356c.html",
+      "title": "Shah Rukh Khan recalls awkward moment romancing much younger actress: ‘Homework kia?’",
+      "summary": "The Indian Express: At the launch of King song Daddy Cool, Shah Rukh Khan recalled an awkward moment while shooting a romantic scene with a younger actress.\n\nThe Times of India: Shah Rukh Khan will…",
+      "source_summary": "The Indian Express: At the launch of King song Daddy Cool, Shah Rukh Khan recalled an awkward moment while shooting a romantic scene with a younger actress.\n\nThe Times of India: Shah Rukh Khan will soon be back in fighting form on the big screen with his December release, 'King'. The actor on Friday hosted a special song-launch event that saw him take over the stage to interact with his fans and discuss his film journey…",
+      "article_body": "The Indian Express: “At the launch of King song Daddy Cool, Shah Rukh Khan recalled an awkward moment while shooting a romantic scene with a younger actress.”\n\nThe Times of India: “Shah Rukh Khan will soon be back in fighting form on the big screen with his December release, 'King'. The actor on Friday hosted a special song-launch event that saw him take over the stage to interact with his fans and discuss his film journey…”",
+      "category": "trending",
+      "published_at": "2026-11-28T19:30:00+00:00",
+      "generated_at": "2026-11-28T19:52:34.013346+00:00",
+      "kind": "digest",
+      "keyword": "srk",
+      "score": 89.79,
+      "sources": [
+        {
+          "title": "Shah Rukh Khan recalls awkward moment romancing much younger actress: ‘Homework kia?’",
+          "url": "https://indianexpress.com/article/entertainment/bollywood/shah-rukh-khan-awkward-moment-romancing-much-younger-actress-homework-kia-10981961/",
+          "publisher": "The Indian Express"
+        },
+        {
+          "title": "Shah Rukh Khan reveals what inspired him to make ‘King’: ‘Am I still a hero at 60, and can I play my age?",
+          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/shah-rukh-khan-reveals-what-inspired-him-to-make-king-am-i-still-a-hero-at-60-and-can-i-play-my-age/articleshow/136235574.cms",
+          "publisher": "The Times of India"
+        },
+        {
+          "title": "Why Shah Rukh Khan Decided To 'Act His Age' After Romancing A Much Younger Actor",
+          "url": "https://www.ndtv.com/entertainment/shah-rukh-khan-recalls-awkward-romance-scene-with-much-younger-actress-hope-you-finished-your-maths-homework-12388420",
+          "publisher": "NDTV"
+        }
+      ],
+      "image_url": "https://images.indianexpress.com/2026/11/shah-rukh-khan-4.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/1a5c72cd0e77820a0ad2.jpg"
+    },
+    {
+      "id": "en-e86479b98c",
+      "lang": "en",
+      "slug": "bigg-boss-20-double-eviction-likely-in-week-12-e86479b98c",
+      "url": "en/posts/bigg-boss-20-double-eviction-likely-in-week-12-e86479b98c.html",
+      "title": "Bigg Boss 20: Double Eviction Likely In Week 12",
+      "summary": "Deccan Chronicle: Bigg Boss 20 is all set to witness its 12th-week elimination in the house. Scout OP, Mahhi Vij, Gullu, Amrapali Dubey, Kanika Mann, and Love Gill have been nominated for this…",
+      "source_summary": "Deccan Chronicle: Bigg Boss 20 is all set to witness its 12th-week elimination in the house. Scout OP, Mahhi Vij, Gullu, Amrapali Dubey, Kanika Mann, and Love Gill have been nominated for this week.Murmurs are doing the rounds that the makers are planning a double eviction in…\n\nThe Siasat Daily: Mumbai: Bigg Boss 20 is gearing up for another exciting Weekend Ka Vaar, with host and Bollywood superstar Salman Khan set to return to the stage tonight. As always, the actor is expected to school contestants over their behaviour, performances and major happenings inside the…\n\nIndia TV News: The Bigg Boss 20 house is creating buzz ahead of Weekend Ka Vaar, with speculation surrounding this week's eviction. Reports on social media have suggested that Love Gill, aka Lovepreet Kaur Gill, has been eliminated from Salman Khan's reality show. While the news has not…",
+      "article_body": "Deccan Chronicle: “Bigg Boss 20 is all set to witness its 12th-week elimination in the house. Scout OP, Mahhi Vij, Gullu, Amrapali Dubey, Kanika Mann, and Love Gill have been nominated for this week.Murmurs are doing the rounds that the makers are planning a double eviction in…”\n\nThe Siasat Daily: “Mumbai: Bigg Boss 20 is gearing up for another exciting Weekend Ka Vaar, with host and Bollywood superstar Salman Khan set to return to the stage tonight. As always, the actor is expected to school contestants over their behaviour, performances and major happenings inside the…”\n\nIndia TV News: “The Bigg Boss 20 house is creating buzz ahead of Weekend Ka Vaar, with speculation surrounding this week's eviction. Reports on social media have suggested that Love Gill, aka Lovepreet Kaur Gill, has been eliminated from Salman Khan's reality show. While the news has not…”",
+      "category": "trending",
+      "published_at": "2026-11-28T19:20:00+00:00",
+      "generated_at": "2026-11-28T19:52:34.013346+00:00",
+      "kind": "digest",
+      "keyword": "bigg boss eviction",
+      "score": 89.7,
+      "sources": [
+        {
+          "title": "Bigg Boss 20: Double Eviction Likely In Week 12",
+          "url": "https://www.deccanchronicle.com/entertainment/television/huge-twist-in-bigg-boss-20-2008776",
+          "publisher": "Deccan Chronicle"
+        },
+        {
+          "title": "Bigg Boss 20: Female contestant to lose her place in finale race",
+          "url": "https://www.siasat.com/bigg-boss-20-female-contestant-to-lose-her-place-in-finale-race-3588935/",
+          "publisher": "The Siasat Daily"
+        },
+        {
+          "title": "Love Gill eliminated from Bigg Boss 20? Internet reacts after Weekend Ka Vaar eviction buzz grows",
+          "url": "https://www.indiatvnews.com/entertainment/tv/love-gill-eliminated-from-bigg-boss-20-internet-reacts-after-weekend-ka-vaar-eviction-buzz-grows-2026-11-28-1060618",
+          "publisher": "India TV News"
+        }
+      ],
+      "image_url": "https://www.deccanchronicle.com/h-upload/2025/12/07/1987095-salman-khan.jpg",
+      "image_search_title": "",
+      "image_source": "https://www.deccanchronicle.com/entertainment/television/huge-twist-in-bigg-boss-20-2008776",
+      "image_credit": "Deccan Chronicle",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
+      "image_lookup_version": 2
+    },
+    {
+      "id": "en-0d3107ee9b",
+      "lang": "en",
+      "slug": "f1-qatar-grand-prix-2026-lewis-hamilton-says-ferrari-facing-0d3107ee9b",
+      "url": "en/posts/f1-qatar-grand-prix-2026-lewis-hamilton-says-ferrari-facing-0d3107ee9b.html",
+      "title": "F1 Qatar Grand Prix 2026: Lewis Hamilton says Ferrari facing 'very challenging times'",
+      "summary": "BBC: Lewis Hamilton says Ferrari are facing \"very, very challenging times\" as a result of the series of on-track incidents between himself and team-mate Charles Leclerc.\n\nThe Guardian: T here is an…",
+      "source_summary": "BBC: Lewis Hamilton says Ferrari are facing \"very, very challenging times\" as a result of the series of on-track incidents between himself and team-mate Charles Leclerc.\n\nThe Guardian: T here is an unmistakable air of deja vu heading into the Qatar Grand Prix and with it an intense scrutiny that might be considered unusual for a dead-rubber weekend. Yet for Ferrari, who are the subject of the attention after costly on-track incidents between…\n\nESPN India: Charles Leclerc has said he and Ferrari teammate Lewis Hamilton must find a \"solution\" for their run of recent on-track incidents, after admitting it has damaged the atmosphere within the team.",
+      "article_body": "BBC: “Lewis Hamilton says Ferrari are facing \"very, very challenging times\" as a result of the series of on-track incidents between himself and team-mate Charles Leclerc.”\n\nThe Guardian: “T here is an unmistakable air of deja vu heading into the Qatar Grand Prix and with it an intense scrutiny that might be considered unusual for a dead-rubber weekend. Yet for Ferrari, who are the subject of the attention after costly on-track incidents between…”\n\nESPN India: “Charles Leclerc has said he and Ferrari teammate Lewis Hamilton must find a \"solution\" for their run of recent on-track incidents, after admitting it has damaged the atmosphere within the team.”",
+      "category": "trending",
+      "published_at": "2026-11-28T19:20:00+00:00",
+      "generated_at": "2026-11-28T19:52:34.013346+00:00",
+      "kind": "digest",
+      "keyword": "charles leclerc",
+      "score": 89.7,
+      "sources": [
+        {
+          "title": "F1 Qatar Grand Prix 2026: Lewis Hamilton says Ferrari facing 'very challenging times'",
+          "url": "https://www.bbc.com/sport/formula1/articles/c6j9mw2dkzrxo",
+          "publisher": "BBC"
+        },
+        {
+          "title": "Fiery Hamilton-Leclerc lineup casts doubt on Ferrari functioning in a title fight",
+          "url": "https://www.theguardian.com/sport/2026/nov/27/ferrari-lewis-hamilton-charles-leclerc-qatar-grand-prix-f1",
+          "publisher": "The Guardian"
+        },
+        {
+          "title": "Charles Leclerc urges Ferrari to find 'solution' after clash with Lewis Hamilton",
+          "url": "https://www.espn.in/f1/story/_/id/50603941/charles-leclerc-lewis-hamilton-ferrari-qatar-grand-prix-formula-1",
+          "publisher": "ESPN India"
+        }
+      ],
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/4ab7/live/09442e30-e9bd-11f1-8d2a-f5d2aabc11cb.jpg",
+      "image_search_title": "",
+      "image_lookup_attempted_at": "2026-11-28T19:54:47.866876+00:00",
+      "image_lookup_version": 2,
+      "image_path": "assets/news-images/fab00aec90f32266d9be.jpg"
     }
   ]
 }
